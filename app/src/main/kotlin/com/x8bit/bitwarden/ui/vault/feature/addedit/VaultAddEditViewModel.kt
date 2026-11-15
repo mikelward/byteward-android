@@ -200,7 +200,7 @@ class VaultAddEditViewModel @AssistedInject constructor(
                 cipherType = vaultCipherType,
                 viewState = when (vaultAddEditType) {
                     is VaultAddEditType.AddItem -> {
-                        autofillSelectionData
+                        val content = autofillSelectionData
                             ?.toDefaultAddTypeContent(isIndividualVaultDisabled)
                             ?: autofillSaveItem?.toDefaultAddTypeContent(isIndividualVaultDisabled)
                             ?: providerCreateCredentialRequest?.toDefaultAddTypeContent(
@@ -218,6 +218,15 @@ class VaultAddEditViewModel @AssistedInject constructor(
                                     initialData = vaultAddEditType.initialData,
                                 ),
                             )
+                        // Logins being saved from autofill or a credential request bring their
+                        // own username; any other new login gets the user's default username.
+                        if (autofillSaveItem != null || providerCreateCredentialRequest != null) {
+                            content
+                        } else {
+                            content.withDefaultLoginUsername(
+                                defaultLoginUsername = settingsRepository.defaultLoginUsername,
+                            )
+                        }
                     }
 
                     is VaultAddEditType.EditItem -> VaultAddEditState.ViewState.Loading
@@ -2731,6 +2740,17 @@ class VaultAddEditViewModel @AssistedInject constructor(
 }
 
 @Suppress("MagicNumber")
+/**
+ * Fills in [defaultLoginUsername] as the username of a new login that doesn't have one yet.
+ */
+private fun VaultAddEditState.ViewState.Content.withDefaultLoginUsername(
+    defaultLoginUsername: String?,
+): VaultAddEditState.ViewState.Content {
+    val login = type as? VaultAddEditState.ViewState.Content.ItemType.Login ?: return this
+    if (defaultLoginUsername.isNullOrBlank() || login.username.isNotEmpty()) return this
+    return copy(type = login.copy(username = defaultLoginUsername))
+}
+
 private fun String.toExpirationMonth(): VaultCardExpirationMonth =
     when (this.toIntOrNull()) {
         1 -> VaultCardExpirationMonth.JANUARY

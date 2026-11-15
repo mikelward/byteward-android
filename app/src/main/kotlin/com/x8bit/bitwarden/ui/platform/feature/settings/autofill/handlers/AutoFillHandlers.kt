@@ -26,6 +26,7 @@ class AutoFillHandlers(
     val onCopyTotpAutomaticallyClick: (isEnabled: Boolean) -> Unit,
     val onAskToAddLoginClick: (isEnabled: Boolean) -> Unit,
     val onDefaultUriMatchTypeSelect: (defaultUriMatchType: UriMatchType) -> Unit,
+    val onDefaultLoginUsernameChange: (username: String) -> Unit,
     val onBlockAutoFillClick: () -> Unit,
     val onFillAssistToggleClick: (isEnabled: Boolean) -> Unit,
     val onFillAssistInfoClick: () -> Unit,
@@ -82,6 +83,9 @@ class AutoFillHandlers(
             },
             onDefaultUriMatchTypeSelect = {
                 viewModel.trySendAction(AutoFillAction.DefaultUriMatchTypeSelect(it))
+            },
+            onDefaultLoginUsernameChange = {
+                viewModel.trySendAction(AutoFillAction.DefaultLoginUsernameChange(it))
             },
             onBlockAutoFillClick = { viewModel.trySendAction(AutoFillAction.BlockAutoFillClick) },
             onFillAssistToggleClick = {

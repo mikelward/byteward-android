@@ -148,6 +148,7 @@ class VaultAddEditViewModelTest : BaseViewModelTest() {
         every { initialAutofillDialogShown } returns true
         every { isUnlockWithPinEnabled } returns false
         every { defaultUriMatchType } returns UriMatchTypeModel.EXACT
+        every { defaultLoginUsername } returns null
     }
     private val mutableUserStateFlow = MutableStateFlow<UserState?>(createUserState())
     private val authRepository: AuthRepository = mockk {
@@ -261,6 +262,37 @@ class VaultAddEditViewModelTest : BaseViewModelTest() {
             UUID::randomUUID,
         )
         unmockkObject(ProviderCreateCredentialRequest.Companion)
+    }
+
+    @Test
+    fun `initial state should prefill the default username for a new login`() = runTest {
+        every { settingsRepository.defaultLoginUsername } returns "me@example.com"
+        val viewModel = createAddVaultItemViewModel(
+            savedStateHandle = createSavedStateHandleWithState(state = null),
+            route = VaultUnlockedGraph.VaultAddEditRoute(
+                vaultAddEditType = VaultAddEditType.AddItem(),
+                vaultItemCipherType = VaultItemCipherType.LOGIN,
+            ),
+        )
+        val type = (viewModel.stateFlow.value.viewState as VaultAddEditState.ViewState.Content).type
+        assertEquals(
+            VaultAddEditState.ViewState.Content.ItemType.Login(username = "me@example.com"),
+            type,
+        )
+    }
+
+    @Test
+    fun `initial state should not prefill the default username for other item types`() = runTest {
+        every { settingsRepository.defaultLoginUsername } returns "me@example.com"
+        val viewModel = createAddVaultItemViewModel(
+            savedStateHandle = createSavedStateHandleWithState(state = null),
+            route = VaultUnlockedGraph.VaultAddEditRoute(
+                vaultAddEditType = VaultAddEditType.AddItem(),
+                vaultItemCipherType = VaultItemCipherType.SECURE_NOTE,
+            ),
+        )
+        val type = (viewModel.stateFlow.value.viewState as VaultAddEditState.ViewState.Content).type
+        assertEquals(VaultAddEditState.ViewState.Content.ItemType.SecureNotes, type)
     }
 
     @Test

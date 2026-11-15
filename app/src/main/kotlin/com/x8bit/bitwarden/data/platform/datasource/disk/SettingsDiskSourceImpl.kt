@@ -28,6 +28,7 @@ private const val VAULT_LAST_SYNC_TIME = "vaultLastSyncTime"
 private const val VAULT_TIMEOUT_ACTION_KEY = "vaultTimeoutAction"
 private const val VAULT_TIME_IN_MINUTES_KEY = "vaultTimeout"
 private const val DEFAULT_URI_MATCH_TYPE_KEY = "defaultUriMatch"
+private const val DEFAULT_LOGIN_USERNAME_KEY = "defaultLoginUsername"
 private const val DISABLE_AUTO_TOTP_COPY_KEY = "disableAutoTotpCopy"
 private const val DISABLE_AUTOFILL_SAVE_PROMPT_KEY = "autofillDisableSavePrompt"
 private const val DISABLE_ICON_LOADING_KEY = "disableFavicon"
@@ -275,6 +276,7 @@ class SettingsDiskSourceImpl(
         storeVaultTimeoutInMinutes(userId = userId, vaultTimeoutInMinutes = null)
         storeVaultTimeoutAction(userId = userId, vaultTimeoutAction = null)
         storeDefaultUriMatchType(userId = userId, uriMatchType = null)
+        storeDefaultLoginUsername(userId = userId, username = null)
         storeAutoCopyTotpDisabled(userId = userId, isAutomaticallyCopyTotpDisabled = null)
         storeAutofillSavePromptDisabled(userId = userId, isAutofillSavePromptDisabled = null)
         storePullToRefreshEnabled(userId = userId, isPullToRefreshEnabled = null)
@@ -583,6 +585,16 @@ class SettingsDiskSourceImpl(
         putInt(
             key = DEFAULT_URI_MATCH_TYPE_KEY.appendIdentifier(userId),
             value = uriMatchType?.value,
+        )
+    }
+
+    override fun getDefaultLoginUsername(userId: String): String? =
+        getString(key = DEFAULT_LOGIN_USERNAME_KEY.appendIdentifier(userId))
+
+    override fun storeDefaultLoginUsername(userId: String, username: String?) {
+        putString(
+            key = DEFAULT_LOGIN_USERNAME_KEY.appendIdentifier(userId),
+            value = username,
         )
     }
 

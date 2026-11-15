@@ -71,6 +71,7 @@ class AutoFillViewModel @Inject constructor(
                     Build.VERSION_CODES.UPSIDE_DOWN_CAKE,
                 ),
                 defaultUriMatchType = settingsRepository.defaultUriMatchType,
+                defaultLoginUsername = settingsRepository.defaultLoginUsername.orEmpty(),
                 showAutofillActionCard = firstTimeState.showSetupAutofillCard,
                 showBrowserAutofillActionCard = firstTimeState.showSetupBrowserAutofillCard,
                 activeUserId = userId,
@@ -138,6 +139,7 @@ class AutoFillViewModel @Inject constructor(
         AutoFillAction.BackClick -> handleBackClick()
         is AutoFillAction.CopyTotpAutomaticallyClick -> handleCopyTotpAutomaticallyClick(action)
         is AutoFillAction.DefaultUriMatchTypeSelect -> handleDefaultUriMatchTypeSelect(action)
+        is AutoFillAction.DefaultLoginUsernameChange -> handleDefaultLoginUsernameChange(action)
         AutoFillAction.BlockAutoFillClick -> handleBlockAutoFillClick()
         AutoFillAction.UseAccessibilityAutofillClick -> handleUseAccessibilityAutofillClick()
         is AutoFillAction.AutofillStyleSelected -> handleAutofillStyleSelected(action)
@@ -315,6 +317,13 @@ class AutoFillViewModel @Inject constructor(
         }
     }
 
+    private fun handleDefaultLoginUsernameChange(
+        action: AutoFillAction.DefaultLoginUsernameChange,
+    ) {
+        settingsRepository.defaultLoginUsername = action.username
+        mutableStateFlow.update { it.copy(defaultLoginUsername = action.username) }
+    }
+
     private fun handleAccessibilityEnabledUpdateReceive(
         action: AutoFillAction.Internal.AccessibilityEnabledUpdateReceive,
     ) {
@@ -358,6 +367,7 @@ data class AutoFillState(
     val showInlineAutofillOption: Boolean,
     val showPasskeyManagementRow: Boolean,
     val defaultUriMatchType: UriMatchType,
+    val defaultLoginUsername: String,
     val showAutofillActionCard: Boolean,
     val showBrowserAutofillActionCard: Boolean,
     val activeUserId: String,
@@ -533,6 +543,13 @@ sealed class AutoFillAction {
      */
     data class DefaultUriMatchTypeSelect(
         val defaultUriMatchType: UriMatchType,
+    ) : AutoFillAction()
+
+    /**
+     * User changed the username to prefill on new logins.
+     */
+    data class DefaultLoginUsernameChange(
+        val username: String,
     ) : AutoFillAction()
 
     /**

@@ -374,6 +374,16 @@ interface SettingsDiskSource : FlightRecorderDiskSource {
     fun storeDefaultUriMatchType(userId: String, uriMatchType: UriMatchType?)
 
     /**
+     * Gets the username to prefill when creating a new login for the given [userId].
+     */
+    fun getDefaultLoginUsername(userId: String): String?
+
+    /**
+     * Stores the username to prefill when creating a new login for the given [userId].
+     */
+    fun storeDefaultLoginUsername(userId: String, username: String?)
+
+    /**
      * Gets the value for whether the autofill save prompt should be disabled for the
      * given [userId].
      */
