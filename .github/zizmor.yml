@@ -1,5 +1,39 @@
+# Policy for zizmor; .github/workflows/zizmor.yml runs it.
+#
+# Starts from upstream Bitwarden's policy (the bitwarden/gh-actions entry,
+# kept so that upstream workflows merged into this fork scan the same way
+# they do upstream) and adds the same exceptions as the rest of the fleet.
 rules:
   unpinned-uses:
     config:
       policies:
+        # Upstream's own shared actions, which its workflows pin by ref.
         bitwarden/gh-actions/*: ref-pin
+        # `@main` IS the release for these sibling actions and workflows; see
+        # mikelward/androidzoom's .github/zizmor.yml for the reasoning. Named
+        # one by one rather than `mikelward/*`, so each exemption is a
+        # decision somebody made.
+        "mikelward/lanes": ref-pin
+        "mikelward/codex-review": ref-pin
+        "mikelward/codex-review/.github/workflows/check-consumer.yml": ref-pin
+        # Official actions may pin to a tag, as the fleet's workflows do.
+        "actions/*": ref-pin
+        # Everything else must pin to a hash.
+        "*": hash-pin
+  dangerous-triggers:
+    # Both triggers are load-bearing and reasoned through in
+    # mikelward/codex-review's docs/CONSUMER.md.
+    ignore:
+      # The sweep: never checks out or executes pull request code at all.
+      - codex-review.yml
+      # The consumer-side check: takes its job definition from the default
+      # branch, and only reads the pull request's head as text.
+      - codex-review-check.yml
+  self-repository:
+    # The upstream setup action is referenced as `./.github/actions/...`, the
+    # spelling upstream's own test.yml uses; ci.yml and release.yml match it so
+    # the three stay alike across upstream merges.
+    ignore:
+      - test.yml
+      - ci.yml
+      - release.yml
