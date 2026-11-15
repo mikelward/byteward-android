@@ -75,9 +75,9 @@
     <string name="yes">Igen</string>
     <string name="account">Fiók</string>
     <string name="account_created_success">Az új fiók létrrejött.</string>
-    <string name="set_bitwarden_as_passkey_manager_description">A Bitwarden beállítása jelszó szolgáltatóként az eszközbeállításokban.</string>
+    <string name="set_bitwarden_as_passkey_manager_description">A Byteward beállítása jelszó szolgáltatóként az eszközbeállításokban.</string>
     <string name="avoid_ambiguous_characters">Félreérthető karakterek mellőzése</string>
-    <string name="bitwarden_autofill_service">Bitwarden automatikus kitöltő szolgáltatás</string>
+    <string name="bitwarden_autofill_service">Byteward automatikus kitöltő szolgáltatás</string>
     <string name="change_master_password">Mesterjelszó megváltoztatása</string>
     <string name="close">Bezár</string>
     <string name="close_app">Alkalmazás bezárása</string>
@@ -176,7 +176,7 @@
     <string name="no_items_for_vault">Nincs elem a széfben \"%1$s\" egyezéssel.</string>
     <string name="search_for_a_login_or_add_a_new_login">Keressünk egy bejelentkezést vagy adjunk hozzá új bejelentkezést.</string>
     <string name="disabled">Letiltva</string>
-    <string name="bitwarden_autofill_service_alert2">A legeszerűbben a Bitwarden Automata-kitöltő Szolgáltatással tud belépést hozzáadni széfjéhez. A Beállításokben többet tudhat meg a Bitwarden Automat-kitöltő szolgáltatásról.</string>
+    <string name="bitwarden_autofill_service_alert2">A legeszerűbben a Byteward Automata-kitöltő Szolgáltatással tud belépést hozzáadni széfjéhez. A Beállításokben többet tudhat meg a Byteward Automat-kitöltő szolgáltatásról.</string>
     <string name="autofill_noun">Automata-kitöltő</string>
     <string name="autofill_verb">Automata-kitöltő</string>
     <string name="autofill_or_view">Automatikusan kitöltésre vagy megtekintésre kerüljön ez az elem?</string>
@@ -297,7 +297,7 @@
     <string name="no_items_folder">Nincsenek elemek ebben a mappában.</string>
     <string name="no_items_trash">Nincs elem a lomtárban.</string>
     <string name="autofill_accessibility_summary">Segítségnyújtás a felhasználónév és jelszó mezők kitöltésében más alkalmazásokban és a weben.</string>
-    <string name="autofill_service_description">A Bitwarden automatikus kitöltési szolgáltatása az Android automatikus kitöltő keretrendszerét használja a bejelentkezési adatok, hitelkártyaadatok és azonosítóadatok kitöltésére az eszközén telepített más alkalmazásokban.</string>
+    <string name="autofill_service_description">A Byteward automatikus kitöltési szolgáltatása az Android automatikus kitöltő keretrendszerét használja a bejelentkezési adatok, hitelkártyaadatok és azonosítóadatok kitöltésére az eszközén telepített más alkalmazásokban.</string>
     <string name="bitwarden_autofill_go_to_settings">Nem sikerült automatikusan megnyitni az Android automatikus kitöltés beállításai menüt. A beállítás megnyitásához nyitssuk meg a Beállítások &gt; Rendszer &gt; Nyelv és bevitel &gt; Speciális &gt; Automatikus kitöltés menüpontot.</string>
     <string name="custom_field_name">Egyedi mezőnév</string>
     <string name="field_type_boolean">Logikai</string>
@@ -372,7 +372,7 @@
     <string name="pin">Pinkód</string>
     <string name="unlock">Feloldás</string>
     <string name="thirty_minutes">30 perc</string>
-    <string name="set_pin_description">A pinkód beállítása a Bitwarden feloldásához. A pinkód beállítás alaphelyzetbe kerül, ha teljesen kijelentkezünk az alkalmazásból.</string>
+    <string name="set_pin_description">A pinkód beállítása a Byteward feloldásához. A pinkód beállítás alaphelyzetbe kerül, ha teljesen kijelentkezünk az alkalmazásból.</string>
     <string name="logged_in_as_on">Bejelentkezve mint %1$s :: %2$s.</string>
     <string name="vault_locked_master_password">A széf zárolva van. A folytatáshoz adjuk meg a mesterjelszót.</string>
     <string name="vault_locked_pin">A széf zárolva van. A folytatáshoz adjuk meg a pinkódot.</string>
@@ -386,7 +386,7 @@
     <string name="clear_clipboard">Vágólap ürítése</string>
     <string name="clear_clipboard_description">Automatikusan törli a vágólapra másolt értékeket.</string>
     <string name="default_uri_match_detection">URI-egyezések alapértelmezett felismerése</string>
-    <string name="default_uri_match_detection_description">URI match detection controls how Bitwarden identifies autofill suggestions.</string>
+    <string name="default_uri_match_detection_description">URI match detection controls how Byteward identifies autofill suggestions.</string>
     <string name="theme">Téma</string>
     <string name="theme_description">Change the application’s color theme</string>
     <string name="copy_notes">Jegyzet másolása</string>
@@ -422,7 +422,7 @@
     <string name="password_generator_policy_in_effect">Egy vagy több szervezet szabályai érintik a generátor beállításokat.</string>
     <string name="unable_to_save_attachment">Hiba lépett fel a melléklet mentése közben. Ha a hiba továbbra is fennáll, próbáljuk meg menteni a webes felületen.</string>
     <string name="save_attachment_success">A melléklet sikeresen mentésre került.</string>
-    <string name="autofill_tile_accessibility_required">Please turn on “Autofill Accessibility Service” from Bitwarden Settings to use the Autofill tile.</string>
+    <string name="autofill_tile_accessibility_required">Please turn on “Autofill Accessibility Service” from Byteward Settings to use the Autofill tile.</string>
     <string name="autofill_tile_uri_not_found">Nincs érzékelt jelszó mező.</string>
     <string name="soft_deleting">A lomtárba küldés folyamatban van…</string>
     <string name="item_soft_deleted">Az elem a lomtárba került.</string>
@@ -637,9 +637,9 @@ TOTP hozzáadása a kulcs biztonságos tárolásához lehetőséget.</string>
     <string name="catch_all_email_description">Use your domain’s configured catch-all inbox.</string>
     <string name="forwarded_email_description">Email álnév generálása külső továbbító szolgáltatással.</string>
     <string name="accessibility_service_disclosure">Kisegítő lehetőségek szolgáltatás publikálása</string>
-    <string name="accessibility_disclosure_text">A Bitwarden az akadálymentesítési szolgáltatást használja a bejelentkezési mezők megkeresésére az alkalmazásokban és webhelyeken, majd létrehozza a megfelelő mezőazonosítókat a felhasználónév és jelszó megadásához, ha talál egyezést az alkalmazáshoz vagy webhelyhez. A szolgáltatás által rendelkezésünkre bocsátott információk nem kerülnek tárolásra és nincs kísérlet a képernyőn megjelenő elemek vezérlésére a hitelesítő adatok szöveges bevitelén túl.</string>
-    <string name="accessibility_disclosure_start_up_text_1">Ez az értesítés szükséges ahhoz, hogy a Bitwarden akadálymentesítésen alapuló automatikus kitöltést kínálhasson.</string>
-    <string name="accessibility_disclosure_start_up_text_2">A Bitwarden opcionális automatikus kitöltési módszert kínál, amely az Android Kisegítő lehetőségek szolgáltatását használja a bejelentkezési mezők észlelésére. Ha engedélyezzük, a Bitwarden azonosítja a megfelelő mezőket és kitölti a hitelesítő adatokat, ha talál egyezést.</string>
+    <string name="accessibility_disclosure_text">A Byteward az akadálymentesítési szolgáltatást használja a bejelentkezési mezők megkeresésére az alkalmazásokban és webhelyeken, majd létrehozza a megfelelő mezőazonosítókat a felhasználónév és jelszó megadásához, ha talál egyezést az alkalmazáshoz vagy webhelyhez. A szolgáltatás által rendelkezésünkre bocsátott információk nem kerülnek tárolásra és nincs kísérlet a képernyőn megjelenő elemek vezérlésére a hitelesítő adatok szöveges bevitelén túl.</string>
+    <string name="accessibility_disclosure_start_up_text_1">Ez az értesítés szükséges ahhoz, hogy a Byteward akadálymentesítésen alapuló automatikus kitöltést kínálhasson.</string>
+    <string name="accessibility_disclosure_start_up_text_2">A Byteward opcionális automatikus kitöltési módszert kínál, amely az Android Kisegítő lehetőségek szolgáltatását használja a bejelentkezési mezők észlelésére. Ha engedélyezzük, a Byteward azonosítja a megfelelő mezőket és kitölti a hitelesítő adatokat, ha talál egyezést.</string>
     <string name="accessibility_disclosure_start_up_text_3">Az akadálymentesítési szolgáltatás használata közben nem kerül tárolásra semmilyen információ arról, hogy mi van a képernyőn és nincs szabályozva semmilyen képernyőn megjelenő elem a hitelesítő adatokon kívül.</string>
     <string name="i_understand">Megértettem</string>
     <string name="accept">Elfogadás</string>
@@ -719,7 +719,7 @@ Do you want to switch to this account?</string>
     <string name="session_timeout">Munkamenet időkifutás</string>
     <string name="session_timeout_action">Munkamenet időkifutási művelet</string>
     <string name="account_fingerprint_phrase">Fiók ujjnyomat kifejezés</string>
-    <string name="passkey_management_explanation_long">A Bitwarden használata az új belépőkulcsok mentéséhez és bejelentkezés a széfben tárolt belépőkulcskkal.</string>
+    <string name="passkey_management_explanation_long">A Byteward használata az új belépőkulcsok mentéséhez és bejelentkezés a széfben tárolt belépőkulcskkal.</string>
     <string name="autofill_services_explanation_long">Az Android automatikus kitöltési keretrendszere segít a bejelentkezési adatok kitöltésében az eszközön lévő más alkalmazásokba.</string>
     <string name="use_inline_autofill_explanation_long">Használjuk a sorközi automatikus kitöltést, ha a kiválasztott billentyűzet azt támogatja. Ellenkező esetben használjuk az alapértelmezett átfedést.</string>
     <string name="additional_options">Kiegészítő opciók</string>
@@ -743,8 +743,8 @@ Do you want to switch to this account?</string>
     <string name="duo_two_step_login_is_required_for_your_account">DUO kétlépéses bejelentkezés szükséges a fiókhoz.</string>
     <string name="follow_the_steps_from_duo_to_finish_logging_in">Kövessük a Duo lépéseit a bejelentkezés befejezéséhez.</string>
     <string name="launch_duo">Duo indítása</string>
-    <string name="your_passkey_will_be_saved_to_your_bitwarden_vault_for_x">A belépőkulcs mentésre kerül a Bitwarden széfbe: %1$s</string>
-    <string name="your_password_will_be_saved_to_your_bitwarden_vault_for_x">A jelszó mentésre kerül a Bitwarden széfbe: %1$s</string>
+    <string name="your_passkey_will_be_saved_to_your_bitwarden_vault_for_x">A belépőkulcs mentésre kerül a Byteward széfbe: %1$s</string>
+    <string name="your_password_will_be_saved_to_your_bitwarden_vault_for_x">A jelszó mentésre kerül a Byteward széfbe: %1$s</string>
     <string name="passkeys_not_supported_for_this_app">Ennél az alkalmazásnál a belépőkulcsok nem támogatottak.</string>
     <string name="passkey_operation_failed_because_browser_is_not_privileged">A belépőkulcs művelet nem sikerült, mert a böngésző nem privilegizált.</string>
     <string name="passkey_operation_failed_because_browser_signature_does_not_match">A belépőkulcs művelet nem sikerült, mert a böngésző aláírás nem egyezik.</string>
@@ -772,7 +772,7 @@ Do you want to switch to this account?</string>
     <string name="email_verified">Az email cím ellenőrzésre került.</string>
     <string name="get_emails_from_bitwarden_for_announcements_advices_and_research_opportunities_unsubscribe_any_time">Emaileket kaphatunk a Bitwardentől bejelentésekről, tanácsokról és kutatási lehetőségekről. Bármikor leiratkozhatunk.</string>
     <string name="security_prioritized">Biztonság, prioritásos</string>
-    <string name="welcome_message_1">Mentsük el a bejelentkezési adatokat, kártyákat és azonosításokat a biztonságos széfbe. A Bitwarden tudás nélküli, végpontok közötti titkosítást használ a felhasználók számára fontos dolgok védelmére.</string>
+    <string name="welcome_message_1">Mentsük el a bejelentkezési adatokat, kártyákat és azonosításokat a biztonságos széfbe. A Byteward tudás nélküli, végpontok közötti titkosítást használ a felhasználók számára fontos dolgok védelmére.</string>
     <string name="welcome_message_2">Állítsuk be a biometrikus feloldást és az automatikus kitöltést, hogy egyetlen betű beírása nélkül jelentkezzünk be a fiókokba.</string>
     <string name="quick_and_easy_login">Gyors és könnyű bejelentkezés</string>
     <string name="level_up_your_logins">A bejelentkezések magasabb szintre emelése</string>
@@ -825,16 +825,16 @@ Do you want to switch to this account?</string>
     <string name="turn_on_autofill">Automat kitöltés bekapcsolása</string>
     <string name="autofill_setup">Automatikus kitöltés beüzemelés</string>
     <string name="turn_on_browser_autofill_integration">A böngésző automatikus kitöltési integrációjának bekapcsolása</string>
-    <string name="browser_requires_special_permissions_for_bitwarden_singular">Olyan böngészőt használunk, amely speciális engedélyeket igényel a Bitwarden számára a jelszavak automatikus kitöltéséhez.</string>
-    <string name="browser_requires_special_permissions_for_bitwarden_plural">Olyan böngészőket használunk, amely speciális engedélyeket igényelnek a Bitwarden számára a jelszavak automatikus kitöltéséhez.</string>
-    <string name="youre_using_a_browser_that_requires_special_permissions_singular">Olyan böngészőt használunk, amely speciális engedélyeket igényel a Bitwarden számára a jelszavak automatikus kitöltéséhez. Engedélyezzük a preferált automatikus kitöltési integrációt lentebb.</string>
-    <string name="youre_using_a_browser_that_requires_special_permissions_plural">Olyan böngészőket használunk, amelyek speciális engedélyeket igényelnek a Bitwarden számára a jelszavak automatikus kitöltéséhez. Engedélyezzük az automatikus kitöltést az összes telepített böngészőhöz a folytatásához.</string>
+    <string name="browser_requires_special_permissions_for_bitwarden_singular">Olyan böngészőt használunk, amely speciális engedélyeket igényel a Byteward számára a jelszavak automatikus kitöltéséhez.</string>
+    <string name="browser_requires_special_permissions_for_bitwarden_plural">Olyan böngészőket használunk, amely speciális engedélyeket igényelnek a Byteward számára a jelszavak automatikus kitöltéséhez.</string>
+    <string name="youre_using_a_browser_that_requires_special_permissions_singular">Olyan böngészőt használunk, amely speciális engedélyeket igényel a Byteward számára a jelszavak automatikus kitöltéséhez. Engedélyezzük a preferált automatikus kitöltési integrációt lentebb.</string>
+    <string name="youre_using_a_browser_that_requires_special_permissions_plural">Olyan böngészőket használunk, amelyek speciális engedélyeket igényelnek a Byteward számára a jelszavak automatikus kitöltéséhez. Engedélyezzük az automatikus kitöltést az összes telepített böngészőhöz a folytatásához.</string>
     <string name="use_autofill_to_log_into_your_accounts">Lépjen be a fiókjába egy koppintással az automatikus kitöltés segítségével.</string>
     <string name="turn_on_later">Bekapcsolás később</string>
     <string name="turn_on_autofill_later">Automatikus kitöltés betöltése később?</string>
     <string name="turn_on_browser_autofill_integration_later">A böngésző automatikus kitöltési integrációjának bekapcsolása?</string>
     <string name="return_to_complete_this_step_anytime_in_settings">Bármikor be tudja fejezni ezt a lépést a Beállításokban.</string>
-    <string name="what_bitwarden_has_to_offer">Mostantól az automatikus kitöltéssel bejelentkezhetünk az alkalmazásokba és webhelyekre a mentett jelszavakkal. Most mindent felfedezhetünk, amit a Bitwarden kínál.</string>
+    <string name="what_bitwarden_has_to_offer">Mostantól az automatikus kitöltéssel bejelentkezhetünk az alkalmazásokba és webhelyekre a mentett jelszavakkal. Most mindent felfedezhetünk, amit a Byteward kínál.</string>
     <string name="youre_all_set">Készen is vagyunk!</string>
     <string name="error_connecting_with_the_duo_service_use_a_different_two_step_login_method_or_contact_duo_for_assistance">Hiba történt a Duo szolgáltatáshoz csatlakozáskor. Használjunk másik kétlépcsős bejelentkezési módot vagy kérjünk segítséget a Duotól.</string>
     <string name="master_password_hint_not_specified">Mesterjelszó emlékeztető</string>
@@ -966,7 +966,7 @@ Do you want to switch to this account?</string>
     <string name="unsupported_certificate_type">Nem-támogatott tanúsítvány típus</string>
     <string name="certificate_password_incorrect">A tanúsítvány jelszó helytelen.</string>
     <string name="invalid_certificate_chain">A tanúsítvány lánc érvénytelen.</string>
-    <string name="system_certificates_are_not_as_secure_as_importing_certificates_to_bitwarden">A rendszer tanúsítvány használata kevésbé biztonságos, mint a tanúsítvány Bitwardennél történő tárolása. A folytatás megjeleníti az elérhető rendszer tanúsítványok listáját, ha már telepítve van.</string>
+    <string name="system_certificates_are_not_as_secure_as_importing_certificates_to_bitwarden">A rendszer tanúsítvány használata kevésbé biztonságos, mint a tanúsítvány Bytewardnél történő tárolása. A folytatás megjeleníti az elérhető rendszer tanúsítványok listáját, ha már telepítve van.</string>
     <string name="link">Hivatkozás</string>
     <string name="passkey_operation_failed_because_host_url_is_not_present_in_request">A belépőkulcs művelet meghiúsult, mert a kiszolgáló webcíme nem szerepel a kérésben.</string>
     <string name="passkey_operation_failed_because_app_signature_is_invalid">A belépőkulcs művelet meghiúsult, mert az alkalmazás aláírás érvénytelen.</string>
@@ -1047,7 +1047,7 @@ Do you want to switch to this account?</string>
     <string name="passkey_operation_failed_because_browser_x_is_not_trusted">Passkey operation failed because browser (%1$s) is not recognized. Select “Trust” to add %1$s to the list of locally trusted applications.</string>
     <string name="passkey_operation_failed_because_the_browser_is_not_trusted">A Belépőkulcs művelet nem sikerült, mert a böngésző nem megbítható.</string>
     <string name="trust">Megbízható</string>
-    <string name="trusted_by_you_learn_more">Ezek olyan alkalmazások vagy böngészők, amelyekben a Bitwarden alapértelmezés szerint nem bízik, de a felhasználó bízik a hozzáférési kulcs műveletek végrehajtásában.</string>
+    <string name="trusted_by_you_learn_more">Ezek olyan alkalmazások vagy böngészők, amelyekben a Byteward alapértelmezés szerint nem bízik, de a felhasználó bízik a hozzáférési kulcs műveletek végrehajtásában.</string>
     <string name="trusted_by_community_learn_more">Ezek olyan alkalmazások, amelyek nem szerepelnek a Google Play Áruházban, de a Bitwarden bízik abban, hogy a közösség tagjai használata után hozzáférési kulcs műveleteket hajt végre és biztonságosnak jelenti azokat.</string>
     <string name="trusted_by_google_learn_more">These are applications Google considers safe and are available in Google’s Play Store.</string>
     <string name="trusted_by_you">Megbízhatónak tartom</string>
@@ -1189,7 +1189,7 @@ Do you want to switch to this account?</string>
         <item quantity="other">%1$d elem lett importálva a széfbe.</item>
     </plurals>
     <string name="enable_browser_autofill_to_keep_filling_passwords">Engedélyezzük a böngészőben az automatikus kitöltést a jelszavak folyamatos kitöltéséhez.</string>
-    <string name="your_browser_recently_updated_how_autofill_works_singular">A böngésző nemrégiben frissült, amely letiltotta a Bitwarden automatikus kitöltés funkciót. A jelszavak kitöltéséhez a Bitwarden segítségével engedélyezzük a böngésző automatikus kiltöltés funkciót az automatikus kitöltés beállításaiban.</string>
+    <string name="your_browser_recently_updated_how_autofill_works_singular">A böngésző nemrégiben frissült, amely letiltotta a Byteward automatikus kitöltés funkciót. A jelszavak kitöltéséhez a Byteward segítségével engedélyezzük a böngésző automatikus kiltöltés funkciót az automatikus kitöltés beállításaiban.</string>
     <string name="not_now">Most nem</string>
     <string name="import_from_bitwarden">Importálás a Bitwardenből</string>
     <string name="select_account">Fiók kiválasztása</string>
@@ -1289,7 +1289,7 @@ Do you want to switch to this account?</string>
     <string name="trusted">Megbízható</string>
     <string name="preview_not_available_for_files">Az előnézet nem érhető el %1$s fájlokhoz. Továbbra is letölthetjük, hogy megtekinthessük az eszközön.</string>
     <string name="this_file_is_too_large_to_preview">Ez a fájl túl nagy az előnézethez. Továbbra is letölthetjük, hogy megtekinthessük az eszközön.</string>
-    <string name="bitwarden_could_not_decrypt_this_file_so_the_preview_cannot_be_displayed">A Bitwarden nem tudta visszafejteni ezt a fájlt, így az előnézet nem jeleníthető meg.</string>
+    <string name="bitwarden_could_not_decrypt_this_file_so_the_preview_cannot_be_displayed">A Byteward nem tudta visszafejteni ezt a fájlt, így az előnézet nem jeleníthető meg.</string>
     <string name="preview_unavailable_for_this_file">Az előnézet nem érhető el ehhez a fájlhoz. Továbbra is letölthetjük, hogy megtekinthessük az eszközön.</string>
     <string name="preview_unavailable">Az előnézet nem érhető el.</string>
     <string name="download_attachment">Melléklet letöltése</string>
@@ -1422,8 +1422,8 @@ Do you want to switch to this account?</string>
     <string name="local_network_access_required">Helyi hálózat elérése szükséges</string>
     <string name="ask_again_later">Rákérdezés újra később</string>
     <string name="enable_local_network_access">Helyi hálózat elérés engedélyezése</string>
-    <string name="bitwarden_needs_local_network_access_to_sync_with_your_server">A Bitwardennek helyi hálózati hozzáférésre van szüksége a szerverrel szinkronizáláshoz. Ezen engedély nélkül az alkalmazás nem tud csatlakozni.</string>
-    <string name="without_this_permission_bitwarden_wont_be_able_to_sync_with_your_server">Ezen engedély nélkül a Bitwarden nem tud csatlakozni és szinkronizálni a szerverrel. Ezt engedélyezhetjük az eszköz beállításoknál.</string>
+    <string name="bitwarden_needs_local_network_access_to_sync_with_your_server">A Bytewardnek helyi hálózati hozzáférésre van szüksége a szerverrel szinkronizáláshoz. Ezen engedély nélkül az alkalmazás nem tud csatlakozni.</string>
+    <string name="without_this_permission_bitwarden_wont_be_able_to_sync_with_your_server">Ezen engedély nélkül a Byteward nem tud csatlakozni és szinkronizálni a szerverrel. Ezt engedélyezhetjük az eszköz beállításoknál.</string>
     <string name="your_request_was_interrupted_because_the_app_needs_local_network_access">A kérés megszakadt, mert az alkalmazásnak helyi hálózati hozzáférésre van szüksége. Ezt az eszköz beállításaiban engedélyezhetjük.</string>
     <string name="continue_to_stripe">Tovább a Stripe-hoz?</string>
     <string name="youll_be_taken_to_stripe_to_manage_your_subscription_cancellation">A Stripe-ba kerülünk át az előfizetés törlésének kezeléséhez.</string>
@@ -1445,7 +1445,7 @@ Do you want to switch to this account?</string>
     <string name="use_this_username">Felhasználónév használata</string>
     <string name="create_login">Bejelentkezés létrehozása</string>
     <string name="keep_unlocking_with_biometrics">Feloldás folytatása biometrikus adatokkal</string>
-    <string name="weve_made_a_security_update">Biztonsági frissítés történt. Erősítsük meg újra a biometrikus adatokat, hogy továbbra is használjuk azokat a Bitwarden feloldásához.</string>
+    <string name="weve_made_a_security_update">Biztonsági frissítés történt. Erősítsük meg újra a biometrikus adatokat, hogy továbbra is használjuk azokat a Byteward feloldásához.</string>
     <string name="turn_off">Kikapcsolás</string>
     <string name="turn_off_biometric_question">Biometria kikapcsolása?</string>
     <string name="unlocking_will_require_your_master_password">A feloldáshoz a mesterjelszóra lesz szükség. A biometrikus adatokat a Beállításokban kapcsolhatjuk vissza.</string>

@@ -75,9 +75,9 @@
     <string name="yes">Ya</string>
     <string name="account">Akun</string>
     <string name="account_created_success">Akun baru Anda telah berhasil dibuat!</string>
-    <string name="set_bitwarden_as_passkey_manager_description">Jadikan Bitwarden sebagai penyedia kunci sandi di setelan perangkat.</string>
+    <string name="set_bitwarden_as_passkey_manager_description">Jadikan Byteward sebagai penyedia kunci sandi di setelan perangkat.</string>
     <string name="avoid_ambiguous_characters">Hindari karakter ambigu</string>
-    <string name="bitwarden_autofill_service">Layanan Pengisian Otomatis Bitwarden</string>
+    <string name="bitwarden_autofill_service">Layanan Pengisian Otomatis Byteward</string>
     <string name="change_master_password">Ubah sandi utama</string>
     <string name="close">Tutup</string>
     <string name="close_app">Tutup aplikasi</string>
@@ -175,7 +175,7 @@
     <string name="no_items_for_vault">Tidak ada item di brankas Anda yang cocok dengan “%1$s”</string>
     <string name="search_for_a_login_or_add_a_new_login">Cari login atau tambahkan login baru</string>
     <string name="disabled">Dinonaktifkan</string>
-    <string name="bitwarden_autofill_service_alert2">Cara termudah menambahkan login baru ke brankas adalah melalui Layanan Isi Otomatis Bitwarden. Pelajari lebih lanjut cara penggunaan Layanan Isi Otomatis Bitwarden di menu \"Pengaturan\".</string>
+    <string name="bitwarden_autofill_service_alert2">Cara termudah menambahkan login baru ke brankas adalah melalui Layanan Isi Otomatis Byteward. Pelajari lebih lanjut cara penggunaan Layanan Isi Otomatis Byteward di menu \"Pengaturan\".</string>
     <string name="autofill_noun">Isi otomatis</string>
     <string name="autofill_verb">Isi otomatis</string>
     <string name="autofill_or_view">Apakah Anda ingin mengisi otomatis atau melihat info masuk ini?</string>
@@ -297,7 +297,7 @@ Proses pindai akan terjadi secara otomatis.</string>
     <string name="no_items_folder">Tidak ada item di folder ini.</string>
     <string name="no_items_trash">Tidak ada item di sampah.</string>
     <string name="autofill_accessibility_summary">Bantu mengisi kolom nama pengguna dan sandi di aplikasi lain serta di web.</string>
-    <string name="autofill_service_description">Layanan isi otomatis Bitwarden menggunakan Android Autofill Framework untuk membantu mengisi informasi login ke apl lain di perangkat Anda.</string>
+    <string name="autofill_service_description">Layanan isi otomatis Byteward menggunakan Android Autofill Framework untuk membantu mengisi informasi login ke apl lain di perangkat Anda.</string>
     <string name="bitwarden_autofill_go_to_settings">Kami tidak dapat secara otomatis membuka menu pengaturan Android isi otomatis untuk Anda. Anda dapat membuka menu pengaturan isi otomatis secara manual dari Pengaturan Android &gt; Sistem &gt; Bahasa dan masukan &gt; Lanjutan &gt; Layanan isi otomatis.</string>
     <string name="custom_field_name">Nama kolom ubahsuai</string>
     <string name="field_type_boolean">Boolean</string>
@@ -371,7 +371,7 @@ Proses pindai akan terjadi secara otomatis.</string>
     <string name="pin">PIN</string>
     <string name="unlock">Membuka kunci</string>
     <string name="thirty_minutes">30 menit</string>
-    <string name="set_pin_description">PIN Anda harus terdiri dari minimal 4 karakter. Pengaturan PIN akan diatur ulang jika Anda keluar secara manual dari apl Bitwarden.</string>
+    <string name="set_pin_description">PIN Anda harus terdiri dari minimal 4 karakter. Pengaturan PIN akan diatur ulang jika Anda keluar secara manual dari apl Byteward.</string>
     <string name="logged_in_as_on">Masuk sebagai %1$s pada %2$s.</string>
     <string name="vault_locked_master_password">Brankas Anda terkunci. Verifikasi sandi utama Anda untuk melanjutkan.</string>
     <string name="vault_locked_pin">Brankas Anda terkunci. Verifikasi kode PIN Anda untuk melanjutkan.</string>
@@ -385,7 +385,7 @@ Proses pindai akan terjadi secara otomatis.</string>
     <string name="clear_clipboard">Hapus papan klip</string>
     <string name="clear_clipboard_description">Secara otomatis menghapus salinan dari papan klip Anda.</string>
     <string name="default_uri_match_detection">Deteksi Kecocokan URI Default</string>
-    <string name="default_uri_match_detection_description">Deteksi kecocokan URI mengatur cara Bitwarden mengenali saran isi otomatis.</string>
+    <string name="default_uri_match_detection_description">Deteksi kecocokan URI mengatur cara Byteward mengenali saran isi otomatis.</string>
     <string name="theme">Tema</string>
     <string name="theme_description">Ubah tema warna aplikasi</string>
     <string name="copy_notes">Salin catatan</string>
@@ -421,7 +421,7 @@ Proses pindai akan terjadi secara otomatis.</string>
     <string name="password_generator_policy_in_effect">Satu atau beberapa kebijakan organisasi memengaruhi pengaturan pembuat sandi Anda</string>
     <string name="unable_to_save_attachment">Terjadi masalah saat menyimpan lampiran ini. Jika masalah terus berlanjut, Anda dapat menyimpannya dari brankas web.</string>
     <string name="save_attachment_success">Lampiran berhasil disimpan</string>
-    <string name="autofill_tile_accessibility_required">Harap aktifkan \"Layanan Aksesibilitas Isi Otomatis\" dari Pengaturan Bitwarden untuk menggunakan pintasan Isi Otomatis.</string>
+    <string name="autofill_tile_accessibility_required">Harap aktifkan \"Layanan Aksesibilitas Isi Otomatis\" dari Pengaturan Byteward untuk menggunakan pintasan Isi Otomatis.</string>
     <string name="autofill_tile_uri_not_found">Tidak ada kolom sandi yang terdeteksi</string>
     <string name="soft_deleting">Mengirim ke sampah…</string>
     <string name="item_soft_deleted">Item telah dikirim ke sampah.</string>
@@ -634,9 +634,9 @@ pilih Tambahkan TOTP untuk menyimpan kunci dengan aman</string>
     <string name="catch_all_email_description">Gunakan kotak masuk catch-all yang dikonfigurasi pada domain Anda.</string>
     <string name="forwarded_email_description">Buat alias email dengan layanan penerusan eksternal.</string>
     <string name="accessibility_service_disclosure">Pernyataan Layanan Aksesibilitas</string>
-    <string name="accessibility_disclosure_text">Bitwarden menggunakan Layanan Aksesibilitas untuk mencari kolom login di apl dan situs web, lalu menetapkan ID kolom yang sesuai untuk memasukkan nama pengguna &amp; sandi ketika apl atau situs cocok ditemukan. Kami tidak menyimpan informasi apa pun yang diberikan layanan pada kami, dan kami tidak berupaya mengontrol elemen layar apa pun selain entri teks kredensial.</string>
-    <string name="accessibility_disclosure_start_up_text_1">Pemberitahuan ini diperlukan sebelum Bitwarden dapat menawarkan pengisian otomatis berbasis aksesibilitas.</string>
-    <string name="accessibility_disclosure_start_up_text_2">Bitwarden menawarkan metode pengisian otomatis opsional yang menggunakan Layanan Aksesibilitas Android untuk mendeteksi kolom masuk. Jika Anda mengaktifkannya, Bitwarden akan mengidentifikasi kolom yang sesuai dan mengisi kredensial Anda ketika kecocokan ditemukan.</string>
+    <string name="accessibility_disclosure_text">Byteward menggunakan Layanan Aksesibilitas untuk mencari kolom login di apl dan situs web, lalu menetapkan ID kolom yang sesuai untuk memasukkan nama pengguna &amp; sandi ketika apl atau situs cocok ditemukan. Kami tidak menyimpan informasi apa pun yang diberikan layanan pada kami, dan kami tidak berupaya mengontrol elemen layar apa pun selain entri teks kredensial.</string>
+    <string name="accessibility_disclosure_start_up_text_1">Pemberitahuan ini diperlukan sebelum Byteward dapat menawarkan pengisian otomatis berbasis aksesibilitas.</string>
+    <string name="accessibility_disclosure_start_up_text_2">Byteward menawarkan metode pengisian otomatis opsional yang menggunakan Layanan Aksesibilitas Android untuk mendeteksi kolom masuk. Jika Anda mengaktifkannya, Byteward akan mengidentifikasi kolom yang sesuai dan mengisi kredensial Anda ketika kecocokan ditemukan.</string>
     <string name="accessibility_disclosure_start_up_text_3">Kami tidak menyimpan informasi apa pun tentang apa yang ada di layar saat Anda menggunakan Layanan Aksesibilitas, dan kami tidak mengontrol elemen layar apa pun di luar entri kredensial.</string>
     <string name="i_understand">Saya mengerti</string>
     <string name="accept">Terima</string>
@@ -714,8 +714,8 @@ pilih Tambahkan TOTP untuk menyimpan kunci dengan aman</string>
     <string name="session_timeout">Waktu habis sesi</string>
     <string name="session_timeout_action">Tindakan saat sesi habis</string>
     <string name="account_fingerprint_phrase">Frasa sidik jari akun</string>
-    <string name="passkey_management_explanation_long">Gunakan Bitwarden untuk menyimpan kunci sandi baru dan masuk dengan kunci sandi tersimpan di brankas Anda.</string>
-    <string name="autofill_services_explanation_long">Memungkinkan Bitwarden menggunakan informasi login tersimpan Anda untuk masuk ke apl lain di perangkat Anda.</string>
+    <string name="passkey_management_explanation_long">Gunakan Byteward untuk menyimpan kunci sandi baru dan masuk dengan kunci sandi tersimpan di brankas Anda.</string>
+    <string name="autofill_services_explanation_long">Memungkinkan Byteward menggunakan informasi login tersimpan Anda untuk masuk ke apl lain di perangkat Anda.</string>
     <string name="use_inline_autofill_explanation_long">Memilih bagaimana saran isi otomatis muncul saat masuk ke aplikasi lain di perangkat Anda.</string>
     <string name="additional_options">Opsi tambahan</string>
     <string name="continue_to_web_app">Lanjut ke aplikasi web?</string>
@@ -738,8 +738,8 @@ pilih Tambahkan TOTP untuk menyimpan kunci dengan aman</string>
     <string name="duo_two_step_login_is_required_for_your_account">Login dua-langkah Duo diperlukan untuk akun Anda.</string>
     <string name="follow_the_steps_from_duo_to_finish_logging_in">Ikuti langkah dari Duo untuk menyelesaikan login.</string>
     <string name="launch_duo">Luncurkan Duo</string>
-    <string name="your_passkey_will_be_saved_to_your_bitwarden_vault_for_x">Kunci sandi Anda akan disimpan ke brankas Bitwarden untuk %1$s</string>
-    <string name="your_password_will_be_saved_to_your_bitwarden_vault_for_x">Sandi Anda akan disimpan ke brankas Bitwarden Anda selama %1$s</string>
+    <string name="your_passkey_will_be_saved_to_your_bitwarden_vault_for_x">Kunci sandi Anda akan disimpan ke brankas Byteward untuk %1$s</string>
+    <string name="your_password_will_be_saved_to_your_bitwarden_vault_for_x">Sandi Anda akan disimpan ke brankas Byteward Anda selama %1$s</string>
     <string name="passkeys_not_supported_for_this_app">Aplikasi ini tidak mendukung kunci sandi</string>
     <string name="passkey_operation_failed_because_browser_is_not_privileged">Gagal menjalankan kunci sandi karena browser bukan apl dengan hak khusus</string>
     <string name="passkey_operation_failed_because_browser_signature_does_not_match">Gagal menjalankan kunci sandi karena signature browser tidak sesuai</string>
@@ -767,7 +767,7 @@ pilih Tambahkan TOTP untuk menyimpan kunci dengan aman</string>
     <string name="email_verified">Email berhasil terverifikasi</string>
     <string name="get_emails_from_bitwarden_for_announcements_advices_and_research_opportunities_unsubscribe_any_time">Dapatkan email dari Bitwarden berisi pengumuman, tips, dan peluang riset. <annotation link="unsubscribe">Berhenti berlangganan</annotation> kapan saja.</string>
     <string name="security_prioritized">Keamanan, jadi prioritas</string>
-    <string name="welcome_message_1">Simpan login, kartu, dan identitas ke brankas aman Anda. Bitwarden menggunakan zero-knowledge, enkripsi end-to-end untuk melindungi data penting Anda.</string>
+    <string name="welcome_message_1">Simpan login, kartu, dan identitas ke brankas aman Anda. Byteward menggunakan zero-knowledge, enkripsi end-to-end untuk melindungi data penting Anda.</string>
     <string name="welcome_message_2">Siapkan buka kunci biometrik dan isi otomatis untuk masuk ke akun tanpa mengetik satu huruf pun.</string>
     <string name="quick_and_easy_login">Login cepat dan mudah</string>
     <string name="level_up_your_logins">Login lebih canggih</string>
@@ -819,16 +819,16 @@ pilih Tambahkan TOTP untuk menyimpan kunci dengan aman</string>
     <string name="turn_on_autofill">Aktifkan isi otomatis</string>
     <string name="autofill_setup">Setel isi otomatis</string>
     <string name="turn_on_browser_autofill_integration">Aktifkan integrasi isi otomatis browser</string>
-    <string name="browser_requires_special_permissions_for_bitwarden_singular">Anda menggunakan browser yang memerlukan izin khusus agar Bitwarden dapat mengisi otomatis sandi Anda.</string>
-    <string name="browser_requires_special_permissions_for_bitwarden_plural">Anda menggunakan browser yang memerlukan izin khusus agar Bitwarden dapat mengisi otomatis sandi Anda.</string>
-    <string name="youre_using_a_browser_that_requires_special_permissions_singular">Anda menggunakan browser yang memerlukan izin khusus agar Bitwarden dapat mengisi otomatis sandi Anda. Aktifkan integrasi isi otomatis pilihan Anda di bawah ini.</string>
-    <string name="youre_using_a_browser_that_requires_special_permissions_plural">Anda menggunakan browser yang memerlukan izin khusus agar Bitwarden dapat mengisi otomatis sandi Anda. Aktifkan isi otomatis pada semua browser yang terpasang untuk melanjutkan.</string>
+    <string name="browser_requires_special_permissions_for_bitwarden_singular">Anda menggunakan browser yang memerlukan izin khusus agar Byteward dapat mengisi otomatis sandi Anda.</string>
+    <string name="browser_requires_special_permissions_for_bitwarden_plural">Anda menggunakan browser yang memerlukan izin khusus agar Byteward dapat mengisi otomatis sandi Anda.</string>
+    <string name="youre_using_a_browser_that_requires_special_permissions_singular">Anda menggunakan browser yang memerlukan izin khusus agar Byteward dapat mengisi otomatis sandi Anda. Aktifkan integrasi isi otomatis pilihan Anda di bawah ini.</string>
+    <string name="youre_using_a_browser_that_requires_special_permissions_plural">Anda menggunakan browser yang memerlukan izin khusus agar Byteward dapat mengisi otomatis sandi Anda. Aktifkan isi otomatis pada semua browser yang terpasang untuk melanjutkan.</string>
     <string name="use_autofill_to_log_into_your_accounts">Gunakan isi otomatis untuk masuk ke akun Anda dengan sekali ketuk.</string>
     <string name="turn_on_later">Aktifkan nanti</string>
     <string name="turn_on_autofill_later">Aktifkan isi otomatis nanti?</string>
     <string name="turn_on_browser_autofill_integration_later">Aktifkan integrasi isi otomatis browser nanti?</string>
     <string name="return_to_complete_this_step_anytime_in_settings">Anda dapat kembali menyelesaikan langkah ini kapan saja di Pengaturan.</string>
-    <string name="what_bitwarden_has_to_offer">Sekarang Anda dapat menjelajahi semua yang ditawarkan Bitwarden dan mulai mengelola sandi Anda dengan aman.</string>
+    <string name="what_bitwarden_has_to_offer">Sekarang Anda dapat menjelajahi semua yang ditawarkan Byteward dan mulai mengelola sandi Anda dengan aman.</string>
     <string name="youre_all_set">Anda sudah siap!</string>
     <string name="error_connecting_with_the_duo_service_use_a_different_two_step_login_method_or_contact_duo_for_assistance">Terjadi kesalahan saat menghubungkan dengan layanan Duo. Gunakan metode login dua langkah lain atau hubungi Duo untuk bantuan.</string>
     <string name="master_password_hint_not_specified">Petunjuk sandi utama</string>
@@ -959,7 +959,7 @@ pilih Tambahkan TOTP untuk menyimpan kunci dengan aman</string>
     <string name="unsupported_certificate_type">Jenis sertifikat tidak didukung</string>
     <string name="certificate_password_incorrect">Sandi sertifikat salah</string>
     <string name="invalid_certificate_chain">Rantai sertifikat tidak valid</string>
-    <string name="system_certificates_are_not_as_secure_as_importing_certificates_to_bitwarden">Menggunakan sertifikat sistem kurang aman dibanding menyimpan sertifikat dengan Bitwarden. Jika dilanjutkan, akan ditampilkan daftar sertifikat sistem yang tersedia bila sudah terpasang.</string>
+    <string name="system_certificates_are_not_as_secure_as_importing_certificates_to_bitwarden">Menggunakan sertifikat sistem kurang aman dibanding menyimpan sertifikat dengan Byteward. Jika dilanjutkan, akan ditampilkan daftar sertifikat sistem yang tersedia bila sudah terpasang.</string>
     <string name="link">Tautan</string>
     <string name="passkey_operation_failed_because_host_url_is_not_present_in_request">Operasi kunci sandi gagal karena URL host tidak ada dalam permintaan.</string>
     <string name="passkey_operation_failed_because_app_signature_is_invalid">Operasi kunci sandi gagal karena tanda tangan aplikasi tidak valid.</string>
@@ -1036,11 +1036,11 @@ pilih Tambahkan TOTP untuk menyimpan kunci dengan aman</string>
     <string name="missing_send_resync_your_vault">Send hilang - sinkronkan ulang brankas Anda</string>
     <string name="use_dynamic_colors">Gunakan warna dinamis</string>
     <string name="use_dynamic_colors_question">Gunakan warna dinamis?</string>
-    <string name="dynamic_colors_may_not_adhere_to_accessibility_guidelines">Skema warna ini otomatis menerapkan warna sistem ke Bitwarden berdasarkan wallpaper Anda saat ini. Pilihan warna ini mungkin tidak memenuhi semua pedoman aksesibilitas.</string>
+    <string name="dynamic_colors_may_not_adhere_to_accessibility_guidelines">Skema warna ini otomatis menerapkan warna sistem ke Byteward berdasarkan wallpaper Anda saat ini. Pilihan warna ini mungkin tidak memenuhi semua pedoman aksesibilitas.</string>
     <string name="passkey_operation_failed_because_browser_x_is_not_trusted">Operasi kunci sandi gagal karena browser (%1$s) tidak dikenali. Pilih \"Percayai\" untuk menambahkan %1$s ke daftar aplikasi terpercaya lokal.</string>
     <string name="passkey_operation_failed_because_the_browser_is_not_trusted">Operasi kunci sandi gagal karena browser tidak terpercaya.</string>
     <string name="trust">Percaya</string>
-    <string name="trusted_by_you_learn_more">Ini adalah aplikasi atau browser yang tidak secara bawaan dipercaya oleh Bitwarden, tetapi Anda percayai untuk melakukan operasi kunci sandi.</string>
+    <string name="trusted_by_you_learn_more">Ini adalah aplikasi atau browser yang tidak secara bawaan dipercaya oleh Byteward, tetapi Anda percayai untuk melakukan operasi kunci sandi.</string>
     <string name="trusted_by_community_learn_more">Ini adalah aplikasi yang tidak ada di Google Play Store, tetapi dipercaya Bitwarden untuk melakukan operasi kunci sandi setelah digunakan dan dilaporkan aman oleh anggota komunitas.</string>
     <string name="trusted_by_google_learn_more">Ini adalah aplikasi yang dianggap aman oleh Google dan tersedia di Google Play Store.</string>
     <string name="trusted_by_you">Dipercaya oleh Anda</string>
@@ -1179,7 +1179,7 @@ pilih Tambahkan TOTP untuk menyimpan kunci dengan aman</string>
         <item quantity="other">%1$d item telah diimpor ke brankas Anda.</item>
     </plurals>
     <string name="enable_browser_autofill_to_keep_filling_passwords">Aktifkan Isi Otomatis browser untuk tetap mengisi sandi</string>
-    <string name="your_browser_recently_updated_how_autofill_works_singular">Browser Anda baru saja diperbarui, yang menyebabkan isi otomatis Bitwarden nonaktif. Untuk tetap mengisi sandi dengan Bitwarden, aktifkan isi otomatis browser di pengaturan isi otomatis.</string>
+    <string name="your_browser_recently_updated_how_autofill_works_singular">Browser Anda baru saja diperbarui, yang menyebabkan isi otomatis Byteward nonaktif. Untuk tetap mengisi sandi dengan Byteward, aktifkan isi otomatis browser di pengaturan isi otomatis.</string>
     <string name="not_now">Lain kali</string>
     <string name="import_from_bitwarden">Impor dari Bitwarden</string>
     <string name="select_account">Pilih akun</string>
@@ -1280,7 +1280,7 @@ pilih Tambahkan TOTP untuk menyimpan kunci dengan aman</string>
     <string name="trusted">Dipercaya</string>
     <string name="preview_not_available_for_files">Pratinjau tidak tersedia untuk file %1$s. Anda masih dapat mengunduhnya untuk melihat di perangkat Anda.</string>
     <string name="this_file_is_too_large_to_preview">File ini terlalu besar untuk dipratinjau. Anda masih dapat mengunduhnya untuk melihat di perangkat Anda.</string>
-    <string name="bitwarden_could_not_decrypt_this_file_so_the_preview_cannot_be_displayed">Bitwarden tidak dapat mendekripsi file ini, sehingga pratinjau tidak dapat ditampilkan.</string>
+    <string name="bitwarden_could_not_decrypt_this_file_so_the_preview_cannot_be_displayed">Byteward tidak dapat mendekripsi file ini, sehingga pratinjau tidak dapat ditampilkan.</string>
     <string name="preview_unavailable_for_this_file">Pratinjau tidak tersedia untuk file ini. Anda masih dapat mengunduhnya untuk melihat di perangkat Anda.</string>
     <string name="preview_unavailable">Pratinjau tidak tersedia</string>
     <string name="download_attachment">Unduh Lampiran</string>
@@ -1412,8 +1412,8 @@ pilih Tambahkan TOTP untuk menyimpan kunci dengan aman</string>
     <string name="local_network_access_required">Akses jaringan lokal diperlukan</string>
     <string name="ask_again_later">Tanya lagi nanti</string>
     <string name="enable_local_network_access">Aktifkan akses jaringan lokal</string>
-    <string name="bitwarden_needs_local_network_access_to_sync_with_your_server">Bitwarden memerlukan akses jaringan lokal untuk sinkronisasi dengan server Anda. Tanpa izin ini, aplikasi tidak akan dapat terhubung.</string>
-    <string name="without_this_permission_bitwarden_wont_be_able_to_sync_with_your_server">Tanpa izin ini, Bitwarden tidak akan dapat terhubung dan sinkronisasi dengan server Anda. Anda dapat mengaktifkannya di pengaturan perangkat Anda.</string>
+    <string name="bitwarden_needs_local_network_access_to_sync_with_your_server">Byteward memerlukan akses jaringan lokal untuk sinkronisasi dengan server Anda. Tanpa izin ini, aplikasi tidak akan dapat terhubung.</string>
+    <string name="without_this_permission_bitwarden_wont_be_able_to_sync_with_your_server">Tanpa izin ini, Byteward tidak akan dapat terhubung dan sinkronisasi dengan server Anda. Anda dapat mengaktifkannya di pengaturan perangkat Anda.</string>
     <string name="your_request_was_interrupted_because_the_app_needs_local_network_access">Permintaan Anda terputus karena aplikasi memerlukan akses jaringan lokal. Anda dapat mengaktifkannya di pengaturan perangkat Anda.</string>
     <string name="continue_to_stripe">Lanjutkan ke Stripe?</string>
     <string name="youll_be_taken_to_stripe_to_manage_your_subscription_cancellation">Anda akan dibawa ke Stripe untuk mengelola pembatalan langganan Anda.</string>
@@ -1435,7 +1435,7 @@ pilih Tambahkan TOTP untuk menyimpan kunci dengan aman</string>
     <string name="use_this_username">Gunakan username ini</string>
     <string name="create_login">Buat login</string>
     <string name="keep_unlocking_with_biometrics">Tetap buka kunci dengan biometrik</string>
-    <string name="weve_made_a_security_update">Kami telah membuat pembaruan keamanan. Konfirmasi biometrik Anda lagi untuk tetap menggunakannya saat membuka kunci Bitwarden.</string>
+    <string name="weve_made_a_security_update">Kami telah membuat pembaruan keamanan. Konfirmasi biometrik Anda lagi untuk tetap menggunakannya saat membuka kunci Byteward.</string>
     <string name="turn_off">Matikan</string>
     <string name="turn_off_biometric_question">Matikan biometrik?</string>
     <string name="unlocking_will_require_your_master_password">Membuka kunci akan memerlukan kata sandi utama Anda. Anda dapat mengaktifkan kembali biometrik di Pengaturan.</string>

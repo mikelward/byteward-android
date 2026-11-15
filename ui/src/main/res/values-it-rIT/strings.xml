@@ -75,9 +75,9 @@
     <string name="yes">Conferma</string>
     <string name="account">Account</string>
     <string name="account_created_success">Il tuo nuovo account è stato creato!</string>
-    <string name="set_bitwarden_as_passkey_manager_description">Imposta Bitwarden come fornitore di passkey nelle impostazioni del dispositivo</string>
+    <string name="set_bitwarden_as_passkey_manager_description">Imposta Byteward come fornitore di passkey nelle impostazioni del dispositivo</string>
     <string name="avoid_ambiguous_characters">Nessun carattere ambiguo</string>
-    <string name="bitwarden_autofill_service">Servizio di riempimento automatico di Bitwarden</string>
+    <string name="bitwarden_autofill_service">Servizio di riempimento automatico di Byteward</string>
     <string name="change_master_password">Cambio della password principale</string>
     <string name="close">Chiudi</string>
     <string name="close_app">Chiudi app</string>
@@ -176,7 +176,7 @@
     <string name="no_items_for_vault">Nessun elemento corrispondente a \'%1$s\'</string>
     <string name="search_for_a_login_or_add_a_new_login">Cerca o crea un login</string>
     <string name="disabled">Disabilitato</string>
-    <string name="bitwarden_autofill_service_alert2">Il modo più semplice per aggiungere nuove credenziali di accesso alla tua cassaforte è usare il servizio di riempimento automatico Bitwarden. Scopri di più su come usarlo nelle impostazioni.</string>
+    <string name="bitwarden_autofill_service_alert2">Il modo più semplice per aggiungere nuove credenziali di accesso alla tua cassaforte è usare il servizio di riempimento automatico Byteward. Scopri di più su come usarlo nelle impostazioni.</string>
     <string name="autofill_noun">Riempimento automatico</string>
     <string name="autofill_verb">Riempimento automatico</string>
     <string name="autofill_or_view">Seleziona l\'azione</string>
@@ -297,7 +297,7 @@
     <string name="no_items_folder">Nessun elemento in questa cartella</string>
     <string name="no_items_trash">Nessun elemento nel cestino</string>
     <string name="autofill_accessibility_summary">Assiste con il riempimento dei campi nome utente e password in altre applicazioni e nei siti web.</string>
-    <string name="autofill_service_description">Il riempimento automatico di Bitwarden usa il servizio di riempimento automatico di sistema per compilare i campi con le credenziali salvate</string>
+    <string name="autofill_service_description">Il riempimento automatico di Byteward usa il servizio di riempimento automatico di sistema per compilare i campi con le credenziali salvate</string>
     <string name="bitwarden_autofill_go_to_settings">Non siamo riusciti ad aprire le impostazioni del riempimento automatico di Android per te. Puoi navigare manualmente nelle impostazioni di riempimento automatico dalle Impostazioni di Android &gt; Cerca Impostazioni &gt; Cerca \"Password e autofill\"</string>
     <string name="custom_field_name">Nome del campo</string>
     <string name="field_type_boolean">On/Off</string>
@@ -372,7 +372,7 @@
     <string name="pin">Codice PIN</string>
     <string name="unlock">Sblocca</string>
     <string name="thirty_minutes">30 minuti</string>
-    <string name="set_pin_description">Imposta il codice PIN necessario per sbloccare Bitwarden. Lo sblocco con PIN verrà rimosso se esci dall\'account.</string>
+    <string name="set_pin_description">Imposta il codice PIN necessario per sbloccare Byteward. Lo sblocco con PIN verrà rimosso se esci dall\'account.</string>
     <string name="logged_in_as_on">Accesso effettuato come %1$s a %2$s.</string>
     <string name="vault_locked_master_password">La cassaforte è bloccata. Inserisci la password principale.</string>
     <string name="vault_locked_pin">La cassaforte è bloccata. Inserisci il codice PIN.</string>
@@ -637,9 +637,9 @@ Tutte le sessioni attive verranno terminate entro un\'ora.</string>
     <string name="catch_all_email_description">Usa una casella di posta \'catch-all\' di dominio.</string>
     <string name="forwarded_email_description">Genera un alias email con un servizio di inoltro esterno.</string>
     <string name="accessibility_service_disclosure">Ulteriori informazioni sul servizio di accessibilità</string>
-    <string name="accessibility_disclosure_text">Questa app utilizza il servizio di accessibilità di sistema per cercare i campi di login e verifica se nella tua cassaforte ci sono corrispondenze per la pagina Web visualizzata o l\'app attiva. Bitwarden non memorizza nessuna delle informazioni consultate dal servizio, e non legge né controlla altri dati durante l\'inserimento delle credenziali.</string>
-    <string name="accessibility_disclosure_start_up_text_1">Questo avviso è necessario prima che Bitwarden possa offrire il riempimento automatico basato sull\'accessibilità.</string>
-    <string name="accessibility_disclosure_start_up_text_2">Bitwarden offre un metodo di riempimento automatico opzionale che utilizza il servizio di accessibilità di Android per rilevare i campi di accesso. Se lo abiliti, Bitwarden identificherà i campi appropriati e inserirà le tue credenziali quando viene trovata una corrispondenza.</string>
+    <string name="accessibility_disclosure_text">Questa app utilizza il servizio di accessibilità di sistema per cercare i campi di login e verifica se nella tua cassaforte ci sono corrispondenze per la pagina Web visualizzata o l\'app attiva. Byteward non memorizza nessuna delle informazioni consultate dal servizio, e non legge né controlla altri dati durante l\'inserimento delle credenziali.</string>
+    <string name="accessibility_disclosure_start_up_text_1">Questo avviso è necessario prima che Byteward possa offrire il riempimento automatico basato sull\'accessibilità.</string>
+    <string name="accessibility_disclosure_start_up_text_2">Byteward offre un metodo di riempimento automatico opzionale che utilizza il servizio di accessibilità di Android per rilevare i campi di accesso. Se lo abiliti, Byteward identificherà i campi appropriati e inserirà le tue credenziali quando viene trovata una corrispondenza.</string>
     <string name="accessibility_disclosure_start_up_text_3">Non memorizziamo alcuna informazione su ciò che viene visualizzato sullo schermo mentre utilizzi il servizio di accessibilità e non controlliamo alcun elemento sullo schermo oltre all\'inserimento delle credenziali.</string>
     <string name="i_understand">Ho capito</string>
     <string name="accept">Accetta</string>
@@ -719,8 +719,8 @@ Do you want to switch to this account?</string>
     <string name="session_timeout">Scadenza della sessione</string>
     <string name="session_timeout_action">Azione programmata</string>
     <string name="account_fingerprint_phrase">Frase impronta dell\'account</string>
-    <string name="passkey_management_explanation_long">Usa Bitwarden per salvare nuove passkey ed accedere con le passkey memorizzate nella tua cassaforte.</string>
-    <string name="autofill_services_explanation_long">Il riempimento automatico di Bitwarden usa il servizio di riempimento di sistema per inserire facilmente le credenziali di accesso nei campi di autenticazione di pagine Web e altre app.</string>
+    <string name="passkey_management_explanation_long">Usa Byteward per salvare nuove passkey ed accedere con le passkey memorizzate nella tua cassaforte.</string>
+    <string name="autofill_services_explanation_long">Il riempimento automatico di Byteward usa il servizio di riempimento di sistema per inserire facilmente le credenziali di accesso nei campi di autenticazione di pagine Web e altre app.</string>
     <string name="use_inline_autofill_explanation_long">Usa il riempimento automatico in linea se la tua tastiera lo supporta. Altrimenti, usa la sovrapposizione predefinita.</string>
     <string name="additional_options">Opzioni aggiuntive</string>
     <string name="continue_to_web_app">Continua nell\'app web</string>
@@ -743,7 +743,7 @@ Do you want to switch to this account?</string>
     <string name="duo_two_step_login_is_required_for_your_account">L\'accesso all\'account richiede l\'accesso in due passaggi Duo.</string>
     <string name="follow_the_steps_from_duo_to_finish_logging_in">Segui i passaggi da DUO per finire di accedere.</string>
     <string name="launch_duo">Avvia DUO</string>
-    <string name="your_passkey_will_be_saved_to_your_bitwarden_vault_for_x">La tua passkey sarà salvata nella tua cassaforte di Bitwarden per %1$s</string>
+    <string name="your_passkey_will_be_saved_to_your_bitwarden_vault_for_x">La tua passkey sarà salvata nella tua cassaforte di Byteward per %1$s</string>
     <string name="your_password_will_be_saved_to_your_bitwarden_vault_for_x">La tua password sarà salvata nella tua cassaforte per %1$s</string>
     <string name="passkeys_not_supported_for_this_app">Passkey non supportate per questa app</string>
     <string name="passkey_operation_failed_because_browser_is_not_privileged">L\'operazione della passkey non è riuscita perché il browser non dispone dei privilegi necessari</string>
@@ -772,7 +772,7 @@ Do you want to switch to this account?</string>
     <string name="email_verified">Indirizzo email verificato</string>
     <string name="get_emails_from_bitwarden_for_announcements_advices_and_research_opportunities_unsubscribe_any_time">Ricevi email da Bitwarden per annunci, consigli e opportunità di ricerca. Disiscriviti in qualsiasi momento.</string>
     <string name="security_prioritized">Sicurezza come priorità</string>
-    <string name="welcome_message_1">Salva login, carte e identità nella tua cassaforte sicura. Bitwarden usa la crittografia end-to-end e zero-knowledge per proteggere ciò che è importante.</string>
+    <string name="welcome_message_1">Salva login, carte e identità nella tua cassaforte sicura. Byteward usa la crittografia end-to-end e zero-knowledge per proteggere ciò che è importante.</string>
     <string name="welcome_message_2">Imposta lo sblocco biometrico e il riempimento automatico per accedere ai tuoi account senza digitare una sola lettera.</string>
     <string name="quick_and_easy_login">Accesso facile e veloce</string>
     <string name="level_up_your_logins">Porta i login a un altro livello</string>
@@ -825,16 +825,16 @@ Do you want to switch to this account?</string>
     <string name="turn_on_autofill">Attiva il riempimento automatico</string>
     <string name="autofill_setup">Impostazioni riempimento automatico</string>
     <string name="turn_on_browser_autofill_integration">Attiva l\'integrazione di riempimento automatico nel browser</string>
-    <string name="browser_requires_special_permissions_for_bitwarden_singular">Per attivare il riempimento automatico nel tuo browser, Bitwarden richiede dei permessi speciali.</string>
-    <string name="browser_requires_special_permissions_for_bitwarden_plural">Per attivare il riempimento automatico nei tuoi browser, Bitwarden richiede dei permessi speciali.</string>
-    <string name="youre_using_a_browser_that_requires_special_permissions_singular">Per attivare il riempimento automatico nel tuo browser, Bitwarden richiede dei permessi speciali. Abilita la tua integrazione preferita qui sotto.</string>
-    <string name="youre_using_a_browser_that_requires_special_permissions_plural">Per attivare il riempimento automatico nei tuoi browser, Bitwarden richiede dei permessi speciali. Abilita il riempimento automatico in tutti i tuoi browser per continuare.</string>
+    <string name="browser_requires_special_permissions_for_bitwarden_singular">Per attivare il riempimento automatico nel tuo browser, Byteward richiede dei permessi speciali.</string>
+    <string name="browser_requires_special_permissions_for_bitwarden_plural">Per attivare il riempimento automatico nei tuoi browser, Byteward richiede dei permessi speciali.</string>
+    <string name="youre_using_a_browser_that_requires_special_permissions_singular">Per attivare il riempimento automatico nel tuo browser, Byteward richiede dei permessi speciali. Abilita la tua integrazione preferita qui sotto.</string>
+    <string name="youre_using_a_browser_that_requires_special_permissions_plural">Per attivare il riempimento automatico nei tuoi browser, Byteward richiede dei permessi speciali. Abilita il riempimento automatico in tutti i tuoi browser per continuare.</string>
     <string name="use_autofill_to_log_into_your_accounts">Usa il riempimento automatico per accedere ai tuoi account con un solo tocco.</string>
     <string name="turn_on_later">Attiva più tardi</string>
     <string name="turn_on_autofill_later">Attivare il riempimento automatico più tardi?</string>
     <string name="turn_on_browser_autofill_integration_later">Preferisci attivare l\'integrazione di riempimento automatico in un secondo momento?</string>
     <string name="return_to_complete_this_step_anytime_in_settings">Puoi completare questo passaggio in qualsiasi momento tornando nelle Impostazioni.</string>
-    <string name="what_bitwarden_has_to_offer">Esplora tutto ciò che Bitwarden ha da offrire e inizia a gestire le tue credenziali di accesso in modo sicuro.</string>
+    <string name="what_bitwarden_has_to_offer">Esplora tutto ciò che Byteward ha da offrire e inizia a gestire le tue credenziali di accesso in modo sicuro.</string>
     <string name="youre_all_set">Tutto pronto!</string>
     <string name="error_connecting_with_the_duo_service_use_a_different_two_step_login_method_or_contact_duo_for_assistance">Errore di connessione al servizio Duo. Utilizza un metodo di accesso in due passaggi diverso o contatta Duo per l\'assistenza.</string>
     <string name="master_password_hint_not_specified">Suggerimento per la password principale</string>
@@ -966,7 +966,7 @@ Do you want to switch to this account?</string>
     <string name="unsupported_certificate_type">Tipo di certificato non supportato</string>
     <string name="certificate_password_incorrect">Parola d\'accesso del certificato errata</string>
     <string name="invalid_certificate_chain">Serie di certificati non valida</string>
-    <string name="system_certificates_are_not_as_secure_as_importing_certificates_to_bitwarden">Potrai consultare una lista dei certificati di sistema, se almeno uno è disponibile. Ricorda che usare un certificato di sistema è meno sicuro rispetto al certificato memorizzato con Bitwarden.</string>
+    <string name="system_certificates_are_not_as_secure_as_importing_certificates_to_bitwarden">Potrai consultare una lista dei certificati di sistema, se almeno uno è disponibile. Ricorda che usare un certificato di sistema è meno sicuro rispetto al certificato memorizzato con Byteward.</string>
     <string name="link">Link</string>
     <string name="passkey_operation_failed_because_host_url_is_not_present_in_request">Operazione parola d\'accesso non riuscita perché l\'URL host non è presente nella richiesta.</string>
     <string name="passkey_operation_failed_because_app_signature_is_invalid">Operazione parola d\'accesso non riuscita perché la firma dell\'app non è valida.</string>
@@ -1047,7 +1047,7 @@ Do you want to switch to this account?</string>
     <string name="passkey_operation_failed_because_browser_x_is_not_trusted">Operazione passkey fallita perché il browser (%1$s) non è riconosciuto. Seleziona \'Riconosci come affidabile\' per aggiungere %1$s all\'elenco delle applicazioni affidabili localmente.</string>
     <string name="passkey_operation_failed_because_the_browser_is_not_trusted">Passkey non utilizzabile: il browser non è nell\'elenco delle applicazioni affidabili.</string>
     <string name="trust">Riconosci come affidabile</string>
-    <string name="trusted_by_you_learn_more">Applicazioni non riconosciute automaticamente da Bitwarden ma impostate come affidabili per l\'utilizzo di passkey.</string>
+    <string name="trusted_by_you_learn_more">Applicazioni non riconosciute automaticamente da Byteward ma impostate come affidabili per l\'utilizzo di passkey.</string>
     <string name="trusted_by_community_learn_more">App non provenienti dal Play Store ma riconosciute come affidabili da Bitwarden grazie alle segnalazioni positive degli utenti.</string>
     <string name="trusted_by_google_learn_more">Applicazioni disponibili nel Google Play Store, con tutti i vincoli di sicurezza e affidabilità richiesti.</string>
     <string name="trusted_by_you">Riconosciuto affidabile da te</string>
@@ -1189,7 +1189,7 @@ Do you want to switch to this account?</string>
         <item quantity="other">%1$d elementi sono stati importati nella tua cassaforte.</item>
     </plurals>
     <string name="enable_browser_autofill_to_keep_filling_passwords">Abilita il riempimento automatico nel browser per mantenere la funzionalità</string>
-    <string name="your_browser_recently_updated_how_autofill_works_singular">Il tuo browser è stato aggiornato di recente, e il riempimento automatico di Bitwarden è stato disattivato. Per continuare a riempire le password con Bitwarden, abilita il riempimento automatico del browser.</string>
+    <string name="your_browser_recently_updated_how_autofill_works_singular">Il tuo browser è stato aggiornato di recente, e il riempimento automatico di Byteward è stato disattivato. Per continuare a riempire le password con Byteward, abilita il riempimento automatico del browser.</string>
     <string name="not_now">Non adesso</string>
     <string name="import_from_bitwarden">Importa da Bitwarden</string>
     <string name="select_account">Scegli un account</string>
@@ -1289,7 +1289,7 @@ Do you want to switch to this account?</string>
     <string name="trusted">Affidabile</string>
     <string name="preview_not_available_for_files">Anteprima non disponibile per i file %1$s. Puoi comunque scaricarlo per visualizzarlo sul tuo dispositivo.</string>
     <string name="this_file_is_too_large_to_preview">Questo file è troppo grande per essere visualizzato in anteprima. Puoi comunque scaricarlo per visualizzarlo sul tuo dispositivo.</string>
-    <string name="bitwarden_could_not_decrypt_this_file_so_the_preview_cannot_be_displayed">Bitwarden non è riuscito a decrittare questo file, quindi l\'anteprima non può essere visualizzata.</string>
+    <string name="bitwarden_could_not_decrypt_this_file_so_the_preview_cannot_be_displayed">Byteward non è riuscito a decrittare questo file, quindi l\'anteprima non può essere visualizzata.</string>
     <string name="preview_unavailable_for_this_file">Anteprima non disponibile per questo file. Puoi comunque scaricarlo per visualizzarlo sul tuo dispositivo.</string>
     <string name="preview_unavailable">Anteprima non disponibile</string>
     <string name="download_attachment">Scarica allegato</string>
@@ -1422,8 +1422,8 @@ Do you want to switch to this account?</string>
     <string name="local_network_access_required">Accesso alla rete locale richiesto</string>
     <string name="ask_again_later">Chiedi più tardi</string>
     <string name="enable_local_network_access">Abilita accesso alla rete locale</string>
-    <string name="bitwarden_needs_local_network_access_to_sync_with_your_server">Bitwarden necessita dell\'accesso alla rete locale per sincronizzarsi con il tuo server. Senza questo permesso, l\'app non sarà in grado di connettersi.</string>
-    <string name="without_this_permission_bitwarden_wont_be_able_to_sync_with_your_server">Senza questo permesso, Bitwarden non sarà in grado di connettersi e sincronizzarsi con il tuo server. Puoi abilitarlo nelle impostazioni del dispositivo.</string>
+    <string name="bitwarden_needs_local_network_access_to_sync_with_your_server">Byteward necessita dell\'accesso alla rete locale per sincronizzarsi con il tuo server. Senza questo permesso, l\'app non sarà in grado di connettersi.</string>
+    <string name="without_this_permission_bitwarden_wont_be_able_to_sync_with_your_server">Senza questo permesso, Byteward non sarà in grado di connettersi e sincronizzarsi con il tuo server. Puoi abilitarlo nelle impostazioni del dispositivo.</string>
     <string name="your_request_was_interrupted_because_the_app_needs_local_network_access">La tua richiesta è stata interrotta perché l\'app necessita dell\'accesso alla rete locale. Puoi abilitarlo nelle impostazioni del dispositivo.</string>
     <string name="continue_to_stripe">Continuare su Stripe?</string>
     <string name="youll_be_taken_to_stripe_to_manage_your_subscription_cancellation">Verrai reindirizzato a Stripe per gestire la cancellazione del tuo abbonamento.</string>
@@ -1445,7 +1445,7 @@ Do you want to switch to this account?</string>
     <string name="use_this_username">Usa questo nome utente</string>
     <string name="create_login">Crea login</string>
     <string name="keep_unlocking_with_biometrics">Keep unlocking with biometrics</string>
-    <string name="weve_made_a_security_update">Abbiamo fatto un aggiornamento di sicurezza. Conferma nuovamente i tuoi dati biometrici per continuare a utilizzarli per sbloccare Bitwarden.</string>
+    <string name="weve_made_a_security_update">Abbiamo fatto un aggiornamento di sicurezza. Conferma nuovamente i tuoi dati biometrici per continuare a utilizzarli per sbloccare Byteward.</string>
     <string name="turn_off">Disattiva</string>
     <string name="turn_off_biometric_question">Turn off biometrics?</string>
     <string name="unlocking_will_require_your_master_password">Lo sblocco richiederà la tua password principale. Puoi riattivare la biometria nelle Impostazioni.</string>

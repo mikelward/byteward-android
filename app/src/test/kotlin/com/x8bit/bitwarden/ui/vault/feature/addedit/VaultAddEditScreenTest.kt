@@ -656,7 +656,7 @@ class VaultAddEditScreenTest : BitwardenComposeTest() {
         )
 
         composeTestRule
-            .onAllNodesWithText("Bitwarden Autofill Service")
+            .onAllNodesWithText("Byteward Autofill Service")
             .filterToOne(hasAnyAncestor(isDialog()))
             .assertIsDisplayed()
 
