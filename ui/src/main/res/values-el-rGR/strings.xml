@@ -75,9 +75,9 @@
     <string name="yes">Ναι</string>
     <string name="account">Λογαριασμός</string>
     <string name="account_created_success">Ο νέος σας λογαριασμός έχει δημιουργηθεί!</string>
-    <string name="set_bitwarden_as_passkey_manager_description">Ορίστε το Bitwarden ως πάροχο κλειδιού πρόσβασης στις ρυθμίσεις της συσκευής.</string>
+    <string name="set_bitwarden_as_passkey_manager_description">Ορίστε το Byteward ως πάροχο κλειδιού πρόσβασης στις ρυθμίσεις της συσκευής.</string>
     <string name="avoid_ambiguous_characters">Αποφυγή αμφιλεγόμενων χαρακτήρων</string>
-    <string name="bitwarden_autofill_service">Υπηρεσία Αυτόματης Συμπλήρωσης Bitwarden</string>
+    <string name="bitwarden_autofill_service">Υπηρεσία Αυτόματης Συμπλήρωσης Byteward</string>
     <string name="change_master_password">Αλλαγή κύριου κωδικού</string>
     <string name="close">Κλείσιμο</string>
     <string name="close_app">Κλείσιμο εφαρμογής</string>
@@ -176,7 +176,7 @@
     <string name="no_items_for_vault">Δεν υπάρχουν αντικείμενα στη κρύπτη σας που ταιριάζουν με \"%1$s\"</string>
     <string name="search_for_a_login_or_add_a_new_login">Αναζητήστε μια σύνδεση ή προσθέστε μια νέα σύνδεση</string>
     <string name="disabled">Απενεργοποιημένο</string>
-    <string name="bitwarden_autofill_service_alert2">Ο ευκολότερος τρόπος για να προσθέσετε νέες συνδέσεις στο vault σας, είναι με την υπηρεσία αυτόματης συμπλήρωσης του Bitwarden. Μάθετε περισσότερα σχετικά με τη χρήση της, μεταβαίνοντας στις \"Ρυθμίσεις\".</string>
+    <string name="bitwarden_autofill_service_alert2">Ο ευκολότερος τρόπος για να προσθέσετε νέες συνδέσεις στο vault σας, είναι με την υπηρεσία αυτόματης συμπλήρωσης του Byteward. Μάθετε περισσότερα σχετικά με τη χρήση της, μεταβαίνοντας στις \"Ρυθμίσεις\".</string>
     <string name="autofill_noun">Αυτόματη συμπλήρωση</string>
     <string name="autofill_verb">Αυτόματη συμπλήρωση</string>
     <string name="autofill_or_view">Θέλετε αυτόματη συμπλήρωση ή να δείτε αυτό το στοιχείο;</string>
@@ -298,7 +298,7 @@
     <string name="no_items_folder">Δεν υπάρχουν στοιχεία σε αυτόν τον φάκελο.</string>
     <string name="no_items_trash">Δεν υπάρχουν αντικείμενα στον κάδο απορριμμάτων.</string>
     <string name="autofill_accessibility_summary">Βοήθεια με τη συμπλήρωση των πεδίων ονόματος χρήστη και κωδικού πρόσβασης σε άλλες εφαρμογές και στο διαδίκτυο.</string>
-    <string name="autofill_service_description">Η υπηρεσία αυτόματης συμπλήρωσης Bitwarden, χρησιμοποιεί το Android Autofill Framework για να σας βοηθήσει να συμπληρώσετε στοιχεία σύνδεσης, τις πιστωτικές κάρτες και τις πληροφορίες ταυτότητας σε άλλες εφαρμογές της συσκευής σας.</string>
+    <string name="autofill_service_description">Η υπηρεσία αυτόματης συμπλήρωσης Byteward, χρησιμοποιεί το Android Autofill Framework για να σας βοηθήσει να συμπληρώσετε στοιχεία σύνδεσης, τις πιστωτικές κάρτες και τις πληροφορίες ταυτότητας σε άλλες εφαρμογές της συσκευής σας.</string>
     <string name="bitwarden_autofill_go_to_settings">Δεν ήταν δυνατό να ανοίξουμε αυτόματα το μενού ρυθμίσεων αυτόματης συμπλήρωσης Android για εσάς. Μπορείτε να πλοηγηθείτε στο μενού ρυθμίσεων αυτόματης συμπλήρωσης με μη αυτόματο τρόπο από τις Ρυθμίσεις Android &gt; Σύστημα &gt; Γλώσσες και εισαγωγή &gt; Σύνθετες &gt; Υπηρεσία αυτόματης συμπλήρωσης.</string>
     <string name="custom_field_name">Όνομα προσαρμοσμένου πεδίου</string>
     <string name="field_type_boolean">Δυαδικό</string>
@@ -373,7 +373,7 @@
     <string name="pin">PIN</string>
     <string name="unlock">Ξεκλείδωμα</string>
     <string name="thirty_minutes">30 λεπτά</string>
-    <string name="set_pin_description">Ορίστε τον κωδικό PIN για να ξεκλειδώσετε το Bitwarden. Οι ρυθμίσεις PIN θα επαναρυθμιστούν αν αποσυνδεθείτε πλήρως από την εφαρμογή.</string>
+    <string name="set_pin_description">Ορίστε τον κωδικό PIN για να ξεκλειδώσετε το Byteward. Οι ρυθμίσεις PIN θα επαναρυθμιστούν αν αποσυνδεθείτε πλήρως από την εφαρμογή.</string>
     <string name="logged_in_as_on">Συνδεθήκατε ως %1$s στις %2$s.</string>
     <string name="vault_locked_master_password">Το θυσαυ/κιό σας είναι κλειδωμένο. Επαληθεύστε τον κύριο κωδικό για να συνεχίσετε.</string>
     <string name="vault_locked_pin">Το θυσαυ/κιό σας είναι κλειδωμένο. Επαληθεύστε τον κωδικό PIN για να συνεχίσετε.</string>
@@ -387,7 +387,7 @@
     <string name="clear_clipboard">Εκκαθάριση πρόχειρου</string>
     <string name="clear_clipboard_description">Αυτόματη εκκαθάριση αντιγραμμένων τιμών προχείρου.</string>
     <string name="default_uri_match_detection">Προεπιλεγμένη Ανίχνευση Αντιστοιχίας URI</string>
-    <string name="default_uri_match_detection_description">Ο έλεγχος αντιστοίχισης URI καθορίζει τον τρόπο με τον οποίο το Bitwarden αναγνωρίζει προτάσεις αυτόματης συμπλήρωσης.</string>
+    <string name="default_uri_match_detection_description">Ο έλεγχος αντιστοίχισης URI καθορίζει τον τρόπο με τον οποίο το Byteward αναγνωρίζει προτάσεις αυτόματης συμπλήρωσης.</string>
     <string name="theme">Θέμα</string>
     <string name="theme_description">Αλλάξτε το χρωματικό θέμα της εφαρμογής</string>
     <string name="copy_notes">Αντιγραφή σημείωσης</string>
@@ -423,7 +423,7 @@
     <string name="password_generator_policy_in_effect">Μία ή περισσότερες πολιτικές του οργανισμού επηρεάζουν τις ρυθμίσεις γεννήτριας.</string>
     <string name="unable_to_save_attachment">Παρουσιάστηκε πρόβλημα κατά την αποθήκευση αυτού του συνημμένου. Εάν το πρόβλημα επιμένει, μπορείτε να το αποθηκεύσετε μέσω web vault.</string>
     <string name="save_attachment_success">Το συνημμένο αποθηκεύτηκε με επιτυχία</string>
-    <string name="autofill_tile_accessibility_required">Παρακαλώ ενεργοποιήστε την «Υπηρεσία προσβασιμότητας αυτόματης συμπλήρωσης» από τις Ρυθμίσεις του Bitwarden για να χρησιμοποιήσετε το πλακίδιο αυτόματης συμπλήρωσης.</string>
+    <string name="autofill_tile_accessibility_required">Παρακαλώ ενεργοποιήστε την «Υπηρεσία προσβασιμότητας αυτόματης συμπλήρωσης» από τις Ρυθμίσεις του Byteward για να χρησιμοποιήσετε το πλακίδιο αυτόματης συμπλήρωσης.</string>
     <string name="autofill_tile_uri_not_found">Δεν εντοπίστηκαν πεδία κωδικού πρόσβασης</string>
     <string name="soft_deleting">Αποστολή στα απορρίμματα…</string>
     <string name="item_soft_deleted">Το στοιχείο έχει σταλεί στον κάδο απορριμμάτων.</string>
@@ -638,9 +638,9 @@
     <string name="catch_all_email_description">Χρησιμοποιήστε το ρυθμισμένο catch-all inbox του τομέα σας.</string>
     <string name="forwarded_email_description">Δημιουργήστε ένα ψευδώνυμο διεύθυνσης ηλ. ταχυδρομείου με μια εξωτερική υπηρεσία προώθησης.</string>
     <string name="accessibility_service_disclosure">Γνωστοποίηση Υπηρεσίας Προσβασιμότητας</string>
-    <string name="accessibility_disclosure_text">Το Bitwarden χρησιμοποιεί την Υπηρεσία Προσβασιμότητας για να αναζητήσει πεδία σύνδεσης σε εφαρμογές και ιστότοπους και στη συνέχεια να δημιουργήσει τα κατάλληλα αναγνωριστικά πεδίου για την εισαγωγή ονόματος χρήστη και κωδικού πρόσβασης όταν βρεθεί αντιστοιχία για την εφαρμογή ή τον ιστότοπο. Δεν αποθηκεύουμε καμία από τις πληροφορίες που μας παρέχονται από την υπηρεσία, ούτε κάνουμε καμία προσπάθεια ελέγχου οποιωνδήποτε στοιχείων στην οθόνη πέραν της εισαγωγής του κειμένου των διαπιστευτηρίων.</string>
-    <string name="accessibility_disclosure_start_up_text_1">Αυτή η ειδοποίηση απαιτείται προτού το Bitwarden μπορέσει να προσφέρει αυτόματη συμπλήρωση βάσει προσβασιμότητας.</string>
-    <string name="accessibility_disclosure_start_up_text_2">Το Bitwarden προσφέρει μια προαιρετική μέθοδο αυτόματης συμπλήρωσης που χρησιμοποιεί την Υπηρεσία Προσβασιμότητας του Android για την ανίχνευση πεδίων σύνδεσης. Αν την ενεργοποιήσετε, το Bitwarden θα αναγνωρίζει τα κατάλληλα πεδία και θα συμπληρώνει τα διαπιστευτήριά σας όταν βρεθεί αντιστοιχία.</string>
+    <string name="accessibility_disclosure_text">Το Byteward χρησιμοποιεί την Υπηρεσία Προσβασιμότητας για να αναζητήσει πεδία σύνδεσης σε εφαρμογές και ιστότοπους και στη συνέχεια να δημιουργήσει τα κατάλληλα αναγνωριστικά πεδίου για την εισαγωγή ονόματος χρήστη και κωδικού πρόσβασης όταν βρεθεί αντιστοιχία για την εφαρμογή ή τον ιστότοπο. Δεν αποθηκεύουμε καμία από τις πληροφορίες που μας παρέχονται από την υπηρεσία, ούτε κάνουμε καμία προσπάθεια ελέγχου οποιωνδήποτε στοιχείων στην οθόνη πέραν της εισαγωγής του κειμένου των διαπιστευτηρίων.</string>
+    <string name="accessibility_disclosure_start_up_text_1">Αυτή η ειδοποίηση απαιτείται προτού το Byteward μπορέσει να προσφέρει αυτόματη συμπλήρωση βάσει προσβασιμότητας.</string>
+    <string name="accessibility_disclosure_start_up_text_2">Το Byteward προσφέρει μια προαιρετική μέθοδο αυτόματης συμπλήρωσης που χρησιμοποιεί την Υπηρεσία Προσβασιμότητας του Android για την ανίχνευση πεδίων σύνδεσης. Αν την ενεργοποιήσετε, το Byteward θα αναγνωρίζει τα κατάλληλα πεδία και θα συμπληρώνει τα διαπιστευτήριά σας όταν βρεθεί αντιστοιχία.</string>
     <string name="accessibility_disclosure_start_up_text_3">Δεν αποθηκεύουμε καμία πληροφορία σχετικά με το τι εμφανίζεται στην οθόνη κατά τη χρήση της Υπηρεσίας Προσβασιμότητας και δεν ελέγχουμε κανένα στοιχείο οθόνης πέρα από την εισαγωγή διαπιστευτηρίων.</string>
     <string name="i_understand">Κατανοώ</string>
     <string name="accept">Αποδοχή</string>
@@ -720,7 +720,7 @@ Do you want to switch to this account?</string>
     <string name="session_timeout">Χρονικό όριο συνεδρίας</string>
     <string name="session_timeout_action">Ενέργεια στη λήξη χρόνου συνεδρίας</string>
     <string name="account_fingerprint_phrase">\"Φράση αποτυπώματος\" λογαριασμού</string>
-    <string name="passkey_management_explanation_long">Χρησιμοποιήστε το Bitwarden για να αποθηκεύσετε τα νέα κλειδιά πρόσβασης και συνδεθείτε με τα κλειδιά πρόσβασης που είναι αποθηκευμένα στη κρύπτη σας.</string>
+    <string name="passkey_management_explanation_long">Χρησιμοποιήστε το Byteward για να αποθηκεύσετε τα νέα κλειδιά πρόσβασης και συνδεθείτε με τα κλειδιά πρόσβασης που είναι αποθηκευμένα στη κρύπτη σας.</string>
     <string name="autofill_services_explanation_long">Το Android Autofill Framework χρησιμοποιείται για να προσφέρει αυτόματη συμπλήρωση στοιχείων σύνδεσης σε άλλες εφαρμογές στη συσκευή σας.</string>
     <string name="use_inline_autofill_explanation_long">Χρησιμοποιήστε την ενσωματωμένη αυτόματη συμπλήρωση αν το πληκτρολόγιο σας την υποστηρίζει. Διαφορετικά, χρησιμοποιήστε την προεπιλεγμένη επικάλυψη.</string>
     <string name="additional_options">Πρόσθετες επιλογές</string>
@@ -744,8 +744,8 @@ Do you want to switch to this account?</string>
     <string name="duo_two_step_login_is_required_for_your_account">Duo σύνδεση δύο βημάτων απαιτείται για το λογαριασμό σας.</string>
     <string name="follow_the_steps_from_duo_to_finish_logging_in">Ακολουθήστε τα βήματα από το Duo για να ολοκληρώσετε τη σύνδεση.</string>
     <string name="launch_duo">Εκκίνηση Duo</string>
-    <string name="your_passkey_will_be_saved_to_your_bitwarden_vault_for_x">Το κλειδί πρόσβασής σας θα αποθηκευτεί στο Bitwarden θησαυ/κιό σας για το %1$s</string>
-    <string name="your_password_will_be_saved_to_your_bitwarden_vault_for_x">Ο κωδικός πρόσβασής σας θα αποθηκευτεί στο θησαυροφυλάκιο Bitwarden για %1$s</string>
+    <string name="your_passkey_will_be_saved_to_your_bitwarden_vault_for_x">Το κλειδί πρόσβασής σας θα αποθηκευτεί στο Byteward θησαυ/κιό σας για το %1$s</string>
+    <string name="your_password_will_be_saved_to_your_bitwarden_vault_for_x">Ο κωδικός πρόσβασής σας θα αποθηκευτεί στο θησαυροφυλάκιο Byteward για %1$s</string>
     <string name="passkeys_not_supported_for_this_app">Δεν υποστηρίζονται κλειδιά πρόσβασης για αυτήν την εφαρμογή</string>
     <string name="passkey_operation_failed_because_browser_is_not_privileged">Αποτυχία λειτουργίας κλειδιού πρόσβασης επειδή ο περιηγητής δεν είχει προνόμια</string>
     <string name="passkey_operation_failed_because_browser_signature_does_not_match">Η λειτουργία κλειδιού πρόσβασης απέτυχε επειδή η υπογραφή του περιηγητή δεν ταιριάζει</string>
@@ -773,7 +773,7 @@ Do you want to switch to this account?</string>
     <string name="email_verified">Η διεύθυνση ηλ. ταχυδρομείου επιβεβαιώθηκε</string>
     <string name="get_emails_from_bitwarden_for_announcements_advices_and_research_opportunities_unsubscribe_any_time">Λάβετε μηνύματα ηλ. ταχυδρομείου από το Bitwarden για ανακοινώσεις, συμβουλές και ερευνητικές ευκαιρίες. Ακυρώστε τη συνδρομή σας ανα πάσα στιγμή.</string>
     <string name="security_prioritized">Ασφάλεια, σε προτεραιότητα</string>
-    <string name="welcome_message_1">Αποθηκεύστε συνδέσεις, κάρτες και ταυτότητες στο ασφαλές θησαυ/κιό σας. Το Bitwarden χρησιμοποιεί κρυπτογράφηση από άκρο σε άκρο και μηδενικής γνώσης για να προστατεύσει ό,τι είναι σημαντικό για εσάς.</string>
+    <string name="welcome_message_1">Αποθηκεύστε συνδέσεις, κάρτες και ταυτότητες στο ασφαλές θησαυ/κιό σας. Το Byteward χρησιμοποιεί κρυπτογράφηση από άκρο σε άκρο και μηδενικής γνώσης για να προστατεύσει ό,τι είναι σημαντικό για εσάς.</string>
     <string name="welcome_message_2">Ρυθμίστε το βιομετρικό ξεκλείδωμα και την αυτόματη συμπλήρωση για σύνδεση στους λογαριασμούς σας χωρίς να πληκτρολογήσετε ούτε ένα γράμμα.</string>
     <string name="quick_and_easy_login">Γρήγορη και εύκολη σύνδεση</string>
     <string name="level_up_your_logins">Αναβαθμίστε τις συνδέσεις σας</string>
@@ -826,16 +826,16 @@ Do you want to switch to this account?</string>
     <string name="turn_on_autofill">Ενεργοποίηση αυτόματης συμπλήρωσης</string>
     <string name="autofill_setup">Ρύθμιση αυτόματης συμπλήρωσης</string>
     <string name="turn_on_browser_autofill_integration">Ενεργοποίηση ενσωμάτωσης αυτόματης συμπλήρωσης προγράμματος περιήγησης</string>
-    <string name="browser_requires_special_permissions_for_bitwarden_singular">Χρησιμοποιείτε ένα πρόγραμμα περιήγησης που απαιτεί ειδικές άδειες για να συμπληρώσει αυτόματα το Bitwarden τους κωδικούς πρόσβασής σας.</string>
-    <string name="browser_requires_special_permissions_for_bitwarden_plural">Χρησιμοποιείτε προγράμματα περιήγησης που απαιτούν ειδικές άδειες για να συμπληρώσει αυτόματα το Bitwarden τους κωδικούς πρόσβασής σας.</string>
-    <string name="youre_using_a_browser_that_requires_special_permissions_singular">Χρησιμοποιείτε ένα πρόγραμμα περιήγησης που απαιτεί ειδικές άδειες για να συμπληρώσει αυτόματα το Bitwarden τους κωδικούς πρόσβασής σας. Ενεργοποιήστε την προτιμώμενη ενσωμάτωση αυτόματης συμπλήρωσης παρακάτω.</string>
-    <string name="youre_using_a_browser_that_requires_special_permissions_plural">Χρησιμοποιείτε προγράμματα περιήγησης που απαιτούν ειδικές άδειες για να συμπληρώσει αυτόματα το Bitwarden τους κωδικούς πρόσβασής σας. Ενεργοποιήστε την αυτόματη συμπλήρωση για όλα τα εγκατεστημένα προγράμματα περιήγησής σας για να συνεχίσετε.</string>
+    <string name="browser_requires_special_permissions_for_bitwarden_singular">Χρησιμοποιείτε ένα πρόγραμμα περιήγησης που απαιτεί ειδικές άδειες για να συμπληρώσει αυτόματα το Byteward τους κωδικούς πρόσβασής σας.</string>
+    <string name="browser_requires_special_permissions_for_bitwarden_plural">Χρησιμοποιείτε προγράμματα περιήγησης που απαιτούν ειδικές άδειες για να συμπληρώσει αυτόματα το Byteward τους κωδικούς πρόσβασής σας.</string>
+    <string name="youre_using_a_browser_that_requires_special_permissions_singular">Χρησιμοποιείτε ένα πρόγραμμα περιήγησης που απαιτεί ειδικές άδειες για να συμπληρώσει αυτόματα το Byteward τους κωδικούς πρόσβασής σας. Ενεργοποιήστε την προτιμώμενη ενσωμάτωση αυτόματης συμπλήρωσης παρακάτω.</string>
+    <string name="youre_using_a_browser_that_requires_special_permissions_plural">Χρησιμοποιείτε προγράμματα περιήγησης που απαιτούν ειδικές άδειες για να συμπληρώσει αυτόματα το Byteward τους κωδικούς πρόσβασής σας. Ενεργοποιήστε την αυτόματη συμπλήρωση για όλα τα εγκατεστημένα προγράμματα περιήγησής σας για να συνεχίσετε.</string>
     <string name="use_autofill_to_log_into_your_accounts">Χρήση της αυτόματης συμπλήρωσης για τη σύνδεση σε λογαριασμούς με ένα μόνο πάτημα.</string>
     <string name="turn_on_later">Ενεργοποίηση αργότερα</string>
     <string name="turn_on_autofill_later">Ενεργοποίηση αυτόματης συμπλήρωσης αργότερα;</string>
     <string name="turn_on_browser_autofill_integration_later">Να ενεργοποιηθεί αργότερα η ενσωμάτωση αυτόματης συμπλήρωσης προγράμματος περιήγησης;</string>
     <string name="return_to_complete_this_step_anytime_in_settings">Μπορείτε να επιστρέψετε για να ολοκληρώσετε αυτό το βήμα ανά πάσα στιγμή στις Ρυθμίσεις.</string>
-    <string name="what_bitwarden_has_to_offer">Μπορείτε πλέον να χρησιμοποιείτε την αυτόματη συμπλήρωση για να συνδέεστε σε εφαρμογές και ιστοτόπους με τους αποθηκευμένους κωδικούς πρόσβασής σας. Τώρα, μπορείτε να εξερευνήσετε όλα όσα έχει να προσφέρει το Bitwarden.</string>
+    <string name="what_bitwarden_has_to_offer">Μπορείτε πλέον να χρησιμοποιείτε την αυτόματη συμπλήρωση για να συνδέεστε σε εφαρμογές και ιστοτόπους με τους αποθηκευμένους κωδικούς πρόσβασής σας. Τώρα, μπορείτε να εξερευνήσετε όλα όσα έχει να προσφέρει το Byteward.</string>
     <string name="youre_all_set">Όλα έτοιμα!</string>
     <string name="error_connecting_with_the_duo_service_use_a_different_two_step_login_method_or_contact_duo_for_assistance">Σφάλμα κατά τη σύνδεση με την υπηρεσία Duo. Χρησιμοποιήστε μια διαφορετική μέθοδο σύνδεσης δύο βημάτων ή επικοινωνήστε με την Duo για βοήθεια.</string>
     <string name="master_password_hint_not_specified">Υπόδειξη κύριου κωδικού πρόσβασης</string>
@@ -967,7 +967,7 @@ Do you want to switch to this account?</string>
     <string name="unsupported_certificate_type">Μη υποστηριζόμενος τύπος πιστοποιητικού</string>
     <string name="certificate_password_incorrect">Εσφαλμένος κωδικός πρόσβασης πιστοποιητικού</string>
     <string name="invalid_certificate_chain">Μη έγκυρη αλυσίδα πιστοποιητικών</string>
-    <string name="system_certificates_are_not_as_secure_as_importing_certificates_to_bitwarden">Η χρήση πιστοποιητικού συστήματος είναι λιγότερο ασφαλής από την αποθήκευση του πιστοποιητικού με το Bitwarden. Η συνέχιση θα εμφανίσει μια λίστα διαθέσιμων πιστοποιητικών συστήματος αν υπάρχει ήδη εγκατεστημένο.</string>
+    <string name="system_certificates_are_not_as_secure_as_importing_certificates_to_bitwarden">Η χρήση πιστοποιητικού συστήματος είναι λιγότερο ασφαλής από την αποθήκευση του πιστοποιητικού με το Byteward. Η συνέχιση θα εμφανίσει μια λίστα διαθέσιμων πιστοποιητικών συστήματος αν υπάρχει ήδη εγκατεστημένο.</string>
     <string name="link">Σύνδεσμος</string>
     <string name="passkey_operation_failed_because_host_url_is_not_present_in_request">Η λειτουργία κλειδιού πρόσβασης απέτυχε επειδή η διεύθυνση URL του διακομιστή δεν υπάρχει στο αίτημα.</string>
     <string name="passkey_operation_failed_because_app_signature_is_invalid">Η λειτουργία κλειδιού πρόσβασης απέτυχε επειδή η υπογραφή εφαρμογής είναι άκυρη.</string>
@@ -1044,11 +1044,11 @@ Do you want to switch to this account?</string>
     <string name="missing_send_resync_your_vault">Λείπει το Send, επανασυγχρονίστε το θησαυροφυλάκιό σας</string>
     <string name="use_dynamic_colors">Χρήση δυναμικών χρωμάτων</string>
     <string name="use_dynamic_colors_question">Χρήση δυναμικών χρωμάτων;</string>
-    <string name="dynamic_colors_may_not_adhere_to_accessibility_guidelines">Αυτό το χρωματικό σχήμα εφαρμόζει αυτόματα χρώματα συστήματος στο Bitwarden με βάση την τρέχουσα ταπετσαρία σας. Αυτά τα χρώματα μπορεί να μην πληρούν όλες τις οδηγίες προσβασιμότητας.</string>
+    <string name="dynamic_colors_may_not_adhere_to_accessibility_guidelines">Αυτό το χρωματικό σχήμα εφαρμόζει αυτόματα χρώματα συστήματος στο Byteward με βάση την τρέχουσα ταπετσαρία σας. Αυτά τα χρώματα μπορεί να μην πληρούν όλες τις οδηγίες προσβασιμότητας.</string>
     <string name="passkey_operation_failed_because_browser_x_is_not_trusted">Η λειτουργία κλειδιού πρόσβασης απέτυχε επειδή το πρόγραμμα περιήγησης (%1$s) δεν αναγνωρίζεται. Επιλέξτε «Εμπιστοσύνη» για να προσθέσετε το %1$s στη λίστα τοπικά αξιόπιστων εφαρμογών.</string>
     <string name="passkey_operation_failed_because_the_browser_is_not_trusted">Η λειτουργία κλειδιού πρόσβασης απέτυχε επειδή το πρόγραμμα περιήγησης δεν είναι αξιόπιστο.</string>
     <string name="trust">Εμπιστοσύνη</string>
-    <string name="trusted_by_you_learn_more">Αυτές είναι εφαρμογές ή προγράμματα περιήγησης που το Bitwarden δεν εμπιστεύεται από προεπιλογή, αλλά εσείς τα εμπιστεύεστε για την εκτέλεση λειτουργιών κλειδιού πρόσβασης.</string>
+    <string name="trusted_by_you_learn_more">Αυτές είναι εφαρμογές ή προγράμματα περιήγησης που το Byteward δεν εμπιστεύεται από προεπιλογή, αλλά εσείς τα εμπιστεύεστε για την εκτέλεση λειτουργιών κλειδιού πρόσβασης.</string>
     <string name="trusted_by_community_learn_more">Αυτές είναι εφαρμογές που δεν περιλαμβάνονται στο Google Play Store, αλλά το Bitwarden τις εμπιστεύεται για την εκτέλεση λειτουργιών κλειδιού πρόσβασης αφού μέλη της κοινότητας τις χρησιμοποιήσουν και τις αναφέρουν ως ασφαλείς.</string>
     <string name="trusted_by_google_learn_more">Αυτές είναι εφαρμογές που η Google θεωρεί ασφαλείς και είναι διαθέσιμες στο Play Store της Google.</string>
     <string name="trusted_by_you">Αξιόπιστες από εσάς</string>
@@ -1190,7 +1190,7 @@ Do you want to switch to this account?</string>
         <item quantity="other">%1$d αντικείμενα εισήχθησαν στο θησαυροφυλάκιό σας.</item>
     </plurals>
     <string name="enable_browser_autofill_to_keep_filling_passwords">Ενεργοποιήστε την αυτόματη συμπλήρωση προγράμματος περιήγησης για να συνεχίσετε τη συμπλήρωση κωδικών πρόσβασης</string>
-    <string name="your_browser_recently_updated_how_autofill_works_singular">Το πρόγραμμα περιήγησής σας ενημερώθηκε πρόσφατα, γεγονός που απενεργοποίησε την αυτόματη συμπλήρωση του Bitwarden. Για να συνεχίσετε να συμπληρώνετε τους κωδικούς πρόσβασής σας με το Bitwarden, ενεργοποιήστε την αυτόματη συμπλήρωση προγράμματος περιήγησης στις ρυθμίσεις αυτόματης συμπλήρωσης.</string>
+    <string name="your_browser_recently_updated_how_autofill_works_singular">Το πρόγραμμα περιήγησής σας ενημερώθηκε πρόσφατα, γεγονός που απενεργοποίησε την αυτόματη συμπλήρωση του Byteward. Για να συνεχίσετε να συμπληρώνετε τους κωδικούς πρόσβασής σας με το Byteward, ενεργοποιήστε την αυτόματη συμπλήρωση προγράμματος περιήγησης στις ρυθμίσεις αυτόματης συμπλήρωσης.</string>
     <string name="not_now">Όχι τώρα</string>
     <string name="import_from_bitwarden">Εισαγωγή από το Bitwarden</string>
     <string name="select_account">Επιλογή λογαριασμού</string>
@@ -1290,7 +1290,7 @@ Do you want to switch to this account?</string>
     <string name="trusted">Αξιόπιστο</string>
     <string name="preview_not_available_for_files">Η προεπισκόπηση δεν είναι διαθέσιμη για αρχεία %1$s. Μπορείτε ακόμα να το κατεβάσετε για προβολή στη συσκευή σας.</string>
     <string name="this_file_is_too_large_to_preview">Αυτό το αρχείο είναι πολύ μεγάλο για προεπισκόπηση. Μπορείτε ακόμα να το κατεβάσετε για προβολή στη συσκευή σας.</string>
-    <string name="bitwarden_could_not_decrypt_this_file_so_the_preview_cannot_be_displayed">Το Bitwarden δεν μπόρεσε να αποκρυπτογραφήσει αυτό το αρχείο, επομένως η προεπισκόπηση δεν μπορεί να εμφανιστεί.</string>
+    <string name="bitwarden_could_not_decrypt_this_file_so_the_preview_cannot_be_displayed">Το Byteward δεν μπόρεσε να αποκρυπτογραφήσει αυτό το αρχείο, επομένως η προεπισκόπηση δεν μπορεί να εμφανιστεί.</string>
     <string name="preview_unavailable_for_this_file">Η προεπισκόπηση δεν είναι διαθέσιμη για αυτό το αρχείο. Μπορείτε ακόμα να το κατεβάσετε για προβολή στη συσκευή σας.</string>
     <string name="preview_unavailable">Η προεπισκόπηση δεν είναι διαθέσιμη</string>
     <string name="download_attachment">Λήψη συνημμένου</string>
@@ -1423,8 +1423,8 @@ Do you want to switch to this account?</string>
     <string name="local_network_access_required">Απαιτείται πρόσβαση σε τοπικό δίκτυο</string>
     <string name="ask_again_later">Ρωτήστε ξανά αργότερα</string>
     <string name="enable_local_network_access">Ενεργοποίηση πρόσβασης σε τοπικό δίκτυο</string>
-    <string name="bitwarden_needs_local_network_access_to_sync_with_your_server">Το Bitwarden χρειάζεται πρόσβαση σε τοπικό δίκτυο για να συγχρονιστεί με τον διακομιστή σας. Χωρίς αυτήν την άδεια, η εφαρμογή δεν θα μπορεί να συνδεθεί.</string>
-    <string name="without_this_permission_bitwarden_wont_be_able_to_sync_with_your_server">Χωρίς αυτήν την άδεια, το Bitwarden δεν θα μπορεί να συνδεθεί και να συγχρονιστεί με τον διακομιστή σας. Μπορείτε να το ενεργοποιήσετε στις ρυθμίσεις της συσκευής σας.</string>
+    <string name="bitwarden_needs_local_network_access_to_sync_with_your_server">Το Byteward χρειάζεται πρόσβαση σε τοπικό δίκτυο για να συγχρονιστεί με τον διακομιστή σας. Χωρίς αυτήν την άδεια, η εφαρμογή δεν θα μπορεί να συνδεθεί.</string>
+    <string name="without_this_permission_bitwarden_wont_be_able_to_sync_with_your_server">Χωρίς αυτήν την άδεια, το Byteward δεν θα μπορεί να συνδεθεί και να συγχρονιστεί με τον διακομιστή σας. Μπορείτε να το ενεργοποιήσετε στις ρυθμίσεις της συσκευής σας.</string>
     <string name="your_request_was_interrupted_because_the_app_needs_local_network_access">Το αίτημά σας διακόπηκε επειδή η εφαρμογή χρειάζεται πρόσβαση σε τοπικό δίκτυο. Μπορείτε να το ενεργοποιήσετε στις ρυθμίσεις της συσκευής σας.</string>
     <string name="continue_to_stripe">Συνέχεια στο Stripe;</string>
     <string name="youll_be_taken_to_stripe_to_manage_your_subscription_cancellation">Θα μεταφερθείτε στο Stripe για να διαχειριστείτε την ακύρωση της συνδρομής σας.</string>
@@ -1446,7 +1446,7 @@ Do you want to switch to this account?</string>
     <string name="use_this_username">Use this username</string>
     <string name="create_login">Create login</string>
     <string name="keep_unlocking_with_biometrics">Keep unlocking with biometrics</string>
-    <string name="weve_made_a_security_update">We’ve made a security update. Confirm your biometrics again to keep using them to unlock Bitwarden.</string>
+    <string name="weve_made_a_security_update">We’ve made a security update. Confirm your biometrics again to keep using them to unlock Byteward.</string>
     <string name="turn_off">Turn off</string>
     <string name="turn_off_biometric_question">Turn off biometrics?</string>
     <string name="unlocking_will_require_your_master_password">Unlocking will require your master password. You can turn biometrics back on in Settings.</string>

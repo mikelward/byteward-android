@@ -47,7 +47,7 @@ class AboutPrivilegedAppsScreenTest : BitwardenComposeTest() {
 
         composeTestRule
             .onNodeWithText(
-                "These are applications or browsers that Bitwarden does not trust by default, " +
+                "These are applications or browsers that Byteward does not trust by default, " +
                     "but you trust to perform passkey operations.",
             )
             .assertIsDisplayed()

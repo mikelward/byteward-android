@@ -75,9 +75,9 @@
     <string name="yes">כן</string>
     <string name="account">חשבון</string>
     <string name="account_created_success">החשבון החדש שלך נוצר!</string>
-    <string name="set_bitwarden_as_passkey_manager_description">הגדר את Bitwarden כספק מפתחות הגישה שלך בהגדרות המכשיר.</string>
+    <string name="set_bitwarden_as_passkey_manager_description">הגדר את Byteward כספק מפתחות הגישה שלך בהגדרות המכשיר.</string>
     <string name="avoid_ambiguous_characters">הימנע מתווים דו־משמעיים</string>
-    <string name="bitwarden_autofill_service">שירות מילוי אוטומטי של Bitwarden</string>
+    <string name="bitwarden_autofill_service">שירות מילוי אוטומטי של Byteward</string>
     <string name="change_master_password">שנה סיסמה ראשית</string>
     <string name="close">סגור</string>
     <string name="close_app">סגור אפליקציה</string>
@@ -177,7 +177,7 @@
     <string name="no_items_for_vault">אין פריטים בכספת שלך התואמים את “%1$s”</string>
     <string name="search_for_a_login_or_add_a_new_login">חפש כניסה או הוסף כניסה חדשה</string>
     <string name="disabled">מושבת</string>
-    <string name="bitwarden_autofill_service_alert2">הדרך הקלה ביותר להוסיף כניסות חדשות לכספת שלך היא דרך שירות המילוי האוטומטי של Bitwarden. למד עוד אודות השימוש בשירות המילוי האוטומטי של Bitwarden על ידי ניווט למסך ה\"הגדרות\".</string>
+    <string name="bitwarden_autofill_service_alert2">הדרך הקלה ביותר להוסיף כניסות חדשות לכספת שלך היא דרך שירות המילוי האוטומטי של Byteward. למד עוד אודות השימוש בשירות המילוי האוטומטי של Byteward על ידי ניווט למסך ה\"הגדרות\".</string>
     <string name="autofill_noun">מילוי אוטומטי</string>
     <string name="autofill_verb">מילוי אוטומטי</string>
     <string name="autofill_or_view">האם ברצונך למלא אוטומטית או להציג פריט זה?</string>
@@ -299,7 +299,7 @@
     <string name="no_items_folder">אין פריטים בתיקייה זו.</string>
     <string name="no_items_trash">אין פריטים בסל המחזור.</string>
     <string name="autofill_accessibility_summary">סייע במילוי שדות שם משתמש וסיסמה ביישומים אחרים וברשת.</string>
-    <string name="autofill_service_description">שירות המילוי האוטומטי של Bitwarden משתמש במסגרת המילוי האוטומטי של אנדרואיד כדי לסייע במילוי פרטי כניסה אל תוך יישומים אחרים במכשיר שלך.</string>
+    <string name="autofill_service_description">שירות המילוי האוטומטי של Byteward משתמש במסגרת המילוי האוטומטי של אנדרואיד כדי לסייע במילוי פרטי כניסה אל תוך יישומים אחרים במכשיר שלך.</string>
     <string name="bitwarden_autofill_go_to_settings">לא הצלחנו לפתוח באופן אוטומטי את תפריט הגדרות המילוי האוטומטי של אנדרואיד עבורך. אתה יכול לנווט לתפריט הגדרות המילוי האוטומטי באופן ידני מהגדרות אנדרואיד &lt; מערכת &lt; שפות &lt; מתקדם &lt; שירות מילוי אוטומטי.</string>
     <string name="custom_field_name">שם שדה מותאם אישית</string>
     <string name="field_type_boolean">בוליאני</string>
@@ -375,7 +375,7 @@
     <string name="pin">PIN</string>
     <string name="unlock">בטל נעילה</string>
     <string name="thirty_minutes">30 דקות</string>
-    <string name="set_pin_description">קבע את קוד ה־PIN שלך לביטול נעילת Bitwarden. הגדרות ה־PIN שלך יאופסו אם אי פעם תצא באופן מלא מהיישום.</string>
+    <string name="set_pin_description">קבע את קוד ה־PIN שלך לביטול נעילת Byteward. הגדרות ה־PIN שלך יאופסו אם אי פעם תצא באופן מלא מהיישום.</string>
     <string name="logged_in_as_on">נכנסת כ־%1$s ב־%2$s.</string>
     <string name="vault_locked_master_password">הכספת שלך נעולה. אמת את הסיסמה הראשית שלך כדי להמשיך.</string>
     <string name="vault_locked_pin">הכספת שלך נעולה. אמת את קוד ה־PIN שלך כדי להמשיך.</string>
@@ -389,7 +389,7 @@
     <string name="clear_clipboard">נקה לוח העתקה</string>
     <string name="clear_clipboard_description">נקה אוטומטית ערכים שהועתקו מלוח ההעתקה שלך.</string>
     <string name="default_uri_match_detection">ברירת מחדל לזיהוי התאמת URI</string>
-    <string name="default_uri_match_detection_description">זיהוי התאמת URI שולט באופן שבו Bitwarden מזהה הצעות למילוי אוטומטי.</string>
+    <string name="default_uri_match_detection_description">זיהוי התאמת URI שולט באופן שבו Byteward מזהה הצעות למילוי אוטומטי.</string>
     <string name="theme">ערכת נושא</string>
     <string name="theme_description">שנה את צבעי ערכת הנושא של היישום</string>
     <string name="copy_notes">העתק הערה</string>
@@ -425,7 +425,7 @@
     <string name="password_generator_policy_in_effect">מדיניות ארגון אחת או יותר משפיעה על הגדרות המחולל שלך</string>
     <string name="unable_to_save_attachment">הייתה בעיה בשמירת צרופה זו. אם הבעיה נמשכת, אתה יכול לשמור אותה מכספת הרשת.</string>
     <string name="save_attachment_success">הצרופה נשמרה בהצלחה</string>
-    <string name="autofill_tile_accessibility_required">נא להפעיל את \"שירות הנגישות של המילוי האוטומטי\" מהגדרות Bitwarden כדי להשתמש באריח המילוי האוטומטי.</string>
+    <string name="autofill_tile_accessibility_required">נא להפעיל את \"שירות הנגישות של המילוי האוטומטי\" מהגדרות Byteward כדי להשתמש באריח המילוי האוטומטי.</string>
     <string name="autofill_tile_uri_not_found">לא זוהו שדות סיסמה</string>
     <string name="soft_deleting">שולח לאשפה…</string>
     <string name="item_soft_deleted">הפריט נשלח לאשפה.</string>
@@ -642,9 +642,9 @@
     <string name="catch_all_email_description">השתמש בתיבת דואר תפוס־כל המוגדרת בדומיין שלך.</string>
     <string name="forwarded_email_description">צור כינוי דוא\"ל עם שירות העברה חיצוני.</string>
     <string name="accessibility_service_disclosure">גילוי נאות בקשר לשירות הנגישות</string>
-    <string name="accessibility_disclosure_text">Bitwarden משתמש בשירות הנגישות כדי לחפש שדות כניסה ביישומים ואתרים, ואז לקבוע את מזהה השדה המתאים להזנת שם משתמש &amp; סיסמה כאשר נמצאה התאמה עבור היישום או האתר. איננו שומרים את המידע שמוגש לנו על ידי השירות, אנחנו גם לא עושים שום ניסיון לשלוט ברכיבים שעל המסך מעבר להזנת טקסט של אישורים.</string>
-    <string name="accessibility_disclosure_start_up_text_1">הודעה זו נדרשת לפני ש-Bitwarden יוכל להציע מילוי אוטומטי מבוסס נגישות.</string>
-    <string name="accessibility_disclosure_start_up_text_2">Bitwarden מציע שיטת מילוי אוטומטי אופציונלית המשתמשת בשירות הנגישות של Android כדי לזהות שדות התחברות. אם תפעיל אותה, Bitwarden יזהה את השדות המתאימים וימלא את פרטי הכניסה שלך כאשר תימצא התאמה.</string>
+    <string name="accessibility_disclosure_text">Byteward משתמש בשירות הנגישות כדי לחפש שדות כניסה ביישומים ואתרים, ואז לקבוע את מזהה השדה המתאים להזנת שם משתמש &amp; סיסמה כאשר נמצאה התאמה עבור היישום או האתר. איננו שומרים את המידע שמוגש לנו על ידי השירות, אנחנו גם לא עושים שום ניסיון לשלוט ברכיבים שעל המסך מעבר להזנת טקסט של אישורים.</string>
+    <string name="accessibility_disclosure_start_up_text_1">הודעה זו נדרשת לפני ש-Byteward יוכל להציע מילוי אוטומטי מבוסס נגישות.</string>
+    <string name="accessibility_disclosure_start_up_text_2">Byteward מציע שיטת מילוי אוטומטי אופציונלית המשתמשת בשירות הנגישות של Android כדי לזהות שדות התחברות. אם תפעיל אותה, Byteward יזהה את השדות המתאימים וימלא את פרטי הכניסה שלך כאשר תימצא התאמה.</string>
     <string name="accessibility_disclosure_start_up_text_3">איננו מאחסנים מידע על מה שמופיע על המסך בזמן השימוש בשירות הנגישות, ואיננו שולטים באלמנטים על המסך מעבר להזנת פרטי כניסה.</string>
     <string name="i_understand">אני מבין</string>
     <string name="accept">קבל</string>
@@ -724,7 +724,7 @@ Do you want to switch to this account?</string>
     <string name="session_timeout">פסק זמן להפעלה</string>
     <string name="session_timeout_action">פעולת פסק זמן להפעלה</string>
     <string name="account_fingerprint_phrase">ביטוי טביעת אצבע של חשבון</string>
-    <string name="passkey_management_explanation_long">השתמש ב־Bitwarden כדי לשמור מפתחות גישה חדשים ולהיכנס עם מפתחות גישה המאוחסנים בכספת שלך.</string>
+    <string name="passkey_management_explanation_long">השתמש ב־Byteward כדי לשמור מפתחות גישה חדשים ולהיכנס עם מפתחות גישה המאוחסנים בכספת שלך.</string>
     <string name="autofill_services_explanation_long">מסגרת המילוי האוטומטי של אנדרואיד משמשת כדי לסייע במילוי פרטי כניסה אל תוך יישומים אחרים במכשיר שלך.</string>
     <string name="use_inline_autofill_explanation_long">השתמש במילוי אוטומטי מוטבע אם המקלדת שבחרת תומכת בכך. אחרת, השתמש בשכבת־העל המהווה ברירת מחדל.</string>
     <string name="additional_options">אפשרויות נוספות</string>
@@ -748,8 +748,8 @@ Do you want to switch to this account?</string>
     <string name="duo_two_step_login_is_required_for_your_account">נדרשת כניסה דו־שלבית של Duo עבור החשבון שלך.</string>
     <string name="follow_the_steps_from_duo_to_finish_logging_in">עקוב אחר השלבים של Duo כדי לסיים להיכנס.</string>
     <string name="launch_duo">פתח את Duo</string>
-    <string name="your_passkey_will_be_saved_to_your_bitwarden_vault_for_x">מפתח הגישה שלך יישמר בכספת ה־Bitwarden שלך עבור %1$s</string>
-    <string name="your_password_will_be_saved_to_your_bitwarden_vault_for_x">הסיסמה שלך תישמר בכספת ה-Bitwarden שלך למשך %1$s</string>
+    <string name="your_passkey_will_be_saved_to_your_bitwarden_vault_for_x">מפתח הגישה שלך יישמר בכספת ה־Byteward שלך עבור %1$s</string>
+    <string name="your_password_will_be_saved_to_your_bitwarden_vault_for_x">הסיסמה שלך תישמר בכספת ה-Byteward שלך למשך %1$s</string>
     <string name="passkeys_not_supported_for_this_app">מפתחות גישה אינן נתמכות עבור יישום זה</string>
     <string name="passkey_operation_failed_because_browser_is_not_privileged">פעולת מפתח גישה נכשלה בגלל שהדפדפן אינו בעל הרשאות</string>
     <string name="passkey_operation_failed_because_browser_signature_does_not_match">פעולת מפתח גישה נכשלה בגלל שחתימת הדפדפן שלך אינה תואמת</string>
@@ -777,7 +777,7 @@ Do you want to switch to this account?</string>
     <string name="email_verified">דוא\"ל אומת</string>
     <string name="get_emails_from_bitwarden_for_announcements_advices_and_research_opportunities_unsubscribe_any_time">קבל הודעות דוא\"ל מאת Bitwarden עבור הכרזות, ייעוץ, והזדמנויות מחקר. <annotation link="unsubscribe">בטל הרשמה</annotation> בכל עת.</string>
     <string name="security_prioritized">אבטחה, מועדפת</string>
-    <string name="welcome_message_1">שמור כניסות, כרטיסים, וזהויות לכספת המאובטחת שלך. Bitwarden משתמש בהצפנה מקצה־לקצה באפס ידיעה כדי להגן על מה שחשוב לך.</string>
+    <string name="welcome_message_1">שמור כניסות, כרטיסים, וזהויות לכספת המאובטחת שלך. Byteward משתמש בהצפנה מקצה־לקצה באפס ידיעה כדי להגן על מה שחשוב לך.</string>
     <string name="welcome_message_2">הגדר ביטול נעילה ביומטרי ומילוי אוטומטי כדי להיכנס לחשבונות שלך מבלי להקליד אות אחת.</string>
     <string name="quick_and_easy_login">כניסה מהירה וקלה</string>
     <string name="level_up_your_logins">שדרג את הכניסות שלך</string>
@@ -831,16 +831,16 @@ Do you want to switch to this account?</string>
     <string name="turn_on_autofill">הפעל מילוי אוטומטי</string>
     <string name="autofill_setup">הגדרת מילוי אוטומטי</string>
     <string name="turn_on_browser_autofill_integration">הפעל אינטגרציית מילוי אוטומטי בדפדפן</string>
-    <string name="browser_requires_special_permissions_for_bitwarden_singular">אתה משתמש בדפדפן שדורש הרשאות מיוחדות בשביל ש־Bitwarden ימלא אוטומטית את הסיסמאות שלך.</string>
-    <string name="browser_requires_special_permissions_for_bitwarden_plural">אתה משתמש בדפדפנים שדורשים הרשאות מיוחדות בשביל ש־Bitwarden ימלא אוטומטית את הסיסמאות שלך.</string>
-    <string name="youre_using_a_browser_that_requires_special_permissions_singular">אתה משתמש בדפדפנים שדורשים הרשאות מיוחדות בשביל ש־Bitwarden ימלא אוטומטית את הסיסמאות שלך. הפעל את אינטגרציית המילוי האוטומטי המועדפת שלך למטה.</string>
-    <string name="youre_using_a_browser_that_requires_special_permissions_plural">אתה משתמש בדפדפנים שדורשים הרשאות מיוחדות בשביל ש־Bitwarden ימלא אוטומטית את הסיסמאות שלך. הפעל מילוי אוטומטי עבור כל הדפדפנים המותקנים שלך כדי להמשיך.</string>
+    <string name="browser_requires_special_permissions_for_bitwarden_singular">אתה משתמש בדפדפן שדורש הרשאות מיוחדות בשביל ש־Byteward ימלא אוטומטית את הסיסמאות שלך.</string>
+    <string name="browser_requires_special_permissions_for_bitwarden_plural">אתה משתמש בדפדפנים שדורשים הרשאות מיוחדות בשביל ש־Byteward ימלא אוטומטית את הסיסמאות שלך.</string>
+    <string name="youre_using_a_browser_that_requires_special_permissions_singular">אתה משתמש בדפדפנים שדורשים הרשאות מיוחדות בשביל ש־Byteward ימלא אוטומטית את הסיסמאות שלך. הפעל את אינטגרציית המילוי האוטומטי המועדפת שלך למטה.</string>
+    <string name="youre_using_a_browser_that_requires_special_permissions_plural">אתה משתמש בדפדפנים שדורשים הרשאות מיוחדות בשביל ש־Byteward ימלא אוטומטית את הסיסמאות שלך. הפעל מילוי אוטומטי עבור כל הדפדפנים המותקנים שלך כדי להמשיך.</string>
     <string name="use_autofill_to_log_into_your_accounts">השתמש במילוי אוטומטי כדי להיכנס לחשבונות שלך בהקשה אחת.</string>
     <string name="turn_on_later">הפעל מאוחר יותר</string>
     <string name="turn_on_autofill_later">להפעיל מילוי אוטומטי מאוחר יותר?</string>
     <string name="turn_on_browser_autofill_integration_later">להפעיל את אינטגרציית המילוי האוטומטי בדפדפן מאוחר יותר?</string>
     <string name="return_to_complete_this_step_anytime_in_settings">אתה יכול לחזור כדי להשלים את השלב הזה בכל עת בהגדרות.</string>
-    <string name="what_bitwarden_has_to_offer">אתה יכול עכשיו לגלות את כל מה שיש ל־Bitwarden להציע ולהתחיל לנהל את הסיסמאות שלך באופן מאובטח.</string>
+    <string name="what_bitwarden_has_to_offer">אתה יכול עכשיו לגלות את כל מה שיש ל־Byteward להציע ולהתחיל לנהל את הסיסמאות שלך באופן מאובטח.</string>
     <string name="youre_all_set">אתה מוכן!</string>
     <string name="error_connecting_with_the_duo_service_use_a_different_two_step_login_method_or_contact_duo_for_assistance">שגיאה בהתחברות עם השירות Duo. השתמש בשיטת כניסה דו־שלבית אחרת או פנה אל Duo לסיוע.</string>
     <string name="master_password_hint_not_specified">רמז לסיסמה הראשית</string>
@@ -973,7 +973,7 @@ Do you want to switch to this account?</string>
     <string name="unsupported_certificate_type">סוג אישור לא נתמך</string>
     <string name="certificate_password_incorrect">סיסמת אישור שגויה</string>
     <string name="invalid_certificate_chain">שרשרת אישורים שגויה</string>
-    <string name="system_certificates_are_not_as_secure_as_importing_certificates_to_bitwarden">שימוש בתעודת מערכת הוא פחות מאובטח מאשר אחסון התעודה עם Bitwarden. בהמשך תוצג רשימה של תעודות מערכת זמינות אם אחת כבר מותקנת.</string>
+    <string name="system_certificates_are_not_as_secure_as_importing_certificates_to_bitwarden">שימוש בתעודת מערכת הוא פחות מאובטח מאשר אחסון התעודה עם Byteward. בהמשך תוצג רשימה של תעודות מערכת זמינות אם אחת כבר מותקנת.</string>
     <string name="link">קישור</string>
     <string name="passkey_operation_failed_because_host_url_is_not_present_in_request">פעולת מפתח גישה נכשלה בגלל שכתובת ה־URL של המארח אינה נמצאת בבקשה.</string>
     <string name="passkey_operation_failed_because_app_signature_is_invalid">פעולת מפתח גישה נכשלה בגלל שחתימת היישום אינה חוקית.</string>
@@ -1050,11 +1050,11 @@ Do you want to switch to this account?</string>
     <string name="missing_send_resync_your_vault">חסרה שליחה, יש לסנכרן מחדש את הכספת שלך</string>
     <string name="use_dynamic_colors">השתמש בצבעים דימניים</string>
     <string name="use_dynamic_colors_question">להשתמש בצבעים דינמיים?</string>
-    <string name="dynamic_colors_may_not_adhere_to_accessibility_guidelines">מערך צבעים זה יחיל באופן אוטומטי צבעי מערכת ב־Bitwarden בהתבסס על הטפט הנוכחי שלך. הצבעים האלה עשויים שלא לעמוד בכל הנחיות הנגישות.</string>
+    <string name="dynamic_colors_may_not_adhere_to_accessibility_guidelines">מערך צבעים זה יחיל באופן אוטומטי צבעי מערכת ב־Byteward בהתבסס על הטפט הנוכחי שלך. הצבעים האלה עשויים שלא לעמוד בכל הנחיות הנגישות.</string>
     <string name="passkey_operation_failed_because_browser_x_is_not_trusted">פעולת מפתח הגישה נכשלה בגלל שהדפדפן (%1$s) אינו מזוהה. בחר “תן אמון“ כדי להוסיף את %1$s לרשימת היישומים המהימנים מקומית.</string>
     <string name="passkey_operation_failed_because_the_browser_is_not_trusted">פעולת מפתח גישה נכשלה בגלל שהדפדפן אינו מהימן.</string>
     <string name="trust">תן אמון</string>
-    <string name="trusted_by_you_learn_more">אלה היישומים או הדפדפנים ש־Bitwarden אינו נותן בהם אמון כברירת מחדל, אבל אתה נותן בהם אמון לביצוע פעולות של מפתח גישה.</string>
+    <string name="trusted_by_you_learn_more">אלה היישומים או הדפדפנים ש־Byteward אינו נותן בהם אמון כברירת מחדל, אבל אתה נותן בהם אמון לביצוע פעולות של מפתח גישה.</string>
     <string name="trusted_by_community_learn_more">אלה היישומים שאינם כלולים ב־Google Play Store, אבל Bitwarden נותנת בהם אמון לביצוע פעולות של מפתח גישה לאחר שחברי הקהילה השתמשו ודיווחו כי הם בטוחים.</string>
     <string name="trusted_by_google_learn_more">אלה היישומים ש־Google מחשיבה כבטוחים ואשר זמינים ב־Play Store של Google.</string>
     <string name="trusted_by_you">מהימנים על ידך</string>
@@ -1199,7 +1199,7 @@ Do you want to switch to this account?</string>
         <item quantity="other">%1$d פריטים יובאו אל הכספת שלך.</item>
     </plurals>
     <string name="enable_browser_autofill_to_keep_filling_passwords">הפעל מילוי אוטומטי בדפדפן כדי להמשך למלא סיסמאות</string>
-    <string name="your_browser_recently_updated_how_autofill_works_singular">הדפדפן שלך עודכן לאחרונה, מה שהשבית את המילוי האוטומטי של Bitwarden. כדי להמשיך למלא סיסמאות עם Bitwarden, יש להפעיל את המילוי האוטומטי של הדפדפן בהגדרות למילוי אוטומטי.</string>
+    <string name="your_browser_recently_updated_how_autofill_works_singular">הדפדפן שלך עודכן לאחרונה, מה שהשבית את המילוי האוטומטי של Byteward. כדי להמשיך למלא סיסמאות עם Byteward, יש להפעיל את המילוי האוטומטי של הדפדפן בהגדרות למילוי אוטומטי.</string>
     <string name="not_now">לא כעת</string>
     <string name="import_from_bitwarden">ייבא מ־Bitwarden</string>
     <string name="select_account">בחר חשבון</string>
@@ -1299,7 +1299,7 @@ Do you want to switch to this account?</string>
     <string name="trusted">מהימן</string>
     <string name="preview_not_available_for_files">תצוגה מקדימה לא זמינה עבור קבצי %1$s. אתה עדיין יכול להוריד אותו כדי לצפות בו במכשיר שלך.</string>
     <string name="this_file_is_too_large_to_preview">קובץ זה גדול מדי לתצוגה מקדימה. אתה עדיין יכול להוריד אותו כדי לצפות בו במכשיר שלך.</string>
-    <string name="bitwarden_could_not_decrypt_this_file_so_the_preview_cannot_be_displayed">Bitwarden לא הצליח לפענח קובץ זה, כך שלא ניתן להציג את התצוגה המקדימה.</string>
+    <string name="bitwarden_could_not_decrypt_this_file_so_the_preview_cannot_be_displayed">Byteward לא הצליח לפענח קובץ זה, כך שלא ניתן להציג את התצוגה המקדימה.</string>
     <string name="preview_unavailable_for_this_file">תצוגה מקדימה לא זמינה עבור קובץ זה. אתה עדיין יכול להוריד אותו כדי לצפות בו במכשיר שלך.</string>
     <string name="preview_unavailable">תצוגה מקדימה לא זמינה</string>
     <string name="download_attachment">הורד קובץ מצורף</string>
@@ -1433,8 +1433,8 @@ Do you want to switch to this account?</string>
     <string name="local_network_access_required">נדרשת גישה לרשת המקומית</string>
     <string name="ask_again_later">שאל שוב מאוחר יותר</string>
     <string name="enable_local_network_access">אפשר גישה לרשת המקומית</string>
-    <string name="bitwarden_needs_local_network_access_to_sync_with_your_server">Bitwarden זקוק לגישה לרשת המקומית כדי לסנכרן עם השרת שלך. ללא הרשאה זו, האפליקציה לא תוכל להתחבר.</string>
-    <string name="without_this_permission_bitwarden_wont_be_able_to_sync_with_your_server">ללא הרשאה זו, Bitwarden לא יוכל להתחבר ולסנכרן עם השרת שלך. תוכל להפעיל זאת בהגדרות המכשיר שלך.</string>
+    <string name="bitwarden_needs_local_network_access_to_sync_with_your_server">Byteward זקוק לגישה לרשת המקומית כדי לסנכרן עם השרת שלך. ללא הרשאה זו, האפליקציה לא תוכל להתחבר.</string>
+    <string name="without_this_permission_bitwarden_wont_be_able_to_sync_with_your_server">ללא הרשאה זו, Byteward לא יוכל להתחבר ולסנכרן עם השרת שלך. תוכל להפעיל זאת בהגדרות המכשיר שלך.</string>
     <string name="your_request_was_interrupted_because_the_app_needs_local_network_access">הבקשה שלך הופסקה מכיוון שהאפליקציה זקוקה לגישה לרשת המקומית. תוכל להפעיל זאת בהגדרות המכשיר שלך.</string>
     <string name="continue_to_stripe">להמשיך אל Stripe?</string>
     <string name="youll_be_taken_to_stripe_to_manage_your_subscription_cancellation">תועבר אל Stripe כדי לנהל את ביטול המנוי שלך.</string>
@@ -1456,7 +1456,7 @@ Do you want to switch to this account?</string>
     <string name="use_this_username">Use this username</string>
     <string name="create_login">Create login</string>
     <string name="keep_unlocking_with_biometrics">Keep unlocking with biometrics</string>
-    <string name="weve_made_a_security_update">We’ve made a security update. Confirm your biometrics again to keep using them to unlock Bitwarden.</string>
+    <string name="weve_made_a_security_update">We’ve made a security update. Confirm your biometrics again to keep using them to unlock Byteward.</string>
     <string name="turn_off">Turn off</string>
     <string name="turn_off_biometric_question">Turn off biometrics?</string>
     <string name="unlocking_will_require_your_master_password">Unlocking will require your master password. You can turn biometrics back on in Settings.</string>

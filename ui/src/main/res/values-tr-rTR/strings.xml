@@ -75,9 +75,9 @@
     <string name="yes">Evet</string>
     <string name="account">Hesap</string>
     <string name="account_created_success">Yeni hesabınız oluşturuldu.</string>
-    <string name="set_bitwarden_as_passkey_manager_description">Cihaz ayarlarınızdan Bitwarden\'ı geçiş anahtarı sağlayıcınız olarak ayarlayın.</string>
+    <string name="set_bitwarden_as_passkey_manager_description">Cihaz ayarlarınızdan Byteward\'ı geçiş anahtarı sağlayıcınız olarak ayarlayın.</string>
     <string name="avoid_ambiguous_characters">Okurken karışabilecek karakterleri kullanma</string>
-    <string name="bitwarden_autofill_service">Bitwarden otomatik doldurma hizmeti</string>
+    <string name="bitwarden_autofill_service">Byteward otomatik doldurma hizmeti</string>
     <string name="change_master_password">Ana parolayı değiştir</string>
     <string name="close">Kapat</string>
     <string name="close_app">Uygulamayı kapat</string>
@@ -176,7 +176,7 @@
     <string name="no_items_for_vault">Kasanızda “%1$s” ile eşleşen kayıt yok</string>
     <string name="search_for_a_login_or_add_a_new_login">Hesap ara veya yeni hesap ekle</string>
     <string name="disabled">Devre dışı</string>
-    <string name="bitwarden_autofill_service_alert2">Kasanıza yeni hesaplar eklemenin en kolay yolu Bitwarden Otomatik Doldurma Hizmeti\'dir. Bu özellik hakkında daha fazla bilgi almak için “Ayarlar” ekranına gidin.</string>
+    <string name="bitwarden_autofill_service_alert2">Kasanıza yeni hesaplar eklemenin en kolay yolu Byteward Otomatik Doldurma Hizmeti\'dir. Bu özellik hakkında daha fazla bilgi almak için “Ayarlar” ekranına gidin.</string>
     <string name="autofill_noun">Otomatik doldurma</string>
     <string name="autofill_verb">Otomatik doldurma</string>
     <string name="autofill_or_view">Bu kaydı otomatik doldurmak veya görüntülemek ister misiniz?</string>
@@ -298,7 +298,7 @@ Kod otomatik olarak taranacaktır.</string>
     <string name="no_items_folder">Bu klasörde hiç kayıt yok.</string>
     <string name="no_items_trash">Çöp kutusunda hiç kayıt yok.</string>
     <string name="autofill_accessibility_summary">Diğer uygulamalarda ve web\'de kullanıcı adlarını ve parolaları doldurmaya yardımcı ol.</string>
-    <string name="autofill_service_description">Bitwarden otomatik doldurma hizmeti, cihazınızdaki diğer uygulamalarda hesap bilgilerini doldurmak için Android Otomatik Doldurma Sistemi\'ni kullanır.</string>
+    <string name="autofill_service_description">Byteward otomatik doldurma hizmeti, cihazınızdaki diğer uygulamalarda hesap bilgilerini doldurmak için Android Otomatik Doldurma Sistemi\'ni kullanır.</string>
     <string name="bitwarden_autofill_go_to_settings">Android otomatik doldurma ayarları menüsünü otomatik olarak açamadık. Lütfen şu yolu izleyerek otomatik doldurma ayarları menüsüne gidin: Android ayarları &gt; Sistem&gt; Dil ve giriş &gt; Gelişmiş &gt; Otomatik doldurma hizmeti.</string>
     <string name="custom_field_name">Özel alan adı</string>
     <string name="field_type_boolean">Boole</string>
@@ -373,7 +373,7 @@ Kod otomatik olarak taranacaktır.</string>
     <string name="pin">PIN</string>
     <string name="unlock">Kilidi aç</string>
     <string name="thirty_minutes">30 dakika</string>
-    <string name="set_pin_description">PIN\'iniz en az 4 karakter olmalıdır. Bitwarden uygulamasından manuel olarak çıkış yaparsanız PIN ayarlarınız sıfırlanacaktır.</string>
+    <string name="set_pin_description">PIN\'iniz en az 4 karakter olmalıdır. Byteward uygulamasından manuel olarak çıkış yaparsanız PIN ayarlarınız sıfırlanacaktır.</string>
     <string name="logged_in_as_on">%2$s sitesine %1$s olarak giriş yapıldı.</string>
     <string name="vault_locked_master_password">Kasanız kilitli. Devam etmek için ana parolanızı doğrulayın.</string>
     <string name="vault_locked_pin">Kasanız kilitli. Devam etmek için PIN kodunuzu doğrulayın.</string>
@@ -387,7 +387,7 @@ Kod otomatik olarak taranacaktır.</string>
     <string name="clear_clipboard">Panoyu temizle</string>
     <string name="clear_clipboard_description">Kopyalanan değerleri panodan otomatik olarak temizle.</string>
     <string name="default_uri_match_detection">Varsayılan URI eşleşme tespiti</string>
-    <string name="default_uri_match_detection_description">URl eşleştirme tespiti, Bitwarden\'ın otomatik doldurma önerilerini yönetir.</string>
+    <string name="default_uri_match_detection_description">URl eşleştirme tespiti, Byteward\'ın otomatik doldurma önerilerini yönetir.</string>
     <string name="theme">Tema</string>
     <string name="theme_description">Uygulamanın renk temasını değiştir</string>
     <string name="copy_notes">Notu kopyala</string>
@@ -423,7 +423,7 @@ Kod otomatik olarak taranacaktır.</string>
     <string name="password_generator_policy_in_effect">Bir veya daha fazla kuruluş ilkesi üreteç ayarlarınızı etkiliyor</string>
     <string name="unable_to_save_attachment">Bu ek kaydedilirken bir sorun oluştu. Sorun devam ederse eki web kasasından kaydedebilirsiniz.</string>
     <string name="save_attachment_success">Dosya başarıyla kaydedildi</string>
-    <string name="autofill_tile_accessibility_required">Otomatik doldurma kutusunu kullanmak için lütfen Bitwarden ayarlarından “Otomatik Doldurma Erişilebilirlik Hizmeti”ni açın.</string>
+    <string name="autofill_tile_accessibility_required">Otomatik doldurma kutusunu kullanmak için lütfen Byteward ayarlarından “Otomatik Doldurma Erişilebilirlik Hizmeti”ni açın.</string>
     <string name="autofill_tile_uri_not_found">Parola alanı tespit edilemedi</string>
     <string name="soft_deleting">Çöp kutusuna gönderiliyor…</string>
     <string name="item_soft_deleted">Kayıt çöp kutusuna gönderildi.</string>
@@ -637,9 +637,9 @@ Kod otomatik olarak taranacaktır.</string>
     <string name="catch_all_email_description">Alan adınızın tüm iletileri yakalamaya ayarlanmış adresini kullanın.</string>
     <string name="forwarded_email_description">Harici bir yönlendirme servisiyle e-posta maskesi oluştur.</string>
     <string name="accessibility_service_disclosure">Erişilebilirlik Hizmeti Beyanı</string>
-    <string name="accessibility_disclosure_text">Bitwarden; uygulamalarda ve web sitelerinde giriş alanlarını bulmak ve eşleşme bulunduğunda kullanıcı adı ve parolayı doldurmak için erişilebilirlik hizmetini kullanır. Hizmetin bize sunduğu hiçbir bilgiyi saklamayız ve hesap bilgilerinin girilmesi dışında ekrandaki öğeleri değiştirmek için herhangi bir girişimde bulunmayız.</string>
-    <string name="accessibility_disclosure_start_up_text_1">Bitwarden\'ın erişilebilirlik tabanlı otomatik doldurma sunabilmesi için bu bildirimin gösterilmesi zorunludur.</string>
-    <string name="accessibility_disclosure_start_up_text_2">Bitwarden, giriş alanlarını algılamak için Android\'in Erişilebilirlik Hizmeti\'ni kullanan isteğe bağlı bir otomatik doldurma yöntemi sunar. Bunu etkinleştirirsen Bitwarden uygun alanları belirler ve eşleşme bulunduğunda kimlik bilgilerini otomatik olarak doldurur.</string>
+    <string name="accessibility_disclosure_text">Byteward; uygulamalarda ve web sitelerinde giriş alanlarını bulmak ve eşleşme bulunduğunda kullanıcı adı ve parolayı doldurmak için erişilebilirlik hizmetini kullanır. Hizmetin bize sunduğu hiçbir bilgiyi saklamayız ve hesap bilgilerinin girilmesi dışında ekrandaki öğeleri değiştirmek için herhangi bir girişimde bulunmayız.</string>
+    <string name="accessibility_disclosure_start_up_text_1">Byteward\'ın erişilebilirlik tabanlı otomatik doldurma sunabilmesi için bu bildirimin gösterilmesi zorunludur.</string>
+    <string name="accessibility_disclosure_start_up_text_2">Byteward, giriş alanlarını algılamak için Android\'in Erişilebilirlik Hizmeti\'ni kullanan isteğe bağlı bir otomatik doldurma yöntemi sunar. Bunu etkinleştirirsen Byteward uygun alanları belirler ve eşleşme bulunduğunda kimlik bilgilerini otomatik olarak doldurur.</string>
     <string name="accessibility_disclosure_start_up_text_3">Erişilebilirlik Hizmeti\'ni kullanırken ekranda görüntülenen hiçbir bilgiyi saklamayız ve kimlik bilgilerini doldurmanın dışında ekrandaki hiçbir öğeyi kontrol etmeyiz.</string>
     <string name="i_understand">Anladım</string>
     <string name="accept">Kabul et</string>
@@ -719,8 +719,8 @@ Bu hesaba geçmek ister misiniz?</string>
     <string name="session_timeout">Oturum zaman aşımı</string>
     <string name="session_timeout_action">Oturum zaman aşımı eylemi</string>
     <string name="account_fingerprint_phrase">Hesap parmak izi ifadesi</string>
-    <string name="passkey_management_explanation_long">Bitwarden\'ı yeni geçiş anahtarları kaydetmek ve kasadaki geçiş anahtarlarıyla giriş yapmak için kullanabilirsiniz.</string>
-    <string name="autofill_services_explanation_long">Cihazınızdaki diğer uygulamalara giriş yapmak için Bitwarden\'ın kayıtlı hesapları kullanmasına izin verin.</string>
+    <string name="passkey_management_explanation_long">Byteward\'ı yeni geçiş anahtarları kaydetmek ve kasadaki geçiş anahtarlarıyla giriş yapmak için kullanabilirsiniz.</string>
+    <string name="autofill_services_explanation_long">Cihazınızdaki diğer uygulamalara giriş yapmak için Byteward\'ın kayıtlı hesapları kullanmasına izin verin.</string>
     <string name="use_inline_autofill_explanation_long">Cihazınızdaki diğer uygulamalara giriş yaparken otomatik doldurma önerilerinin nasıl görüneceğini seçin.</string>
     <string name="additional_options">Ek seçenekler</string>
     <string name="continue_to_web_app">Web uygulamasına devam edilsin mi?</string>
@@ -743,8 +743,8 @@ Bu hesaba geçmek ister misiniz?</string>
     <string name="duo_two_step_login_is_required_for_your_account">Hesabınız için Duo iki adımlı giriş gereklidir.</string>
     <string name="follow_the_steps_from_duo_to_finish_logging_in">Girişi tamamlamak için Duo\'daki adımları izleyin.</string>
     <string name="launch_duo">Duo\'yu başlat</string>
-    <string name="your_passkey_will_be_saved_to_your_bitwarden_vault_for_x">%1$s için geçiş anahtarınız Bitwarden kasasına kaydedilecektir</string>
-    <string name="your_password_will_be_saved_to_your_bitwarden_vault_for_x">Parolanız %1$s Bitwarden kasanıza kaydedilecektir</string>
+    <string name="your_passkey_will_be_saved_to_your_bitwarden_vault_for_x">%1$s için geçiş anahtarınız Byteward kasasına kaydedilecektir</string>
+    <string name="your_password_will_be_saved_to_your_bitwarden_vault_for_x">Parolanız %1$s Byteward kasanıza kaydedilecektir</string>
     <string name="passkeys_not_supported_for_this_app">Bu uygulamada geçiş anahtarları desteklenmiyor</string>
     <string name="passkey_operation_failed_because_browser_is_not_privileged">Tarayıcı izinli olmadığı için geçiş anahtarı işlemi başarısız oldu</string>
     <string name="passkey_operation_failed_because_browser_signature_does_not_match">Tarayıcı imzası eşleşmediği için geçiş anahtarı işlemi başarısız oldu</string>
@@ -772,7 +772,7 @@ Bu hesaba geçmek ister misiniz?</string>
     <string name="email_verified">E-posta doğrulandı</string>
     <string name="get_emails_from_bitwarden_for_announcements_advices_and_research_opportunities_unsubscribe_any_time">Bitwarden\'dan duyurular, öneriler ve araştırmalarla ilgili e-postalar alın. İstediğiniz zaman aboneliğinizi <annotation link="unsubscribe">iptal edebilirsiniz</annotation>.</string>
     <string name="security_prioritized">Önce güvenlik</string>
-    <string name="welcome_message_1">Hesaplarınızı, kartlarınızı ve kimliklerinizi güvenli kasanıza kaydedin. Bitwarden\'ın sıfır bilgi ispatlı uçtan uca şifrelemesi sizin için önemli olan her şeyi korur.</string>
+    <string name="welcome_message_1">Hesaplarınızı, kartlarınızı ve kimliklerinizi güvenli kasanıza kaydedin. Byteward\'ın sıfır bilgi ispatlı uçtan uca şifrelemesi sizin için önemli olan her şeyi korur.</string>
     <string name="welcome_message_2">Hesaplarınıza parola yazmadan giriş yapmak için biyometrik kilit açmayı ayarlayabilirsiniz.</string>
     <string name="quick_and_easy_login">Hızlı ve kolay giriş</string>
     <string name="level_up_your_logins">Hesaplarınızı güçlendirin</string>
@@ -825,16 +825,16 @@ Bu hesaba geçmek ister misiniz?</string>
     <string name="turn_on_autofill">Otomatik doldurmayı etkinleştir</string>
     <string name="autofill_setup">Otomatik doldurma kurulumu</string>
     <string name="turn_on_browser_autofill_integration">Tarayıcıda otomatik doldurma entegrasyonunu etkinleştirin</string>
-    <string name="browser_requires_special_permissions_for_bitwarden_singular">Bitwarden\'ın parolalarınızı otomatik olarak doldurması için özel izinler gerektiren tarayıcılar kullanıyorsunuz.</string>
-    <string name="browser_requires_special_permissions_for_bitwarden_plural">Bitwarden\'ın parolalarınızı otomatik olarak doldurması için özel izinler gerektiren tarayıcılar kullanıyorsunuz.</string>
-    <string name="youre_using_a_browser_that_requires_special_permissions_singular">Bitwarden\'ın parolalarınızı otomatik olarak doldurması için özel izin gerektiren bir tarayıcı kullanıyorsunuz. Tercih ettiğiniz otomatik doldurma entegrasyonunu aşağıdan etkinleştirin.</string>
-    <string name="youre_using_a_browser_that_requires_special_permissions_plural">Bitwarden\'ın parolalarınızı otomatik olarak doldurması için özel izin gerektiren tarayıcılar kullanıyorsunuz. Devam etmek için yüklü tarayıcılarınızda otomatik doldurma entegrasyonunu etkinleştirin.</string>
+    <string name="browser_requires_special_permissions_for_bitwarden_singular">Byteward\'ın parolalarınızı otomatik olarak doldurması için özel izinler gerektiren tarayıcılar kullanıyorsunuz.</string>
+    <string name="browser_requires_special_permissions_for_bitwarden_plural">Byteward\'ın parolalarınızı otomatik olarak doldurması için özel izinler gerektiren tarayıcılar kullanıyorsunuz.</string>
+    <string name="youre_using_a_browser_that_requires_special_permissions_singular">Byteward\'ın parolalarınızı otomatik olarak doldurması için özel izin gerektiren bir tarayıcı kullanıyorsunuz. Tercih ettiğiniz otomatik doldurma entegrasyonunu aşağıdan etkinleştirin.</string>
+    <string name="youre_using_a_browser_that_requires_special_permissions_plural">Byteward\'ın parolalarınızı otomatik olarak doldurması için özel izin gerektiren tarayıcılar kullanıyorsunuz. Devam etmek için yüklü tarayıcılarınızda otomatik doldurma entegrasyonunu etkinleştirin.</string>
     <string name="use_autofill_to_log_into_your_accounts">Hesaplarınıza tek dokunuşla giriş yapmak için otomatik doldurmayı kullanabilirsiniz.</string>
     <string name="turn_on_later">Daha sonra etkinleştir</string>
     <string name="turn_on_autofill_later">Otomatik doldurma daha sonra mı etkinleştirilsin?</string>
     <string name="turn_on_browser_autofill_integration_later">Tarayıcıda otomatik doldurma entegrasyonu şimdilik etkinleştirilmesin mi?</string>
     <string name="return_to_complete_this_step_anytime_in_settings">İstediğiniz zaman Ayarlar\'a girerek bu adımı tamamlayabilirsiniz.</string>
-    <string name="what_bitwarden_has_to_offer">Artık kayıtlı parolalarınızı kullanarak uygulamalara ve web sitelerine giriş yapmak için otomatik doldurmayı kullanabilirsiniz. Bitwarden\'ın sunduğu tüm imkânları keşfetmeye hazırsınız.</string>
+    <string name="what_bitwarden_has_to_offer">Artık kayıtlı parolalarınızı kullanarak uygulamalara ve web sitelerine giriş yapmak için otomatik doldurmayı kullanabilirsiniz. Byteward\'ın sunduğu tüm imkânları keşfetmeye hazırsınız.</string>
     <string name="youre_all_set">Artık hazırsınız!</string>
     <string name="error_connecting_with_the_duo_service_use_a_different_two_step_login_method_or_contact_duo_for_assistance">Duo hizmetine bağlanırken hata oluştu. Başka bir iki aşamalı giriş yöntemi kullanın veya destek almak Duo ile iletişime geçin.</string>
     <string name="master_password_hint_not_specified">Ana parola ipucu</string>
@@ -966,7 +966,7 @@ Bu hesaba geçmek ister misiniz?</string>
     <string name="unsupported_certificate_type">Desteklenmeyen sertifika türü</string>
     <string name="certificate_password_incorrect">Sertifika parolası hatalı</string>
     <string name="invalid_certificate_chain">Geçersiz sertifika zinciri</string>
-    <string name="system_certificates_are_not_as_secure_as_importing_certificates_to_bitwarden">Sistem sertifikası kullanmak, sertifikayı Bitwarden ile saklamaktan daha az güvenlidir. Devam ettiğinizde, zaten yüklü bir sistem sertifikası varsa, mevcut sistem sertifikalarının listesi görüntülenir.</string>
+    <string name="system_certificates_are_not_as_secure_as_importing_certificates_to_bitwarden">Sistem sertifikası kullanmak, sertifikayı Byteward ile saklamaktan daha az güvenlidir. Devam ettiğinizde, zaten yüklü bir sistem sertifikası varsa, mevcut sistem sertifikalarının listesi görüntülenir.</string>
     <string name="link">Bağlantı</string>
     <string name="passkey_operation_failed_because_host_url_is_not_present_in_request">Ana bilgisayar URL\'si istekte yer almadığı için geçiş anahtarı işlemi başarısız oldu.</string>
     <string name="passkey_operation_failed_because_app_signature_is_invalid">Uygulama imzası geçersiz olduğu için geçiş anahtarı işlemi başarısız oldu.</string>
@@ -1047,7 +1047,7 @@ Bu hesaba geçmek ister misiniz?</string>
     <string name="passkey_operation_failed_because_browser_x_is_not_trusted">Passkey işlemi, tarayıcı (%1$s) tanınmadığı için başarısız oldu. %1$s uygulamasını yerel olarak güvenilen uygulamalar listesine eklemek için “Güven”i seçin.</string>
     <string name="passkey_operation_failed_because_the_browser_is_not_trusted">Tarayıcı güvenilir olmadığı için anahtar işlemi başarısız oldu.</string>
     <string name="trust">Güven</string>
-    <string name="trusted_by_you_learn_more">Bunlar, Bitwarden\'ın varsayılan olarak güvenmediği, ancak sizin anahtar işlemlerini gerçekleştirmek için güvendiğiniz uygulamalar veya tarayıcılardır.</string>
+    <string name="trusted_by_you_learn_more">Bunlar, Byteward\'ın varsayılan olarak güvenmediği, ancak sizin anahtar işlemlerini gerçekleştirmek için güvendiğiniz uygulamalar veya tarayıcılardır.</string>
     <string name="trusted_by_community_learn_more">Bunlar Google Play Store\'da bulunmayan uygulamalardır, ancak Bitwarden, topluluk üyeleri bunları kullandıktan ve güvenli olarak bildirdikten sonra şifre anahtarı işlemlerini gerçekleştirmeleri için bu uygulamalara güvenmektedir.</string>
     <string name="trusted_by_google_learn_more">Bunlar, Google’ın güvenli olarak gördüğü ve Google Play Store’da sunulan uygulamalardır.</string>
     <string name="trusted_by_you">Sizin Tarafınızdan Güvenilen</string>
@@ -1189,7 +1189,7 @@ Bu hesaba geçmek ister misiniz?</string>
         <item quantity="other">%1$d kayıt kasaya aktarıldı.</item>
     </plurals>
     <string name="enable_browser_autofill_to_keep_filling_passwords">Parolaları doldurmaya devam etmek için tarayıcıda otomatik doldurma etkinleştirin</string>
-    <string name="your_browser_recently_updated_how_autofill_works_singular">Tarayıcınız yakın zamanda güncellendi ve bu güncelleme Bitwarden otomatik doldurmayı devre dışı bıraktı. Parolalarınızı Bitwarden ile doldurmaya devam etmek için, otomatik doldurmayı tarayıcı otomatik doldurma ayarlarından etkinleştirin.</string>
+    <string name="your_browser_recently_updated_how_autofill_works_singular">Tarayıcınız yakın zamanda güncellendi ve bu güncelleme Byteward otomatik doldurmayı devre dışı bıraktı. Parolalarınızı Byteward ile doldurmaya devam etmek için, otomatik doldurmayı tarayıcı otomatik doldurma ayarlarından etkinleştirin.</string>
     <string name="not_now">Şimdi değil</string>
     <string name="import_from_bitwarden">Bitwarden\'dan içe aktar</string>
     <string name="select_account">Hesap seç</string>
@@ -1289,7 +1289,7 @@ Bu hesaba geçmek ister misiniz?</string>
     <string name="trusted">Güvenilen</string>
     <string name="preview_not_available_for_files">Önizleme %1$s dosyaları için kullanılamaz. Yine de indirebilir ve kendi cihazında görüntüleyebilirsin.</string>
     <string name="this_file_is_too_large_to_preview">Bu dosya önizleme için çok büyük. Yine de indirip cihazınızda görüntüleyebilirsiniz.</string>
-    <string name="bitwarden_could_not_decrypt_this_file_so_the_preview_cannot_be_displayed">Bitwarden bu dosyanın şifresini çözemediği için önizleme görüntülenemiyor.</string>
+    <string name="bitwarden_could_not_decrypt_this_file_so_the_preview_cannot_be_displayed">Byteward bu dosyanın şifresini çözemediği için önizleme görüntülenemiyor.</string>
     <string name="preview_unavailable_for_this_file">Bu dosya için önizleme kullanılamıyor. Görüntülemek için yine de cihazına indirebilirsin.</string>
     <string name="preview_unavailable">Ön izleme kullanılamıyor</string>
     <string name="download_attachment">Ek dosyayı indir</string>
@@ -1422,8 +1422,8 @@ Bu hesaba geçmek ister misiniz?</string>
     <string name="local_network_access_required">Yerel ağ izini gerekiyor</string>
     <string name="ask_again_later">Sonra yeniden sor</string>
     <string name="enable_local_network_access">Yerel ağ erişimini etkinleştir</string>
-    <string name="bitwarden_needs_local_network_access_to_sync_with_your_server">Bitwarden\'ın sunucunuzla eşitlenebilmesi için yerel ağ erişimine ihtiyacı vardır. Bu izin verilmezse uygulama sunucunuza bağlanamaz.</string>
-    <string name="without_this_permission_bitwarden_wont_be_able_to_sync_with_your_server">Without this permission, Bitwarden won’t be able to connect and sync with your server. You can enable this in your device settings.</string>
+    <string name="bitwarden_needs_local_network_access_to_sync_with_your_server">Byteward\'ın sunucunuzla eşitlenebilmesi için yerel ağ erişimine ihtiyacı vardır. Bu izin verilmezse uygulama sunucunuza bağlanamaz.</string>
+    <string name="without_this_permission_bitwarden_wont_be_able_to_sync_with_your_server">Without this permission, Byteward won’t be able to connect and sync with your server. You can enable this in your device settings.</string>
     <string name="your_request_was_interrupted_because_the_app_needs_local_network_access">İsteğiniz, uygulamanın yerel ağ erişimine ihtiyaç duyması nedeniyle kesintiye uğradı. Bu izni cihaz ayarlarınızdan etkinleştirebilirsiniz.</string>
     <string name="continue_to_stripe">Stripe\'a devam edilsin mi?</string>
     <string name="youll_be_taken_to_stripe_to_manage_your_subscription_cancellation">Abonelik iptalinizi yönetmek için Stripe\'a yönlendirileceksiniz.</string>
@@ -1445,7 +1445,7 @@ Bu hesaba geçmek ister misiniz?</string>
     <string name="use_this_username">Bu kullanıcı adını kullan</string>
     <string name="create_login">Hesap oluştur</string>
     <string name="keep_unlocking_with_biometrics">Kilidi biyometri ile açmaya devam edin</string>
-    <string name="weve_made_a_security_update">Bir güvenlik güncellemesi yaptık. Bitwarden kilidini açmak için biyometri kullanmaya devam etmek isterseniz biyometrinizi doğrulayın.</string>
+    <string name="weve_made_a_security_update">Bir güvenlik güncellemesi yaptık. Byteward kilidini açmak için biyometri kullanmaya devam etmek isterseniz biyometrinizi doğrulayın.</string>
     <string name="turn_off">Devre dışı bırak</string>
     <string name="turn_off_biometric_question">Biyometri devre dışı bırakılsın mı?</string>
     <string name="unlocking_will_require_your_master_password">Kilidi açmak için ana parolanızı kullanmanız gerekecek. İstediğiniz zaman Ayarlar menüsünden biyometriyi yeniden etkinleştirebilirsiniz.</string>
