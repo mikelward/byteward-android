@@ -61,7 +61,7 @@ configure<ApplicationExtension> {
 
     defaultConfig {
         // Byteward's own app ID, so it installs and publishes separately from Bitwarden.
-        applicationId = "com.mikelward.byteward"
+        applicationId = "app.byteward"
         minSdk {
             version = release(libs.versions.minSdk.get().toInt())
         }
