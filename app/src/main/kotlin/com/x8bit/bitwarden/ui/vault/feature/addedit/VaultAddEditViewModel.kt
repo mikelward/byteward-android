@@ -2739,7 +2739,6 @@ class VaultAddEditViewModel @AssistedInject constructor(
     //endregion Utility Functions
 }
 
-@Suppress("MagicNumber")
 /**
  * Fills in [defaultLoginUsername] as the username of a new login that doesn't have one yet.
  */
@@ -2751,6 +2750,7 @@ private fun VaultAddEditState.ViewState.Content.withDefaultLoginUsername(
     return copy(type = login.copy(username = defaultLoginUsername))
 }
 
+@Suppress("MagicNumber")
 private fun String.toExpirationMonth(): VaultCardExpirationMonth =
     when (this.toIntOrNull()) {
         1 -> VaultCardExpirationMonth.JANUARY
