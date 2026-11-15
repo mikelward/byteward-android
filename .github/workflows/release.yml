@@ -1,0 +1,210 @@
+name: release
+
+# Builds a signed release APK and Play Store bundle (AAB) and attaches them,
+# with checksums, to a GitHub release.
+#
+# Runs when a tag like v2026.11.0-1 is pushed. The version name is the tag
+# without its "v"; the version code is the run number plus 100000, which
+# always goes up, as Play requires.
+#
+# Three jobs, so that no job holds more than it needs:
+#   build    runs Gradle, and therefore dependency and plugin code. Holds no
+#            secret and no token that can write anything.
+#   sign     holds the signing key, from the `release` environment's secrets.
+#            Runs no dependency code: no checkout, only the Android SDK's
+#            zipalign and apksigner and the JDK's jarsigner on the artifacts.
+#   publish  holds `contents: write` to create the release. Runs nothing but
+#            the GitHub CLI on the signed artifacts.
+#
+# Setup, once: create an environment named `release` (Settings > Environments)
+# and add these secrets to it, not to the repository:
+#   BYTEWARD_KEYSTORE_BASE64  the release keystore, base64-encoded
+#   BYTEWARD_KEYSTORE_PASSWORD
+#   BYTEWARD_KEY_ALIAS
+#   BYTEWARD_KEY_PASSWORD
+on:
+  push:
+    tags: ["v*"]
+
+# Read by default; only the jobs that need more ask for it, in their own block.
+permissions:
+  contents: read
+
+# Two releases at once would race to create the same release, so they run one
+# at a time. A running release is never cancelled part-way.
+concurrency:
+  group: release
+  cancel-in-progress: false
+
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-24.04
+    timeout-minutes: 45
+    permissions:
+      contents: read
+      packages: read  # the Bitwarden SDK, from GitHub Packages
+    outputs:
+      version-name: ${{ steps.version.outputs.name }}
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          persist-credentials: false
+
+      - name: Setup Android Build
+        uses: ./.github/actions/setup-android-build
+
+      - name: Set the version from the tag
+        id: version
+        env:
+          TAG: ${{ github.ref_name }}
+          RUN_NUMBER: ${{ github.run_number }}
+        run: |
+          VERSION_NAME="${TAG#v}"
+          VERSION_CODE=$((100000 + RUN_NUMBER))
+          sed -i "s/^appVersionName = .*/appVersionName = \"$VERSION_NAME\"/" gradle/libs.versions.toml
+          sed -i "s/^appVersionCode = .*/appVersionCode = \"$VERSION_CODE\"/" gradle/libs.versions.toml
+          echo "name=$VERSION_NAME" >> "$GITHUB_OUTPUT"
+          echo "::notice::Version $VERSION_NAME ($VERSION_CODE)"
+
+      # The standard flavor applies the Google Services plugin, which refuses to
+      # build without a google-services.json. Upstream downloads Bitwarden's
+      # from its own vault; Byteward has no Firebase project yet. Until it has
+      # one (commit its app/src/standardRelease/google-services.json -- the file
+      # is client configuration, not a secret), the release gets a placeholder:
+      # the app builds and runs, and push notifications and crash reports are
+      # simply unavailable.
+      - name: Provide a placeholder Firebase config if the repo has none
+        id: firebase
+        run: |
+          CONFIG=app/src/standardRelease/google-services.json
+          if [ -f "$CONFIG" ]; then
+            echo "Using the committed $CONFIG"
+            exit 0
+          fi
+          APPLICATION_ID=$(sed -n 's/^ *applicationId = "\(.*\)"/\1/p' app/build.gradle.kts | head -1)
+          mkdir -p "$(dirname "$CONFIG")"
+          cat > "$CONFIG" <<EOF
+          {
+            "project_info": {
+              "project_number": "000000000000",
+              "project_id": "byteward-placeholder",
+              "storage_bucket": "byteward-placeholder.appspot.com"
+            },
+            "client": [
+              {
+                "client_info": {
+                  "mobilesdk_app_id": "1:000000000000:android:0000000000000000",
+                  "android_client_info": { "package_name": "$APPLICATION_ID" }
+                },
+                "oauth_client": [],
+                "api_key": [{ "current_key": "placeholder" }],
+                "services": { "appinvite_service": { "other_platform_oauth_client": [] } }
+              }
+            ],
+            "configuration_version": "1"
+          }
+          EOF
+          echo "placeholder=true" >> "$GITHUB_OUTPUT"
+          echo "::warning::No $CONFIG committed; built with a placeholder, so push notifications and crash reports are unavailable."
+
+      # With the placeholder there is no Firebase project to receive the
+      # Crashlytics mapping file, and the upload the plugin does by default on a
+      # minified build would fail the release, so it is skipped.
+      - name: Build the release APK and bundle
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          PLACEHOLDER_FIREBASE: ${{ steps.firebase.outputs.placeholder }}
+        run: |
+          SKIP=()
+          if [ "$PLACEHOLDER_FIREBASE" = "true" ]; then
+            SKIP=(-x uploadCrashlyticsMappingFileStandardRelease)
+          fi
+          ./gradlew :app:assembleStandardRelease :app:bundleStandardRelease "${SKIP[@]}" --stacktrace
+
+      - name: Collect the unsigned outputs
+        run: |
+          mkdir -p unsigned
+          cp "$(find app/build/outputs/apk/standard/release -name '*.apk' | head -1)" unsigned/app.apk
+          cp "$(find app/build/outputs/bundle -path '*standardRelease*' -name '*.aab' | head -1)" unsigned/app.aab
+
+      - uses: actions/upload-artifact@v7
+        with:
+          name: unsigned
+          path: unsigned/
+          if-no-files-found: error
+
+  sign:
+    name: Sign
+    needs: build
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    environment: release
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/download-artifact@v6
+        with:
+          name: unsigned
+          path: unsigned
+
+      - name: Sign the APK and bundle
+        env:
+          VERSION_NAME: ${{ needs.build.outputs.version-name }}
+          KEYSTORE_BASE64: ${{ secrets.BYTEWARD_KEYSTORE_BASE64 }}
+          KEYSTORE_PASSWORD: ${{ secrets.BYTEWARD_KEYSTORE_PASSWORD }}
+          KEY_ALIAS: ${{ secrets.BYTEWARD_KEY_ALIAS }}
+          KEY_PASSWORD: ${{ secrets.BYTEWARD_KEY_PASSWORD }}
+        run: |
+          if [ -z "$KEYSTORE_BASE64" ]; then
+            echo "::error::The release environment has no BYTEWARD_KEYSTORE_BASE64 secret; see the top of release.yml."
+            exit 1
+          fi
+          KEYSTORE="$RUNNER_TEMP/release.keystore"
+          echo "$KEYSTORE_BASE64" | base64 --decode > "$KEYSTORE"
+          BUILD_TOOLS="$ANDROID_HOME/build-tools/$(ls "$ANDROID_HOME/build-tools" | sort -V | tail -1)"
+          mkdir -p dist
+
+          "$BUILD_TOOLS/zipalign" -p -f 4 unsigned/app.apk "$RUNNER_TEMP/aligned.apk"
+          "$BUILD_TOOLS/apksigner" sign \
+            --ks "$KEYSTORE" --ks-pass env:KEYSTORE_PASSWORD \
+            --ks-key-alias "$KEY_ALIAS" --key-pass env:KEY_PASSWORD \
+            --out "dist/byteward-$VERSION_NAME.apk" "$RUNNER_TEMP/aligned.apk"
+          "$BUILD_TOOLS/apksigner" verify "dist/byteward-$VERSION_NAME.apk"
+
+          cp unsigned/app.aab "dist/byteward-$VERSION_NAME.aab"
+          jarsigner -keystore "$KEYSTORE" -storepass:env KEYSTORE_PASSWORD \
+            -keypass:env KEY_PASSWORD "dist/byteward-$VERSION_NAME.aab" "$KEY_ALIAS"
+
+          rm -f "$KEYSTORE"
+          (cd dist && sha256sum ./* > SHA256SUMS)
+
+      - uses: actions/upload-artifact@v7
+        with:
+          name: signed
+          path: dist/
+          if-no-files-found: error
+
+  publish:
+    name: Publish
+    needs: [build, sign]
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write  # create the release
+    steps:
+      - uses: actions/download-artifact@v6
+        with:
+          name: signed
+          path: dist
+
+      - name: Create the GitHub release
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TAG: ${{ github.ref_name }}
+          VERSION_NAME: ${{ needs.build.outputs.version-name }}
+        run: |
+          gh release create "$TAG" dist/* \
+            --repo "$GITHUB_REPOSITORY" \
+            --title "Byteward for Android $VERSION_NAME" \
+            --generate-notes
