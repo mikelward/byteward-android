@@ -67,6 +67,7 @@ class FakeSettingsDiskSource(
     private val storedVaultTimeoutActions = mutableMapOf<String, VaultTimeoutAction?>()
     private val storedVaultTimeoutInMinutes = mutableMapOf<String, Int?>()
     private val storedUriMatchTypes = mutableMapOf<String, UriMatchType?>()
+    private val storedDefaultLoginUsernames = mutableMapOf<String, String?>()
     private val storedClearClipboardFrequency = mutableMapOf<String, Int?>()
     private val storedDisableAutoTotpCopy = mutableMapOf<String, Boolean?>()
     private val storedDisableAutofillSavePrompt = mutableMapOf<String, Boolean?>()
@@ -348,6 +349,13 @@ class FakeSettingsDiskSource(
         uriMatchType: UriMatchType?,
     ) {
         storedUriMatchTypes[userId] = uriMatchType
+    }
+
+    override fun getDefaultLoginUsername(userId: String): String? =
+        storedDefaultLoginUsernames[userId]
+
+    override fun storeDefaultLoginUsername(userId: String, username: String?) {
+        storedDefaultLoginUsernames[userId] = username
     }
 
     override fun getAutoCopyTotpDisabled(userId: String): Boolean? =

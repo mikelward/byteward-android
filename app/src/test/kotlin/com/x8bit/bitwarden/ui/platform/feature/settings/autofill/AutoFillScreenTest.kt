@@ -926,6 +926,7 @@ private val DEFAULT_STATE: AutoFillState = AutoFillState(
     showInlineAutofillOption = true,
     showPasskeyManagementRow = true,
     defaultUriMatchType = UriMatchType.DOMAIN,
+    defaultLoginUsername = "",
     showAutofillActionCard = false,
     showBrowserAutofillActionCard = false,
     activeUserId = "activeUserId",

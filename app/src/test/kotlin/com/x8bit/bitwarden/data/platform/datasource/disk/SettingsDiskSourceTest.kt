@@ -127,6 +127,10 @@ class SettingsDiskSourceTest {
             userId = userId,
             uriMatchType = UriMatchType.REGULAR_EXPRESSION,
         )
+        settingsDiskSource.storeDefaultLoginUsername(
+            userId = userId,
+            username = "me@example.com",
+        )
         settingsDiskSource.storeAutoCopyTotpDisabled(
             userId = userId,
             isAutomaticallyCopyTotpDisabled = true,
@@ -213,6 +217,7 @@ class SettingsDiskSourceTest {
         assertNull(settingsDiskSource.getVaultTimeoutInMinutes(userId = userId))
         assertNull(settingsDiskSource.getVaultTimeoutAction(userId = userId))
         assertNull(settingsDiskSource.getDefaultUriMatchType(userId = userId))
+        assertNull(settingsDiskSource.getDefaultLoginUsername(userId = userId))
         assertNull(settingsDiskSource.getAutoCopyTotpDisabled(userId = userId))
         assertNull(settingsDiskSource.getAutofillSavePromptDisabled(userId = userId))
         assertNull(settingsDiskSource.getPullToRefreshEnabled(userId = userId))
@@ -672,6 +677,36 @@ class SettingsDiskSourceTest {
             vaultTimeoutAction = null,
         )
         assertNull(fakeSharedPreferences.getString(vaultTimeoutActionKey, null))
+    }
+
+    @Test
+    fun `getDefaultLoginUsername should pull from SharedPreferences`() {
+        val mockUserId = "mockUserId"
+        fakeSharedPreferences.edit {
+            putString("bwPreferencesStorage:defaultLoginUsername_$mockUserId", "me@example.com")
+        }
+        assertEquals(
+            "me@example.com",
+            settingsDiskSource.getDefaultLoginUsername(userId = mockUserId),
+        )
+    }
+
+    @Test
+    fun `getDefaultLoginUsername when values are absent should return null`() {
+        assertNull(settingsDiskSource.getDefaultLoginUsername(userId = "mockUserId"))
+    }
+
+    @Test
+    fun `storeDefaultLoginUsername should update SharedPreferences`() {
+        val key = "bwPreferencesStorage:defaultLoginUsername_mockUserId"
+        settingsDiskSource.storeDefaultLoginUsername(
+            userId = "mockUserId",
+            username = "me@example.com",
+        )
+        assertEquals("me@example.com", fakeSharedPreferences.getString(key, null))
+
+        settingsDiskSource.storeDefaultLoginUsername(userId = "mockUserId", username = null)
+        assertNull(fakeSharedPreferences.getString(key, null))
     }
 
     @Test

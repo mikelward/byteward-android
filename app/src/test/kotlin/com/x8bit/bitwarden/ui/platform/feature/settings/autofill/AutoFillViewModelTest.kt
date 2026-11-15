@@ -87,6 +87,8 @@ class AutoFillViewModelTest : BaseViewModelTest() {
         every { isFillAssistEnabledFlow } returns mutableIsFillAssistEnabledFlow
         every { defaultUriMatchType } returns UriMatchType.DOMAIN
         every { defaultUriMatchType = any() } just runs
+        every { defaultLoginUsername } returns null
+        every { defaultLoginUsername = any() } just runs
         every { isAccessibilityEnabledStateFlow } returns mutableIsAccessibilityEnabledStateFlow
         every { isAutofillEnabledStateFlow } returns mutableIsAutofillEnabledStateFlow
         every { disableAutofill() } just runs
@@ -328,6 +330,18 @@ class AutoFillViewModelTest : BaseViewModelTest() {
             viewModel.trySendAction(AutoFillAction.PasskeyManagementClick)
             assertEquals(AutoFillEvent.NavigateToSettings, awaitItem())
         }
+    }
+
+    @Suppress("MaxLineLength")
+    @Test
+    fun `on DefaultLoginUsernameChange should update the state and save the new value to settings`() {
+        val viewModel = createViewModel()
+        viewModel.trySendAction(AutoFillAction.DefaultLoginUsernameChange("me@example.com"))
+        assertEquals(
+            DEFAULT_STATE.copy(defaultLoginUsername = "me@example.com"),
+            viewModel.stateFlow.value,
+        )
+        verify { settingsRepository.defaultLoginUsername = "me@example.com" }
     }
 
     @Suppress("MaxLineLength")
@@ -615,6 +629,7 @@ private val DEFAULT_STATE: AutoFillState = AutoFillState(
     showInlineAutofillOption = false,
     showPasskeyManagementRow = true,
     defaultUriMatchType = UriMatchType.DOMAIN,
+    defaultLoginUsername = "",
     showAutofillActionCard = false,
     showBrowserAutofillActionCard = false,
     activeUserId = "activeUserId",

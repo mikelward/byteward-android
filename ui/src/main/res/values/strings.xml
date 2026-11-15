@@ -384,6 +384,8 @@ Scanning will happen automatically.</string>
     <string name="require_master_password_on_app_restart">Require master password on app restart?</string>
     <string name="pin_require_master_password_restart">Do you want to require unlocking with your master password when the application is restarted?</string>
     <string name="ask_to_add_item">Ask to add item</string>
+    <string name="default_username_for_new_logins">Default username for new logins</string>
+    <string name="prefilled_when_you_create_a_new_login">Prefilled when you create a new login, for example your email address.</string>
     <string name="ask_to_add_item_description">Ask to add an item if one isn’t found in your vault.</string>
     <string name="turn_on_fill_assist">Turn on fill assist</string>
     <string name="fill_assist_improves_autofill_accuracy_on_supported_sites">Fill assist improves autofill accuracy on supported sites by using site specific rules.</string>

@@ -273,6 +273,16 @@ class SettingsRepositoryImpl(
             )
         }
 
+    override var defaultLoginUsername: String?
+        get() = activeUserId?.let { settingsDiskSource.getDefaultLoginUsername(userId = it) }
+        set(value) {
+            val userId = activeUserId ?: return
+            settingsDiskSource.storeDefaultLoginUsername(
+                userId = userId,
+                username = value?.trim()?.takeIf { it.isNotEmpty() },
+            )
+        }
+
     override val isUnlockWithBiometricsEnabled: Boolean
         get() = activeUserId
             ?.let { authDiskSource.getUserBiometricUnlockKey(userId = it) != null }

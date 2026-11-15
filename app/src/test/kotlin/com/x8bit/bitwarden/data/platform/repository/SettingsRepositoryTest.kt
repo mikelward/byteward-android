@@ -605,6 +605,28 @@ class SettingsRepositoryTest {
     }
 
     @Test
+    fun `defaultLoginUsername should pull from and update SettingsDiskSource`() {
+        fakeAuthDiskSource.userState = null
+        assertNull(settingsRepository.defaultLoginUsername)
+
+        fakeAuthDiskSource.userState = MOCK_USER_STATE
+        fakeSettingsDiskSource.storeDefaultLoginUsername(
+            userId = USER_ID,
+            username = "me@example.com",
+        )
+        assertEquals("me@example.com", settingsRepository.defaultLoginUsername)
+
+        settingsRepository.defaultLoginUsername = "  you@example.com "
+        assertEquals(
+            "you@example.com",
+            fakeSettingsDiskSource.getDefaultLoginUsername(userId = USER_ID),
+        )
+
+        settingsRepository.defaultLoginUsername = "   "
+        assertNull(fakeSettingsDiskSource.getDefaultLoginUsername(userId = USER_ID))
+    }
+
+    @Test
     fun `defaultUriMatchType should pull from and update SettingsDiskSource`() {
         fakeAuthDiskSource.userState = null
         assertEquals(

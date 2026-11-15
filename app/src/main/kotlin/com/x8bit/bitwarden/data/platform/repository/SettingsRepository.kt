@@ -122,6 +122,12 @@ interface SettingsRepository : FlightRecorderManager {
     var defaultUriMatchType: UriMatchType
 
     /**
+     * The username (typically an email address) to prefill when the current user creates a new
+     * login, or `null` if none is set. Blank values are stored as `null`.
+     */
+    var defaultLoginUsername: String?
+
+    /**
      * Whether biometric unlocking is enabled for the current user.
      */
     val isUnlockWithBiometricsEnabled: Boolean

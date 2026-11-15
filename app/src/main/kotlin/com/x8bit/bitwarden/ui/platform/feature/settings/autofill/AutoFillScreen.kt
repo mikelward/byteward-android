@@ -32,6 +32,7 @@ import androidx.compose.ui.input.nestedscroll.nestedScroll
 import androidx.compose.ui.platform.LocalResources
 import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.text.input.KeyboardType
 import androidx.compose.ui.unit.dp
 import androidx.core.net.toUri
 import androidx.hilt.lifecycle.viewmodel.compose.hiltViewModel
@@ -53,6 +54,7 @@ import com.bitwarden.ui.platform.components.dialog.BitwardenBasicDialog
 import com.bitwarden.ui.platform.components.dialog.BitwardenTwoButtonDialog
 import com.bitwarden.ui.platform.components.dropdown.BitwardenMultiSelectButton
 import com.bitwarden.ui.platform.components.dropdown.model.MultiSelectOption
+import com.bitwarden.ui.platform.components.field.BitwardenTextField
 import com.bitwarden.ui.platform.components.header.BitwardenListHeaderText
 import com.bitwarden.ui.platform.components.model.CardStyle
 import com.bitwarden.ui.platform.components.row.BitwardenExternalLinkRow
@@ -367,6 +369,21 @@ private fun AutoFillScreenContent(
                 .testTag("DefaultUriMatchDetectionChooser")
                 .standardHorizontalMargin()
                 .fillMaxWidth(),
+        )
+        Spacer(modifier = Modifier.height(8.dp))
+        BitwardenTextField(
+            label = stringResource(id = BitwardenString.default_username_for_new_logins),
+            value = state.defaultLoginUsername,
+            onValueChange = autoFillHandlers.onDefaultLoginUsernameChange,
+            supportingText = stringResource(
+                id = BitwardenString.prefilled_when_you_create_a_new_login,
+            ),
+            keyboardType = KeyboardType.Email,
+            cardStyle = CardStyle.Full,
+            textFieldTestTag = "DefaultLoginUsernameEntry",
+            modifier = Modifier
+                .fillMaxWidth()
+                .standardHorizontalMargin(),
         )
         Spacer(modifier = Modifier.height(8.dp))
         BitwardenPushRow(
