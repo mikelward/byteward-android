@@ -36,6 +36,9 @@ private val BLOCK_LISTED_URIS: List<String> = listOf(
     "androidapp://com.x8bit.bitwarden",
     "androidapp://com.x8bit.bitwarden.beta",
     "androidapp://com.x8bit.bitwarden.dev",
+    "androidapp://com.mikelward.byteward",
+    "androidapp://com.mikelward.byteward.beta",
+    "androidapp://com.mikelward.byteward.dev",
     "androidapp://com.oneplus.applocker",
 )
 

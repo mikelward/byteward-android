@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Byteward's logo colour: black on the light theme, white on the dark one. -->
+    <color name="byteward_logo">#FFFFFFFF</color>
+</resources>

@@ -170,6 +170,16 @@ class AccessibilityNodeInfoExtensionsTest {
         assertTrue(accessibilityNodeInfo.shouldSkipPackage)
     }
 
+    @Suppress("MaxLineLength")
+    @Test
+    fun `shouldSkipPackage when packageName is prefixed with byteward package should return true`() {
+        val accessibilityNodeInfo = mockk<AccessibilityNodeInfo> {
+            every { packageName } returns "com.mikelward.byteward.dev"
+        }
+
+        assertTrue(accessibilityNodeInfo.shouldSkipPackage)
+    }
+
     @Test
     fun `shouldSkipPackage when packageName contains with 'launcher' should return true`() {
         val accessibilityNodeInfo = mockk<AccessibilityNodeInfo> {
