@@ -75,6 +75,7 @@ jobs:
       # the app builds and runs, and push notifications and crash reports are
       # simply unavailable.
       - name: Provide a placeholder Firebase config if the repo has none
+        id: firebase
         run: |
           CONFIG=app/src/standardRelease/google-services.json
           if [ -f "$CONFIG" ]; then
@@ -104,12 +105,22 @@ jobs:
             "configuration_version": "1"
           }
           EOF
-          echo "::warning::No $CONFIG committed; built with a placeholder, so push notifications are unavailable."
+          echo "placeholder=true" >> "$GITHUB_OUTPUT"
+          echo "::warning::No $CONFIG committed; built with a placeholder, so push notifications and crash reports are unavailable."
 
+      # With the placeholder there is no Firebase project to receive the
+      # Crashlytics mapping file, and the upload the plugin does by default on a
+      # minified build would fail the release, so it is skipped.
       - name: Build the release APK and bundle
         env:
           GITHUB_TOKEN: ${{ github.token }}
-        run: ./gradlew :app:assembleStandardRelease :app:bundleStandardRelease --stacktrace
+          PLACEHOLDER_FIREBASE: ${{ steps.firebase.outputs.placeholder }}
+        run: |
+          SKIP=()
+          if [ "$PLACEHOLDER_FIREBASE" = "true" ]; then
+            SKIP=(-x uploadCrashlyticsMappingFileStandardRelease)
+          fi
+          ./gradlew :app:assembleStandardRelease :app:bundleStandardRelease "${SKIP[@]}" --stacktrace
 
       - name: Collect the unsigned outputs
         run: |
