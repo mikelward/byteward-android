@@ -75,9 +75,9 @@
     <string name="yes">ใช่</string>
     <string name="account">บัญชี</string>
     <string name="account_created_success">สร้างบัญชีใหม่ของคุณแล้ว!</string>
-    <string name="set_bitwarden_as_passkey_manager_description">ตั้งค่า Bitwarden เป็นผู้ให้บริการพาสคีย์ในการตั้งค่าอุปกรณ์</string>
+    <string name="set_bitwarden_as_passkey_manager_description">ตั้งค่า Byteward เป็นผู้ให้บริการพาสคีย์ในการตั้งค่าอุปกรณ์</string>
     <string name="avoid_ambiguous_characters">หลีกเลี่ยงอักขระที่ไม่ชัดเจน</string>
-    <string name="bitwarden_autofill_service">Bitwarden บริการกรอกข้อมูลอัตโนมัติ</string>
+    <string name="bitwarden_autofill_service">Byteward บริการกรอกข้อมูลอัตโนมัติ</string>
     <string name="change_master_password">เปลี่ยนรหัสผ่านหลัก</string>
     <string name="close">ปิด</string>
     <string name="close_app">ปิดแอป</string>
@@ -175,7 +175,7 @@
     <string name="no_items_for_vault">ไม่มีรายการในตู้นิรภัยที่ตรงกับ “%1$s”</string>
     <string name="search_for_a_login_or_add_a_new_login">ค้นหาข้อมูลเข้าสู่ระบบหรือเพิ่มรายการใหม่</string>
     <string name="disabled">ปิดการใช้งาน</string>
-    <string name="bitwarden_autofill_service_alert2">วิธีที่ง่ายที่สุดในการเพิ่มข้อมูลเข้าสู่ระบบใหม่ลงในตู้นิรภัยคือผ่านบริการป้อนอัตโนมัติของ Bitwarden เรียนรู้เพิ่มเติมเกี่ยวกับการใช้บริการนี้ได้ที่หน้า “การตั้งค่า”</string>
+    <string name="bitwarden_autofill_service_alert2">วิธีที่ง่ายที่สุดในการเพิ่มข้อมูลเข้าสู่ระบบใหม่ลงในตู้นิรภัยคือผ่านบริการป้อนอัตโนมัติของ Byteward เรียนรู้เพิ่มเติมเกี่ยวกับการใช้บริการนี้ได้ที่หน้า “การตั้งค่า”</string>
     <string name="autofill_noun">การป้อนอัตโนมัติ</string>
     <string name="autofill_verb">ป้อนอัตโนมัติ</string>
     <string name="autofill_or_view">คุณต้องการกรอกข้อมูลอัตโนมัติหรือดูรายการนี้หรือไม่?</string>
@@ -371,7 +371,7 @@
     <string name="pin">PIN</string>
     <string name="unlock">ปลดล็อก</string>
     <string name="thirty_minutes">30 นาที</string>
-    <string name="set_pin_description">PIN ของคุณต้องมีอย่างน้อย 4 ตัวอักษร การตั้งค่า PIN ของคุณจะถูกรีเซ็ตหากคุณออกจากระบบแอป Bitwarden ด้วยตนเอง</string>
+    <string name="set_pin_description">PIN ของคุณต้องมีอย่างน้อย 4 ตัวอักษร การตั้งค่า PIN ของคุณจะถูกรีเซ็ตหากคุณออกจากระบบแอป Byteward ด้วยตนเอง</string>
     <string name="logged_in_as_on">เข้าสู่ระบบในชื่อ %1$s เมื่อ %2$s</string>
     <string name="vault_locked_master_password">ตู้เซฟของคุณถูกล็อค ใส่รหัสผ่านหลักของคุณเพื่อดำเนินการต่อ</string>
     <string name="vault_locked_pin">ตู้เซฟของคุณถูกล็อค ใส่ PIN ของคุณเพื่อดำเนินการต่อ</string>
@@ -385,7 +385,7 @@
     <string name="clear_clipboard">ล้างคลิปบอร์ด</string>
     <string name="clear_clipboard_description">ล้างค่าที่คัดลอกออกจากคลิปบอร์ดโดยอัตโนมัติ</string>
     <string name="default_uri_match_detection">การตรวจสอบการจับคู่ URI เริ่มต้น</string>
-    <string name="default_uri_match_detection_description">การตรวจสอบการจับคู่ URI ควบคุมวิธีที่ Bitwarden ระบุคำแนะนำการป้อนอัตโนมัติ</string>
+    <string name="default_uri_match_detection_description">การตรวจสอบการจับคู่ URI ควบคุมวิธีที่ Byteward ระบุคำแนะนำการป้อนอัตโนมัติ</string>
     <string name="theme">ธีม</string>
     <string name="theme_description">เปลี่ยนธีมสีของแอปพลิเคชัน</string>
     <string name="copy_notes">คัดลอกโน้ต</string>
@@ -421,7 +421,7 @@
     <string name="password_generator_policy_in_effect">นโยบายองค์กรอย่างน้อยหนึ่งรายการมีผลต่อการตั้งค่าตัวสร้างของคุณ</string>
     <string name="unable_to_save_attachment">เกิดปัญหาในการบันทึกไฟล์แนบนี้ หากปัญหายังคงอยู่ คุณสามารถบันทึกได้จากตู้นิรภัยเว็บ</string>
     <string name="save_attachment_success">บันทึกไฟล์แนบสำเร็จ</string>
-    <string name="autofill_tile_accessibility_required">โปรดเปิด “บริการการเข้าถึงเพื่อป้อนอัตโนมัติ” จากการตั้งค่า Bitwarden เพื่อใช้ไทล์ป้อนอัตโนมัติ</string>
+    <string name="autofill_tile_accessibility_required">โปรดเปิด “บริการการเข้าถึงเพื่อป้อนอัตโนมัติ” จากการตั้งค่า Byteward เพื่อใช้ไทล์ป้อนอัตโนมัติ</string>
     <string name="autofill_tile_uri_not_found">ตรวจไม่พบช่องรหัสผ่าน</string>
     <string name="soft_deleting">กำลังส่งลงถังขยะ…</string>
     <string name="item_soft_deleted">ส่งรายการลงถังขยะแล้ว</string>
@@ -634,9 +634,9 @@
     <string name="catch_all_email_description">ใช้กล่องจดหมาย Catch-all ที่กำหนดค่าไว้ในโดเมนของคุณ</string>
     <string name="forwarded_email_description">สร้างนามแฝงอีเมลด้วยบริการส่งต่อภายนอก</string>
     <string name="accessibility_service_disclosure">การเปิดเผยข้อมูลบริการการเข้าถึง</string>
-    <string name="accessibility_disclosure_text">Bitwarden ใช้บริการการเข้าถึงเพื่อค้นหาช่องข้อมูลเข้าสู่ระบบในแอปและเว็บไซต์ จากนั้นระบุ ID ของช่องที่เหมาะสมเพื่อกรอกชื่อผู้ใช้และรหัสผ่านเมื่อพบแอปหรือเว็บไซต์ที่ตรงกัน เราไม่จัดเก็บข้อมูลใด ๆ ที่ได้รับจากบริการนี้ และไม่พยายามควบคุมองค์ประกอบใด ๆ บนหน้าจอนอกเหนือจากการป้อนข้อมูลประจำตัว</string>
-    <string name="accessibility_disclosure_start_up_text_1">ประกาศนี้จำเป็นก่อนที่ Bitwarden จะสามารถเสนอการเติมข้อมูลอัตโนมัติตามการช่วยการเข้าถึงได้</string>
-    <string name="accessibility_disclosure_start_up_text_2">Bitwarden มีวิธีการเติมข้อมูลอัตโนมัติทางเลือกที่ใช้ Android Accessibility Service ในการตรวจจับช่องเข้าสู่ระบบ หากคุณเปิดใช้งาน Bitwarden จะระบุช่องที่เหมาะสมและกรอกข้อมูลประจำตัวของคุณเมื่อพบข้อมูลที่ตรงกัน</string>
+    <string name="accessibility_disclosure_text">Byteward ใช้บริการการเข้าถึงเพื่อค้นหาช่องข้อมูลเข้าสู่ระบบในแอปและเว็บไซต์ จากนั้นระบุ ID ของช่องที่เหมาะสมเพื่อกรอกชื่อผู้ใช้และรหัสผ่านเมื่อพบแอปหรือเว็บไซต์ที่ตรงกัน เราไม่จัดเก็บข้อมูลใด ๆ ที่ได้รับจากบริการนี้ และไม่พยายามควบคุมองค์ประกอบใด ๆ บนหน้าจอนอกเหนือจากการป้อนข้อมูลประจำตัว</string>
+    <string name="accessibility_disclosure_start_up_text_1">ประกาศนี้จำเป็นก่อนที่ Byteward จะสามารถเสนอการเติมข้อมูลอัตโนมัติตามการช่วยการเข้าถึงได้</string>
+    <string name="accessibility_disclosure_start_up_text_2">Byteward มีวิธีการเติมข้อมูลอัตโนมัติทางเลือกที่ใช้ Android Accessibility Service ในการตรวจจับช่องเข้าสู่ระบบ หากคุณเปิดใช้งาน Byteward จะระบุช่องที่เหมาะสมและกรอกข้อมูลประจำตัวของคุณเมื่อพบข้อมูลที่ตรงกัน</string>
     <string name="accessibility_disclosure_start_up_text_3">เราไม่จัดเก็บข้อมูลใดๆ เกี่ยวกับสิ่งที่อยู่บนหน้าจอในขณะที่คุณใช้ Accessibility Service และเราไม่ควบคุมองค์ประกอบบนหน้าจอใดๆ นอกเหนือจากการป้อนข้อมูลประจำตัว</string>
     <string name="i_understand">ฉันเข้าใจ</string>
     <string name="accept">ยอมรับ</string>
@@ -716,8 +716,8 @@ Do you want to switch to this account?</string>
     <string name="session_timeout">เวลาหมดอายุเซสชัน</string>
     <string name="session_timeout_action">การทำงานเมื่อเซสชันหมดอายุ</string>
     <string name="account_fingerprint_phrase">วลีลายนิ้วมือของบัญชี</string>
-    <string name="passkey_management_explanation_long">ใช้ Bitwarden เพื่อบันทึกพาสคีย์ใหม่และเข้าสู่ระบบด้วยพาสคีย์ที่เก็บไว้ในตู้นิรภัยของคุณ</string>
-    <string name="autofill_services_explanation_long">อนุญาตให้ Bitwarden ใช้ข้อมูลเข้าสู่ระบบที่คุณบันทึกไว้เพื่อลงชื่อเข้าใช้แอปอื่นในอุปกรณ์ของคุณ</string>
+    <string name="passkey_management_explanation_long">ใช้ Byteward เพื่อบันทึกพาสคีย์ใหม่และเข้าสู่ระบบด้วยพาสคีย์ที่เก็บไว้ในตู้นิรภัยของคุณ</string>
+    <string name="autofill_services_explanation_long">อนุญาตให้ Byteward ใช้ข้อมูลเข้าสู่ระบบที่คุณบันทึกไว้เพื่อลงชื่อเข้าใช้แอปอื่นในอุปกรณ์ของคุณ</string>
     <string name="use_inline_autofill_explanation_long">เลือกรูปแบบการแสดงคำแนะนำการป้อนอัตโนมัติเมื่อคุณลงชื่อเข้าใช้แอปอื่นในอุปกรณ์ของคุณ</string>
     <string name="additional_options">ตัวเลือกเพิ่มเติม</string>
     <string name="continue_to_web_app">ดำเนินการต่อไปยังเว็บแอปหรือไม่</string>
@@ -740,8 +740,8 @@ Do you want to switch to this account?</string>
     <string name="duo_two_step_login_is_required_for_your_account">จำเป็นต้องใช้ Duo สำหรับการยืนยันตัวตนสองขั้นตอนของบัญชีคุณ</string>
     <string name="follow_the_steps_from_duo_to_finish_logging_in">ทำตามขั้นตอนจาก Duo เพื่อเสร็จสิ้นการเข้าสู่ระบบ</string>
     <string name="launch_duo">เปิด Duo</string>
-    <string name="your_passkey_will_be_saved_to_your_bitwarden_vault_for_x">พาสคีย์ของคุณจะถูกบันทึกไว้ในตู้นิรภัย Bitwarden สำหรับ %1$s</string>
-    <string name="your_password_will_be_saved_to_your_bitwarden_vault_for_x">จะบันทึกรหัสผ่านของคุณลงในตู้นิรภัย Bitwarden สำหรับ %1$s</string>
+    <string name="your_passkey_will_be_saved_to_your_bitwarden_vault_for_x">พาสคีย์ของคุณจะถูกบันทึกไว้ในตู้นิรภัย Byteward สำหรับ %1$s</string>
+    <string name="your_password_will_be_saved_to_your_bitwarden_vault_for_x">จะบันทึกรหัสผ่านของคุณลงในตู้นิรภัย Byteward สำหรับ %1$s</string>
     <string name="passkeys_not_supported_for_this_app">แอปนี้ไม่รองรับพาสคีย์</string>
     <string name="passkey_operation_failed_because_browser_is_not_privileged">การดำเนินการพาสคีย์ล้มเหลวเนื่องจากเบราว์เซอร์ไม่มีสิทธิ์</string>
     <string name="passkey_operation_failed_because_browser_signature_does_not_match">การดำเนินการพาสคีย์ล้มเหลวเนื่องจากลายเซ็นเบราว์เซอร์ไม่ตรงกัน</string>
@@ -769,7 +769,7 @@ Do you want to switch to this account?</string>
     <string name="email_verified">ยืนยันอีเมลแล้ว</string>
     <string name="get_emails_from_bitwarden_for_announcements_advices_and_research_opportunities_unsubscribe_any_time">รับอีเมลข่าวสาร คำแนะนำ และโอกาสในการวิจัยจาก Bitwarden <annotation link="unsubscribe">เลิกรับข่าวสาร</annotation>ได้ตลอดเวลา</string>
     <string name="security_prioritized">ความปลอดภัยต้องมาก่อน</string>
-    <string name="welcome_message_1">บันทึกข้อมูลเข้าสู่ระบบ บัตร และข้อมูลระบุตัวตนไว้ในตู้นิรภัยที่ปลอดภัย Bitwarden ใช้การเข้ารหัสแบบ Zero-knowledge และต้นทางถึงปลายทางเพื่อปกป้องสิ่งที่สำคัญสำหรับคุณ</string>
+    <string name="welcome_message_1">บันทึกข้อมูลเข้าสู่ระบบ บัตร และข้อมูลระบุตัวตนไว้ในตู้นิรภัยที่ปลอดภัย Byteward ใช้การเข้ารหัสแบบ Zero-knowledge และต้นทางถึงปลายทางเพื่อปกป้องสิ่งที่สำคัญสำหรับคุณ</string>
     <string name="welcome_message_2">ตั้งค่าการปลดล็อกด้วยไบโอเมตริกและการป้อนอัตโนมัติเพื่อเข้าสู่ระบบบัญชีของคุณโดยไม่ต้องพิมพ์แม้แต่ตัวอักษรเดียว</string>
     <string name="quick_and_easy_login">เข้าสู่ระบบง่ายและรวดเร็ว</string>
     <string name="level_up_your_logins">ยกระดับข้อมูลเข้าสู่ระบบ</string>
@@ -821,16 +821,16 @@ Do you want to switch to this account?</string>
     <string name="turn_on_autofill">เปิดใช้งานป้อนอัตโนมัติ</string>
     <string name="autofill_setup">การตั้งค่าการป้อนอัตโนมัติ</string>
     <string name="turn_on_browser_autofill_integration">เปิดใช้งานการรวมการป้อนอัตโนมัติในเบราว์เซอร์</string>
-    <string name="browser_requires_special_permissions_for_bitwarden_singular">คุณกำลังใช้เบราว์เซอร์ที่ต้องใช้สิทธิ์พิเศษเพื่อให้ Bitwarden ป้อนรหัสผ่านอัตโนมัติได้</string>
-    <string name="browser_requires_special_permissions_for_bitwarden_plural">คุณกำลังใช้เบราว์เซอร์ที่ต้องใช้สิทธิ์พิเศษเพื่อให้  Bitwarden ป้อนรหัสผ่านอัตโนมัติได้</string>
-    <string name="youre_using_a_browser_that_requires_special_permissions_singular">คุณกำลังใช้เบราว์เซอร์ที่ต้องใช้สิทธิ์พิเศษเพื่อให้ Bitwarden ป้อนรหัสผ่านอัตโนมัติได้ เปิดใช้งานการรวมการป้อนอัตโนมัติที่คุณต้องการด้านล่าง</string>
-    <string name="youre_using_a_browser_that_requires_special_permissions_plural">คุณกำลังใช้เบราว์เซอร์ที่ต้องใช้สิทธิ์พิเศษเพื่อให้ Bitwarden ป้อนรหัสผ่านอัตโนมัติได้ เปิดใช้งานการป้อนอัตโนมัติสำหรับเบราว์เซอร์ที่ติดตั้งทั้งหมดเพื่อดำเนินการต่อ</string>
+    <string name="browser_requires_special_permissions_for_bitwarden_singular">คุณกำลังใช้เบราว์เซอร์ที่ต้องใช้สิทธิ์พิเศษเพื่อให้ Byteward ป้อนรหัสผ่านอัตโนมัติได้</string>
+    <string name="browser_requires_special_permissions_for_bitwarden_plural">คุณกำลังใช้เบราว์เซอร์ที่ต้องใช้สิทธิ์พิเศษเพื่อให้  Byteward ป้อนรหัสผ่านอัตโนมัติได้</string>
+    <string name="youre_using_a_browser_that_requires_special_permissions_singular">คุณกำลังใช้เบราว์เซอร์ที่ต้องใช้สิทธิ์พิเศษเพื่อให้ Byteward ป้อนรหัสผ่านอัตโนมัติได้ เปิดใช้งานการรวมการป้อนอัตโนมัติที่คุณต้องการด้านล่าง</string>
+    <string name="youre_using_a_browser_that_requires_special_permissions_plural">คุณกำลังใช้เบราว์เซอร์ที่ต้องใช้สิทธิ์พิเศษเพื่อให้ Byteward ป้อนรหัสผ่านอัตโนมัติได้ เปิดใช้งานการป้อนอัตโนมัติสำหรับเบราว์เซอร์ที่ติดตั้งทั้งหมดเพื่อดำเนินการต่อ</string>
     <string name="use_autofill_to_log_into_your_accounts">ใช้การป้อนอัตโนมัติเพื่อเข้าสู่ระบบบัญชีของคุณด้วยการแตะเพียงครั้งเดียว</string>
     <string name="turn_on_later">เปิดใช้งานภายหลัง</string>
     <string name="turn_on_autofill_later">เปิดใช้งานป้อนอัตโนมัติภายหลังหรือไม่</string>
     <string name="turn_on_browser_autofill_integration_later">เปิดใช้งานการรวมการป้อนอัตโนมัติในเบราว์เซอร์ภายหลังหรือไม่</string>
     <string name="return_to_complete_this_step_anytime_in_settings">คุณสามารถกลับมาทำขั้นตอนนี้ให้เสร็จสิ้นได้ทุกเมื่อในการตั้งค่า</string>
-    <string name="what_bitwarden_has_to_offer">ตอนนี้คุณสามารถสำรวจทุกสิ่งที่ Bitwarden มีให้และเริ่มจัดการรหัสผ่านของคุณอย่างปลอดภัย</string>
+    <string name="what_bitwarden_has_to_offer">ตอนนี้คุณสามารถสำรวจทุกสิ่งที่ Byteward มีให้และเริ่มจัดการรหัสผ่านของคุณอย่างปลอดภัย</string>
     <string name="youre_all_set">เรียบร้อยแล้ว!</string>
     <string name="error_connecting_with_the_duo_service_use_a_different_two_step_login_method_or_contact_duo_for_assistance">เกิดข้อผิดพลาดในการเชื่อมต่อกับบริการ Duo ใช้วิธีการยืนยันตัวตนสองขั้นตอนอื่น หรือติดต่อ Duo เพื่อขอความช่วยเหลือ</string>
     <string name="master_password_hint_not_specified">คำใบ้รหัสผ่านหลัก</string>
@@ -961,7 +961,7 @@ Do you want to switch to this account?</string>
     <string name="unsupported_certificate_type">ไม่รองรับประเภทใบรับรอง</string>
     <string name="certificate_password_incorrect">รหัสผ่านใบรับรองไม่ถูกต้อง</string>
     <string name="invalid_certificate_chain">ห่วงโซ่ใบรับรองไม่ถูกต้อง</string>
-    <string name="system_certificates_are_not_as_secure_as_importing_certificates_to_bitwarden">การใช้ใบรับรองระบบมีความปลอดภัยน้อยกว่าการจัดเก็บใบรับรองไว้กับ Bitwarden การดำเนินการต่อจะแสดงรายการใบรับรองระบบที่มีอยู่หากมีการติดตั้งไว้แล้ว</string>
+    <string name="system_certificates_are_not_as_secure_as_importing_certificates_to_bitwarden">การใช้ใบรับรองระบบมีความปลอดภัยน้อยกว่าการจัดเก็บใบรับรองไว้กับ Byteward การดำเนินการต่อจะแสดงรายการใบรับรองระบบที่มีอยู่หากมีการติดตั้งไว้แล้ว</string>
     <string name="link">ลิงก์</string>
     <string name="passkey_operation_failed_because_host_url_is_not_present_in_request">การดำเนินการพาสคีย์ล้มเหลวเนื่องจากไม่มี URL โฮสต์ในคำขอ</string>
     <string name="passkey_operation_failed_because_app_signature_is_invalid">การดำเนินการพาสคีย์ล้มเหลวเนื่องจากลายเซ็นแอปไม่ถูกต้อง</string>
@@ -1038,11 +1038,11 @@ Do you want to switch to this account?</string>
     <string name="missing_send_resync_your_vault">ไม่พบรายการ Send ให้ซิงค์ตู้นิรภัยใหม่</string>
     <string name="use_dynamic_colors">ใช้สีแบบไดนามิก</string>
     <string name="use_dynamic_colors_question">ใช้สีแบบไดนามิกหรือไม่</string>
-    <string name="dynamic_colors_may_not_adhere_to_accessibility_guidelines">รูปแบบสีนี้จะใช้สีของระบบกับ Bitwarden โดยอัตโนมัติตามวอลเปเปอร์ปัจจุบันของคุณ สีเหล่านี้อาจไม่ตรงตามหลักเกณฑ์การเข้าถึงทั้งหมด</string>
+    <string name="dynamic_colors_may_not_adhere_to_accessibility_guidelines">รูปแบบสีนี้จะใช้สีของระบบกับ Byteward โดยอัตโนมัติตามวอลเปเปอร์ปัจจุบันของคุณ สีเหล่านี้อาจไม่ตรงตามหลักเกณฑ์การเข้าถึงทั้งหมด</string>
     <string name="passkey_operation_failed_because_browser_x_is_not_trusted">การดำเนินการพาสคีย์ล้มเหลวเนื่องจากไม่รู้จักเบราว์เซอร์ (%1$s) เลือก “เชื่อถือ” เพื่อเพิ่ม %1$s ลงในรายการแอปพลิเคชันที่เชื่อถือในเครื่อง</string>
     <string name="passkey_operation_failed_because_the_browser_is_not_trusted">การดำเนินการพาสคีย์ล้มเหลวเนื่องจากเบราว์เซอร์ไม่ได้รับความเชื่อถือ</string>
     <string name="trust">เชื่อถือ</string>
-    <string name="trusted_by_you_learn_more">เหล่านี้คือแอปพลิเคชันหรือเบราว์เซอร์ที่ Bitwarden ไม่เชื่อถือโดยค่าเริ่มต้น แต่คุณเชื่อถือให้ดำเนินการพาสคีย์</string>
+    <string name="trusted_by_you_learn_more">เหล่านี้คือแอปพลิเคชันหรือเบราว์เซอร์ที่ Byteward ไม่เชื่อถือโดยค่าเริ่มต้น แต่คุณเชื่อถือให้ดำเนินการพาสคีย์</string>
     <string name="trusted_by_community_learn_more">แอปพลิเคชันเหล่านี้ไม่ได้อยู่ใน Google Play Store แต่ Bitwarden เชื่อถือให้ดำเนินการพาสคีย์หลังจากสมาชิกในชุมชนใช้งานและรายงานว่าปลอดภัย</string>
     <string name="trusted_by_google_learn_more">แอปพลิเคชันเหล่านี้ Google พิจารณาว่าปลอดภัยและมีอยู่ใน Google Play Store</string>
     <string name="trusted_by_you">ที่คุณเชื่อถือ</string>
@@ -1181,7 +1181,7 @@ Do you want to switch to this account?</string>
         <item quantity="other">นำเข้า %1$d รายการไปยังตู้นิรภัยของคุณแล้ว</item>
     </plurals>
     <string name="enable_browser_autofill_to_keep_filling_passwords">เปิดใช้งานการป้อนอัตโนมัติของเบราว์เซอร์เพื่อป้อนรหัสผ่านต่อไป</string>
-    <string name="your_browser_recently_updated_how_autofill_works_singular">เบราว์เซอร์ของคุณเพิ่งได้รับการอัปเดต ซึ่งปิดใช้งานการป้อนอัตโนมัติของ Bitwarden เพื่อป้อนรหัสผ่านด้วย Bitwarden ต่อไป ให้เปิดใช้งานการป้อนอัตโนมัติของเบราว์เซอร์ในการตั้งค่าการป้อนอัตโนมัติ</string>
+    <string name="your_browser_recently_updated_how_autofill_works_singular">เบราว์เซอร์ของคุณเพิ่งได้รับการอัปเดต ซึ่งปิดใช้งานการป้อนอัตโนมัติของ Byteward เพื่อป้อนรหัสผ่านด้วย Byteward ต่อไป ให้เปิดใช้งานการป้อนอัตโนมัติของเบราว์เซอร์ในการตั้งค่าการป้อนอัตโนมัติ</string>
     <string name="not_now">ไม่ใช่ตอนนี้</string>
     <string name="import_from_bitwarden">นำเข้าจาก Bitwarden</string>
     <string name="select_account">เลือกบัญชี</string>
@@ -1281,7 +1281,7 @@ Do you want to switch to this account?</string>
     <string name="trusted">เชื่อถือได้</string>
     <string name="preview_not_available_for_files">ไม่สามารถแสดงตัวอย่างสำหรับไฟล์ %1$s ได้ คุณยังสามารถดาวน์โหลดเพื่อดูบนอุปกรณ์ของคุณ</string>
     <string name="this_file_is_too_large_to_preview">ไฟล์นี้มีขนาดใหญ่เกินไปที่จะแสดงตัวอย่าง คุณยังสามารถดาวน์โหลดเพื่อดูบนอุปกรณ์ของคุณ</string>
-    <string name="bitwarden_could_not_decrypt_this_file_so_the_preview_cannot_be_displayed">Bitwarden ไม่สามารถถอดรหัสไฟล์นี้ได้ จึงไม่สามารถแสดงตัวอย่างได้</string>
+    <string name="bitwarden_could_not_decrypt_this_file_so_the_preview_cannot_be_displayed">Byteward ไม่สามารถถอดรหัสไฟล์นี้ได้ จึงไม่สามารถแสดงตัวอย่างได้</string>
     <string name="preview_unavailable_for_this_file">ไม่สามารถแสดงตัวอย่างสำหรับไฟล์นี้ คุณยังสามารถดาวน์โหลดเพื่อดูบนอุปกรณ์ของคุณ</string>
     <string name="preview_unavailable">ไม่สามารถแสดงตัวอย่าง</string>
     <string name="download_attachment">ดาวน์โหลดไฟล์แนบ</string>
@@ -1413,8 +1413,8 @@ Do you want to switch to this account?</string>
     <string name="local_network_access_required">ต้องมีการเข้าถึงเครือข่ายท้องถิ่น</string>
     <string name="ask_again_later">ถามอีกครั้งทีหลัง</string>
     <string name="enable_local_network_access">เปิดใช้งานการเข้าถึงเครือข่ายท้องถิ่น</string>
-    <string name="bitwarden_needs_local_network_access_to_sync_with_your_server">Bitwarden ต้องการการเข้าถึงเครือข่ายท้องถิ่นเพื่อซิงค์กับเซิร์ฟเวอร์ของคุณ หากไม่มีสิทธิ์นี้ แอปจะไม่สามารถเชื่อมต่อได้</string>
-    <string name="without_this_permission_bitwarden_wont_be_able_to_sync_with_your_server">หากไม่มีสิทธิ์นี้ Bitwarden จะไม่สามารถเชื่อมต่อและซิงค์กับเซิร์ฟเวอร์ของคุณได้ คุณสามารถเปิดใช้งานได้ในการตั้งค่าอุปกรณ์ของคุณ</string>
+    <string name="bitwarden_needs_local_network_access_to_sync_with_your_server">Byteward ต้องการการเข้าถึงเครือข่ายท้องถิ่นเพื่อซิงค์กับเซิร์ฟเวอร์ของคุณ หากไม่มีสิทธิ์นี้ แอปจะไม่สามารถเชื่อมต่อได้</string>
+    <string name="without_this_permission_bitwarden_wont_be_able_to_sync_with_your_server">หากไม่มีสิทธิ์นี้ Byteward จะไม่สามารถเชื่อมต่อและซิงค์กับเซิร์ฟเวอร์ของคุณได้ คุณสามารถเปิดใช้งานได้ในการตั้งค่าอุปกรณ์ของคุณ</string>
     <string name="your_request_was_interrupted_because_the_app_needs_local_network_access">คำขอของคุณถูกขัดจังหวะเนื่องจากแอปต้องการการเข้าถึงเครือข่ายท้องถิ่น คุณสามารถเปิดใช้งานได้ในการตั้งค่าอุปกรณ์ของคุณ</string>
     <string name="continue_to_stripe">ดำเนินการต่อที่ Stripe?</string>
     <string name="youll_be_taken_to_stripe_to_manage_your_subscription_cancellation">คุณจะถูกนำไปที่ Stripe เพื่อจัดการการยกเลิกการสมัครสมาชิกของคุณ</string>
@@ -1436,7 +1436,7 @@ Do you want to switch to this account?</string>
     <string name="use_this_username">Use this username</string>
     <string name="create_login">Create login</string>
     <string name="keep_unlocking_with_biometrics">Keep unlocking with biometrics</string>
-    <string name="weve_made_a_security_update">We’ve made a security update. Confirm your biometrics again to keep using them to unlock Bitwarden.</string>
+    <string name="weve_made_a_security_update">We’ve made a security update. Confirm your biometrics again to keep using them to unlock Byteward.</string>
     <string name="turn_off">Turn off</string>
     <string name="turn_off_biometric_question">Turn off biometrics?</string>
     <string name="unlocking_will_require_your_master_password">Unlocking will require your master password. You can turn biometrics back on in Settings.</string>

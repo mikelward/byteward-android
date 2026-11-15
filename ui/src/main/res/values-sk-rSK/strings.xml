@@ -75,9 +75,9 @@
     <string name="yes">Áno</string>
     <string name="account">Účet</string>
     <string name="account_created_success">Váš nový účet bol vytvorený!</string>
-    <string name="set_bitwarden_as_passkey_manager_description">Nastavte Bitwarden ako poskytovateľa prístupových kľúčov v nastaveniach zariadenia.</string>
+    <string name="set_bitwarden_as_passkey_manager_description">Nastavte Byteward ako poskytovateľa prístupových kľúčov v nastaveniach zariadenia.</string>
     <string name="avoid_ambiguous_characters">Vyhnúť sa zameniteľným znakom</string>
-    <string name="bitwarden_autofill_service">Služba automatického vypĺňania Bitwardenom</string>
+    <string name="bitwarden_autofill_service">Služba automatického vypĺňania Bytewardom</string>
     <string name="change_master_password">Zmeniť hlavné heslo</string>
     <string name="close">Zavrieť</string>
     <string name="close_app">Zavrieť aplikáciu</string>
@@ -178,7 +178,7 @@
     <string name="no_items_for_vault">Vo vašom trezore nie sú žiadne položky, ktoré zodpovedajú \"%1$s\"</string>
     <string name="search_for_a_login_or_add_a_new_login">Vyhľadať alebo pridať nové prihlasovacie údaje</string>
     <string name="disabled">Vypnuté</string>
-    <string name="bitwarden_autofill_service_alert2">Najjednoduchší spôsob, ako pridať nové prihlasovacie údaje do vášho trezora, je prostredníctvom služby automatického vypĺňania Bitwardenu. Ďalšie informácie o používaní automatického vypĺňania Bitwardenu získate prechodom do obrazovky Nastavení.</string>
+    <string name="bitwarden_autofill_service_alert2">Najjednoduchší spôsob, ako pridať nové prihlasovacie údaje do vášho trezora, je prostredníctvom služby automatického vypĺňania Bytewardu. Ďalšie informácie o používaní automatického vypĺňania Bytewardu získate prechodom do obrazovky Nastavení.</string>
     <string name="autofill_noun">Automatické vypĺňanie</string>
     <string name="autofill_verb">Automaticky vyplniť</string>
     <string name="autofill_or_view">Chcete túto položku automaticky vyplniť alebo zobraziť?</string>
@@ -300,7 +300,7 @@ Skenovanie prebehne automaticky.</string>
     <string name="no_items_folder">V tomto priečinku sa nenachádzajú žiadne položky.</string>
     <string name="no_items_trash">V koši nie sú žiadne položky.</string>
     <string name="autofill_accessibility_summary">Pomáha s vypĺňaním polí používateľského mena a hesla v iných aplikáciách a na webe.</string>
-    <string name="autofill_service_description">Služba automatického vypĺňania Bitwarden používa Android Autofill Framework na zjednodušenie vypĺňania prihlasovacích údajov do iných aplikácií v zariadení.</string>
+    <string name="autofill_service_description">Služba automatického vypĺňania Byteward používa Android Autofill Framework na zjednodušenie vypĺňania prihlasovacích údajov do iných aplikácií v zariadení.</string>
     <string name="bitwarden_autofill_go_to_settings">Nepodarilo sa automaticky otvoriť nastavenia automatického vypĺňania pre systém Android. Môžete otvoriť nastavenie manuálne cez Nastavenia &gt; Systém &gt; Jazyky a vstup &gt; Rozšírené &gt; Služba automatického vypĺňania.</string>
     <string name="custom_field_name">Názov vlastného poľa</string>
     <string name="field_type_boolean">Áno/Nie</string>
@@ -377,7 +377,7 @@ Skenovanie prebehne automaticky.</string>
     <string name="pin">PIN</string>
     <string name="unlock">Odomknúť</string>
     <string name="thirty_minutes">30 minút</string>
-    <string name="set_pin_description">Váš PIN kód musí mať aspoň 4 znaky. Nastavenie PIN kódu sa vynuluje, ak sa manuálne odhlásite z aplikácie Bitwarden.</string>
+    <string name="set_pin_description">Váš PIN kód musí mať aspoň 4 znaky. Nastavenie PIN kódu sa vynuluje, ak sa manuálne odhlásite z aplikácie Byteward.</string>
     <string name="logged_in_as_on">Prihlásený ako %1$s na %2$s.</string>
     <string name="vault_locked_master_password">Váš trezor je uzamknutý. Ak chcete pokračovať, overte svoje hlavné heslo.</string>
     <string name="vault_locked_pin">Váš trezor je uzamknutý. Pokračujte zadaním PIN kódu.</string>
@@ -391,7 +391,7 @@ Skenovanie prebehne automaticky.</string>
     <string name="clear_clipboard">Vymazať schránku</string>
     <string name="clear_clipboard_description">Automaticky vymazať skopírované hodnoty zo schránky.</string>
     <string name="default_uri_match_detection">Predvolené zisťovanie zhody URI</string>
-    <string name="default_uri_match_detection_description">Zisťovanie zhody URI ovláda, ako Bitwarden identifikuje návrhy na automatické vypĺňanie.</string>
+    <string name="default_uri_match_detection_description">Zisťovanie zhody URI ovláda, ako Byteward identifikuje návrhy na automatické vypĺňanie.</string>
     <string name="theme">Motív</string>
     <string name="theme_description">Zmeniť farebný motív aplikácie</string>
     <string name="copy_notes">Kopírovať poznámku</string>
@@ -427,7 +427,7 @@ Skenovanie prebehne automaticky.</string>
     <string name="password_generator_policy_in_effect">Jedno alebo viac nastavení organizácie ovplyvňujú vaše nastavenia generátora</string>
     <string name="unable_to_save_attachment">Nastal problém pri ukladaní prílohy. Ak problém pretrváva, môžete ju uložiť z webového trezora.</string>
     <string name="save_attachment_success">Príloha bola úspešne uložená</string>
-    <string name="autofill_tile_accessibility_required">Zapnite \"Služba prístupnosti automatického vypĺňania\" v nastaveniach Bitwardenu, aby ste mohli používať dlaždicu na automatické vypĺňanie.</string>
+    <string name="autofill_tile_accessibility_required">Zapnite \"Služba prístupnosti automatického vypĺňania\" v nastaveniach Bytewardu, aby ste mohli používať dlaždicu na automatické vypĺňanie.</string>
     <string name="autofill_tile_uri_not_found">Nenašli sa žiadne polia pre heslo</string>
     <string name="soft_deleting">Presúva sa do koša…</string>
     <string name="item_soft_deleted">Položka bola poslaná do koša.</string>
@@ -646,9 +646,9 @@ Pridať TOTP, aby ste kľúč bezpečne uložili</string>
     <string name="catch_all_email_description">Použiť doručenú poštu typu catch-all nastavenú na doméne.</string>
     <string name="forwarded_email_description">Vytvoriť e-mailový alias pomocou externej služby presmerovania.</string>
     <string name="accessibility_service_disclosure">Vyhlásenie o prístupnosti</string>
-    <string name="accessibility_disclosure_text">Bitwarden používa službu dostupnosti na vyhľadávanie prihlasovacích polí v aplikáciách a na webových stránkach a potom vytvára príslušné ID polí na zadanie používateľského mena a hesla, keď sa nájde zhoda s aplikáciou alebo webom. Neuchovávame žiadne informácie, ktoré nám poskytuje služba, ani sa nepokúšame ovládať žiadne prvky na obrazovke okrem zadávania textu prihlasovacích údajov.</string>
-    <string name="accessibility_disclosure_start_up_text_1">Toto upozornenie je potrebné, aby mohol Bitwarden ponúkať automatické vypĺňanie na základe dostupnosti.</string>
-    <string name="accessibility_disclosure_start_up_text_2">Bitwarden ponúka voliteľnú funkciu automatického vypĺňania, ktorá na detekciu prihlasovacích polí využíva službu dostupnosti Androidu. Ak túto funkciu povolíte, Bitwarden identifikuje príslušné polia a po nájdení zhody do nich vyplní vaše prihlasovacie údaje.</string>
+    <string name="accessibility_disclosure_text">Byteward používa službu dostupnosti na vyhľadávanie prihlasovacích polí v aplikáciách a na webových stránkach a potom vytvára príslušné ID polí na zadanie používateľského mena a hesla, keď sa nájde zhoda s aplikáciou alebo webom. Neuchovávame žiadne informácie, ktoré nám poskytuje služba, ani sa nepokúšame ovládať žiadne prvky na obrazovke okrem zadávania textu prihlasovacích údajov.</string>
+    <string name="accessibility_disclosure_start_up_text_1">Toto upozornenie je potrebné, aby mohol Byteward ponúkať automatické vypĺňanie na základe dostupnosti.</string>
+    <string name="accessibility_disclosure_start_up_text_2">Byteward ponúka voliteľnú funkciu automatického vypĺňania, ktorá na detekciu prihlasovacích polí využíva službu dostupnosti Androidu. Ak túto funkciu povolíte, Byteward identifikuje príslušné polia a po nájdení zhody do nich vyplní vaše prihlasovacie údaje.</string>
     <string name="accessibility_disclosure_start_up_text_3">Počas používania služby dostupnosti neukladáme žiadne informácie o obsahu obrazovky a okrem zadávania prihlasovacích údajov nemáme kontrolu nad žiadnymi prvkami na obrazovke.</string>
     <string name="i_understand">Rozumiem</string>
     <string name="accept">Prijať</string>
@@ -728,7 +728,7 @@ Chcete prepnúť na tento účet?</string>
     <string name="session_timeout">Časový limit relácie</string>
     <string name="session_timeout_action">Akcia po vypršaní relácie</string>
     <string name="account_fingerprint_phrase">Fráza odtlačku účtu</string>
-    <string name="passkey_management_explanation_long">Používajte Bitwarden na ukladanie nových prístupových kľúčov a prihlasovanie pomocou prístupových kľúčov uložených v trezore.</string>
+    <string name="passkey_management_explanation_long">Používajte Byteward na ukladanie nových prístupových kľúčov a prihlasovanie pomocou prístupových kľúčov uložených v trezore.</string>
     <string name="autofill_services_explanation_long">Android Autofill Framework sa používa na uľahčenie vyplňovania prihlasovacích údajov do iných aplikácií na vašom zariadení.</string>
     <string name="use_inline_autofill_explanation_long">Vyberte, ako sa budú zobrazovať návrhy automatického vypĺňania pri prihlasovaní do iných aplikácií v zariadení.</string>
     <string name="additional_options">Ďalšie možnosti</string>
@@ -752,8 +752,8 @@ Chcete prepnúť na tento účet?</string>
     <string name="duo_two_step_login_is_required_for_your_account">Pre váš účet sa vyžaduje dvojstupňové prihlásenie Duo.</string>
     <string name="follow_the_steps_from_duo_to_finish_logging_in">Postupujte podľa krokov z aplikácie Duo a dokončite prihlasovanie.</string>
     <string name="launch_duo">Spustiť Duo</string>
-    <string name="your_passkey_will_be_saved_to_your_bitwarden_vault_for_x">Váš prístupový kľúč sa uloží do vášho Bitwarden trezoru pre %1$s</string>
-    <string name="your_password_will_be_saved_to_your_bitwarden_vault_for_x">Vaše heslo pre %1$s sa uloží do trezora Bitwardenu</string>
+    <string name="your_passkey_will_be_saved_to_your_bitwarden_vault_for_x">Váš prístupový kľúč sa uloží do vášho Byteward trezoru pre %1$s</string>
+    <string name="your_password_will_be_saved_to_your_bitwarden_vault_for_x">Vaše heslo pre %1$s sa uloží do trezora Bytewardu</string>
     <string name="passkeys_not_supported_for_this_app">Prístupové kľúče nie sú pre túto aplikáciu podporované</string>
     <string name="passkey_operation_failed_because_browser_is_not_privileged">Operácia prístupového kľúča zlyhala, pretože prehliadač nemá oprávnenie</string>
     <string name="passkey_operation_failed_because_browser_signature_does_not_match">Operácia prístupového kľúča zlyhala, pretože podpis prehliadača sa nezhoduje</string>
@@ -781,7 +781,7 @@ Chcete prepnúť na tento účet?</string>
     <string name="email_verified">E-mail bol overený</string>
     <string name="get_emails_from_bitwarden_for_announcements_advices_and_research_opportunities_unsubscribe_any_time">Dostávajte e-maily od Bitwardenu s oznámeniami, radami a možnosťami výskumu. <annotation link="unsubscribe">Odhlásiť</annotation> sa môžete kedykoľvek.</string>
     <string name="security_prioritized">Bezpečnosť na prvom mieste</string>
-    <string name="welcome_message_1">Ukladajte prihlasovacie údaje, karty a identity do zabezpečeného trezoru. Bitwarden používa šifrovanie s nulovou znalosťou od začiatku do konca na ochranu toho, čo je pre vás dôležité.</string>
+    <string name="welcome_message_1">Ukladajte prihlasovacie údaje, karty a identity do zabezpečeného trezoru. Byteward používa šifrovanie s nulovou znalosťou od začiatku do konca na ochranu toho, čo je pre vás dôležité.</string>
     <string name="welcome_message_2">Nastavte si odomykanie biometrickými údajmi a automatické vypĺňanie na prihlasovanie do účtov bez zadávania jediného písmena.</string>
     <string name="quick_and_easy_login">Rýchle a jednoduché prihlásenie</string>
     <string name="level_up_your_logins">Posuňte prihlasovanie na vyššiu úroveň</string>
@@ -836,16 +836,16 @@ Chcete prepnúť na tento účet?</string>
     <string name="turn_on_autofill">Zapnúť automatické vypĺňanie</string>
     <string name="autofill_setup">Nastavenie automatického vypĺňania</string>
     <string name="turn_on_browser_autofill_integration">Zapnúť integráciu automatického vyplňovania v prehliadači</string>
-    <string name="browser_requires_special_permissions_for_bitwarden_singular">Používate prehliadač, ktorý vyžaduje špeciálne povolenia na automatické vyplňovanie hesiel pomocou Bitwarden.</string>
-    <string name="browser_requires_special_permissions_for_bitwarden_plural">Používate prehliadače, ktoré vyžadujú špeciálne povolenia na automatické vyplňovanie hesiel pomocou Bitwarden.</string>
-    <string name="youre_using_a_browser_that_requires_special_permissions_singular">Používate prehliadač, ktorý vyžaduje špeciálne povolenia na automatické vyplňovanie hesiel pomocou Bitwarden. Povoľte preferovanú integráciu automatického vyplňovania.</string>
-    <string name="youre_using_a_browser_that_requires_special_permissions_plural">Používate prehliadače, ktoré vyžadujú špeciálne povolenia na automatické vyplňovanie hesiel pomocou Bitwarden.</string>
+    <string name="browser_requires_special_permissions_for_bitwarden_singular">Používate prehliadač, ktorý vyžaduje špeciálne povolenia na automatické vyplňovanie hesiel pomocou Byteward.</string>
+    <string name="browser_requires_special_permissions_for_bitwarden_plural">Používate prehliadače, ktoré vyžadujú špeciálne povolenia na automatické vyplňovanie hesiel pomocou Byteward.</string>
+    <string name="youre_using_a_browser_that_requires_special_permissions_singular">Používate prehliadač, ktorý vyžaduje špeciálne povolenia na automatické vyplňovanie hesiel pomocou Byteward. Povoľte preferovanú integráciu automatického vyplňovania.</string>
+    <string name="youre_using_a_browser_that_requires_special_permissions_plural">Používate prehliadače, ktoré vyžadujú špeciálne povolenia na automatické vyplňovanie hesiel pomocou Byteward.</string>
     <string name="use_autofill_to_log_into_your_accounts">Použiť automatické vypĺňanie na prihlásenie jedným ťuknutím.</string>
     <string name="turn_on_later">Zapnúť neskôr</string>
     <string name="turn_on_autofill_later">Zapnúť automatické vypĺňanie neskôr?</string>
     <string name="turn_on_browser_autofill_integration_later">Zapnúť integráciu automatického vyplňovania v prehliadači neskôr?</string>
     <string name="return_to_complete_this_step_anytime_in_settings">K tomuto kroku sa môžete kedykoľvek vrátiť a dokončiť ho v Nastaveniach.</string>
-    <string name="what_bitwarden_has_to_offer">Teraz môžete preskúmať všetko, čo Bitwarden ponúka, a začať bezpečne spravovať svoje heslá.</string>
+    <string name="what_bitwarden_has_to_offer">Teraz môžete preskúmať všetko, čo Byteward ponúka, a začať bezpečne spravovať svoje heslá.</string>
     <string name="youre_all_set">Všetko je nastavené!</string>
     <string name="error_connecting_with_the_duo_service_use_a_different_two_step_login_method_or_contact_duo_for_assistance">Chyba pri pripájaní k službe Duo. Použite inú metódu dvojstupňového prihlásenia alebo kontaktujte Duo a požiadajte o pomoc.</string>
     <string name="master_password_hint_not_specified">Nápoveď k hlavnému heslu</string>
@@ -979,7 +979,7 @@ Chcete prepnúť na tento účet?</string>
     <string name="unsupported_certificate_type">Nepodporovaný typ certifikátu</string>
     <string name="certificate_password_incorrect">Nesprávne heslo certifikátu</string>
     <string name="invalid_certificate_chain">Neplatný reťazec certifikátu</string>
-    <string name="system_certificates_are_not_as_secure_as_importing_certificates_to_bitwarden">Použitie systémového certifikátu je menej bezpečné ako uloženie certifikátu v Bitwardene. Pokračovaním sa zobrazí zoznam dostupných systémových certifikátov, ak je už nejaký nainštalovaný.</string>
+    <string name="system_certificates_are_not_as_secure_as_importing_certificates_to_bitwarden">Použitie systémového certifikátu je menej bezpečné ako uloženie certifikátu v Bytewarde. Pokračovaním sa zobrazí zoznam dostupných systémových certifikátov, ak je už nejaký nainštalovaný.</string>
     <string name="link">Odkaz</string>
     <string name="passkey_operation_failed_because_host_url_is_not_present_in_request">Operácia prístupového kľúča zlyhala, pretože v požiadavke nie je uvedená adresa URL hostiteľa.</string>
     <string name="passkey_operation_failed_because_app_signature_is_invalid">Operácia prístupového kľúča zlyhala, pretože podpis aplikácia je neplatný.</string>
@@ -1056,11 +1056,11 @@ Chcete prepnúť na tento účet?</string>
     <string name="missing_send_resync_your_vault">Chýba Send, znovu synchronizujte trezor</string>
     <string name="use_dynamic_colors">Použiť dynamické farby</string>
     <string name="use_dynamic_colors_question">Použiť dynamické farby?</string>
-    <string name="dynamic_colors_may_not_adhere_to_accessibility_guidelines">Táto farebná schéma automaticky aplikuje systémové farby na Bitwarden na základe vašej aktuálnej tapety. Tieto farby nemusia spĺňať všetky pravidlá prístupnosti.</string>
+    <string name="dynamic_colors_may_not_adhere_to_accessibility_guidelines">Táto farebná schéma automaticky aplikuje systémové farby na Byteward na základe vašej aktuálnej tapety. Tieto farby nemusia spĺňať všetky pravidlá prístupnosti.</string>
     <string name="passkey_operation_failed_because_browser_x_is_not_trusted">Operácia Passkey zlyhala, pretože prehliadač (%1$s) nie je rozpoznaný. Vyberte \"Dôverovať\", aby ste pridali %1$s do zoznamu lokálne dôveryhodných aplikácií.</string>
     <string name="passkey_operation_failed_because_the_browser_is_not_trusted">Operácia prístupového kľúča zlyhala, pretože prehliadač nie je dôveryhodný.</string>
     <string name="trust">Dôverovať</string>
-    <string name="trusted_by_you_learn_more">Toto sú aplikácie alebo prehliadače, ktorým Bitwarden predvolene nedôveruje, ale vy im dôverujete pri vykonávaní operácií s prístupovými kľúčmi.</string>
+    <string name="trusted_by_you_learn_more">Toto sú aplikácie alebo prehliadače, ktorým Byteward predvolene nedôveruje, ale vy im dôverujete pri vykonávaní operácií s prístupovými kľúčmi.</string>
     <string name="trusted_by_community_learn_more">Tieto aplikácie sa nenachádzajú v obchode Google Play, ale Bitwarden dôveruje vykonávaným operáciám s prístupovými kľúčmi po tom, čo ich členovia komunity použijú a nahlásia ako bezpečné.</string>
     <string name="trusted_by_google_learn_more">Tieto aplikácie považuje Google za bezpečné a sú k dispozícii v obchode Google Play.</string>
     <string name="trusted_by_you">Dôveryhodné podľa vás</string>
@@ -1208,7 +1208,7 @@ Chcete prepnúť na tento účet?</string>
         <item quantity="other">%1$d položiek bolo importovaných do vášho trezora.</item>
     </plurals>
     <string name="enable_browser_autofill_to_keep_filling_passwords">Povolenie funkcie automatického vypĺňania v prehliadači na ponechanie vypĺňania hesiel</string>
-    <string name="your_browser_recently_updated_how_autofill_works_singular">Váš prehliadač bol nedávno aktualizovaný, čo vyplo funkciu automatického vypĺňania. Ak chcete naďalej vypĺňať heslá pomocou Bitwarden, povoľte automatické vypĺňanie v prehliadači v nastaveniach automatického vypĺňania.</string>
+    <string name="your_browser_recently_updated_how_autofill_works_singular">Váš prehliadač bol nedávno aktualizovaný, čo vyplo funkciu automatického vypĺňania. Ak chcete naďalej vypĺňať heslá pomocou Byteward, povoľte automatické vypĺňanie v prehliadači v nastaveniach automatického vypĺňania.</string>
     <string name="not_now">Teraz nie</string>
     <string name="import_from_bitwarden">Importovať z Bitwardenu</string>
     <string name="select_account">Vyberte účet</string>
@@ -1308,7 +1308,7 @@ Chcete prepnúť na tento účet?</string>
     <string name="trusted">Dôveryhodné</string>
     <string name="preview_not_available_for_files">Pre súbory (%1$s) nie je k dispozícii náhľad. Stále si ich môžete stiahnuť a zobraziť na zariadení.</string>
     <string name="this_file_is_too_large_to_preview">Tento súbor je príliš veľký na náhľad. Stále si ho môžete stiahnuť a zobraziť na zariadení.</string>
-    <string name="bitwarden_could_not_decrypt_this_file_so_the_preview_cannot_be_displayed">Bitwarden nedokázal tento súbor dešifrovať, preto nie je možné zobraziť náhľad.</string>
+    <string name="bitwarden_could_not_decrypt_this_file_so_the_preview_cannot_be_displayed">Byteward nedokázal tento súbor dešifrovať, preto nie je možné zobraziť náhľad.</string>
     <string name="preview_unavailable_for_this_file">Pre tento súbor nie je k dispozícii náhľad. Stále si ho môžete stiahnuť a zobraziť na zariadení.</string>
     <string name="preview_unavailable">Náhľad nie je k dispozícii</string>
     <string name="download_attachment">Stiahnuť prílohu</string>
@@ -1443,8 +1443,8 @@ Chcete prepnúť na tento účet?</string>
     <string name="local_network_access_required">Vyžaduje sa prístup k miestnej sieti</string>
     <string name="ask_again_later">Opýtať sa neskôr</string>
     <string name="enable_local_network_access">Povoliť prístup k miestnej sieti</string>
-    <string name="bitwarden_needs_local_network_access_to_sync_with_your_server">Bitwarden potrebuje prístup k miestnej sieti, aby sa mohla synchronizovať s vaším serverom. Bez tohto povolenia sa aplikácia nebude môcť pripojiť.</string>
-    <string name="without_this_permission_bitwarden_wont_be_able_to_sync_with_your_server">Bez tohto povolenia sa Bitwarden nebude môcť pripojiť a synchronizovať s vaším serverom. Túto funkciu môžete povoliť v nastaveniach zariadenia.</string>
+    <string name="bitwarden_needs_local_network_access_to_sync_with_your_server">Byteward potrebuje prístup k miestnej sieti, aby sa mohla synchronizovať s vaším serverom. Bez tohto povolenia sa aplikácia nebude môcť pripojiť.</string>
+    <string name="without_this_permission_bitwarden_wont_be_able_to_sync_with_your_server">Bez tohto povolenia sa Byteward nebude môcť pripojiť a synchronizovať s vaším serverom. Túto funkciu môžete povoliť v nastaveniach zariadenia.</string>
     <string name="your_request_was_interrupted_because_the_app_needs_local_network_access">Vaša žiadosť bola prerušená, pretože aplikácia potrebuje prístup k miestnej sieti. Túto funkciu môžete povoliť v nastaveniach zariadenia.</string>
     <string name="continue_to_stripe">Pokračovať na Stripe?</string>
     <string name="youll_be_taken_to_stripe_to_manage_your_subscription_cancellation">Budete presmerovaní na stránku Stripe, kde môžete zrušiť svoje predplatné.</string>
@@ -1466,7 +1466,7 @@ Chcete prepnúť na tento účet?</string>
     <string name="use_this_username">Použiť toto používateľské meno</string>
     <string name="create_login">Vytvoriť prihlasovacie údaje</string>
     <string name="keep_unlocking_with_biometrics">Naďalej odomykať pomocou biometrie</string>
-    <string name="weve_made_a_security_update">Vykonali sme bezpečnostnú aktualizáciu. Potvrďte svoje biometrické údaje ešte raz, aby ste ich mohli naďalej používať na odomknutie Bitwardenu.</string>
+    <string name="weve_made_a_security_update">Vykonali sme bezpečnostnú aktualizáciu. Potvrďte svoje biometrické údaje ešte raz, aby ste ich mohli naďalej používať na odomknutie Bytewardu.</string>
     <string name="turn_off">Vypnúť</string>
     <string name="turn_off_biometric_question">Vypnúť biometriu?</string>
     <string name="unlocking_will_require_your_master_password">Odomknutie bude vyžadovať vaše hlavné heslo. Biometriu môžete znova zapnúť v nastaveniach.</string>

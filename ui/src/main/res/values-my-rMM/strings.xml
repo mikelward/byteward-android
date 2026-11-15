@@ -75,9 +75,9 @@
     <string name="yes">ဟုတ်ကဲ့</string>
     <string name="account">အကောင့်</string>
     <string name="account_created_success">သင့်အကောင့်အသစ် ဖန်တီးပြီးပါပြီ!</string>
-    <string name="set_bitwarden_as_passkey_manager_description">စက်ပစ္စည်း ဆက်တင်များတွင် Bitwarden ကို သင့် passkey ပံ့ပိုးပေးသူအဖြစ် သတ်မှတ်ပါ။</string>
+    <string name="set_bitwarden_as_passkey_manager_description">စက်ပစ္စည်း ဆက်တင်များတွင် Byteward ကို သင့် passkey ပံ့ပိုးပေးသူအဖြစ် သတ်မှတ်ပါ။</string>
     <string name="avoid_ambiguous_characters">ရှုပ်ထွေးသော စာလုံးများကို ရှောင်ပါ</string>
-    <string name="bitwarden_autofill_service">Bitwarden အလိုအလျောက်ဖြည့်ခြင်း ဝန်ဆောင်မှု</string>
+    <string name="bitwarden_autofill_service">Byteward အလိုအလျောက်ဖြည့်ခြင်း ဝန်ဆောင်မှု</string>
     <string name="change_master_password">မာစတာစကားဝှက် ပြောင်းပါ</string>
     <string name="close">ပိတ်ပါ</string>
     <string name="close_app">အက်ပ်ပိတ်ပါ</string>
@@ -175,7 +175,7 @@
     <string name="no_items_for_vault">သင့်ဗော်လ်တ်တွင် “%1$s” နှင့် ကိုက်ညီသော ပစ္စည်းများ မရှိပါ</string>
     <string name="search_for_a_login_or_add_a_new_login">ဝင်ရောက်မှုတစ်ခုကို ရှာဖွေပါ သို့မဟုတ် ဝင်ရောက်မှုအသစ်တစ်ခု ထည့်ပါ</string>
     <string name="disabled">ပိတ်ထား</string>
-    <string name="bitwarden_autofill_service_alert2">သင့်ဗော်လ်တ်သို့ ဝင်ရောက်မှုအသစ်များထည့်ရန် အလွယ်ဆုံးနည်းလမ်းမှာ Bitwarden အလိုအလျောက်ဖြည့်ခြင်း ဝန်ဆောင်မှုမှဖြစ်သည်။ Bitwarden အလိုအလျောက်ဖြည့်ခြင်း ဝန်ဆောင်မှုကို အသုံးပြုခြင်းအကြောင်း ပိုမိုလေ့လာရန် “ဆက်တင်များ” မျက်နှာပြင်သို့ သွားပါ။</string>
+    <string name="bitwarden_autofill_service_alert2">သင့်ဗော်လ်တ်သို့ ဝင်ရောက်မှုအသစ်များထည့်ရန် အလွယ်ဆုံးနည်းလမ်းမှာ Byteward အလိုအလျောက်ဖြည့်ခြင်း ဝန်ဆောင်မှုမှဖြစ်သည်။ Byteward အလိုအလျောက်ဖြည့်ခြင်း ဝန်ဆောင်မှုကို အသုံးပြုခြင်းအကြောင်း ပိုမိုလေ့လာရန် “ဆက်တင်များ” မျက်နှာပြင်သို့ သွားပါ။</string>
     <string name="autofill_noun">အလိုအလျောက်ဖြည့်ခြင်း</string>
     <string name="autofill_verb">အလိုအလျောက်ဖြည့်ပါ</string>
     <string name="autofill_or_view">ဤပစ္စည်းကို အလိုအလျောက်ဖြည့်ရန် သို့မဟုတ် ကြည့်ရှုလိုပါသလား?</string>
@@ -297,7 +297,7 @@
     <string name="no_items_folder">ဤဖိုလ်ဒါတွင် ပစ္စည်းများ မရှိပါ။</string>
     <string name="no_items_trash">အမှိုက်ပုံးတွင် ပစ္စည်းများ မရှိပါ။</string>
     <string name="autofill_accessibility_summary">အခြားအက်ပ်များနှင့် ဝဘ်ပေါ်ရှိ အသုံးပြုသူအမည်နှင့် စကားဝှက်အကွက်များကို ဖြည့်ရန် ကူညီပါ။</string>
-    <string name="autofill_service_description">Bitwarden အလိုအလျောက်ဖြည့်ခြင်း ဝန်ဆောင်မှုသည် သင့်စက်ပစ္စည်းပေါ်ရှိ အခြားအက်ပ်များသို့ ဝင်ရောက်မှုအချက်အလက်များ ဖြည့်ရန် Android Autofill Framework ကို သုံးသည်။</string>
+    <string name="autofill_service_description">Byteward အလိုအလျောက်ဖြည့်ခြင်း ဝန်ဆောင်မှုသည် သင့်စက်ပစ္စည်းပေါ်ရှိ အခြားအက်ပ်များသို့ ဝင်ရောက်မှုအချက်အလက်များ ဖြည့်ရန် Android Autofill Framework ကို သုံးသည်။</string>
     <string name="bitwarden_autofill_go_to_settings">သင့်အတွက် Android အလိုအလျောက်ဖြည့်ခြင်း ဆက်တင်မီနူးကို အလိုအလျောက် မဖွင့်နိုင်ပါ။ သင်သည် Android ဆက်တင်များ &gt; စနစ် &gt; ဘာသာစကားများနှင့် ထည့်သွင်းမှု &gt; အဆင့်မြင့် &gt; အလိုအလျောက်ဖြည့်ခြင်း ဝန်ဆောင်မှုမှ အလိုအလျောက်ဖြည့်ခြင်း ဆက်တင်မီနူးသို့ ကိုယ်တိုင်သွားနိုင်သည်။</string>
     <string name="custom_field_name">စိတ်ကြိုက်အကွက်အမည်</string>
     <string name="field_type_boolean">Boolean</string>
@@ -371,7 +371,7 @@
     <string name="pin">PIN</string>
     <string name="unlock">သော့ဖွင့်ပါ</string>
     <string name="thirty_minutes">၃၀ မိနစ်</string>
-    <string name="set_pin_description">သင့် PIN သည် အနည်းဆုံး စာလုံး ၄ လုံး ရှိရပါမည်။ သင်ကိုယ်တိုင် Bitwarden အက်ပ်မှ ထွက်ပါက သင့် PIN ဆက်တင်များကို ပြန်လည်သတ်မှတ်မည်။</string>
+    <string name="set_pin_description">သင့် PIN သည် အနည်းဆုံး စာလုံး ၄ လုံး ရှိရပါမည်။ သင်ကိုယ်တိုင် Byteward အက်ပ်မှ ထွက်ပါက သင့် PIN ဆက်တင်များကို ပြန်လည်သတ်မှတ်မည်။</string>
     <string name="logged_in_as_on">%2$s တွင် %1$s အဖြစ် ဝင်ရောက်ထားသည်။</string>
     <string name="vault_locked_master_password">သင့်ဗော်လ်တ် သော့ခတ်ထားသည်။ ဆက်လက်ရန် သင့် မာစတာစကားဝှက်ကို အတည်ပြုပါ။</string>
     <string name="vault_locked_pin">သင့်ဗော်လ်တ် သော့ခတ်ထားသည်။ ဆက်လက်ရန် သင့် PIN ကုဒ်ကို အတည်ပြုပါ။</string>
@@ -385,7 +385,7 @@
     <string name="clear_clipboard">ကလစ်ဘုတ် ရှင်းလင်းပါ</string>
     <string name="clear_clipboard_description">သင့်ကလစ်ဘုတ်မှ ကူးယူထားသော တန်ဖိုးများကို အလိုအလျောက် ရှင်းလင်းပါ။</string>
     <string name="default_uri_match_detection">မူရင်း URI ကိုက်ညီမှု ရှာဖွေခြင်း</string>
-    <string name="default_uri_match_detection_description">URI ကိုက်ညီမှု ရှာဖွေခြင်းသည် Bitwarden မှ အလိုအလျောက်ဖြည့်ရန် အကြံပြုချက်များကို မည်သို့ခွဲခြားသတ်မှတ်သည်ကို ထိန်းချုပ်သည်။</string>
+    <string name="default_uri_match_detection_description">URI ကိုက်ညီမှု ရှာဖွေခြင်းသည် Byteward မှ အလိုအလျောက်ဖြည့်ရန် အကြံပြုချက်များကို မည်သို့ခွဲခြားသတ်မှတ်သည်ကို ထိန်းချုပ်သည်။</string>
     <string name="theme">အပြင်အဆင်</string>
     <string name="theme_description">အက်ပ်၏ အရောင်အပြင်အဆင်ကို ပြောင်းပါ</string>
     <string name="copy_notes">မှတ်စု ကူးယူပါ</string>
@@ -421,7 +421,7 @@
     <string name="password_generator_policy_in_effect">တစ်ခု သို့မဟုတ် တစ်ခုထက်ပိုသော အဖွဲ့အစည်းမူဝါဒများသည် သင့်ဂျင်နရေတာ ဆက်တင်များကို သက်ရောက်နေသည်</string>
     <string name="unable_to_save_attachment">ဤပူးတွဲပစ္စည်းကို သိမ်းဆည်းရာတွင် ပြဿနာရှိခဲ့သည်။ ပြဿနာ ဆက်ရှိနေပါက၊ ဝဘ်ဗော်လ်တ်မှ သိမ်းဆည်းနိုင်သည်။</string>
     <string name="save_attachment_success">ပူးတွဲပစ္စည်း အောင်မြင်စွာ သိမ်းဆည်းပြီးပါပြီ</string>
-    <string name="autofill_tile_accessibility_required">Autofill တိုင်ကို သုံးရန် Bitwarden ဆက်တင်များမှ “Autofill Accessibility Service” ကို ဖွင့်ပါ။</string>
+    <string name="autofill_tile_accessibility_required">Autofill တိုင်ကို သုံးရန် Byteward ဆက်တင်များမှ “Autofill Accessibility Service” ကို ဖွင့်ပါ။</string>
     <string name="autofill_tile_uri_not_found">စကားဝှက်အကွက်များ မတွေ့ပါ</string>
     <string name="soft_deleting">အမှိုက်ပုံးသို့ ပို့နေသည်…</string>
     <string name="item_soft_deleted">ပစ္စည်းကို အမှိုက်ပုံးသို့ ပို့ထားပါပြီ။</string>
@@ -634,9 +634,9 @@
     <string name="catch_all_email_description">သင့်ဒိုမိန်း၏ သတ်မှတ်ထားသော catch-all ဝင်စာပုံးကို သုံးပါ။</string>
     <string name="forwarded_email_description">ပြင်ပပြန်ညွှန်းဝန်ဆောင်မှုဖြင့် အီးမေးလ် နာမည်တု ဖန်တီးပါ။</string>
     <string name="accessibility_service_disclosure">သုံးစွဲနိုင်မှု ဝန်ဆောင်မှု ထုတ်ဖော်ချက်</string>
-    <string name="accessibility_disclosure_text">Bitwarden သည် အက်ပ်များနှင့် ဝဘ်ဆိုက်များရှိ ဝင်ရောက်မှုအကွက်များကို ရှာဖွေရန် Accessibility Service ကို သုံးပြီး၊ ထို့နောက် အက်ပ် သို့မဟုတ် ဆိုက်အတွက် ကိုက်ညီမှုတွေ့ရှိပါက အသုံးပြုသူအမည်နှင့် စကားဝှက် ထည့်သွင်းရန် သင့်လျော်သော အကွက် ID များကို သတ်မှတ်ပေးသည်။ ကျွန်ုပ်တို့သည် ဝန်ဆောင်မှုမှ ပေးအပ်သော အချက်အလက်များကို မသိမ်းဆည်းပါ၊ အထောက်အထားများ စာသားထည့်သွင်းခြင်းထက် မျက်နှာပြင်ပေါ်ရှိ ဒြပ်စင်များကို ထိန်းချုပ်ရန် ကြိုးစားခြင်း မပြုပါ။</string>
-    <string name="accessibility_disclosure_start_up_text_1">Bitwarden မှ သုံးစွဲနိုင်မှုအခြေပြု အလိုအလျောက်ဖြည့်ခြင်းကို မကမ်းလှမ်းမီ ဤအသိပေးချက် လိုအပ်သည်။</string>
-    <string name="accessibility_disclosure_start_up_text_2">Bitwarden သည် Android ၏ Accessibility Service ကို သုံး၍ ဝင်ရောက်မှုအကွက်များကို ရှာဖွေသည့် ရွေးချယ်နိုင်သော အလိုအလျောက်ဖြည့်ခြင်းနည်းလမ်းကို ကမ်းလှမ်းသည်။ သင်ဖွင့်ပါက၊ Bitwarden သည် သင့်လျော်သော အကွက်များကို ခွဲခြားသတ်မှတ်ပြီး ကိုက်ညီမှုတွေ့ရှိပါက သင့်အထောက်အထားများကို ဖြည့်ပေးမည်။</string>
+    <string name="accessibility_disclosure_text">Byteward သည် အက်ပ်များနှင့် ဝဘ်ဆိုက်များရှိ ဝင်ရောက်မှုအကွက်များကို ရှာဖွေရန် Accessibility Service ကို သုံးပြီး၊ ထို့နောက် အက်ပ် သို့မဟုတ် ဆိုက်အတွက် ကိုက်ညီမှုတွေ့ရှိပါက အသုံးပြုသူအမည်နှင့် စကားဝှက် ထည့်သွင်းရန် သင့်လျော်သော အကွက် ID များကို သတ်မှတ်ပေးသည်။ ကျွန်ုပ်တို့သည် ဝန်ဆောင်မှုမှ ပေးအပ်သော အချက်အလက်များကို မသိမ်းဆည်းပါ၊ အထောက်အထားများ စာသားထည့်သွင်းခြင်းထက် မျက်နှာပြင်ပေါ်ရှိ ဒြပ်စင်များကို ထိန်းချုပ်ရန် ကြိုးစားခြင်း မပြုပါ။</string>
+    <string name="accessibility_disclosure_start_up_text_1">Byteward မှ သုံးစွဲနိုင်မှုအခြေပြု အလိုအလျောက်ဖြည့်ခြင်းကို မကမ်းလှမ်းမီ ဤအသိပေးချက် လိုအပ်သည်။</string>
+    <string name="accessibility_disclosure_start_up_text_2">Byteward သည် Android ၏ Accessibility Service ကို သုံး၍ ဝင်ရောက်မှုအကွက်များကို ရှာဖွေသည့် ရွေးချယ်နိုင်သော အလိုအလျောက်ဖြည့်ခြင်းနည်းလမ်းကို ကမ်းလှမ်းသည်။ သင်ဖွင့်ပါက၊ Byteward သည် သင့်လျော်သော အကွက်များကို ခွဲခြားသတ်မှတ်ပြီး ကိုက်ညီမှုတွေ့ရှိပါက သင့်အထောက်အထားများကို ဖြည့်ပေးမည်။</string>
     <string name="accessibility_disclosure_start_up_text_3">သင်သည် Accessibility Service ကို သုံးစဉ် မျက်နှာပြင်ပေါ်ရှိအရာများအကြောင်း ကျွန်ုပ်တို့ မသိမ်းဆည်းပါ၊ အထောက်အထားများ ထည့်သွင်းခြင်းထက် မျက်နှာပြင်ပေါ်ရှိ ဒြပ်စင်များကို ကျွန်ုပ်တို့ မထိန်းချုပ်ပါ။</string>
     <string name="i_understand">ကျွန်ုပ် နားလည်ပါသည်</string>
     <string name="accept">လက်ခံပါ</string>
@@ -716,8 +716,8 @@ Do you want to switch to this account?</string>
     <string name="session_timeout">ဆက်ရှင် အချိန်ကုန်ဆုံးခြင်း</string>
     <string name="session_timeout_action">ဆက်ရှင် အချိန်ကုန်ဆုံးသည့် လုပ်ဆောင်ချက်</string>
     <string name="account_fingerprint_phrase">အကောင့် လက်ဗွေ စကားစု</string>
-    <string name="passkey_management_explanation_long">Bitwarden ကို သုံး၍ passkey အသစ်များ သိမ်းဆည်းပြီး သင့်ဗော်လ်တ်တွင် သိမ်းဆည်းထားသော passkey များဖြင့် ဝင်ရောက်ပါ။</string>
-    <string name="autofill_services_explanation_long">Bitwarden ကို သင့်သိမ်းဆည်းထားသော ဝင်ရောက်မှုအချက်အလက်များကို သုံး၍ သင့်စက်ပစ္စည်းပေါ်ရှိ အခြားအက်ပ်များသို့ ဝင်ရောက်ရန် ခွင့်ပြုပါ။</string>
+    <string name="passkey_management_explanation_long">Byteward ကို သုံး၍ passkey အသစ်များ သိမ်းဆည်းပြီး သင့်ဗော်လ်တ်တွင် သိမ်းဆည်းထားသော passkey များဖြင့် ဝင်ရောက်ပါ။</string>
+    <string name="autofill_services_explanation_long">Byteward ကို သင့်သိမ်းဆည်းထားသော ဝင်ရောက်မှုအချက်အလက်များကို သုံး၍ သင့်စက်ပစ္စည်းပေါ်ရှိ အခြားအက်ပ်များသို့ ဝင်ရောက်ရန် ခွင့်ပြုပါ။</string>
     <string name="use_inline_autofill_explanation_long">သင့်စက်ပစ္စည်းပေါ်ရှိ အခြားအက်ပ်များသို့ ဝင်ရောက်သည့်အခါ သင့်အလိုအလျောက်ဖြည့်ရန် အကြံပြုချက်များ မည်သို့ပေါ်လာမည်ကို ရွေးပါ။</string>
     <string name="additional_options">နောက်ထပ် ရွေးချယ်စရာများ</string>
     <string name="continue_to_web_app">ဝဘ်အက်ပ်သို့ ဆက်လက်မည်လား?</string>
@@ -740,8 +740,8 @@ Do you want to switch to this account?</string>
     <string name="duo_two_step_login_is_required_for_your_account">သင့်အကောင့်အတွက် Duo အဆင့်နှစ်ဆင့် ဝင်ရောက်ခြင်း လိုအပ်သည်။</string>
     <string name="follow_the_steps_from_duo_to_finish_logging_in">ဝင်ရောက်ခြင်းကို အပြီးသတ်ရန် Duo မှ အဆင့်များကို လိုက်နာပါ။</string>
     <string name="launch_duo">Duo ကို စတင်ပါ</string>
-    <string name="your_passkey_will_be_saved_to_your_bitwarden_vault_for_x">သင့် passkey ကို %1$s အတွက် သင့် Bitwarden ဗော်လ်တ်တွင် သိမ်းဆည်းမည်</string>
-    <string name="your_password_will_be_saved_to_your_bitwarden_vault_for_x">သင့်စကားဝှက်ကို %1$s အတွက် သင့် Bitwarden ဗော်လ်တ်တွင် သိမ်းဆည်းမည်</string>
+    <string name="your_passkey_will_be_saved_to_your_bitwarden_vault_for_x">သင့် passkey ကို %1$s အတွက် သင့် Byteward ဗော်လ်တ်တွင် သိမ်းဆည်းမည်</string>
+    <string name="your_password_will_be_saved_to_your_bitwarden_vault_for_x">သင့်စကားဝှက်ကို %1$s အတွက် သင့် Byteward ဗော်လ်တ်တွင် သိမ်းဆည်းမည်</string>
     <string name="passkeys_not_supported_for_this_app">ဤအက်ပ်အတွက် Passkeys ကို မပံ့ပိုးပါ</string>
     <string name="passkey_operation_failed_because_browser_is_not_privileged">ဘရောက်ဆာတွင် အထူးအခွင့်အရေးမရှိသောကြောင့် Passkey လုပ်ဆောင်ချက် မအောင်မြင်ပါ</string>
     <string name="passkey_operation_failed_because_browser_signature_does_not_match">ဘရောက်ဆာ လက်မှတ် မကိုက်ညီသောကြောင့် Passkey လုပ်ဆောင်ချက် မအောင်မြင်ပါ</string>
@@ -769,7 +769,7 @@ Do you want to switch to this account?</string>
     <string name="email_verified">အီးမေးလ် အတည်ပြုပြီ</string>
     <string name="get_emails_from_bitwarden_for_announcements_advices_and_research_opportunities_unsubscribe_any_time">Bitwarden မှ ကြေညာချက်များ၊ အကြံဉာဏ်များနှင့် သုတေသနအခွင့်အလမ်းများအတွက် အီးမေးလ်များ ရယူပါ။ အချိန်မရွေး <annotation link="unsubscribe">စာရင်းဖြုတ်ပါ</annotation>။</string>
     <string name="security_prioritized">လုံခြုံရေး၊ ဦးစားပေး</string>
-    <string name="welcome_message_1">ဝင်ရောက်မှုများ၊ ကဒ်များနှင့် ကိုယ်ရေးအချက်အလက်များကို သင့်လုံခြုံသော ဗော်လ်တ်တွင် သိမ်းဆည်းပါ။ Bitwarden သည် သင့်အတွက် အရေးကြီးသောအရာများကို ကာကွယ်ရန် zero-knowledge၊ end-to-end ကုဒ်ဝှက်ခြင်းကို သုံးပါသည်။</string>
+    <string name="welcome_message_1">ဝင်ရောက်မှုများ၊ ကဒ်များနှင့် ကိုယ်ရေးအချက်အလက်များကို သင့်လုံခြုံသော ဗော်လ်တ်တွင် သိမ်းဆည်းပါ။ Byteward သည် သင့်အတွက် အရေးကြီးသောအရာများကို ကာကွယ်ရန် zero-knowledge၊ end-to-end ကုဒ်ဝှက်ခြင်းကို သုံးပါသည်။</string>
     <string name="welcome_message_2">စာလုံးတစ်လုံးမျှ မရိုက်ဘဲ သင့်အကောင့်များသို့ ဝင်ရောက်ရန် ဇီဝဗေဒဆိုင်ရာ သော့ဖွင့်ခြင်းနှင့် အလိုအလျောက်ဖြည့်ခြင်းကို သတ်မှတ်ပါ။</string>
     <string name="quick_and_easy_login">မြန်ဆန်လွယ်ကူသော ဝင်ရောက်မှု</string>
     <string name="level_up_your_logins">သင့်ဝင်ရောက်မှုများကို အဆင့်မြှင့်ပါ</string>
@@ -821,16 +821,16 @@ Do you want to switch to this account?</string>
     <string name="turn_on_autofill">အလိုအလျောက်ဖြည့်ခြင်း ဖွင့်ပါ</string>
     <string name="autofill_setup">အလိုအလျောက်ဖြည့်ခြင်း သတ်မှတ်ခြင်း</string>
     <string name="turn_on_browser_autofill_integration">ဘရောက်ဆာ အလိုအလျောက်ဖြည့်ခြင်း ပေါင်းစပ်မှုကို ဖွင့်ပါ</string>
-    <string name="browser_requires_special_permissions_for_bitwarden_singular">သင်သည် Bitwarden အား သင့်စကားဝှက်များကို အလိုအလျောက်ဖြည့်ရန် အထူးခွင့်ပြုချက်များ လိုအပ်သော ဘရောက်ဆာကို သုံးနေသည်။</string>
-    <string name="browser_requires_special_permissions_for_bitwarden_plural">သင်သည် Bitwarden အား သင့်စကားဝှက်များကို အလိုအလျောက်ဖြည့်ရန် အထူးခွင့်ပြုချက်များ လိုအပ်သော ဘရောက်ဆာများကို သုံးနေသည်။</string>
-    <string name="youre_using_a_browser_that_requires_special_permissions_singular">သင်သည် Bitwarden အား သင့်စကားဝှက်များကို အလိုအလျောက်ဖြည့်ရန် အထူးခွင့်ပြုချက်များ လိုအပ်သော ဘရောက်ဆာကို သုံးနေသည်။ အောက်တွင် သင့်နှစ်သက်ရာ အလိုအလျောက်ဖြည့်ခြင်း ပေါင်းစပ်မှုကို ဖွင့်ပါ။</string>
-    <string name="youre_using_a_browser_that_requires_special_permissions_plural">သင်သည် Bitwarden အား သင့်စကားဝှက်များကို အလိုအလျောက်ဖြည့်ရန် အထူးခွင့်ပြုချက်များ လိုအပ်သော ဘရောက်ဆာများကို သုံးနေသည်။ ဆက်လက်ရန် သင့်တပ်ဆင်ထားသော ဘရောက်ဆာအားလုံးအတွက် အလိုအလျောက်ဖြည့်ခြင်းကို ဖွင့်ပါ။</string>
+    <string name="browser_requires_special_permissions_for_bitwarden_singular">သင်သည် Byteward အား သင့်စကားဝှက်များကို အလိုအလျောက်ဖြည့်ရန် အထူးခွင့်ပြုချက်များ လိုအပ်သော ဘရောက်ဆာကို သုံးနေသည်။</string>
+    <string name="browser_requires_special_permissions_for_bitwarden_plural">သင်သည် Byteward အား သင့်စကားဝှက်များကို အလိုအလျောက်ဖြည့်ရန် အထူးခွင့်ပြုချက်များ လိုအပ်သော ဘရောက်ဆာများကို သုံးနေသည်။</string>
+    <string name="youre_using_a_browser_that_requires_special_permissions_singular">သင်သည် Byteward အား သင့်စကားဝှက်များကို အလိုအလျောက်ဖြည့်ရန် အထူးခွင့်ပြုချက်များ လိုအပ်သော ဘရောက်ဆာကို သုံးနေသည်။ အောက်တွင် သင့်နှစ်သက်ရာ အလိုအလျောက်ဖြည့်ခြင်း ပေါင်းစပ်မှုကို ဖွင့်ပါ။</string>
+    <string name="youre_using_a_browser_that_requires_special_permissions_plural">သင်သည် Byteward အား သင့်စကားဝှက်များကို အလိုအလျောက်ဖြည့်ရန် အထူးခွင့်ပြုချက်များ လိုအပ်သော ဘရောက်ဆာများကို သုံးနေသည်။ ဆက်လက်ရန် သင့်တပ်ဆင်ထားသော ဘရောက်ဆာအားလုံးအတွက် အလိုအလျောက်ဖြည့်ခြင်းကို ဖွင့်ပါ။</string>
     <string name="use_autofill_to_log_into_your_accounts">တစ်ချက်နှိပ်ရုံဖြင့် သင့်အကောင့်များသို့ ဝင်ရောက်ရန် အလိုအလျောက်ဖြည့်ခြင်းကို သုံးပါ။</string>
     <string name="turn_on_later">နောက်မှ ဖွင့်ပါ</string>
     <string name="turn_on_autofill_later">အလိုအလျောက်ဖြည့်ခြင်းကို နောက်မှ ဖွင့်မည်လား?</string>
     <string name="turn_on_browser_autofill_integration_later">ဘရောက်ဆာ အလိုအလျောက်ဖြည့်ခြင်း ပေါင်းစပ်မှုကို နောက်မှ ဖွင့်မည်လား?</string>
     <string name="return_to_complete_this_step_anytime_in_settings">သင်သည် ဆက်တင်များတွင် အချိန်မရွေး ဤအဆင့်ကို အပြီးသတ်ရန် ပြန်လာနိုင်သည်။</string>
-    <string name="what_bitwarden_has_to_offer">သင်သည် ယခု Bitwarden ၏ အခြားသော အင်္ဂါရပ်များကို စူးစမ်းပြီး သင့်စကားဝှက်များကို လုံခြုံစွာ စီမံခန့်ခွဲခြင်း စတင်နိုင်ပါပြီ။</string>
+    <string name="what_bitwarden_has_to_offer">သင်သည် ယခု Byteward ၏ အခြားသော အင်္ဂါရပ်များကို စူးစမ်းပြီး သင့်စကားဝှက်များကို လုံခြုံစွာ စီမံခန့်ခွဲခြင်း စတင်နိုင်ပါပြီ။</string>
     <string name="youre_all_set">အားလုံး အသင့်ဖြစ်ပါပြီ!</string>
     <string name="error_connecting_with_the_duo_service_use_a_different_two_step_login_method_or_contact_duo_for_assistance">Duo ဝန်ဆောင်မှုနှင့် ချိတ်ဆက်ရာတွင် အမှားရှိသည်။ အခြား အဆင့်နှစ်ဆင့် ဝင်ရောက်နည်းကို သုံးပါ သို့မဟုတ် အကူအညီအတွက် Duo ကို ဆက်သွယ်ပါ။</string>
     <string name="master_password_hint_not_specified">မာစတာစကားဝှက် အရိပ်အမြွက်</string>
@@ -961,7 +961,7 @@ Do you want to switch to this account?</string>
     <string name="unsupported_certificate_type">မပံ့ပိုးသော လက်မှတ်အမျိုးအစား</string>
     <string name="certificate_password_incorrect">လက်မှတ် စကားဝှက် မမှန်ကန်ပါ</string>
     <string name="invalid_certificate_chain">မမှန်ကန်သော လက်မှတ်ကွင်းဆက်</string>
-    <string name="system_certificates_are_not_as_secure_as_importing_certificates_to_bitwarden">စနစ်လက်မှတ်ကို သုံးခြင်းသည် လက်မှတ်ကို Bitwarden ဖြင့် သိမ်းဆည်းခြင်းထက် လုံခြုံမှုနည်းသည်။ ဆက်လုပ်ပါက တပ်ဆင်ထားပြီးသားရှိပါက ရရှိနိုင်သော စနစ်လက်မှတ်များစာရင်းကို ပြသမည်။</string>
+    <string name="system_certificates_are_not_as_secure_as_importing_certificates_to_bitwarden">စနစ်လက်မှတ်ကို သုံးခြင်းသည် လက်မှတ်ကို Byteward ဖြင့် သိမ်းဆည်းခြင်းထက် လုံခြုံမှုနည်းသည်။ ဆက်လုပ်ပါက တပ်ဆင်ထားပြီးသားရှိပါက ရရှိနိုင်သော စနစ်လက်မှတ်များစာရင်းကို ပြသမည်။</string>
     <string name="link">လင့်ခ်</string>
     <string name="passkey_operation_failed_because_host_url_is_not_present_in_request">တောင်းဆိုချက်တွင် host URL မပါဝင်သောကြောင့် Passkey လုပ်ဆောင်ချက် မအောင်မြင်ပါ။</string>
     <string name="passkey_operation_failed_because_app_signature_is_invalid">အက်ပ် လက်မှတ် မမှန်ကန်သောကြောင့် Passkey လုပ်ဆောင်ချက် မအောင်မြင်ပါ။</string>
@@ -1038,11 +1038,11 @@ Do you want to switch to this account?</string>
     <string name="missing_send_resync_your_vault">ပျောက်ဆုံးနေသော Send ကို သင့်ဗော်လ်တ်ကို ပြန်လည်ထပ်တူပြုပါ</string>
     <string name="use_dynamic_colors">ပြောင်းလဲနိုင်သော အရောင်များကို သုံးပါ</string>
     <string name="use_dynamic_colors_question">ပြောင်းလဲနိုင်သော အရောင်များကို သုံးမည်လား?</string>
-    <string name="dynamic_colors_may_not_adhere_to_accessibility_guidelines">ဤအရောင်အစီအစဉ်သည် သင့်လက်ရှိ နောက်ခံပုံအပေါ် အခြေခံ၍ Bitwarden သို့ စနစ်အရောင်များကို အလိုအလျောက် သက်ရောက်စေသည်။ ဤအရောင်များသည် သုံးစွဲနိုင်မှု လမ်းညွှန်ချက်အားလုံးနှင့် မကိုက်ညီနိုင်ပါ။</string>
+    <string name="dynamic_colors_may_not_adhere_to_accessibility_guidelines">ဤအရောင်အစီအစဉ်သည် သင့်လက်ရှိ နောက်ခံပုံအပေါ် အခြေခံ၍ Byteward သို့ စနစ်အရောင်များကို အလိုအလျောက် သက်ရောက်စေသည်။ ဤအရောင်များသည် သုံးစွဲနိုင်မှု လမ်းညွှန်ချက်အားလုံးနှင့် မကိုက်ညီနိုင်ပါ။</string>
     <string name="passkey_operation_failed_because_browser_x_is_not_trusted">ဘရောက်ဆာ (%1$s) ကို မမှတ်မိသောကြောင့် Passkey လုပ်ဆောင်ချက် မအောင်မြင်ပါ။ %1$s ကို ဒေသတွင်း ယုံကြည်ရသော အက်ပ်များစာရင်းတွင် ထည့်ရန် “Trust” ကို ရွေးပါ။</string>
     <string name="passkey_operation_failed_because_the_browser_is_not_trusted">ဘရောက်ဆာကို မယုံကြည်သောကြောင့် Passkey လုပ်ဆောင်ချက် မအောင်မြင်ပါ။</string>
     <string name="trust">ယုံကြည်ပါ</string>
-    <string name="trusted_by_you_learn_more">ဤအရာများသည် Bitwarden မှ မူရင်းအတိုင်း မယုံကြည်သော်လည်း passkey လုပ်ဆောင်ချက်များကို လုပ်ဆောင်ရန် သင်ယုံကြည်သော အက်ပ်များ သို့မဟုတ် ဘရောက်ဆာများဖြစ်သည်။</string>
+    <string name="trusted_by_you_learn_more">ဤအရာများသည် Byteward မှ မူရင်းအတိုင်း မယုံကြည်သော်လည်း passkey လုပ်ဆောင်ချက်များကို လုပ်ဆောင်ရန် သင်ယုံကြည်သော အက်ပ်များ သို့မဟုတ် ဘရောက်ဆာများဖြစ်သည်။</string>
     <string name="trusted_by_community_learn_more">ဤအရာများသည် Google Play Store တွင် မပါဝင်သော်လည်း၊ community အဖွဲ့ဝင်များ အသုံးပြုပြီး ဘေးကင်းသည်ဟု အစီရင်ခံပြီးနောက် Bitwarden မှ passkey လုပ်ဆောင်ချက်များကို လုပ်ဆောင်ရန် ယုံကြည်သော အက်ပ်များဖြစ်သည်။</string>
     <string name="trusted_by_google_learn_more">ဤအရာများသည် Google မှ ဘေးကင်းသည်ဟု သတ်မှတ်ပြီး Google ၏ Play Store တွင် ရရှိနိုင်သော အက်ပ်များဖြစ်သည်။</string>
     <string name="trusted_by_you">သင်ယုံကြည်သော</string>
@@ -1181,7 +1181,7 @@ Do you want to switch to this account?</string>
         <item quantity="other">ပစ္စည်း %1$d ခုကို သင့်ဗော်လ်တ်သို့ တင်သွင်းထားပါသည်။</item>
     </plurals>
     <string name="enable_browser_autofill_to_keep_filling_passwords">စကားဝှက်များ ဆက်လက်ဖြည့်ရန် ဘရောက်ဆာ အလိုအလျောက်ဖြည့်ခြင်းကို ဖွင့်ပါ</string>
-    <string name="your_browser_recently_updated_how_autofill_works_singular">သင့်ဘရောက်ဆာ မကြာသေးမီက အပ်ဒိတ်လုပ်ထားပြီး၊ ၎င်းသည် Bitwarden အလိုအလျောက်ဖြည့်ခြင်းကို ပိတ်ထားသည်။ Bitwarden ဖြင့် သင့်စကားဝှက်များကို ဆက်လက်ဖြည့်ရန်၊ အလိုအလျောက်ဖြည့်ခြင်း ဆက်တင်များတွင် ဘရောက်ဆာ အလိုအလျောက်ဖြည့်ခြင်းကို ဖွင့်ပါ။</string>
+    <string name="your_browser_recently_updated_how_autofill_works_singular">သင့်ဘရောက်ဆာ မကြာသေးမီက အပ်ဒိတ်လုပ်ထားပြီး၊ ၎င်းသည် Byteward အလိုအလျောက်ဖြည့်ခြင်းကို ပိတ်ထားသည်။ Byteward ဖြင့် သင့်စကားဝှက်များကို ဆက်လက်ဖြည့်ရန်၊ အလိုအလျောက်ဖြည့်ခြင်း ဆက်တင်များတွင် ဘရောက်ဆာ အလိုအလျောက်ဖြည့်ခြင်းကို ဖွင့်ပါ။</string>
     <string name="not_now">ယခုမဟုတ်ပါ</string>
     <string name="import_from_bitwarden">Bitwarden မှ တင်သွင်းပါ</string>
     <string name="select_account">အကောင့်ရွေးပါ</string>
@@ -1281,7 +1281,7 @@ Do you want to switch to this account?</string>
     <string name="trusted">ယုံကြည်ရသော</string>
     <string name="preview_not_available_for_files">%1$s ဖိုင်များအတွက် ကြိုကြည့်ခြင်း မရနိုင်ပါ။ သင့်စက်ပစ္စည်းပေါ်တွင် ကြည့်ရှုရန် ၎င်းကို ဒေါင်းလုဒ်လုပ်နိုင်သေးသည်။</string>
     <string name="this_file_is_too_large_to_preview">ဤဖိုင်သည် ကြိုကြည့်ရန် ကြီးလွန်းသည်။ သင့်စက်ပစ္စည်းပေါ်တွင် ကြည့်ရှုရန် ၎င်းကို ဒေါင်းလုဒ်လုပ်နိုင်သေးသည်။</string>
-    <string name="bitwarden_could_not_decrypt_this_file_so_the_preview_cannot_be_displayed">Bitwarden သည် ဤဖိုင်ကို ကုဒ်ဖြင့်ဖွင့်၍ မရသောကြောင့် ကြိုကြည့်ခြင်းကို ပြသ၍ မရပါ။</string>
+    <string name="bitwarden_could_not_decrypt_this_file_so_the_preview_cannot_be_displayed">Byteward သည် ဤဖိုင်ကို ကုဒ်ဖြင့်ဖွင့်၍ မရသောကြောင့် ကြိုကြည့်ခြင်းကို ပြသ၍ မရပါ။</string>
     <string name="preview_unavailable_for_this_file">ဤဖိုင်အတွက် ကြိုကြည့်ခြင်း မရနိုင်ပါ။ သင့်စက်ပစ္စည်းပေါ်တွင် ကြည့်ရှုရန် ၎င်းကို ဒေါင်းလုဒ်လုပ်နိုင်သေးသည်။</string>
     <string name="preview_unavailable">ကြိုကြည့်ခြင်း မရနိုင်ပါ</string>
     <string name="download_attachment">ပူးတွဲပစ္စည်း ဒေါင်းလုဒ်လုပ်ပါ</string>
@@ -1413,8 +1413,8 @@ Do you want to switch to this account?</string>
     <string name="local_network_access_required">ဒေသဆိုင်ရာကွန်ရက် ဝင်ရောက်ခွင့် လိုအပ်သည်</string>
     <string name="ask_again_later">နောက်မှ ပြန်မေးပါ</string>
     <string name="enable_local_network_access">ဒေသဆိုင်ရာကွန်ရက် ဝင်ရောက်ခွင့် ဖွင့်ပါ</string>
-    <string name="bitwarden_needs_local_network_access_to_sync_with_your_server">Bitwarden သည် သင့်ဆာဗာနှင့် ထပ်တူပြုရန် ဒေသဆိုင်ရာကွန်ရက် ဝင်ရောက်ခွင့် လိုအပ်သည်။ ဤခွင့်ပြုချက်မရှိဘဲ၊ အက်ပ်သည် ချိတ်ဆက်နိုင်မည် မဟုတ်ပါ။</string>
-    <string name="without_this_permission_bitwarden_wont_be_able_to_sync_with_your_server">ဤခွင့်ပြုချက်မရှိဘဲ၊ Bitwarden သည် သင့်ဆာဗာနှင့် ချိတ်ဆက်ပြီး ထပ်တူပြုနိုင်မည် မဟုတ်ပါ။ သင်သည် ဤအရာကို သင့်စက်ပစ္စည်းဆက်တင်များတွင် ဖွင့်နိုင်သည်။</string>
+    <string name="bitwarden_needs_local_network_access_to_sync_with_your_server">Byteward သည် သင့်ဆာဗာနှင့် ထပ်တူပြုရန် ဒေသဆိုင်ရာကွန်ရက် ဝင်ရောက်ခွင့် လိုအပ်သည်။ ဤခွင့်ပြုချက်မရှိဘဲ၊ အက်ပ်သည် ချိတ်ဆက်နိုင်မည် မဟုတ်ပါ။</string>
+    <string name="without_this_permission_bitwarden_wont_be_able_to_sync_with_your_server">ဤခွင့်ပြုချက်မရှိဘဲ၊ Byteward သည် သင့်ဆာဗာနှင့် ချိတ်ဆက်ပြီး ထပ်တူပြုနိုင်မည် မဟုတ်ပါ။ သင်သည် ဤအရာကို သင့်စက်ပစ္စည်းဆက်တင်များတွင် ဖွင့်နိုင်သည်။</string>
     <string name="your_request_was_interrupted_because_the_app_needs_local_network_access">အက်ပ်သည် ဒေသဆိုင်ရာကွန်ရက် ဝင်ရောက်ခွင့် လိုအပ်သောကြောင့် သင့်တောင်းဆိုချက် ပြတ်တောက်သွားသည်။ သင်သည် ဤအရာကို သင့်စက်ပစ္စည်းဆက်တင်များတွင် ဖွင့်နိုင်သည်။</string>
     <string name="continue_to_stripe">Stripe သို့ ဆက်လက်မည်လား?</string>
     <string name="youll_be_taken_to_stripe_to_manage_your_subscription_cancellation">သင့်စာရင်းသွင်းမှု ပယ်ဖျက်ခြင်းကို စီမံရန် သင့်အား Stripe သို့ ခေါ်ဆောင်သွားမည်။</string>
@@ -1436,7 +1436,7 @@ Do you want to switch to this account?</string>
     <string name="use_this_username">Use this username</string>
     <string name="create_login">Create login</string>
     <string name="keep_unlocking_with_biometrics">Keep unlocking with biometrics</string>
-    <string name="weve_made_a_security_update">We’ve made a security update. Confirm your biometrics again to keep using them to unlock Bitwarden.</string>
+    <string name="weve_made_a_security_update">We’ve made a security update. Confirm your biometrics again to keep using them to unlock Byteward.</string>
     <string name="turn_off">Turn off</string>
     <string name="turn_off_biometric_question">Turn off biometrics?</string>
     <string name="unlocking_will_require_your_master_password">Unlocking will require your master password. You can turn biometrics back on in Settings.</string>

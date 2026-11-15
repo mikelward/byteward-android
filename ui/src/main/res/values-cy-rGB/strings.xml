@@ -75,9 +75,9 @@
     <string name="yes">Ydw</string>
     <string name="account">Cyfrif</string>
     <string name="account_created_success">Mae eich cyfrif newydd wedi cael ei greu!</string>
-    <string name="set_bitwarden_as_passkey_manager_description">Gosod Bitwarden fel darparwr passkey yn gosodiadau dyfais.</string>
+    <string name="set_bitwarden_as_passkey_manager_description">Gosod Byteward fel darparwr passkey yn gosodiadau dyfais.</string>
     <string name="avoid_ambiguous_characters">Osgoi nodau amwys</string>
-    <string name="bitwarden_autofill_service">Gwasanaeth llenwi awtomatig Bitwarden</string>
+    <string name="bitwarden_autofill_service">Gwasanaeth llenwi awtomatig Byteward</string>
     <string name="change_master_password">Newid y prif gyfrinair</string>
     <string name="close">Cau</string>
     <string name="close_app">Cau ap</string>
@@ -180,7 +180,7 @@
     <string name="no_items_for_vault">Nid oes eitemau yn eich cwpwrdd sy\'n cyfateb i “%1$s”</string>
     <string name="search_for_a_login_or_add_a_new_login">Chwilio am fanylion mewngofnodi neu ychwanegu rhai newydd</string>
     <string name="disabled">Wedi diffodd</string>
-    <string name="bitwarden_autofill_service_alert2">Y ffordd hawsaf i ychwanegu mewngofnodiadau newydd i\'ch cwpwrdd yw o Wasanaeth Llenwi Awtomatig Bitwarden. Dysgwch fwy am ddefnyddio Gwasanaeth Llenwi Awtomatig Bitwarden trwy lywio i\'r sgrin “Settings”.</string>
+    <string name="bitwarden_autofill_service_alert2">Y ffordd hawsaf i ychwanegu mewngofnodiadau newydd i\'ch cwpwrdd yw o Wasanaeth Llenwi Awtomatig Byteward. Dysgwch fwy am ddefnyddio Gwasanaeth Llenwi Awtomatig Byteward trwy lywio i\'r sgrin “Settings”.</string>
     <string name="autofill_noun">Llenwi awtomatig</string>
     <string name="autofill_verb">Llenwi\'n awtomatig</string>
     <string name="autofill_or_view">Hoffech chi lenwi\'n awtomatig neu weld yr eitem hon?</string>
@@ -302,7 +302,7 @@ Bydd sganio yn digwydd yn awtomatig.</string>
     <string name="no_items_folder">Does dim eitemau yn y ffolder hon.</string>
     <string name="no_items_trash">Does dim eitemau yn y bin sbwriel.</string>
     <string name="autofill_accessibility_summary">Cynorthwyo gyda llenwi meysydd enw defnyddiwr a chyfrinair mewn apiau eraill ac ar y we.</string>
-    <string name="autofill_service_description">Mae gwasanaeth llenwi awtomatig Bitwarden yn defnyddio Fframwaith Llenwi Awtomatig Android i gynorthwyo i lenwi gwybodaeth mewngofnodi i apiau eraill ar eich dyfais.</string>
+    <string name="autofill_service_description">Mae gwasanaeth llenwi awtomatig Byteward yn defnyddio Fframwaith Llenwi Awtomatig Android i gynorthwyo i lenwi gwybodaeth mewngofnodi i apiau eraill ar eich dyfais.</string>
     <string name="bitwarden_autofill_go_to_settings">Ni allem agor dewislen gosodiadau llenwi awtomatig Android yn awtomatig i chi. Gallwch lywio i\'r ddewislen gosodiadau llenwi awtomatig â llaw o Gosodiadau Android &gt; System &gt; Ieithoedd a mewnbwn &gt; Uwch &gt; Gwasanaeth llenwi awtomatig.</string>
     <string name="custom_field_name">Enw maes personol</string>
     <string name="field_type_boolean">Gwerth Boole</string>
@@ -381,7 +381,7 @@ Bydd sganio yn digwydd yn awtomatig.</string>
     <string name="pin">PIN</string>
     <string name="unlock">Datgloi</string>
     <string name="thirty_minutes">ar ôl hanner awr</string>
-    <string name="set_pin_description">Rhaid i\'ch PIN fod o leiaf 4 nod. Bydd eich gosodiadau PIN yn cael eu hailosod os byddwch yn allgofnodi â llaw o ap Bitwarden.</string>
+    <string name="set_pin_description">Rhaid i\'ch PIN fod o leiaf 4 nod. Bydd eich gosodiadau PIN yn cael eu hailosod os byddwch yn allgofnodi â llaw o ap Byteward.</string>
     <string name="logged_in_as_on">Rydych wedi mewngofnodi fel %1$s ar %2$s.</string>
     <string name="vault_locked_master_password">Mae eich cell dan glo. Gwiriwch eich prif gyfrinair i barhau.</string>
     <string name="vault_locked_pin">Mae eich cell dan glo. Gwiriwch eich cod PIN i barhau.</string>
@@ -395,7 +395,7 @@ Bydd sganio yn digwydd yn awtomatig.</string>
     <string name="clear_clipboard">Clirio\'r clipfwrdd</string>
     <string name="clear_clipboard_description">Clirio eitemau a gopïwyd o\'ch clipfwrdd yn awtomatig.</string>
     <string name="default_uri_match_detection">Canfod cyfateb URI diofyn</string>
-    <string name="default_uri_match_detection_description">Mae canfod cyfateb URI yn rheoli sut mae Bitwarden yn nodi awgrymiadau llenwi awtomatig.</string>
+    <string name="default_uri_match_detection_description">Mae canfod cyfateb URI yn rheoli sut mae Byteward yn nodi awgrymiadau llenwi awtomatig.</string>
     <string name="theme">Thema</string>
     <string name="theme_description">Newid thema liw\'r cymhwysiad</string>
     <string name="copy_notes">Copïo\'r nodyn</string>
@@ -431,7 +431,7 @@ Bydd sganio yn digwydd yn awtomatig.</string>
     <string name="password_generator_policy_in_effect">Mae un neu fwy o bolisïau sefydliad yn effeithio ar eich gosodiadau cynhyrchydd</string>
     <string name="unable_to_save_attachment">Cafwyd problem wrth gadw\'r atodiad hwn. Os bydd y broblem yn parhau, gallwch ei gadw o\'r cwpwrdd gwe.</string>
     <string name="save_attachment_success">Cadwyd yr atodiad yn llwyddiannus</string>
-    <string name="autofill_tile_accessibility_required">Trowch “Gwasanaeth Hygyrchedd Llenwi Awtomatig” ymlaen o Gosodiadau Bitwarden i ddefnyddio teils Llenwi Awtomatig.</string>
+    <string name="autofill_tile_accessibility_required">Trowch “Gwasanaeth Hygyrchedd Llenwi Awtomatig” ymlaen o Gosodiadau Byteward i ddefnyddio teils Llenwi Awtomatig.</string>
     <string name="autofill_tile_uri_not_found">Dim meysydd cyfrinair wedi\'u canfod</string>
     <string name="soft_deleting">Yn anfon i\'r sbwriel…</string>
     <string name="item_soft_deleted">Anfonwyd yr eitem i\'r bin sbwriel.</string>
@@ -654,9 +654,9 @@ dewiswch Ychwanegu TOTP i storio\'r allwedd yn ddiogel</string>
     <string name="catch_all_email_description">Defnyddio mewnflwch dal-pob wedi\'i ffurfweddu ar gyfer eich parth.</string>
     <string name="forwarded_email_description">Cynhyrchu alias e-bost gyda gwasanaeth ailgyfeirio allanol.</string>
     <string name="accessibility_service_disclosure">Datgeliad Gwasanaeth Hygyrchedd</string>
-    <string name="accessibility_disclosure_text">Mae Bitwarden yn defnyddio\'r Gwasanaeth Hygyrchedd i chwilio am feysydd mewngofnodi mewn apiau a gwefannau, yna sefydlu\'r IDau maes priodol ar gyfer rhoi enw defnyddiwr a chyfrinair pan ddarganfyddir cyfatebiaeth i\'r ap neu\'r safle. Nid ydym yn storio unrhyw un o\'r wybodaeth a gyflwynir inni gan y gwasanaeth, ac nid ydym yn gwneud unrhyw ymgais i reoli unrhyw elfennau ar y sgrin y tu hwnt i fewnbynnu tystlythyrau.</string>
-    <string name="accessibility_disclosure_start_up_text_1">Mae\'r hysbysiad hwn yn ofynnol cyn y gall Bitwarden gynnig llenwi awtomatig sy\'n seiliedig ar hygyrchedd.</string>
-    <string name="accessibility_disclosure_start_up_text_2">Mae Bitwarden yn cynnig dull llenwi awtomatig dewisol sy\'n defnyddio Gwasanaeth Hygyrchedd Android i ganfod meysydd mewngofnodi. Os byddwch yn ei alluogi, bydd Bitwarden yn nodi\'r meysydd priodol ac yn llenwi\'ch tystlythyrau pan ganfyddir cyfatebiaeth.</string>
+    <string name="accessibility_disclosure_text">Mae Byteward yn defnyddio\'r Gwasanaeth Hygyrchedd i chwilio am feysydd mewngofnodi mewn apiau a gwefannau, yna sefydlu\'r IDau maes priodol ar gyfer rhoi enw defnyddiwr a chyfrinair pan ddarganfyddir cyfatebiaeth i\'r ap neu\'r safle. Nid ydym yn storio unrhyw un o\'r wybodaeth a gyflwynir inni gan y gwasanaeth, ac nid ydym yn gwneud unrhyw ymgais i reoli unrhyw elfennau ar y sgrin y tu hwnt i fewnbynnu tystlythyrau.</string>
+    <string name="accessibility_disclosure_start_up_text_1">Mae\'r hysbysiad hwn yn ofynnol cyn y gall Byteward gynnig llenwi awtomatig sy\'n seiliedig ar hygyrchedd.</string>
+    <string name="accessibility_disclosure_start_up_text_2">Mae Byteward yn cynnig dull llenwi awtomatig dewisol sy\'n defnyddio Gwasanaeth Hygyrchedd Android i ganfod meysydd mewngofnodi. Os byddwch yn ei alluogi, bydd Byteward yn nodi\'r meysydd priodol ac yn llenwi\'ch tystlythyrau pan ganfyddir cyfatebiaeth.</string>
     <string name="accessibility_disclosure_start_up_text_3">Nid ydym yn storio unrhyw wybodaeth am yr hyn sydd ar y sgrin tra byddwch yn defnyddio\'r Gwasanaeth Hygyrchedd, ac nid ydym yn rheoli unrhyw elfennau ar y sgrin y tu hwnt i fewnbynnu tystlythyrau.</string>
     <string name="i_understand">Rwy\'n deall</string>
     <string name="accept">Derbyn</string>
@@ -736,8 +736,8 @@ Do you want to switch to this account?</string>
     <string name="session_timeout">Terfyn amser sesiwn</string>
     <string name="session_timeout_action">Gweithred terfyn amser sesiwn</string>
     <string name="account_fingerprint_phrase">Ymadrodd ôl bys cyfrif</string>
-    <string name="passkey_management_explanation_long">Defnyddiwch Bitwarden i gadw passkeys newydd a mewngofnodi gyda passkeys sydd wedi\'u storio yn eich cwpwrdd.</string>
-    <string name="autofill_services_explanation_long">Caniatáu i Bitwarden ddefnyddio\'ch gwybodaeth mewngofnodi wedi\'i chadw i fewngofnodi i apiau eraill ar eich dyfais.</string>
+    <string name="passkey_management_explanation_long">Defnyddiwch Byteward i gadw passkeys newydd a mewngofnodi gyda passkeys sydd wedi\'u storio yn eich cwpwrdd.</string>
+    <string name="autofill_services_explanation_long">Caniatáu i Byteward ddefnyddio\'ch gwybodaeth mewngofnodi wedi\'i chadw i fewngofnodi i apiau eraill ar eich dyfais.</string>
     <string name="use_inline_autofill_explanation_long">Dewiswch sut y bydd eich awgrymiadau llenwi awtomatig yn ymddangos pan fyddwch yn mewngofnodi i apiau eraill ar eich dyfais.</string>
     <string name="additional_options">Dewisiadau ychwanegol</string>
     <string name="continue_to_web_app">Parhau i\'r ap gwe?</string>
@@ -760,8 +760,8 @@ Do you want to switch to this account?</string>
     <string name="duo_two_step_login_is_required_for_your_account">Mae mewngofnodi dau gam Duo yn ofynnol ar gyfer eich cyfrif.</string>
     <string name="follow_the_steps_from_duo_to_finish_logging_in">Dilynwch y camau gan Duo i orffen mewngofnodi.</string>
     <string name="launch_duo">Lansio Duo</string>
-    <string name="your_passkey_will_be_saved_to_your_bitwarden_vault_for_x">Bydd eich passkey yn cael ei gadw i\'ch cwpwrdd Bitwarden ar gyfer %1$s</string>
-    <string name="your_password_will_be_saved_to_your_bitwarden_vault_for_x">Bydd eich cyfrinair yn cael ei gadw i\'ch cwpwrdd Bitwarden ar gyfer %1$s</string>
+    <string name="your_passkey_will_be_saved_to_your_bitwarden_vault_for_x">Bydd eich passkey yn cael ei gadw i\'ch cwpwrdd Byteward ar gyfer %1$s</string>
+    <string name="your_password_will_be_saved_to_your_bitwarden_vault_for_x">Bydd eich cyfrinair yn cael ei gadw i\'ch cwpwrdd Byteward ar gyfer %1$s</string>
     <string name="passkeys_not_supported_for_this_app">Nid yw passkeys yn cael eu cynnal ar gyfer yr ap hwn</string>
     <string name="passkey_operation_failed_because_browser_is_not_privileged">Methodd gweithrediad passkey oherwydd nad yw\'r porwr yn freintiedig</string>
     <string name="passkey_operation_failed_because_browser_signature_does_not_match">Methodd gweithrediad passkey oherwydd nad yw llofnod y porwr yn cyfateb</string>
@@ -789,7 +789,7 @@ Do you want to switch to this account?</string>
     <string name="email_verified">E-bost wedi\'i ddilysu</string>
     <string name="get_emails_from_bitwarden_for_announcements_advices_and_research_opportunities_unsubscribe_any_time">Cewch e-byst gan Bitwarden am gyhoeddiadau, cyngor, a chyfleoedd ymchwil. <annotation link="unsubscribe">Dadgofrestru</annotation> unrhyw bryd.</string>
     <string name="security_prioritized">Diogelwch, yn flaenoriaeth</string>
-    <string name="welcome_message_1">Cadwch fewngofnodiadau, cardiau, a hunaniaethau i\'ch cwpwrdd diogel. Mae Bitwarden yn defnyddio amgryptio di-gwybodaeth, pen-i-ben i ddiogelu\'r hyn sy\'n bwysig i chi.</string>
+    <string name="welcome_message_1">Cadwch fewngofnodiadau, cardiau, a hunaniaethau i\'ch cwpwrdd diogel. Mae Byteward yn defnyddio amgryptio di-gwybodaeth, pen-i-ben i ddiogelu\'r hyn sy\'n bwysig i chi.</string>
     <string name="welcome_message_2">Sefydlwch ddatgloi biometrig a llenwi awtomatig i fewngofnodi i\'ch cyfrifon heb deipio un llythyren.</string>
     <string name="quick_and_easy_login">Mewngofnodi cyflym a hawdd</string>
     <string name="level_up_your_logins">Uwchraddio\'ch mewngofnodiadau</string>
@@ -846,16 +846,16 @@ Do you want to switch to this account?</string>
     <string name="turn_on_autofill">Trowch llenwi awtomatig ymlaen</string>
     <string name="autofill_setup">Sefydlu llenwi awtomatig</string>
     <string name="turn_on_browser_autofill_integration">Troi integreiddio llenwi awtomatig porwr ymlaen</string>
-    <string name="browser_requires_special_permissions_for_bitwarden_singular">Rydych chi\'n defnyddio porwr sy\'n gofyn am ganiatadau arbennig i Bitwarden lenwi\'ch cyfrineiriau yn awtomatig.</string>
-    <string name="browser_requires_special_permissions_for_bitwarden_plural">Rydych chi\'n defnyddio porwyr sy\'n gofyn am ganiatadau arbennig i Bitwarden lenwi\'ch cyfrineiriau yn awtomatig.</string>
-    <string name="youre_using_a_browser_that_requires_special_permissions_singular">Rydych chi\'n defnyddio porwr sy\'n gofyn am ganiatadau arbennig i Bitwarden lenwi\'ch cyfrineiriau yn awtomatig. Galluogwch eich integreiddio llenwi awtomatig dewisol isod.</string>
-    <string name="youre_using_a_browser_that_requires_special_permissions_plural">Rydych chi\'n defnyddio porwyr sy\'n gofyn am ganiatadau arbennig i Bitwarden lenwi\'ch cyfrineiriau yn awtomatig. Galluogwch lenwi awtomatig ar gyfer eich holl borwyr sydd wedi\'u gosod i barhau.</string>
+    <string name="browser_requires_special_permissions_for_bitwarden_singular">Rydych chi\'n defnyddio porwr sy\'n gofyn am ganiatadau arbennig i Byteward lenwi\'ch cyfrineiriau yn awtomatig.</string>
+    <string name="browser_requires_special_permissions_for_bitwarden_plural">Rydych chi\'n defnyddio porwyr sy\'n gofyn am ganiatadau arbennig i Byteward lenwi\'ch cyfrineiriau yn awtomatig.</string>
+    <string name="youre_using_a_browser_that_requires_special_permissions_singular">Rydych chi\'n defnyddio porwr sy\'n gofyn am ganiatadau arbennig i Byteward lenwi\'ch cyfrineiriau yn awtomatig. Galluogwch eich integreiddio llenwi awtomatig dewisol isod.</string>
+    <string name="youre_using_a_browser_that_requires_special_permissions_plural">Rydych chi\'n defnyddio porwyr sy\'n gofyn am ganiatadau arbennig i Byteward lenwi\'ch cyfrineiriau yn awtomatig. Galluogwch lenwi awtomatig ar gyfer eich holl borwyr sydd wedi\'u gosod i barhau.</string>
     <string name="use_autofill_to_log_into_your_accounts">Defnyddiwch lenwi awtomatig i fewngofnodi i\'ch cyfrifon gydag un tapiad.</string>
     <string name="turn_on_later">Troi ymlaen yn hwyrach</string>
     <string name="turn_on_autofill_later">Troi llenwi awtomatig ymlaen yn hwyrach?</string>
     <string name="turn_on_browser_autofill_integration_later">Troi integreiddio llenwi awtomatig porwr ymlaen yn hwyrach?</string>
     <string name="return_to_complete_this_step_anytime_in_settings">Gallwch ddychwelyd i gwblhau\'r cam hwn unrhyw bryd yn Gosodiadau.</string>
-    <string name="what_bitwarden_has_to_offer">Gallwch nawr archwilio popeth sydd gan Bitwarden i\'w gynnig a dechrau rheoli\'ch cyfrineiriau yn ddiogel.</string>
+    <string name="what_bitwarden_has_to_offer">Gallwch nawr archwilio popeth sydd gan Byteward i\'w gynnig a dechrau rheoli\'ch cyfrineiriau yn ddiogel.</string>
     <string name="youre_all_set">Rydych chi wedi gorffen!</string>
     <string name="error_connecting_with_the_duo_service_use_a_different_two_step_login_method_or_contact_duo_for_assistance">Gwall wrth gysylltu â gwasanaeth Duo. Defnyddiwch ddull mewngofnodi dau-gam arall neu cysylltwch â Duo am gymorth.</string>
     <string name="master_password_hint_not_specified">Awgrym o\'ch prif gyfrinair</string>
@@ -991,7 +991,7 @@ Do you want to switch to this account?</string>
     <string name="unsupported_certificate_type">Math o dystysgrif heb ei gynnal</string>
     <string name="certificate_password_incorrect">Cyfrinair tystysgrif yn anghywir</string>
     <string name="invalid_certificate_chain">Cadwyn dystysgrif annilys</string>
-    <string name="system_certificates_are_not_as_secure_as_importing_certificates_to_bitwarden">Mae defnyddio tystysgrif system yn llai diogel na storio\'r dystysgrif gyda Bitwarden. Bydd parhau yn dangos rhestr o dystysgrifau system sydd ar gael os yw un eisoes wedi\'i gosod.</string>
+    <string name="system_certificates_are_not_as_secure_as_importing_certificates_to_bitwarden">Mae defnyddio tystysgrif system yn llai diogel na storio\'r dystysgrif gyda Byteward. Bydd parhau yn dangos rhestr o dystysgrifau system sydd ar gael os yw un eisoes wedi\'i gosod.</string>
     <string name="link">Dolen</string>
     <string name="passkey_operation_failed_because_host_url_is_not_present_in_request">Methodd gweithrediad passkey oherwydd nad yw URL gwesteiwr yn bresennol yn y cais.</string>
     <string name="passkey_operation_failed_because_app_signature_is_invalid">Methodd gweithrediad passkey oherwydd bod llofnod yr ap yn annilys.</string>
@@ -1068,11 +1068,11 @@ Do you want to switch to this account?</string>
     <string name="missing_send_resync_your_vault">Anfon ar goll - ail-gydamserwch eich cwpwrdd</string>
     <string name="use_dynamic_colors">Defnyddio lliwiau deinamig</string>
     <string name="use_dynamic_colors_question">Defnyddio lliwiau deinamig?</string>
-    <string name="dynamic_colors_may_not_adhere_to_accessibility_guidelines">Mae\'r cynllun lliw hwn yn cymhwyso lliwiau system yn awtomatig i Bitwarden yn seiliedig ar eich papur wal presennol. Efallai na fydd y lliwiau hyn yn bodloni\'r holl ganllawiau hygyrchedd.</string>
+    <string name="dynamic_colors_may_not_adhere_to_accessibility_guidelines">Mae\'r cynllun lliw hwn yn cymhwyso lliwiau system yn awtomatig i Byteward yn seiliedig ar eich papur wal presennol. Efallai na fydd y lliwiau hyn yn bodloni\'r holl ganllawiau hygyrchedd.</string>
     <string name="passkey_operation_failed_because_browser_x_is_not_trusted">Methodd gweithrediad passkey oherwydd nad yw\'r porwr (%1$s) yn cael ei adnabod. Dewiswch “Ymddiried” i ychwanegu %1$s at y rhestr o gymwysiadau sy\'n cael eu hymddiried yn lleol.</string>
     <string name="passkey_operation_failed_because_the_browser_is_not_trusted">Methodd gweithrediad passkey oherwydd nad yw\'r porwr yn cael ei ymddiried.</string>
     <string name="trust">Ymddiried</string>
-    <string name="trusted_by_you_learn_more">Mae\'r rhain yn gymwysiadau neu borwyr nad yw Bitwarden yn ymddiried ynddynt yn ddiofyn, ond rydych chi\'n ymddiried ynddynt i gyflawni gweithrediadau passkey.</string>
+    <string name="trusted_by_you_learn_more">Mae\'r rhain yn gymwysiadau neu borwyr nad yw Byteward yn ymddiried ynddynt yn ddiofyn, ond rydych chi\'n ymddiried ynddynt i gyflawni gweithrediadau passkey.</string>
     <string name="trusted_by_community_learn_more">Mae\'r rhain yn gymwysiadau nad ydynt wedi\'u cynnwys yn y Google Play Store, ond mae Bitwarden yn ymddiried ynddynt i gyflawni gweithrediadau passkey ar ôl i aelodau\'r gymuned eu defnyddio a\'u hadrodd yn ddiogel.</string>
     <string name="trusted_by_google_learn_more">Mae\'r rhain yn gymwysiadau y mae Google yn eu hystyried yn ddiogel ac sydd ar gael yn Google Play Store.</string>
     <string name="trusted_by_you">Wedi\'i Ymddiried Gennych</string>
@@ -1226,7 +1226,7 @@ Do you want to switch to this account?</string>
         <item quantity="other">Mae %1$d eitem wedi\'u mewnforio i\'ch cwpwrdd.</item>
     </plurals>
     <string name="enable_browser_autofill_to_keep_filling_passwords">Galluogi Llenwi Awtomatig Porwr i barhau i lenwi cyfrineiriau</string>
-    <string name="your_browser_recently_updated_how_autofill_works_singular">Mae eich porwr wedi diweddaru\'n ddiweddar, sydd wedi analluogi llenwi awtomatig Bitwarden. I barhau i lenwi\'ch cyfrineiriau gyda Bitwarden, galluogwch lenwi awtomatig porwr yn y gosodiadau llenwi awtomatig.</string>
+    <string name="your_browser_recently_updated_how_autofill_works_singular">Mae eich porwr wedi diweddaru\'n ddiweddar, sydd wedi analluogi llenwi awtomatig Byteward. I barhau i lenwi\'ch cyfrineiriau gyda Byteward, galluogwch lenwi awtomatig porwr yn y gosodiadau llenwi awtomatig.</string>
     <string name="not_now">Nid nawr</string>
     <string name="import_from_bitwarden">Mewnforio o Bitwarden</string>
     <string name="select_account">Dewis cyfrif</string>
@@ -1326,7 +1326,7 @@ Do you want to switch to this account?</string>
     <string name="trusted">Wedi\'i ymddiried</string>
     <string name="preview_not_available_for_files">Nid yw rhagolwg ar gael ar gyfer ffeiliau %1$s. Gallwch ei lawrlwytho i\'w weld ar eich dyfais o hyd.</string>
     <string name="this_file_is_too_large_to_preview">Mae\'r ffeil hon yn rhy fawr i\'w rhagolygu. Gallwch ei lawrlwytho i\'w weld ar eich dyfais o hyd.</string>
-    <string name="bitwarden_could_not_decrypt_this_file_so_the_preview_cannot_be_displayed">Ni allai Bitwarden ddadgryptio\'r ffeil hon, felly ni ellir dangos y rhagolwg.</string>
+    <string name="bitwarden_could_not_decrypt_this_file_so_the_preview_cannot_be_displayed">Ni allai Byteward ddadgryptio\'r ffeil hon, felly ni ellir dangos y rhagolwg.</string>
     <string name="preview_unavailable_for_this_file">Nid yw rhagolwg ar gael ar gyfer y ffeil hon. Gallwch ei lawrlwytho i\'w weld ar eich dyfais o hyd.</string>
     <string name="preview_unavailable">Rhagolwg ddim ar gael</string>
     <string name="download_attachment">Lawrlwytho Atodiad</string>
@@ -1463,8 +1463,8 @@ Do you want to switch to this account?</string>
     <string name="local_network_access_required">Mynediad rhwydwaith lleol yn ofynnol</string>
     <string name="ask_again_later">Gofyn eto yn hwyrach</string>
     <string name="enable_local_network_access">Galluogi mynediad rhwydwaith lleol</string>
-    <string name="bitwarden_needs_local_network_access_to_sync_with_your_server">Mae angen mynediad rhwydwaith lleol ar Bitwarden i gydamseru â\'ch gweinydd. Heb y caniatâd hwn, ni fydd yr ap yn gallu cysylltu.</string>
-    <string name="without_this_permission_bitwarden_wont_be_able_to_sync_with_your_server">Heb y caniatâd hwn, ni fydd Bitwarden yn gallu cysylltu a chydamseru â\'ch gweinydd. Gallwch alluogi hyn yn eich gosodiadau dyfais.</string>
+    <string name="bitwarden_needs_local_network_access_to_sync_with_your_server">Mae angen mynediad rhwydwaith lleol ar Byteward i gydamseru â\'ch gweinydd. Heb y caniatâd hwn, ni fydd yr ap yn gallu cysylltu.</string>
+    <string name="without_this_permission_bitwarden_wont_be_able_to_sync_with_your_server">Heb y caniatâd hwn, ni fydd Byteward yn gallu cysylltu a chydamseru â\'ch gweinydd. Gallwch alluogi hyn yn eich gosodiadau dyfais.</string>
     <string name="your_request_was_interrupted_because_the_app_needs_local_network_access">Torrwyd ar draws eich cais oherwydd bod angen mynediad rhwydwaith lleol ar yr ap. Gallwch alluogi hyn yn eich gosodiadau dyfais.</string>
     <string name="continue_to_stripe">Parhau i Stripe?</string>
     <string name="youll_be_taken_to_stripe_to_manage_your_subscription_cancellation">Cewch eich mynd i Stripe i reoli canslo\'ch tanysgrifiad.</string>
@@ -1486,7 +1486,7 @@ Do you want to switch to this account?</string>
     <string name="use_this_username">Use this username</string>
     <string name="create_login">Create login</string>
     <string name="keep_unlocking_with_biometrics">Keep unlocking with biometrics</string>
-    <string name="weve_made_a_security_update">We’ve made a security update. Confirm your biometrics again to keep using them to unlock Bitwarden.</string>
+    <string name="weve_made_a_security_update">We’ve made a security update. Confirm your biometrics again to keep using them to unlock Byteward.</string>
     <string name="turn_off">Turn off</string>
     <string name="turn_off_biometric_question">Turn off biometrics?</string>
     <string name="unlocking_will_require_your_master_password">Unlocking will require your master password. You can turn biometrics back on in Settings.</string>

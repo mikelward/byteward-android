@@ -75,9 +75,9 @@
     <string name="yes">예</string>
     <string name="account">계정</string>
     <string name="account_created_success">계정 생성이 완료되었습니다!</string>
-    <string name="set_bitwarden_as_passkey_manager_description">기기 설정에서 Bitwarden을 패스키 공급자로 설정하세요.</string>
+    <string name="set_bitwarden_as_passkey_manager_description">기기 설정에서 Byteward을 패스키 공급자로 설정하세요.</string>
     <string name="avoid_ambiguous_characters">모호한 문자 사용 안 함</string>
-    <string name="bitwarden_autofill_service">Bitwarden 자동 완성 서비스</string>
+    <string name="bitwarden_autofill_service">Byteward 자동 완성 서비스</string>
     <string name="change_master_password">마스터 비밀번호 변경</string>
     <string name="close">닫기</string>
     <string name="close_app">앱 닫기</string>
@@ -175,7 +175,7 @@
     <string name="no_items_for_vault">보관함에 \'%1$s\'와(과) 일치하는 항목이 없습니다.</string>
     <string name="search_for_a_login_or_add_a_new_login">로그인을 검색하거나 새 로그인 추가</string>
     <string name="disabled">꺼짐</string>
-    <string name="bitwarden_autofill_service_alert2">보관함에 새 로그인을 추가하는 가장 쉬운 방법은 Bitwarden 자동 완성 서비스를 사용하는 것입니다. \"설정\" 화면으로 이동하여 Bitwarden 자동 완성 서비스에 대해 더 자세히 알아보세요.</string>
+    <string name="bitwarden_autofill_service_alert2">보관함에 새 로그인을 추가하는 가장 쉬운 방법은 Byteward 자동 완성 서비스를 사용하는 것입니다. \"설정\" 화면으로 이동하여 Byteward 자동 완성 서비스에 대해 더 자세히 알아보세요.</string>
     <string name="autofill_noun">자동 완성</string>
     <string name="autofill_verb">자동 완성</string>
     <string name="autofill_or_view">이 항목을 보거나 자동 완성하시겠습니까?</string>
@@ -297,7 +297,7 @@
     <string name="no_items_folder">이 폴더에 항목이 없습니다.</string>
     <string name="no_items_trash">휴지통에 아무 항목도 없습니다.</string>
     <string name="autofill_accessibility_summary">다른 앱 및 웹에서 사용자 이름 및 비밀번호 필드 작성을 지원합니다.</string>
-    <string name="autofill_service_description">Bitwarden 자동 완성 서비스는 기기의 다른 앱에서 로그인, 신용 카드 및 신원 정보를 입력하기 위해 Android 자동완성 프레임워크를 사용합니다.</string>
+    <string name="autofill_service_description">Byteward 자동 완성 서비스는 기기의 다른 앱에서 로그인, 신용 카드 및 신원 정보를 입력하기 위해 Android 자동완성 프레임워크를 사용합니다.</string>
     <string name="bitwarden_autofill_go_to_settings">Android 자동 완성 설정 메뉴를 자동으로 열지 못했습니다. Android 설정 &gt; 시스템 &gt; 언어 및 입력 &gt; 고급 &gt; 자동완성 서비스 메뉴로 직접 이동하실 수 있습니다.</string>
     <string name="custom_field_name">사용자 지정 필드 이름</string>
     <string name="field_type_boolean">참 / 거짓</string>
@@ -371,7 +371,7 @@
     <string name="pin">PIN</string>
     <string name="unlock">잠금 해제</string>
     <string name="thirty_minutes">30분</string>
-    <string name="set_pin_description">Bitwarden 잠금해제에 사용될 PIN 코드를 설정합니다. 이 애플리케이션에서 완전히 로그아웃할 경우 PIN 설정이 초기화됩니다.</string>
+    <string name="set_pin_description">Byteward 잠금해제에 사용될 PIN 코드를 설정합니다. 이 애플리케이션에서 완전히 로그아웃할 경우 PIN 설정이 초기화됩니다.</string>
     <string name="logged_in_as_on">%2$s에 %1$s으로 로그인되었습니다.</string>
     <string name="vault_locked_master_password">보관함이 잠겨 있습니다. 마스터 비밀번호를 입력하여 계속하세요.</string>
     <string name="vault_locked_pin">보관함이 잠겨 있습니다. PIN 코드를 입력하여 계속하세요.</string>
@@ -385,7 +385,7 @@
     <string name="clear_clipboard">클립보드 비우기</string>
     <string name="clear_clipboard_description">클립보드에 복사된 값을 자동으로 제거합니다.</string>
     <string name="default_uri_match_detection">기본 URI 일치 인식</string>
-    <string name="default_uri_match_detection_description">URI 일치 감지는 Bitwarden이 자동 채우기 제안을 식별하는 방식을 제어합니다.</string>
+    <string name="default_uri_match_detection_description">URI 일치 감지는 Byteward이 자동 채우기 제안을 식별하는 방식을 제어합니다.</string>
     <string name="theme">테마</string>
     <string name="theme_description">애플리케이션의 색상 테마 변경</string>
     <string name="copy_notes">메모 복사</string>
@@ -421,7 +421,7 @@
     <string name="password_generator_policy_in_effect">하나 이상의 단체 정책이 생성기 규칙에 영항을 미치고 있습니다.</string>
     <string name="unable_to_save_attachment">첨부 파일을 저장하던 도중 문제가 있었습니다. 문제가  계속 발생한다면 웹 보관함에서 저장할 수 있습니다.</string>
     <string name="save_attachment_success">첨부 파일을 성공적으로 저장했습니다.</string>
-    <string name="autofill_tile_accessibility_required">자동 채우기 타일을 사용하려면 Bitwarden 설정에서 \"자동 채우기 접근성 서비스\"를 활성화해주세요.</string>
+    <string name="autofill_tile_accessibility_required">자동 채우기 타일을 사용하려면 Byteward 설정에서 \"자동 채우기 접근성 서비스\"를 활성화해주세요.</string>
     <string name="autofill_tile_uri_not_found">비밀번호 필드가 탐지되지 않음</string>
     <string name="soft_deleting">휴지통으로 보내는 중...</string>
     <string name="item_soft_deleted">항목이 휴지통으로 이동되었습니다.</string>
@@ -634,9 +634,9 @@
     <string name="catch_all_email_description">도메인에 구성된 캐치올 받은 편지함을 사용합니다.</string>
     <string name="forwarded_email_description">외부 전달 서비스를 사용하여 이메일 별칭을 생성합니다.</string>
     <string name="accessibility_service_disclosure">접근성 서비스 공개</string>
-    <string name="accessibility_disclosure_text">Bitwarden은 접근성 서비스를 사용하여 앱 및 웹사이트에서 로그인 필드를 찾아내고 일치하는 항목이 발견되면 사용자 이름과 비밀번호를 입력합니다. Bitwarden은 서비스에서 제공하는 어떠한 정보도 저장하지 않으며, 자격 증명 이외의 화면 요소를 제어하려고 시도하지 않습니다.</string>
-    <string name="accessibility_disclosure_start_up_text_1">Bitwarden이 접근성 기반 자동 채우기를 제공하려면 이 고지 사항이 필요합니다.</string>
-    <string name="accessibility_disclosure_start_up_text_2">Bitwarden은 Android의 접근성 서비스를 사용하여 로그인 필드를 감지하는 선택적 자동 채우기 방법을 제공합니다. 활성화하면 Bitwarden이 적절한 필드를 식별하고 일치하는 항목이 발견되면 자격 증명을 입력합니다.</string>
+    <string name="accessibility_disclosure_text">Byteward은 접근성 서비스를 사용하여 앱 및 웹사이트에서 로그인 필드를 찾아내고 일치하는 항목이 발견되면 사용자 이름과 비밀번호를 입력합니다. Byteward은 서비스에서 제공하는 어떠한 정보도 저장하지 않으며, 자격 증명 이외의 화면 요소를 제어하려고 시도하지 않습니다.</string>
+    <string name="accessibility_disclosure_start_up_text_1">Byteward이 접근성 기반 자동 채우기를 제공하려면 이 고지 사항이 필요합니다.</string>
+    <string name="accessibility_disclosure_start_up_text_2">Byteward은 Android의 접근성 서비스를 사용하여 로그인 필드를 감지하는 선택적 자동 채우기 방법을 제공합니다. 활성화하면 Byteward이 적절한 필드를 식별하고 일치하는 항목이 발견되면 자격 증명을 입력합니다.</string>
     <string name="accessibility_disclosure_start_up_text_3">접근성 서비스를 사용하는 동안 화면에 표시되는 내용에 대한 정보를 저장하지 않으며, 자격 증명 입력 외의 화면 요소를 제어하지 않습니다.</string>
     <string name="i_understand">이해합니다</string>
     <string name="accept">승인</string>
@@ -716,8 +716,8 @@ Do you want to switch to this account?</string>
     <string name="session_timeout">세션 만료</string>
     <string name="session_timeout_action">세션 만료 시 동작</string>
     <string name="account_fingerprint_phrase">계정 지문 구절</string>
-    <string name="passkey_management_explanation_long">Bitwarden을 사용하여 새 패스키를 저장하고, 보관함에 저장된 패스키로 로그인하세요.</string>
-    <string name="autofill_services_explanation_long">Bitwarden이 저장된 로그인을 이용해 기기의 다른 앱에 로그인하도록 허용하세요.</string>
+    <string name="passkey_management_explanation_long">Byteward을 사용하여 새 패스키를 저장하고, 보관함에 저장된 패스키로 로그인하세요.</string>
+    <string name="autofill_services_explanation_long">Byteward이 저장된 로그인을 이용해 기기의 다른 앱에 로그인하도록 허용하세요.</string>
     <string name="use_inline_autofill_explanation_long">기기에서 다른 앱에 로그인할 때 자동 채우기 추천 항목이 표시되는 방식을 선택하세요.</string>
     <string name="additional_options">추가 옵션</string>
     <string name="continue_to_web_app">웹앱에서 계속하기</string>
@@ -740,8 +740,8 @@ Do you want to switch to this account?</string>
     <string name="duo_two_step_login_is_required_for_your_account">귀하의 계정에는 Duo 2단계 인증이 필요합니다.</string>
     <string name="follow_the_steps_from_duo_to_finish_logging_in">Duo의 단계에 따라 로그인을 완료하세요.</string>
     <string name="launch_duo">Duo 실행</string>
-    <string name="your_passkey_will_be_saved_to_your_bitwarden_vault_for_x">패스키는 Bitwarden 보관함에 %1$s으로 저장됩니다.</string>
-    <string name="your_password_will_be_saved_to_your_bitwarden_vault_for_x">비밀번호는 Bitwarden 보관함에 %1$s으로 저장됩니다</string>
+    <string name="your_passkey_will_be_saved_to_your_bitwarden_vault_for_x">패스키는 Byteward 보관함에 %1$s으로 저장됩니다.</string>
+    <string name="your_password_will_be_saved_to_your_bitwarden_vault_for_x">비밀번호는 Byteward 보관함에 %1$s으로 저장됩니다</string>
     <string name="passkeys_not_supported_for_this_app">이 앱에서 패스키를 지원하지 않음</string>
     <string name="passkey_operation_failed_because_browser_is_not_privileged">브라우저에 권한이 없어 패스키 작업 실패</string>
     <string name="passkey_operation_failed_because_browser_signature_does_not_match">브라우저 서명이 일치하지 않아 패스키 작업 실패</string>
@@ -769,7 +769,7 @@ Do you want to switch to this account?</string>
     <string name="email_verified">이메일 인증 완료</string>
     <string name="get_emails_from_bitwarden_for_announcements_advices_and_research_opportunities_unsubscribe_any_time">Bitwarden에서 공지, 조언 및 연구 기회에 대한 이메일을 받으세요. 언제든지 <annotation link="unsubscribe">구독 취소</annotation>할 수 있습니다.</string>
     <string name="security_prioritized">보안이 먼저다</string>
-    <string name="welcome_message_1">비밀번호, 카드와 신원을 암호화된 보관함에 저장하세요. Bitwarden은 영지식 종단간 암호화 기술을 사용하여 당신에게 중요한 정보를 보호합니다.</string>
+    <string name="welcome_message_1">비밀번호, 카드와 신원을 암호화된 보관함에 저장하세요. Byteward은 영지식 종단간 암호화 기술을 사용하여 당신에게 중요한 정보를 보호합니다.</string>
     <string name="welcome_message_2">생체 인증과 자동 완성을 사용 설정하여 클릭만으로 계정에 로그인하세요.</string>
     <string name="quick_and_easy_login">쉽고 빠른 로그인</string>
     <string name="level_up_your_logins">로그인의 단계를 높이세요</string>
@@ -821,16 +821,16 @@ Do you want to switch to this account?</string>
     <string name="turn_on_autofill">자동 채우기 켜기</string>
     <string name="autofill_setup">자동 완성 설정</string>
     <string name="turn_on_browser_autofill_integration">브라우저 자동 완성 연동 켜기</string>
-    <string name="browser_requires_special_permissions_for_bitwarden_singular">Bitwarden이 비밀번호를 자동 완성하려면 특별한 권한을 부여해야 하는 브라우저를 이용하고 계십니다.</string>
-    <string name="browser_requires_special_permissions_for_bitwarden_plural">Bitwarden이 비밀번호를 자동 완성하려면 특별한 권한을 부여해야 하는 브라우저를 이용하고 계십니다.</string>
-    <string name="youre_using_a_browser_that_requires_special_permissions_singular">Bitwarden이 비밀번호를 자동 완성하려면 특별한 권한을 부여해야 하는 브라우저를 이용하고 계십니다. 아래에서 원하는 자동 완성 연동 기능을 켜세요.</string>
-    <string name="youre_using_a_browser_that_requires_special_permissions_plural">Bitwarden이 비밀번호를 자동 완성하려면 특별한 권한을 부여해야 하는 브라우저를 이용하고 계십니다. 계속하려면 설치한 모든 브라우저에서 자동 완성을 켜세요.</string>
+    <string name="browser_requires_special_permissions_for_bitwarden_singular">Byteward이 비밀번호를 자동 완성하려면 특별한 권한을 부여해야 하는 브라우저를 이용하고 계십니다.</string>
+    <string name="browser_requires_special_permissions_for_bitwarden_plural">Byteward이 비밀번호를 자동 완성하려면 특별한 권한을 부여해야 하는 브라우저를 이용하고 계십니다.</string>
+    <string name="youre_using_a_browser_that_requires_special_permissions_singular">Byteward이 비밀번호를 자동 완성하려면 특별한 권한을 부여해야 하는 브라우저를 이용하고 계십니다. 아래에서 원하는 자동 완성 연동 기능을 켜세요.</string>
+    <string name="youre_using_a_browser_that_requires_special_permissions_plural">Byteward이 비밀번호를 자동 완성하려면 특별한 권한을 부여해야 하는 브라우저를 이용하고 계십니다. 계속하려면 설치한 모든 브라우저에서 자동 완성을 켜세요.</string>
     <string name="use_autofill_to_log_into_your_accounts">자동 채우기를 사용하여 한 번의 탭으로 계정에 로그인하세요.</string>
     <string name="turn_on_later">나중에 켜기</string>
     <string name="turn_on_autofill_later">나중에 자동 채우기를 켜시겠습니까?</string>
     <string name="turn_on_browser_autofill_integration_later">브라우저 자동 완성 연동을 나중에 켜시겠습니까?</string>
     <string name="return_to_complete_this_step_anytime_in_settings">설정에서 언제든지 이 단계를 완료할 수 있습니다.</string>
-    <string name="what_bitwarden_has_to_offer">이제 Bitwarden이 제공하는 모든 것을 살펴보고 비밀번호를 안전하게 관리할 수 있습니다.</string>
+    <string name="what_bitwarden_has_to_offer">이제 Byteward이 제공하는 모든 것을 살펴보고 비밀번호를 안전하게 관리할 수 있습니다.</string>
     <string name="youre_all_set">모든 준비가 완료되었습니다!</string>
     <string name="error_connecting_with_the_duo_service_use_a_different_two_step_login_method_or_contact_duo_for_assistance">Duo 서비스와 연결 중 오류가 발생했습니다 다른 2단계 로그인 방법을 사용하거나 Duo에 문의하세요.</string>
     <string name="master_password_hint_not_specified">마스터 비밀번호 힌트</string>
@@ -961,7 +961,7 @@ Do you want to switch to this account?</string>
     <string name="unsupported_certificate_type">미지원 인증서 유형</string>
     <string name="certificate_password_incorrect">인증서 비밀번호 틀림</string>
     <string name="invalid_certificate_chain">잘못된 인증서 체인</string>
-    <string name="system_certificates_are_not_as_secure_as_importing_certificates_to_bitwarden">시스템 인증서를 사용하는 것은 Bitwarden에 인증서를 저장하는 것보다 안전하지 않습니다. 계속하면 이미 설치된 경우 사용 가능한 시스템 인증서 목록이 표시됩니다.</string>
+    <string name="system_certificates_are_not_as_secure_as_importing_certificates_to_bitwarden">시스템 인증서를 사용하는 것은 Byteward에 인증서를 저장하는 것보다 안전하지 않습니다. 계속하면 이미 설치된 경우 사용 가능한 시스템 인증서 목록이 표시됩니다.</string>
     <string name="link">링크</string>
     <string name="passkey_operation_failed_because_host_url_is_not_present_in_request">요청에 호스트 URL이 없어 패스키 작업 실패</string>
     <string name="passkey_operation_failed_because_app_signature_is_invalid">앱 서명이 잘못되어 패스키 작업 실패</string>
@@ -1038,11 +1038,11 @@ Do you want to switch to this account?</string>
     <string name="missing_send_resync_your_vault">누락된 Send, 보관함 다시 동기화</string>
     <string name="use_dynamic_colors">다이내믹 컬러 사용</string>
     <string name="use_dynamic_colors_question">다이내믹 컬러 사용?</string>
-    <string name="dynamic_colors_may_not_adhere_to_accessibility_guidelines">이 색상 옵션은 현재 배경화면(월페이퍼)의 색상을 가져와 Bitwarden에 자동으로 적용합니다. 다만, 이렇게 적용된 색상은 접근성 기준을 충족하지 못할 수도 있습니다.</string>
+    <string name="dynamic_colors_may_not_adhere_to_accessibility_guidelines">이 색상 옵션은 현재 배경화면(월페이퍼)의 색상을 가져와 Byteward에 자동으로 적용합니다. 다만, 이렇게 적용된 색상은 접근성 기준을 충족하지 못할 수도 있습니다.</string>
     <string name="passkey_operation_failed_because_browser_x_is_not_trusted">브라우저(%1$s)가 인식되지 않아 패스키 작업 실패. “신뢰”를 선택하여 %1$s을(를) 로컬 신뢰 애플리케이션 목록에 추가하세요.</string>
     <string name="passkey_operation_failed_because_the_browser_is_not_trusted">브라우저가 신뢰되지 않아 패스키 작업 실패</string>
     <string name="trust">신뢰</string>
-    <string name="trusted_by_you_learn_more">Bitwarden이 기본적으로는 신뢰하지 않지만, 사용자님이 직접 패스키 작업을 수행하도록 신뢰한 애플리케이션 또는 브라우저입니다.</string>
+    <string name="trusted_by_you_learn_more">Byteward이 기본적으로는 신뢰하지 않지만, 사용자님이 직접 패스키 작업을 수행하도록 신뢰한 애플리케이션 또는 브라우저입니다.</string>
     <string name="trusted_by_community_learn_more">Google Play 스토어에 등록되어 있지는 않지만, Bitwarden 커뮤니티 회원들이 사용 후 안전하다고 보고하여 패스키 작업을 수행하는 것이 신뢰되는 애플리케이션입니다.</string>
     <string name="trusted_by_google_learn_more">Google에서 안전하다고 간주하며 Google Play 스토어에서 사용할 수 있는 애플리케이션입니다.</string>
     <string name="trusted_by_you">사용자님이 신뢰하는 앱</string>
@@ -1181,7 +1181,7 @@ Do you want to switch to this account?</string>
         <item quantity="other">항목 %1$d개를 보관함으로 가져왔습니다.</item>
     </plurals>
     <string name="enable_browser_autofill_to_keep_filling_passwords">비밀번호 계속 채우기를 위해 브라우저 자동 채우기 활성화</string>
-    <string name="your_browser_recently_updated_how_autofill_works_singular">브라우저가 최근 업데이트되어 Bitwarden 자동 채우기가 비활성화되었습니다. Bitwarden으로 비밀번호 채우기를 계속하려면 자동 채우기 설정에서 브라우저 자동 채우기를 활성화하세요.</string>
+    <string name="your_browser_recently_updated_how_autofill_works_singular">브라우저가 최근 업데이트되어 Byteward 자동 채우기가 비활성화되었습니다. Byteward으로 비밀번호 채우기를 계속하려면 자동 채우기 설정에서 브라우저 자동 채우기를 활성화하세요.</string>
     <string name="not_now">나중에</string>
     <string name="import_from_bitwarden">Bitwarden에서 가져오기</string>
     <string name="select_account">계정 선택</string>
@@ -1281,7 +1281,7 @@ Do you want to switch to this account?</string>
     <string name="trusted">신뢰됨</string>
     <string name="preview_not_available_for_files">%1$s 파일에 대한 미리보기를 사용할 수 없습니다. 기기에서 보려면 여전히 다운로드할 수 있습니다.</string>
     <string name="this_file_is_too_large_to_preview">이 파일은 미리보기에는 너무 큽니다. 기기에서 보려면 다운로드할 수 있습니다.</string>
-    <string name="bitwarden_could_not_decrypt_this_file_so_the_preview_cannot_be_displayed">Bitwarden이 이 파일을 복호화할 수 없어 미리보기를 표시할 수 없습니다.</string>
+    <string name="bitwarden_could_not_decrypt_this_file_so_the_preview_cannot_be_displayed">Byteward이 이 파일을 복호화할 수 없어 미리보기를 표시할 수 없습니다.</string>
     <string name="preview_unavailable_for_this_file">이 파일에 대한 미리보기를 사용할 수 없습니다. 기기에서 보려면 다운로드할 수 있습니다.</string>
     <string name="preview_unavailable">미리보기 사용 불가</string>
     <string name="download_attachment">첨부 파일 다운로드</string>
@@ -1413,8 +1413,8 @@ Do you want to switch to this account?</string>
     <string name="local_network_access_required">로컬 네트워크 액세스 필요</string>
     <string name="ask_again_later">나중에 다시 묻기</string>
     <string name="enable_local_network_access">로컬 네트워크 액세스 활성화</string>
-    <string name="bitwarden_needs_local_network_access_to_sync_with_your_server">Bitwarden이 서버와 동기화하려면 로컬 네트워크 액세스가 필요합니다. 이 권한이 없으면 앱이 연결할 수 없습니다.</string>
-    <string name="without_this_permission_bitwarden_wont_be_able_to_sync_with_your_server">이 권한이 없으면 Bitwarden이 서버에 연결하고 동기화할 수 없습니다. 기기 설정에서 활성화할 수 있습니다.</string>
+    <string name="bitwarden_needs_local_network_access_to_sync_with_your_server">Byteward이 서버와 동기화하려면 로컬 네트워크 액세스가 필요합니다. 이 권한이 없으면 앱이 연결할 수 없습니다.</string>
+    <string name="without_this_permission_bitwarden_wont_be_able_to_sync_with_your_server">이 권한이 없으면 Byteward이 서버에 연결하고 동기화할 수 없습니다. 기기 설정에서 활성화할 수 있습니다.</string>
     <string name="your_request_was_interrupted_because_the_app_needs_local_network_access">앱에 로컬 네트워크 액세스가 필요하여 요청이 중단되었습니다. 기기 설정에서 활성화할 수 있습니다.</string>
     <string name="continue_to_stripe">Stripe로 계속하시겠습니까?</string>
     <string name="youll_be_taken_to_stripe_to_manage_your_subscription_cancellation">구독 취소를 관리하기 위해 Stripe로 이동합니다.</string>
@@ -1436,7 +1436,7 @@ Do you want to switch to this account?</string>
     <string name="use_this_username">Use this username</string>
     <string name="create_login">Create login</string>
     <string name="keep_unlocking_with_biometrics">Keep unlocking with biometrics</string>
-    <string name="weve_made_a_security_update">We’ve made a security update. Confirm your biometrics again to keep using them to unlock Bitwarden.</string>
+    <string name="weve_made_a_security_update">We’ve made a security update. Confirm your biometrics again to keep using them to unlock Byteward.</string>
     <string name="turn_off">Turn off</string>
     <string name="turn_off_biometric_question">Turn off biometrics?</string>
     <string name="unlocking_will_require_your_master_password">Unlocking will require your master password. You can turn biometrics back on in Settings.</string>
