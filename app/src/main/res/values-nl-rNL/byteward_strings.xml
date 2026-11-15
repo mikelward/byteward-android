@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Byteward overrides for strings defined in the :ui module, which keeps
+    upstream Bitwarden's text. App resources take precedence over library
+    resources when they are merged, so the app shows these versions while the
+    :ui files stay identical to upstream (and the Authenticator app, which also
+    uses :ui, keeps Bitwarden's text).
+
+    Each entry renames Bitwarden to Byteward where the password manager refers
+    to itself. Text about Bitwarden's service is not overridden.
+-->
+<resources>
+    <string name="set_bitwarden_as_passkey_manager_description">Byteward instellen als je passkey-provider in apparaatinstellingen.</string>
+    <string name="bitwarden_autofill_service">Byteward Automatisch aanvullen</string>
+    <string name="bitwarden_autofill_service_alert2">De makkelijkste manier om nieuwe logins toe te voegen aan je kluis is via de Byteward Automatisch invullen dienst. Leer meer over het gebruik van de Byteward Automatisch invullen dienst door naar het scherm \"Instellingen\" te gaan.</string>
+    <string name="autofill_service_description">De Dienst Automatisch aanvullen van Byteward gebruikt het Android Autofill Framework om je te helpen met het invullen van inloggegevens, creditcards en identiteitsinformatie in andere apps op je apparaat.</string>
+    <string name="set_pin_description">Stel je PIN-code in voor het ontgrendelen van Byteward. Je PIN-code wordt opnieuw ingesteld als je je ooit volledig afmeldt bij de applicatie.</string>
+    <string name="default_uri_match_detection_description">URI-overeenkomstdetectie bepaalt hoe Byteward automatisch invulsuggesties herkent.</string>
+    <string name="autofill_tile_accessibility_required">Zet \"Automatisch invullen toegankelijkheidsservice\" aan bij Byteward Instellingen om de Autofill tegel te gebruiken.</string>
+    <string name="accessibility_disclosure_text">Byteward gebruikt de toegankelijkheidsservice om inlogvelden in apps en op websites te vinden, de juiste veld ID\'s te bepalen om de gebruikersnaam en het wachtwoord in te voeren wanneer een bijpassend paar gevonden is voor de app of site. We slaan geen informatie op die de service ons levert, ook controleren we geen elementen op het scherm naast de tekstinvoer van inloggegevens.</string>
+    <string name="accessibility_disclosure_start_up_text_1">This notice is required before Byteward can offer accessibility-based autofill.</string>
+    <string name="accessibility_disclosure_start_up_text_2">Byteward offers an optional autofill method that uses Android’s Accessibility Service to detect login fields. If you enable it, Byteward will identify the appropriate fields and fill in your credentials when a match is found.</string>
+    <string name="passkey_management_explanation_long">Gebruik Byteward voor het opslaan van nieuwe passkeys en inloggen met passkeys die zijn opgeslagen in je kluis.</string>
+    <string name="your_passkey_will_be_saved_to_your_bitwarden_vault_for_x">Je passkey wordt bewaard in je Byteward-kluis voor %1$s</string>
+    <string name="your_password_will_be_saved_to_your_bitwarden_vault_for_x">Je wachtwoord wordt bewaard in je Byteward-kluis voor %1$s</string>
+    <string name="welcome_message_1">Logins, kaarten en identiteiten in je beveiligde kluis opslaan. Byteward gebruikt zero-knowledge, end-to-end versleuteling om te beschermen wat belangrijk voor jou is.</string>
+    <string name="browser_requires_special_permissions_for_bitwarden_singular">Je gebruikt een browser die speciale rechten voor Byteward nodig heeft voor eht automatisch invullen van je wachtwoorden.</string>
+    <string name="browser_requires_special_permissions_for_bitwarden_plural">Je gebruikt browsers die speciale rechten voor Byteward nodig heeft voor eht automatisch invullen van je wachtwoorden.</string>
+    <string name="youre_using_a_browser_that_requires_special_permissions_singular">Je gebruikt een browser die speciale rechten voor Byteward nodig heeft voor eht automatisch invullen van je wachtwoorden. Schakel hieronder je voorkeur voor automatisch invullen in.</string>
+    <string name="youre_using_a_browser_that_requires_special_permissions_plural">Je gebruikt browsers die speciale rechten voor Byteward nodig heeft voor eht automatisch invullen van je wachtwoorden. Schakel automatisch invullen voor al je geïnstalleerde browsers in om door te gaan.</string>
+    <string name="what_bitwarden_has_to_offer">Je kunt nu automatisch invullen om in te loggen op apps en websites met je opgeslagen wachtwoorden. Nu kun je alles ontdekken wat Byteward te bieden heeft.</string>
+    <string name="system_certificates_are_not_as_secure_as_importing_certificates_to_bitwarden">Het gebruik van een systeemcertificaat is minder veilig dan het opslaan van het certificaat met Byteward. Als je doorgaat, wordt een lijst met beschikbare systeemcertificaten weergegeven als deze al geïnstalleerd zijn.</string>
+    <string name="trusted_by_you_learn_more">Dit zijn applicaties of browsers die Byteward standaard niet vertrouwt, maar JIJ vertrouwt voor passkey-acties.</string>
+    <string name="your_browser_recently_updated_how_autofill_works_singular">Je browsers zijn onlangs bijgewerkt waardoor automatisch invullen door Byteward is uitgeschakeld. Om je wachtwoorden met Byteward in te blijven vullen, moet je automatisch invullen inschakelen via de instellingen van al je geïnstalleerde webbrowsers.</string>
+    <string name="bitwarden_could_not_decrypt_this_file_so_the_preview_cannot_be_displayed">Byteward kan dit bestand niet decoderen, dus het voorbeeld kan niet worden weergegeven.</string>
+    <string name="bitwarden_needs_local_network_access_to_sync_with_your_server">Byteward heeft toegang tot het lokale netwerk nodig om te synchroniseren met je server. Zonder deze machtiging kan de app geen verbinding maken.</string>
+    <string name="without_this_permission_bitwarden_wont_be_able_to_sync_with_your_server">Zonder deze machtiging kan Byteward niet verbinden en synchroniseren met je server. Je kunt dit inschakelen in je apparaatinstellingen.</string>
+    <string name="weve_made_a_security_update">We hebben een beveiligingsupdate gemaakt. Bevestig je biometrische gegevens opnieuw om deze te blijven gebruiken om Byteward te ontgrendelen.</string>
+</resources>

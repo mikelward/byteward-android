@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Byteward overrides for strings defined in the :ui module, which keeps
+    upstream Bitwarden's text. App resources take precedence over library
+    resources when they are merged, so the app shows these versions while the
+    :ui files stay identical to upstream (and the Authenticator app, which also
+    uses :ui, keeps Bitwarden's text).
+
+    Each entry renames Bitwarden to Byteward where the password manager refers
+    to itself. Text about Bitwarden's service is not overridden.
+-->
+<resources>
+    <string name="set_bitwarden_as_passkey_manager_description">Byteward را به عنوان ارائه دهنده کلید عبور خود در تنظیمات دستگاه تنظیم کنید.</string>
+    <string name="bitwarden_autofill_service">سرویس پر کردن خودکار Byteward</string>
+    <string name="bitwarden_autofill_service_alert2">ساده‌ترین روش برای افزودن اطلاعات ورود به گاوصندوقتان استفاده از سرویس پر کردن خودکار Byteward است. با رفتن به صفحه \"تنظیمات\" درباره‌ی استفاده از سرویس پر کردن خودکار Byteward اطلاعات بیشتری کسب کنید.</string>
+    <string name="autofill_service_description">سرویس پر کردن خودکار Byteward با استفاده از چهار چوب پر کردن خودکار اندروید برای کمک به پر کردن ورودی‌ها، کارت های اعتباری و اطلاعات هویت به سایر برنامه‌ها در دستگاه شما کمک می‌کند.</string>
+    <string name="default_uri_match_detection_description">تشخیص تطابق نشانی اینترنتی نحوه شناسایی پیشنهادهای پر کردن خودکار توسط Byteward را کنترل می‌کند.</string>
+    <string name="autofill_tile_accessibility_required">لطفاً برای استفاده از کاشی پر کردن خودکار، \"سرویس دسترسی پر کردن خودکار\" را از تنظیمات Byteward فعال کنید.</string>
+    <string name="accessibility_disclosure_text">Byteward از سرویس دسترسی برای جستجوی فیلدهای ورود در برنامه‌ها و وب‌سایت‌ها استفاده می‌کند، سپس زمانی که مطابقتی با برنامه یا سایت پیدا شد، شناسه‌های فیلد مناسب را برای وارد کردن نام کاربری &amp; کلمه عبور ایجاد می‌کند. ما هیچ کدام از اطلاعات ارائه شده به خود را توسط سرویس ذخیره نمی‌کنیم و هیچ تلاشی برای کنترل عناصر روی صفحه فراتر از ورود متن اعتبارنامه‌ها انجام نمی‌دهیم.</string>
+    <string name="accessibility_disclosure_start_up_text_1">این اعلان برای فعال شدن پر کردن خودکار مبتنی بر دسترس‌پذیری در Byteward الزامی است.</string>
+    <string name="accessibility_disclosure_start_up_text_2">Byteward یک روش پر کردن خودکار اختیاری ارائه می‌دهد که از سرویس دسترسی اندروید برای شناسایی فیلدهای ورود به سیستم استفاده می‌کند. اگر آن را فعال کنید، Byteward فیلدهای مناسب را شناسایی کرده و در صورت یافتن تطابق، اطلاعات کاربری شما را پر می‌کند.</string>
+    <string name="passkey_management_explanation_long">از Byteward برای ذخیره کلیدهای عبور جدید استفاده کنید و با کلیدهای عبور ذخیره شده در گاوصندوق خود وارد شوید.</string>
+    <string name="your_passkey_will_be_saved_to_your_bitwarden_vault_for_x">کلید عبور شما در گاوصندوق Byteward ذخیره می‌شود برای %1$s</string>
+    <string name="your_password_will_be_saved_to_your_bitwarden_vault_for_x">کلمه عبور شما در گاوصندوق Byteward ذخیره می‌شود برای %1$s</string>
+    <string name="welcome_message_1">ورودها، کارت‌ها و هویت‌ها را در گاوصندوق امن خود ذخیره کنید. Byteward از رمزگذاری انتها به انتهای دانش صفر برای محافظت از آنچه برای شما مهم است استفاده می‌کند.</string>
+    <string name="browser_requires_special_permissions_for_bitwarden_singular">شما از مرورگری استفاده می‌کنید که برای پر کردم خودکار کلمات عبور شما توسط Byteward به مجوزهای ویژه نیاز دارد.</string>
+    <string name="browser_requires_special_permissions_for_bitwarden_plural">شما از مرورگرهایی استفاده می‌کنید که برای پر کردم خودکار کلمات عبور شما توسط Byteward به مجوزهای ویژه نیاز دارد.</string>
+    <string name="youre_using_a_browser_that_requires_special_permissions_singular">شما از مرورگری استفاده می‌کنید که برای پر کردن خودکار کلمات عبور شما توسط Byteward به مجوزهای ویژه نیاز دارد. ادغام پر کردن خودکار دلخواه خود را در زیر فعال کنید.</string>
+    <string name="youre_using_a_browser_that_requires_special_permissions_plural">شما از مرورگرهایی استفاده می‌کنید که Byteward برای پر کردن خودکار کلمات عبور شما به مجوزهای ویژه نیاز دارد. برای ادامه، پر کردن خودکار را برای همه مرورگرهای نصب شده خود فعال کنید.</string>
+    <string name="what_bitwarden_has_to_offer">اکنون می‌توانید از تمامی امکانات Byteward استفاده کرده و شروع به مدیریت امن کلمات عبور خود کنید.</string>
+    <string name="system_certificates_are_not_as_secure_as_importing_certificates_to_bitwarden">استفاده از گواهی‌نامه سیستم نسبت به ذخیره گواهی‌نامه در Byteward امنیت کمتری دارد. در صورت نصب گواهی‌نامه سیستم، در ادامه لیستی از گواهی‌نامه‌های سیستم موجود نمایش داده می‌شود.</string>
+    <string name="dynamic_colors_may_not_adhere_to_accessibility_guidelines">این طرح رنگی به طور خودکار رنگ‌های سیستم را بر اساس تصویر زمینه فعلی شما به Byteward اعمال می‌کند. این رنگ‌ها ممکن است با تمام دستورالعمل‌های دسترسی مطابقت نداشته باشند.</string>
+    <string name="trusted_by_you_learn_more">این‌ها برنامه‌ها یا مرورگرهایی هستند که Byteward به طور پیش‌فرض به آن‌ها اعتماد ندارد، اما شما به آن‌ها برای انجام عملیات کلید عبور اعتماد دارید.</string>
+    <string name="your_browser_recently_updated_how_autofill_works_singular">مرورگر شما اخیراً به‌روزرسانی شده است که قابلیت پر کردن خودکار Byteward را غیرفعال کرده است. برای ادامه پر کردن کلمات عبور خود با Byteward، قابلیت پر کردن خودکار مرورگر را در تنظیمات پر کردن خودکار فعال کنید.</string>
+    <string name="bitwarden_could_not_decrypt_this_file_so_the_preview_cannot_be_displayed">Byteward نتوانست این پرونده را رمزگشایی کند، بنابراین پیش‌نمایش آن نمایش داده نمی‌شود.</string>
+    <string name="bitwarden_needs_local_network_access_to_sync_with_your_server">Byteward برای همگام‌سازی با سرور شما به دسترسی به شبکه محلی نیاز دارد. بدون این مجوز، برنامه قادر به اتصال نخواهد بود.</string>
+    <string name="without_this_permission_bitwarden_wont_be_able_to_sync_with_your_server">بدون این اجازه، Byteward قادر به اتصال و همگام‌سازی با سرور شما نخواهد بود. می‌توانید این مورد را در تنظیمات دستگاه خود فعال کنید.</string>
+    <string name="weve_made_a_security_update">We’ve made a security update. Confirm your biometrics again to keep using them to unlock Byteward.</string>
+</resources>

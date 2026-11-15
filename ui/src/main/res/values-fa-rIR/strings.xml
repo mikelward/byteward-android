@@ -75,9 +75,9 @@
     <string name="yes">بله</string>
     <string name="account">حساب کاربری</string>
     <string name="account_created_success">حساب کاربری جدید شما ایجاد شده است!</string>
-    <string name="set_bitwarden_as_passkey_manager_description">Byteward را به عنوان ارائه دهنده کلید عبور خود در تنظیمات دستگاه تنظیم کنید.</string>
+    <string name="set_bitwarden_as_passkey_manager_description">Bitwarden را به عنوان ارائه دهنده کلید عبور خود در تنظیمات دستگاه تنظیم کنید.</string>
     <string name="avoid_ambiguous_characters">از کاراکترهای مبهم خودداری کن</string>
-    <string name="bitwarden_autofill_service">سرویس پر کردن خودکار Byteward</string>
+    <string name="bitwarden_autofill_service">سرویس پر کردن خودکار Bitwarden</string>
     <string name="change_master_password">تغییر کلمه عبور اصلی</string>
     <string name="close">بستن</string>
     <string name="close_app">بستن برنامه</string>
@@ -176,7 +176,7 @@
     <string name="no_items_for_vault">هیچ موردی در گاوصندوق شما وجود ندارد که با \"%1$s\" مطابقت داشته باشد</string>
     <string name="search_for_a_login_or_add_a_new_login">یک ورود را جستجو کنید یا یک ورود جدید اضافه کنید</string>
     <string name="disabled">غیرفعال شد</string>
-    <string name="bitwarden_autofill_service_alert2">ساده‌ترین روش برای افزودن اطلاعات ورود به گاوصندوقتان استفاده از سرویس پر کردن خودکار Byteward است. با رفتن به صفحه \"تنظیمات\" درباره‌ی استفاده از سرویس پر کردن خودکار Byteward اطلاعات بیشتری کسب کنید.</string>
+    <string name="bitwarden_autofill_service_alert2">ساده‌ترین روش برای افزودن اطلاعات ورود به گاوصندوقتان استفاده از سرویس پر کردن خودکار Bitwarden است. با رفتن به صفحه \"تنظیمات\" درباره‌ی استفاده از سرویس پر کردن خودکار Bitwarden اطلاعات بیشتری کسب کنید.</string>
     <string name="autofill_noun">پر کردن خودکار</string>
     <string name="autofill_verb">پر کردن خودکار</string>
     <string name="autofill_or_view">آیا می‌خواهید این مورد را به صورت خودکار پر کنید یا مشاهده کنید؟</string>
@@ -298,7 +298,7 @@
     <string name="no_items_folder">در این پوشه موردی برای نمایش نیست.</string>
     <string name="no_items_trash">هیچ موردی در سطل زباله وجود ندارد.</string>
     <string name="autofill_accessibility_summary">در پر کردن فیلدهای نام کاربری و کلمه عبور در برنامه‌های دیگر و در وب کمک می‌کند.</string>
-    <string name="autofill_service_description">سرویس پر کردن خودکار Byteward با استفاده از چهار چوب پر کردن خودکار اندروید برای کمک به پر کردن ورودی‌ها، کارت های اعتباری و اطلاعات هویت به سایر برنامه‌ها در دستگاه شما کمک می‌کند.</string>
+    <string name="autofill_service_description">سرویس پر کردن خودکار Bitwarden با استفاده از چهار چوب پر کردن خودکار اندروید برای کمک به پر کردن ورودی‌ها، کارت های اعتباری و اطلاعات هویت به سایر برنامه‌ها در دستگاه شما کمک می‌کند.</string>
     <string name="bitwarden_autofill_go_to_settings">ما نتوانستیم به صورت خودکار منو تنظیمات پر کردن خودکار اندروید را برای شما باز کنیم. شما می‌توانید منوی تنظیمات را به صورت دستی مرور کنید. از تنظیمات اندروید &gt; سیستم &gt; زبان‌ها و ورودی &gt; پیشرفته &gt; سرویس پر کردن خودکار.</string>
     <string name="custom_field_name">نام فیلد سفارشی</string>
     <string name="field_type_boolean">منطقی</string>
@@ -387,7 +387,7 @@
     <string name="clear_clipboard">پاکسازی حافظه موقت</string>
     <string name="clear_clipboard_description">به صورت خودکار، مقادیر کپی شده را از حافظه موقت پاک کن.</string>
     <string name="default_uri_match_detection">بررسی مطابقت نشانی اینترنتی پیش‌فرض</string>
-    <string name="default_uri_match_detection_description">تشخیص تطابق نشانی اینترنتی نحوه شناسایی پیشنهادهای پر کردن خودکار توسط Byteward را کنترل می‌کند.</string>
+    <string name="default_uri_match_detection_description">تشخیص تطابق نشانی اینترنتی نحوه شناسایی پیشنهادهای پر کردن خودکار توسط Bitwarden را کنترل می‌کند.</string>
     <string name="theme">پوسته</string>
     <string name="theme_description">تغییر رنگ پوسته برنامه</string>
     <string name="copy_notes">کپی یادداشت</string>
@@ -423,7 +423,7 @@
     <string name="password_generator_policy_in_effect">یک یا چند سیاست سازمان بر تنظیمات تولید کننده شما تأثیر می‌گذارد</string>
     <string name="unable_to_save_attachment">هنگام ذخیره این پیوست مشکلی رخ داد. اگر مشکل همچنان ادامه داشت، می‌توانید آن را از گاوصندوق وب ذخیره کنید.</string>
     <string name="save_attachment_success">پیوست با موفقیت ذخیره شد.</string>
-    <string name="autofill_tile_accessibility_required">لطفاً برای استفاده از کاشی پر کردن خودکار، \"سرویس دسترسی پر کردن خودکار\" را از تنظیمات Byteward فعال کنید.</string>
+    <string name="autofill_tile_accessibility_required">لطفاً برای استفاده از کاشی پر کردن خودکار، \"سرویس دسترسی پر کردن خودکار\" را از تنظیمات Bitwarden فعال کنید.</string>
     <string name="autofill_tile_uri_not_found">هیچ فیلدی برای کلمه عبور شناسایی نشد</string>
     <string name="soft_deleting">درحال ارسال به سطل زباله…</string>
     <string name="item_soft_deleted">مورد به سطل زباله فرستاده شد.</string>
@@ -638,9 +638,9 @@
     <string name="catch_all_email_description">از صندوق ورودی پیکربندی شده دامنه خود استفاده کنید.</string>
     <string name="forwarded_email_description">یک نام مستعار ایمیل با یک سرویس ارسال خارجی ایجاد کنید.</string>
     <string name="accessibility_service_disclosure">افشای سرویس دسترسی</string>
-    <string name="accessibility_disclosure_text">Byteward از سرویس دسترسی برای جستجوی فیلدهای ورود در برنامه‌ها و وب‌سایت‌ها استفاده می‌کند، سپس زمانی که مطابقتی با برنامه یا سایت پیدا شد، شناسه‌های فیلد مناسب را برای وارد کردن نام کاربری &amp; کلمه عبور ایجاد می‌کند. ما هیچ کدام از اطلاعات ارائه شده به خود را توسط سرویس ذخیره نمی‌کنیم و هیچ تلاشی برای کنترل عناصر روی صفحه فراتر از ورود متن اعتبارنامه‌ها انجام نمی‌دهیم.</string>
-    <string name="accessibility_disclosure_start_up_text_1">این اعلان برای فعال شدن پر کردن خودکار مبتنی بر دسترس‌پذیری در Byteward الزامی است.</string>
-    <string name="accessibility_disclosure_start_up_text_2">Byteward یک روش پر کردن خودکار اختیاری ارائه می‌دهد که از سرویس دسترسی اندروید برای شناسایی فیلدهای ورود به سیستم استفاده می‌کند. اگر آن را فعال کنید، Byteward فیلدهای مناسب را شناسایی کرده و در صورت یافتن تطابق، اطلاعات کاربری شما را پر می‌کند.</string>
+    <string name="accessibility_disclosure_text">Bitwarden از سرویس دسترسی برای جستجوی فیلدهای ورود در برنامه‌ها و وب‌سایت‌ها استفاده می‌کند، سپس زمانی که مطابقتی با برنامه یا سایت پیدا شد، شناسه‌های فیلد مناسب را برای وارد کردن نام کاربری &amp; کلمه عبور ایجاد می‌کند. ما هیچ کدام از اطلاعات ارائه شده به خود را توسط سرویس ذخیره نمی‌کنیم و هیچ تلاشی برای کنترل عناصر روی صفحه فراتر از ورود متن اعتبارنامه‌ها انجام نمی‌دهیم.</string>
+    <string name="accessibility_disclosure_start_up_text_1">این اعلان برای فعال شدن پر کردن خودکار مبتنی بر دسترس‌پذیری در Bitwarden الزامی است.</string>
+    <string name="accessibility_disclosure_start_up_text_2">Bitwarden یک روش پر کردن خودکار اختیاری ارائه می‌دهد که از سرویس دسترسی اندروید برای شناسایی فیلدهای ورود به سیستم استفاده می‌کند. اگر آن را فعال کنید، Bitwarden فیلدهای مناسب را شناسایی کرده و در صورت یافتن تطابق، اطلاعات کاربری شما را پر می‌کند.</string>
     <string name="accessibility_disclosure_start_up_text_3">ما هنگام استفاده از سرویس دسترسی هیچ اطلاعاتی از محتوای روی صفحه ذخیره نمی‌کنیم و به‌جز وارد کردن اطلاعات ورود، هیچ عنصر دیگری روی صفحه را کنترل نمی‌کنیم.</string>
     <string name="i_understand">فهمیدم</string>
     <string name="accept">پذیرفتن</string>
@@ -720,7 +720,7 @@ Do you want to switch to this account?</string>
     <string name="session_timeout">پایان زمان جلسه</string>
     <string name="session_timeout_action">نشست را متوقف کن</string>
     <string name="account_fingerprint_phrase">عبارت اثر انگشت حساب کاربری</string>
-    <string name="passkey_management_explanation_long">از Byteward برای ذخیره کلیدهای عبور جدید استفاده کنید و با کلیدهای عبور ذخیره شده در گاوصندوق خود وارد شوید.</string>
+    <string name="passkey_management_explanation_long">از Bitwarden برای ذخیره کلیدهای عبور جدید استفاده کنید و با کلیدهای عبور ذخیره شده در گاوصندوق خود وارد شوید.</string>
     <string name="autofill_services_explanation_long">چارچوب پر کردن خودکار اندروید برای کمک به پر کردن اطلاعات ورود به سیستم در سایر برنامه‌های دستگاه شما استفاده می‌شود.</string>
     <string name="use_inline_autofill_explanation_long">اگر صفحه کلید انتخابی شما از آن پشتیبانی می‌کند، از پر کردن خودکار درون خطی استفاده کنید. در غیر این صورت، از لایه پیش‌فرض استفاده کنید.</string>
     <string name="additional_options">گزینه‌های اضافی</string>
@@ -744,8 +744,8 @@ Do you want to switch to this account?</string>
     <string name="duo_two_step_login_is_required_for_your_account">ورود دو مرحله ای Duo برای حساب کاربری شما لازم است.</string>
     <string name="follow_the_steps_from_duo_to_finish_logging_in">مراحل Duo را دنبال کنید تا وارد سیستم شوید.</string>
     <string name="launch_duo">اجرای Duo</string>
-    <string name="your_passkey_will_be_saved_to_your_bitwarden_vault_for_x">کلید عبور شما در گاوصندوق Byteward ذخیره می‌شود برای %1$s</string>
-    <string name="your_password_will_be_saved_to_your_bitwarden_vault_for_x">کلمه عبور شما در گاوصندوق Byteward ذخیره می‌شود برای %1$s</string>
+    <string name="your_passkey_will_be_saved_to_your_bitwarden_vault_for_x">کلید عبور شما در گاوصندوق Bitwarden ذخیره می‌شود برای %1$s</string>
+    <string name="your_password_will_be_saved_to_your_bitwarden_vault_for_x">کلمه عبور شما در گاوصندوق Bitwarden ذخیره می‌شود برای %1$s</string>
     <string name="passkeys_not_supported_for_this_app">کلیدهای عبور برای این برنامه پشتیبانی نمی‌شوند</string>
     <string name="passkey_operation_failed_because_browser_is_not_privileged">عملیات کلید عبور انجام نشد زیرا مرورگر دارای امتیاز نیست</string>
     <string name="passkey_operation_failed_because_browser_signature_does_not_match">عملیات کلید عبور ناموفق بود زیرا امضای مرورگر مطابقت ندارد</string>
@@ -773,7 +773,7 @@ Do you want to switch to this account?</string>
     <string name="email_verified">ایمیل تأیید شد</string>
     <string name="get_emails_from_bitwarden_for_announcements_advices_and_research_opportunities_unsubscribe_any_time">ایمیل‌هایی از Bitwarden درباره اعلان‌ها، پیشنهادها و فرصت‌های تحقیقاتی دریافت کنید. در هر زمان می‌توانید <annotation link="unsubscribe">لغو اشتراک</annotation> کنید.</string>
     <string name="security_prioritized">امنیت، در اولویت</string>
-    <string name="welcome_message_1">ورودها، کارت‌ها و هویت‌ها را در گاوصندوق امن خود ذخیره کنید. Byteward از رمزگذاری انتها به انتهای دانش صفر برای محافظت از آنچه برای شما مهم است استفاده می‌کند.</string>
+    <string name="welcome_message_1">ورودها، کارت‌ها و هویت‌ها را در گاوصندوق امن خود ذخیره کنید. Bitwarden از رمزگذاری انتها به انتهای دانش صفر برای محافظت از آنچه برای شما مهم است استفاده می‌کند.</string>
     <string name="welcome_message_2">قفل بیومتریک و پر کردن خودکار را تنظیم کنید تا بدون وارد کردن حتی یک حرف وارد حساب‌های خود شوید.</string>
     <string name="quick_and_easy_login">ورود سریع و آسان</string>
     <string name="level_up_your_logins">ورودهای خود را ارتقا دهید</string>
@@ -826,16 +826,16 @@ Do you want to switch to this account?</string>
     <string name="turn_on_autofill">پر کردن خودکار را فعال کنید</string>
     <string name="autofill_setup">راه‌اندازی پر کردن خودکار</string>
     <string name="turn_on_browser_autofill_integration">فعال‌سازی یکپارچه سازی پر کردن خودکار مرورگر</string>
-    <string name="browser_requires_special_permissions_for_bitwarden_singular">شما از مرورگری استفاده می‌کنید که برای پر کردم خودکار کلمات عبور شما توسط Byteward به مجوزهای ویژه نیاز دارد.</string>
-    <string name="browser_requires_special_permissions_for_bitwarden_plural">شما از مرورگرهایی استفاده می‌کنید که برای پر کردم خودکار کلمات عبور شما توسط Byteward به مجوزهای ویژه نیاز دارد.</string>
-    <string name="youre_using_a_browser_that_requires_special_permissions_singular">شما از مرورگری استفاده می‌کنید که برای پر کردن خودکار کلمات عبور شما توسط Byteward به مجوزهای ویژه نیاز دارد. ادغام پر کردن خودکار دلخواه خود را در زیر فعال کنید.</string>
-    <string name="youre_using_a_browser_that_requires_special_permissions_plural">شما از مرورگرهایی استفاده می‌کنید که Byteward برای پر کردن خودکار کلمات عبور شما به مجوزهای ویژه نیاز دارد. برای ادامه، پر کردن خودکار را برای همه مرورگرهای نصب شده خود فعال کنید.</string>
+    <string name="browser_requires_special_permissions_for_bitwarden_singular">شما از مرورگری استفاده می‌کنید که برای پر کردم خودکار کلمات عبور شما توسط Bitwarden به مجوزهای ویژه نیاز دارد.</string>
+    <string name="browser_requires_special_permissions_for_bitwarden_plural">شما از مرورگرهایی استفاده می‌کنید که برای پر کردم خودکار کلمات عبور شما توسط Bitwarden به مجوزهای ویژه نیاز دارد.</string>
+    <string name="youre_using_a_browser_that_requires_special_permissions_singular">شما از مرورگری استفاده می‌کنید که برای پر کردن خودکار کلمات عبور شما توسط Bitwarden به مجوزهای ویژه نیاز دارد. ادغام پر کردن خودکار دلخواه خود را در زیر فعال کنید.</string>
+    <string name="youre_using_a_browser_that_requires_special_permissions_plural">شما از مرورگرهایی استفاده می‌کنید که Bitwarden برای پر کردن خودکار کلمات عبور شما به مجوزهای ویژه نیاز دارد. برای ادامه، پر کردن خودکار را برای همه مرورگرهای نصب شده خود فعال کنید.</string>
     <string name="use_autofill_to_log_into_your_accounts">از پر کردن خودکار برای ورود به حساب‌های کاربری خود با یک ضربه استفاده کنید.</string>
     <string name="turn_on_later">بعداً روشن کنید</string>
     <string name="turn_on_autofill_later">بعداً پر کردن خودکار روشن شود؟</string>
     <string name="turn_on_browser_autofill_integration_later">فعال‌سازی یکپارچه سازی پر کردم خودکار مرورگر را بعداً انجام می‌دهید؟</string>
     <string name="return_to_complete_this_step_anytime_in_settings">می‌توانید هر زمان برای تکمیل این مرحله به بخش تنظیمات مراجعه کنید.</string>
-    <string name="what_bitwarden_has_to_offer">اکنون می‌توانید از تمامی امکانات Byteward استفاده کرده و شروع به مدیریت امن کلمات عبور خود کنید.</string>
+    <string name="what_bitwarden_has_to_offer">اکنون می‌توانید از تمامی امکانات Bitwarden استفاده کرده و شروع به مدیریت امن کلمات عبور خود کنید.</string>
     <string name="youre_all_set">همه چیز آماده است!</string>
     <string name="error_connecting_with_the_duo_service_use_a_different_two_step_login_method_or_contact_duo_for_assistance">خطا در اتصال به سرویس Duo. از روش ورود دو مرحله‌ای دیگری استفاده کنید یا برای دریافت کمک با Duo تماس بگیرید.</string>
     <string name="master_password_hint_not_specified">یادآور کلمه عبور اصلی</string>
@@ -967,7 +967,7 @@ Do you want to switch to this account?</string>
     <string name="unsupported_certificate_type">نوع گواهی‌نامه پشتیبانی نمی‌شود</string>
     <string name="certificate_password_incorrect">کلمه عبور گواهی‌نامه اشتباه است</string>
     <string name="invalid_certificate_chain">زنجیره گواهی‌نامه نامعتبر است</string>
-    <string name="system_certificates_are_not_as_secure_as_importing_certificates_to_bitwarden">استفاده از گواهی‌نامه سیستم نسبت به ذخیره گواهی‌نامه در Byteward امنیت کمتری دارد. در صورت نصب گواهی‌نامه سیستم، در ادامه لیستی از گواهی‌نامه‌های سیستم موجود نمایش داده می‌شود.</string>
+    <string name="system_certificates_are_not_as_secure_as_importing_certificates_to_bitwarden">استفاده از گواهی‌نامه سیستم نسبت به ذخیره گواهی‌نامه در Bitwarden امنیت کمتری دارد. در صورت نصب گواهی‌نامه سیستم، در ادامه لیستی از گواهی‌نامه‌های سیستم موجود نمایش داده می‌شود.</string>
     <string name="link">پیوند</string>
     <string name="passkey_operation_failed_because_host_url_is_not_present_in_request">عملیات کلید عبور شکست خورد زیرا نشانی اینترنتی میزبان در درخواست وجود ندارد.</string>
     <string name="passkey_operation_failed_because_app_signature_is_invalid">عملیات کلید عبور ناموفق بود زیرا امضای برنامه معتبر نیست.</string>
@@ -1044,11 +1044,11 @@ Do you want to switch to this account?</string>
     <string name="missing_send_resync_your_vault">گزینه ارسال برای همگام‌سازی مجدد گاوصندوق شما مفقود است</string>
     <string name="use_dynamic_colors">استفاده از رنگ‌های پویا</string>
     <string name="use_dynamic_colors_question">از رنگ‌های پویا استفاده می‌کنید؟</string>
-    <string name="dynamic_colors_may_not_adhere_to_accessibility_guidelines">این طرح رنگی به طور خودکار رنگ‌های سیستم را بر اساس تصویر زمینه فعلی شما به Byteward اعمال می‌کند. این رنگ‌ها ممکن است با تمام دستورالعمل‌های دسترسی مطابقت نداشته باشند.</string>
+    <string name="dynamic_colors_may_not_adhere_to_accessibility_guidelines">این طرح رنگی به طور خودکار رنگ‌های سیستم را بر اساس تصویر زمینه فعلی شما به Bitwarden اعمال می‌کند. این رنگ‌ها ممکن است با تمام دستورالعمل‌های دسترسی مطابقت نداشته باشند.</string>
     <string name="passkey_operation_failed_because_browser_x_is_not_trusted">عملیات کلید عبور ناموفق بود زیرا مرورگر (%1$s) مورد اعتماد نیست. گزینه \"اعتماد\" را انتخاب کنید تا %1$s به فهرست برنامه‌های مورد اعتماد افزوده شود یا \"لغو\" را برای توقف عملیات انتخاب کنید.</string>
     <string name="passkey_operation_failed_because_the_browser_is_not_trusted">عملیات کلید عبور ناموفق بود زیرا مرورگر مورد اعتماد نیست.</string>
     <string name="trust">اعتماد</string>
-    <string name="trusted_by_you_learn_more">این‌ها برنامه‌ها یا مرورگرهایی هستند که Byteward به طور پیش‌فرض به آن‌ها اعتماد ندارد، اما شما به آن‌ها برای انجام عملیات کلید عبور اعتماد دارید.</string>
+    <string name="trusted_by_you_learn_more">این‌ها برنامه‌ها یا مرورگرهایی هستند که Bitwarden به طور پیش‌فرض به آن‌ها اعتماد ندارد، اما شما به آن‌ها برای انجام عملیات کلید عبور اعتماد دارید.</string>
     <string name="trusted_by_community_learn_more">این‌ها برنامه‌هایی هستند که در فروشگاه Google Play وجود ندارند، اما پس از استفاده اعضای جامعه و گزارش امن بودن، Bitwarden به آن‌ها برای انجام عملیات کلید عبور اعتماد می‌کند.</string>
     <string name="trusted_by_google_learn_more">این‌ها برنامه‌هایی هستند که گوگل آن‌ها را ایمن می‌داند و در فروشگاه گوگل پلی موجود هستند.</string>
     <string name="trusted_by_you">مورد اعتماد شما</string>
@@ -1190,7 +1190,7 @@ Do you want to switch to this account?</string>
         <item quantity="other">%1$d مورد به گاوصندوق شما درون ریزی شد.</item>
     </plurals>
     <string name="enable_browser_autofill_to_keep_filling_passwords">فعال‌سازی پر کردن خودکار مرورگر برای ادامه وارد کردن کلمات عبور</string>
-    <string name="your_browser_recently_updated_how_autofill_works_singular">مرورگر شما اخیراً به‌روزرسانی شده است که قابلیت پر کردن خودکار Byteward را غیرفعال کرده است. برای ادامه پر کردن کلمات عبور خود با Byteward، قابلیت پر کردن خودکار مرورگر را در تنظیمات پر کردن خودکار فعال کنید.</string>
+    <string name="your_browser_recently_updated_how_autofill_works_singular">مرورگر شما اخیراً به‌روزرسانی شده است که قابلیت پر کردن خودکار Bitwarden را غیرفعال کرده است. برای ادامه پر کردن کلمات عبور خود با Bitwarden، قابلیت پر کردن خودکار مرورگر را در تنظیمات پر کردن خودکار فعال کنید.</string>
     <string name="not_now">الان نه</string>
     <string name="import_from_bitwarden">درون ریزی از Bitwarden</string>
     <string name="select_account">انتخاب حساب کاربری</string>
@@ -1290,7 +1290,7 @@ Do you want to switch to this account?</string>
     <string name="trusted">مورد اعتماد</string>
     <string name="preview_not_available_for_files">پیش‌نمایش پرونده‌های %1$s در دسترس نیست. شما همچنان می‌توانید آن را دانلود کرده و در دستگاه خود مشاهده کنید.</string>
     <string name="this_file_is_too_large_to_preview">این پرونده برای پیش‌نمایش خیلی بزرگ است. شما هنوز می‌توانید آن را دانلود کنید تا در دستگاهتان مشاهده کنید.</string>
-    <string name="bitwarden_could_not_decrypt_this_file_so_the_preview_cannot_be_displayed">Byteward نتوانست این پرونده را رمزگشایی کند، بنابراین پیش‌نمایش آن نمایش داده نمی‌شود.</string>
+    <string name="bitwarden_could_not_decrypt_this_file_so_the_preview_cannot_be_displayed">Bitwarden نتوانست این پرونده را رمزگشایی کند، بنابراین پیش‌نمایش آن نمایش داده نمی‌شود.</string>
     <string name="preview_unavailable_for_this_file">پیش‌نمایش این پرونده در دسترس نیست. شما همچنان می‌توانید آن را دانلود کرده و در دستگاه خود مشاهده کنید.</string>
     <string name="preview_unavailable">پیش‌نمایش در دسترس نیست</string>
     <string name="download_attachment">دانلود پیوست</string>
@@ -1423,8 +1423,8 @@ Do you want to switch to this account?</string>
     <string name="local_network_access_required">دسترسی به شبکه محلی مورد نیاز است</string>
     <string name="ask_again_later">بعداً دوباره سوال کنید</string>
     <string name="enable_local_network_access">فعال کردن دسترسی به شبکه محلی</string>
-    <string name="bitwarden_needs_local_network_access_to_sync_with_your_server">Byteward برای همگام‌سازی با سرور شما به دسترسی به شبکه محلی نیاز دارد. بدون این مجوز، برنامه قادر به اتصال نخواهد بود.</string>
-    <string name="without_this_permission_bitwarden_wont_be_able_to_sync_with_your_server">بدون این اجازه، Byteward قادر به اتصال و همگام‌سازی با سرور شما نخواهد بود. می‌توانید این مورد را در تنظیمات دستگاه خود فعال کنید.</string>
+    <string name="bitwarden_needs_local_network_access_to_sync_with_your_server">Bitwarden برای همگام‌سازی با سرور شما به دسترسی به شبکه محلی نیاز دارد. بدون این مجوز، برنامه قادر به اتصال نخواهد بود.</string>
+    <string name="without_this_permission_bitwarden_wont_be_able_to_sync_with_your_server">بدون این اجازه، Bitwarden قادر به اتصال و همگام‌سازی با سرور شما نخواهد بود. می‌توانید این مورد را در تنظیمات دستگاه خود فعال کنید.</string>
     <string name="your_request_was_interrupted_because_the_app_needs_local_network_access">درخواست شما به دلیل نیاز برنامه به دسترسی به شبکه محلی قطع شد. می‌توانید این مورد را در تنظیمات دستگاه خود فعال کنید.</string>
     <string name="continue_to_stripe">ادامه دادن به Stripe؟</string>
     <string name="youll_be_taken_to_stripe_to_manage_your_subscription_cancellation">برای مدیریت لغو اشتراک خود به Stripe منتقل خواهید شد.</string>
@@ -1446,7 +1446,7 @@ Do you want to switch to this account?</string>
     <string name="use_this_username">Use this username</string>
     <string name="create_login">Create login</string>
     <string name="keep_unlocking_with_biometrics">Keep unlocking with biometrics</string>
-    <string name="weve_made_a_security_update">We’ve made a security update. Confirm your biometrics again to keep using them to unlock Byteward.</string>
+    <string name="weve_made_a_security_update">We’ve made a security update. Confirm your biometrics again to keep using them to unlock Bitwarden.</string>
     <string name="turn_off">Turn off</string>
     <string name="turn_off_biometric_question">Turn off biometrics?</string>
     <string name="unlocking_will_require_your_master_password">Unlocking will require your master password. You can turn biometrics back on in Settings.</string>

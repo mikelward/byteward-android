@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Byteward overrides for strings defined in the :ui module, which keeps
+    upstream Bitwarden's text. App resources take precedence over library
+    resources when they are merged, so the app shows these versions while the
+    :ui files stay identical to upstream (and the Authenticator app, which also
+    uses :ui, keeps Bitwarden's text).
+
+    Each entry renames Bitwarden to Byteward where the password manager refers
+    to itself. Text about Bitwarden's service is not overridden.
+-->
+<resources>
+    <string name="set_bitwarden_as_passkey_manager_description">Ezarri Byteward zure pasagiltza-hornitzaile gisa gailuaren ezarpenetan.</string>
+    <string name="bitwarden_autofill_service">Bytewarden automatikoki betetzeko zerbitzua</string>
+    <string name="bitwarden_autofill_service_alert2">Saio berriak zure kutxan gehitzeko modurik errazena Byteward Autobeteketa Zerbitzutik da. Ikasi gehiago Byteward Autobeteketa Zerbitzua erabiltzeari buruz \"Ezarpenak\" pantailara joanda.</string>
+    <string name="autofill_service_description">Bytewarden automatikoki betetzeko zerbitzuak Android Autofill Framework erabiltzen du zure gailuko beste aplikazio batzuetan saio-hasierako informazioa betetzen laguntzeko.</string>
+    <string name="set_pin_description">Ezarri zure PIN kodea Byteward desblokeatzeko. Zure PIN-aren konfigurazioa berrezarriko da, noizbait aplikaziotik erabat saioa ixten baduzu.</string>
+    <string name="default_uri_match_detection_description">URI bat datorren detekzioak kontrolatzen du nola identifikatzen dituen Byteward-ek autobeteketaren iradokizunak.</string>
+    <string name="autofill_tile_accessibility_required">Mesedez, aktibatu \"Autobeteketaren Irisgarritasun Zerbitzua\" Byteward Ezarpenetatik Autobeteketa laukia erabiltzeko.</string>
+    <string name="accessibility_disclosure_text">Bytewardek irisgarritasun zerbitzua erabiltzen du aplikazioetan eta webguneetan sarbide-eremuak bilatzeko; ondoren, eremu-ID egokiak ezartzen ditu, aplikaziorako edo gunerako eremu bat aurkitzen denean erabiltzaile-izena eta pasahitza sartzeko. Zerbitzuak ematen digun informazioa ez dugu gordeko, eta ez gara saiatuko pantailan kredentzialen testutik haratagoko elementurik zelatatzen.</string>
+    <string name="accessibility_disclosure_start_up_text_1">Abisu hau beharrezkoa da Byteward-ek irisgarritasunean oinarritutako autobeteketa eskaini aurretik.</string>
+    <string name="accessibility_disclosure_start_up_text_2">Byteward-ek autobeteketa-metodo aukerako bat eskaintzen du, Android-en Irisgarritasun Zerbitzua erabiltzen duena saio-eremuak detektatzeko. Gaituz gero, Byteward-ek eremu egokiak identifikatuko ditu eta zure kredentzialak beteko ditu bat datorrenean.</string>
+    <string name="passkey_management_explanation_long">Erabili Byteward pasagiltza berriak gordetzeko eta zure kutxan gordetako pasagiltzekin saioa hasteko.</string>
+    <string name="autofill_services_explanation_long">Baimendu Byteward-ek zure gordetako saio-informazioa erabiltzea zure gailuko beste aplikazio batzuetan saioa hasteko.</string>
+    <string name="your_passkey_will_be_saved_to_your_bitwarden_vault_for_x">Zure pasagiltza zure Byteward kutxan gordeko da %1$s-rako</string>
+    <string name="your_password_will_be_saved_to_your_bitwarden_vault_for_x">Zure pasahitza zure Byteward kutxan gordeko da %1$s-rako</string>
+    <string name="welcome_message_1">Gorde saioak, txartelak eta identitateak zure kutxa seguruan. Byteward-ek zero-ezagutza eta muturretik muturrerako enkriptatzea erabiltzen du zuretzat garrantzitsua dena babesteko.</string>
+    <string name="browser_requires_special_permissions_for_bitwarden_singular">Byteward-ek zure pasahitzak autobetetzeko baimen bereziak behar dituen nabigatzaile bat erabiltzen ari zara.</string>
+    <string name="browser_requires_special_permissions_for_bitwarden_plural">Byteward-ek zure pasahitzak autobetetzeko baimen bereziak behar dituzten nabigatzaileak erabiltzen ari zara.</string>
+    <string name="youre_using_a_browser_that_requires_special_permissions_singular">Byteward-ek zure pasahitzak autobetetzeko baimen bereziak behar dituen nabigatzaile bat erabiltzen ari zara. Gaitu behean zure autobeteketa-integrazio gogokoena.</string>
+    <string name="youre_using_a_browser_that_requires_special_permissions_plural">Byteward-ek zure pasahitzak autobetetzeko baimen bereziak behar dituzten nabigatzaileak erabiltzen ari zara. Gaitu autobeteketa zure instalatutako nabigatzaile guztietan jarraitzeko.</string>
+    <string name="what_bitwarden_has_to_offer">Orain Byteward-ek eskaintzen duen guztia arakatu eta zure pasahitzak segurtasunez kudeatzen has zaitezke.</string>
+    <string name="system_certificates_are_not_as_secure_as_importing_certificates_to_bitwarden">Sistemako ziurtagiria erabiltzea ez da hain segurua Byteward-ekin ziurtagiria gordetzea baino. Jarraitzeak eskuragarri dauden sistemako ziurtagirien zerrenda erakutsiko du bat instalatuta badago.</string>
+    <string name="dynamic_colors_may_not_adhere_to_accessibility_guidelines">Kolore-eskema honek automatikoki aplikatzen dizkio Byteward-i sistemaren koloreak zure uneko horma-irudiaren arabera. Kolore hauek baliteke irisgarritasun-gida guztiak ez betetzea.</string>
+    <string name="trusted_by_you_learn_more">Hauek dira Byteward-ek lehenespenez ez dituen aplikazio edo nabigatzaileak, baina zuk fidagarriak dituzu pasagiltza eragiketak egiteko.</string>
+    <string name="your_browser_recently_updated_how_autofill_works_singular">Zure nabigatzailea berriki eguneratu da, eta Byteward-en autobeteketa desgaitu du. Byteward-ekin zure pasahitzak betetzen jarraitzeko, gaitu nabigatzailearen autobeteketa autobeteketaren ezarpenetan.</string>
+    <string name="bitwarden_could_not_decrypt_this_file_so_the_preview_cannot_be_displayed">Byteward-ek ezin du fitxategi hau desenkriptatu, beraz, aurrebista ezin da erakutsi.</string>
+    <string name="bitwarden_needs_local_network_access_to_sync_with_your_server">Byteward-ek sare lokaleko sarbidea behar du zure zerbitzariarekin sinkronizatzeko. Baimen hau gabe, aplikazioa ezin izango da konektatu.</string>
+    <string name="without_this_permission_bitwarden_wont_be_able_to_sync_with_your_server">Baimen hau gabe, Byteward ezin izango da konektatu eta zure zerbitzariarekin sinkronizatu. Hau zure gailuaren ezarpenetan gaitu dezakezu.</string>
+    <string name="weve_made_a_security_update">We’ve made a security update. Confirm your biometrics again to keep using them to unlock Byteward.</string>
+</resources>

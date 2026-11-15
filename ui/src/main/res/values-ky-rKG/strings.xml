@@ -75,9 +75,9 @@
     <string name="yes">Ооба</string>
     <string name="account">Аккаунт</string>
     <string name="account_created_success">Сиздин жаңы аккаунт түзүлдү!</string>
-    <string name="set_bitwarden_as_passkey_manager_description">Түзмөк орнотууларында Bytewardди өтүү ачкыч провайдери катары коюңуз.</string>
+    <string name="set_bitwarden_as_passkey_manager_description">Түзмөк орнотууларында Bitwardenди өтүү ачкыч провайдери катары коюңуз.</string>
     <string name="avoid_ambiguous_characters">Эки маанилүү белгилерден алыс болуу</string>
-    <string name="bitwarden_autofill_service">Byteward Автолуктоо Кызматы</string>
+    <string name="bitwarden_autofill_service">Bitwarden Автолуктоо Кызматы</string>
     <string name="change_master_password">Башкы сырсөздү өзгөртүү</string>
     <string name="close">Жабуу</string>
     <string name="close_app">Колдонмону жабуу</string>
@@ -176,7 +176,7 @@
     <string name="no_items_for_vault">Сиздин купчулда “%1$s” дал келген эч кандай элементтер жок</string>
     <string name="search_for_a_login_or_add_a_new_login">Кирүүнү издеңиз же жаңы кирүү кошуңуз</string>
     <string name="disabled">Өчүрүлгөн</string>
-    <string name="bitwarden_autofill_service_alert2">Купчулуңузга жаңы кирүүлөрдү кошуунун эң оңой жолу - Byteward Автолуктоо Кызматы аркылуу. Byteward Автолуктоо Кызматын колдонуу жөнүндө көбүрөөк билүү үчүн “Орнотуулар” бетине өтүңүз.</string>
+    <string name="bitwarden_autofill_service_alert2">Купчулуңузга жаңы кирүүлөрдү кошуунун эң оңой жолу - Bitwarden Автолуктоо Кызматы аркылуу. Bitwarden Автолуктоо Кызматын колдонуу жөнүндө көбүрөөк билүү үчүн “Орнотуулар” бетине өтүңүз.</string>
     <string name="autofill_noun">Автолуктоо</string>
     <string name="autofill_verb">Автолуктоо</string>
     <string name="autofill_or_view">Бул элементти автолуктоону же көрүүнү каалайсызбы?</string>
@@ -298,7 +298,7 @@
     <string name="no_items_folder">Бул папкада эч кандай элементтер жок.</string>
     <string name="no_items_trash">Себетте эч кандай элементтер жок.</string>
     <string name="autofill_accessibility_summary">Башка колдонмолордо жана вебде колдонуучу аты жана сырсөз талааларын толтурууга жардам берүү.</string>
-    <string name="autofill_service_description">Byteward автолуктоо кызматы түзмөгүңүздөгү башка колдонмолорго кирүү маалыматтарын толтурууга жардам берүү үчүн Android Автолуктоо рамкасын колдонот.</string>
+    <string name="autofill_service_description">Bitwarden автолуктоо кызматы түзмөгүңүздөгү башка колдонмолорго кирүү маалыматтарын толтурууга жардам берүү үчүн Android Автолуктоо рамкасын колдонот.</string>
     <string name="bitwarden_autofill_go_to_settings">Биз сиз үчүн Android автолуктоо орнотуулар менюсун автоматтык түрдө ача албай калдык. Сиз Android Орнотуулар &gt; Система &gt; Тилдер жана киргизүү &gt; Кошумча &gt; Автолуктоо кызматы аркылуу автолуктоо орнотуулар менюсуна кол менен өтө аласыз.</string>
     <string name="custom_field_name">Ыңгайлаштырылган талаанын аты</string>
     <string name="field_type_boolean">Логикалык</string>
@@ -373,7 +373,7 @@
     <string name="pin">PIN</string>
     <string name="unlock">Ачуу</string>
     <string name="thirty_minutes">30 мүнөт</string>
-    <string name="set_pin_description">PIN кеминде 4 белгиден турушу керек. Эгерде сиз Byteward колдонмосунан кол менен чыксаңыз, PIN орнотууларыңыз кайра орнотулат.</string>
+    <string name="set_pin_description">PIN кеминде 4 белгиден турушу керек. Эгерде сиз Bitwarden колдонмосунан кол менен чыксаңыз, PIN орнотууларыңыз кайра орнотулат.</string>
     <string name="logged_in_as_on">%2$s түзмөгүндө %1$s катары кирдиңиз.</string>
     <string name="vault_locked_master_password">Сиздин купчул кулпуланган. Улантуу үчүн башкы сырсөзүңүздү текшериңиз.</string>
     <string name="vault_locked_pin">Сиздин купчул кулпуланган. Улантуу үчүн PIN кодуңузду текшериңиз.</string>
@@ -387,7 +387,7 @@
     <string name="clear_clipboard">Буферди тазалоо</string>
     <string name="clear_clipboard_description">Көчүрүлгөн маанилерди буферден автоматтык түрдө тазалоо.</string>
     <string name="default_uri_match_detection">Баштапкы URI дал келүүсүн аныктоо</string>
-    <string name="default_uri_match_detection_description">URI дал келүүсүн аныктоо Bytewardдин автолуктоо сунуштарын кантип аныкташын көзөмөлдөйт.</string>
+    <string name="default_uri_match_detection_description">URI дал келүүсүн аныктоо Bitwardenдин автолуктоо сунуштарын кантип аныкташын көзөмөлдөйт.</string>
     <string name="theme">Тема</string>
     <string name="theme_description">Колдонмонун түс темасын өзгөртүү</string>
     <string name="copy_notes">Эскертүүнү көчүрүү</string>
@@ -423,7 +423,7 @@
     <string name="password_generator_policy_in_effect">Бир же бир нече уюм саясаты сиздин генератор орнотууларыңызга таасир этүүдө</string>
     <string name="unable_to_save_attachment">Бул тиркемени сактоодо көйгөй чыкты. Эгерде көйгөй уланса, аны веб купчулдан сактай аласыз.</string>
     <string name="save_attachment_success">Тиркеме ийгиликтүү сакталды</string>
-    <string name="autofill_tile_accessibility_required">Автолуктоо плиткасын колдонуу үчүн Byteward Орнотууларынан “Автолуктоо Жеткиликтүүлүк Кызматын” күйгүзүңүз.</string>
+    <string name="autofill_tile_accessibility_required">Автолуктоо плиткасын колдонуу үчүн Bitwarden Орнотууларынан “Автолуктоо Жеткиликтүүлүк Кызматын” күйгүзүңүз.</string>
     <string name="autofill_tile_uri_not_found">Сырсөз талаалары аныкталган жок</string>
     <string name="soft_deleting">Себетке жөнөтүлүүдө…</string>
     <string name="item_soft_deleted">Элемент себетке жөнөтүлдү.</string>
@@ -638,9 +638,9 @@
     <string name="catch_all_email_description">Домениңиздин конфигурацияланган бардык каттарды кабыл алуучу кирүү кутусун колдонуу.</string>
     <string name="forwarded_email_description">Сырткы кайра жөнөтүү кызматы менен электрондук почтанын псевдонимирин түзүү.</string>
     <string name="accessibility_service_disclosure">Жеткиликтүүлүк Кызматынын Ачыкка Чыгаруусу</string>
-    <string name="accessibility_disclosure_text">Byteward колдонмолордон жана веб-сайттардан кирүү талааларын издөө үчүн Жеткиликтүүлүк Кызматын колдонот, андан кийин колдонмо же сайт үчүн дал келүү табылганда колдонуучу аты жана сырсөз киргизүү үчүн тийиштүү талаа IDлерин аныктайт. Биз кызмат тарабынан бизге берилген эч кандай маалыматты сактабайбыз, ошондой эле маалыматтардын тексттик киргизүүсүнөн тышкары экрандагы эч кандай элементтерди көзөмөлдөөгө аракет кылбайбыз.</string>
-    <string name="accessibility_disclosure_start_up_text_1">Byteward жеткиликтүүлүккө негизделген автолуктоону сунуштай электе бул эскертүү талап кылынат.</string>
-    <string name="accessibility_disclosure_start_up_text_2">Byteward кирүү талааларын аныктоо үчүн Androidдин Жеткиликтүүлүк Кызматын колдонгон милдеттүү эмес автолуктоо ыкмасын сунуштайт. Эгерде сиз аны иштетсеңиз, Byteward тийиштүү талааларды аныктап, дал келүү табылганда маалыматтарыңызды толтурат.</string>
+    <string name="accessibility_disclosure_text">Bitwarden колдонмолордон жана веб-сайттардан кирүү талааларын издөө үчүн Жеткиликтүүлүк Кызматын колдонот, андан кийин колдонмо же сайт үчүн дал келүү табылганда колдонуучу аты жана сырсөз киргизүү үчүн тийиштүү талаа IDлерин аныктайт. Биз кызмат тарабынан бизге берилген эч кандай маалыматты сактабайбыз, ошондой эле маалыматтардын тексттик киргизүүсүнөн тышкары экрандагы эч кандай элементтерди көзөмөлдөөгө аракет кылбайбыз.</string>
+    <string name="accessibility_disclosure_start_up_text_1">Bitwarden жеткиликтүүлүккө негизделген автолуктоону сунуштай электе бул эскертүү талап кылынат.</string>
+    <string name="accessibility_disclosure_start_up_text_2">Bitwarden кирүү талааларын аныктоо үчүн Androidдин Жеткиликтүүлүк Кызматын колдонгон милдеттүү эмес автолуктоо ыкмасын сунуштайт. Эгерде сиз аны иштетсеңиз, Bitwarden тийиштүү талааларды аныктап, дал келүү табылганда маалыматтарыңызды толтурат.</string>
     <string name="accessibility_disclosure_start_up_text_3">Биз Жеткиликтүүлүк Кызматын колдонуп жатканыңызда экранда эмне болуп жатканы тууралуу эч кандай маалыматты сактабайбыз жана маалыматтарды киргизүүдөн тышкары экрандагы эч кандай элементтерди көзөмөлдөбөйбүз.</string>
     <string name="i_understand">Түшүндүм</string>
     <string name="accept">Кабыл алуу</string>
@@ -720,8 +720,8 @@ Do you want to switch to this account?</string>
     <string name="session_timeout">Сессиянын бүтүү убактысы</string>
     <string name="session_timeout_action">Сессия бүткөндөгү аракет</string>
     <string name="account_fingerprint_phrase">Аккаунттун манжа изи фразасы</string>
-    <string name="passkey_management_explanation_long">Жаңы өтүү ачкычтарын сактоо жана купчулуңузда сакталган өтүү ачкычтары менен кирүү үчүн Bytewardди колдонуңуз.</string>
-    <string name="autofill_services_explanation_long">Bytewardге түзмөгүңүздөгү башка колдонмолорго кирүү үчүн сакталган кирүү маалыматтарыңызды колдонууга уруксат бериңиз.</string>
+    <string name="passkey_management_explanation_long">Жаңы өтүү ачкычтарын сактоо жана купчулуңузда сакталган өтүү ачкычтары менен кирүү үчүн Bitwardenди колдонуңуз.</string>
+    <string name="autofill_services_explanation_long">Bitwardenге түзмөгүңүздөгү башка колдонмолорго кирүү үчүн сакталган кирүү маалыматтарыңызды колдонууга уруксат бериңиз.</string>
     <string name="use_inline_autofill_explanation_long">Түзмөгүңүздөгү башка колдонмолорго киргениңизде автолуктоо сунуштарыңыз кантип пайда болорун тандаңыз.</string>
     <string name="additional_options">Кошумча параметрлер</string>
     <string name="continue_to_web_app">Веб колдонмого улантуу?</string>
@@ -744,8 +744,8 @@ Do you want to switch to this account?</string>
     <string name="duo_two_step_login_is_required_for_your_account">Сиздин аккаунтуңуз үчүн Duo эки кадамдуу кирүү талап кылынат.</string>
     <string name="follow_the_steps_from_duo_to_finish_logging_in">Кирүүнү аяктоо үчүн Duo кадамдарын аткарыңыз.</string>
     <string name="launch_duo">Duo ишке киргизүү</string>
-    <string name="your_passkey_will_be_saved_to_your_bitwarden_vault_for_x">Сиздин өтүү ачкычыңыз %1$s үчүн Byteward купчулуңузга сакталат</string>
-    <string name="your_password_will_be_saved_to_your_bitwarden_vault_for_x">Сиздин сырсөзүңүз %1$s үчүн Byteward купчулуңузга сакталат</string>
+    <string name="your_passkey_will_be_saved_to_your_bitwarden_vault_for_x">Сиздин өтүү ачкычыңыз %1$s үчүн Bitwarden купчулуңузга сакталат</string>
+    <string name="your_password_will_be_saved_to_your_bitwarden_vault_for_x">Сиздин сырсөзүңүз %1$s үчүн Bitwarden купчулуңузга сакталат</string>
     <string name="passkeys_not_supported_for_this_app">Бул колдонмо үчүн өтүү ачкычтары колдоого алынбайт</string>
     <string name="passkey_operation_failed_because_browser_is_not_privileged">Өтүү ачкычы операциясы ишке ашпай калды, анткени браузер артыкчылыктуу эмес</string>
     <string name="passkey_operation_failed_because_browser_signature_does_not_match">Өтүү ачкычы операциясы ишке ашпай калды, анткени браузердин кол тамгасы дал келбейт</string>
@@ -773,7 +773,7 @@ Do you want to switch to this account?</string>
     <string name="email_verified">Электрондук почта текшерилди</string>
     <string name="get_emails_from_bitwarden_for_announcements_advices_and_research_opportunities_unsubscribe_any_time">Bitwardenден жарыялар, кеңештер жана изилдөө мүмкүнчүлүктөрү үчүн электрондук каттарды алыңыз. Каалаган убакта <annotation link="unsubscribe">Жазылуудан баш тартуу</annotation>.</string>
     <string name="security_prioritized">Коопсуздук, биринчи орунда</string>
-    <string name="welcome_message_1">Кирүүлөрдү, карталарды жана иденттүүлүктөрдү коопсуз купчулуңузга сактаңыз. Byteward сиз үчүн маанилүү нерселерди коргоо үчүн нөлдүк билимди, учтан-учка шифрлөөнү колдонот.</string>
+    <string name="welcome_message_1">Кирүүлөрдү, карталарды жана иденттүүлүктөрдү коопсуз купчулуңузга сактаңыз. Bitwarden сиз үчүн маанилүү нерселерди коргоо үчүн нөлдүк билимди, учтан-учка шифрлөөнү колдонот.</string>
     <string name="welcome_message_2">Бир да тамга терип кирбестен эсептериңизге кирүү үчүн биометриялык ачууну жана автолуктоону орнотуңуз.</string>
     <string name="quick_and_easy_login">Тез жана оңой кирүү</string>
     <string name="level_up_your_logins">Кирүүлөрүңүздү жакшыртыңыз</string>
@@ -826,16 +826,16 @@ Do you want to switch to this account?</string>
     <string name="turn_on_autofill">Автолуктоону күйгүзүү</string>
     <string name="autofill_setup">Автолуктоо орнотуу</string>
     <string name="turn_on_browser_autofill_integration">Браузер автолуктоо интеграциясын күйгүзүү</string>
-    <string name="browser_requires_special_permissions_for_bitwarden_singular">Сиз Bytewardдин сырсөздөрүңүздү автолуктоосу үчүн атайын уруксаттарды талап кылган браузерди колдонуп жатасыз.</string>
-    <string name="browser_requires_special_permissions_for_bitwarden_plural">Сиз Bytewardдин сырсөздөрүңүздү автолуктоосу үчүн атайын уруксаттарды талап кылган браузерлерди колдонуп жатасыз.</string>
-    <string name="youre_using_a_browser_that_requires_special_permissions_singular">Сиз Bytewardдин сырсөздөрүңүздү автолуктоосу үчүн атайын уруксаттарды талап кылган браузерди колдонуп жатасыз. Төмөндө каалаган автолуктоо интеграцияңызды иштетиңиз.</string>
-    <string name="youre_using_a_browser_that_requires_special_permissions_plural">Сиз Bytewardдин сырсөздөрүңүздү автолуктоосу үчүн атайын уруксаттарды талап кылган браузерлерди колдонуп жатасыз. Улантуу үчүн бардык орнотулган браузерлериңиз үчүн автолуктоону иштетиңиз.</string>
+    <string name="browser_requires_special_permissions_for_bitwarden_singular">Сиз Bitwardenдин сырсөздөрүңүздү автолуктоосу үчүн атайын уруксаттарды талап кылган браузерди колдонуп жатасыз.</string>
+    <string name="browser_requires_special_permissions_for_bitwarden_plural">Сиз Bitwardenдин сырсөздөрүңүздү автолуктоосу үчүн атайын уруксаттарды талап кылган браузерлерди колдонуп жатасыз.</string>
+    <string name="youre_using_a_browser_that_requires_special_permissions_singular">Сиз Bitwardenдин сырсөздөрүңүздү автолуктоосу үчүн атайын уруксаттарды талап кылган браузерди колдонуп жатасыз. Төмөндө каалаган автолуктоо интеграцияңызды иштетиңиз.</string>
+    <string name="youre_using_a_browser_that_requires_special_permissions_plural">Сиз Bitwardenдин сырсөздөрүңүздү автолуктоосу үчүн атайын уруксаттарды талап кылган браузерлерди колдонуп жатасыз. Улантуу үчүн бардык орнотулган браузерлериңиз үчүн автолуктоону иштетиңиз.</string>
     <string name="use_autofill_to_log_into_your_accounts">Бир басуу менен эсептериңизге кирүү үчүн автолуктоону колдонуңуз.</string>
     <string name="turn_on_later">Кийин күйгүзүү</string>
     <string name="turn_on_autofill_later">Автолуктоону кийин күйгүзүү?</string>
     <string name="turn_on_browser_autofill_integration_later">Браузер автолуктоо интеграциясын кийин күйгүзүү?</string>
     <string name="return_to_complete_this_step_anytime_in_settings">Сиз бул кадамды аяктоо үчүн каалаган убакта Орнотууларга кайта аласыз.</string>
-    <string name="what_bitwarden_has_to_offer">Эми сиз Byteward сунуш кылган бардык нерсени изилдей аласыз жана сырсөздөрүңүздү коопсуз башкара баштай аласыз.</string>
+    <string name="what_bitwarden_has_to_offer">Эми сиз Bitwarden сунуш кылган бардык нерсени изилдей аласыз жана сырсөздөрүңүздү коопсуз башкара баштай аласыз.</string>
     <string name="youre_all_set">Баары даяр!</string>
     <string name="error_connecting_with_the_duo_service_use_a_different_two_step_login_method_or_contact_duo_for_assistance">Duo кызматы менен байланышууда ката. Башка эки кадамдуу кирүү ыкмасын колдонуңуз же жардам алуу үчүн Duo менен байланышыңыз.</string>
     <string name="master_password_hint_not_specified">Башкы сырсөз боюнча кеңеш</string>
@@ -967,7 +967,7 @@ Do you want to switch to this account?</string>
     <string name="unsupported_certificate_type">Колдоого алынбаган сертификат түрү</string>
     <string name="certificate_password_incorrect">Сертификаттын сырсөзү туура эмес</string>
     <string name="invalid_certificate_chain">Сертификат чынжыры туура эмес</string>
-    <string name="system_certificates_are_not_as_secure_as_importing_certificates_to_bitwarden">Система сертификатын колдонуу сертификатты Byteward менен сактоого караганда коопсуз эмес. Улантуу, эгерде бирөө мурун эле орнотулган болсо, жеткиликтүү системалык сертификаттардын тизмесин көрсөтөт.</string>
+    <string name="system_certificates_are_not_as_secure_as_importing_certificates_to_bitwarden">Система сертификатын колдонуу сертификатты Bitwarden менен сактоого караганда коопсуз эмес. Улантуу, эгерде бирөө мурун эле орнотулган болсо, жеткиликтүү системалык сертификаттардын тизмесин көрсөтөт.</string>
     <string name="link">Шилтеме</string>
     <string name="passkey_operation_failed_because_host_url_is_not_present_in_request">Өтүү ачкычы операциясы ишке ашпай калды, анткени хост URL дареги сурамда жок.</string>
     <string name="passkey_operation_failed_because_app_signature_is_invalid">Өтүү ачкычы операциясы ишке ашпай калды, анткени колдонмонун кол тамгасы туура эмес.</string>
@@ -1044,11 +1044,11 @@ Do you want to switch to this account?</string>
     <string name="missing_send_resync_your_vault">Send жок, сейфти кайра синхрондоштуруңуз</string>
     <string name="use_dynamic_colors">Динамикалык түстөрдү колдонуу</string>
     <string name="use_dynamic_colors_question">Динамикалык түстөрдү колдонуу?</string>
-    <string name="dynamic_colors_may_not_adhere_to_accessibility_guidelines">Бул түс схемасы учурдагы обоиңузга жараша Bytewardге система түстөрүн автоматтык түрдө колдонот. Бул түстөр бардык жеткиликтүүлүк эрежелерине жооп бере бербеши мүмкүн.</string>
+    <string name="dynamic_colors_may_not_adhere_to_accessibility_guidelines">Бул түс схемасы учурдагы обоиңузга жараша Bitwardenге система түстөрүн автоматтык түрдө колдонот. Бул түстөр бардык жеткиликтүүлүк эрежелерине жооп бере бербеши мүмкүн.</string>
     <string name="passkey_operation_failed_because_browser_x_is_not_trusted">Браузер (%1$s) таанылбагандыктан, өтмө ачкыч операциясы ийгиликсиз болду. %1$s ти жергиликтүү ишенимдүү тиркемелердин тизмесине кошуу үчүн “Ишенүү” баскычын тандаңыз.</string>
     <string name="passkey_operation_failed_because_the_browser_is_not_trusted">Браузер ишенимдүү эмес болгондуктан, өтмө ачкыч операциясы ийгиликсиз болду.</string>
     <string name="trust">Ишенүү</string>
-    <string name="trusted_by_you_learn_more">Булар Byteward дөөлөтү боюнча ишенбеген, бирок сиз өтмө ачкыч операцияларын аткарууга ишенген тиркемелер же браузерлер.</string>
+    <string name="trusted_by_you_learn_more">Булар Bitwarden дөөлөтү боюнча ишенбеген, бирок сиз өтмө ачкыч операцияларын аткарууга ишенген тиркемелер же браузерлер.</string>
     <string name="trusted_by_community_learn_more">Булар Google Play Storeго кирбеген, бирок Bitwarden коомчулук мүчөлөрү аларды колдонуп, коопсуз деп билдиргенден кийин өтмө ачкыч операцияларын аткарууга ишенген тиркемелер.</string>
     <string name="trusted_by_google_learn_more">Булар Google коопсуз деп эсептеген жана Google Play Storeдо жеткиликтүү тиркемелер.</string>
     <string name="trusted_by_you">Сиз ишенгендер</string>
@@ -1190,7 +1190,7 @@ Do you want to switch to this account?</string>
         <item quantity="other">%1$d буюм сейфиңизге импорттолду.</item>
     </plurals>
     <string name="enable_browser_autofill_to_keep_filling_passwords">Сырсөздөрдү толтурууну улантуу үчүн браузердин Автотолтуруусун күйгүзүңүз</string>
-    <string name="your_browser_recently_updated_how_autofill_works_singular">Сиздин браузериңиз жакында жаңыртылды, бул Byteward автотолтуруусун өчүрүп койду. Byteward менен сырсөздөрүңүздү толтурууну улантуу үчүн, автотолтуруу жөндөөлөрүндө браузердин автотолтуруусун күйгүзүңүз.</string>
+    <string name="your_browser_recently_updated_how_autofill_works_singular">Сиздин браузериңиз жакында жаңыртылды, бул Bitwarden автотолтуруусун өчүрүп койду. Bitwarden менен сырсөздөрүңүздү толтурууну улантуу үчүн, автотолтуруу жөндөөлөрүндө браузердин автотолтуруусун күйгүзүңүз.</string>
     <string name="not_now">Азыр эмес</string>
     <string name="import_from_bitwarden">Bitwardenден импорттоо</string>
     <string name="select_account">Каттоо эсебин тандаңыз</string>
@@ -1290,7 +1290,7 @@ Do you want to switch to this account?</string>
     <string name="trusted">Ишенимдүү</string>
     <string name="preview_not_available_for_files">%1$s файлдары үчүн алдын ала көрүү жеткиликтүү эмес. Аны көрүү үчүн дагы эле жүктөп алсаңыз болот.</string>
     <string name="this_file_is_too_large_to_preview">Бул файл алдын ала көрүү үчүн өтө чоң. Аны көрүү үчүн дагы эле жүктөп алсаңыз болот.</string>
-    <string name="bitwarden_could_not_decrypt_this_file_so_the_preview_cannot_be_displayed">Byteward бул файлды чечүү мүмкүн болбой калды, ошондуктан алдын ала көрүүнү көрсөтүү мүмкүн эмес.</string>
+    <string name="bitwarden_could_not_decrypt_this_file_so_the_preview_cannot_be_displayed">Bitwarden бул файлды чечүү мүмкүн болбой калды, ошондуктан алдын ала көрүүнү көрсөтүү мүмкүн эмес.</string>
     <string name="preview_unavailable_for_this_file">Бул файл үчүн алдын ала көрүү жеткиликтүү эмес. Аны көрүү үчүн дагы эле жүктөп алсаңыз болот.</string>
     <string name="preview_unavailable">Алдын ала көрүү жеткиликтүү эмес</string>
     <string name="download_attachment">Тиркемени жүктөп алуу</string>
@@ -1423,8 +1423,8 @@ Do you want to switch to this account?</string>
     <string name="local_network_access_required">Жергиликтүү тармакка кирүү талап кылынат</string>
     <string name="ask_again_later">Кийинчерээк сура</string>
     <string name="enable_local_network_access">Жергиликтүү тармакка кирүүнү күйгүзүү</string>
-    <string name="bitwarden_needs_local_network_access_to_sync_with_your_server">Byteward сервериңиз менен синхрондоштуруу үчүн жергиликтүү тармакка кирүүнү талап кылат. Бул уруксатсыз колдонмо туташа албайт.</string>
-    <string name="without_this_permission_bitwarden_wont_be_able_to_sync_with_your_server">Бул уруксатсыз Byteward сервериңизге туташа жана синхрондошо албайт. Сиз муну түзмөк жөндөөлөрүңүздө күйгүзө аласыз.</string>
+    <string name="bitwarden_needs_local_network_access_to_sync_with_your_server">Bitwarden сервериңиз менен синхрондоштуруу үчүн жергиликтүү тармакка кирүүнү талап кылат. Бул уруксатсыз колдонмо туташа албайт.</string>
+    <string name="without_this_permission_bitwarden_wont_be_able_to_sync_with_your_server">Бул уруксатсыз Bitwarden сервериңизге туташа жана синхрондошо албайт. Сиз муну түзмөк жөндөөлөрүңүздө күйгүзө аласыз.</string>
     <string name="your_request_was_interrupted_because_the_app_needs_local_network_access">Колдонмо жергиликтүү тармакка кирүүнү талап кылгандыктан, суранычыңыз үзгүлтүккө учурады. Сиз муну түзмөк жөндөөлөрүңүздө күйгүзө аласыз.</string>
     <string name="continue_to_stripe">Stripeге улантыңызбы?</string>
     <string name="youll_be_taken_to_stripe_to_manage_your_subscription_cancellation">Жазылууңуздун жокко чыгарылышын башкаруу үчүн Stripeге өтөсүз.</string>
@@ -1446,7 +1446,7 @@ Do you want to switch to this account?</string>
     <string name="use_this_username">Use this username</string>
     <string name="create_login">Create login</string>
     <string name="keep_unlocking_with_biometrics">Keep unlocking with biometrics</string>
-    <string name="weve_made_a_security_update">We’ve made a security update. Confirm your biometrics again to keep using them to unlock Byteward.</string>
+    <string name="weve_made_a_security_update">We’ve made a security update. Confirm your biometrics again to keep using them to unlock Bitwarden.</string>
     <string name="turn_off">Turn off</string>
     <string name="turn_off_biometric_question">Turn off biometrics?</string>
     <string name="unlocking_will_require_your_master_password">Unlocking will require your master password. You can turn biometrics back on in Settings.</string>

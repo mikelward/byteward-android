@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Byteward overrides for strings defined in the :ui module, which keeps
+    upstream Bitwarden's text. App resources take precedence over library
+    resources when they are merged, so the app shows these versions while the
+    :ui files stay identical to upstream (and the Authenticator app, which also
+    uses :ui, keeps Bitwarden's text).
+
+    Each entry renames Bitwarden to Byteward where the password manager refers
+    to itself. Text about Bitwarden's service is not overridden.
+-->
+<resources>
+    <string name="set_bitwarden_as_passkey_manager_description">Aseta Byteward laitteesi asetuksista sen oletusarvoiseksi pääsyavainratkaisuksi.</string>
+    <string name="bitwarden_autofill_service">Bytewardin automaattitäytön palvelu</string>
+    <string name="bitwarden_autofill_service_alert2">Uusien kirjautumistietojen lisääminen on kötevintä Bytewardin automaattitäytön palvelun avulla. Asetuksista löydät lisätietoja palvelusta.</string>
+    <string name="autofill_service_description">Bytewardin automaattitäytön palvelu käyttää Android Autofill Framework -rajapintaa kirjautumistietojen täyttöön laitteen muissa sovelluksissa.</string>
+    <string name="set_pin_description">Aseta PIN-koodi Bytewardin avaukselle. PIN-asetus tyhjentyy, jos kirjaudut kokonaan ulos sovelluksesta.</string>
+    <string name="default_uri_match_detection_description">URI-osoitteen vastaavuuden tunnistus ohjaa, miten Byteward tunnistaa automaattisen täytön ehdotukset.</string>
+    <string name="autofill_tile_accessibility_required">Ota “Automaattisen täytön helppokäyttöpalvelu” käyttöön Bytewardin asetuksista käyttääksesi automaattisen täytön ruutua.</string>
+    <string name="accessibility_disclosure_text">Byteward käyttää esteettömyyspalvelua kirjautumiskenttien etsintään sovelluksista ja verkkosivustoilta. Löydetyille kentille luodaan asianmukaiset tunnisteet tunnusten ja salasanojen syöttöön sopivan sovelluksen tai sivuston löytyessä. Mitään palvelun paljastamia tietoja ei tallenneta, eikä mitään näytöllä esitettäviä kohteita pyritä hallitsemaan kirjautumistietojen tekstinsyöttöä lukuun ottamatta.</string>
+    <string name="accessibility_disclosure_start_up_text_1">Tämä ilmoitus vaaditaan, ennen kuin Byteward voi tarjota helppokäyttöön perustuvaa automaattista täyttöä.</string>
+    <string name="accessibility_disclosure_start_up_text_2">Byteward tarjoaa valinnaisen automaattisen täytön menetelmän, joka käyttää Androidin helppokäyttöpalvelua kirjautumiskenttien tunnistamiseen. Jos otat sen käyttöön, Byteward tunnistaa sopivat kentät ja täyttää tunnistetietosi, kun vastaavuus löytyy.</string>
+    <string name="passkey_management_explanation_long">Käytä Bytewardia uusien pääsyavainten tallennukseen ja kirjaudu palveluihin holviisi aiemmin tallennetuilla avaimilla.</string>
+    <string name="your_passkey_will_be_saved_to_your_bitwarden_vault_for_x">Pääsyavaimesi tallennetaan Byteward-holvisi kohteeseen %1$s</string>
+    <string name="your_password_will_be_saved_to_your_bitwarden_vault_for_x">Salasanasi tallennetaan Byteward-holviisi kohteelle %1$s</string>
+    <string name="welcome_message_1">Tallenna kirjautumistiedot, kortit and henkilöllisyydet suojattuun holviisi. Byteward suojaa tärkeät tietosi nollatietoisella päästä pähän -salauksella.</string>
+    <string name="browser_requires_special_permissions_for_bitwarden_singular">Käytät selainta, joka vaatii erityislupia, jotta Byteward voi täyttää salasanasi automaattisesti.</string>
+    <string name="browser_requires_special_permissions_for_bitwarden_plural">Käytät selaimia, jotka vaativat erityislupia, jotta Byteward voi täyttää salasanasi automaattisesti.</string>
+    <string name="youre_using_a_browser_that_requires_special_permissions_singular">Käytät selainta, joka vaatii erityislupia, jotta Byteward voi täyttää salasanasi automaattisesti. Ota haluamasi automaattisen täytön integraatio käyttöön alla.</string>
+    <string name="youre_using_a_browser_that_requires_special_permissions_plural">Käytät selaimia, jotka vaativat erityislupia, jotta Byteward voi täyttää salasanasi automaattisesti. Ota automaattinen täyttö käyttöön kaikille asennetuille selaimille jatkaaksesi.</string>
+    <string name="what_bitwarden_has_to_offer">Nyt voit kirjautua sovelluksiin ja verkkosivustoille tallennetuilla salasanoillasi, ja olet vapaa tutustumaan Bytewardin muihin ominaisuuksiin.</string>
+    <string name="system_certificates_are_not_as_secure_as_importing_certificates_to_bitwarden">Järjestelmävarmenteen käyttö on vähemmän turvallista kuin varmenteen tallentaminen Bytewardiin. Jatkamalla näytetään luettelo käytettävissä olevista järjestelmävarmenteista, jos sellainen on jo asennettu.</string>
+    <string name="dynamic_colors_may_not_adhere_to_accessibility_guidelines">Tämä väriteema soveltaa automaattisesti järjestelmän värejä Bytewardiin nykyisen taustakuvasi perusteella. Nämä värit eivät välttämättä täytä kaikkia helppokäyttöohjeita.</string>
+    <string name="trusted_by_you_learn_more">Nämä ovat sovelluksia tai selaimia, joihin Byteward ei luota oletuksena, mutta joihin sinä luotat pääsyavainten toimintojen suorittamisessa.</string>
+    <string name="your_browser_recently_updated_how_autofill_works_singular">Selaimesi on päivittynyt hiljattain, mikä on poistanut Bytewardin automaattisen täytön käytöstä. Jatkaaksesi salasanojesi täyttämistä Bytewardilla, ota selaimen automaattinen täyttö käyttöön automaattisen täytön asetuksista.</string>
+    <string name="bitwarden_could_not_decrypt_this_file_so_the_preview_cannot_be_displayed">Byteward ei pystynyt purkamaan tämän tiedoston salausta, joten esikatselua ei voida näyttää.</string>
+    <string name="bitwarden_needs_local_network_access_to_sync_with_your_server">Byteward tarvitsee paikallisverkon käytön synkronoidakseen palvelimesi kanssa. Ilman tätä lupaa sovellus ei voi muodostaa yhteyttä.</string>
+    <string name="without_this_permission_bitwarden_wont_be_able_to_sync_with_your_server">Ilman tätä lupaa Byteward ei voi muodostaa yhteyttä ja synkronoida palvelimesi kanssa. Voit ottaa tämän käyttöön laitteesi asetuksista.</string>
+    <string name="weve_made_a_security_update">We’ve made a security update. Confirm your biometrics again to keep using them to unlock Byteward.</string>
+</resources>

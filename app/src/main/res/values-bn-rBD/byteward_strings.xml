@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Byteward overrides for strings defined in the :ui module, which keeps
+    upstream Bitwarden's text. App resources take precedence over library
+    resources when they are merged, so the app shows these versions while the
+    :ui files stay identical to upstream (and the Authenticator app, which also
+    uses :ui, keeps Bitwarden's text).
+
+    Each entry renames Bitwarden to Byteward where the password manager refers
+    to itself. Text about Bitwarden's service is not overridden.
+-->
+<resources>
+    <string name="bitwarden_autofill_service">Byteward অটোফিল পরিষেবা</string>
+    <string name="bitwarden_autofill_service_alert2">আপনার ভল্টে নতুন লগইন যোগ করার সবচেয়ে সহজ উপায় হল Byteward অটোফিল পরিষেবা থেকে। \"সেটিংস\" স্ক্রিনে নেভিগেট করে Byteward অটোফিল পরিষেবা ব্যবহার সম্পর্কে আরও জানুন।</string>
+    <string name="set_pin_description">Byteward আনলক করার জন্য আপনার পিন কোডটি সেট করুন। আপনি যদি অ্যাপ্লিকেশনটি থেকে পুরোপুরি লগ আউট করেন তবে আপনার পিন সেটিংস রিসেট করা হবে।</string>
+    <string name="default_uri_match_detection_description">URI ম্যাচ সনাক্তকরণ নিয়ন্ত্রণ করে কিভাবে Byteward অটোফিল পরামর্শ চিহ্নিত করে।</string>
+    <string name="autofill_tile_accessibility_required">অটোফিল টাইল ব্যবহার করতে অনুগ্রহ করে Byteward সেটিংস থেকে \"অটোফিল অ্যাক্সেসিবিলিটি সার্ভিস\" চালু করুন।</string>
+    <string name="accessibility_disclosure_text">Byteward অ্যাপ এবং ওয়েবসাইটে লগইন ফিল্ড অনুসন্ধান করতে অ্যাক্সেসিবিলিটি সার্ভিস ব্যবহার করে, তারপর অ্যাপ বা সাইটের জন্য একটি মিল পাওয়া গেলে একটি ব্যবহারকারীর নাম এবং পাসওয়ার্ড প্রবেশের জন্য উপযুক্ত ফিল্ড আইডি প্রতিষ্ঠা করে। আমরা পরিষেবা দ্বারা আমাদের কাছে উপস্থাপিত কোনো তথ্য সংরক্ষণ করি না, এবং আমরা শংসাপত্রের পাঠ্য প্রবেশের বাইরে কোনো অন-স্ক্রিন উপাদান নিয়ন্ত্রণ করার কোনো প্রচেষ্টা করি না।</string>
+    <string name="accessibility_disclosure_start_up_text_1">Byteward অ্যাক্সেসিবিলিটি-ভিত্তিক অটোফিল অফার করার আগে এই নোটিশটি প্রয়োজনীয়।</string>
+    <string name="accessibility_disclosure_start_up_text_2">Byteward একটি ঐচ্ছিক অটোফিল পদ্ধতি অফার করে যা লগইন ফিল্ড সনাক্ত করতে Android-এর অ্যাক্সেসিবিলিটি সার্ভিস ব্যবহার করে। আপনি যদি এটি সক্ষম করেন, Byteward উপযুক্ত ফিল্ডগুলি চিহ্নিত করবে এবং একটি মিল পাওয়া গেলে আপনার শংসাপত্রগুলি পূরণ করবে।</string>
+    <string name="passkey_management_explanation_long">নতুন পাসকী সংরক্ষণ করতে এবং আপনার ভল্টে সংরক্ষিত পাসকী দিয়ে লগ ইন করতে Byteward ব্যবহার করুন।</string>
+    <string name="autofill_services_explanation_long">আপনার ডিভাইসের অন্যান্য অ্যাপে সাইন ইন করতে Byteward-কে আপনার সংরক্ষিত লগইন তথ্য ব্যবহার করার অনুমতি দিন।</string>
+    <string name="your_passkey_will_be_saved_to_your_bitwarden_vault_for_x">আপনার পাসকী %1$s এর জন্য আপনার Byteward ভল্টে সংরক্ষণ করা হবে</string>
+    <string name="your_password_will_be_saved_to_your_bitwarden_vault_for_x">আপনার পাসওয়ার্ড %1$s এর জন্য আপনার Byteward ভল্টে সংরক্ষণ করা হবে</string>
+    <string name="welcome_message_1">লগইন, কার্ড এবং পরিচয় আপনার সুরক্ষিত ভল্টে সংরক্ষণ করুন। Byteward আপনার কাছে গুরুত্বপূর্ণ বিষয়গুলি সুরক্ষিত করতে জিরো-নলেজ, এন্ড-টু-এন্ড এনক্রিপশন ব্যবহার করে।</string>
+    <string name="browser_requires_special_permissions_for_bitwarden_singular">আপনি এমন একটি ব্রাউজার ব্যবহার করছেন যার জন্য Byteward-এর আপনার পাসওয়ার্ড অটোফিল করতে বিশেষ অনুমতির প্রয়োজন।</string>
+    <string name="browser_requires_special_permissions_for_bitwarden_plural">আপনি এমন ব্রাউজার ব্যবহার করছেন যেগুলির জন্য Byteward-এর আপনার পাসওয়ার্ড অটোফিল করতে বিশেষ অনুমতির প্রয়োজন।</string>
+    <string name="youre_using_a_browser_that_requires_special_permissions_singular">আপনি এমন একটি ব্রাউজার ব্যবহার করছেন যার জন্য Byteward-এর আপনার পাসওয়ার্ড অটোফিল করতে বিশেষ অনুমতির প্রয়োজন। নীচে আপনার পছন্দের অটোফিল ইন্টিগ্রেশন সক্ষম করুন।</string>
+    <string name="youre_using_a_browser_that_requires_special_permissions_plural">আপনি এমন ব্রাউজার ব্যবহার করছেন যেগুলির জন্য Byteward-এর আপনার পাসওয়ার্ড অটোফিল করতে বিশেষ অনুমতির প্রয়োজন। চালিয়ে যেতে আপনার সমস্ত ইনস্টল করা ব্রাউজারের জন্য অটোফিল সক্ষম করুন।</string>
+    <string name="what_bitwarden_has_to_offer">আপনি এখন Byteward-এর সমস্ত কিছু অন্বেষণ করতে পারেন এবং নিরাপদে আপনার পাসওয়ার্ডগুলি পরিচালনা শুরু করতে পারেন।</string>
+    <string name="system_certificates_are_not_as_secure_as_importing_certificates_to_bitwarden">Byteward-এর সাথে শংসাপত্র সংরক্ষণ করার তুলনায় একটি সিস্টেম শংসাপত্র ব্যবহার করা কম সুরক্ষিত। চালিয়ে গেলে ইতিমধ্যে ইনস্টল করা থাকলে উপলব্ধ সিস্টেম শংসাপত্রগুলির একটি তালিকা প্রদর্শন করবে।</string>
+    <string name="trusted_by_you_learn_more">এগুলি এমন অ্যাপ্লিকেশন বা ব্রাউজার যা Byteward ডিফল্টভাবে বিশ্বাস করে না, কিন্তু আপনি পাসকী অপারেশন করার জন্য বিশ্বাস করেন।</string>
+    <string name="your_browser_recently_updated_how_autofill_works_singular">আপনার ব্রাউজার সম্প্রতি আপডেট হয়েছে, যা Byteward অটোফিল নিষ্ক্রিয় করেছে। Byteward দিয়ে আপনার পাসওয়ার্ড পূরণ চালিয়ে যেতে, অটোফিল সেটিংসে ব্রাউজার অটোফিল সক্ষম করুন।</string>
+    <string name="bitwarden_could_not_decrypt_this_file_so_the_preview_cannot_be_displayed">Byteward এই ফাইলটি ডিক্রিপ্ট করতে পারেনি, তাই পূর্বরূপ প্রদর্শন করা যাবে না।</string>
+    <string name="bitwarden_needs_local_network_access_to_sync_with_your_server">Byteward-এর আপনার সার্ভারের সাথে সিঙ্ক করতে স্থানীয় নেটওয়ার্ক অ্যাক্সেস প্রয়োজন। এই অনুমতি ছাড়া, অ্যাপটি সংযোগ করতে পারবে না।</string>
+    <string name="without_this_permission_bitwarden_wont_be_able_to_sync_with_your_server">এই অনুমতি ছাড়া, Byteward সংযোগ করতে এবং আপনার সার্ভারের সাথে সিঙ্ক করতে পারবে না। আপনি আপনার ডিভাইস সেটিংসে এটি সক্ষম করতে পারেন।</string>
+    <string name="weve_made_a_security_update">We’ve made a security update. Confirm your biometrics again to keep using them to unlock Byteward.</string>
+</resources>

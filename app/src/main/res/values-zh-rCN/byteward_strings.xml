@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Byteward overrides for strings defined in the :ui module, which keeps
+    upstream Bitwarden's text. App resources take precedence over library
+    resources when they are merged, so the app shows these versions while the
+    :ui files stay identical to upstream (and the Authenticator app, which also
+    uses :ui, keeps Bitwarden's text).
+
+    Each entry renames Bitwarden to Byteward where the password manager refers
+    to itself. Text about Bitwarden's service is not overridden.
+-->
+<resources>
+    <string name="set_bitwarden_as_passkey_manager_description">在设备的设置中将 Byteward 设置为您的通行密钥提供程序。</string>
+    <string name="bitwarden_autofill_service">Byteward 自动填充服务</string>
+    <string name="bitwarden_autofill_service_alert2">向您的密码库中添加新登录项目的最简单方法，就是通过 Byteward 自动填充服务。转到「设置」界面进一步了解 Byteward 自动填充服务的使用。</string>
+    <string name="autofill_service_description">Byteward 自动填充服务使用 Android 自动填充框架来辅助将登录信息填充到您设备上的其他 App 中。</string>
+    <string name="set_pin_description">您的 PIN 码必须至少包含 4 个字符。您的 PIN 设置将在您手动注销 Byteward App 后被重置。</string>
+    <string name="default_uri_match_detection_description">URI 匹配检测控制 Byteward 如何识别自动填充建议。</string>
+    <string name="autofill_tile_accessibility_required">请从 Byteward 设置中开启「自动填充无障碍服务」以使用自动填充磁贴。</string>
+    <string name="accessibility_disclosure_text">Byteward 使用无障碍服务在 App 和网站中搜索登录字段，当找到与 App 或网站相匹配的用户名 &amp; 密码时，建立适当的字段 ID 以输入它们。我们不会通过此服务存储提供给我们的任何信息，也不会尝试控制除凭据文本输入之外的任何屏幕元素。</string>
+    <string name="accessibility_disclosure_start_up_text_1">在 Byteward 提供基于无障碍的自动填充之前，必须先展示此声明。</string>
+    <string name="accessibility_disclosure_start_up_text_2">Byteward 提供一种可选的自动填充方式，即使用 Android 的无障碍服务来检测登录字段。启用后，当找到匹配字段时，Byteward 将识别相应的字段并填充您的凭据。</string>
+    <string name="passkey_management_explanation_long">使用 Byteward 保存新的通行密钥并使用存储在密码库中的通行密钥登录。</string>
+    <string name="autofill_services_explanation_long">允许 Byteward 使用您保存的登录信息来登录您设备上的其他 App。</string>
+    <string name="your_passkey_will_be_saved_to_your_bitwarden_vault_for_x">您的通行密钥将保存到您的 %1$s Byteward 密码库中</string>
+    <string name="your_password_will_be_saved_to_your_bitwarden_vault_for_x">您的密码将保存到您的 %1$s Byteward 密码库中</string>
+    <string name="welcome_message_1">将登录、支付卡和身份保存到您的安全密码库。Byteward 使用零知识、端到端的加密来保护您的重要信息。</string>
+    <string name="browser_requires_special_permissions_for_bitwarden_singular">您正在使用的浏览器需要特殊权限才能让 Byteward 自动填充密码。</string>
+    <string name="browser_requires_special_permissions_for_bitwarden_plural">您正在使用的浏览器需要特殊权限才能让 Byteward 自动填充密码。</string>
+    <string name="youre_using_a_browser_that_requires_special_permissions_singular">您正在使用的浏览器需要特殊权限才能让 Byteward 自动填充密码。请在下方启用您首选的自动填充集成。</string>
+    <string name="youre_using_a_browser_that_requires_special_permissions_plural">您正在使用的浏览器需要特殊权限才能让 Byteward 自动填充密码。请为所有已安装的浏览器启用自动填充功能。</string>
+    <string name="what_bitwarden_has_to_offer">您现在可以探索 Byteward 的所有功能了，并开始安全地管理您的密码。</string>
+    <string name="system_certificates_are_not_as_secure_as_importing_certificates_to_bitwarden">使用系统证书不如 Byteward 中存储的证书安全。如果已经安装了系统证书，接下来将显示可用的系统证书列表。</string>
+    <string name="dynamic_colors_may_not_adhere_to_accessibility_guidelines">此配色方案基于您当前的壁纸自动将系统颜色应用于 Byteward。这些颜色可能无法满足所有无障碍指南要求。</string>
+    <string name="trusted_by_you_learn_more">这些是 Byteward 默认不信任的应用程序或浏览器，但是您信任其执行通行密钥操作。</string>
+    <string name="your_browser_recently_updated_how_autofill_works_singular">您的浏览器最近已更新，其禁用了 Byteward 自动填充功能。要继续使用 Byteward 填充密码，请在自动填充设置中启用浏览器自动填充功能。</string>
+    <string name="bitwarden_could_not_decrypt_this_file_so_the_preview_cannot_be_displayed">Byteward 无法解密此文件，因此无法显示预览。</string>
+    <string name="bitwarden_needs_local_network_access_to_sync_with_your_server">Byteward 需要本地网络访问权限才能与您的服务器同步。没有此权限，App 将无法连接。</string>
+    <string name="without_this_permission_bitwarden_wont_be_able_to_sync_with_your_server">没有此权限，Byteward 将无法与您的服务器连接和同步。您可以在您的设备设置中启用该权限。</string>
+    <string name="weve_made_a_security_update">我们已进行了一次安全更新。请再次确认您的生物识别，以便继续使用其来解锁 Byteward。</string>
+</resources>

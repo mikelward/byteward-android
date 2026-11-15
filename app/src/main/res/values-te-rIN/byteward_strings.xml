@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Byteward overrides for strings defined in the :ui module, which keeps
+    upstream Bitwarden's text. App resources take precedence over library
+    resources when they are merged, so the app shows these versions while the
+    :ui files stay identical to upstream (and the Authenticator app, which also
+    uses :ui, keeps Bitwarden's text).
+
+    Each entry renames Bitwarden to Byteward where the password manager refers
+    to itself. Text about Bitwarden's service is not overridden.
+-->
+<resources>
+    <string name="set_bitwarden_as_passkey_manager_description">పరికర సెట్టింగ్‌లలో Bytewardను మీ పాస్‌కీ ప్రొవైడర్‌గా సెట్ చేయండి.</string>
+    <string name="bitwarden_autofill_service">Byteward ఆటోఫిల్ సేవ</string>
+    <string name="bitwarden_autofill_service_alert2">మీ ఖజానాకు కొత్త లాగిన్‌లను జోడించడానికి సులభమైన మార్గం Byteward ఆటోఫిల్ సేవ నుండి. “సెట్టింగ్‌లు” స్క్రీన్‌కు నావిగేట్ చేయడం ద్వారా Byteward ఆటోఫిల్ సేవను ఉపయోగించడం గురించి మరింత తెలుసుకోండి.</string>
+    <string name="autofill_service_description">Byteward ఆటోఫిల్ సేవ మీ పరికరంలోని ఇతర యాప్‌లలో లాగిన్ సమాచారాన్ని పూరించడంలో సహాయపడటానికి Android ఆటోఫిల్ ఫ్రేమ్‌వర్క్‌ను ఉపయోగిస్తుంది.</string>
+    <string name="set_pin_description">మీ PIN కనీసం 4 అక్షరాలు ఉండాలి. మీరు Byteward యాప్ నుండి మాన్యువల్‌గా లాగౌట్ చేస్తే మీ PIN సెట్టింగ్‌లు రీసెట్ చేయబడతాయి.</string>
+    <string name="default_uri_match_detection_description">URI మ్యాచ్ గుర్తింపు Byteward ఆటోఫిల్ సూచనలను ఎలా గుర్తిస్తుందో నియంత్రిస్తుంది.</string>
+    <string name="autofill_tile_accessibility_required">ఆటోఫిల్ టైల్ ఉపయోగించడానికి Byteward సెట్టింగ్‌ల నుండి “ఆటోఫిల్ యాక్సెసిబిలిటీ సేవ” ఆన్ చేయండి.</string>
+    <string name="accessibility_disclosure_text">Byteward యాప్‌లు మరియు వెబ్‌సైట్‌లలో లాగిన్ ఫీల్డ్‌ల కోసం శోధించడానికి యాక్సెసిబిలిటీ సేవను ఉపయోగిస్తుంది, ఆపై యాప్ లేదా సైట్ కోసం సరిపోలిక కనుగొనబడినప్పుడు వినియోగదారు పేరు &amp; పాస్వర్డ్ నమోదు చేయడానికి తగిన ఫీల్డ్ IDలను ఏర్పాటు చేస్తుంది. సేవ మాకు అందించే సమాచారాన్ని మేము నిల్వ చేయము, అలాగే ధృవీకరణ పత్రాల టెక్స్ట్ ఎంట్రీకి మించి ఏదైనా ఆన్-స్క్రీన్ అంశాలను నియంత్రించడానికి ప్రయత్నించము.</string>
+    <string name="accessibility_disclosure_start_up_text_1">Byteward యాక్సెసిబిలిటీ-ఆధారిత ఆటోఫిల్ అందించే ముందు ఈ నోటీసు అవసరం.</string>
+    <string name="accessibility_disclosure_start_up_text_2">Byteward లాగిన్ ఫీల్డ్‌లను గుర్తించడానికి Android యొక్క యాక్సెసిబిలిటీ సేవను ఉపయోగించే ఐచ్ఛిక ఆటోఫిల్ పద్ధతిని అందిస్తుంది. మీరు దీన్ని ప్రారంభిస్తే, సరిపోలిక కనుగొనబడినప్పుడు Byteward తగిన ఫీల్డ్‌లను గుర్తించి మీ ధృవీకరణ పత్రాలను పూరిస్తుంది.</string>
+    <string name="passkey_management_explanation_long">కొత్త పాస్‌కీలను భద్రపరచడానికి మరియు మీ ఖజానాలో నిల్వ చేసిన పాస్‌కీలతో లాగిన్ అవ్వడానికి Byteward ఉపయోగించండి.</string>
+    <string name="autofill_services_explanation_long">మీ పరికరంలోని ఇతర యాప్‌లలో సైన్ ఇన్ చేయడానికి మీ సేవ్ చేసిన లాగిన్ సమాచారాన్ని ఉపయోగించడానికి Bytewardను అనుమతించండి.</string>
+    <string name="your_passkey_will_be_saved_to_your_bitwarden_vault_for_x">మీ పాస్‌కీ %1$s కోసం మీ Byteward ఖజానాలో భద్రపరచబడుతుంది</string>
+    <string name="your_password_will_be_saved_to_your_bitwarden_vault_for_x">మీ పాస్వర్డ్ %1$s కోసం మీ Byteward ఖజానాలో భద్రపరచబడుతుంది</string>
+    <string name="welcome_message_1">లాగిన్‌లు, కార్డ్‌లు మరియు గుర్తింపులను మీ సురక్షిత ఖజానాలో భద్రపరచండి. Byteward మీకు ముఖ్యమైన వాటిని రక్షించడానికి జీరో-నాలెడ్జ్, ఎండ్-టు-ఎండ్ ఎన్క్రిప్షన్ ఉపయోగిస్తుంది.</string>
+    <string name="browser_requires_special_permissions_for_bitwarden_singular">మీరు Byteward మీ పాస్వర్డ్‌లను ఆటోఫిల్ చేయడానికి ప్రత్యేక అనుమతులు అవసరమయ్యే బ్రౌజర్‌ను ఉపయోగిస్తున్నారు.</string>
+    <string name="browser_requires_special_permissions_for_bitwarden_plural">మీరు Byteward మీ పాస్వర్డ్‌లను ఆటోఫిల్ చేయడానికి ప్రత్యేక అనుమతులు అవసరమయ్యే బ్రౌజర్‌లను ఉపయోగిస్తున్నారు.</string>
+    <string name="youre_using_a_browser_that_requires_special_permissions_singular">మీరు Byteward మీ పాస్వర్డ్‌లను ఆటోఫిల్ చేయడానికి ప్రత్యేక అనుమతులు అవసరమయ్యే బ్రౌజర్‌ను ఉపయోగిస్తున్నారు. క్రింద మీకు ఇష్టమైన ఆటోఫిల్ ఇంటిగ్రేషన్ ప్రారంభించండి.</string>
+    <string name="youre_using_a_browser_that_requires_special_permissions_plural">మీరు Byteward మీ పాస్వర్డ్‌లను ఆటోఫిల్ చేయడానికి ప్రత్యేక అనుమతులు అవసరమయ్యే బ్రౌజర్‌లను ఉపయోగిస్తున్నారు. కొనసాగించడానికి మీ అన్ని ఇన్‌స్టాల్ చేసిన బ్రౌజర్‌ల కోసం ఆటోఫిల్ ప్రారంభించండి.</string>
+    <string name="what_bitwarden_has_to_offer">మీరు ఇప్పుడు Byteward అందించే ప్రతిదాన్ని అన్వేషించవచ్చు మరియు మీ పాస్వర్డ్‌లను సురక్షితంగా నిర్వహించడం ప్రారంభించవచ్చు.</string>
+    <string name="system_certificates_are_not_as_secure_as_importing_certificates_to_bitwarden">సిస్టమ్ సర్టిఫికేట్ ఉపయోగించడం కంటే సర్టిఫికేట్‌ను Bytewardతో నిల్వ చేయడం మరింత సురక్షితం. ఒకటి ఇప్పటికే ఇన్‌స్టాల్ చేయబడి ఉంటే కొనసాగించడం అందుబాటులో ఉన్న సిస్టమ్ సర్టిఫికేట్‌ల జాబితాను ప్రదర్శిస్తుంది.</string>
+    <string name="dynamic_colors_may_not_adhere_to_accessibility_guidelines">ఈ కలర్ స్కీమ్ మీ ప్రస్తుత వాల్‌పేపర్ ఆధారంగా Bytewardకి సిస్టమ్ రంగులను ఆటోమేటిక్‌గా వర్తింపజేస్తుంది. ఈ రంగులు అన్ని యాక్సెసిబిలిటీ మార్గదర్శకాలను అందుకోకపోవచ్చు.</string>
+    <string name="trusted_by_you_learn_more">ఇవి Byteward డిఫాల్ట్‌గా నమ్మని, కానీ మీరు పాస్‌కీ ఆపరేషన్‌లను నిర్వహించడానికి నమ్మే అప్లికేషన్‌లు లేదా బ్రౌజర్‌లు.</string>
+    <string name="your_browser_recently_updated_how_autofill_works_singular">మీ బ్రౌజర్ ఇటీవల నవీకరించబడింది, ఇది Byteward ఆటోఫిల్‌ను నిష్క్రియం చేసింది. Bytewardతో మీ పాస్వర్డ్‌లను పూరించడం కొనసాగించడానికి, ఆటోఫిల్ సెట్టింగ్‌లలో బ్రౌజర్ ఆటోఫిల్ ప్రారంభించండి.</string>
+    <string name="bitwarden_could_not_decrypt_this_file_so_the_preview_cannot_be_displayed">Byteward ఈ ఫైల్‌ను డీక్రిప్ట్ చేయలేకపోయింది, కాబట్టి ప్రివ్యూ ప్రదర్శించబడదు.</string>
+    <string name="bitwarden_needs_local_network_access_to_sync_with_your_server">Byteward మీ సర్వర్‌తో సింక్ చేయడానికి లోకల్ నెట్‌వర్క్ ప్రాప్యత అవసరం. ఈ అనుమతి లేకుండా, యాప్ కనెక్ట్ అవ్వలేరు.</string>
+    <string name="without_this_permission_bitwarden_wont_be_able_to_sync_with_your_server">ఈ అనుమతి లేకుండా, Byteward కనెక్ట్ అవ్వలేరు మరియు మీ సర్వర్‌తో సింక్ చేయలేరు. మీరు దీన్ని మీ పరికర సెట్టింగ్‌లలో ప్రారంభించవచ్చు.</string>
+    <string name="weve_made_a_security_update">We’ve made a security update. Confirm your biometrics again to keep using them to unlock Byteward.</string>
+</resources>

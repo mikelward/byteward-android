@@ -75,9 +75,9 @@
     <string name="yes">是</string>
     <string name="account">账户</string>
     <string name="account_created_success">您的新账户已成功创建！</string>
-    <string name="set_bitwarden_as_passkey_manager_description">在设备的设置中将 Byteward 设置为您的通行密钥提供程序。</string>
+    <string name="set_bitwarden_as_passkey_manager_description">在设备的设置中将 Bitwarden 设置为您的通行密钥提供程序。</string>
     <string name="avoid_ambiguous_characters">避免易混淆的字符</string>
-    <string name="bitwarden_autofill_service">Byteward 自动填充服务</string>
+    <string name="bitwarden_autofill_service">Bitwarden 自动填充服务</string>
     <string name="change_master_password">更改主密码</string>
     <string name="close">关闭</string>
     <string name="close_app">关闭 App</string>
@@ -175,7 +175,7 @@
     <string name="no_items_for_vault">您的密码库中没有匹配「%1$s」的项目</string>
     <string name="search_for_a_login_or_add_a_new_login">搜索登录或添加新的登录</string>
     <string name="disabled">已禁用</string>
-    <string name="bitwarden_autofill_service_alert2">向您的密码库中添加新登录项目的最简单方法，就是通过 Byteward 自动填充服务。转到「设置」界面进一步了解 Byteward 自动填充服务的使用。</string>
+    <string name="bitwarden_autofill_service_alert2">向您的密码库中添加新登录项目的最简单方法，就是通过 Bitwarden 自动填充服务。转到「设置」界面进一步了解 Bitwarden 自动填充服务的使用。</string>
     <string name="autofill_noun">自动填充</string>
     <string name="autofill_verb">自动填充</string>
     <string name="autofill_or_view">您想自动填充还是查看此项目？</string>
@@ -297,7 +297,7 @@
     <string name="no_items_folder">此文件夹中没有项目。</string>
     <string name="no_items_trash">回收站中没有项目。</string>
     <string name="autofill_accessibility_summary">在其他 App 和网站上辅助填充用户名和密码字段。</string>
-    <string name="autofill_service_description">Byteward 自动填充服务使用 Android 自动填充框架来辅助将登录信息填充到您设备上的其他 App 中。</string>
+    <string name="autofill_service_description">Bitwarden 自动填充服务使用 Android 自动填充框架来辅助将登录信息填充到您设备上的其他 App 中。</string>
     <string name="bitwarden_autofill_go_to_settings">我们无法为您自动打开 Android 自动填充设置菜单。您可以通过 Android 设置 &gt; 系统 &gt; 语言和输入 &gt; 高级 &gt; 自动填充服务，来手动导航到自动填充设置。</string>
     <string name="custom_field_name">自定义字段名称</string>
     <string name="field_type_boolean">布尔型</string>
@@ -371,7 +371,7 @@
     <string name="pin">PIN 码</string>
     <string name="unlock">解锁​​​​</string>
     <string name="thirty_minutes">30 分钟</string>
-    <string name="set_pin_description">您的 PIN 码必须至少包含 4 个字符。您的 PIN 设置将在您手动注销 Byteward App 后被重置。</string>
+    <string name="set_pin_description">您的 PIN 码必须至少包含 4 个字符。您的 PIN 设置将在您手动注销 Bitwarden App 后被重置。</string>
     <string name="logged_in_as_on">已在 %2$s 上以 %1$s 身份登录。</string>
     <string name="vault_locked_master_password">您的密码库已锁定，请验证您的主密码以继续。</string>
     <string name="vault_locked_pin">您的密码库已锁定。请验证您的 PIN 码以继续。</string>
@@ -385,7 +385,7 @@
     <string name="clear_clipboard">清除剪贴板</string>
     <string name="clear_clipboard_description">自动清除复制到剪贴板的值。</string>
     <string name="default_uri_match_detection">默认的 URI 匹配检测方式</string>
-    <string name="default_uri_match_detection_description">URI 匹配检测控制 Byteward 如何识别自动填充建议。</string>
+    <string name="default_uri_match_detection_description">URI 匹配检测控制 Bitwarden 如何识别自动填充建议。</string>
     <string name="theme">主题</string>
     <string name="theme_description">更改应用程序的颜色主题</string>
     <string name="copy_notes">复制备注</string>
@@ -421,7 +421,7 @@
     <string name="password_generator_policy_in_effect">一个或多个组织策略正在影响您的生成器设置</string>
     <string name="unable_to_save_attachment">保存此附件时出现问题。如果问题仍然存在，您可以从网页密码库中保存它。</string>
     <string name="save_attachment_success">附件保存成功</string>
-    <string name="autofill_tile_accessibility_required">请从 Byteward 设置中开启「自动填充无障碍服务」以使用自动填充磁贴。</string>
+    <string name="autofill_tile_accessibility_required">请从 Bitwarden 设置中开启「自动填充无障碍服务」以使用自动填充磁贴。</string>
     <string name="autofill_tile_uri_not_found">未检测到密码字段</string>
     <string name="soft_deleting">正在发送到回收站…</string>
     <string name="item_soft_deleted">项目已发送到回收站。</string>
@@ -634,9 +634,9 @@
     <string name="catch_all_email_description">使用您的域名配置的 Catch-all 收件箱。</string>
     <string name="forwarded_email_description">使用外部转发服务生成电子邮箱别名。</string>
     <string name="accessibility_service_disclosure">无障碍服务声明</string>
-    <string name="accessibility_disclosure_text">Byteward 使用无障碍服务在 App 和网站中搜索登录字段，当找到与 App 或网站相匹配的用户名 &amp; 密码时，建立适当的字段 ID 以输入它们。我们不会通过此服务存储提供给我们的任何信息，也不会尝试控制除凭据文本输入之外的任何屏幕元素。</string>
-    <string name="accessibility_disclosure_start_up_text_1">在 Byteward 提供基于无障碍的自动填充之前，必须先展示此声明。</string>
-    <string name="accessibility_disclosure_start_up_text_2">Byteward 提供一种可选的自动填充方式，即使用 Android 的无障碍服务来检测登录字段。启用后，当找到匹配字段时，Byteward 将识别相应的字段并填充您的凭据。</string>
+    <string name="accessibility_disclosure_text">Bitwarden 使用无障碍服务在 App 和网站中搜索登录字段，当找到与 App 或网站相匹配的用户名 &amp; 密码时，建立适当的字段 ID 以输入它们。我们不会通过此服务存储提供给我们的任何信息，也不会尝试控制除凭据文本输入之外的任何屏幕元素。</string>
+    <string name="accessibility_disclosure_start_up_text_1">在 Bitwarden 提供基于无障碍的自动填充之前，必须先展示此声明。</string>
+    <string name="accessibility_disclosure_start_up_text_2">Bitwarden 提供一种可选的自动填充方式，即使用 Android 的无障碍服务来检测登录字段。启用后，当找到匹配字段时，Bitwarden 将识别相应的字段并填充您的凭据。</string>
     <string name="accessibility_disclosure_start_up_text_3">在您使用无障碍服务时，我们不会存储屏幕上的任何信息，也不会控制除凭据输入之外的任何屏幕元素。</string>
     <string name="i_understand">我明白</string>
     <string name="accept">接受</string>
@@ -716,8 +716,8 @@ Do you want to switch to this account?</string>
     <string name="session_timeout">会话超时</string>
     <string name="session_timeout_action">会话超时动作</string>
     <string name="account_fingerprint_phrase">账户指纹短语</string>
-    <string name="passkey_management_explanation_long">使用 Byteward 保存新的通行密钥并使用存储在密码库中的通行密钥登录。</string>
-    <string name="autofill_services_explanation_long">允许 Byteward 使用您保存的登录信息来登录您设备上的其他 App。</string>
+    <string name="passkey_management_explanation_long">使用 Bitwarden 保存新的通行密钥并使用存储在密码库中的通行密钥登录。</string>
+    <string name="autofill_services_explanation_long">允许 Bitwarden 使用您保存的登录信息来登录您设备上的其他 App。</string>
     <string name="use_inline_autofill_explanation_long">选择当您登录到您设备上的其他 App 时，自动填充建议的显示方式。</string>
     <string name="additional_options">附加选项</string>
     <string name="continue_to_web_app">前往网页 App 吗？</string>
@@ -740,8 +740,8 @@ Do you want to switch to this account?</string>
     <string name="duo_two_step_login_is_required_for_your_account">您的账户要求使用 Duo 两步登录。</string>
     <string name="follow_the_steps_from_duo_to_finish_logging_in">按照 Duo 的步骤完成登录。</string>
     <string name="launch_duo">启动 Duo</string>
-    <string name="your_passkey_will_be_saved_to_your_bitwarden_vault_for_x">您的通行密钥将保存到您的 %1$s Byteward 密码库中</string>
-    <string name="your_password_will_be_saved_to_your_bitwarden_vault_for_x">您的密码将保存到您的 %1$s Byteward 密码库中</string>
+    <string name="your_passkey_will_be_saved_to_your_bitwarden_vault_for_x">您的通行密钥将保存到您的 %1$s Bitwarden 密码库中</string>
+    <string name="your_password_will_be_saved_to_your_bitwarden_vault_for_x">您的密码将保存到您的 %1$s Bitwarden 密码库中</string>
     <string name="passkeys_not_supported_for_this_app">此 App 不支持通行密钥</string>
     <string name="passkey_operation_failed_because_browser_is_not_privileged">由于浏览器没有权限，通行密钥操作失败</string>
     <string name="passkey_operation_failed_because_browser_signature_does_not_match">由于浏览器签名不匹配，通行密钥操作失败</string>
@@ -769,7 +769,7 @@ Do you want to switch to this account?</string>
     <string name="email_verified">电子邮箱已验证</string>
     <string name="get_emails_from_bitwarden_for_announcements_advices_and_research_opportunities_unsubscribe_any_time">获取来自 Bitwarden 的建议、公告和调研电子邮件。随时<annotation link="unsubscribe">取消订阅</annotation>。</string>
     <string name="security_prioritized">以安全为首要</string>
-    <string name="welcome_message_1">将登录、支付卡和身份保存到您的安全密码库。Byteward 使用零知识、端到端的加密来保护您的重要信息。</string>
+    <string name="welcome_message_1">将登录、支付卡和身份保存到您的安全密码库。Bitwarden 使用零知识、端到端的加密来保护您的重要信息。</string>
     <string name="welcome_message_2">设置生物识别解锁和自动填充，无需输入任何字符即可登录您的账户。</string>
     <string name="quick_and_easy_login">快速便捷的登录</string>
     <string name="level_up_your_logins">提升您的登录体验</string>
@@ -821,16 +821,16 @@ Do you want to switch to this account?</string>
     <string name="turn_on_autofill">开启自动填充</string>
     <string name="autofill_setup">自动填充设置</string>
     <string name="turn_on_browser_autofill_integration">开启浏览器自动填充集成</string>
-    <string name="browser_requires_special_permissions_for_bitwarden_singular">您正在使用的浏览器需要特殊权限才能让 Byteward 自动填充密码。</string>
-    <string name="browser_requires_special_permissions_for_bitwarden_plural">您正在使用的浏览器需要特殊权限才能让 Byteward 自动填充密码。</string>
-    <string name="youre_using_a_browser_that_requires_special_permissions_singular">您正在使用的浏览器需要特殊权限才能让 Byteward 自动填充密码。请在下方启用您首选的自动填充集成。</string>
-    <string name="youre_using_a_browser_that_requires_special_permissions_plural">您正在使用的浏览器需要特殊权限才能让 Byteward 自动填充密码。请为所有已安装的浏览器启用自动填充功能。</string>
+    <string name="browser_requires_special_permissions_for_bitwarden_singular">您正在使用的浏览器需要特殊权限才能让 Bitwarden 自动填充密码。</string>
+    <string name="browser_requires_special_permissions_for_bitwarden_plural">您正在使用的浏览器需要特殊权限才能让 Bitwarden 自动填充密码。</string>
+    <string name="youre_using_a_browser_that_requires_special_permissions_singular">您正在使用的浏览器需要特殊权限才能让 Bitwarden 自动填充密码。请在下方启用您首选的自动填充集成。</string>
+    <string name="youre_using_a_browser_that_requires_special_permissions_plural">您正在使用的浏览器需要特殊权限才能让 Bitwarden 自动填充密码。请为所有已安装的浏览器启用自动填充功能。</string>
     <string name="use_autofill_to_log_into_your_accounts">使用自动填充，只需点击一下即可登录您的账户。</string>
     <string name="turn_on_later">稍后开启</string>
     <string name="turn_on_autofill_later">稍后开启自动填充吗？</string>
     <string name="turn_on_browser_autofill_integration_later">稍后开启浏览器自动填充集成吗？</string>
     <string name="return_to_complete_this_step_anytime_in_settings">您可以随时回到「设置」中完成此步骤。</string>
-    <string name="what_bitwarden_has_to_offer">您现在可以探索 Byteward 的所有功能了，并开始安全地管理您的密码。</string>
+    <string name="what_bitwarden_has_to_offer">您现在可以探索 Bitwarden 的所有功能了，并开始安全地管理您的密码。</string>
     <string name="youre_all_set">一切就绪！</string>
     <string name="error_connecting_with_the_duo_service_use_a_different_two_step_login_method_or_contact_duo_for_assistance">与 Duo 服务连接时出错。请使用其他两步登录方式或联系 Duo 寻求帮助。</string>
     <string name="master_password_hint_not_specified">主密码提示</string>
@@ -961,7 +961,7 @@ Do you want to switch to this account?</string>
     <string name="unsupported_certificate_type">不支持的证书类型</string>
     <string name="certificate_password_incorrect">证书密码错误</string>
     <string name="invalid_certificate_chain">无效的证书链</string>
-    <string name="system_certificates_are_not_as_secure_as_importing_certificates_to_bitwarden">使用系统证书不如 Byteward 中存储的证书安全。如果已经安装了系统证书，接下来将显示可用的系统证书列表。</string>
+    <string name="system_certificates_are_not_as_secure_as_importing_certificates_to_bitwarden">使用系统证书不如 Bitwarden 中存储的证书安全。如果已经安装了系统证书，接下来将显示可用的系统证书列表。</string>
     <string name="link">链接</string>
     <string name="passkey_operation_failed_because_host_url_is_not_present_in_request">由于请求中不存在主机 URL，通行密钥操作失败。</string>
     <string name="passkey_operation_failed_because_app_signature_is_invalid">由于 App 签名无效，通行密钥操作失败。</string>
@@ -1039,11 +1039,11 @@ Do you want to switch to this account?</string>
     <string name="missing_send_resync_your_vault">丢失 Send，请重新同步您的密码库</string>
     <string name="use_dynamic_colors">使用动态颜色</string>
     <string name="use_dynamic_colors_question">使用动态颜色吗？</string>
-    <string name="dynamic_colors_may_not_adhere_to_accessibility_guidelines">此配色方案基于您当前的壁纸自动将系统颜色应用于 Byteward。这些颜色可能无法满足所有无障碍指南要求。</string>
+    <string name="dynamic_colors_may_not_adhere_to_accessibility_guidelines">此配色方案基于您当前的壁纸自动将系统颜色应用于 Bitwarden。这些颜色可能无法满足所有无障碍指南要求。</string>
     <string name="passkey_operation_failed_because_browser_x_is_not_trusted">由于浏览器 (%1$s) 无法识别，通行密钥操作失败。选择「信任」将 %1$s 添加到本地受信任的应用程序列表。</string>
     <string name="passkey_operation_failed_because_the_browser_is_not_trusted">由于浏览器未被信任，通行密钥操作失败。</string>
     <string name="trust">信任</string>
-    <string name="trusted_by_you_learn_more">这些是 Byteward 默认不信任的应用程序或浏览器，但是您信任其执行通行密钥操作。</string>
+    <string name="trusted_by_you_learn_more">这些是 Bitwarden 默认不信任的应用程序或浏览器，但是您信任其执行通行密钥操作。</string>
     <string name="trusted_by_community_learn_more">这些应用程序虽未上架 Google Play Store，但经社区成员使用并报告为安全后，Bitwarden 信任其执行通行密钥操作。</string>
     <string name="trusted_by_google_learn_more">这些是 Google 认定为安全且可在 Google Play Store 中获取的应用程序。</string>
     <string name="trusted_by_you">被您信任</string>
@@ -1182,7 +1182,7 @@ Do you want to switch to this account?</string>
         <item quantity="other">%1$d 个项目已导入到您的密码库。</item>
     </plurals>
     <string name="enable_browser_autofill_to_keep_filling_passwords">启用浏览器自动填充以继续使用密码填充功能</string>
-    <string name="your_browser_recently_updated_how_autofill_works_singular">您的浏览器最近已更新，其禁用了 Byteward 自动填充功能。要继续使用 Byteward 填充密码，请在自动填充设置中启用浏览器自动填充功能。</string>
+    <string name="your_browser_recently_updated_how_autofill_works_singular">您的浏览器最近已更新，其禁用了 Bitwarden 自动填充功能。要继续使用 Bitwarden 填充密码，请在自动填充设置中启用浏览器自动填充功能。</string>
     <string name="not_now">以后再说</string>
     <string name="import_from_bitwarden">从 Bitwarden 导入</string>
     <string name="select_account">选择账户</string>
@@ -1282,7 +1282,7 @@ Do you want to switch to this account?</string>
     <string name="trusted">已信任</string>
     <string name="preview_not_available_for_files">%1$s 个文件的预览不可用。您仍然可以将其下载到您的设备上查看。</string>
     <string name="this_file_is_too_large_to_preview">此文件太大，无法预览。您仍然可以将其下载到您的设备上查看。</string>
-    <string name="bitwarden_could_not_decrypt_this_file_so_the_preview_cannot_be_displayed">Byteward 无法解密此文件，因此无法显示预览。</string>
+    <string name="bitwarden_could_not_decrypt_this_file_so_the_preview_cannot_be_displayed">Bitwarden 无法解密此文件，因此无法显示预览。</string>
     <string name="preview_unavailable_for_this_file">此文件的预览不可用。您仍然可以将其下载到您的设备上查看。</string>
     <string name="preview_unavailable">预览不可用</string>
     <string name="download_attachment">下载附件</string>
@@ -1414,8 +1414,8 @@ Do you want to switch to this account?</string>
     <string name="local_network_access_required">需要本地网络访问权限</string>
     <string name="ask_again_later">稍后再次询问</string>
     <string name="enable_local_network_access">启用本地网络访问权限</string>
-    <string name="bitwarden_needs_local_network_access_to_sync_with_your_server">Byteward 需要本地网络访问权限才能与您的服务器同步。没有此权限，App 将无法连接。</string>
-    <string name="without_this_permission_bitwarden_wont_be_able_to_sync_with_your_server">没有此权限，Byteward 将无法与您的服务器连接和同步。您可以在您的设备设置中启用该权限。</string>
+    <string name="bitwarden_needs_local_network_access_to_sync_with_your_server">Bitwarden 需要本地网络访问权限才能与您的服务器同步。没有此权限，App 将无法连接。</string>
+    <string name="without_this_permission_bitwarden_wont_be_able_to_sync_with_your_server">没有此权限，Bitwarden 将无法与您的服务器连接和同步。您可以在您的设备设置中启用该权限。</string>
     <string name="your_request_was_interrupted_because_the_app_needs_local_network_access">由于 App 需要本地网络访问权限，您的请求已中断。您可以在您的设备设置中启用该权限。</string>
     <string name="continue_to_stripe">前往 Stripe 吗？</string>
     <string name="youll_be_taken_to_stripe_to_manage_your_subscription_cancellation">您将被引导至 Stripe 以管理您的订阅取消操作。</string>
@@ -1437,7 +1437,7 @@ Do you want to switch to this account?</string>
     <string name="use_this_username">使用此用户名</string>
     <string name="create_login">创建登录</string>
     <string name="keep_unlocking_with_biometrics">继续使用生物识别解锁</string>
-    <string name="weve_made_a_security_update">我们已进行了一次安全更新。请再次确认您的生物识别，以便继续使用其来解锁 Byteward。</string>
+    <string name="weve_made_a_security_update">我们已进行了一次安全更新。请再次确认您的生物识别，以便继续使用其来解锁 Bitwarden。</string>
     <string name="turn_off">关闭</string>
     <string name="turn_off_biometric_question">关闭生物识别吗？</string>
     <string name="unlocking_will_require_your_master_password">解锁将要求您的主密码。您可以在「设置」中重新开启生物识别。</string>

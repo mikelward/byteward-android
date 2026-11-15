@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Byteward overrides for strings defined in the :ui module, which keeps
+    upstream Bitwarden's text. App resources take precedence over library
+    resources when they are merged, so the app shows these versions while the
+    :ui files stay identical to upstream (and the Authenticator app, which also
+    uses :ui, keeps Bitwarden's text).
+
+    Each entry renames Bitwarden to Byteward where the password manager refers
+    to itself. Text about Bitwarden's service is not overridden.
+-->
+<resources>
+    <string name="set_bitwarden_as_passkey_manager_description">Set Byteward as your passkey provider in device settings.</string>
+    <string name="bitwarden_autofill_service">Byteward Autofill Service</string>
+    <string name="bitwarden_autofill_service_alert2">The easiest way to add new logins to your vault is from the Byteward Autofill Service. Learn more about using the Byteward Autofill Service by navigating to the “Settings” screen.</string>
+    <string name="autofill_service_description">The Byteward autofill service uses the Android Autofill Framework to assist in filling login information into other apps on your device.</string>
+    <string name="set_pin_description">Your PIN must be at least 4 characters. Your PIN settings will be reset if you manually log out of the Byteward app.</string>
+    <string name="default_uri_match_detection_description">URI match detection controls how Byteward identifies autofill suggestions.</string>
+    <string name="autofill_tile_accessibility_required">Please turn on “Autofill Accessibility Service” from Byteward Settings to use the Autofill tile.</string>
+    <string name="accessibility_disclosure_text">Byteward uses the Accessibility Service to search for login fields in apps and websites, then establish the appropriate field IDs for entering a username &amp; password when a match for the app or site is found. We do not store any of the information presented to us by the service, nor do we make any attempt to control any on-screen elements beyond text entry of credentials.</string>
+    <string name="accessibility_disclosure_start_up_text_1">This notice is required before Byteward can offer accessibility-based autofill.</string>
+    <string name="accessibility_disclosure_start_up_text_2">Byteward offers an optional autofill method that uses Android’s Accessibility Service to detect login fields. If you enable it, Byteward will identify the appropriate fields and fill in your credentials when a match is found.</string>
+    <string name="passkey_management_explanation_long">Use Byteward to save new passkeys and log in with passkeys stored in your vault.</string>
+    <string name="autofill_services_explanation_long">Allow Byteward to use your saved login information to sign in to other apps on your device.</string>
+    <string name="your_passkey_will_be_saved_to_your_bitwarden_vault_for_x">Your passkey will be saved to your Byteward vault for %1$s</string>
+    <string name="your_password_will_be_saved_to_your_bitwarden_vault_for_x">Your password will be saved to your Byteward vault for %1$s</string>
+    <string name="welcome_message_1">Save logins, cards, and identities to your secure vault. Byteward uses zero-knowledge, end-to-end encryption to protect what’s important to you.</string>
+    <string name="browser_requires_special_permissions_for_bitwarden_singular">You’re using a browser that requires special permissions for Byteward to autofill your passwords.</string>
+    <string name="browser_requires_special_permissions_for_bitwarden_plural">You’re using browsers that requires special permissions for Byteward to autofill your passwords.</string>
+    <string name="youre_using_a_browser_that_requires_special_permissions_singular">You’re using a browser that requires special permissions for Byteward to autofill your passwords. Enable your preferred autofill integration below.</string>
+    <string name="youre_using_a_browser_that_requires_special_permissions_plural">You’re using browsers that requires special permissions for Byteward to autofill your passwords. Enable autofill for all your installed browsers to continue.</string>
+    <string name="what_bitwarden_has_to_offer">You can now explore everything Byteward has to offer and start managing your passwords securely.</string>
+    <string name="system_certificates_are_not_as_secure_as_importing_certificates_to_bitwarden">Using a system certificate is less secure than storing the certificate with Byteward. Continuing will display a list of available system certificates if one is already installed.</string>
+    <string name="dynamic_colors_may_not_adhere_to_accessibility_guidelines">This color scheme automatically applies system colors to Byteward based on your current wallpaper. These colors may not meet all accessibility guidelines.</string>
+    <string name="trusted_by_you_learn_more">These are applications or browsers that Byteward does not trust by default, but you trust to perform passkey operations.</string>
+    <string name="your_browser_recently_updated_how_autofill_works_singular">Your browser has recently updated, which has disabled Byteward autofill. To continue filling your passwords with Byteward, enable browser autofill in autofill settings.</string>
+    <string name="bitwarden_could_not_decrypt_this_file_so_the_preview_cannot_be_displayed">Byteward could not decrypt this file, so the preview cannot be displayed.</string>
+    <string name="bitwarden_needs_local_network_access_to_sync_with_your_server">Byteward needs local network access to sync with your server. Without this permission, the app won’t be able to connect.</string>
+    <string name="without_this_permission_bitwarden_wont_be_able_to_sync_with_your_server">Without this permission, Byteward won’t be able to connect and sync with your server. You can enable this in your device settings.</string>
+    <string name="weve_made_a_security_update">We’ve made a security update. Confirm your biometrics again to keep using them to unlock Byteward.</string>
+</resources>

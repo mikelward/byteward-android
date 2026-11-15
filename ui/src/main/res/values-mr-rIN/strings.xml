@@ -75,9 +75,9 @@
     <string name="yes">होय</string>
     <string name="account">खाते</string>
     <string name="account_created_success">तुमचे नवीन खाते तयार झाले आहे!</string>
-    <string name="set_bitwarden_as_passkey_manager_description">डिव्हाइस सेटिंग्जमध्ये Byteward ला तुमचा पासकी प्रदाता म्हणून सेट करा.</string>
+    <string name="set_bitwarden_as_passkey_manager_description">डिव्हाइस सेटिंग्जमध्ये Bitwarden ला तुमचा पासकी प्रदाता म्हणून सेट करा.</string>
     <string name="avoid_ambiguous_characters">अस्पष्ट वर्ण टाळा</string>
-    <string name="bitwarden_autofill_service">Byteward स्वयंपूर्त सेवा</string>
+    <string name="bitwarden_autofill_service">Bitwarden स्वयंपूर्त सेवा</string>
     <string name="change_master_password">मुख्य संकेतशब्द बदला</string>
     <string name="close">बंद करा</string>
     <string name="close_app">अॅप बंद करा</string>
@@ -176,7 +176,7 @@
     <string name="no_items_for_vault">तुमच्या तिजोरीत “%1$s” शी जुळणारे कोणतेही आयटम नाहीत</string>
     <string name="search_for_a_login_or_add_a_new_login">लॉगिनसाठी शोधा किंवा नवीन लॉगिन जोडा</string>
     <string name="disabled">अक्षम</string>
-    <string name="bitwarden_autofill_service_alert2">तुमच्या तिजोरीत नवीन लॉगिन्स जोडण्याचा सर्वात सोपा मार्ग म्हणजे Byteward Autofill Service वरून. “Settings” स्क्रीनवर नेव्हिगेट करून Byteward Autofill Service वापरण्याबद्दल अधिक जाणून घ्या.</string>
+    <string name="bitwarden_autofill_service_alert2">तुमच्या तिजोरीत नवीन लॉगिन्स जोडण्याचा सर्वात सोपा मार्ग म्हणजे Bitwarden Autofill Service वरून. “Settings” स्क्रीनवर नेव्हिगेट करून Bitwarden Autofill Service वापरण्याबद्दल अधिक जाणून घ्या.</string>
     <string name="autofill_noun">स्वयंपूर्त</string>
     <string name="autofill_verb">स्वयंपूर्त करा</string>
     <string name="autofill_or_view">तुम्हाला हा आयटम स्वयंपूर्त करायचा आहे का पहायचा आहे?</string>
@@ -298,7 +298,7 @@
     <string name="no_items_folder">या फोल्डरमध्ये कोणतेही आयटम नाहीत.</string>
     <string name="no_items_trash">कचराकुंडी रिकामी आहे.</string>
     <string name="autofill_accessibility_summary">इतर अॅप्स आणि वेबवर वापरकर्तानाव आणि संकेतशब्द फील्ड भरण्यास मदत करा.</string>
-    <string name="autofill_service_description">Byteward स्वयंपूर्त सेवा तुमच्या डिव्हाइसवरील इतर अॅप्समध्ये लॉगिन माहिती भरण्यास मदत करण्यासाठी Android Autofill Framework वापरते.</string>
+    <string name="autofill_service_description">Bitwarden स्वयंपूर्त सेवा तुमच्या डिव्हाइसवरील इतर अॅप्समध्ये लॉगिन माहिती भरण्यास मदत करण्यासाठी Android Autofill Framework वापरते.</string>
     <string name="bitwarden_autofill_go_to_settings">आम्ही तुमच्यासाठी Android स्वयंपूर्त सेटिंग्ज मेनू स्वयंचलितपणे उघडू शकलो नाही. तुम्ही Android Settings &gt; System &gt; Languages and input &gt; Advanced &gt; Autofill service वरून स्वयंपूर्त सेटिंग्ज मेनूमध्ये स्वतः नेव्हिगेट करू शकता.</string>
     <string name="custom_field_name">सानुकूल फील्ड नाव</string>
     <string name="field_type_boolean">बुलियन</string>
@@ -373,7 +373,7 @@
     <string name="pin">पिन</string>
     <string name="unlock">अनलॉक</string>
     <string name="thirty_minutes">३० मिनिटे</string>
-    <string name="set_pin_description">तुमचा पिन किमान ४ वर्णांचा असणे आवश्यक आहे. तुम्ही स्वतः Byteward अॅपमधून लॉग आउट केल्यास तुमच्या पिन सेटिंग्ज रीसेट होतील.</string>
+    <string name="set_pin_description">तुमचा पिन किमान ४ वर्णांचा असणे आवश्यक आहे. तुम्ही स्वतः Bitwarden अॅपमधून लॉग आउट केल्यास तुमच्या पिन सेटिंग्ज रीसेट होतील.</string>
     <string name="logged_in_as_on">%2$s वर %1$s म्हणून लॉग इन केले.</string>
     <string name="vault_locked_master_password">तुमची तिजोरी लॉक आहे. सुरू ठेवण्यासाठी तुमचा मुख्य संकेतशब्द सत्यापित करा.</string>
     <string name="vault_locked_pin">तुमची तिजोरी लॉक आहे. सुरू ठेवण्यासाठी तुमचा पिन कोड सत्यापित करा.</string>
@@ -387,7 +387,7 @@
     <string name="clear_clipboard">क्लिपबोर्ड साफ करा</string>
     <string name="clear_clipboard_description">तुमच्या क्लिपबोर्डवरून कॉपी केलेली मूल्ये स्वयंचलितपणे साफ करा.</string>
     <string name="default_uri_match_detection">डिफॉल्ट URI जुळणी शोध</string>
-    <string name="default_uri_match_detection_description">URI जुळणी शोध Byteward स्वयंपूर्त सूचना कशा ओळखतो हे नियंत्रित करते.</string>
+    <string name="default_uri_match_detection_description">URI जुळणी शोध Bitwarden स्वयंपूर्त सूचना कशा ओळखतो हे नियंत्रित करते.</string>
     <string name="theme">थीम</string>
     <string name="theme_description">अॅप्लिकेशनची रंग थीम बदला</string>
     <string name="copy_notes">नोट कॉपी करा</string>
@@ -423,7 +423,7 @@
     <string name="password_generator_policy_in_effect">एक किंवा अधिक संस्था धोरणे तुमच्या जनरेटर सेटिंग्जवर परिणाम करत आहेत</string>
     <string name="unable_to_save_attachment">हा संलग्नक जतन करण्यात समस्या आली. जर समस्या कायम राहिली, तर तुम्ही ते वेब तिजोरीतून जतन करू शकता.</string>
     <string name="save_attachment_success">संलग्नक यशस्वीरित्या जतन</string>
-    <string name="autofill_tile_accessibility_required">Autofill टाइल वापरण्यासाठी कृपया Byteward Settings मधून “Autofill Accessibility Service” चालू करा.</string>
+    <string name="autofill_tile_accessibility_required">Autofill टाइल वापरण्यासाठी कृपया Bitwarden Settings मधून “Autofill Accessibility Service” चालू करा.</string>
     <string name="autofill_tile_uri_not_found">कोणतीही संकेतशब्द फील्ड आढळली नाही</string>
     <string name="soft_deleting">कचऱ्यात पाठवत आहे…</string>
     <string name="item_soft_deleted">आयटम कचऱ्यात पाठवला गेला आहे.</string>
@@ -638,9 +638,9 @@
     <string name="catch_all_email_description">तुमच्या डोमेनचा कॉन्फिगर केलेला सर्व-ग्राही इनबॉक्स वापरा.</string>
     <string name="forwarded_email_description">बाह्य पुनर्निर्देशन सेवेसह ईमेल उपनाम तयार करा.</string>
     <string name="accessibility_service_disclosure">Accessibility Service सूचना</string>
-    <string name="accessibility_disclosure_text">Byteward अॅप्स आणि वेबसाइट्समध्ये लॉगिन फील्ड शोधण्यासाठी Accessibility Service वापरते, नंतर अॅप किंवा साइटशी जुळणी आढळल्यास वापरकर्तानाव आणि संकेतशब्द प्रविष्ट करण्यासाठी योग्य फील्ड आयडी स्थापित करते. आम्ही सेवेने आम्हाला सादर केलेली कोणतीही माहिती संग्रहित करत नाही, क्रेडेन्शियल्सच्या मजकूर प्रवेशाव्यतिरिक्त कोणत्याही ऑन-स्क्रीन घटकांवर नियंत्रण ठेवण्याचा प्रयत्न करत नाही.</string>
-    <string name="accessibility_disclosure_start_up_text_1">Byteward अ‍ॅक्सेसिबिलिटी-आधारित स्वयंपूर्त ऑफर करण्यापूर्वी ही सूचना आवश्यक आहे.</string>
-    <string name="accessibility_disclosure_start_up_text_2">Byteward एक पर्यायी स्वयंपूर्त पद्धत ऑफर करते जी लॉगिन फील्ड शोधण्यासाठी Android ची Accessibility Service वापरते. तुम्ही ती सक्षम केल्यास, जुळणी आढळल्यावर Byteward योग्य फील्ड ओळखेल आणि तुमची क्रेडेन्शियल्स भरेल.</string>
+    <string name="accessibility_disclosure_text">Bitwarden अॅप्स आणि वेबसाइट्समध्ये लॉगिन फील्ड शोधण्यासाठी Accessibility Service वापरते, नंतर अॅप किंवा साइटशी जुळणी आढळल्यास वापरकर्तानाव आणि संकेतशब्द प्रविष्ट करण्यासाठी योग्य फील्ड आयडी स्थापित करते. आम्ही सेवेने आम्हाला सादर केलेली कोणतीही माहिती संग्रहित करत नाही, क्रेडेन्शियल्सच्या मजकूर प्रवेशाव्यतिरिक्त कोणत्याही ऑन-स्क्रीन घटकांवर नियंत्रण ठेवण्याचा प्रयत्न करत नाही.</string>
+    <string name="accessibility_disclosure_start_up_text_1">Bitwarden अ‍ॅक्सेसिबिलिटी-आधारित स्वयंपूर्त ऑफर करण्यापूर्वी ही सूचना आवश्यक आहे.</string>
+    <string name="accessibility_disclosure_start_up_text_2">Bitwarden एक पर्यायी स्वयंपूर्त पद्धत ऑफर करते जी लॉगिन फील्ड शोधण्यासाठी Android ची Accessibility Service वापरते. तुम्ही ती सक्षम केल्यास, जुळणी आढळल्यावर Bitwarden योग्य फील्ड ओळखेल आणि तुमची क्रेडेन्शियल्स भरेल.</string>
     <string name="accessibility_disclosure_start_up_text_3">तुम्ही Accessibility Service वापरता तेव्हा आम्ही स्क्रीनवर काय आहे याबद्दल कोणतीही माहिती संग्रहित करत नाही आणि क्रेडेन्शियल प्रवेशाव्यतिरिक्त कोणत्याही ऑन-स्क्रीन घटकांवर नियंत्रण ठेवत नाही.</string>
     <string name="i_understand">मला समजले</string>
     <string name="accept">स्वीकारा</string>
@@ -720,8 +720,8 @@ Do you want to switch to this account?</string>
     <string name="session_timeout">सत्र कालबाह्यता</string>
     <string name="session_timeout_action">सत्र कालबाह्यता क्रिया</string>
     <string name="account_fingerprint_phrase">खाते फिंगरप्रिंट वाक्यांश</string>
-    <string name="passkey_management_explanation_long">नवीन पासकीज जतन करण्यासाठी आणि तुमच्या तिजोरीत संग्रहित केलेल्या पासकीजसह लॉग इन करण्यासाठी Byteward वापरा.</string>
-    <string name="autofill_services_explanation_long">तुमच्या डिव्हाइसवरील इतर अॅप्समध्ये साइन इन करण्यासाठी Byteward ला तुमची जतन केलेली लॉगिन माहिती वापरण्याची परवानगी द्या.</string>
+    <string name="passkey_management_explanation_long">नवीन पासकीज जतन करण्यासाठी आणि तुमच्या तिजोरीत संग्रहित केलेल्या पासकीजसह लॉग इन करण्यासाठी Bitwarden वापरा.</string>
+    <string name="autofill_services_explanation_long">तुमच्या डिव्हाइसवरील इतर अॅप्समध्ये साइन इन करण्यासाठी Bitwarden ला तुमची जतन केलेली लॉगिन माहिती वापरण्याची परवानगी द्या.</string>
     <string name="use_inline_autofill_explanation_long">तुम्ही तुमच्या डिव्हाइसवरील इतर अॅप्समध्ये साइन इन करता तेव्हा तुमच्या स्वयंपूर्त सूचना कशा दिसतील ते निवडा.</string>
     <string name="additional_options">अतिरिक्त पर्याय</string>
     <string name="continue_to_web_app">वेब अॅपवर सुरू ठेवायचे?</string>
@@ -744,8 +744,8 @@ Do you want to switch to this account?</string>
     <string name="duo_two_step_login_is_required_for_your_account">तुमच्या खात्यासाठी Duo द्वि-चरण लॉगिन आवश्यक आहे.</string>
     <string name="follow_the_steps_from_duo_to_finish_logging_in">लॉग इन पूर्ण करण्यासाठी Duo च्या पायऱ्या अनुसरण करा.</string>
     <string name="launch_duo">Duo लाँच करा</string>
-    <string name="your_passkey_will_be_saved_to_your_bitwarden_vault_for_x">तुमची पासकी %1$s साठी तुमच्या Byteward तिजोरीत जतन केली जाईल</string>
-    <string name="your_password_will_be_saved_to_your_bitwarden_vault_for_x">तुमचा संकेतशब्द %1$s साठी तुमच्या Byteward तिजोरीत जतन केला जाईल</string>
+    <string name="your_passkey_will_be_saved_to_your_bitwarden_vault_for_x">तुमची पासकी %1$s साठी तुमच्या Bitwarden तिजोरीत जतन केली जाईल</string>
+    <string name="your_password_will_be_saved_to_your_bitwarden_vault_for_x">तुमचा संकेतशब्द %1$s साठी तुमच्या Bitwarden तिजोरीत जतन केला जाईल</string>
     <string name="passkeys_not_supported_for_this_app">या अॅपसाठी पासकीज समर्थित नाहीत</string>
     <string name="passkey_operation_failed_because_browser_is_not_privileged">ब्राउझर विशेषाधिकारित नसल्यामुळे पासकी ऑपरेशन अयशस्वी</string>
     <string name="passkey_operation_failed_because_browser_signature_does_not_match">ब्राउझर स्वाक्षरी जुळत नसल्यामुळे पासकी ऑपरेशन अयशस्वी</string>
@@ -773,7 +773,7 @@ Do you want to switch to this account?</string>
     <string name="email_verified">ईमेल सत्यापित</string>
     <string name="get_emails_from_bitwarden_for_announcements_advices_and_research_opportunities_unsubscribe_any_time">घोषणा, सल्ला आणि संशोधन संधींसाठी Bitwarden कडून ईमेल मिळवा. कधीही <annotation link="unsubscribe">सदस्यता रद्द करा</annotation>.</string>
     <string name="security_prioritized">सुरक्षा, प्राधान्यक्रम</string>
-    <string name="welcome_message_1">तुमच्या सुरक्षित तिजोरीत लॉगिन्स, कार्ड्स आणि ओळख जतन करा. Byteward तुमच्यासाठी महत्वाच्या गोष्टींचे संरक्षण करण्यासाठी शून्य-ज्ञान, एंड-टू-एंड एन्क्रिप्शन वापरते.</string>
+    <string name="welcome_message_1">तुमच्या सुरक्षित तिजोरीत लॉगिन्स, कार्ड्स आणि ओळख जतन करा. Bitwarden तुमच्यासाठी महत्वाच्या गोष्टींचे संरक्षण करण्यासाठी शून्य-ज्ञान, एंड-टू-एंड एन्क्रिप्शन वापरते.</string>
     <string name="welcome_message_2">एकही अक्षर न टाइप करता तुमच्या खात्यांमध्ये लॉग इन करण्यासाठी बायोमेट्रिक अनलॉक आणि स्वयंपूर्त सेट करा.</string>
     <string name="quick_and_easy_login">त्वरित आणि सोपे लॉगिन</string>
     <string name="level_up_your_logins">तुमची लॉगिन्स अपग्रेड करा</string>
@@ -826,16 +826,16 @@ Do you want to switch to this account?</string>
     <string name="turn_on_autofill">स्वयंपूर्त चालू करा</string>
     <string name="autofill_setup">स्वयंपूर्त सेटअप</string>
     <string name="turn_on_browser_autofill_integration">ब्राउझर स्वयंपूर्त एकीकरण चालू करा</string>
-    <string name="browser_requires_special_permissions_for_bitwarden_singular">तुम्ही एक ब्राउझर वापरत आहात ज्याला Byteward ला तुमचे संकेतशब्द स्वयंपूर्त करण्यासाठी विशेष परवानग्या आवश्यक आहेत.</string>
-    <string name="browser_requires_special_permissions_for_bitwarden_plural">तुम्ही असे ब्राउझर वापरत आहात ज्यांना Byteward ला तुमचे संकेतशब्द स्वयंपूर्त करण्यासाठी विशेष परवानग्या आवश्यक आहेत.</string>
-    <string name="youre_using_a_browser_that_requires_special_permissions_singular">तुम्ही एक ब्राउझर वापरत आहात ज्याला Byteward ला तुमचे संकेतशब्द स्वयंपूर्त करण्यासाठी विशेष परवानग्या आवश्यक आहेत. खाली तुमचे पसंतीचे स्वयंपूर्त एकीकरण सक्षम करा.</string>
-    <string name="youre_using_a_browser_that_requires_special_permissions_plural">तुम्ही असे ब्राउझर वापरत आहात ज्यांना Byteward ला तुमचे संकेतशब्द स्वयंपूर्त करण्यासाठी विशेष परवानग्या आवश्यक आहेत. सुरू ठेवण्यासाठी तुमच्या सर्व स्थापित ब्राउझरसाठी स्वयंपूर्त सक्षम करा.</string>
+    <string name="browser_requires_special_permissions_for_bitwarden_singular">तुम्ही एक ब्राउझर वापरत आहात ज्याला Bitwarden ला तुमचे संकेतशब्द स्वयंपूर्त करण्यासाठी विशेष परवानग्या आवश्यक आहेत.</string>
+    <string name="browser_requires_special_permissions_for_bitwarden_plural">तुम्ही असे ब्राउझर वापरत आहात ज्यांना Bitwarden ला तुमचे संकेतशब्द स्वयंपूर्त करण्यासाठी विशेष परवानग्या आवश्यक आहेत.</string>
+    <string name="youre_using_a_browser_that_requires_special_permissions_singular">तुम्ही एक ब्राउझर वापरत आहात ज्याला Bitwarden ला तुमचे संकेतशब्द स्वयंपूर्त करण्यासाठी विशेष परवानग्या आवश्यक आहेत. खाली तुमचे पसंतीचे स्वयंपूर्त एकीकरण सक्षम करा.</string>
+    <string name="youre_using_a_browser_that_requires_special_permissions_plural">तुम्ही असे ब्राउझर वापरत आहात ज्यांना Bitwarden ला तुमचे संकेतशब्द स्वयंपूर्त करण्यासाठी विशेष परवानग्या आवश्यक आहेत. सुरू ठेवण्यासाठी तुमच्या सर्व स्थापित ब्राउझरसाठी स्वयंपूर्त सक्षम करा.</string>
     <string name="use_autofill_to_log_into_your_accounts">एका टॅपने तुमच्या खात्यांमध्ये लॉग इन करण्यासाठी स्वयंपूर्त वापरा.</string>
     <string name="turn_on_later">नंतर चालू करा</string>
     <string name="turn_on_autofill_later">नंतर स्वयंपूर्त चालू करायचे?</string>
     <string name="turn_on_browser_autofill_integration_later">नंतर ब्राउझर स्वयंपूर्त एकीकरण चालू करायचे?</string>
     <string name="return_to_complete_this_step_anytime_in_settings">तुम्ही Settings मध्ये कधीही ही पायरी पूर्ण करण्यासाठी परत येऊ शकता.</string>
-    <string name="what_bitwarden_has_to_offer">तुम्ही आता Byteward ने दिलेले सर्व काही एक्सप्लोर करू शकता आणि तुमचे संकेतशब्द सुरक्षितपणे व्यवस्थापित करणे सुरू करू शकता.</string>
+    <string name="what_bitwarden_has_to_offer">तुम्ही आता Bitwarden ने दिलेले सर्व काही एक्सप्लोर करू शकता आणि तुमचे संकेतशब्द सुरक्षितपणे व्यवस्थापित करणे सुरू करू शकता.</string>
     <string name="youre_all_set">तुम्ही सर्व सज्ज आहात!</string>
     <string name="error_connecting_with_the_duo_service_use_a_different_two_step_login_method_or_contact_duo_for_assistance">Duo सेवेशी कनेक्ट करताना त्रुटी. दुसरी द्वि-चरण लॉगिन पद्धत वापरा किंवा मदतीसाठी Duo शी संपर्क साधा.</string>
     <string name="master_password_hint_not_specified">मुख्य संकेतशब्द सूचक</string>
@@ -967,7 +967,7 @@ Do you want to switch to this account?</string>
     <string name="unsupported_certificate_type">असमर्थित प्रमाणपत्र प्रकार</string>
     <string name="certificate_password_incorrect">प्रमाणपत्र संकेतशब्द चुकीचा</string>
     <string name="invalid_certificate_chain">अवैध प्रमाणपत्र साखळी</string>
-    <string name="system_certificates_are_not_as_secure_as_importing_certificates_to_bitwarden">सिस्टम प्रमाणपत्र वापरणे हे प्रमाणपत्र Byteward सह संग्रहित करण्यापेक्षा कमी सुरक्षित आहे. सुरू ठेवल्यास, आधीपासून स्थापित असल्यास उपलब्ध सिस्टम प्रमाणपत्रांची यादी दिसेल.</string>
+    <string name="system_certificates_are_not_as_secure_as_importing_certificates_to_bitwarden">सिस्टम प्रमाणपत्र वापरणे हे प्रमाणपत्र Bitwarden सह संग्रहित करण्यापेक्षा कमी सुरक्षित आहे. सुरू ठेवल्यास, आधीपासून स्थापित असल्यास उपलब्ध सिस्टम प्रमाणपत्रांची यादी दिसेल.</string>
     <string name="link">लिंक</string>
     <string name="passkey_operation_failed_because_host_url_is_not_present_in_request">विनंतीमध्ये होस्ट URL उपस्थित नसल्यामुळे पासकी ऑपरेशन अयशस्वी.</string>
     <string name="passkey_operation_failed_because_app_signature_is_invalid">अॅप स्वाक्षरी अवैध असल्यामुळे पासकी ऑपरेशन अयशस्वी.</string>
@@ -1044,11 +1044,11 @@ Do you want to switch to this account?</string>
     <string name="missing_send_resync_your_vault">Send गहाळ, तुमची तिजोरी पुन्हा समक्रमित करा</string>
     <string name="use_dynamic_colors">डायनामिक रंग वापरा</string>
     <string name="use_dynamic_colors_question">डायनामिक रंग वापरायचे?</string>
-    <string name="dynamic_colors_may_not_adhere_to_accessibility_guidelines">ही रंग योजना तुमच्या सध्याच्या वॉलपेपरवर आधारित Byteward वर सिस्टम रंग स्वयंचलितपणे लागू करते. हे रंग सर्व अ‍ॅक्सेसिबिलिटी मार्गदर्शक तत्त्वे पूर्ण करू शकत नाहीत.</string>
+    <string name="dynamic_colors_may_not_adhere_to_accessibility_guidelines">ही रंग योजना तुमच्या सध्याच्या वॉलपेपरवर आधारित Bitwarden वर सिस्टम रंग स्वयंचलितपणे लागू करते. हे रंग सर्व अ‍ॅक्सेसिबिलिटी मार्गदर्शक तत्त्वे पूर्ण करू शकत नाहीत.</string>
     <string name="passkey_operation_failed_because_browser_x_is_not_trusted">ब्राउझर (%1$s) ओळखला न गेल्यामुळे पासकी ऑपरेशन अयशस्वी. %1$s ला स्थानिक विश्वसनीय अनुप्रयोगांच्या यादीत जोडण्यासाठी “Trust” निवडा.</string>
     <string name="passkey_operation_failed_because_the_browser_is_not_trusted">ब्राउझर विश्वसनीय नसल्यामुळे पासकी ऑपरेशन अयशस्वी.</string>
     <string name="trust">विश्वास ठेवा</string>
-    <string name="trusted_by_you_learn_more">ही अशी अनुप्रयोग किंवा ब्राउझर आहेत ज्यांना Byteward डिफॉल्टनुसार विश्वास ठेवत नाही, परंतु पासकी ऑपरेशन्स करण्यासाठी तुम्ही विश्वास ठेवता.</string>
+    <string name="trusted_by_you_learn_more">ही अशी अनुप्रयोग किंवा ब्राउझर आहेत ज्यांना Bitwarden डिफॉल्टनुसार विश्वास ठेवत नाही, परंतु पासकी ऑपरेशन्स करण्यासाठी तुम्ही विश्वास ठेवता.</string>
     <string name="trusted_by_community_learn_more">ही अशी अनुप्रयोग आहेत जी Google Play Store मध्ये समाविष्ट नाहीत, परंतु समुदाय सदस्य वापरतात आणि सुरक्षित म्हणून अहवाल देतात त्यानंतर Bitwarden पासकी ऑपरेशन्स करण्यासाठी विश्वास ठेवतो.</string>
     <string name="trusted_by_google_learn_more">ही अशी अनुप्रयोग आहेत ज्यांना Google सुरक्षित मानतो आणि Google च्या Play Store मध्ये उपलब्ध आहेत.</string>
     <string name="trusted_by_you">तुमच्याद्वारे विश्वसनीय</string>
@@ -1190,7 +1190,7 @@ Do you want to switch to this account?</string>
         <item quantity="other">%1$d आयटम तुमच्या तिजोरीत आयात केले गेले आहेत.</item>
     </plurals>
     <string name="enable_browser_autofill_to_keep_filling_passwords">संकेतशब्द भरणे सुरू ठेवण्यासाठी ब्राउझर स्वयंपूर्त सक्षम करा</string>
-    <string name="your_browser_recently_updated_how_autofill_works_singular">तुमचा ब्राउझर अलीकडे अद्ययावत झाला आहे, ज्यामुळे Byteward स्वयंपूर्त अक्षम झाली आहे. Byteward सह तुमचे संकेतशब्द भरणे सुरू ठेवण्यासाठी, स्वयंपूर्त सेटिंग्जमध्ये ब्राउझर स्वयंपूर्त सक्षम करा.</string>
+    <string name="your_browser_recently_updated_how_autofill_works_singular">तुमचा ब्राउझर अलीकडे अद्ययावत झाला आहे, ज्यामुळे Bitwarden स्वयंपूर्त अक्षम झाली आहे. Bitwarden सह तुमचे संकेतशब्द भरणे सुरू ठेवण्यासाठी, स्वयंपूर्त सेटिंग्जमध्ये ब्राउझर स्वयंपूर्त सक्षम करा.</string>
     <string name="not_now">आत्ता नाही</string>
     <string name="import_from_bitwarden">Bitwarden मधून आयात करा</string>
     <string name="select_account">खाते निवडा</string>
@@ -1290,7 +1290,7 @@ Do you want to switch to this account?</string>
     <string name="trusted">विश्वसनीय</string>
     <string name="preview_not_available_for_files">%1$s फाइल्ससाठी पूर्वावलोकन उपलब्ध नाही. तुम्ही तरीही ती तुमच्या डिव्हाइसवर पाहण्यासाठी डाउनलोड करू शकता.</string>
     <string name="this_file_is_too_large_to_preview">ही फाइल पूर्वावलोकनासाठी खूप मोठी आहे. तुम्ही तरीही ती तुमच्या डिव्हाइसवर पाहण्यासाठी डाउनलोड करू शकता.</string>
-    <string name="bitwarden_could_not_decrypt_this_file_so_the_preview_cannot_be_displayed">Byteward ही फाइल डिक्रिप्ट करू शकला नाही, म्हणून पूर्वावलोकन दाखवता येत नाही.</string>
+    <string name="bitwarden_could_not_decrypt_this_file_so_the_preview_cannot_be_displayed">Bitwarden ही फाइल डिक्रिप्ट करू शकला नाही, म्हणून पूर्वावलोकन दाखवता येत नाही.</string>
     <string name="preview_unavailable_for_this_file">या फाइलसाठी पूर्वावलोकन उपलब्ध नाही. तुम्ही तरीही ती तुमच्या डिव्हाइसवर पाहण्यासाठी डाउनलोड करू शकता.</string>
     <string name="preview_unavailable">पूर्वावलोकन उपलब्ध नाही</string>
     <string name="download_attachment">संलग्नक डाउनलोड करा</string>
@@ -1423,8 +1423,8 @@ Do you want to switch to this account?</string>
     <string name="local_network_access_required">स्थानिक नेटवर्क प्रवेश आवश्यक</string>
     <string name="ask_again_later">नंतर पुन्हा विचारा</string>
     <string name="enable_local_network_access">स्थानिक नेटवर्क प्रवेश सक्षम करा</string>
-    <string name="bitwarden_needs_local_network_access_to_sync_with_your_server">Byteward ला तुमच्या सर्व्हरसह समक्रमण करण्यासाठी स्थानिक नेटवर्क प्रवेश आवश्यक आहे. या परवानगीशिवाय, अॅप कनेक्ट होऊ शकणार नाही.</string>
-    <string name="without_this_permission_bitwarden_wont_be_able_to_sync_with_your_server">या परवानगीशिवाय, Byteward कनेक्ट होऊ शकणार नाही आणि तुमच्या सर्व्हरसह समक्रमण करू शकणार नाही. तुम्ही हे तुमच्या डिव्हाइस सेटिंग्जमध्ये सक्षम करू शकता.</string>
+    <string name="bitwarden_needs_local_network_access_to_sync_with_your_server">Bitwarden ला तुमच्या सर्व्हरसह समक्रमण करण्यासाठी स्थानिक नेटवर्क प्रवेश आवश्यक आहे. या परवानगीशिवाय, अॅप कनेक्ट होऊ शकणार नाही.</string>
+    <string name="without_this_permission_bitwarden_wont_be_able_to_sync_with_your_server">या परवानगीशिवाय, Bitwarden कनेक्ट होऊ शकणार नाही आणि तुमच्या सर्व्हरसह समक्रमण करू शकणार नाही. तुम्ही हे तुमच्या डिव्हाइस सेटिंग्जमध्ये सक्षम करू शकता.</string>
     <string name="your_request_was_interrupted_because_the_app_needs_local_network_access">अॅपला स्थानिक नेटवर्क प्रवेश आवश्यक असल्यामुळे तुमची विनंती व्यत्यय आणली गेली. तुम्ही हे तुमच्या डिव्हाइस सेटिंग्जमध्ये सक्षम करू शकता.</string>
     <string name="continue_to_stripe">Stripe वर सुरू ठेवायचे?</string>
     <string name="youll_be_taken_to_stripe_to_manage_your_subscription_cancellation">तुमची सदस्यता रद्दीकरण व्यवस्थापित करण्यासाठी तुम्हाला Stripe वर नेले जाईल.</string>
@@ -1446,7 +1446,7 @@ Do you want to switch to this account?</string>
     <string name="use_this_username">Use this username</string>
     <string name="create_login">Create login</string>
     <string name="keep_unlocking_with_biometrics">Keep unlocking with biometrics</string>
-    <string name="weve_made_a_security_update">We’ve made a security update. Confirm your biometrics again to keep using them to unlock Byteward.</string>
+    <string name="weve_made_a_security_update">We’ve made a security update. Confirm your biometrics again to keep using them to unlock Bitwarden.</string>
     <string name="turn_off">Turn off</string>
     <string name="turn_off_biometric_question">Turn off biometrics?</string>
     <string name="unlocking_will_require_your_master_password">Unlocking will require your master password. You can turn biometrics back on in Settings.</string>

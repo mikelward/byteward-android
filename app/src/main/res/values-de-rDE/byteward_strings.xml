@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Byteward overrides for strings defined in the :ui module, which keeps
+    upstream Bitwarden's text. App resources take precedence over library
+    resources when they are merged, so the app shows these versions while the
+    :ui files stay identical to upstream (and the Authenticator app, which also
+    uses :ui, keeps Bitwarden's text).
+
+    Each entry renames Bitwarden to Byteward where the password manager refers
+    to itself. Text about Bitwarden's service is not overridden.
+-->
+<resources>
+    <string name="set_bitwarden_as_passkey_manager_description">Lege Byteward in den Geräteeinstellungen als deinen Passkey-Anbieter fest.</string>
+    <string name="bitwarden_autofill_service">Byteward Auto-Ausfüllen Funktion</string>
+    <string name="bitwarden_autofill_service_alert2">Die einfachste Möglichkeit, neue Zugangsdaten zu deinem Tresor hinzuzufügen, ist der Byteward Auto-Ausfüllen Dienst. Erfahre mehr über den Byteward Auto-Ausfüllen Dienst, indem du zu den \"Einstellungen\" wechselst.</string>
+    <string name="autofill_service_description">Der Auto-Ausfüllen-Dienst von Byteward benutzt das Android Autofill Framework, um Zugangsdaten in anderen Apps auf deinem Gerät auszufüllen.</string>
+    <string name="default_uri_match_detection_description">Die URI-Übereinstimmungserkennung kontrolliert wie Byteward Auto-Ausfüllen-Vorschläge erkennt.</string>
+    <string name="autofill_tile_accessibility_required">Bitte aktiviere \"Bedienungshilfen zum automatischen Ausfüllen\" in den Byteward-Einstellungen, um die Auto-Ausfüllen-Kachel zu verwenden.</string>
+    <string name="accessibility_disclosure_text">Byteward verwendet die Bedienungshilfen, um nach Anmeldefeldern in Apps und auf Webseiten zu suchen und legt dann die entsprechenden Feld-IDs fest, um einen Benutzernamen und Passwort einzugeben, wenn eine Übereinstimmung mit der App oder der Seite gefunden wird. Wir speichern keine der Informationen, die uns der Dienst zur Verfügung stellt. Ebenso wenig versuchen wir beliebige Elemente auf dem Bildschirm außer der Texteingabe von Anmeldedaten zu kontrollieren.</string>
+    <string name="accessibility_disclosure_start_up_text_1">Diese Benachrichtigung ist erforderlich, bevor Byteward Auto-Ausfüllen auf Basis der Barrierefreiheit anbieten kann.</string>
+    <string name="accessibility_disclosure_start_up_text_2">Byteward bietet eine optionale Funktion zum automatischen Ausfüllen an, die den Android-Bedienungshilfendienst nutzt, um Anmeldefelder zu erkennen. Wenn du diese Funktion aktivierst, erkennt Byteward die entsprechenden Felder und füllt deine Zugangsdaten aus, sobald eine Übereinstimmung gefunden wurde.</string>
+    <string name="passkey_management_explanation_long">Verwende Byteward, um neue Passkeys zu speichern und dich mit Passkeys aus deinem Tresor anzumelden.</string>
+    <string name="your_passkey_will_be_saved_to_your_bitwarden_vault_for_x">Dein Passkey wird in deinem Byteward-Tresor für %1$s gespeichert</string>
+    <string name="your_password_will_be_saved_to_your_bitwarden_vault_for_x">Dein Passwort wird in deinem Byteward-Tresor für %1$s gespeichert</string>
+    <string name="welcome_message_1">Speichere Zugangsdaten, Karten und Identitäten in deinem sicheren Tresor. Byteward verwendet Zero-Knowledge und Ende-zu-Ende-Verschlüsselung, um das zu schützen, was für dich wichtig ist.</string>
+    <string name="browser_requires_special_permissions_for_bitwarden_singular">Du verwendest einen Browser, der spezielle Berechtigungen für Byteward benötigt, um deine Passwörter automatisch auszufüllen.</string>
+    <string name="browser_requires_special_permissions_for_bitwarden_plural">Du verwendest Browser, die spezielle Berechtigungen für Byteward benötigen, um deine Passwörter automatisch auszufüllen.</string>
+    <string name="youre_using_a_browser_that_requires_special_permissions_singular">Du verwendest einen Browser, der spezielle Berechtigungen für Byteward benötigt, um deine Passwörter automatisch auszufüllen. Schalte unten deine bevorzugte Auto-Ausfüllen-Integration ein.</string>
+    <string name="youre_using_a_browser_that_requires_special_permissions_plural">Du verwendest Browser, die spezielle Berechtigungen für Byteward benötigen, um deine Passwörter automatisch auszufüllen. Schalte für alle deine installierten Browser die Auto-Ausfüllen-Integration ein, um fortzufahren.</string>
+    <string name="what_bitwarden_has_to_offer">Du kannst nun Auto-Ausfüllen verwenden, um dich mit deinen gespeicherten Passwörtern bei Apps und Websites anzumelden. Du kannst jetzt alles erkunden, was Byteward sonst noch zu bieten hat.</string>
+    <string name="system_certificates_are_not_as_secure_as_importing_certificates_to_bitwarden">Die Verwendung eines Systemzertifikats ist weniger sicher als die Speicherung des Zertifikats mit Byteward. Im Folgenden wird eine Liste der verfügbaren Systemzertifikate angezeigt, wenn eines bereits installiert ist.</string>
+    <string name="trusted_by_you_learn_more">Dies sind Anwendungen oder Browser, die Byteward standardmäßig als nicht vertrauenswürdig einstuft, denen DU jedoch vertraust, um Passkey-Vorgänge durchzuführen.</string>
+    <string name="your_browser_recently_updated_how_autofill_works_singular">Dein Browser wurde kürzlich aktualisiert, was die Auto-Ausfüllen-Funktion von Byteward deaktiviert hat. Um deine Passwörter weiterhin mit Byteward auszufüllen, aktiviere Browser Auto-Ausfüllen in den Auto-Ausfüllen-Einstellungen.</string>
+    <string name="bitwarden_could_not_decrypt_this_file_so_the_preview_cannot_be_displayed">Byteward konnte diese Datei nicht entschlüsseln, daher kann die Vorschau nicht angezeigt werden.</string>
+    <string name="bitwarden_needs_local_network_access_to_sync_with_your_server">Byteward benötigt lokalen Netzwerkzugriff zum Synchronisieren mit deinem Server. Ohne diese Berechtigung kann sich die App nicht verbinden.</string>
+    <string name="without_this_permission_bitwarden_wont_be_able_to_sync_with_your_server">Ohne diese Berechtigung wird Byteward keine Verbindung herstellen und mit deinem Server synchronisieren können. Du kannst dies in deinen Geräteeinstellungen aktivieren.</string>
+    <string name="weve_made_a_security_update">Wir haben eine Sicherheitsaktualisierung durchgeführt. Bitte bestätige deine biometrischen Daten erneut, um sie weiterhin zum Entsperren von Byteward nutzen zu können.</string>
+</resources>

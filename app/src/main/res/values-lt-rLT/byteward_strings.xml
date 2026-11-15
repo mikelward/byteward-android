@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Byteward overrides for strings defined in the :ui module, which keeps
+    upstream Bitwarden's text. App resources take precedence over library
+    resources when they are merged, so the app shows these versions while the
+    :ui files stay identical to upstream (and the Authenticator app, which also
+    uses :ui, keeps Bitwarden's text).
+
+    Each entry renames Bitwarden to Byteward where the password manager refers
+    to itself. Text about Bitwarden's service is not overridden.
+-->
+<resources>
+    <string name="set_bitwarden_as_passkey_manager_description">Nustatykite „Byteward“ kaip prieigos raktų teikėją įrenginio nustatymuose.</string>
+    <string name="bitwarden_autofill_service">„Byteward“ automatinio užpildymo paslauga</string>
+    <string name="bitwarden_autofill_service_alert2">Lengviausias būdas pridėti naujus prisijungimus prie saugyklos yra naudojant „Byteward“ automatinio pildymo paslaugą. Daugiau apie „Byteward“ automatinio pildymo paslaugos naudojimą sužinokite eidami į ekraną „Nustatymai“.</string>
+    <string name="autofill_service_description">„Byteward“ automatinio pildymo paslauga naudoja „Android“ automatinio pildymo sistemą, kad padėtų užpildyti prisijungimo informaciją į kitas jūsų įrenginio programas.</string>
+    <string name="set_pin_description">Nustatykite savo PIN kodą, kad atrakintumėte „Byteward“. Jūsų PIN nustatymai bus nustatyti iš naujo, jei kada nors visiškai atsijungsite nuo programos.</string>
+    <string name="default_uri_match_detection_description">URI atitikimo aptikimas valdo, kaip „Byteward“ atpažįsta automatinio užpildymo pasiūlymus.</string>
+    <string name="autofill_tile_accessibility_required">Norėdami naudoti automatinio pildymo plytelę, įjunkite „Automatinio pildymo prieinamumo paslaugą“ iš „Byteward“ nustatymų.</string>
+    <string name="accessibility_disclosure_text">„Byteward“ naudoja pritaikymo neįgaliesiems paslaugą, kad ieškotų prisijungimo laukų programose ir svetainėse, tada nustato atitinkamus lauko ID, kad būtų įvestas vartotojo vardas ir slaptažodis, kai randama programos ar svetainės atitiktis. Mes nesaugome jokios informacijos, kurią mums teikia paslauga, ir nesistengiame valdyti jokių ekrano elementų, išskyrus teksto įvedimo kredencialus.</string>
+    <string name="accessibility_disclosure_start_up_text_1">Šis pranešimas yra būtinas prieš „Byteward“ siūlant automatinį pildymą, pagrįstą prieinamumu.</string>
+    <string name="accessibility_disclosure_start_up_text_2">„Byteward“ siūlo pasirenkamą automatinio pildymo metodą, kuris naudoja „Android“ prieinamumo paslaugą prisijungimo laukams aptikti. Jei jį įjungsite, „Byteward“ nustatys atitinkamus laukus ir, radęs atitikmenį, užpildys jūsų prisijungimo duomenis.</string>
+    <string name="passkey_management_explanation_long">Naudokite „Byteward“, kad išsaugotumėte naujus prieigos raktus ir prisijungtumėte naudodami saugykloje saugomus prieigos raktus.</string>
+    <string name="autofill_services_explanation_long">Leiskite „Byteward“ naudoti jūsų išsaugotą prisijungimo informaciją, kad prisijungtumėte prie kitų įrenginio programų.</string>
+    <string name="your_passkey_will_be_saved_to_your_bitwarden_vault_for_x">Jūsų prieigos raktas bus išsaugotas jūsų „Byteward“ saugykloje, skirtas %1$s</string>
+    <string name="your_password_will_be_saved_to_your_bitwarden_vault_for_x">Jūsų slaptažodis bus išsaugotas jūsų „Byteward“ saugykloje, skirtas %1$s</string>
+    <string name="welcome_message_1">Išsaugokite prisijungimus, korteles ir tapatybes savo saugioje saugykloje. „Byteward“ naudoja nulinio žinojimo, galinio-galio šifravimą, kad apsaugotų tai, kas jums svarbu.</string>
+    <string name="browser_requires_special_permissions_for_bitwarden_singular">Naudojate naršyklę, kuriai reikalingi specialūs leidimai, kad „Byteward“ galėtų automatiškai užpildyti jūsų slaptažodžius.</string>
+    <string name="browser_requires_special_permissions_for_bitwarden_plural">Naudojate naršykles, kurioms reikalingi specialūs leidimai, kad „Byteward“ galėtų automatiškai užpildyti jūsų slaptažodžius.</string>
+    <string name="youre_using_a_browser_that_requires_special_permissions_singular">Naudojate naršyklę, kuriai reikalingi specialūs leidimai, kad „Byteward“ galėtų automatiškai užpildyti jūsų slaptažodžius. Žemiau įjunkite norimą automatinio pildymo integraciją.</string>
+    <string name="youre_using_a_browser_that_requires_special_permissions_plural">Naudojate naršykles, kurioms reikalingi specialūs leidimai, kad „Byteward“ galėtų automatiškai užpildyti jūsų slaptažodžius. Norėdami tęsti, įjunkite automatinį pildymą visose įdiegtose naršyklėse.</string>
+    <string name="what_bitwarden_has_to_offer">Dabar galite išbandyti viską, ką siūlo „Byteward“, ir pradėti saugiai tvarkyti savo slaptažodžius.</string>
+    <string name="system_certificates_are_not_as_secure_as_importing_certificates_to_bitwarden">Sistemos sertifikato naudojimas yra mažiau saugus nei sertifikato saugojimas su „Byteward“. Tęsiant bus rodomas galimų sistemos sertifikatų sąrašas, jei toks jau yra įdiegtas.</string>
+    <string name="dynamic_colors_may_not_adhere_to_accessibility_guidelines">Ši spalvų schema automatiškai pritaiko sistemos spalvas „Byteward“ pagal jūsų dabartinį darbalaukio foną. Šios spalvos gali neatitikti visų prieinamumo gairių.</string>
+    <string name="trusted_by_you_learn_more">Tai programos ar naršyklės, kuriomis „Byteward“ pagal numatytuosius nustatymus nepasitiki, bet jūs pasitikite, kad jos atliktų prieigos raktų operacijas.</string>
+    <string name="your_browser_recently_updated_how_autofill_works_singular">Jūsų naršyklė neseniai buvo atnaujinta, dėl to „Byteward“ automatinis pildymas buvo išjungtas. Norėdami toliau pildyti slaptažodžius su „Byteward“, įjunkite naršyklės automatinį pildymą automatinio pildymo nustatymuose.</string>
+    <string name="bitwarden_could_not_decrypt_this_file_so_the_preview_cannot_be_displayed">„Byteward“ nepavyko iššifruoti šio failo, todėl peržiūra negali būti rodoma.</string>
+    <string name="bitwarden_needs_local_network_access_to_sync_with_your_server">„Byteward“ reikalinga prieiga prie vietinio tinklo, kad sinchronizuotųsi su jūsų serveriu. Be šio leidimo programa negalės prisijungti.</string>
+    <string name="without_this_permission_bitwarden_wont_be_able_to_sync_with_your_server">Be šio leidimo „Byteward“ negalės prisijungti ir sinchronizuotis su jūsų serveriu. Tai galite įjungti savo įrenginio nustatymuose.</string>
+    <string name="weve_made_a_security_update">We’ve made a security update. Confirm your biometrics again to keep using them to unlock Byteward.</string>
+</resources>

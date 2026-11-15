@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Byteward overrides for strings defined in the :ui module, which keeps
+    upstream Bitwarden's text. App resources take precedence over library
+    resources when they are merged, so the app shows these versions while the
+    :ui files stay identical to upstream (and the Authenticator app, which also
+    uses :ui, keeps Bitwarden's text).
+
+    Each entry renames Bitwarden to Byteward where the password manager refers
+    to itself. Text about Bitwarden's service is not overridden.
+-->
+<resources>
+    <string name="set_bitwarden_as_passkey_manager_description">デバイス設定で Byteward をパスキープロバイダとして設定してください。</string>
+    <string name="bitwarden_autofill_service">Byteward 自動入力サービス</string>
+    <string name="bitwarden_autofill_service_alert2">ログイン情報を保管庫に追加する一番簡単な方法は Byteward の自動入力機能を使うことです。詳しくは「設定」画面に進んでください。</string>
+    <string name="autofill_service_description">Byteward 自動入力サービスは、Android の自動入力フレームワークを使用して、デバイス上の他のアプリへのログイン情報の入力を補助します。</string>
+    <string name="set_pin_description">Byteward のロックを解除するための PIN コードを設定します。アプリから完全にログアウトすると、PIN 設定はリセットされます。</string>
+    <string name="default_uri_match_detection_description">URI 一致検出は、Byteward が自動入力の候補をどのように識別するかを制御します。</string>
+    <string name="autofill_tile_accessibility_required">自動入力タイルを使用するには、Byteward の設定で「自動入力のユーザー補助」を有効にしてください。</string>
+    <string name="accessibility_disclosure_text">Byteward は、アプリやウェブサイトのログインフィールドを検索し、該当するアプリやサイトが見つかった場合にユーザー名とパスワードを入力するための適切なフィールドIDを確立するためにユーザー補助を使用しています。私たちはサービスから提供された情報を保存することはありませんし、資格情報のテキスト入力以外の画面要素の制御をしようとすることもありません。</string>
+    <string name="accessibility_disclosure_start_up_text_1">Byteward がユーザー補助ベースの自動入力を提供する前に、この通知が必要です。</string>
+    <string name="accessibility_disclosure_start_up_text_2">Byteward はログインフィールドを検出するために Android のユーザー補助サービスを使うオプションの自動入力方法を提供します。 有効にすると Byteward は適切なフィールドを特定し、一致するフィールドが見つかったときに資格情報を入力します。</string>
+    <string name="passkey_management_explanation_long">Byteward を使って新しいパスキーを保存し、保管庫に保存されているパスキーでログインします。</string>
+    <string name="autofill_services_explanation_long">Byteward が保存済みのログイン情報を使用して、デバイス上の他のアプリにサインインすることを許可します。</string>
+    <string name="your_passkey_will_be_saved_to_your_bitwarden_vault_for_x">あなたのパスキーは %1$s の Byteward 保管庫に保存されます。</string>
+    <string name="your_password_will_be_saved_to_your_bitwarden_vault_for_x">パスワードは %1$s の Byteward 保管庫に保存されます</string>
+    <string name="welcome_message_1">ログイン情報、カード、ID を安全な保管庫に保存します。Byteward はゼロ知識、エンドツーエンドの暗号化を使用して、あなたにとって重要なものを保護します。</string>
+    <string name="browser_requires_special_permissions_for_bitwarden_singular">お使いのブラウザでは、Byteward がパスワードを自動入力するために特別な権限が必要です。</string>
+    <string name="browser_requires_special_permissions_for_bitwarden_plural">お使いのブラウザでは、Byteward がパスワードを自動入力するために特別な権限が必要です。</string>
+    <string name="youre_using_a_browser_that_requires_special_permissions_singular">お使いのブラウザでは、Byteward がパスワードを自動入力するために特別な権限が必要です。以下でお好みの自動入力連携機能を有効にしてください。</string>
+    <string name="youre_using_a_browser_that_requires_special_permissions_plural">お使いのブラウザでは、Byteward がパスワードを自動入力するために特別な権限が必要です。続行するには、インストールされているすべてのブラウザで自動入力を有効にしてください。</string>
+    <string name="what_bitwarden_has_to_offer">自動入力を使用して、保存したパスワードを使ってアプリやウェブサイトにログインできるようになりました。これで、Byteward が提供しているすべての機能の確認が終わりました。</string>
+    <string name="system_certificates_are_not_as_secure_as_importing_certificates_to_bitwarden">システム証明書を使用することは、Bytewardに証明書を保存するよりも安全性が低くなります。続行すると、インストールされている場合は利用可能なシステム証明書のリストが表示されます。</string>
+    <string name="dynamic_colors_may_not_adhere_to_accessibility_guidelines">このカラースキームは、現在の壁紙に基づいてシステムカラーをBytewardに自動的に適用します。これらの色はすべてのアクセシビリティガイドラインを満たしていない場合があります。</string>
+    <string name="trusted_by_you_learn_more">これらは、Byteward がデフォルトでは信頼していないものの、パスキー操作を実行することをユーザーが信頼しているアプリまたはブラウザです。</string>
+    <string name="your_browser_recently_updated_how_autofill_works_singular">お使いのブラウザが最近更新されたため、Bytewardの自動入力機能が無効になっています。Byteward によるパスワードの自動入力を継続して使用するには、自動入力設定でブラウザの自動入力機能を有効にしてください。</string>
+    <string name="bitwarden_could_not_decrypt_this_file_so_the_preview_cannot_be_displayed">Byteward はこのファイルを復号できませんでした。プレビューを表示できません。</string>
+    <string name="bitwarden_needs_local_network_access_to_sync_with_your_server">Byteward はサーバーと同期するためにローカルネットワークへのアクセスが必要です。この許可がないとアプリは接続できません。</string>
+    <string name="without_this_permission_bitwarden_wont_be_able_to_sync_with_your_server">この許可がないと、Byteward はあなたのサーバーに接続して同期できません。デバイスの設定で有効にできます。</string>
+    <string name="weve_made_a_security_update">セキュリティを更新しました。生体認証を再度確認して、Byteward のロックを解除してください。</string>
+</resources>

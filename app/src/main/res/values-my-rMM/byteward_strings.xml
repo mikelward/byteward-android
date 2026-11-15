@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Byteward overrides for strings defined in the :ui module, which keeps
+    upstream Bitwarden's text. App resources take precedence over library
+    resources when they are merged, so the app shows these versions while the
+    :ui files stay identical to upstream (and the Authenticator app, which also
+    uses :ui, keeps Bitwarden's text).
+
+    Each entry renames Bitwarden to Byteward where the password manager refers
+    to itself. Text about Bitwarden's service is not overridden.
+-->
+<resources>
+    <string name="set_bitwarden_as_passkey_manager_description">စက်ပစ္စည်း ဆက်တင်များတွင် Byteward ကို သင့် passkey ပံ့ပိုးပေးသူအဖြစ် သတ်မှတ်ပါ။</string>
+    <string name="bitwarden_autofill_service">Byteward အလိုအလျောက်ဖြည့်ခြင်း ဝန်ဆောင်မှု</string>
+    <string name="bitwarden_autofill_service_alert2">သင့်ဗော်လ်တ်သို့ ဝင်ရောက်မှုအသစ်များထည့်ရန် အလွယ်ဆုံးနည်းလမ်းမှာ Byteward အလိုအလျောက်ဖြည့်ခြင်း ဝန်ဆောင်မှုမှဖြစ်သည်။ Byteward အလိုအလျောက်ဖြည့်ခြင်း ဝန်ဆောင်မှုကို အသုံးပြုခြင်းအကြောင်း ပိုမိုလေ့လာရန် “ဆက်တင်များ” မျက်နှာပြင်သို့ သွားပါ။</string>
+    <string name="autofill_service_description">Byteward အလိုအလျောက်ဖြည့်ခြင်း ဝန်ဆောင်မှုသည် သင့်စက်ပစ္စည်းပေါ်ရှိ အခြားအက်ပ်များသို့ ဝင်ရောက်မှုအချက်အလက်များ ဖြည့်ရန် Android Autofill Framework ကို သုံးသည်။</string>
+    <string name="set_pin_description">သင့် PIN သည် အနည်းဆုံး စာလုံး ၄ လုံး ရှိရပါမည်။ သင်ကိုယ်တိုင် Byteward အက်ပ်မှ ထွက်ပါက သင့် PIN ဆက်တင်များကို ပြန်လည်သတ်မှတ်မည်။</string>
+    <string name="default_uri_match_detection_description">URI ကိုက်ညီမှု ရှာဖွေခြင်းသည် Byteward မှ အလိုအလျောက်ဖြည့်ရန် အကြံပြုချက်များကို မည်သို့ခွဲခြားသတ်မှတ်သည်ကို ထိန်းချုပ်သည်။</string>
+    <string name="autofill_tile_accessibility_required">Autofill တိုင်ကို သုံးရန် Byteward ဆက်တင်များမှ “Autofill Accessibility Service” ကို ဖွင့်ပါ။</string>
+    <string name="accessibility_disclosure_text">Byteward သည် အက်ပ်များနှင့် ဝဘ်ဆိုက်များရှိ ဝင်ရောက်မှုအကွက်များကို ရှာဖွေရန် Accessibility Service ကို သုံးပြီး၊ ထို့နောက် အက်ပ် သို့မဟုတ် ဆိုက်အတွက် ကိုက်ညီမှုတွေ့ရှိပါက အသုံးပြုသူအမည်နှင့် စကားဝှက် ထည့်သွင်းရန် သင့်လျော်သော အကွက် ID များကို သတ်မှတ်ပေးသည်။ ကျွန်ုပ်တို့သည် ဝန်ဆောင်မှုမှ ပေးအပ်သော အချက်အလက်များကို မသိမ်းဆည်းပါ၊ အထောက်အထားများ စာသားထည့်သွင်းခြင်းထက် မျက်နှာပြင်ပေါ်ရှိ ဒြပ်စင်များကို ထိန်းချုပ်ရန် ကြိုးစားခြင်း မပြုပါ။</string>
+    <string name="accessibility_disclosure_start_up_text_1">Byteward မှ သုံးစွဲနိုင်မှုအခြေပြု အလိုအလျောက်ဖြည့်ခြင်းကို မကမ်းလှမ်းမီ ဤအသိပေးချက် လိုအပ်သည်။</string>
+    <string name="accessibility_disclosure_start_up_text_2">Byteward သည် Android ၏ Accessibility Service ကို သုံး၍ ဝင်ရောက်မှုအကွက်များကို ရှာဖွေသည့် ရွေးချယ်နိုင်သော အလိုအလျောက်ဖြည့်ခြင်းနည်းလမ်းကို ကမ်းလှမ်းသည်။ သင်ဖွင့်ပါက၊ Byteward သည် သင့်လျော်သော အကွက်များကို ခွဲခြားသတ်မှတ်ပြီး ကိုက်ညီမှုတွေ့ရှိပါက သင့်အထောက်အထားများကို ဖြည့်ပေးမည်။</string>
+    <string name="passkey_management_explanation_long">Byteward ကို သုံး၍ passkey အသစ်များ သိမ်းဆည်းပြီး သင့်ဗော်လ်တ်တွင် သိမ်းဆည်းထားသော passkey များဖြင့် ဝင်ရောက်ပါ။</string>
+    <string name="autofill_services_explanation_long">Byteward ကို သင့်သိမ်းဆည်းထားသော ဝင်ရောက်မှုအချက်အလက်များကို သုံး၍ သင့်စက်ပစ္စည်းပေါ်ရှိ အခြားအက်ပ်များသို့ ဝင်ရောက်ရန် ခွင့်ပြုပါ။</string>
+    <string name="your_passkey_will_be_saved_to_your_bitwarden_vault_for_x">သင့် passkey ကို %1$s အတွက် သင့် Byteward ဗော်လ်တ်တွင် သိမ်းဆည်းမည်</string>
+    <string name="your_password_will_be_saved_to_your_bitwarden_vault_for_x">သင့်စကားဝှက်ကို %1$s အတွက် သင့် Byteward ဗော်လ်တ်တွင် သိမ်းဆည်းမည်</string>
+    <string name="welcome_message_1">ဝင်ရောက်မှုများ၊ ကဒ်များနှင့် ကိုယ်ရေးအချက်အလက်များကို သင့်လုံခြုံသော ဗော်လ်တ်တွင် သိမ်းဆည်းပါ။ Byteward သည် သင့်အတွက် အရေးကြီးသောအရာများကို ကာကွယ်ရန် zero-knowledge၊ end-to-end ကုဒ်ဝှက်ခြင်းကို သုံးပါသည်။</string>
+    <string name="browser_requires_special_permissions_for_bitwarden_singular">သင်သည် Byteward အား သင့်စကားဝှက်များကို အလိုအလျောက်ဖြည့်ရန် အထူးခွင့်ပြုချက်များ လိုအပ်သော ဘရောက်ဆာကို သုံးနေသည်။</string>
+    <string name="browser_requires_special_permissions_for_bitwarden_plural">သင်သည် Byteward အား သင့်စကားဝှက်များကို အလိုအလျောက်ဖြည့်ရန် အထူးခွင့်ပြုချက်များ လိုအပ်သော ဘရောက်ဆာများကို သုံးနေသည်။</string>
+    <string name="youre_using_a_browser_that_requires_special_permissions_singular">သင်သည် Byteward အား သင့်စကားဝှက်များကို အလိုအလျောက်ဖြည့်ရန် အထူးခွင့်ပြုချက်များ လိုအပ်သော ဘရောက်ဆာကို သုံးနေသည်။ အောက်တွင် သင့်နှစ်သက်ရာ အလိုအလျောက်ဖြည့်ခြင်း ပေါင်းစပ်မှုကို ဖွင့်ပါ။</string>
+    <string name="youre_using_a_browser_that_requires_special_permissions_plural">သင်သည် Byteward အား သင့်စကားဝှက်များကို အလိုအလျောက်ဖြည့်ရန် အထူးခွင့်ပြုချက်များ လိုအပ်သော ဘရောက်ဆာများကို သုံးနေသည်။ ဆက်လက်ရန် သင့်တပ်ဆင်ထားသော ဘရောက်ဆာအားလုံးအတွက် အလိုအလျောက်ဖြည့်ခြင်းကို ဖွင့်ပါ။</string>
+    <string name="what_bitwarden_has_to_offer">သင်သည် ယခု Byteward ၏ အခြားသော အင်္ဂါရပ်များကို စူးစမ်းပြီး သင့်စကားဝှက်များကို လုံခြုံစွာ စီမံခန့်ခွဲခြင်း စတင်နိုင်ပါပြီ။</string>
+    <string name="system_certificates_are_not_as_secure_as_importing_certificates_to_bitwarden">စနစ်လက်မှတ်ကို သုံးခြင်းသည် လက်မှတ်ကို Byteward ဖြင့် သိမ်းဆည်းခြင်းထက် လုံခြုံမှုနည်းသည်။ ဆက်လုပ်ပါက တပ်ဆင်ထားပြီးသားရှိပါက ရရှိနိုင်သော စနစ်လက်မှတ်များစာရင်းကို ပြသမည်။</string>
+    <string name="dynamic_colors_may_not_adhere_to_accessibility_guidelines">ဤအရောင်အစီအစဉ်သည် သင့်လက်ရှိ နောက်ခံပုံအပေါ် အခြေခံ၍ Byteward သို့ စနစ်အရောင်များကို အလိုအလျောက် သက်ရောက်စေသည်။ ဤအရောင်များသည် သုံးစွဲနိုင်မှု လမ်းညွှန်ချက်အားလုံးနှင့် မကိုက်ညီနိုင်ပါ။</string>
+    <string name="trusted_by_you_learn_more">ဤအရာများသည် Byteward မှ မူရင်းအတိုင်း မယုံကြည်သော်လည်း passkey လုပ်ဆောင်ချက်များကို လုပ်ဆောင်ရန် သင်ယုံကြည်သော အက်ပ်များ သို့မဟုတ် ဘရောက်ဆာများဖြစ်သည်။</string>
+    <string name="your_browser_recently_updated_how_autofill_works_singular">သင့်ဘရောက်ဆာ မကြာသေးမီက အပ်ဒိတ်လုပ်ထားပြီး၊ ၎င်းသည် Byteward အလိုအလျောက်ဖြည့်ခြင်းကို ပိတ်ထားသည်။ Byteward ဖြင့် သင့်စကားဝှက်များကို ဆက်လက်ဖြည့်ရန်၊ အလိုအလျောက်ဖြည့်ခြင်း ဆက်တင်များတွင် ဘရောက်ဆာ အလိုအလျောက်ဖြည့်ခြင်းကို ဖွင့်ပါ။</string>
+    <string name="bitwarden_could_not_decrypt_this_file_so_the_preview_cannot_be_displayed">Byteward သည် ဤဖိုင်ကို ကုဒ်ဖြင့်ဖွင့်၍ မရသောကြောင့် ကြိုကြည့်ခြင်းကို ပြသ၍ မရပါ။</string>
+    <string name="bitwarden_needs_local_network_access_to_sync_with_your_server">Byteward သည် သင့်ဆာဗာနှင့် ထပ်တူပြုရန် ဒေသဆိုင်ရာကွန်ရက် ဝင်ရောက်ခွင့် လိုအပ်သည်။ ဤခွင့်ပြုချက်မရှိဘဲ၊ အက်ပ်သည် ချိတ်ဆက်နိုင်မည် မဟုတ်ပါ။</string>
+    <string name="without_this_permission_bitwarden_wont_be_able_to_sync_with_your_server">ဤခွင့်ပြုချက်မရှိဘဲ၊ Byteward သည် သင့်ဆာဗာနှင့် ချိတ်ဆက်ပြီး ထပ်တူပြုနိုင်မည် မဟုတ်ပါ။ သင်သည် ဤအရာကို သင့်စက်ပစ္စည်းဆက်တင်များတွင် ဖွင့်နိုင်သည်။</string>
+    <string name="weve_made_a_security_update">We’ve made a security update. Confirm your biometrics again to keep using them to unlock Byteward.</string>
+</resources>

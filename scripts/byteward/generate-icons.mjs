@@ -79,12 +79,12 @@ for (const sourceSet of ["main", "release", "beta"]) {
 }
 
 // The splash screen icon, on the same 108 dp canvas.
-write("ui/src/main/res/drawable/logo_shield_icon.xml", launcherForeground);
+write("app/src/main/res/drawable/logo_shield_icon.xml", launcherForeground);
 
 // The app icon as a single drawable, used by autofill suggestions and the
 // credential exchange registry: a black rounded square with a white mark.
 write(
-  "ui/src/main/res/drawable/logo_bitwarden_icon.xml",
+  "app/src/main/res/drawable/logo_bitwarden_icon.xml",
   vector({
     width: 1024,
     height: 1024,
@@ -101,7 +101,7 @@ write(
 // The small single-colour icon, tinted wherever it is used. Toolbar-sized, so
 // it uses the simpler version of the mark.
 write(
-  "ui/src/main/res/drawable/ic_shield.xml",
+  "app/src/main/res/drawable/ic_shield.xml",
   vector({
     width: 20,
     height: 20,
@@ -123,7 +123,7 @@ write(
   const gap = 9;
   const width = Math.ceil(markWidth + gap + ww * wordScale);
   write(
-    "ui/src/main/res/drawable/logo_bitwarden.xml",
+    "app/src/main/res/drawable/logo_bitwarden.xml",
     vector({
       width,
       height,

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Byteward overrides for strings defined in the :ui module, which keeps
+    upstream Bitwarden's text. App resources take precedence over library
+    resources when they are merged, so the app shows these versions while the
+    :ui files stay identical to upstream (and the Authenticator app, which also
+    uses :ui, keeps Bitwarden's text).
+
+    Each entry renames Bitwarden to Byteward where the password manager refers
+    to itself. Text about Bitwarden's service is not overridden.
+-->
+<resources>
+    <string name="set_bitwarden_as_passkey_manager_description">הגדר את Byteward כספק מפתחות הגישה שלך בהגדרות המכשיר.</string>
+    <string name="bitwarden_autofill_service">שירות מילוי אוטומטי של Byteward</string>
+    <string name="bitwarden_autofill_service_alert2">הדרך הקלה ביותר להוסיף כניסות חדשות לכספת שלך היא דרך שירות המילוי האוטומטי של Byteward. למד עוד אודות השימוש בשירות המילוי האוטומטי של Byteward על ידי ניווט למסך ה\"הגדרות\".</string>
+    <string name="autofill_service_description">שירות המילוי האוטומטי של Byteward משתמש במסגרת המילוי האוטומטי של אנדרואיד כדי לסייע במילוי פרטי כניסה אל תוך יישומים אחרים במכשיר שלך.</string>
+    <string name="set_pin_description">קבע את קוד ה־PIN שלך לביטול נעילת Byteward. הגדרות ה־PIN שלך יאופסו אם אי פעם תצא באופן מלא מהיישום.</string>
+    <string name="default_uri_match_detection_description">זיהוי התאמת URI שולט באופן שבו Byteward מזהה הצעות למילוי אוטומטי.</string>
+    <string name="autofill_tile_accessibility_required">נא להפעיל את \"שירות הנגישות של המילוי האוטומטי\" מהגדרות Byteward כדי להשתמש באריח המילוי האוטומטי.</string>
+    <string name="accessibility_disclosure_text">Byteward משתמש בשירות הנגישות כדי לחפש שדות כניסה ביישומים ואתרים, ואז לקבוע את מזהה השדה המתאים להזנת שם משתמש &amp; סיסמה כאשר נמצאה התאמה עבור היישום או האתר. איננו שומרים את המידע שמוגש לנו על ידי השירות, אנחנו גם לא עושים שום ניסיון לשלוט ברכיבים שעל המסך מעבר להזנת טקסט של אישורים.</string>
+    <string name="accessibility_disclosure_start_up_text_1">הודעה זו נדרשת לפני ש-Byteward יוכל להציע מילוי אוטומטי מבוסס נגישות.</string>
+    <string name="accessibility_disclosure_start_up_text_2">Byteward מציע שיטת מילוי אוטומטי אופציונלית המשתמשת בשירות הנגישות של Android כדי לזהות שדות התחברות. אם תפעיל אותה, Byteward יזהה את השדות המתאימים וימלא את פרטי הכניסה שלך כאשר תימצא התאמה.</string>
+    <string name="passkey_management_explanation_long">השתמש ב־Byteward כדי לשמור מפתחות גישה חדשים ולהיכנס עם מפתחות גישה המאוחסנים בכספת שלך.</string>
+    <string name="your_passkey_will_be_saved_to_your_bitwarden_vault_for_x">מפתח הגישה שלך יישמר בכספת ה־Byteward שלך עבור %1$s</string>
+    <string name="your_password_will_be_saved_to_your_bitwarden_vault_for_x">הסיסמה שלך תישמר בכספת ה-Byteward שלך למשך %1$s</string>
+    <string name="welcome_message_1">שמור כניסות, כרטיסים, וזהויות לכספת המאובטחת שלך. Byteward משתמש בהצפנה מקצה־לקצה באפס ידיעה כדי להגן על מה שחשוב לך.</string>
+    <string name="browser_requires_special_permissions_for_bitwarden_singular">אתה משתמש בדפדפן שדורש הרשאות מיוחדות בשביל ש־Byteward ימלא אוטומטית את הסיסמאות שלך.</string>
+    <string name="browser_requires_special_permissions_for_bitwarden_plural">אתה משתמש בדפדפנים שדורשים הרשאות מיוחדות בשביל ש־Byteward ימלא אוטומטית את הסיסמאות שלך.</string>
+    <string name="youre_using_a_browser_that_requires_special_permissions_singular">אתה משתמש בדפדפנים שדורשים הרשאות מיוחדות בשביל ש־Byteward ימלא אוטומטית את הסיסמאות שלך. הפעל את אינטגרציית המילוי האוטומטי המועדפת שלך למטה.</string>
+    <string name="youre_using_a_browser_that_requires_special_permissions_plural">אתה משתמש בדפדפנים שדורשים הרשאות מיוחדות בשביל ש־Byteward ימלא אוטומטית את הסיסמאות שלך. הפעל מילוי אוטומטי עבור כל הדפדפנים המותקנים שלך כדי להמשיך.</string>
+    <string name="what_bitwarden_has_to_offer">אתה יכול עכשיו לגלות את כל מה שיש ל־Byteward להציע ולהתחיל לנהל את הסיסמאות שלך באופן מאובטח.</string>
+    <string name="system_certificates_are_not_as_secure_as_importing_certificates_to_bitwarden">שימוש בתעודת מערכת הוא פחות מאובטח מאשר אחסון התעודה עם Byteward. בהמשך תוצג רשימה של תעודות מערכת זמינות אם אחת כבר מותקנת.</string>
+    <string name="dynamic_colors_may_not_adhere_to_accessibility_guidelines">מערך צבעים זה יחיל באופן אוטומטי צבעי מערכת ב־Byteward בהתבסס על הטפט הנוכחי שלך. הצבעים האלה עשויים שלא לעמוד בכל הנחיות הנגישות.</string>
+    <string name="trusted_by_you_learn_more">אלה היישומים או הדפדפנים ש־Byteward אינו נותן בהם אמון כברירת מחדל, אבל אתה נותן בהם אמון לביצוע פעולות של מפתח גישה.</string>
+    <string name="your_browser_recently_updated_how_autofill_works_singular">הדפדפן שלך עודכן לאחרונה, מה שהשבית את המילוי האוטומטי של Byteward. כדי להמשיך למלא סיסמאות עם Byteward, יש להפעיל את המילוי האוטומטי של הדפדפן בהגדרות למילוי אוטומטי.</string>
+    <string name="bitwarden_could_not_decrypt_this_file_so_the_preview_cannot_be_displayed">Byteward לא הצליח לפענח קובץ זה, כך שלא ניתן להציג את התצוגה המקדימה.</string>
+    <string name="bitwarden_needs_local_network_access_to_sync_with_your_server">Byteward זקוק לגישה לרשת המקומית כדי לסנכרן עם השרת שלך. ללא הרשאה זו, האפליקציה לא תוכל להתחבר.</string>
+    <string name="without_this_permission_bitwarden_wont_be_able_to_sync_with_your_server">ללא הרשאה זו, Byteward לא יוכל להתחבר ולסנכרן עם השרת שלך. תוכל להפעיל זאת בהגדרות המכשיר שלך.</string>
+    <string name="weve_made_a_security_update">We’ve made a security update. Confirm your biometrics again to keep using them to unlock Byteward.</string>
+</resources>

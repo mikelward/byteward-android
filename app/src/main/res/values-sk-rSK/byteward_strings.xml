@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Byteward overrides for strings defined in the :ui module, which keeps
+    upstream Bitwarden's text. App resources take precedence over library
+    resources when they are merged, so the app shows these versions while the
+    :ui files stay identical to upstream (and the Authenticator app, which also
+    uses :ui, keeps Bitwarden's text).
+
+    Each entry renames Bitwarden to Byteward where the password manager refers
+    to itself. Text about Bitwarden's service is not overridden.
+-->
+<resources>
+    <string name="set_bitwarden_as_passkey_manager_description">Nastavte Byteward ako poskytovateľa prístupových kľúčov v nastaveniach zariadenia.</string>
+    <string name="bitwarden_autofill_service">Služba automatického vypĺňania Bytewardom</string>
+    <string name="bitwarden_autofill_service_alert2">Najjednoduchší spôsob, ako pridať nové prihlasovacie údaje do vášho trezora, je prostredníctvom služby automatického vypĺňania Bytewardu. Ďalšie informácie o používaní automatického vypĺňania Bytewardu získate prechodom do obrazovky Nastavení.</string>
+    <string name="autofill_service_description">Služba automatického vypĺňania Byteward používa Android Autofill Framework na zjednodušenie vypĺňania prihlasovacích údajov do iných aplikácií v zariadení.</string>
+    <string name="set_pin_description">Váš PIN kód musí mať aspoň 4 znaky. Nastavenie PIN kódu sa vynuluje, ak sa manuálne odhlásite z aplikácie Byteward.</string>
+    <string name="default_uri_match_detection_description">Zisťovanie zhody URI ovláda, ako Byteward identifikuje návrhy na automatické vypĺňanie.</string>
+    <string name="autofill_tile_accessibility_required">Zapnite \"Služba prístupnosti automatického vypĺňania\" v nastaveniach Bytewardu, aby ste mohli používať dlaždicu na automatické vypĺňanie.</string>
+    <string name="accessibility_disclosure_text">Byteward používa službu dostupnosti na vyhľadávanie prihlasovacích polí v aplikáciách a na webových stránkach a potom vytvára príslušné ID polí na zadanie používateľského mena a hesla, keď sa nájde zhoda s aplikáciou alebo webom. Neuchovávame žiadne informácie, ktoré nám poskytuje služba, ani sa nepokúšame ovládať žiadne prvky na obrazovke okrem zadávania textu prihlasovacích údajov.</string>
+    <string name="accessibility_disclosure_start_up_text_1">Toto upozornenie je potrebné, aby mohol Byteward ponúkať automatické vypĺňanie na základe dostupnosti.</string>
+    <string name="accessibility_disclosure_start_up_text_2">Byteward ponúka voliteľnú funkciu automatického vypĺňania, ktorá na detekciu prihlasovacích polí využíva službu dostupnosti Androidu. Ak túto funkciu povolíte, Byteward identifikuje príslušné polia a po nájdení zhody do nich vyplní vaše prihlasovacie údaje.</string>
+    <string name="passkey_management_explanation_long">Používajte Byteward na ukladanie nových prístupových kľúčov a prihlasovanie pomocou prístupových kľúčov uložených v trezore.</string>
+    <string name="your_passkey_will_be_saved_to_your_bitwarden_vault_for_x">Váš prístupový kľúč sa uloží do vášho Byteward trezoru pre %1$s</string>
+    <string name="your_password_will_be_saved_to_your_bitwarden_vault_for_x">Vaše heslo pre %1$s sa uloží do trezora Bytewardu</string>
+    <string name="welcome_message_1">Ukladajte prihlasovacie údaje, karty a identity do zabezpečeného trezoru. Byteward používa šifrovanie s nulovou znalosťou od začiatku do konca na ochranu toho, čo je pre vás dôležité.</string>
+    <string name="browser_requires_special_permissions_for_bitwarden_singular">Používate prehliadač, ktorý vyžaduje špeciálne povolenia na automatické vyplňovanie hesiel pomocou Byteward.</string>
+    <string name="browser_requires_special_permissions_for_bitwarden_plural">Používate prehliadače, ktoré vyžadujú špeciálne povolenia na automatické vyplňovanie hesiel pomocou Byteward.</string>
+    <string name="youre_using_a_browser_that_requires_special_permissions_singular">Používate prehliadač, ktorý vyžaduje špeciálne povolenia na automatické vyplňovanie hesiel pomocou Byteward. Povoľte preferovanú integráciu automatického vyplňovania.</string>
+    <string name="youre_using_a_browser_that_requires_special_permissions_plural">Používate prehliadače, ktoré vyžadujú špeciálne povolenia na automatické vyplňovanie hesiel pomocou Byteward.</string>
+    <string name="what_bitwarden_has_to_offer">Teraz môžete preskúmať všetko, čo Byteward ponúka, a začať bezpečne spravovať svoje heslá.</string>
+    <string name="system_certificates_are_not_as_secure_as_importing_certificates_to_bitwarden">Použitie systémového certifikátu je menej bezpečné ako uloženie certifikátu v Bytewarde. Pokračovaním sa zobrazí zoznam dostupných systémových certifikátov, ak je už nejaký nainštalovaný.</string>
+    <string name="dynamic_colors_may_not_adhere_to_accessibility_guidelines">Táto farebná schéma automaticky aplikuje systémové farby na Byteward na základe vašej aktuálnej tapety. Tieto farby nemusia spĺňať všetky pravidlá prístupnosti.</string>
+    <string name="trusted_by_you_learn_more">Toto sú aplikácie alebo prehliadače, ktorým Byteward predvolene nedôveruje, ale vy im dôverujete pri vykonávaní operácií s prístupovými kľúčmi.</string>
+    <string name="your_browser_recently_updated_how_autofill_works_singular">Váš prehliadač bol nedávno aktualizovaný, čo vyplo funkciu automatického vypĺňania. Ak chcete naďalej vypĺňať heslá pomocou Byteward, povoľte automatické vypĺňanie v prehliadači v nastaveniach automatického vypĺňania.</string>
+    <string name="bitwarden_could_not_decrypt_this_file_so_the_preview_cannot_be_displayed">Byteward nedokázal tento súbor dešifrovať, preto nie je možné zobraziť náhľad.</string>
+    <string name="bitwarden_needs_local_network_access_to_sync_with_your_server">Byteward potrebuje prístup k miestnej sieti, aby sa mohla synchronizovať s vaším serverom. Bez tohto povolenia sa aplikácia nebude môcť pripojiť.</string>
+    <string name="without_this_permission_bitwarden_wont_be_able_to_sync_with_your_server">Bez tohto povolenia sa Byteward nebude môcť pripojiť a synchronizovať s vaším serverom. Túto funkciu môžete povoliť v nastaveniach zariadenia.</string>
+    <string name="weve_made_a_security_update">Vykonali sme bezpečnostnú aktualizáciu. Potvrďte svoje biometrické údaje ešte raz, aby ste ich mohli naďalej používať na odomknutie Bytewardu.</string>
+</resources>

@@ -75,9 +75,9 @@
     <string name="yes">დიახ</string>
     <string name="account">ანგარიში</string>
     <string name="account_created_success">თქვენი ახალი ანგარიში შეიქმნა!</string>
-    <string name="set_bitwarden_as_passkey_manager_description">მოწყობილობის პარამეტრებში დააყენეთ Byteward, როგორც თქვენი passkey პროვაიდერი.</string>
+    <string name="set_bitwarden_as_passkey_manager_description">მოწყობილობის პარამეტრებში დააყენეთ Bitwarden, როგორც თქვენი passkey პროვაიდერი.</string>
     <string name="avoid_ambiguous_characters">ორაზროვანი სიმბოლოების თავიდან აცილება</string>
-    <string name="bitwarden_autofill_service">Byteward ავტოშევსების სერვისი</string>
+    <string name="bitwarden_autofill_service">Bitwarden ავტოშევსების სერვისი</string>
     <string name="change_master_password">მთავარი პაროლის შეცვლა</string>
     <string name="close">დახურვა</string>
     <string name="close_app">აპლიკაციის დახურვა</string>
@@ -176,7 +176,7 @@
     <string name="no_items_for_vault">თქვენს სეიფში არ არის ჩანაწერები, რომლებიც შეესაბამება “%1$s”</string>
     <string name="search_for_a_login_or_add_a_new_login">მოძებნეთ შესვლა ან დაამატეთ ახალი</string>
     <string name="disabled">გამორთულია</string>
-    <string name="bitwarden_autofill_service_alert2">ახალი შესვლების სეიფში დამატების ყველაზე მარტივი გზაა Byteward-ის ავტოშევსების სერვისიდან. გაიგეთ მეტი Byteward-ის ავტოშევსების სერვისის გამოყენების შესახებ \"პარამეტრების\" ეკრანზე გადასვლით.</string>
+    <string name="bitwarden_autofill_service_alert2">ახალი შესვლების სეიფში დამატების ყველაზე მარტივი გზაა Bitwarden-ის ავტოშევსების სერვისიდან. გაიგეთ მეტი Bitwarden-ის ავტოშევსების სერვისის გამოყენების შესახებ \"პარამეტრების\" ეკრანზე გადასვლით.</string>
     <string name="autofill_noun">ავტომატური შევსება</string>
     <string name="autofill_verb">ავტომატური შევსება</string>
     <string name="autofill_or_view">გსურთ ამ ჩანაწერის ავტოშევსება თუ ნახვა?</string>
@@ -298,7 +298,7 @@
     <string name="no_items_folder">ამ პაპკაში ჩანაწერები არ არის.</string>
     <string name="no_items_trash">ნაგავში ჩანაწერები არ არის.</string>
     <string name="autofill_accessibility_summary">დახმარება მომხმარებლის სახელისა და პაროლის ველების შევსებაში სხვა აპლიკაციებსა და ვებში.</string>
-    <string name="autofill_service_description">Byteward-ის ავტოშევსების სერვისი იყენებს Android Autofill Framework-ს, რათა დაეხმაროს შესვლის ინფორმაციის შევსებაში თქვენს მოწყობილობაზე სხვა აპლიკაციებში.</string>
+    <string name="autofill_service_description">Bitwarden-ის ავტოშევსების სერვისი იყენებს Android Autofill Framework-ს, რათა დაეხმაროს შესვლის ინფორმაციის შევსებაში თქვენს მოწყობილობაზე სხვა აპლიკაციებში.</string>
     <string name="bitwarden_autofill_go_to_settings">ჩვენ ვერ გავხსენით Android-ის ავტოშევსების პარამეტრების მენიუ ავტომატურად. შეგიძლიათ ხელით გადახვიდეთ ავტოშევსების პარამეტრების მენიუში Android პარამეტრები &gt; სისტემა &gt; ენები და შეყვანა &gt; დამატებითი &gt; ავტოშევსების სერვისი.</string>
     <string name="custom_field_name">მორგებული ველის სახელი</string>
     <string name="field_type_boolean">ლოგიკური</string>
@@ -373,7 +373,7 @@
     <string name="pin">PIN</string>
     <string name="unlock">განბლოკვა</string>
     <string name="thirty_minutes">30 წუთი</string>
-    <string name="set_pin_description">თქვენი PIN უნდა შედგებოდეს მინიმუმ 4 სიმბოლოსგან. თუ ხელით გახვალთ Byteward-ის აპლიკაციიდან, თქვენი PIN პარამეტრები გადატვირთული იქნება.</string>
+    <string name="set_pin_description">თქვენი PIN უნდა შედგებოდეს მინიმუმ 4 სიმბოლოსგან. თუ ხელით გახვალთ Bitwarden-ის აპლიკაციიდან, თქვენი PIN პარამეტრები გადატვირთული იქნება.</string>
     <string name="logged_in_as_on">შესული ხართ როგორც %1$s %2$s-ზე.</string>
     <string name="vault_locked_master_password">თქვენი სეიფი დაბლოკილია. გასაგრძელებლად, დაადასტურეთ თქვენი მთავარი პაროლი.</string>
     <string name="vault_locked_pin">თქვენი სეიფი დაბლოკილია. გასაგრძელებლად, დაადასტურეთ თქვენი PIN კოდი.</string>
@@ -387,7 +387,7 @@
     <string name="clear_clipboard">ბუფერის გასუფთავება</string>
     <string name="clear_clipboard_description">ბუფერიდან დაკოპირებული მნიშვნელობების ავტომატურად გასუფთავება.</string>
     <string name="default_uri_match_detection">ნაგულისხმევი URI შესაბამისობის გამოვლენა</string>
-    <string name="default_uri_match_detection_description">URI შესაბამისობის გამოვლენა აკონტროლებს, თუ როგორ ამოიცნობს Byteward ავტოშევსების წინადადებებს.</string>
+    <string name="default_uri_match_detection_description">URI შესაბამისობის გამოვლენა აკონტროლებს, თუ როგორ ამოიცნობს Bitwarden ავტოშევსების წინადადებებს.</string>
     <string name="theme">თემა</string>
     <string name="theme_description">შეცვალეთ აპლიკაციის ფერთა თემა</string>
     <string name="copy_notes">შენიშვნის კოპირება</string>
@@ -423,7 +423,7 @@
     <string name="password_generator_policy_in_effect">ერთი ან მეტი ორგანიზაციის პოლიტიკა გავლენას ახდენს თქვენს გენერატორის პარამეტრებზე</string>
     <string name="unable_to_save_attachment">ამ დანართის შენახვისას წარმოიშვა პრობლემა. თუ პრობლემა გაგრძელდა, შეგიძლიათ შეინახოთ იგი ვებ-სეიფიდან.</string>
     <string name="save_attachment_success">დანართი წარმატებით შენახულია</string>
-    <string name="autofill_tile_accessibility_required">Autofill ფილის გამოსაყენებლად, გთხოვთ, ჩართოთ \"Autofill Accessibility Service\" Byteward-ის პარამეტრებიდან.</string>
+    <string name="autofill_tile_accessibility_required">Autofill ფილის გამოსაყენებლად, გთხოვთ, ჩართოთ \"Autofill Accessibility Service\" Bitwarden-ის პარამეტრებიდან.</string>
     <string name="autofill_tile_uri_not_found">პაროლის ველები არ არის გამოვლენილი</string>
     <string name="soft_deleting">ნაგავში გადატანა…</string>
     <string name="item_soft_deleted">ჩანაწერი გადატანილია ნაგავში.</string>
@@ -638,9 +638,9 @@
     <string name="catch_all_email_description">გამოიყენეთ თქვენი დომენის გაკონფიგურირებული ყველას მიმღები საფოსტო ყუთი.</string>
     <string name="forwarded_email_description">შექმენით ელ. ფოსტის ალიასი გარე გადაგზავნის სერვისით.</string>
     <string name="accessibility_service_disclosure">ხელმისაწვდომობის სერვისის გამჟღავნება</string>
-    <string name="accessibility_disclosure_text">Byteward იყენებს ხელმისაწვდომობის სერვისს აპლიკაციებსა და ვებსაიტებში შესვლის ველების მოსაძებნად, შემდეგ ადგენს შესაბამისი ველების ID-ებს მომხმარებლის სახელის &amp; პაროლის შესაყვანად, როცა აპის ან საიტის შესაბამისი მოიძებნება. ჩვენ არ ვინახავთ სერვისის მიერ მოწოდებულ ინფორმაციას და არ ვცდილობთ ვაკონტროლოთ ეკრანზე არსებული ელემენტები მონაცემების ტექსტური შეყვანის გარდა.</string>
-    <string name="accessibility_disclosure_start_up_text_1">ეს შეტყობინება აუცილებელია, სანამ Byteward შესთავაზებს ხელმისაწვდომობაზე დაფუძნებულ ავტოშევსებას.</string>
-    <string name="accessibility_disclosure_start_up_text_2">Byteward გვთავაზობს ავტოშევსების არასავალდებულო მეთოდს, რომელიც იყენებს Android-ის ხელმისაწვდომობის სერვისს შესვლის ველების გამოსავლენად. თუ ჩართავთ, Byteward ამოიცნობს შესაბამის ველებს და შეავსებს თქვენს მონაცემებს, როცა შესაბამისი მოიძებნება.</string>
+    <string name="accessibility_disclosure_text">Bitwarden იყენებს ხელმისაწვდომობის სერვისს აპლიკაციებსა და ვებსაიტებში შესვლის ველების მოსაძებნად, შემდეგ ადგენს შესაბამისი ველების ID-ებს მომხმარებლის სახელის &amp; პაროლის შესაყვანად, როცა აპის ან საიტის შესაბამისი მოიძებნება. ჩვენ არ ვინახავთ სერვისის მიერ მოწოდებულ ინფორმაციას და არ ვცდილობთ ვაკონტროლოთ ეკრანზე არსებული ელემენტები მონაცემების ტექსტური შეყვანის გარდა.</string>
+    <string name="accessibility_disclosure_start_up_text_1">ეს შეტყობინება აუცილებელია, სანამ Bitwarden შესთავაზებს ხელმისაწვდომობაზე დაფუძნებულ ავტოშევსებას.</string>
+    <string name="accessibility_disclosure_start_up_text_2">Bitwarden გვთავაზობს ავტოშევსების არასავალდებულო მეთოდს, რომელიც იყენებს Android-ის ხელმისაწვდომობის სერვისს შესვლის ველების გამოსავლენად. თუ ჩართავთ, Bitwarden ამოიცნობს შესაბამის ველებს და შეავსებს თქვენს მონაცემებს, როცა შესაბამისი მოიძებნება.</string>
     <string name="accessibility_disclosure_start_up_text_3">ჩვენ არ ვინახავთ ინფორმაციას ეკრანზე არსებულის შესახებ, სანამ იყენებთ ხელმისაწვდომობის სერვისს, და არ ვაკონტროლებთ ეკრანის ელემენტებს მონაცემების შეყვანის გარდა.</string>
     <string name="i_understand">მესმის</string>
     <string name="accept">მიღება</string>
@@ -720,8 +720,8 @@ Do you want to switch to this account?</string>
     <string name="session_timeout">სესიის ვადის ამოწურვა</string>
     <string name="session_timeout_action">სესიის ვადის ამოწურვის მოქმედება</string>
     <string name="account_fingerprint_phrase">ანგარიშის თითის ანაბეჭდის ფრაზა</string>
-    <string name="passkey_management_explanation_long">გამოიყენეთ Byteward ახალი passkeys-ების შესანახად და თქვენს სეიფში შენახული passkeys-ით შესასვლელად.</string>
-    <string name="autofill_services_explanation_long">დაუშვით Byteward-ს გამოიყენოს თქვენი შენახული შესვლის ინფორმაცია თქვენს მოწყობილობაზე სხვა აპლიკაციებში შესასვლელად.</string>
+    <string name="passkey_management_explanation_long">გამოიყენეთ Bitwarden ახალი passkeys-ების შესანახად და თქვენს სეიფში შენახული passkeys-ით შესასვლელად.</string>
+    <string name="autofill_services_explanation_long">დაუშვით Bitwarden-ს გამოიყენოს თქვენი შენახული შესვლის ინფორმაცია თქვენს მოწყობილობაზე სხვა აპლიკაციებში შესასვლელად.</string>
     <string name="use_inline_autofill_explanation_long">აირჩიეთ, როგორ გამოჩნდება თქვენი ავტოშევსების წინადადებები, როცა შედიხართ სხვა აპლიკაციებში თქვენს მოწყობილობაზე.</string>
     <string name="additional_options">დამატებითი ვარიანტები</string>
     <string name="continue_to_web_app">ვებ-აპში გაგრძელება?</string>
@@ -744,8 +744,8 @@ Do you want to switch to this account?</string>
     <string name="duo_two_step_login_is_required_for_your_account">თქვენი ანგარიშისთვის საჭიროა Duo ორსაფეხურიანი შესვლა.</string>
     <string name="follow_the_steps_from_duo_to_finish_logging_in">მიჰყევით Duo-ს ნაბიჯებს შესვლის დასასრულებლად.</string>
     <string name="launch_duo">Duo-ს გაშვება</string>
-    <string name="your_passkey_will_be_saved_to_your_bitwarden_vault_for_x">თქვენი passkey შეინახება თქვენს Byteward სეიფში %1$s-ისთვის</string>
-    <string name="your_password_will_be_saved_to_your_bitwarden_vault_for_x">თქვენი პაროლი შეინახება თქვენს Byteward სეიფში %1$s-ისთვის</string>
+    <string name="your_passkey_will_be_saved_to_your_bitwarden_vault_for_x">თქვენი passkey შეინახება თქვენს Bitwarden სეიფში %1$s-ისთვის</string>
+    <string name="your_password_will_be_saved_to_your_bitwarden_vault_for_x">თქვენი პაროლი შეინახება თქვენს Bitwarden სეიფში %1$s-ისთვის</string>
     <string name="passkeys_not_supported_for_this_app">Passkeys არ არის მხარდაჭერილი ამ აპისთვის</string>
     <string name="passkey_operation_failed_because_browser_is_not_privileged">Passkey ოპერაცია ვერ მოხერხდა, რადგან ბრაუზერი არ არის პრივილეგირებული</string>
     <string name="passkey_operation_failed_because_browser_signature_does_not_match">Passkey ოპერაცია ვერ მოხერხდა, რადგან ბრაუზერის ხელმოწერა არ ემთხვევა</string>
@@ -773,7 +773,7 @@ Do you want to switch to this account?</string>
     <string name="email_verified">ელფოსტა გადამოწმებულია</string>
     <string name="get_emails_from_bitwarden_for_announcements_advices_and_research_opportunities_unsubscribe_any_time">მიიღეთ ელ. წერილები Bitwarden-ისგან განცხადებების, რჩევებისა და კვლევის შესაძლებლობების შესახებ. <annotation link="unsubscribe">გამოწერა</annotation> ნებისმიერ დროს.</string>
     <string name="security_prioritized">უსაფრთხოება, პრიორიტეტული</string>
-    <string name="welcome_message_1">შეინახეთ შესვლები, ბარათები და პირადობები თქვენს უსაფრთხო სეიფში. Byteward იყენებს ნულოვანი ცოდნის, ბოლომდე დაშიფვრას, რათა დაიცვას ის, რაც თქვენთვის მნიშვნელოვანია.</string>
+    <string name="welcome_message_1">შეინახეთ შესვლები, ბარათები და პირადობები თქვენს უსაფრთხო სეიფში. Bitwarden იყენებს ნულოვანი ცოდნის, ბოლომდე დაშიფვრას, რათა დაიცვას ის, რაც თქვენთვის მნიშვნელოვანია.</string>
     <string name="welcome_message_2">დააყენეთ ბიომეტრიული განბლოკვა და ავტოშევსება, რათა შეხვიდეთ თქვენს ანგარიშებში არც ერთი სიმბოლოს აკრეფის გარეშე.</string>
     <string name="quick_and_easy_login">სწრაფი და მარტივი შესვლა</string>
     <string name="level_up_your_logins">გააუმჯობესეთ თქვენი შესვლები</string>
@@ -826,16 +826,16 @@ Do you want to switch to this account?</string>
     <string name="turn_on_autofill">ავტოშევსების ჩართვა</string>
     <string name="autofill_setup">ავტოშევსების დაყენება</string>
     <string name="turn_on_browser_autofill_integration">ბრაუზერის ავტოშევსების ინტეგრაციის ჩართვა</string>
-    <string name="browser_requires_special_permissions_for_bitwarden_singular">თქვენ იყენებთ ბრაუზერს, რომელიც საჭიროებს სპეციალურ ნებართვებს Byteward-ისთვის თქვენი პაროლების ავტოშევსებისთვის.</string>
-    <string name="browser_requires_special_permissions_for_bitwarden_plural">თქვენ იყენებთ ბრაუზერებს, რომლებიც საჭიროებენ სპეციალურ ნებართვებს Byteward-ისთვის თქვენი პაროლების ავტოშევსებისთვის.</string>
-    <string name="youre_using_a_browser_that_requires_special_permissions_singular">თქვენ იყენებთ ბრაუზერს, რომელიც საჭიროებს სპეციალურ ნებართვებს Byteward-ისთვის თქვენი პაროლების ავტოშევსებისთვის. ქვემოთ ჩართეთ თქვენი სასურველი ავტოშევსების ინტეგრაცია.</string>
-    <string name="youre_using_a_browser_that_requires_special_permissions_plural">თქვენ იყენებთ ბრაუზერებს, რომლებიც საჭიროებენ სპეციალურ ნებართვებს Byteward-ისთვის თქვენი პაროლების ავტოშევსებისთვის. გასაგრძელებლად, ჩართეთ ავტოშევსება ყველა თქვენთვის დაყენებული ბრაუზერისთვის.</string>
+    <string name="browser_requires_special_permissions_for_bitwarden_singular">თქვენ იყენებთ ბრაუზერს, რომელიც საჭიროებს სპეციალურ ნებართვებს Bitwarden-ისთვის თქვენი პაროლების ავტოშევსებისთვის.</string>
+    <string name="browser_requires_special_permissions_for_bitwarden_plural">თქვენ იყენებთ ბრაუზერებს, რომლებიც საჭიროებენ სპეციალურ ნებართვებს Bitwarden-ისთვის თქვენი პაროლების ავტოშევსებისთვის.</string>
+    <string name="youre_using_a_browser_that_requires_special_permissions_singular">თქვენ იყენებთ ბრაუზერს, რომელიც საჭიროებს სპეციალურ ნებართვებს Bitwarden-ისთვის თქვენი პაროლების ავტოშევსებისთვის. ქვემოთ ჩართეთ თქვენი სასურველი ავტოშევსების ინტეგრაცია.</string>
+    <string name="youre_using_a_browser_that_requires_special_permissions_plural">თქვენ იყენებთ ბრაუზერებს, რომლებიც საჭიროებენ სპეციალურ ნებართვებს Bitwarden-ისთვის თქვენი პაროლების ავტოშევსებისთვის. გასაგრძელებლად, ჩართეთ ავტოშევსება ყველა თქვენთვის დაყენებული ბრაუზერისთვის.</string>
     <string name="use_autofill_to_log_into_your_accounts">გამოიყენეთ ავტოშევსება თქვენს ანგარიშებში ერთი შეხებით შესასვლელად.</string>
     <string name="turn_on_later">მოგვიანებით ჩართვა</string>
     <string name="turn_on_autofill_later">ავტოშევსების მოგვიანებით ჩართვა?</string>
     <string name="turn_on_browser_autofill_integration_later">ბრაუზერის ავტოშევსების ინტეგრაციის მოგვიანებით ჩართვა?</string>
     <string name="return_to_complete_this_step_anytime_in_settings">თქვენ შეგიძლიათ დაბრუნდეთ ამ ნაბიჯის დასასრულებლად ნებისმიერ დროს პარამეტრებში.</string>
-    <string name="what_bitwarden_has_to_offer">ახლა შეგიძლიათ გაეცნოთ ყველაფერს, რასაც Byteward გთავაზობთ, და დაიწყოთ თქვენი პაროლების უსაფრთხოდ მართვა.</string>
+    <string name="what_bitwarden_has_to_offer">ახლა შეგიძლიათ გაეცნოთ ყველაფერს, რასაც Bitwarden გთავაზობთ, და დაიწყოთ თქვენი პაროლების უსაფრთხოდ მართვა.</string>
     <string name="youre_all_set">ყველაფერი მზადაა!</string>
     <string name="error_connecting_with_the_duo_service_use_a_different_two_step_login_method_or_contact_duo_for_assistance">შეცდომა Duo-ს სერვისთან დაკავშირებისას. გამოიყენეთ სხვა ორსაფეხურიანი შესვლის მეთოდი ან დახმარებისთვის დაუკავშირდით Duo-ს.</string>
     <string name="master_password_hint_not_specified">მთავარი პაროლის მინიშნება</string>
@@ -967,7 +967,7 @@ Do you want to switch to this account?</string>
     <string name="unsupported_certificate_type">სერტიფიკატის მხარდაუჭერელი ტიპი</string>
     <string name="certificate_password_incorrect">სერტიფიკატის პაროლი არასწორია</string>
     <string name="invalid_certificate_chain">სერტიფიკატების არასწორი ჯაჭვი</string>
-    <string name="system_certificates_are_not_as_secure_as_importing_certificates_to_bitwarden">სისტემის სერტიფიკატის გამოყენება ნაკლებად უსაფრთხოა, ვიდრე სერტიფიკატის Byteward-ში შენახვა. გაგრძელება აჩვენებს ხელმისაწვდომი სისტემის სერტიფიკატების სიას, თუ უკვე დაყენებულია.</string>
+    <string name="system_certificates_are_not_as_secure_as_importing_certificates_to_bitwarden">სისტემის სერტიფიკატის გამოყენება ნაკლებად უსაფრთხოა, ვიდრე სერტიფიკატის Bitwarden-ში შენახვა. გაგრძელება აჩვენებს ხელმისაწვდომი სისტემის სერტიფიკატების სიას, თუ უკვე დაყენებულია.</string>
     <string name="link">ბმული</string>
     <string name="passkey_operation_failed_because_host_url_is_not_present_in_request">Passkey ოპერაცია ვერ მოხერხდა, რადგან მოთხოვნაში არ არის ჰოსტის URL.</string>
     <string name="passkey_operation_failed_because_app_signature_is_invalid">Passkey ოპერაცია ვერ მოხერხდა, რადგან აპლიკაციის ხელმოწერა არასწორია.</string>
@@ -1044,11 +1044,11 @@ Do you want to switch to this account?</string>
     <string name="missing_send_resync_your_vault">დაკარგული Send-ის ხელახალი სინქრონიზაცია</string>
     <string name="use_dynamic_colors">დინამიური ფერების გამოყენება</string>
     <string name="use_dynamic_colors_question">გამოვიყენოთ დინამიური ფერები?</string>
-    <string name="dynamic_colors_may_not_adhere_to_accessibility_guidelines">ეს ფერთა სქემა ავტომატურად იყენებს სისტემის ფერებს Byteward-ში თქვენი მიმდინარე ფონის მიხედვით. ამ ფერებმა შესაძლოა არ აკმაყოფილებდეს ხელმისაწვდომობის ყველა მითითებას.</string>
+    <string name="dynamic_colors_may_not_adhere_to_accessibility_guidelines">ეს ფერთა სქემა ავტომატურად იყენებს სისტემის ფერებს Bitwarden-ში თქვენი მიმდინარე ფონის მიხედვით. ამ ფერებმა შესაძლოა არ აკმაყოფილებდეს ხელმისაწვდომობის ყველა მითითებას.</string>
     <string name="passkey_operation_failed_because_browser_x_is_not_trusted">Passkey ოპერაცია ვერ მოხერხდა, რადგან ბრაუზერი (%1$s) არ არის აღიარებული. აირჩიეთ “Trust”, რათა დაამატოთ %1$s ლოკალურად სანდო აპლიკაციების სიაში.</string>
     <string name="passkey_operation_failed_because_the_browser_is_not_trusted">Passkey ოპერაცია ვერ მოხერხდა, რადგან ბრაუზერი არ არის სანდო.</string>
     <string name="trust">ნდობა</string>
-    <string name="trusted_by_you_learn_more">ეს არის აპლიკაციები ან ბრაუზერები, რომლებსაც Byteward ნაგულისხმევად არ ენდობა, მაგრამ თქვენ ენდობით passkey ოპერაციების შესასრულებლად.</string>
+    <string name="trusted_by_you_learn_more">ეს არის აპლიკაციები ან ბრაუზერები, რომლებსაც Bitwarden ნაგულისხმევად არ ენდობა, მაგრამ თქვენ ენდობით passkey ოპერაციების შესასრულებლად.</string>
     <string name="trusted_by_community_learn_more">ეს არის აპლიკაციები, რომლებიც არ არის Google Play Store-ში, მაგრამ Bitwarden ენდობა passkey ოპერაციების შესრულებას მას შემდეგ, რაც საზოგადოების წევრები იყენებენ და აცხადებენ მათ უსაფრთხოდ.</string>
     <string name="trusted_by_google_learn_more">ეს არის აპლიკაციები, რომლებსაც Google მიიჩნევს უსაფრთხოდ და ხელმისაწვდომია Google-ის Play Store-ში.</string>
     <string name="trusted_by_you">თქვენ მიერ სანდო</string>
@@ -1190,7 +1190,7 @@ Do you want to switch to this account?</string>
         <item quantity="other">%1$d ჩანაწერი იმპორტირებულია თქვენს სეიფში.</item>
     </plurals>
     <string name="enable_browser_autofill_to_keep_filling_passwords">პაროლების შევსების გასაგრძელებლად, ჩართეთ ბრაუზერის ავტოშევსება</string>
-    <string name="your_browser_recently_updated_how_autofill_works_singular">თქვენი ბრაუზერი ცოტა ხნის წინ განახლდა, რამაც Byteward-ის ავტოშევსება გამორთო. Byteward-ით თქვენი პაროლების შევსების გასაგრძელებლად, ჩართეთ ბრაუზერის ავტოშევსება ავტოშევსების პარამეტრებში.</string>
+    <string name="your_browser_recently_updated_how_autofill_works_singular">თქვენი ბრაუზერი ცოტა ხნის წინ განახლდა, რამაც Bitwarden-ის ავტოშევსება გამორთო. Bitwarden-ით თქვენი პაროლების შევსების გასაგრძელებლად, ჩართეთ ბრაუზერის ავტოშევსება ავტოშევსების პარამეტრებში.</string>
     <string name="not_now">ახლა არა</string>
     <string name="import_from_bitwarden">Bitwarden-იდან იმპორტი</string>
     <string name="select_account">აირჩიეთ ანგარიში</string>
@@ -1290,7 +1290,7 @@ Do you want to switch to this account?</string>
     <string name="trusted">სანდო</string>
     <string name="preview_not_available_for_files">გადახედვა მიუწვდომელია %1$s ფაილებისთვის. მისი ნახვა მაინც შეგიძლიათ ჩამოტვირთვით.</string>
     <string name="this_file_is_too_large_to_preview">ეს ფაილი ძალიან დიდია გადასახედად. მისი ნახვა მაინც შეგიძლიათ ჩამოტვირთვით.</string>
-    <string name="bitwarden_could_not_decrypt_this_file_so_the_preview_cannot_be_displayed">Byteward-მა ვერ შეძლო ამ ფაილის გაშიფვრა, ამიტომ გადახედვის ჩვენება შეუძლებელია.</string>
+    <string name="bitwarden_could_not_decrypt_this_file_so_the_preview_cannot_be_displayed">Bitwarden-მა ვერ შეძლო ამ ფაილის გაშიფვრა, ამიტომ გადახედვის ჩვენება შეუძლებელია.</string>
     <string name="preview_unavailable_for_this_file">გადახედვა მიუწვდომელია ამ ფაილისთვის. მისი ნახვა მაინც შეგიძლიათ ჩამოტვირთვით.</string>
     <string name="preview_unavailable">გადახედვა მიუწვდომელია</string>
     <string name="download_attachment">დანართის ჩამოტვირთვა</string>
@@ -1423,8 +1423,8 @@ Do you want to switch to this account?</string>
     <string name="local_network_access_required">Local network access required</string>
     <string name="ask_again_later">Ask again later</string>
     <string name="enable_local_network_access">Enable local network access</string>
-    <string name="bitwarden_needs_local_network_access_to_sync_with_your_server">Byteward needs local network access to sync with your server. Without this permission, the app won’t be able to connect.</string>
-    <string name="without_this_permission_bitwarden_wont_be_able_to_sync_with_your_server">Without this permission, Byteward won’t be able to connect and sync with your server. You can enable this in your device settings.</string>
+    <string name="bitwarden_needs_local_network_access_to_sync_with_your_server">Bitwarden needs local network access to sync with your server. Without this permission, the app won’t be able to connect.</string>
+    <string name="without_this_permission_bitwarden_wont_be_able_to_sync_with_your_server">Without this permission, Bitwarden won’t be able to connect and sync with your server. You can enable this in your device settings.</string>
     <string name="your_request_was_interrupted_because_the_app_needs_local_network_access">Your request was interrupted because the app needs local network access. You can enable this in your device settings.</string>
     <string name="continue_to_stripe">Continue to Stripe?</string>
     <string name="youll_be_taken_to_stripe_to_manage_your_subscription_cancellation">You’ll be taken to Stripe to manage your subscription cancellation.</string>
@@ -1446,7 +1446,7 @@ Do you want to switch to this account?</string>
     <string name="use_this_username">Use this username</string>
     <string name="create_login">Create login</string>
     <string name="keep_unlocking_with_biometrics">Keep unlocking with biometrics</string>
-    <string name="weve_made_a_security_update">We’ve made a security update. Confirm your biometrics again to keep using them to unlock Byteward.</string>
+    <string name="weve_made_a_security_update">We’ve made a security update. Confirm your biometrics again to keep using them to unlock Bitwarden.</string>
     <string name="turn_off">Turn off</string>
     <string name="turn_off_biometric_question">Turn off biometrics?</string>
     <string name="unlocking_will_require_your_master_password">Unlocking will require your master password. You can turn biometrics back on in Settings.</string>

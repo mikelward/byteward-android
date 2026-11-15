@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Byteward overrides for strings defined in the :ui module, which keeps
+    upstream Bitwarden's text. App resources take precedence over library
+    resources when they are merged, so the app shows these versions while the
+    :ui files stay identical to upstream (and the Authenticator app, which also
+    uses :ui, keeps Bitwarden's text).
+
+    Each entry renames Bitwarden to Byteward where the password manager refers
+    to itself. Text about Bitwarden's service is not overridden.
+-->
+<resources>
+    <string name="set_bitwarden_as_passkey_manager_description">V nastavitvah naprave nastavite Byteward kot ponudnika varnostnih ključev.</string>
+    <string name="bitwarden_autofill_service">Byteward storitev samodejnega izpolnjevanja obrazcev</string>
+    <string name="bitwarden_autofill_service_alert2">Najlažji način za dodajanje novih prijav v vaš trezor je prek storitve Byteward za samodejno izpolnjevanje. Več o uporabi storitve Byteward za samodejno izpolnjevanje izveste tako, da odprete zaslon »Nastavitve«.</string>
+    <string name="autofill_service_description">Storitev Byteward za samodejno izpolnjevanje uporablja Android Autofill Framework za pomoč pri izpolnjevanju prijavnih podatkov v drugih aplikacijah v vaši napravi.</string>
+    <string name="set_pin_description">Vaša PIN koda mora biti dolga vsaj 4 znake. Vaše nastavitve PIN kode bodo ponastavljene, če se ročno odjavite iz aplikacije Byteward.</string>
+    <string name="default_uri_match_detection_description">Zaznavanje ujemanja URI-ja nadzoruje, kako Byteward prepozna predloge za samodejno izpolnjevanje.</string>
+    <string name="autofill_tile_accessibility_required">Za uporabo ploščice za samodejno izpolnjevanje vklopite »Storitev dostopnosti za samodejno izpolnjevanje« v nastavitvah Byteward.</string>
+    <string name="accessibility_disclosure_text">Byteward uporablja storitev dostopnosti za iskanje prijavnih polj v aplikacijah in na spletnih straneh ter nato določi ustrezne ID-je polj za vnos uporabniškega imena in gesla, ko najde ujemanje za aplikacijo ali stran. Ne shranjujemo nobenih informacij, ki nam jih posreduje storitev, prav tako ne poskušamo nadzorovati nobenih elementov na zaslonu razen vnosa poverilnic v besedilna polja.</string>
+    <string name="accessibility_disclosure_start_up_text_1">To obvestilo je potrebno, preden Byteward lahko ponudi samodejno izpolnjevanje na podlagi dostopnosti.</string>
+    <string name="accessibility_disclosure_start_up_text_2">Byteward ponuja izbirno metodo samodejnega izpolnjevanja, ki uporablja Androidovo storitev dostopnosti za zaznavanje prijavnih polj. Če jo omogočite, bo Byteward prepoznal ustrezna polja in izpolnil vaše poverilnice, ko najde ujemanje.</string>
+    <string name="passkey_management_explanation_long">Uporabite Byteward za shranjevanje novih varnostnih ključev in prijavo z varnostnimi ključi, shranjenimi v vašem trezorju.</string>
+    <string name="autofill_services_explanation_long">Dovolite Byteward, da uporabi vaše shranjene prijavne podatke za prijavo v druge aplikacije v vaši napravi.</string>
+    <string name="your_passkey_will_be_saved_to_your_bitwarden_vault_for_x">Vaš varnostni ključ bo shranjen v vaš Byteward trezor za %1$s</string>
+    <string name="your_password_will_be_saved_to_your_bitwarden_vault_for_x">Vaše geslo bo shranjeno v vaš Byteward trezor za %1$s</string>
+    <string name="welcome_message_1">Shranjujte prijave, kartice in identitete v svoj varni trezor. Byteward uporablja šifriranje z ničelnim znanjem in od konca do konca, da zaščiti tisto, kar vam je pomembno.</string>
+    <string name="browser_requires_special_permissions_for_bitwarden_singular">Uporabljate brskalnik, ki zahteva posebna dovoljenja, da Byteward samodejno izpolni vaša gesla.</string>
+    <string name="browser_requires_special_permissions_for_bitwarden_plural">Uporabljate brskalnike, ki zahtevajo posebna dovoljenja, da Byteward samodejno izpolni vaša gesla.</string>
+    <string name="youre_using_a_browser_that_requires_special_permissions_singular">Uporabljate brskalnik, ki zahteva posebna dovoljenja, da Byteward samodejno izpolni vaša gesla. Spodaj omogočite želeno integracijo samodejnega izpolnjevanja.</string>
+    <string name="youre_using_a_browser_that_requires_special_permissions_plural">Uporabljate brskalnike, ki zahtevajo posebna dovoljenja, da Byteward samodejno izpolni vaša gesla. Za nadaljevanje omogočite samodejno izpolnjevanje za vse nameščene brskalnike.</string>
+    <string name="what_bitwarden_has_to_offer">Zdaj lahko raziščete vse, kar ponuja Byteward, in začnete varno upravljati svoja gesla.</string>
+    <string name="system_certificates_are_not_as_secure_as_importing_certificates_to_bitwarden">Uporaba sistemskega potrdila je manj varna kot shranjevanje potrdila z Byteward. Če nadaljujete, se prikaže seznam razpoložljivih sistemskih potrdil, če je katero že nameščeno.</string>
+    <string name="dynamic_colors_may_not_adhere_to_accessibility_guidelines">Ta barvna shema samodejno uporabi sistemske barve za Byteward na podlagi vaše trenutne ozadja. Te barve morda ne izpolnjujejo vseh smernic dostopnosti.</string>
+    <string name="trusted_by_you_learn_more">To so aplikacije ali brskalniki, ki jim Byteward privzeto ne zaupa, vi pa jim zaupate za izvajanje operacij z varnostnimi ključi.</string>
+    <string name="your_browser_recently_updated_how_autofill_works_singular">Vaš brskalnik je bil nedavno posodobljen, kar je onemogočilo samodejno izpolnjevanje Byteward. Če želite še naprej izpolnjevati gesla z Byteward, omogočite samodejno izpolnjevanje v brskalniku v nastavitvah samodejnega izpolnjevanja.</string>
+    <string name="bitwarden_could_not_decrypt_this_file_so_the_preview_cannot_be_displayed">Byteward te datoteke ni mogel dešifrirati, zato predogleda ni mogoče prikazati.</string>
+    <string name="bitwarden_needs_local_network_access_to_sync_with_your_server">Byteward potrebuje dostop do lokalnega omrežja za sinhronizacijo s strežnikom. Brez tega dovoljenja se aplikacija ne bo mogla povezati.</string>
+    <string name="without_this_permission_bitwarden_wont_be_able_to_sync_with_your_server">Brez tega dovoljenja se Byteward ne bo mogel povezati in sinhronizirati s strežnikom. To lahko omogočite v nastavitvah naprave.</string>
+    <string name="weve_made_a_security_update">Izvedli smo varnostno posodobitev. Ponovno potrdi svoje biometrične podatke, da jih boš lahko še naprej uporabljal/a za odklepanje Bytewarda.</string>
+</resources>

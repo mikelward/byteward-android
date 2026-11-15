@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Byteward overrides for strings defined in the :ui module, which keeps
+    upstream Bitwarden's text. App resources take precedence over library
+    resources when they are merged, so the app shows these versions while the
+    :ui files stay identical to upstream (and the Authenticator app, which also
+    uses :ui, keeps Bitwarden's text).
+
+    Each entry renames Bitwarden to Byteward where the password manager refers
+    to itself. Text about Bitwarden's service is not overridden.
+-->
+<resources>
+    <string name="set_bitwarden_as_passkey_manager_description">A Byteward beállítása jelszó szolgáltatóként az eszközbeállításokban.</string>
+    <string name="bitwarden_autofill_service">Byteward automatikus kitöltő szolgáltatás</string>
+    <string name="bitwarden_autofill_service_alert2">A legeszerűbben a Byteward Automata-kitöltő Szolgáltatással tud belépést hozzáadni széfjéhez. A Beállításokben többet tudhat meg a Byteward Automat-kitöltő szolgáltatásról.</string>
+    <string name="autofill_service_description">A Byteward automatikus kitöltési szolgáltatása az Android automatikus kitöltő keretrendszerét használja a bejelentkezési adatok, hitelkártyaadatok és azonosítóadatok kitöltésére az eszközén telepített más alkalmazásokban.</string>
+    <string name="set_pin_description">A pinkód beállítása a Byteward feloldásához. A pinkód beállítás alaphelyzetbe kerül, ha teljesen kijelentkezünk az alkalmazásból.</string>
+    <string name="default_uri_match_detection_description">URI match detection controls how Byteward identifies autofill suggestions.</string>
+    <string name="autofill_tile_accessibility_required">Please turn on “Autofill Accessibility Service” from Byteward Settings to use the Autofill tile.</string>
+    <string name="accessibility_disclosure_text">A Byteward az akadálymentesítési szolgáltatást használja a bejelentkezési mezők megkeresésére az alkalmazásokban és webhelyeken, majd létrehozza a megfelelő mezőazonosítókat a felhasználónév és jelszó megadásához, ha talál egyezést az alkalmazáshoz vagy webhelyhez. A szolgáltatás által rendelkezésünkre bocsátott információk nem kerülnek tárolásra és nincs kísérlet a képernyőn megjelenő elemek vezérlésére a hitelesítő adatok szöveges bevitelén túl.</string>
+    <string name="accessibility_disclosure_start_up_text_1">Ez az értesítés szükséges ahhoz, hogy a Byteward akadálymentesítésen alapuló automatikus kitöltést kínálhasson.</string>
+    <string name="accessibility_disclosure_start_up_text_2">A Byteward opcionális automatikus kitöltési módszert kínál, amely az Android Kisegítő lehetőségek szolgáltatását használja a bejelentkezési mezők észlelésére. Ha engedélyezzük, a Byteward azonosítja a megfelelő mezőket és kitölti a hitelesítő adatokat, ha talál egyezést.</string>
+    <string name="passkey_management_explanation_long">A Byteward használata az új belépőkulcsok mentéséhez és bejelentkezés a széfben tárolt belépőkulcskkal.</string>
+    <string name="your_passkey_will_be_saved_to_your_bitwarden_vault_for_x">A belépőkulcs mentésre kerül a Byteward széfbe: %1$s</string>
+    <string name="your_password_will_be_saved_to_your_bitwarden_vault_for_x">A jelszó mentésre kerül a Byteward széfbe: %1$s</string>
+    <string name="welcome_message_1">Mentsük el a bejelentkezési adatokat, kártyákat és azonosításokat a biztonságos széfbe. A Byteward tudás nélküli, végpontok közötti titkosítást használ a felhasználók számára fontos dolgok védelmére.</string>
+    <string name="browser_requires_special_permissions_for_bitwarden_singular">Olyan böngészőt használunk, amely speciális engedélyeket igényel a Byteward számára a jelszavak automatikus kitöltéséhez.</string>
+    <string name="browser_requires_special_permissions_for_bitwarden_plural">Olyan böngészőket használunk, amely speciális engedélyeket igényelnek a Byteward számára a jelszavak automatikus kitöltéséhez.</string>
+    <string name="youre_using_a_browser_that_requires_special_permissions_singular">Olyan böngészőt használunk, amely speciális engedélyeket igényel a Byteward számára a jelszavak automatikus kitöltéséhez. Engedélyezzük a preferált automatikus kitöltési integrációt lentebb.</string>
+    <string name="youre_using_a_browser_that_requires_special_permissions_plural">Olyan böngészőket használunk, amelyek speciális engedélyeket igényelnek a Byteward számára a jelszavak automatikus kitöltéséhez. Engedélyezzük az automatikus kitöltést az összes telepített böngészőhöz a folytatásához.</string>
+    <string name="what_bitwarden_has_to_offer">Mostantól az automatikus kitöltéssel bejelentkezhetünk az alkalmazásokba és webhelyekre a mentett jelszavakkal. Most mindent felfedezhetünk, amit a Byteward kínál.</string>
+    <string name="system_certificates_are_not_as_secure_as_importing_certificates_to_bitwarden">A rendszer tanúsítvány használata kevésbé biztonságos, mint a tanúsítvány Bytewardnél történő tárolása. A folytatás megjeleníti az elérhető rendszer tanúsítványok listáját, ha már telepítve van.</string>
+    <string name="trusted_by_you_learn_more">Ezek olyan alkalmazások vagy böngészők, amelyekben a Byteward alapértelmezés szerint nem bízik, de a felhasználó bízik a hozzáférési kulcs műveletek végrehajtásában.</string>
+    <string name="your_browser_recently_updated_how_autofill_works_singular">A böngésző nemrégiben frissült, amely letiltotta a Byteward automatikus kitöltés funkciót. A jelszavak kitöltéséhez a Byteward segítségével engedélyezzük a böngésző automatikus kiltöltés funkciót az automatikus kitöltés beállításaiban.</string>
+    <string name="bitwarden_could_not_decrypt_this_file_so_the_preview_cannot_be_displayed">A Byteward nem tudta visszafejteni ezt a fájlt, így az előnézet nem jeleníthető meg.</string>
+    <string name="bitwarden_needs_local_network_access_to_sync_with_your_server">A Bytewardnek helyi hálózati hozzáférésre van szüksége a szerverrel szinkronizáláshoz. Ezen engedély nélkül az alkalmazás nem tud csatlakozni.</string>
+    <string name="without_this_permission_bitwarden_wont_be_able_to_sync_with_your_server">Ezen engedély nélkül a Byteward nem tud csatlakozni és szinkronizálni a szerverrel. Ezt engedélyezhetjük az eszköz beállításoknál.</string>
+    <string name="weve_made_a_security_update">Biztonsági frissítés történt. Erősítsük meg újra a biometrikus adatokat, hogy továbbra is használjuk azokat a Byteward feloldásához.</string>
+</resources>

@@ -75,9 +75,9 @@
     <string name="yes">Kyllä</string>
     <string name="account">Käyttäjätili</string>
     <string name="account_created_success">Uusi tilisi on luotu!</string>
-    <string name="set_bitwarden_as_passkey_manager_description">Aseta Byteward laitteesi asetuksista sen oletusarvoiseksi pääsyavainratkaisuksi.</string>
+    <string name="set_bitwarden_as_passkey_manager_description">Aseta Bitwarden laitteesi asetuksista sen oletusarvoiseksi pääsyavainratkaisuksi.</string>
     <string name="avoid_ambiguous_characters">Vältä epäselviä merkkejä</string>
-    <string name="bitwarden_autofill_service">Bytewardin automaattitäytön palvelu</string>
+    <string name="bitwarden_autofill_service">Bitwardenin automaattitäytön palvelu</string>
     <string name="change_master_password">Vaihda pääsalasana</string>
     <string name="close">Sulje</string>
     <string name="close_app">Sulje sovellus</string>
@@ -176,7 +176,7 @@
     <string name="no_items_for_vault">Holvissasi ei ole kohdetta \"%1$s\" vastavia tietoja</string>
     <string name="search_for_a_login_or_add_a_new_login">Hae kirjautumistietoa tai lisää uusi</string>
     <string name="disabled">Ei käytössä</string>
-    <string name="bitwarden_autofill_service_alert2">Uusien kirjautumistietojen lisääminen on kötevintä Bytewardin automaattitäytön palvelun avulla. Asetuksista löydät lisätietoja palvelusta.</string>
+    <string name="bitwarden_autofill_service_alert2">Uusien kirjautumistietojen lisääminen on kötevintä Bitwardenin automaattitäytön palvelun avulla. Asetuksista löydät lisätietoja palvelusta.</string>
     <string name="autofill_noun">Automaattitäyttö</string>
     <string name="autofill_verb">Automaattitäyttö</string>
     <string name="autofill_or_view">Haluatko täyttää kohteen automaattisesti vai tarkastella sitä?</string>
@@ -298,7 +298,7 @@ Koodi skannataan automaattisesti.</string>
     <string name="no_items_folder">Kansiossa ei ole kohteita.</string>
     <string name="no_items_trash">Roskakorissa ei ole kohteita.</string>
     <string name="autofill_accessibility_summary">Avusta muiden sovellusten ja verkkosivustojen käyttäjätunnus- ja salasanakenttien täytössä.</string>
-    <string name="autofill_service_description">Bytewardin automaattitäytön palvelu käyttää Android Autofill Framework -rajapintaa kirjautumistietojen täyttöön laitteen muissa sovelluksissa.</string>
+    <string name="autofill_service_description">Bitwardenin automaattitäytön palvelu käyttää Android Autofill Framework -rajapintaa kirjautumistietojen täyttöön laitteen muissa sovelluksissa.</string>
     <string name="bitwarden_autofill_go_to_settings">Androidin automaattisen täytön asetuksia ei voitu avata automaattisesti. Voit avata asetukset itse seuraavasti: \"Asetukset\" &gt; \"Järjestelmä\" &gt; \"Kielet ja syöttötapa\" &gt; \"Lisäasetukset\" &gt; \"Automaattinen täyttö -palvelu\".</string>
     <string name="custom_field_name">Lisäkentän nimi</string>
     <string name="field_type_boolean">Totuusarvo</string>
@@ -373,7 +373,7 @@ Koodi skannataan automaattisesti.</string>
     <string name="pin">PIN</string>
     <string name="unlock">Avaa</string>
     <string name="thirty_minutes">30 minuuttia</string>
-    <string name="set_pin_description">Aseta PIN-koodi Bytewardin avaukselle. PIN-asetus tyhjentyy, jos kirjaudut kokonaan ulos sovelluksesta.</string>
+    <string name="set_pin_description">Aseta PIN-koodi Bitwardenin avaukselle. PIN-asetus tyhjentyy, jos kirjaudut kokonaan ulos sovelluksesta.</string>
     <string name="logged_in_as_on">Kirjautui palvelimelle %2$s tunnuksella %1$s.</string>
     <string name="vault_locked_master_password">Holvisi on lukittu. Jatka vahvistamalla pääsalasanasi.</string>
     <string name="vault_locked_pin">Holvisi on lukittu. Jatka vahvistamalla PIN-koodisi.</string>
@@ -387,7 +387,7 @@ Koodi skannataan automaattisesti.</string>
     <string name="clear_clipboard">Tyhjennä leikepöytä</string>
     <string name="clear_clipboard_description">Poista kopioidut arvot leikepöydältä automaattisesti.</string>
     <string name="default_uri_match_detection">URI:n oletuarvoinen tunnistustapa</string>
-    <string name="default_uri_match_detection_description">URI-osoitteen vastaavuuden tunnistus ohjaa, miten Byteward tunnistaa automaattisen täytön ehdotukset.</string>
+    <string name="default_uri_match_detection_description">URI-osoitteen vastaavuuden tunnistus ohjaa, miten Bitwarden tunnistaa automaattisen täytön ehdotukset.</string>
     <string name="theme">Teema</string>
     <string name="theme_description">Muuta sovelluksen väriteemaa</string>
     <string name="copy_notes">Kopioi merkinnät</string>
@@ -423,7 +423,7 @@ Koodi skannataan automaattisesti.</string>
     <string name="password_generator_policy_in_effect">Yksi tai useampi organisaatiokäytäntö vaikuttaa generaattorisi asetuksiin</string>
     <string name="unable_to_save_attachment">Liitteen tallennuksessa oli ongelma. Jos ongelma jatkuu, voit tehdä tallennuksen verkkoholvin kautta.</string>
     <string name="save_attachment_success">Tiedostoliite tallennettiin</string>
-    <string name="autofill_tile_accessibility_required">Ota “Automaattisen täytön helppokäyttöpalvelu” käyttöön Bytewardin asetuksista käyttääksesi automaattisen täytön ruutua.</string>
+    <string name="autofill_tile_accessibility_required">Ota “Automaattisen täytön helppokäyttöpalvelu” käyttöön Bitwardenin asetuksista käyttääksesi automaattisen täytön ruutua.</string>
     <string name="autofill_tile_uri_not_found">Salasanakenttiä ei havaittu</string>
     <string name="soft_deleting">Siirretään roskakoriin...</string>
     <string name="item_soft_deleted">Kohde siirrettiin roskakoriin.</string>
@@ -638,9 +638,9 @@ turvallisesti valitsemalla \"Lisää TOTP\"</string>
     <string name="catch_all_email_description">Käytä verkkotunnuksesi määritettyä catch-all -postilaatikkoa.</string>
     <string name="forwarded_email_description">Luo sähköpostialias ulkoisella ohjauspalvelulla.</string>
     <string name="accessibility_service_disclosure">Esteettömyyspalvelun kuvaus</string>
-    <string name="accessibility_disclosure_text">Byteward käyttää esteettömyyspalvelua kirjautumiskenttien etsintään sovelluksista ja verkkosivustoilta. Löydetyille kentille luodaan asianmukaiset tunnisteet tunnusten ja salasanojen syöttöön sopivan sovelluksen tai sivuston löytyessä. Mitään palvelun paljastamia tietoja ei tallenneta, eikä mitään näytöllä esitettäviä kohteita pyritä hallitsemaan kirjautumistietojen tekstinsyöttöä lukuun ottamatta.</string>
-    <string name="accessibility_disclosure_start_up_text_1">Tämä ilmoitus vaaditaan, ennen kuin Byteward voi tarjota helppokäyttöön perustuvaa automaattista täyttöä.</string>
-    <string name="accessibility_disclosure_start_up_text_2">Byteward tarjoaa valinnaisen automaattisen täytön menetelmän, joka käyttää Androidin helppokäyttöpalvelua kirjautumiskenttien tunnistamiseen. Jos otat sen käyttöön, Byteward tunnistaa sopivat kentät ja täyttää tunnistetietosi, kun vastaavuus löytyy.</string>
+    <string name="accessibility_disclosure_text">Bitwarden käyttää esteettömyyspalvelua kirjautumiskenttien etsintään sovelluksista ja verkkosivustoilta. Löydetyille kentille luodaan asianmukaiset tunnisteet tunnusten ja salasanojen syöttöön sopivan sovelluksen tai sivuston löytyessä. Mitään palvelun paljastamia tietoja ei tallenneta, eikä mitään näytöllä esitettäviä kohteita pyritä hallitsemaan kirjautumistietojen tekstinsyöttöä lukuun ottamatta.</string>
+    <string name="accessibility_disclosure_start_up_text_1">Tämä ilmoitus vaaditaan, ennen kuin Bitwarden voi tarjota helppokäyttöön perustuvaa automaattista täyttöä.</string>
+    <string name="accessibility_disclosure_start_up_text_2">Bitwarden tarjoaa valinnaisen automaattisen täytön menetelmän, joka käyttää Androidin helppokäyttöpalvelua kirjautumiskenttien tunnistamiseen. Jos otat sen käyttöön, Bitwarden tunnistaa sopivat kentät ja täyttää tunnistetietosi, kun vastaavuus löytyy.</string>
     <string name="accessibility_disclosure_start_up_text_3">Emme tallenna mitään tietoa siitä, mitä näytöllä on, kun käytät helppokäyttöpalvelua, emmekä ohjaa muita näytön elementtejä kuin tunnistetietojen syöttöä.</string>
     <string name="i_understand">Ymmärrän</string>
     <string name="accept">Hyväksy</string>
@@ -720,7 +720,7 @@ Do you want to switch to this account?</string>
     <string name="session_timeout">Istunnon aikakatkaisu</string>
     <string name="session_timeout_action">Istunnon aikakatkaisutoiminto</string>
     <string name="account_fingerprint_phrase">Tilin tunnistelause</string>
-    <string name="passkey_management_explanation_long">Käytä Bytewardia uusien pääsyavainten tallennukseen ja kirjaudu palveluihin holviisi aiemmin tallennetuilla avaimilla.</string>
+    <string name="passkey_management_explanation_long">Käytä Bitwardenia uusien pääsyavainten tallennukseen ja kirjaudu palveluihin holviisi aiemmin tallennetuilla avaimilla.</string>
     <string name="autofill_services_explanation_long">Android Autofill Framework -rajapintaa käytetään täytettäessä kirjautumistietoja laitteen muihin sovelluksiin.</string>
     <string name="use_inline_autofill_explanation_long">Tekstinsisäistä automattitäyttöä käytetään, jos aktiivinen näppäimistö tukee sitä. Muussa tapauksessa käytetään ponnahdusvalintaa.</string>
     <string name="additional_options">Lisävalinnat</string>
@@ -744,8 +744,8 @@ Do you want to switch to this account?</string>
     <string name="duo_two_step_login_is_required_for_your_account">Tilillesi kirjautuminen vaatii Duo-vahvistuksen.</string>
     <string name="follow_the_steps_from_duo_to_finish_logging_in">Viimeistele kirjautuminen seuraamalla Duon ohjeita.</string>
     <string name="launch_duo">Avaa Duo</string>
-    <string name="your_passkey_will_be_saved_to_your_bitwarden_vault_for_x">Pääsyavaimesi tallennetaan Byteward-holvisi kohteeseen %1$s</string>
-    <string name="your_password_will_be_saved_to_your_bitwarden_vault_for_x">Salasanasi tallennetaan Byteward-holviisi kohteelle %1$s</string>
+    <string name="your_passkey_will_be_saved_to_your_bitwarden_vault_for_x">Pääsyavaimesi tallennetaan Bitwarden-holvisi kohteeseen %1$s</string>
+    <string name="your_password_will_be_saved_to_your_bitwarden_vault_for_x">Salasanasi tallennetaan Bitwarden-holviisi kohteelle %1$s</string>
     <string name="passkeys_not_supported_for_this_app">Pääsyavaimia ei tueta tässä sovelluksessa</string>
     <string name="passkey_operation_failed_because_browser_is_not_privileged">Pääsyavaintoiminto epäonnistui, koska selaimella ei ole korotettuja oikeuksia</string>
     <string name="passkey_operation_failed_because_browser_signature_does_not_match">Pääsyavaintoiminto epäonnistui, koska selaimen allekirjoitus ei täsmää</string>
@@ -773,7 +773,7 @@ Do you want to switch to this account?</string>
     <string name="email_verified">Sähköpostiosoite on vahvistettu</string>
     <string name="get_emails_from_bitwarden_for_announcements_advices_and_research_opportunities_unsubscribe_any_time">Vastaanota Bitwardenilta uutiskirjeitä julkaisuista, tukiresursseista ja tutkimusmahdollisuuksista. Lopeta tilaus milloin tahansa.</string>
     <string name="security_prioritized">Tietoturva etusijalla</string>
-    <string name="welcome_message_1">Tallenna kirjautumistiedot, kortit and henkilöllisyydet suojattuun holviisi. Byteward suojaa tärkeät tietosi nollatietoisella päästä pähän -salauksella.</string>
+    <string name="welcome_message_1">Tallenna kirjautumistiedot, kortit and henkilöllisyydet suojattuun holviisi. Bitwarden suojaa tärkeät tietosi nollatietoisella päästä pähän -salauksella.</string>
     <string name="welcome_message_2">Määritä biometrinen avaus ja automaattitäyttö kirjautuaksesi tileillesi kirjoittamatta yhtään kirjainta.</string>
     <string name="quick_and_easy_login">Nopea ja helppo kirjautuminen</string>
     <string name="level_up_your_logins">Nosta kirjautumisesi uudelle tasolle</string>
@@ -826,16 +826,16 @@ Do you want to switch to this account?</string>
     <string name="turn_on_autofill">Ota automaattitäyttö käyttöön</string>
     <string name="autofill_setup">Automaattisen täytön asetukset</string>
     <string name="turn_on_browser_autofill_integration">Ota selaimen automaattisen täytön integraatio käyttöön</string>
-    <string name="browser_requires_special_permissions_for_bitwarden_singular">Käytät selainta, joka vaatii erityislupia, jotta Byteward voi täyttää salasanasi automaattisesti.</string>
-    <string name="browser_requires_special_permissions_for_bitwarden_plural">Käytät selaimia, jotka vaativat erityislupia, jotta Byteward voi täyttää salasanasi automaattisesti.</string>
-    <string name="youre_using_a_browser_that_requires_special_permissions_singular">Käytät selainta, joka vaatii erityislupia, jotta Byteward voi täyttää salasanasi automaattisesti. Ota haluamasi automaattisen täytön integraatio käyttöön alla.</string>
-    <string name="youre_using_a_browser_that_requires_special_permissions_plural">Käytät selaimia, jotka vaativat erityislupia, jotta Byteward voi täyttää salasanasi automaattisesti. Ota automaattinen täyttö käyttöön kaikille asennetuille selaimille jatkaaksesi.</string>
+    <string name="browser_requires_special_permissions_for_bitwarden_singular">Käytät selainta, joka vaatii erityislupia, jotta Bitwarden voi täyttää salasanasi automaattisesti.</string>
+    <string name="browser_requires_special_permissions_for_bitwarden_plural">Käytät selaimia, jotka vaativat erityislupia, jotta Bitwarden voi täyttää salasanasi automaattisesti.</string>
+    <string name="youre_using_a_browser_that_requires_special_permissions_singular">Käytät selainta, joka vaatii erityislupia, jotta Bitwarden voi täyttää salasanasi automaattisesti. Ota haluamasi automaattisen täytön integraatio käyttöön alla.</string>
+    <string name="youre_using_a_browser_that_requires_special_permissions_plural">Käytät selaimia, jotka vaativat erityislupia, jotta Bitwarden voi täyttää salasanasi automaattisesti. Ota automaattinen täyttö käyttöön kaikille asennetuille selaimille jatkaaksesi.</string>
     <string name="use_autofill_to_log_into_your_accounts">Automaattitäytön avulla kirjaudut tileillesi yhdellä napautuksella.</string>
     <string name="turn_on_later">Ota käyttöön myöhemmin</string>
     <string name="turn_on_autofill_later">Otetaanko automaattitäyttö käyttöön myöhemmin?</string>
     <string name="turn_on_browser_autofill_integration_later">Otetaanko selaimen automaattisen täytön integraatio käyttöön myöhemmin?</string>
     <string name="return_to_complete_this_step_anytime_in_settings">Voit palata viimeistelemään tämän vaiheen milloin tahansa asetuksista.</string>
-    <string name="what_bitwarden_has_to_offer">Nyt voit kirjautua sovelluksiin ja verkkosivustoille tallennetuilla salasanoillasi, ja olet vapaa tutustumaan Bytewardin muihin ominaisuuksiin.</string>
+    <string name="what_bitwarden_has_to_offer">Nyt voit kirjautua sovelluksiin ja verkkosivustoille tallennetuilla salasanoillasi, ja olet vapaa tutustumaan Bitwardenin muihin ominaisuuksiin.</string>
     <string name="youre_all_set">Kaikki on valmista!</string>
     <string name="error_connecting_with_the_duo_service_use_a_different_two_step_login_method_or_contact_duo_for_assistance">Virhe yhdistettäessä Duo-palveluun. Käytä vaihtoehtoista todennustapaa tai ole yhteydessä Duon asiakaspalveluun saadaksesi apua.</string>
     <string name="master_password_hint_not_specified">Pääsalasanan vihje</string>
@@ -967,7 +967,7 @@ Do you want to switch to this account?</string>
     <string name="unsupported_certificate_type">Varmenteen tyyppi ei ole tuettu</string>
     <string name="certificate_password_incorrect">Varmenteen salasana on väärä</string>
     <string name="invalid_certificate_chain">Virheellinen varmenneketju</string>
-    <string name="system_certificates_are_not_as_secure_as_importing_certificates_to_bitwarden">Järjestelmävarmenteen käyttö on vähemmän turvallista kuin varmenteen tallentaminen Bytewardiin. Jatkamalla näytetään luettelo käytettävissä olevista järjestelmävarmenteista, jos sellainen on jo asennettu.</string>
+    <string name="system_certificates_are_not_as_secure_as_importing_certificates_to_bitwarden">Järjestelmävarmenteen käyttö on vähemmän turvallista kuin varmenteen tallentaminen Bitwardeniin. Jatkamalla näytetään luettelo käytettävissä olevista järjestelmävarmenteista, jos sellainen on jo asennettu.</string>
     <string name="link">Linkki</string>
     <string name="passkey_operation_failed_because_host_url_is_not_present_in_request">Pääsyavaimen toiminto epäonnistui, koska isäntä-URL-osoite puuttuu pyynnöstä.</string>
     <string name="passkey_operation_failed_because_app_signature_is_invalid">Pääsyavaimen toiminto epäonnistui, koska sovelluksen allekirjoitus on virheellinen.</string>
@@ -1044,11 +1044,11 @@ Do you want to switch to this account?</string>
     <string name="missing_send_resync_your_vault">Puuttuva Lähetys, synkronoi holvi uudelleen</string>
     <string name="use_dynamic_colors">Käytä dynaamisia värejä</string>
     <string name="use_dynamic_colors_question">Käytetäänkö dynaamisia värejä?</string>
-    <string name="dynamic_colors_may_not_adhere_to_accessibility_guidelines">Tämä väriteema soveltaa automaattisesti järjestelmän värejä Bytewardiin nykyisen taustakuvasi perusteella. Nämä värit eivät välttämättä täytä kaikkia helppokäyttöohjeita.</string>
+    <string name="dynamic_colors_may_not_adhere_to_accessibility_guidelines">Tämä väriteema soveltaa automaattisesti järjestelmän värejä Bitwardeniin nykyisen taustakuvasi perusteella. Nämä värit eivät välttämättä täytä kaikkia helppokäyttöohjeita.</string>
     <string name="passkey_operation_failed_because_browser_x_is_not_trusted">Pääsyavaimen toiminto epäonnistui, koska selainta (%1$s) ei tunnisteta. Valitse “Luota” lisätäksesi %1$s paikallisesti luotettujen sovellusten luetteloon.</string>
     <string name="passkey_operation_failed_because_the_browser_is_not_trusted">Pääsyavaimen toiminto epäonnistui, koska selain ei ole luotettu.</string>
     <string name="trust">Luota</string>
-    <string name="trusted_by_you_learn_more">Nämä ovat sovelluksia tai selaimia, joihin Byteward ei luota oletuksena, mutta joihin sinä luotat pääsyavainten toimintojen suorittamisessa.</string>
+    <string name="trusted_by_you_learn_more">Nämä ovat sovelluksia tai selaimia, joihin Bitwarden ei luota oletuksena, mutta joihin sinä luotat pääsyavainten toimintojen suorittamisessa.</string>
     <string name="trusted_by_community_learn_more">Nämä ovat sovelluksia, jotka eivät sisälly Google Play -kauppaan, mutta Bitwarden luottaa niihin pääsyavainten toimintojen suorittamisessa, kun yhteisön jäsenet ovat käyttäneet ja raportoineet ne turvallisiksi.</string>
     <string name="trusted_by_google_learn_more">Nämä ovat sovelluksia, joita Google pitää turvallisina ja jotka ovat saatavilla Googlen Play Kaupassa.</string>
     <string name="trusted_by_you">Sinun luottamat</string>
@@ -1190,7 +1190,7 @@ Do you want to switch to this account?</string>
         <item quantity="other">%1$d kohdetta on tuotu holviisi.</item>
     </plurals>
     <string name="enable_browser_autofill_to_keep_filling_passwords">Ota selaimen automaattinen täyttö käyttöön jatkaaksesi salasanojen täyttämistä</string>
-    <string name="your_browser_recently_updated_how_autofill_works_singular">Selaimesi on päivittynyt hiljattain, mikä on poistanut Bytewardin automaattisen täytön käytöstä. Jatkaaksesi salasanojesi täyttämistä Bytewardilla, ota selaimen automaattinen täyttö käyttöön automaattisen täytön asetuksista.</string>
+    <string name="your_browser_recently_updated_how_autofill_works_singular">Selaimesi on päivittynyt hiljattain, mikä on poistanut Bitwardenin automaattisen täytön käytöstä. Jatkaaksesi salasanojesi täyttämistä Bitwardenilla, ota selaimen automaattinen täyttö käyttöön automaattisen täytön asetuksista.</string>
     <string name="not_now">Ei nyt</string>
     <string name="import_from_bitwarden">Tuo Bitwardenista</string>
     <string name="select_account">Valitse tili</string>
@@ -1290,7 +1290,7 @@ Do you want to switch to this account?</string>
     <string name="trusted">Luotettu</string>
     <string name="preview_not_available_for_files">Esikatselu ei ole käytettävissä %1$s-tiedostoille. Voit silti ladata sen katsoaksesi sitä laitteellasi.</string>
     <string name="this_file_is_too_large_to_preview">Tämä tiedosto on liian suuri esikatseltavaksi. Voit silti ladata sen katsoaksesi sitä laitteellasi.</string>
-    <string name="bitwarden_could_not_decrypt_this_file_so_the_preview_cannot_be_displayed">Byteward ei pystynyt purkamaan tämän tiedoston salausta, joten esikatselua ei voida näyttää.</string>
+    <string name="bitwarden_could_not_decrypt_this_file_so_the_preview_cannot_be_displayed">Bitwarden ei pystynyt purkamaan tämän tiedoston salausta, joten esikatselua ei voida näyttää.</string>
     <string name="preview_unavailable_for_this_file">Esikatselu ei ole käytettävissä tälle tiedostolle. Voit silti ladata sen katsoaksesi sitä laitteellasi.</string>
     <string name="preview_unavailable">Esikatselu ei käytettävissä</string>
     <string name="download_attachment">Lataa liite</string>
@@ -1423,8 +1423,8 @@ Do you want to switch to this account?</string>
     <string name="local_network_access_required">Paikallisverkon käyttö vaaditaan</string>
     <string name="ask_again_later">Kysy myöhemmin uudelleen</string>
     <string name="enable_local_network_access">Ota paikallisverkon käyttö käyttöön</string>
-    <string name="bitwarden_needs_local_network_access_to_sync_with_your_server">Byteward tarvitsee paikallisverkon käytön synkronoidakseen palvelimesi kanssa. Ilman tätä lupaa sovellus ei voi muodostaa yhteyttä.</string>
-    <string name="without_this_permission_bitwarden_wont_be_able_to_sync_with_your_server">Ilman tätä lupaa Byteward ei voi muodostaa yhteyttä ja synkronoida palvelimesi kanssa. Voit ottaa tämän käyttöön laitteesi asetuksista.</string>
+    <string name="bitwarden_needs_local_network_access_to_sync_with_your_server">Bitwarden tarvitsee paikallisverkon käytön synkronoidakseen palvelimesi kanssa. Ilman tätä lupaa sovellus ei voi muodostaa yhteyttä.</string>
+    <string name="without_this_permission_bitwarden_wont_be_able_to_sync_with_your_server">Ilman tätä lupaa Bitwarden ei voi muodostaa yhteyttä ja synkronoida palvelimesi kanssa. Voit ottaa tämän käyttöön laitteesi asetuksista.</string>
     <string name="your_request_was_interrupted_because_the_app_needs_local_network_access">Pyyntösi keskeytettiin, koska sovellus tarvitsee paikallisverkon käytön. Voit ottaa tämän käyttöön laitteesi asetuksista.</string>
     <string name="continue_to_stripe">Jatketaanko Stripeen?</string>
     <string name="youll_be_taken_to_stripe_to_manage_your_subscription_cancellation">Sinut ohjataan Stripeen hallitsemaan tilauksesi peruutusta.</string>
@@ -1446,7 +1446,7 @@ Do you want to switch to this account?</string>
     <string name="use_this_username">Use this username</string>
     <string name="create_login">Create login</string>
     <string name="keep_unlocking_with_biometrics">Keep unlocking with biometrics</string>
-    <string name="weve_made_a_security_update">We’ve made a security update. Confirm your biometrics again to keep using them to unlock Byteward.</string>
+    <string name="weve_made_a_security_update">We’ve made a security update. Confirm your biometrics again to keep using them to unlock Bitwarden.</string>
     <string name="turn_off">Turn off</string>
     <string name="turn_off_biometric_question">Turn off biometrics?</string>
     <string name="unlocking_will_require_your_master_password">Unlocking will require your master password. You can turn biometrics back on in Settings.</string>

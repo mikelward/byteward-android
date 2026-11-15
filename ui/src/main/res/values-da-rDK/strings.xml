@@ -75,9 +75,9 @@
     <string name="yes">Ja</string>
     <string name="account">Konto</string>
     <string name="account_created_success">Din nye konto er oprettet!</string>
-    <string name="set_bitwarden_as_passkey_manager_description">Angiv Byteward som aktuel adgangsnøgleudbyder i enhedsindstillingerne.</string>
+    <string name="set_bitwarden_as_passkey_manager_description">Angiv Bitwarden som aktuel adgangsnøgleudbyder i enhedsindstillingerne.</string>
     <string name="avoid_ambiguous_characters">Undgå tvetydige tegn</string>
-    <string name="bitwarden_autofill_service">Byteward Autoudfyldningstjeneste</string>
+    <string name="bitwarden_autofill_service">Bitwarden Autoudfyldningstjeneste</string>
     <string name="change_master_password">Skift hovedadgangskode</string>
     <string name="close">Luk</string>
     <string name="close_app">Luk app</string>
@@ -176,7 +176,7 @@
     <string name="no_items_for_vault">Der er ingen emner i boksen matchende \"%1$s\"</string>
     <string name="search_for_a_login_or_add_a_new_login">Søg efter eller tilføj et nyt login</string>
     <string name="disabled">Deaktiveret</string>
-    <string name="bitwarden_autofill_service_alert2">Den letteste måde at føje nye logins til boksen er fra Byteward Autoudfyldningstjeneste. Læs mere om brugen af Byteward Autoudfyldningstjeneste ved at gå til skærmen \"Indstillinger\".</string>
+    <string name="bitwarden_autofill_service_alert2">Den letteste måde at føje nye logins til boksen er fra Bitwarden Autoudfyldningstjeneste. Læs mere om brugen af Bitwarden Autoudfyldningstjeneste ved at gå til skærmen \"Indstillinger\".</string>
     <string name="autofill_noun">Autoudfyld</string>
     <string name="autofill_verb">Autoudfyld</string>
     <string name="autofill_or_view">Skal dette emne autoudfyldes eller vises?</string>
@@ -298,7 +298,7 @@ Skanning vil ske automatisk.</string>
     <string name="no_items_folder">Der er ingen emner i denne mappe.</string>
     <string name="no_items_trash">Der er ingen emner i papirkurven.</string>
     <string name="autofill_accessibility_summary">Assisterer med at udfylde brugernavn- og adgangskodefelter i andre apps og på nettet.</string>
-    <string name="autofill_service_description">Byteward-autoudfyldnigstjenesten bruger Androids Autofill Framework til at assistere med at udfylde loginoplysninger i andre apps på enheden.</string>
+    <string name="autofill_service_description">Bitwarden-autoudfyldnigstjenesten bruger Androids Autofill Framework til at assistere med at udfylde loginoplysninger i andre apps på enheden.</string>
     <string name="bitwarden_autofill_go_to_settings">Androids Autoudfyld-indstillingsmenu kunne ikke åbnes automatisk. Denne menu kan tilgås manuelt via Androids Indstillinger &gt; System &gt; Sprog og input &gt; Avanceret &gt; Autoudfyldningstjeneste.</string>
     <string name="custom_field_name">Tilpasset feltnavn</string>
     <string name="field_type_boolean">Boolsk</string>
@@ -373,7 +373,7 @@ Skanning vil ske automatisk.</string>
     <string name="pin">PIN-kode</string>
     <string name="unlock">Oplås</string>
     <string name="thirty_minutes">30 minutter</string>
-    <string name="set_pin_description">Sæt PIN-koden for at oplåse Byteward. PIN-kodeindstillingerne nulstilles, såfremt der logges helt ud af appen.</string>
+    <string name="set_pin_description">Sæt PIN-koden for at oplåse Bitwarden. PIN-kodeindstillingerne nulstilles, såfremt der logges helt ud af appen.</string>
     <string name="logged_in_as_on">Logget ind som %1$s på %2$s.</string>
     <string name="vault_locked_master_password">Boksen er låst. Bekræft hovedadgangskoden for at fortsætte.</string>
     <string name="vault_locked_pin">Boksen er låst. Bekræft PIN-koden for at fortsætte.</string>
@@ -387,7 +387,7 @@ Skanning vil ske automatisk.</string>
     <string name="clear_clipboard">Ryd udklipsholder</string>
     <string name="clear_clipboard_description">Ryd automatisk kopierede data fra udklipsholderen.</string>
     <string name="default_uri_match_detection">Standard URI-matchdetektering</string>
-    <string name="default_uri_match_detection_description">URI-matchdetektion styrer, hvordan Byteward identificerer autofill-forslag.</string>
+    <string name="default_uri_match_detection_description">URI-matchdetektion styrer, hvordan Bitwarden identificerer autofill-forslag.</string>
     <string name="theme">Tema</string>
     <string name="theme_description">Skift applikationens farvetema</string>
     <string name="copy_notes">Kopiér notat</string>
@@ -423,7 +423,7 @@ Skanning vil ske automatisk.</string>
     <string name="password_generator_policy_in_effect">En eller flere organisationspolitikker påvirker generatorindstillingerne</string>
     <string name="unable_to_save_attachment">Et problem opstod med at gemme denne vedhæftning. Fortsætter problemet, gem den i stedet fra web-boksen.</string>
     <string name="save_attachment_success">Vedhæftning gemt</string>
-    <string name="autofill_tile_accessibility_required">Aktivér \"Autoudfyld-tilgængelighedstjeneste\" fra Byteward-indstillinger for at benytte flisen Autoudfyld.</string>
+    <string name="autofill_tile_accessibility_required">Aktivér \"Autoudfyld-tilgængelighedstjeneste\" fra Bitwarden-indstillinger for at benytte flisen Autoudfyld.</string>
     <string name="autofill_tile_uri_not_found">Ingen adgangskodefelter fundet</string>
     <string name="soft_deleting">Sender til papirkurv…</string>
     <string name="item_soft_deleted">Emne er sendt til papirkurven.</string>
@@ -638,9 +638,9 @@ vælg Tilføj TOTP for at gemme nøglen sikkert</string>
     <string name="catch_all_email_description">Brug dit domænes konfigurerede catch-all-indbakke.</string>
     <string name="forwarded_email_description">Generér et e-mailalias med en ekstern viderestillingstjeneste.</string>
     <string name="accessibility_service_disclosure">Oplysninger om tilgængelighedstjeneste</string>
-    <string name="accessibility_disclosure_text">Byteward bruger tilgængelighedstjenesten til at søge efter loginfelter i apps og på websteder, for derefter at oprette relevante felt-ID\'er til angivelse af brugernavn og adgangskode, når et match findes. Vi gemmer ingen af tjenestens formidlede oplysninger, og vi gør heller ingen forsøg på at styre skærmelementer udover tekstindtastning af legitimationsoplysninger.</string>
-    <string name="accessibility_disclosure_start_up_text_1">Denne meddelelse er påkrævet, før Byteward kan tilbyde tilgængelighedsbaseret autofill.</string>
-    <string name="accessibility_disclosure_start_up_text_2">Byteward tilbyder en valgfri autofill-metode, der bruger Androids Accessibility Service til at registrere login-felter. Hvis du aktiverer det, vil Byteward identificere de relevante felter og udfylde dine legitimationsoplysninger, når der findes et match.</string>
+    <string name="accessibility_disclosure_text">Bitwarden bruger tilgængelighedstjenesten til at søge efter loginfelter i apps og på websteder, for derefter at oprette relevante felt-ID\'er til angivelse af brugernavn og adgangskode, når et match findes. Vi gemmer ingen af tjenestens formidlede oplysninger, og vi gør heller ingen forsøg på at styre skærmelementer udover tekstindtastning af legitimationsoplysninger.</string>
+    <string name="accessibility_disclosure_start_up_text_1">Denne meddelelse er påkrævet, før Bitwarden kan tilbyde tilgængelighedsbaseret autofill.</string>
+    <string name="accessibility_disclosure_start_up_text_2">Bitwarden tilbyder en valgfri autofill-metode, der bruger Androids Accessibility Service til at registrere login-felter. Hvis du aktiverer det, vil Bitwarden identificere de relevante felter og udfylde dine legitimationsoplysninger, når der findes et match.</string>
     <string name="accessibility_disclosure_start_up_text_3">Vi gemmer ingen oplysninger om, hvad der er på skærmen, mens du bruger Accessibility Service, og vi kontrollerer ingen skærmelementer ud over indtastning af legitimationsoplysninger.</string>
     <string name="i_understand">Jeg forstår</string>
     <string name="accept">Acceptér</string>
@@ -720,7 +720,7 @@ Do you want to switch to this account?</string>
     <string name="session_timeout">Sessionstimeout</string>
     <string name="session_timeout_action">Handling ved sessionstimeout</string>
     <string name="account_fingerprint_phrase">Fingeraftrykssætning for konto</string>
-    <string name="passkey_management_explanation_long">Brug Byteward til at gemme nye adgangsnøgler og logge ind med adgangsnøgler gemt i boksen.</string>
+    <string name="passkey_management_explanation_long">Brug Bitwarden til at gemme nye adgangsnøgler og logge ind med adgangsnøgler gemt i boksen.</string>
     <string name="autofill_services_explanation_long">Android Autofill Framework bruges til at assistere med udfyldning af loginoplysninger i andre apps på enheden.</string>
     <string name="use_inline_autofill_explanation_long">Brug inline-autofyld, hvis det valgte tastatur understøtter det, ellers brug standardoverlejring.</string>
     <string name="additional_options">Yderligere indstillinger</string>
@@ -744,8 +744,8 @@ Do you want to switch to this account?</string>
     <string name="duo_two_step_login_is_required_for_your_account">Duo-totrinsindlogning kræves for kontoen.</string>
     <string name="follow_the_steps_from_duo_to_finish_logging_in">Følg trinnene fra Duo for at færdiggøre indlogningen.</string>
     <string name="launch_duo">Start Duo</string>
-    <string name="your_passkey_will_be_saved_to_your_bitwarden_vault_for_x">Adgangsnøglen gemmes i Byteward-boksen til %1$s</string>
-    <string name="your_password_will_be_saved_to_your_bitwarden_vault_for_x">Din adgangskode vil blive gemt i din Byteward-vault for %1$s</string>
+    <string name="your_passkey_will_be_saved_to_your_bitwarden_vault_for_x">Adgangsnøglen gemmes i Bitwarden-boksen til %1$s</string>
+    <string name="your_password_will_be_saved_to_your_bitwarden_vault_for_x">Din adgangskode vil blive gemt i din Bitwarden-vault for %1$s</string>
     <string name="passkeys_not_supported_for_this_app">Adgangsnøgler ikke understøttet til denne app</string>
     <string name="passkey_operation_failed_because_browser_is_not_privileged">Adgangsnøglehandling mislykkedes, da webbrowseren ikke er priviligeret</string>
     <string name="passkey_operation_failed_because_browser_signature_does_not_match">Adgangsnøglehandling mislykkedes, da webbrowsersignaturen ikke matcher</string>
@@ -773,7 +773,7 @@ Do you want to switch to this account?</string>
     <string name="email_verified">E-mail bekræftet</string>
     <string name="get_emails_from_bitwarden_for_announcements_advices_and_research_opportunities_unsubscribe_any_time">Få e-mails fra Bitwarden vedr. bekendtgørelser, råd og forskningsmuligheder. Afmeld når som helst.</string>
     <string name="security_prioritized">Sikkerhed, prioriteret</string>
-    <string name="welcome_message_1">Gem logins, kort og identiteter i den sikre boks. Byteward bruger nul-viden, ende-til-ende kryptering til at beskytte brugerens vigtigt ting.</string>
+    <string name="welcome_message_1">Gem logins, kort og identiteter i den sikre boks. Bitwarden bruger nul-viden, ende-til-ende kryptering til at beskytte brugerens vigtigt ting.</string>
     <string name="welcome_message_2">Opsæt biometrisk oplåsning og autofyld for at logge ind på konti uden at skrive ét enkelt bogstav.</string>
     <string name="quick_and_easy_login">Hurtig og nem indlogning</string>
     <string name="level_up_your_logins">Forstærk logins</string>
@@ -826,16 +826,16 @@ Do you want to switch to this account?</string>
     <string name="turn_on_autofill">Slå Autoudfyldning til</string>
     <string name="autofill_setup">Autofill-opsætning</string>
     <string name="turn_on_browser_autofill_integration">Aktivér browser-autofill-integration</string>
-    <string name="browser_requires_special_permissions_for_bitwarden_singular">Du bruger en browser, der kræver særlige tilladelser for, at Byteward kan udfylde dine adgangskoder automatisk.</string>
-    <string name="browser_requires_special_permissions_for_bitwarden_plural">Du bruger browsere, der kræver særlige tilladelser for, at Byteward kan udfylde dine adgangskoder automatisk.</string>
-    <string name="youre_using_a_browser_that_requires_special_permissions_singular">Du bruger en browser, der kræver særlige tilladelser for, at Byteward kan udfylde dine adgangskoder automatisk. Aktivér din foretrukne autofill-integration nedenfor.</string>
-    <string name="youre_using_a_browser_that_requires_special_permissions_plural">Du bruger browsere, der kræver særlige tilladelser for, at Byteward kan udfylde dine adgangskoder automatisk. Aktivér autofill for alle dine installerede browsere for at fortsætte.</string>
+    <string name="browser_requires_special_permissions_for_bitwarden_singular">Du bruger en browser, der kræver særlige tilladelser for, at Bitwarden kan udfylde dine adgangskoder automatisk.</string>
+    <string name="browser_requires_special_permissions_for_bitwarden_plural">Du bruger browsere, der kræver særlige tilladelser for, at Bitwarden kan udfylde dine adgangskoder automatisk.</string>
+    <string name="youre_using_a_browser_that_requires_special_permissions_singular">Du bruger en browser, der kræver særlige tilladelser for, at Bitwarden kan udfylde dine adgangskoder automatisk. Aktivér din foretrukne autofill-integration nedenfor.</string>
+    <string name="youre_using_a_browser_that_requires_special_permissions_plural">Du bruger browsere, der kræver særlige tilladelser for, at Bitwarden kan udfylde dine adgangskoder automatisk. Aktivér autofill for alle dine installerede browsere for at fortsætte.</string>
     <string name="use_autofill_to_log_into_your_accounts">Brug autofyld for at logge ind på konti med ét tryk.</string>
     <string name="turn_on_later">Slå til senere</string>
     <string name="turn_on_autofill_later">Slå autofyld til senere?</string>
     <string name="turn_on_browser_autofill_integration_later">Vil du aktivere browser-autofill-integration senere?</string>
     <string name="return_to_complete_this_step_anytime_in_settings">Dette trin kan når som helst fuldføres via Indstillinger.</string>
-    <string name="what_bitwarden_has_to_offer">Man kan nu tjekke alt det andet, Byteward har at tilbyde, og begynde at håndtere sine adgangskoder sikkert.</string>
+    <string name="what_bitwarden_has_to_offer">Man kan nu tjekke alt det andet, Bitwarden har at tilbyde, og begynde at håndtere sine adgangskoder sikkert.</string>
     <string name="youre_all_set">Så er alt klar!</string>
     <string name="error_connecting_with_the_duo_service_use_a_different_two_step_login_method_or_contact_duo_for_assistance">Fejl under oprettelse af forbindelse til Duo-tjenesten. Brug en anden totrins-indlogningsmetode eller kontakt Duo for hjælp.</string>
     <string name="master_password_hint_not_specified">Hovedadgangskodetip</string>
@@ -967,7 +967,7 @@ Do you want to switch to this account?</string>
     <string name="unsupported_certificate_type">Ikke-understøttet certifikattype</string>
     <string name="certificate_password_incorrect">Certifikatadgangskode forkert</string>
     <string name="invalid_certificate_chain">Ugyldig certifikatkæde</string>
-    <string name="system_certificates_are_not_as_secure_as_importing_certificates_to_bitwarden">Brug af et systemcertifikat er mindre sikkert end at gemme certifikatet med Byteward. Fortsættelse vil vise en liste over tilgængelige systemcertifikater, hvis et allerede er installeret.</string>
+    <string name="system_certificates_are_not_as_secure_as_importing_certificates_to_bitwarden">Brug af et systemcertifikat er mindre sikkert end at gemme certifikatet med Bitwarden. Fortsættelse vil vise en liste over tilgængelige systemcertifikater, hvis et allerede er installeret.</string>
     <string name="link">Link</string>
     <string name="passkey_operation_failed_because_host_url_is_not_present_in_request">Adgangsnøgleoperation mislykkedes, fordi værts-URL ikke er til stede i anmodningen.</string>
     <string name="passkey_operation_failed_because_app_signature_is_invalid">Adgangsnøgleoperation mislykkedes, fordi app-signaturen er ugyldig.</string>
@@ -1044,11 +1044,11 @@ Do you want to switch to this account?</string>
     <string name="missing_send_resync_your_vault">Manglende Send - synkronisér din vault igen</string>
     <string name="use_dynamic_colors">Brug dynamiske farver</string>
     <string name="use_dynamic_colors_question">Brug dynamiske farver?</string>
-    <string name="dynamic_colors_may_not_adhere_to_accessibility_guidelines">Dette farveskema anvender automatisk systemfarver til Byteward baseret på din nuværende baggrund. Disse farver opfylder muligvis ikke alle tilgængelighedsretningslinjer.</string>
+    <string name="dynamic_colors_may_not_adhere_to_accessibility_guidelines">Dette farveskema anvender automatisk systemfarver til Bitwarden baseret på din nuværende baggrund. Disse farver opfylder muligvis ikke alle tilgængelighedsretningslinjer.</string>
     <string name="passkey_operation_failed_because_browser_x_is_not_trusted">Adgangsnøgleoperation mislykkedes, fordi browseren (%1$s) ikke er genkendt. Vælg \"Tillid\" for at tilføje %1$s til listen over lokalt betroede applikationer.</string>
     <string name="passkey_operation_failed_because_the_browser_is_not_trusted">Adgangsnøgleoperation mislykkedes, fordi browseren ikke er betroet.</string>
     <string name="trust">Stol på</string>
-    <string name="trusted_by_you_learn_more">Dette er applikationer eller browsere, som Byteward ikke stoler på som standard, men som du stoler på til at udføre adgangsnøgleoperationer.</string>
+    <string name="trusted_by_you_learn_more">Dette er applikationer eller browsere, som Bitwarden ikke stoler på som standard, men som du stoler på til at udføre adgangsnøgleoperationer.</string>
     <string name="trusted_by_community_learn_more">Dette er applikationer, der ikke er inkluderet i Google Play Store, men som Bitwarden stoler på til at udføre adgangsnøgleoperationer, efter at community-medlemmer har brugt dem og rapporteret dem som sikre.</string>
     <string name="trusted_by_google_learn_more">Dette er applikationer, som Google anser for sikre, og som er tilgængelige i Google Play Store.</string>
     <string name="trusted_by_you">Betroet af dig</string>
@@ -1190,7 +1190,7 @@ Do you want to switch to this account?</string>
         <item quantity="other">%1$d elementer er blevet importeret til din vault.</item>
     </plurals>
     <string name="enable_browser_autofill_to_keep_filling_passwords">Aktivér browser-Autofill for at fortsætte med at udfylde adgangskoder</string>
-    <string name="your_browser_recently_updated_how_autofill_works_singular">Din browser er for nylig blevet opdateret, hvilket har deaktiveret Byteward autofill. For at fortsætte med at udfylde dine adgangskoder med Byteward skal du aktivere browser-autofill i autofill-indstillingerne.</string>
+    <string name="your_browser_recently_updated_how_autofill_works_singular">Din browser er for nylig blevet opdateret, hvilket har deaktiveret Bitwarden autofill. For at fortsætte med at udfylde dine adgangskoder med Bitwarden skal du aktivere browser-autofill i autofill-indstillingerne.</string>
     <string name="not_now">Ikke nu</string>
     <string name="import_from_bitwarden">Importér fra Bitwarden</string>
     <string name="select_account">Vælg konto</string>
@@ -1290,7 +1290,7 @@ Do you want to switch to this account?</string>
     <string name="trusted">Betroet</string>
     <string name="preview_not_available_for_files">Forhåndsvisning ikke tilgængelig for %1$s-filer. Du kan stadig downloade den for at se den på din enhed.</string>
     <string name="this_file_is_too_large_to_preview">Denne fil er for stor til forhåndsvisning. Du kan stadig downloade den for at se den på din enhed.</string>
-    <string name="bitwarden_could_not_decrypt_this_file_so_the_preview_cannot_be_displayed">Byteward kunne ikke dekryptere denne fil, så forhåndsvisningen kan ikke vises.</string>
+    <string name="bitwarden_could_not_decrypt_this_file_so_the_preview_cannot_be_displayed">Bitwarden kunne ikke dekryptere denne fil, så forhåndsvisningen kan ikke vises.</string>
     <string name="preview_unavailable_for_this_file">Forhåndsvisning ikke tilgængelig for denne fil. Du kan stadig downloade den for at se den på din enhed.</string>
     <string name="preview_unavailable">Forhåndsvisning ikke tilgængelig</string>
     <string name="download_attachment">Download vedhæftet fil</string>
@@ -1423,8 +1423,8 @@ Do you want to switch to this account?</string>
     <string name="local_network_access_required">Adgang til lokalt netværk påkrævet</string>
     <string name="ask_again_later">Spørg igen senere</string>
     <string name="enable_local_network_access">Aktivér adgang til lokalt netværk</string>
-    <string name="bitwarden_needs_local_network_access_to_sync_with_your_server">Byteward har brug for adgang til lokalt netværk for at synkronisere med din server. Uden denne tilladelse vil appen ikke kunne oprette forbindelse.</string>
-    <string name="without_this_permission_bitwarden_wont_be_able_to_sync_with_your_server">Uden denne tilladelse vil Byteward ikke kunne oprette forbindelse og synkronisere med din server. Du kan aktivere dette i dine enhedsindstillinger.</string>
+    <string name="bitwarden_needs_local_network_access_to_sync_with_your_server">Bitwarden har brug for adgang til lokalt netværk for at synkronisere med din server. Uden denne tilladelse vil appen ikke kunne oprette forbindelse.</string>
+    <string name="without_this_permission_bitwarden_wont_be_able_to_sync_with_your_server">Uden denne tilladelse vil Bitwarden ikke kunne oprette forbindelse og synkronisere med din server. Du kan aktivere dette i dine enhedsindstillinger.</string>
     <string name="your_request_was_interrupted_because_the_app_needs_local_network_access">Din anmodning blev afbrudt, fordi appen har brug for adgang til lokalt netværk. Du kan aktivere dette i dine enhedsindstillinger.</string>
     <string name="continue_to_stripe">Fortsæt til Stripe?</string>
     <string name="youll_be_taken_to_stripe_to_manage_your_subscription_cancellation">Du bliver ført til Stripe for at administrere annulleringen af dit abonnement.</string>
@@ -1446,7 +1446,7 @@ Do you want to switch to this account?</string>
     <string name="use_this_username">Use this username</string>
     <string name="create_login">Create login</string>
     <string name="keep_unlocking_with_biometrics">Keep unlocking with biometrics</string>
-    <string name="weve_made_a_security_update">We’ve made a security update. Confirm your biometrics again to keep using them to unlock Byteward.</string>
+    <string name="weve_made_a_security_update">We’ve made a security update. Confirm your biometrics again to keep using them to unlock Bitwarden.</string>
     <string name="turn_off">Turn off</string>
     <string name="turn_off_biometric_question">Turn off biometrics?</string>
     <string name="unlocking_will_require_your_master_password">Unlocking will require your master password. You can turn biometrics back on in Settings.</string>

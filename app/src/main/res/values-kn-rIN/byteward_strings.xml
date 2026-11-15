@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Byteward overrides for strings defined in the :ui module, which keeps
+    upstream Bitwarden's text. App resources take precedence over library
+    resources when they are merged, so the app shows these versions while the
+    :ui files stay identical to upstream (and the Authenticator app, which also
+    uses :ui, keeps Bitwarden's text).
+
+    Each entry renames Bitwarden to Byteward where the password manager refers
+    to itself. Text about Bitwarden's service is not overridden.
+-->
+<resources>
+    <string name="set_bitwarden_as_passkey_manager_description">ಸಾಧನ ಸೆಟ್ಟಿಂಗ್ಗಳಲ್ಲಿ Byteward ಅನ್ನು ನಿಮ್ಮ ಪಾಸ್ಕೀ ಪೂರೈಕೆದಾರರಾಗಿ ಹೊಂದಿಸಿ.</string>
+    <string name="bitwarden_autofill_service_alert2">ನಿಮ್ಮ ವಾಲ್ಟ್ಗೆ ಹೊಸ ಲಾಗಿನ್ಗಳನ್ನು ಸೇರಿಸಲು ಸುಲಭವಾದ ಮಾರ್ಗವೆಂದರೆ Byteward ಸ್ವಯಂ ಭರ್ತಿ ಸೇವೆಯಿಂದ. “ಸೆಟ್ಟಿಂಗ್ಗಳು” ಪರದೆಗೆ ನ್ಯಾವಿಗೇಟ್ ಮಾಡುವ ಮೂಲಕ Byteward ಸ್ವಯಂ ಭರ್ತಿ ಸೇವೆಯನ್ನು ಬಳಸುವುದರ ಬಗ್ಗೆ ಇನ್ನಷ್ಟು ತಿಳಿಯಿರಿ.</string>
+    <string name="default_uri_match_detection_description">URI ಹೊಂದಾಣಿಕೆ ಪತ್ತೆಯು Byteward ಸ್ವಯಂ ಭರ್ತಿ ಸಲಹೆಗಳನ್ನು ಹೇಗೆ ಗುರುತಿಸುತ್ತದೆ ಎಂಬುದನ್ನು ನಿಯಂತ್ರಿಸುತ್ತದೆ.</string>
+    <string name="autofill_tile_accessibility_required">ಸ್ವಯಂ ಭರ್ತಿ ಟೈಲ್ ಬಳಸಲು Byteward ಸೆಟ್ಟಿಂಗ್ಗಳಿಂದ “ಸ್ವಯಂ ಭರ್ತಿ ಪ್ರವೇಶಿಸುವಿಕೆ ಸೇವೆ” ಆನ್ ಮಾಡಿ.</string>
+    <string name="accessibility_disclosure_text">Byteward ಅಪ್ಲಿಕೇಶನ್ಗಳು ಮತ್ತು ವೆಬ್ಸೈಟ್ಗಳಲ್ಲಿ ಲಾಗಿನ್ ಕ್ಷೇತ್ರಗಳನ್ನು ಹುಡುಕಲು ಪ್ರವೇಶಿಸುವಿಕೆ ಸೇವೆಯನ್ನು ಬಳಸುತ್ತದೆ, ನಂತರ ಅಪ್ಲಿಕೇಶನ್ ಅಥವಾ ಸೈಟ್ಗೆ ಹೊಂದಾಣಿಕೆ ಕಂಡುಬಂದಾಗ ಬಳಕೆದಾರಹೆಸರು ಮತ್ತು ಪಾಸ್ವರ್ಡ್ ಅನ್ನು ನಮೂದಿಸಲು ಸೂಕ್ತವಾದ ಕ್ಷೇತ್ರ ID ಗಳನ್ನು ಸ್ಥಾಪಿಸುತ್ತದೆ. ಸೇವೆಯು ನಮಗೆ ಒದಗಿಸುವ ಯಾವುದೇ ಮಾಹಿತಿಯನ್ನು ನಾವು ಸಂಗ್ರಹಿಸುವುದಿಲ್ಲ, ಮತ್ತು ರುಜುವಾತುಗಳ ಪಠ್ಯ ನಮೂದು ಹೊರತುಪಡಿಸಿ ಯಾವುದೇ ಪರದೆಯ ಅಂಶಗಳನ್ನು ನಿಯಂತ್ರಿಸಲು ನಾವು ಯಾವುದೇ ಪ್ರಯತ್ನವನ್ನು ಮಾಡುವುದಿಲ್ಲ.</string>
+    <string name="accessibility_disclosure_start_up_text_1">Byteward ಪ್ರವೇಶಿಸುವಿಕೆ-ಆಧಾರಿತ ಸ್ವಯಂ ಭರ್ತಿಯನ್ನು ನೀಡುವ ಮೊದಲು ಈ ಸೂಚನೆಯು ಅಗತ್ಯವಿದೆ.</string>
+    <string name="accessibility_disclosure_start_up_text_2">Byteward ಲಾಗಿನ್ ಕ್ಷೇತ್ರಗಳನ್ನು ಪತ್ತೆಹಚ್ಚಲು Android ನ ಪ್ರವೇಶಿಸುವಿಕೆ ಸೇವೆಯನ್ನು ಬಳಸುವ ಐಚ್ಛಿಕ ಸ್ವಯಂ ಭರ್ತಿ ವಿಧಾನವನ್ನು ನೀಡುತ್ತದೆ. ನೀವು ಅದನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿದರೆ, Byteward ಸೂಕ್ತವಾದ ಕ್ಷೇತ್ರಗಳನ್ನು ಗುರುತಿಸುತ್ತದೆ ಮತ್ತು ಹೊಂದಾಣಿಕೆ ಕಂಡುಬಂದಾಗ ನಿಮ್ಮ ರುಜುವಾತುಗಳನ್ನು ಭರ್ತಿ ಮಾಡುತ್ತದೆ.</string>
+    <string name="passkey_management_explanation_long">ಹೊಸ ಪಾಸ್ಕೀಗಳನ್ನು ಉಳಿಸಲು ಮತ್ತು ನಿಮ್ಮ ವಾಲ್ಟ್ನಲ್ಲಿ ಸಂಗ್ರಹಿಸಲಾದ ಪಾಸ್ಕೀಗಳೊಂದಿಗೆ ಲಾಗಿನ್ ಮಾಡಲು Byteward ಬಳಸಿ.</string>
+    <string name="autofill_services_explanation_long">ನಿಮ್ಮ ಸಾಧನದಲ್ಲಿನ ಇತರ ಅಪ್ಲಿಕೇಶನ್ಗಳಿಗೆ ಸೈನ್ ಇನ್ ಮಾಡಲು ನಿಮ್ಮ ಉಳಿಸಿದ ಲಾಗಿನ್ ಮಾಹಿತಿಯನ್ನು ಬಳಸಲು Byteward ಗೆ ಅನುಮತಿಸಿ.</string>
+    <string name="your_passkey_will_be_saved_to_your_bitwarden_vault_for_x">ನಿಮ್ಮ ಪಾಸ್ಕೀಯನ್ನು %1$s ಗಾಗಿ ನಿಮ್ಮ Byteward ವಾಲ್ಟ್ಗೆ ಉಳಿಸಲಾಗುತ್ತದೆ</string>
+    <string name="your_password_will_be_saved_to_your_bitwarden_vault_for_x">ನಿಮ್ಮ ಪಾಸ್ವರ್ಡ್ ಅನ್ನು %1$s ಗಾಗಿ ನಿಮ್ಮ Byteward ವಾಲ್ಟ್ಗೆ ಉಳಿಸಲಾಗುತ್ತದೆ</string>
+    <string name="welcome_message_1">ಲಾಗಿನ್ಗಳು, ಕಾರ್ಡ್ಗಳು ಮತ್ತು ಗುರುತುಗಳನ್ನು ನಿಮ್ಮ ಸುರಕ್ಷಿತ ವಾಲ್ಟ್ಗೆ ಉಳಿಸಿ. Byteward ನಿಮಗೆ ಮುಖ್ಯವಾದುದನ್ನು ರಕ್ಷಿಸಲು ಶೂನ್ಯ-ಜ್ಞಾನ, ಎಂಡ್-ಟು-ಎಂಡ್ ಎನ್ಕ್ರಿಪ್ಷನ್ ಅನ್ನು ಬಳಸುತ್ತದೆ.</string>
+    <string name="browser_requires_special_permissions_for_bitwarden_singular">Byteward ನಿಮ್ಮ ಪಾಸ್ವರ್ಡ್ಗಳನ್ನು ಸ್ವಯಂ ಭರ್ತಿ ಮಾಡಲು ವಿಶೇಷ ಅನುಮತಿಗಳ ಅಗತ್ಯವಿರುವ ಬ್ರೌಸರ್ ಅನ್ನು ನೀವು ಬಳಸುತ್ತಿದ್ದೀರಿ.</string>
+    <string name="browser_requires_special_permissions_for_bitwarden_plural">Byteward ನಿಮ್ಮ ಪಾಸ್ವರ್ಡ್ಗಳನ್ನು ಸ್ವಯಂ ಭರ್ತಿ ಮಾಡಲು ವಿಶೇಷ ಅನುಮತಿಗಳ ಅಗತ್ಯವಿರುವ ಬ್ರೌಸರ್ಗಳನ್ನು ನೀವು ಬಳಸುತ್ತಿದ್ದೀರಿ.</string>
+    <string name="youre_using_a_browser_that_requires_special_permissions_singular">Byteward ನಿಮ್ಮ ಪಾಸ್ವರ್ಡ್ಗಳನ್ನು ಸ್ವಯಂ ಭರ್ತಿ ಮಾಡಲು ವಿಶೇಷ ಅನುಮತಿಗಳ ಅಗತ್ಯವಿರುವ ಬ್ರೌಸರ್ ಅನ್ನು ನೀವು ಬಳಸುತ್ತಿದ್ದೀರಿ. ಕೆಳಗೆ ನಿಮ್ಮ ಆದ್ಯತೆಯ ಸ್ವಯಂ ಭರ್ತಿ ಏಕೀಕರಣವನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿ.</string>
+    <string name="youre_using_a_browser_that_requires_special_permissions_plural">Byteward ನಿಮ್ಮ ಪಾಸ್ವರ್ಡ್ಗಳನ್ನು ಸ್ವಯಂ ಭರ್ತಿ ಮಾಡಲು ವಿಶೇಷ ಅನುಮತಿಗಳ ಅಗತ್ಯವಿರುವ ಬ್ರೌಸರ್ಗಳನ್ನು ನೀವು ಬಳಸುತ್ತಿದ್ದೀರಿ. ಮುಂದುವರಿಯಲು ನಿಮ್ಮ ಎಲ್ಲಾ ಸ್ಥಾಪಿಸಿದ ಬ್ರೌಸರ್ಗಳಿಗೆ ಸ್ವಯಂ ಭರ್ತಿಯನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿ.</string>
+    <string name="what_bitwarden_has_to_offer">ನೀವು ಈಗ Byteward ನೀಡುವ ಎಲ್ಲವನ್ನೂ ಅನ್ವೇಷಿಸಬಹುದು ಮತ್ತು ನಿಮ್ಮ ಪಾಸ್ವರ್ಡ್ಗಳನ್ನು ಸುರಕ್ಷಿತವಾಗಿ ನಿರ್ವಹಿಸಲು ಪ್ರಾರಂಭಿಸಬಹುದು.</string>
+    <string name="system_certificates_are_not_as_secure_as_importing_certificates_to_bitwarden">ಸಿಸ್ಟಮ್ ಪ್ರಮಾಣಪತ್ರವನ್ನು ಬಳಸುವುದು Byteward ನೊಂದಿಗೆ ಪ್ರಮಾಣಪತ್ರವನ್ನು ಸಂಗ್ರಹಿಸುವುದಕ್ಕಿಂತ ಕಡಿಮೆ ಸುರಕ್ಷಿತವಾಗಿದೆ. ಮುಂದುವರಿಯುವುದು ಈಗಾಗಲೇ ಸ್ಥಾಪಿಸಲಾಗಿದ್ದರೆ ಲಭ್ಯವಿರುವ ಸಿಸ್ಟಮ್ ಪ್ರಮಾಣಪತ್ರಗಳ ಪಟ್ಟಿಯನ್ನು ಪ್ರದರ್ಶಿಸುತ್ತದೆ.</string>
+    <string name="dynamic_colors_may_not_adhere_to_accessibility_guidelines">ಈ ಬಣ್ಣ ಯೋಜನೆಯು ನಿಮ್ಮ ಪ್ರಸ್ತುತ ವಾಲ್ಪೇಪರ್ ಆಧಾರಿತವಾಗಿ ಸಿಸ್ಟಮ್ ಬಣ್ಣಗಳನ್ನು Byteward ಗೆ ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಅನ್ವಯಿಸುತ್ತದೆ. ಈ ಬಣ್ಣಗಳು ಎಲ್ಲಾ ಪ್ರವೇಶಿಸುವಿಕೆ ಮಾರ್ಗಸೂಚಿಗಳನ್ನು ಪೂರೈಸದಿರಬಹುದು.</string>
+    <string name="trusted_by_you_learn_more">ಇವು Byteward ಡೀಫಾಲ್ಟ್ ಆಗಿ ವಿಶ್ವಾಸಿಸದ ಆದರೆ ಪಾಸ್ಕೀ ಕಾರ್ಯಾಚರಣೆಗಳನ್ನು ನಿರ್ವಹಿಸಲು ನೀವು ವಿಶ್ವಾಸಿಸುವ ಅಪ್ಲಿಕೇಶನ್ಗಳು ಅಥವಾ ಬ್ರೌಸರ್ಗಳಾಗಿವೆ.</string>
+    <string name="your_browser_recently_updated_how_autofill_works_singular">ನಿಮ್ಮ ಬ್ರೌಸರ್ ಇತ್ತೀಚೆಗೆ ನವೀಕರಿಸಲಾಗಿದೆ, ಇದು Byteward ಸ್ವಯಂ ಭರ್ತಿಯನ್ನು ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿದೆ. Byteward ನೊಂದಿಗೆ ನಿಮ್ಮ ಪಾಸ್ವರ್ಡ್ಗಳನ್ನು ಭರ್ತಿ ಮಾಡುವುದನ್ನು ಮುಂದುವರಿಸಲು, ಸ್ವಯಂ ಭರ್ತಿ ಸೆಟ್ಟಿಂಗ್ಗಳಲ್ಲಿ ಬ್ರೌಸರ್ ಸ್ವಯಂ ಭರ್ತಿಯನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿ.</string>
+    <string name="bitwarden_could_not_decrypt_this_file_so_the_preview_cannot_be_displayed">Byteward ಈ ಫೈಲ್ ಅನ್ನು ಡೀಕ್ರಿಪ್ಟ್ ಮಾಡಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ, ಆದ್ದರಿಂದ ಮುನ್ನೋಟವನ್ನು ಪ್ರದರ್ಶಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ.</string>
+    <string name="bitwarden_needs_local_network_access_to_sync_with_your_server">ನಿಮ್ಮ ಸರ್ವರ್ನೊಂದಿಗೆ ಸಿಂಕ್ ಮಾಡಲು Byteward ಗೆ ಸ್ಥಳೀಯ ನೆಟ್ವರ್ಕ್ ಪ್ರವೇಶದ ಅಗತ್ಯವಿದೆ. ಈ ಅನುಮತಿಯಿಲ್ಲದೆ, ಅಪ್ಲಿಕೇಶನ್ ಸಂಪರ್ಕಿಸಲು ಸಾಧ್ಯವಾಗುವುದಿಲ್ಲ.</string>
+    <string name="without_this_permission_bitwarden_wont_be_able_to_sync_with_your_server">ಈ ಅನುಮತಿಯಿಲ್ಲದೆ, Byteward ನಿಮ್ಮ ಸರ್ವರ್ನೊಂದಿಗೆ ಸಂಪರ್ಕಿಸಲು ಮತ್ತು ಸಿಂಕ್ ಮಾಡಲು ಸಾಧ್ಯವಾಗುವುದಿಲ್ಲ. ನೀವು ಇದನ್ನು ನಿಮ್ಮ ಸಾಧನ ಸೆಟ್ಟಿಂಗ್ಗಳಲ್ಲಿ ಸಕ್ರಿಯಗೊಳಿಸಬಹುದು.</string>
+    <string name="weve_made_a_security_update">We’ve made a security update. Confirm your biometrics again to keep using them to unlock Byteward.</string>
+</resources>

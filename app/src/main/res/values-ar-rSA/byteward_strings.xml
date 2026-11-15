@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Byteward overrides for strings defined in the :ui module, which keeps
+    upstream Bitwarden's text. App resources take precedence over library
+    resources when they are merged, so the app shows these versions while the
+    :ui files stay identical to upstream (and the Authenticator app, which also
+    uses :ui, keeps Bitwarden's text).
+
+    Each entry renames Bitwarden to Byteward where the password manager refers
+    to itself. Text about Bitwarden's service is not overridden.
+-->
+<resources>
+    <string name="set_bitwarden_as_passkey_manager_description">تعيين Byteward كموفر مفتاح المرور الخاص بك في إعدادات الجهاز.</string>
+    <string name="bitwarden_autofill_service">خدمة الملء التلقائي من Byteward</string>
+    <string name="bitwarden_autofill_service_alert2">أسهل طريقة لإضافة تسجيلات دخول جديدة إلى خزنتك هي من خدمةالملء التلقائي Byteward تعرف على المزيد حول استخدام خدمة الملء التلقائي لـ Byteward عن طريق الانتقال إلى شاشة \"إعدادات\".</string>
+    <string name="autofill_service_description">تستخدم خدمة Byteward للتعبئة التلقائية إطار التشغيل التلقائي لأندرويد للمساعدة في ملء معلومات تسجيل الدخول في تطبيقات أخرى على جهازك.</string>
+    <string name="set_pin_description">تعيين رمز PIN الخاص بك لإلغاء قفل Byteward. سيتم إعادة تعيين إعدادات PIN الخاصة بك إذا قمت بتسجيل الخروج بالكامل من التطبيق.</string>
+    <string name="default_uri_match_detection_description">كشف تطابق الروابط هي الطريقة التي يحدد بها Byteward اقتراحاتالملء التلقائي.</string>
+    <string name="autofill_tile_accessibility_required">الرجاء تمكين \"خدمة الوصول إلى الملء التلقائي\" من إعدادات Byteward لاستخدام الملء التلقائي.</string>
+    <string name="accessibility_disclosure_text">يستخدم Byteward خدمة إمكانية الوصول للبحث عن حقول تسجيل الدخول في التطبيقات ومواقع الويب،ثم تحديد IDs الحقول المناسبة لإدخال اسم المستخدم &amp; كلمة المرور عند العثور على تطابق للموقع أو التطبيق. نحن لا نخزن أيا من المعلومات التي تقدمها لنا الخدمة، ولا نحاول التحكم في أي عناصر على الشاشة باستثناء إدخال نص بيانات الحساب.</string>
+    <string name="accessibility_disclosure_start_up_text_1">هذا الإشعار مطلوب قبل أن يتمكن Byteward من تقديم الملء التلقائي المستند إلى إمكانيات الوصول.</string>
+    <string name="accessibility_disclosure_start_up_text_2">يقدم Byteward طريقة اختيارية للملء التلقائي تستخدم خدمة إمكانيات الوصول في أندرويد للتعرف على حقول تسجيل الدخول. وإذا قمت بتفعيلها، فسيحدد Byteward الحقول المناسبة ويملأ بيانات الحساب الخاصة بك عند العثور على مطابقة.</string>
+    <string name="passkey_management_explanation_long">استخدم Byteward لحفظ مفاتيح المرور الجديدة وتسجيل الدخول باستخدام مفاتيح المرور المخزنة في الخزنة الخاص بك.</string>
+    <string name="autofill_services_explanation_long">السماح لـ Byteward باستخدام تسجيلات الدخول المحفوظة لتسجيل الدخول إلى التطبيقات الأخرى على جهازك.</string>
+    <string name="your_passkey_will_be_saved_to_your_bitwarden_vault_for_x">سيتم حفظ مفتاح المرور الخاص بك في خزنة Byteward الخاصة بك لـ %1$s</string>
+    <string name="your_password_will_be_saved_to_your_bitwarden_vault_for_x">سيتم حفظ كلمة المرور الخاصة بك في مخزن Byteward الخاص بك لـ %1$s</string>
+    <string name="welcome_message_1">حفظ تسجيلات الدخول والبطاقات والهويات إلى خزنتك الآمنة. يستخدم Byteward المعرفة الصفرية، التشفير من النهاية إلى النهاية لحماية ما هو مهم بالنسبة لك.</string>
+    <string name="browser_requires_special_permissions_for_bitwarden_singular">أنت تستخدم متصفحًا يتطلب أذونات خاصة لـ Byteward لملء كلمات المرور الخاصة بك تلقائياً.</string>
+    <string name="browser_requires_special_permissions_for_bitwarden_plural">أنت تستخدم المتصفحات التي تتطلب أذونات خاصة لـ Byteward لملء كلمات المرور الخاصة بك تلقائياً.</string>
+    <string name="youre_using_a_browser_that_requires_special_permissions_singular">أنت تستخدم المتصفحات التي تتطلب صلاحيات خاصة لـ Byteward لملء كلمات مرورك. يرجى تفعيل الملء التلقائي المفضل لديك أدناه.</string>
+    <string name="youre_using_a_browser_that_requires_special_permissions_plural">أنت تستخدم المتصفحات التي تتطلب صلاحيات خاصة لـ Byteward لملء كلمات مرورك. يرجى تفعيل الملء التلقائي لجميع المتصفحات المثبتة للمتابعة.</string>
+    <string name="what_bitwarden_has_to_offer">يمكنك الآن استكشاف كل ما يجب على Byteward تقديمه وبدء إدارة كلمات المرور الخاصة بك بشكل آمن.</string>
+    <string name="trusted_by_you_learn_more">هذه تطبيقات أو متصفحات لا يثق بها Byteward بشكل افتراضي، لكنك تثق بهم في تنفيذ عمليات مفتاح المرور.</string>
+    <string name="your_browser_recently_updated_how_autofill_works_singular">تم تحديث متصفحك مؤخرا، والذي قام بتعطيلالملء التلقائي لـ Byteward. للاستمرار في ملء كلمات المرور الخاصة بك مع Byteward، قم بتمكينالملء التلقائي في إعداداتالملء التلقائي.</string>
+    <string name="bitwarden_could_not_decrypt_this_file_so_the_preview_cannot_be_displayed">تعذر على Byteward فك تشفير هذا الملف، لذلك لا يمكن عرض المعاينة.</string>
+    <string name="bitwarden_needs_local_network_access_to_sync_with_your_server">يتطلب Byteward صلاحية الوصول للشبكة المحلية لمزامنة البيانات مع خادمك. وفي حال عدم منح هذا الإذن، لن يستطيع التطبيق الاتصال.</string>
+    <string name="without_this_permission_bitwarden_wont_be_able_to_sync_with_your_server">بدون هذا الإذن، لن يتمكن Byteward من الاتصال والمزامنة مع خادمك. ويمكنك تفعيله في إعدادات جهازك.</string>
+    <string name="weve_made_a_security_update">We’ve made a security update. Confirm your biometrics again to keep using them to unlock Byteward.</string>
+</resources>

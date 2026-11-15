@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Byteward overrides for strings defined in the :ui module, which keeps
+    upstream Bitwarden's text. App resources take precedence over library
+    resources when they are merged, so the app shows these versions while the
+    :ui files stay identical to upstream (and the Authenticator app, which also
+    uses :ui, keeps Bitwarden's text).
+
+    Each entry renames Bitwarden to Byteward where the password manager refers
+    to itself. Text about Bitwarden's service is not overridden.
+-->
+<resources>
+    <string name="set_bitwarden_as_passkey_manager_description">Setează Byteward ca furnizor de cheie de acces în setările dispozitivului.</string>
+    <string name="bitwarden_autofill_service">Serviciul de completare automată Byteward</string>
+    <string name="bitwarden_autofill_service_alert2">Cel mai simplu mod de a adăuga noi autentificări în seiful tău este prin Serviciul de Completare Automată Byteward. Află mai multe despre utilizarea Serviciului de Completare Automată Byteward navigând la ecranul „Setări”.</string>
+    <string name="autofill_service_description">Serviciul de autocompletare Byteward folosește Android Autofill Framework pentru a ajuta la completarea informațiilor de autentificare în alte aplicații de pe dispozitivul dumneavoastră.</string>
+    <string name="set_pin_description">Stabiliți codul PIN de deblocare Byteward. Setările codului PIN vor fi reinițializate dacă vă deconectați vreodată din aplicație.</string>
+    <string name="default_uri_match_detection_description">Detectarea potrivirii URI controlează modul în care Byteward identifică sugestiile de completare automată.</string>
+    <string name="autofill_tile_accessibility_required">Te rugăm să activezi „Serviciul de Accesibilitate pentru Completare Automată” din Setările Byteward pentru a utiliza butonul de Completare Automată.</string>
+    <string name="accessibility_disclosure_text">Byteward utilizează Serviciul de accesibilitate pentru a căuta câmpuri de autentificare în aplicații și site-uri web, apoi stabilește ID-urile de câmp corespunzătoare pentru a introduce un nume de utilizator și o parolă atunci când se găsește o potrivire pentru aplicație sau site. Nu stocăm niciuna dintre informațiile care ne sunt prezentate de către serviciu și nici nu încercăm să controlăm vreun element de pe ecran, dincolo de introducerea textului de identificare.</string>
+    <string name="accessibility_disclosure_start_up_text_1">Această notificare este necesară înainte ca Byteward să poată oferi completare automată bazată pe accesibilitate.</string>
+    <string name="accessibility_disclosure_start_up_text_2">Byteward oferă o metodă opțională de completare automată care utilizează Serviciul de Accesibilitate Android pentru a detecta câmpurile de autentificare. Dacă îl activezi, Byteward va identifica câmpurile corespunzătoare și va completa acreditările atunci când găsește o potrivire.</string>
+    <string name="passkey_management_explanation_long">Utilizează Byteward pentru a salva parolele noi și pentru autentificare cu parolele stocate în seif.</string>
+    <string name="your_passkey_will_be_saved_to_your_bitwarden_vault_for_x">Cheia de acces va fi salvată în seiful Byteward pentru %1$s</string>
+    <string name="your_password_will_be_saved_to_your_bitwarden_vault_for_x">Parola ta va fi salvată în seiful Byteward pentru %1$s</string>
+    <string name="welcome_message_1">Salvează autentificări, carduri și identități în seiful tău securizat. Byteward utilizează criptare end-to-end cu cunoștințe zero pentru a proteja ceea ce este important pentru tine.</string>
+    <string name="browser_requires_special_permissions_for_bitwarden_singular">Folosești un browser care necesită permisiuni speciale pentru ca Byteward să completeze automat parolele.</string>
+    <string name="browser_requires_special_permissions_for_bitwarden_plural">Folosești browsere care necesită permisiuni speciale pentru ca Byteward să completeze automat parolele.</string>
+    <string name="youre_using_a_browser_that_requires_special_permissions_singular">Folosești un browser care necesită permisiuni speciale pentru ca Byteward să completeze automat parolele. Activează mai jos integrarea preferată de completare automată.</string>
+    <string name="youre_using_a_browser_that_requires_special_permissions_plural">Folosești browsere care necesită permisiuni speciale pentru ca Byteward să completeze automat parolele. Activează completarea automată pentru toate browserele instalate pentru a continua.</string>
+    <string name="what_bitwarden_has_to_offer">Acum poți explora tot ceea ce Byteward are de oferit și poți începe să îți gestionezi parolele în siguranță.</string>
+    <string name="system_certificates_are_not_as_secure_as_importing_certificates_to_bitwarden">Utilizarea unui certificat de sistem este mai puțin sigură decât stocarea certificatului cu Byteward. Continuarea va afișa o listă de certificate de sistem disponibile dacă unul este deja instalat.</string>
+    <string name="dynamic_colors_may_not_adhere_to_accessibility_guidelines">Această schemă de culori aplică automat culorile sistemului în Byteward, pe baza imaginii de fundal actuale. Este posibil ca aceste culori să nu îndeplinească toate liniile directoare de accesibilitate.</string>
+    <string name="trusted_by_you_learn_more">Acestea sunt aplicații sau browsere în care Byteward nu are încredere în mod implicit, dar tu ai încredere pentru a efectua operațiuni cu chei de acces.</string>
+    <string name="your_browser_recently_updated_how_autofill_works_singular">Browserul tău s-a actualizat recent, ceea ce a dezactivat completarea automată Byteward. Pentru a continua să completezi parolele cu Byteward, activează completarea automată în browser în setările de completare automată.</string>
+    <string name="bitwarden_could_not_decrypt_this_file_so_the_preview_cannot_be_displayed">Byteward nu a putut decripta acest fișier, astfel încât previzualizarea nu poate fi afișată.</string>
+    <string name="bitwarden_needs_local_network_access_to_sync_with_your_server">Byteward are nevoie de acces la rețeaua locală pentru a sincroniza cu serverul tău. Fără această permisiune, aplicația nu se va putea conecta.</string>
+    <string name="without_this_permission_bitwarden_wont_be_able_to_sync_with_your_server">Fără această permisiune, Byteward nu se va putea conecta și sincroniza cu serverul tău. Poți activa acest lucru în setările dispozitivului.</string>
+    <string name="weve_made_a_security_update">We’ve made a security update. Confirm your biometrics again to keep using them to unlock Byteward.</string>
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Byteward overrides for strings defined in the :ui module, which keeps
+    upstream Bitwarden's text. App resources take precedence over library
+    resources when they are merged, so the app shows these versions while the
+    :ui files stay identical to upstream (and the Authenticator app, which also
+    uses :ui, keeps Bitwarden's text).
+
+    Each entry renames Bitwarden to Byteward where the password manager refers
+    to itself. Text about Bitwarden's service is not overridden.
+-->
+<resources>
+    <string name="set_bitwarden_as_passkey_manager_description">Määra Byteward enda pääsuvõtme pakkujana telefoni seadetes.</string>
+    <string name="bitwarden_autofill_service">Bytewardi automaattäite teenus</string>
+    <string name="bitwarden_autofill_service_alert2">Lihtsaim viis uute sisselogimiste lisamiseks oma varasse on Bytewardi automaattäite teenuse kaudu. Lisateavet Bytewardi automaattäite teenuse kasutamise kohta saate, kui liikute ekraanile „Seaded”.</string>
+    <string name="autofill_service_description">Bytewardi automaattäite teenus kasutab Androidi Autofill raamistikku. See aitab telefonis olevatesse rakendustesse sisestada kontoandmeid, krediitkaardi andmeid ja muud personaalset infot.</string>
+    <string name="set_pin_description">Määra Bytewardi lahtilukustamiseks PIN kood. Rakendusest täielikult välja logides nullitakse ka PIN koodi seaded.</string>
+    <string name="default_uri_match_detection_description">URI vaste tuvastamine kontrollib, kuidas Byteward tuvastab, kus pakkuda automaatse täitmise soovitusi.</string>
+    <string name="autofill_tile_accessibility_required">Automaattäite paani kasutamiseks lülitage Bytewardi seadetes sisse „Automaattäite ligipääsetavusteenus”.</string>
+    <string name="accessibility_disclosure_text">Byteward kasutab ligipääsetavusteenust, et otsida rakendustest ja veebisaitidest sisselogimisvälju, seejärel määrata sobivad välja ID-d kasutajanime ja parooli sisestamiseks, kui rakendusele või saidile vastavus leitakse. Me ei salvesta ühtegi teenuse poolt meile edastatud teavet ega ürita kontrollida ühtegi ekraanielementi peale mandaatide tekstisisestuse.</string>
+    <string name="accessibility_disclosure_start_up_text_1">See teade on nõutav enne, kui Byteward saab pakkuda ligipääsetavuspõhist automaattäidet.</string>
+    <string name="accessibility_disclosure_start_up_text_2">Byteward pakub valikulist automaattäite meetodit, mis kasutab Androidi ligipääsetavusteenust sisselogimisväljade tuvastamiseks. Kui lubate selle, tuvastab Byteward sobivad väljad ja täidab teie mandaadid, kui vastavus leitakse.</string>
+    <string name="passkey_management_explanation_long">Kasuta Bytewardit uute pääsuvõtmete salvestamiseks hoidlas ja nendega sisse logimiseks.</string>
+    <string name="your_passkey_will_be_saved_to_your_bitwarden_vault_for_x">Teie pääsukood salvestatakse teie Bytewardi varahoidlasse %1$s jaoks</string>
+    <string name="your_password_will_be_saved_to_your_bitwarden_vault_for_x">Teie parool salvestatakse teie Bytewardi varahoidlasse %1$s jaoks</string>
+    <string name="welcome_message_1">Salvestage sisselogimised, kaardid ja identiteedid oma turvalisse varasse. Byteward kasutab nullteadmuspõhist otspunktkrüptimist, et kaitsta teie jaoks olulist.</string>
+    <string name="browser_requires_special_permissions_for_bitwarden_singular">Kasutate brauserit, mis nõuab Bytewardilt teie paroolide automaatseks täitmiseks erilube.</string>
+    <string name="browser_requires_special_permissions_for_bitwarden_plural">Kasutate brausereid, mis nõuavad Bytewardilt teie paroolide automaatseks täitmiseks erilube.</string>
+    <string name="youre_using_a_browser_that_requires_special_permissions_singular">Kasutate brauserit, mis nõuab Bytewardilt teie paroolide automaatseks täitmiseks erilube. Lubage allpool oma eelistatud automaattäite integreerimine.</string>
+    <string name="youre_using_a_browser_that_requires_special_permissions_plural">Kasutate brausereid, mis nõuavad Bytewardilt teie paroolide automaatseks täitmiseks erilube. Jätkamiseks lubage automaattäide kõigi installitud brauserite jaoks.</string>
+    <string name="what_bitwarden_has_to_offer">Nüüd saate uurida kõike, mida Byteward pakub, ja alustada paroolide turvalist haldamist.</string>
+    <string name="system_certificates_are_not_as_secure_as_importing_certificates_to_bitwarden">Süsteemi sertifikaadi kasutamine on vähem turvaline kui sertifikaadi hoidmine Bytewardis. Jätkamine kuvab saadaolevate süsteemisertifikaatide loendi, kui üks on juba installitud.</string>
+    <string name="dynamic_colors_may_not_adhere_to_accessibility_guidelines">See värviskeem rakendab Bytewardile automaatselt teie praeguse taustapildi põhjal süsteemivärve. Need värvid ei pruugi vastata kõikidele ligipääsetavuse juhistele.</string>
+    <string name="trusted_by_you_learn_more">Need on rakendused või brauserid, mida Byteward vaikimisi ei usalda, kuid mida teie usaldate pääsukooditoimingute tegemiseks.</string>
+    <string name="your_browser_recently_updated_how_autofill_works_singular">Teie brauser on hiljuti uuendatud, mis on Bytewardi automaattäite keelanud. Bytewardiga paroolide täitmise jätkamiseks lubage automaattäite seadetes brauseri automaattäide.</string>
+    <string name="bitwarden_could_not_decrypt_this_file_so_the_preview_cannot_be_displayed">Byteward ei suutnud seda faili dekrüptida, seega ei saa eelvaadet kuvada.</string>
+    <string name="bitwarden_needs_local_network_access_to_sync_with_your_server">Byteward vajab teie serveriga sünkroonimiseks kohaliku võrgu juurdepääsu. Ilma selle loata ei saa rakendus ühendust luua.</string>
+    <string name="without_this_permission_bitwarden_wont_be_able_to_sync_with_your_server">Ilma selle loata ei saa Byteward teie serveriga ühendust luua ja sünkroonida. Saate selle lubada oma seadme seadetes.</string>
+    <string name="weve_made_a_security_update">We’ve made a security update. Confirm your biometrics again to keep using them to unlock Byteward.</string>
+</resources>

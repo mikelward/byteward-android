@@ -75,9 +75,9 @@
     <string name="yes">Sí</string>
     <string name="account">Compte</string>
     <string name="account_created_success">S\'ha creat el vostre compte nou!</string>
-    <string name="set_bitwarden_as_passkey_manager_description">Estableix Byteward com a proveïdor de claus de pas a la configuració del dispositiu.</string>
+    <string name="set_bitwarden_as_passkey_manager_description">Estableix Bitwarden com a proveïdor de claus de pas a la configuració del dispositiu.</string>
     <string name="avoid_ambiguous_characters">Eviteu caràcters ambigus</string>
-    <string name="bitwarden_autofill_service">Servei d\'emplenament automàtic de Byteward</string>
+    <string name="bitwarden_autofill_service">Servei d\'emplenament automàtic de Bitwarden</string>
     <string name="change_master_password">Canvia la contrasenya mestra</string>
     <string name="close">Tanca</string>
     <string name="close_app">Tanca l\'aplicació</string>
@@ -176,7 +176,7 @@
     <string name="no_items_for_vault">No hi ha cap element a la caixa forta que coincidisca amb \"%1$s\"</string>
     <string name="search_for_a_login_or_add_a_new_login">Cerca un inici de sessió o afegeix-ne un de nou</string>
     <string name="disabled">No</string>
-    <string name="bitwarden_autofill_service_alert2">La forma més senzilla d\'afegir nous inicis de sessió a la caixa forta és amb el servei d\'emplenament automàtic de Byteward. Obteniu més informació sobre com utilitzar el servei en la pantalla \"Eines\".</string>
+    <string name="bitwarden_autofill_service_alert2">La forma més senzilla d\'afegir nous inicis de sessió a la caixa forta és amb el servei d\'emplenament automàtic de Bitwarden. Obteniu més informació sobre com utilitzar el servei en la pantalla \"Eines\".</string>
     <string name="autofill_noun">Emplenament automàtic</string>
     <string name="autofill_verb">Emplenament automàtic</string>
     <string name="autofill_or_view">Voleu omplir automàticament o visualitzar aquest element?</string>
@@ -298,7 +298,7 @@ L\'escaneig es farà automàticament.</string>
     <string name="no_items_folder">No hi ha elements en aquesta carpeta.</string>
     <string name="no_items_trash">No hi ha elements a la paperera.</string>
     <string name="autofill_accessibility_summary">Ajuda a omplir els camps de nom d\'usuari i contrasenya en altres aplicacions i al web.</string>
-    <string name="autofill_service_description">El servei d\'emplenament automàtic de Byteward utilitza el marc d\'emplenament automàtic d\'Android per ajudar-vos a omplir la informació d\'inici de sessió a altres aplicacions del vostre dispositiu.</string>
+    <string name="autofill_service_description">El servei d\'emplenament automàtic de Bitwarden utilitza el marc d\'emplenament automàtic d\'Android per ajudar-vos a omplir la informació d\'inici de sessió a altres aplicacions del vostre dispositiu.</string>
     <string name="bitwarden_autofill_go_to_settings">No hem pogut obrir automàticament el menú de configuració de l\'emplenament automàtic d\'Android. Podeu anar manualment des de la configuració d\'Android &gt; Sistema &gt; Idiomes i entrada &gt; Avançat &gt; Servei d\'emplenament automàtic.</string>
     <string name="custom_field_name">Nom del camp personalitzat</string>
     <string name="field_type_boolean">Booleà</string>
@@ -387,7 +387,7 @@ L\'escaneig es farà automàticament.</string>
     <string name="clear_clipboard">Buida el porta-retalls</string>
     <string name="clear_clipboard_description">Esborra automàticament els valors copiats del porta-retalls.</string>
     <string name="default_uri_match_detection">Detecció de coincidències URI per defecte</string>
-    <string name="default_uri_match_detection_description">La detecció de coincidència d\'URI controla com Byteward identifica les suggerències d\'emplenament automàtic.</string>
+    <string name="default_uri_match_detection_description">La detecció de coincidència d\'URI controla com Bitwarden identifica les suggerències d\'emplenament automàtic.</string>
     <string name="theme">Tema</string>
     <string name="theme_description">Canvia el tema de color de l\'aplicació.</string>
     <string name="copy_notes">Copia nota</string>
@@ -423,7 +423,7 @@ L\'escaneig es farà automàticament.</string>
     <string name="password_generator_policy_in_effect">Una o més polítiques d’organització afecten la configuració del generador.</string>
     <string name="unable_to_save_attachment">S\'ha produït un problema en guardar aquest fitxer adjunt. Si el problema continua, podeu guardar-lo des del web.</string>
     <string name="save_attachment_success">L\'adjunt s\'ha guardat correctament</string>
-    <string name="autofill_tile_accessibility_required">Activeu \"Servei d\'accessibilitat d\'emplenament automàtic\" de la configuració de Byteward per utilitzar el mosaic d\'emplenament automàtic.</string>
+    <string name="autofill_tile_accessibility_required">Activeu \"Servei d\'accessibilitat d\'emplenament automàtic\" de la configuració de Bitwarden per utilitzar el mosaic d\'emplenament automàtic.</string>
     <string name="autofill_tile_uri_not_found">No s\'han detectat camps de contrasenya</string>
     <string name="soft_deleting">Enviant a la paperera…</string>
     <string name="item_soft_deleted">L\'element s\'ha enviat a la paperera.</string>
@@ -638,9 +638,9 @@ seleccioneu Afegeix TOTP per emmagatzemar la clau de manera segura</string>
     <string name="catch_all_email_description">Utilitza la safata d\'entrada comodí configurada del teu domini.</string>
     <string name="forwarded_email_description">Genera un àlies de correu electrònic amb un servei de reenviament extern.</string>
     <string name="accessibility_service_disclosure">Divulgació del servei d\'accessibilitat</string>
-    <string name="accessibility_disclosure_text">Byteward utilitza el Servei d\'Accessibilitat per cercar camps d\'inici de sessió en aplicacions i llocs web i, a continuació, establir els ID de camp adequats per introduir un nom d\'usuari i una contrasenya quan es trobe una coincidència per a l\'aplicació o el lloc. No emmagatzemem cap de la informació que ens presenta el servei, ni intentem controlar cap element de la pantalla més enllà de l\'entrada de text de les credencials.</string>
-    <string name="accessibility_disclosure_start_up_text_1">Aquest avís és necessari abans que Byteward pugui oferir l\'emplenament automàtic basat en accessibilitat.</string>
-    <string name="accessibility_disclosure_start_up_text_2">Byteward ofereix un mètode opcional d\'emplenament automàtic que utilitza el servei d\'accessibilitat d\'Android per detectar camps d\'inici de sessió. Si l\'actives, Byteward identificarà els camps adequats i emplenarà les teves credencials quan es trobi una coincidència.</string>
+    <string name="accessibility_disclosure_text">Bitwarden utilitza el Servei d\'Accessibilitat per cercar camps d\'inici de sessió en aplicacions i llocs web i, a continuació, establir els ID de camp adequats per introduir un nom d\'usuari i una contrasenya quan es trobe una coincidència per a l\'aplicació o el lloc. No emmagatzemem cap de la informació que ens presenta el servei, ni intentem controlar cap element de la pantalla més enllà de l\'entrada de text de les credencials.</string>
+    <string name="accessibility_disclosure_start_up_text_1">Aquest avís és necessari abans que Bitwarden pugui oferir l\'emplenament automàtic basat en accessibilitat.</string>
+    <string name="accessibility_disclosure_start_up_text_2">Bitwarden ofereix un mètode opcional d\'emplenament automàtic que utilitza el servei d\'accessibilitat d\'Android per detectar camps d\'inici de sessió. Si l\'actives, Bitwarden identificarà els camps adequats i emplenarà les teves credencials quan es trobi una coincidència.</string>
     <string name="accessibility_disclosure_start_up_text_3">No emmagatzemem cap informació sobre el que es mostra a la pantalla mentre utilitzes el servei d\'accessibilitat, i no controlem cap element de la pantalla més enllà de l\'entrada de credencials.</string>
     <string name="i_understand">Ho entenc</string>
     <string name="accept">Accepta</string>
@@ -720,8 +720,8 @@ Do you want to switch to this account?</string>
     <string name="session_timeout">Temps de sessió</string>
     <string name="session_timeout_action">Acció de temps d\'espera de la sessió</string>
     <string name="account_fingerprint_phrase">Frase d\'empremta digital</string>
-    <string name="passkey_management_explanation_long">Utilitzeu Byteward per guardar claus de pas noves i iniciar sessió amb les claus emmagatzemades a la vostra caixa forta.</string>
-    <string name="autofill_services_explanation_long">Permet que Byteward utilitze la informació d\'inici de sessió guardada per iniciar la sessió a altres aplicacions del dispositiu.</string>
+    <string name="passkey_management_explanation_long">Utilitzeu Bitwarden per guardar claus de pas noves i iniciar sessió amb les claus emmagatzemades a la vostra caixa forta.</string>
+    <string name="autofill_services_explanation_long">Permet que Bitwarden utilitze la informació d\'inici de sessió guardada per iniciar la sessió a altres aplicacions del dispositiu.</string>
     <string name="use_inline_autofill_explanation_long">Trieu com apareixeran els suggeriments d\'emplenament automàtic quan inicieu la sessió en altres aplicacions del vostre dispositiu.</string>
     <string name="additional_options">Opcions addicionals</string>
     <string name="continue_to_web_app">Continua cap a l\'aplicació web?</string>
@@ -744,8 +744,8 @@ Do you want to switch to this account?</string>
     <string name="duo_two_step_login_is_required_for_your_account">Es requereix l\'inici de sessió en dos passos de DUO al vostre compte.</string>
     <string name="follow_the_steps_from_duo_to_finish_logging_in">Seguiu els passos de Duo per acabar d\'iniciar la sessió.</string>
     <string name="launch_duo">Inicia DUO</string>
-    <string name="your_passkey_will_be_saved_to_your_bitwarden_vault_for_x">La clau d\'accés es guardarà a la caixa forta de Byteward per a %1$s</string>
-    <string name="your_password_will_be_saved_to_your_bitwarden_vault_for_x">La teva contrasenya es desarà al teu cofre de Byteward per a %1$s</string>
+    <string name="your_passkey_will_be_saved_to_your_bitwarden_vault_for_x">La clau d\'accés es guardarà a la caixa forta de Bitwarden per a %1$s</string>
+    <string name="your_password_will_be_saved_to_your_bitwarden_vault_for_x">La teva contrasenya es desarà al teu cofre de Bitwarden per a %1$s</string>
     <string name="passkeys_not_supported_for_this_app">Les claus de pas no són compatibles amb aquesta aplicació</string>
     <string name="passkey_operation_failed_because_browser_is_not_privileged">L\'operació de la clau de pas ha fallat perquè el navegador no té privilegis</string>
     <string name="passkey_operation_failed_because_browser_signature_does_not_match">L\'operació de la clau de pas ha fallat perquè la signatura del navegador no coincideix</string>
@@ -773,7 +773,7 @@ Do you want to switch to this account?</string>
     <string name="email_verified">Correu electrònic verificat</string>
     <string name="get_emails_from_bitwarden_for_announcements_advices_and_research_opportunities_unsubscribe_any_time">Rep correus electrònics de Bitwarden per a anuncis, consells i oportunitats de recerca. <annotation link="unsubscribe">Donar-se de baixa</annotation> en qualsevol moment.</string>
     <string name="security_prioritized">Seguretat, prioritzada</string>
-    <string name="welcome_message_1">Guardeu els inicis de sessió, les targetes i les identitats a la caixa forta. Byteward utilitza un xifratge d\'extrem a extrem de coneixement zero per protegir el que és important per a vosaltres.</string>
+    <string name="welcome_message_1">Guardeu els inicis de sessió, les targetes i les identitats a la caixa forta. Bitwarden utilitza un xifratge d\'extrem a extrem de coneixement zero per protegir el que és important per a vosaltres.</string>
     <string name="welcome_message_2">Configura el desbloqueig biomètric i l\'emplenament automàtic per iniciar sessió als teus comptes sense escriure ni una lletra.</string>
     <string name="quick_and_easy_login">Inici de sessió ràpid i fàcil</string>
     <string name="level_up_your_logins">Augmenteu el nivell dels vostres inicis de sessió</string>
@@ -826,16 +826,16 @@ Do you want to switch to this account?</string>
     <string name="turn_on_autofill">Activeu l\'emplenament automàtic</string>
     <string name="autofill_setup">Configuració d\'emplenament automàtic</string>
     <string name="turn_on_browser_autofill_integration">Activa la integració d\'emplenament automàtic al navegador</string>
-    <string name="browser_requires_special_permissions_for_bitwarden_singular">Estàs utilitzant un navegador que requereix permisos especials perquè Byteward pugui emplenar automàticament les teves contrasenyes.</string>
-    <string name="browser_requires_special_permissions_for_bitwarden_plural">Estàs utilitzant navegadors que requereixen permisos especials perquè Byteward pugui emplenar automàticament les teves contrasenyes.</string>
-    <string name="youre_using_a_browser_that_requires_special_permissions_singular">Estàs utilitzant un navegador que requereix permisos especials perquè Byteward pugui emplenar automàticament les teves contrasenyes. Activa la integració d\'emplenament automàtic que prefereixis a continuació.</string>
-    <string name="youre_using_a_browser_that_requires_special_permissions_plural">Estàs utilitzant navegadors que requereixen permisos especials perquè Byteward pugui emplenar automàticament les teves contrasenyes. Activa l\'emplenament automàtic per a tots els teus navegadors instal·lats per continuar.</string>
+    <string name="browser_requires_special_permissions_for_bitwarden_singular">Estàs utilitzant un navegador que requereix permisos especials perquè Bitwarden pugui emplenar automàticament les teves contrasenyes.</string>
+    <string name="browser_requires_special_permissions_for_bitwarden_plural">Estàs utilitzant navegadors que requereixen permisos especials perquè Bitwarden pugui emplenar automàticament les teves contrasenyes.</string>
+    <string name="youre_using_a_browser_that_requires_special_permissions_singular">Estàs utilitzant un navegador que requereix permisos especials perquè Bitwarden pugui emplenar automàticament les teves contrasenyes. Activa la integració d\'emplenament automàtic que prefereixis a continuació.</string>
+    <string name="youre_using_a_browser_that_requires_special_permissions_plural">Estàs utilitzant navegadors que requereixen permisos especials perquè Bitwarden pugui emplenar automàticament les teves contrasenyes. Activa l\'emplenament automàtic per a tots els teus navegadors instal·lats per continuar.</string>
     <string name="use_autofill_to_log_into_your_accounts">Utilitza l\'emplenament automàtic per iniciar sessió als teus comptes amb un sol toc.</string>
     <string name="turn_on_later">Activa més tard</string>
     <string name="turn_on_autofill_later">Activar l\'emplenament automàtic més tard?</string>
     <string name="turn_on_browser_autofill_integration_later">Activar la integració d\'emplenament automàtic al navegador més tard?</string>
     <string name="return_to_complete_this_step_anytime_in_settings">Pots tornar per completar aquest pas en qualsevol moment a Configuració.</string>
-    <string name="what_bitwarden_has_to_offer">Ara pots explorar tot el que Byteward té per oferir i començar a gestionar les teves contrasenyes de manera segura.</string>
+    <string name="what_bitwarden_has_to_offer">Ara pots explorar tot el que Bitwarden té per oferir i començar a gestionar les teves contrasenyes de manera segura.</string>
     <string name="youre_all_set">Ja està tot a punt!</string>
     <string name="error_connecting_with_the_duo_service_use_a_different_two_step_login_method_or_contact_duo_for_assistance">S\'ha produït un error en connectar amb el servei Duo. Utilitzeu un mètode d\'inici de sessió en dos passos diferent o poseu-vos en contacte amb Duo per obtenir ajuda.</string>
     <string name="master_password_hint_not_specified">Pista de la contrasenya mestra</string>
@@ -967,7 +967,7 @@ Do you want to switch to this account?</string>
     <string name="unsupported_certificate_type">Tipus de certificat no compatible</string>
     <string name="certificate_password_incorrect">Contrasenya del certificat incorrecta</string>
     <string name="invalid_certificate_chain">Cadena de certificats no vàlida</string>
-    <string name="system_certificates_are_not_as_secure_as_importing_certificates_to_bitwarden">Utilitzar un certificat del sistema és menys segur que emmagatzemar el certificat amb Byteward. Si continueu, es mostrarà una llista de certificats del sistema disponibles si n\'hi ha algun ja instal·lat.</string>
+    <string name="system_certificates_are_not_as_secure_as_importing_certificates_to_bitwarden">Utilitzar un certificat del sistema és menys segur que emmagatzemar el certificat amb Bitwarden. Si continueu, es mostrarà una llista de certificats del sistema disponibles si n\'hi ha algun ja instal·lat.</string>
     <string name="link">Enllaç</string>
     <string name="passkey_operation_failed_because_host_url_is_not_present_in_request">L\'operació de clau d\'accés ha fallat perquè la URL de l\'amfitrió no és present a la sol·licitud.</string>
     <string name="passkey_operation_failed_because_app_signature_is_invalid">L\'operació de clau d\'accés ha fallat perquè la signatura de l\'aplicació no és vàlida.</string>
@@ -1048,7 +1048,7 @@ Do you want to switch to this account?</string>
     <string name="passkey_operation_failed_because_browser_x_is_not_trusted">L\'operació de clau d\'accés ha fallat perquè el navegador (%1$s) no és reconegut. Selecciona “Confiar” per afegir %1$s a la llista d\'aplicacions de confiança locals.</string>
     <string name="passkey_operation_failed_because_the_browser_is_not_trusted">L\'operació de clau d\'accés ha fallat perquè el navegador no és de confiança.</string>
     <string name="trust">Confiar</string>
-    <string name="trusted_by_you_learn_more">Aquestes són aplicacions o navegadors que Byteward no confia per defecte, però en què confies per realitzar operacions de clau d\'accés.</string>
+    <string name="trusted_by_you_learn_more">Aquestes són aplicacions o navegadors que Bitwarden no confia per defecte, però en què confies per realitzar operacions de clau d\'accés.</string>
     <string name="trusted_by_community_learn_more">Aquestes són aplicacions no incloses a la Google Play Store, però en què Bitwarden confia per realitzar operacions de clau d\'accés després que els membres de la comunitat les utilitzin i les reportin com a segures.</string>
     <string name="trusted_by_google_learn_more">Aquestes són aplicacions que Google considera segures i estan disponibles a la Google Play Store.</string>
     <string name="trusted_by_you">Confiat per tu</string>
@@ -1190,7 +1190,7 @@ Do you want to switch to this account?</string>
         <item quantity="other">%1$d elements s\'han importat al teu cofre.</item>
     </plurals>
     <string name="enable_browser_autofill_to_keep_filling_passwords">Activa l\'emplenament automàtic del navegador per continuar emplenant contrasenyes</string>
-    <string name="your_browser_recently_updated_how_autofill_works_singular">El teu navegador s\'ha actualitzat recentment, cosa que ha desactivat l\'emplenament automàtic de Byteward. Per continuar emplenant les teves contrasenyes amb Byteward, activa l\'emplenament automàtic del navegador a la configuració d\'emplenament.</string>
+    <string name="your_browser_recently_updated_how_autofill_works_singular">El teu navegador s\'ha actualitzat recentment, cosa que ha desactivat l\'emplenament automàtic de Bitwarden. Per continuar emplenant les teves contrasenyes amb Bitwarden, activa l\'emplenament automàtic del navegador a la configuració d\'emplenament.</string>
     <string name="not_now">Ara no</string>
     <string name="import_from_bitwarden">Importa des de Bitwarden</string>
     <string name="select_account">Selecciona compte</string>
@@ -1290,7 +1290,7 @@ Do you want to switch to this account?</string>
     <string name="trusted">De confiança</string>
     <string name="preview_not_available_for_files">La vista prèvia no està disponible per a fitxers %1$s. Encara pots descarregar-lo per veure\'l al teu dispositiu.</string>
     <string name="this_file_is_too_large_to_preview">Aquest fitxer és massa gran per a la vista prèvia. Encara pots descarregar-lo per veure\'l al teu dispositiu.</string>
-    <string name="bitwarden_could_not_decrypt_this_file_so_the_preview_cannot_be_displayed">Byteward no ha pogut desxifrar aquest fitxer, per tant no es pot mostrar la vista prèvia.</string>
+    <string name="bitwarden_could_not_decrypt_this_file_so_the_preview_cannot_be_displayed">Bitwarden no ha pogut desxifrar aquest fitxer, per tant no es pot mostrar la vista prèvia.</string>
     <string name="preview_unavailable_for_this_file">Vista prèvia no disponible per a aquest fitxer. Encara pots descarregar-lo per veure\'l al teu dispositiu.</string>
     <string name="preview_unavailable">Vista prèvia no disponible</string>
     <string name="download_attachment">Descarrega adjunt</string>
@@ -1423,8 +1423,8 @@ Do you want to switch to this account?</string>
     <string name="local_network_access_required">Accés a la xarxa local requerit</string>
     <string name="ask_again_later">Pregunta més tard</string>
     <string name="enable_local_network_access">Activa l\'accés a la xarxa local</string>
-    <string name="bitwarden_needs_local_network_access_to_sync_with_your_server">Byteward necessita accés a la xarxa local per sincronitzar amb el teu servidor. Sense aquest permís, l\'aplicació no podrà connectar-se.</string>
-    <string name="without_this_permission_bitwarden_wont_be_able_to_sync_with_your_server">Sense aquest permís, Byteward no podrà connectar-se ni sincronitzar amb el teu servidor. Pots activar-ho a la configuració del teu dispositiu.</string>
+    <string name="bitwarden_needs_local_network_access_to_sync_with_your_server">Bitwarden necessita accés a la xarxa local per sincronitzar amb el teu servidor. Sense aquest permís, l\'aplicació no podrà connectar-se.</string>
+    <string name="without_this_permission_bitwarden_wont_be_able_to_sync_with_your_server">Sense aquest permís, Bitwarden no podrà connectar-se ni sincronitzar amb el teu servidor. Pots activar-ho a la configuració del teu dispositiu.</string>
     <string name="your_request_was_interrupted_because_the_app_needs_local_network_access">La teva sol·licitud s\'ha interromput perquè l\'aplicació necessita accés a la xarxa local. Pots activar-ho a la configuració del teu dispositiu.</string>
     <string name="continue_to_stripe">Continuar a Stripe?</string>
     <string name="youll_be_taken_to_stripe_to_manage_your_subscription_cancellation">Seràs dirigit a Stripe per gestionar la cancel·lació de la teva subscripció.</string>
@@ -1446,7 +1446,7 @@ Do you want to switch to this account?</string>
     <string name="use_this_username">Use this username</string>
     <string name="create_login">Create login</string>
     <string name="keep_unlocking_with_biometrics">Keep unlocking with biometrics</string>
-    <string name="weve_made_a_security_update">We’ve made a security update. Confirm your biometrics again to keep using them to unlock Byteward.</string>
+    <string name="weve_made_a_security_update">We’ve made a security update. Confirm your biometrics again to keep using them to unlock Bitwarden.</string>
     <string name="turn_off">Turn off</string>
     <string name="turn_off_biometric_question">Turn off biometrics?</string>
     <string name="unlocking_will_require_your_master_password">Unlocking will require your master password. You can turn biometrics back on in Settings.</string>

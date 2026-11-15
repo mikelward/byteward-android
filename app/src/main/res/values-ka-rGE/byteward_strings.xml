@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Byteward overrides for strings defined in the :ui module, which keeps
+    upstream Bitwarden's text. App resources take precedence over library
+    resources when they are merged, so the app shows these versions while the
+    :ui files stay identical to upstream (and the Authenticator app, which also
+    uses :ui, keeps Bitwarden's text).
+
+    Each entry renames Bitwarden to Byteward where the password manager refers
+    to itself. Text about Bitwarden's service is not overridden.
+-->
+<resources>
+    <string name="set_bitwarden_as_passkey_manager_description">მოწყობილობის პარამეტრებში დააყენეთ Byteward, როგორც თქვენი passkey პროვაიდერი.</string>
+    <string name="bitwarden_autofill_service">Byteward ავტოშევსების სერვისი</string>
+    <string name="bitwarden_autofill_service_alert2">ახალი შესვლების სეიფში დამატების ყველაზე მარტივი გზაა Byteward-ის ავტოშევსების სერვისიდან. გაიგეთ მეტი Byteward-ის ავტოშევსების სერვისის გამოყენების შესახებ \"პარამეტრების\" ეკრანზე გადასვლით.</string>
+    <string name="autofill_service_description">Byteward-ის ავტოშევსების სერვისი იყენებს Android Autofill Framework-ს, რათა დაეხმაროს შესვლის ინფორმაციის შევსებაში თქვენს მოწყობილობაზე სხვა აპლიკაციებში.</string>
+    <string name="set_pin_description">თქვენი PIN უნდა შედგებოდეს მინიმუმ 4 სიმბოლოსგან. თუ ხელით გახვალთ Byteward-ის აპლიკაციიდან, თქვენი PIN პარამეტრები გადატვირთული იქნება.</string>
+    <string name="default_uri_match_detection_description">URI შესაბამისობის გამოვლენა აკონტროლებს, თუ როგორ ამოიცნობს Byteward ავტოშევსების წინადადებებს.</string>
+    <string name="autofill_tile_accessibility_required">Autofill ფილის გამოსაყენებლად, გთხოვთ, ჩართოთ \"Autofill Accessibility Service\" Byteward-ის პარამეტრებიდან.</string>
+    <string name="accessibility_disclosure_text">Byteward იყენებს ხელმისაწვდომობის სერვისს აპლიკაციებსა და ვებსაიტებში შესვლის ველების მოსაძებნად, შემდეგ ადგენს შესაბამისი ველების ID-ებს მომხმარებლის სახელის &amp; პაროლის შესაყვანად, როცა აპის ან საიტის შესაბამისი მოიძებნება. ჩვენ არ ვინახავთ სერვისის მიერ მოწოდებულ ინფორმაციას და არ ვცდილობთ ვაკონტროლოთ ეკრანზე არსებული ელემენტები მონაცემების ტექსტური შეყვანის გარდა.</string>
+    <string name="accessibility_disclosure_start_up_text_1">ეს შეტყობინება აუცილებელია, სანამ Byteward შესთავაზებს ხელმისაწვდომობაზე დაფუძნებულ ავტოშევსებას.</string>
+    <string name="accessibility_disclosure_start_up_text_2">Byteward გვთავაზობს ავტოშევსების არასავალდებულო მეთოდს, რომელიც იყენებს Android-ის ხელმისაწვდომობის სერვისს შესვლის ველების გამოსავლენად. თუ ჩართავთ, Byteward ამოიცნობს შესაბამის ველებს და შეავსებს თქვენს მონაცემებს, როცა შესაბამისი მოიძებნება.</string>
+    <string name="passkey_management_explanation_long">გამოიყენეთ Byteward ახალი passkeys-ების შესანახად და თქვენს სეიფში შენახული passkeys-ით შესასვლელად.</string>
+    <string name="autofill_services_explanation_long">დაუშვით Byteward-ს გამოიყენოს თქვენი შენახული შესვლის ინფორმაცია თქვენს მოწყობილობაზე სხვა აპლიკაციებში შესასვლელად.</string>
+    <string name="your_passkey_will_be_saved_to_your_bitwarden_vault_for_x">თქვენი passkey შეინახება თქვენს Byteward სეიფში %1$s-ისთვის</string>
+    <string name="your_password_will_be_saved_to_your_bitwarden_vault_for_x">თქვენი პაროლი შეინახება თქვენს Byteward სეიფში %1$s-ისთვის</string>
+    <string name="welcome_message_1">შეინახეთ შესვლები, ბარათები და პირადობები თქვენს უსაფრთხო სეიფში. Byteward იყენებს ნულოვანი ცოდნის, ბოლომდე დაშიფვრას, რათა დაიცვას ის, რაც თქვენთვის მნიშვნელოვანია.</string>
+    <string name="browser_requires_special_permissions_for_bitwarden_singular">თქვენ იყენებთ ბრაუზერს, რომელიც საჭიროებს სპეციალურ ნებართვებს Byteward-ისთვის თქვენი პაროლების ავტოშევსებისთვის.</string>
+    <string name="browser_requires_special_permissions_for_bitwarden_plural">თქვენ იყენებთ ბრაუზერებს, რომლებიც საჭიროებენ სპეციალურ ნებართვებს Byteward-ისთვის თქვენი პაროლების ავტოშევსებისთვის.</string>
+    <string name="youre_using_a_browser_that_requires_special_permissions_singular">თქვენ იყენებთ ბრაუზერს, რომელიც საჭიროებს სპეციალურ ნებართვებს Byteward-ისთვის თქვენი პაროლების ავტოშევსებისთვის. ქვემოთ ჩართეთ თქვენი სასურველი ავტოშევსების ინტეგრაცია.</string>
+    <string name="youre_using_a_browser_that_requires_special_permissions_plural">თქვენ იყენებთ ბრაუზერებს, რომლებიც საჭიროებენ სპეციალურ ნებართვებს Byteward-ისთვის თქვენი პაროლების ავტოშევსებისთვის. გასაგრძელებლად, ჩართეთ ავტოშევსება ყველა თქვენთვის დაყენებული ბრაუზერისთვის.</string>
+    <string name="what_bitwarden_has_to_offer">ახლა შეგიძლიათ გაეცნოთ ყველაფერს, რასაც Byteward გთავაზობთ, და დაიწყოთ თქვენი პაროლების უსაფრთხოდ მართვა.</string>
+    <string name="system_certificates_are_not_as_secure_as_importing_certificates_to_bitwarden">სისტემის სერტიფიკატის გამოყენება ნაკლებად უსაფრთხოა, ვიდრე სერტიფიკატის Byteward-ში შენახვა. გაგრძელება აჩვენებს ხელმისაწვდომი სისტემის სერტიფიკატების სიას, თუ უკვე დაყენებულია.</string>
+    <string name="dynamic_colors_may_not_adhere_to_accessibility_guidelines">ეს ფერთა სქემა ავტომატურად იყენებს სისტემის ფერებს Byteward-ში თქვენი მიმდინარე ფონის მიხედვით. ამ ფერებმა შესაძლოა არ აკმაყოფილებდეს ხელმისაწვდომობის ყველა მითითებას.</string>
+    <string name="trusted_by_you_learn_more">ეს არის აპლიკაციები ან ბრაუზერები, რომლებსაც Byteward ნაგულისხმევად არ ენდობა, მაგრამ თქვენ ენდობით passkey ოპერაციების შესასრულებლად.</string>
+    <string name="your_browser_recently_updated_how_autofill_works_singular">თქვენი ბრაუზერი ცოტა ხნის წინ განახლდა, რამაც Byteward-ის ავტოშევსება გამორთო. Byteward-ით თქვენი პაროლების შევსების გასაგრძელებლად, ჩართეთ ბრაუზერის ავტოშევსება ავტოშევსების პარამეტრებში.</string>
+    <string name="bitwarden_could_not_decrypt_this_file_so_the_preview_cannot_be_displayed">Byteward-მა ვერ შეძლო ამ ფაილის გაშიფვრა, ამიტომ გადახედვის ჩვენება შეუძლებელია.</string>
+    <string name="bitwarden_needs_local_network_access_to_sync_with_your_server">Byteward needs local network access to sync with your server. Without this permission, the app won’t be able to connect.</string>
+    <string name="without_this_permission_bitwarden_wont_be_able_to_sync_with_your_server">Without this permission, Byteward won’t be able to connect and sync with your server. You can enable this in your device settings.</string>
+    <string name="weve_made_a_security_update">We’ve made a security update. Confirm your biometrics again to keep using them to unlock Byteward.</string>
+</resources>
