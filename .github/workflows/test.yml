@@ -11,6 +11,11 @@ on:
     types: [checks_requested]
   workflow_dispatch:
 
+# Byteward: a top-level default so no job inherits the repository's token
+# setting; every job below still sets its own permissions.
+permissions:
+  contents: read
+
 env:
   _GITHUB_ACTION_RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}/attempts/${{ github.run_attempt }}
 
