@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Byteward overrides for strings defined in the :ui module, which keeps
+    upstream Bitwarden's text. App resources take precedence over library
+    resources when they are merged, so the app shows these versions while the
+    :ui files stay identical to upstream (and the Authenticator app, which also
+    uses :ui, keeps Bitwarden's text).
+
+    Each entry renames Bitwarden to Byteward where the password manager refers
+    to itself. Text about Bitwarden's service is not overridden.
+-->
+<resources>
+    <string name="set_bitwarden_as_passkey_manager_description">डिव्हाइस सेटिंग्जमध्ये Byteward ला तुमचा पासकी प्रदाता म्हणून सेट करा.</string>
+    <string name="bitwarden_autofill_service">Byteward स्वयंपूर्त सेवा</string>
+    <string name="bitwarden_autofill_service_alert2">तुमच्या तिजोरीत नवीन लॉगिन्स जोडण्याचा सर्वात सोपा मार्ग म्हणजे Byteward Autofill Service वरून. “Settings” स्क्रीनवर नेव्हिगेट करून Byteward Autofill Service वापरण्याबद्दल अधिक जाणून घ्या.</string>
+    <string name="autofill_service_description">Byteward स्वयंपूर्त सेवा तुमच्या डिव्हाइसवरील इतर अॅप्समध्ये लॉगिन माहिती भरण्यास मदत करण्यासाठी Android Autofill Framework वापरते.</string>
+    <string name="set_pin_description">तुमचा पिन किमान ४ वर्णांचा असणे आवश्यक आहे. तुम्ही स्वतः Byteward अॅपमधून लॉग आउट केल्यास तुमच्या पिन सेटिंग्ज रीसेट होतील.</string>
+    <string name="default_uri_match_detection_description">URI जुळणी शोध Byteward स्वयंपूर्त सूचना कशा ओळखतो हे नियंत्रित करते.</string>
+    <string name="autofill_tile_accessibility_required">Autofill टाइल वापरण्यासाठी कृपया Byteward Settings मधून “Autofill Accessibility Service” चालू करा.</string>
+    <string name="accessibility_disclosure_text">Byteward अॅप्स आणि वेबसाइट्समध्ये लॉगिन फील्ड शोधण्यासाठी Accessibility Service वापरते, नंतर अॅप किंवा साइटशी जुळणी आढळल्यास वापरकर्तानाव आणि संकेतशब्द प्रविष्ट करण्यासाठी योग्य फील्ड आयडी स्थापित करते. आम्ही सेवेने आम्हाला सादर केलेली कोणतीही माहिती संग्रहित करत नाही, क्रेडेन्शियल्सच्या मजकूर प्रवेशाव्यतिरिक्त कोणत्याही ऑन-स्क्रीन घटकांवर नियंत्रण ठेवण्याचा प्रयत्न करत नाही.</string>
+    <string name="accessibility_disclosure_start_up_text_1">Byteward अ‍ॅक्सेसिबिलिटी-आधारित स्वयंपूर्त ऑफर करण्यापूर्वी ही सूचना आवश्यक आहे.</string>
+    <string name="accessibility_disclosure_start_up_text_2">Byteward एक पर्यायी स्वयंपूर्त पद्धत ऑफर करते जी लॉगिन फील्ड शोधण्यासाठी Android ची Accessibility Service वापरते. तुम्ही ती सक्षम केल्यास, जुळणी आढळल्यावर Byteward योग्य फील्ड ओळखेल आणि तुमची क्रेडेन्शियल्स भरेल.</string>
+    <string name="passkey_management_explanation_long">नवीन पासकीज जतन करण्यासाठी आणि तुमच्या तिजोरीत संग्रहित केलेल्या पासकीजसह लॉग इन करण्यासाठी Byteward वापरा.</string>
+    <string name="autofill_services_explanation_long">तुमच्या डिव्हाइसवरील इतर अॅप्समध्ये साइन इन करण्यासाठी Byteward ला तुमची जतन केलेली लॉगिन माहिती वापरण्याची परवानगी द्या.</string>
+    <string name="your_passkey_will_be_saved_to_your_bitwarden_vault_for_x">तुमची पासकी %1$s साठी तुमच्या Byteward तिजोरीत जतन केली जाईल</string>
+    <string name="your_password_will_be_saved_to_your_bitwarden_vault_for_x">तुमचा संकेतशब्द %1$s साठी तुमच्या Byteward तिजोरीत जतन केला जाईल</string>
+    <string name="welcome_message_1">तुमच्या सुरक्षित तिजोरीत लॉगिन्स, कार्ड्स आणि ओळख जतन करा. Byteward तुमच्यासाठी महत्वाच्या गोष्टींचे संरक्षण करण्यासाठी शून्य-ज्ञान, एंड-टू-एंड एन्क्रिप्शन वापरते.</string>
+    <string name="browser_requires_special_permissions_for_bitwarden_singular">तुम्ही एक ब्राउझर वापरत आहात ज्याला Byteward ला तुमचे संकेतशब्द स्वयंपूर्त करण्यासाठी विशेष परवानग्या आवश्यक आहेत.</string>
+    <string name="browser_requires_special_permissions_for_bitwarden_plural">तुम्ही असे ब्राउझर वापरत आहात ज्यांना Byteward ला तुमचे संकेतशब्द स्वयंपूर्त करण्यासाठी विशेष परवानग्या आवश्यक आहेत.</string>
+    <string name="youre_using_a_browser_that_requires_special_permissions_singular">तुम्ही एक ब्राउझर वापरत आहात ज्याला Byteward ला तुमचे संकेतशब्द स्वयंपूर्त करण्यासाठी विशेष परवानग्या आवश्यक आहेत. खाली तुमचे पसंतीचे स्वयंपूर्त एकीकरण सक्षम करा.</string>
+    <string name="youre_using_a_browser_that_requires_special_permissions_plural">तुम्ही असे ब्राउझर वापरत आहात ज्यांना Byteward ला तुमचे संकेतशब्द स्वयंपूर्त करण्यासाठी विशेष परवानग्या आवश्यक आहेत. सुरू ठेवण्यासाठी तुमच्या सर्व स्थापित ब्राउझरसाठी स्वयंपूर्त सक्षम करा.</string>
+    <string name="what_bitwarden_has_to_offer">तुम्ही आता Byteward ने दिलेले सर्व काही एक्सप्लोर करू शकता आणि तुमचे संकेतशब्द सुरक्षितपणे व्यवस्थापित करणे सुरू करू शकता.</string>
+    <string name="system_certificates_are_not_as_secure_as_importing_certificates_to_bitwarden">सिस्टम प्रमाणपत्र वापरणे हे प्रमाणपत्र Byteward सह संग्रहित करण्यापेक्षा कमी सुरक्षित आहे. सुरू ठेवल्यास, आधीपासून स्थापित असल्यास उपलब्ध सिस्टम प्रमाणपत्रांची यादी दिसेल.</string>
+    <string name="dynamic_colors_may_not_adhere_to_accessibility_guidelines">ही रंग योजना तुमच्या सध्याच्या वॉलपेपरवर आधारित Byteward वर सिस्टम रंग स्वयंचलितपणे लागू करते. हे रंग सर्व अ‍ॅक्सेसिबिलिटी मार्गदर्शक तत्त्वे पूर्ण करू शकत नाहीत.</string>
+    <string name="trusted_by_you_learn_more">ही अशी अनुप्रयोग किंवा ब्राउझर आहेत ज्यांना Byteward डिफॉल्टनुसार विश्वास ठेवत नाही, परंतु पासकी ऑपरेशन्स करण्यासाठी तुम्ही विश्वास ठेवता.</string>
+    <string name="your_browser_recently_updated_how_autofill_works_singular">तुमचा ब्राउझर अलीकडे अद्ययावत झाला आहे, ज्यामुळे Byteward स्वयंपूर्त अक्षम झाली आहे. Byteward सह तुमचे संकेतशब्द भरणे सुरू ठेवण्यासाठी, स्वयंपूर्त सेटिंग्जमध्ये ब्राउझर स्वयंपूर्त सक्षम करा.</string>
+    <string name="bitwarden_could_not_decrypt_this_file_so_the_preview_cannot_be_displayed">Byteward ही फाइल डिक्रिप्ट करू शकला नाही, म्हणून पूर्वावलोकन दाखवता येत नाही.</string>
+    <string name="bitwarden_needs_local_network_access_to_sync_with_your_server">Byteward ला तुमच्या सर्व्हरसह समक्रमण करण्यासाठी स्थानिक नेटवर्क प्रवेश आवश्यक आहे. या परवानगीशिवाय, अॅप कनेक्ट होऊ शकणार नाही.</string>
+    <string name="without_this_permission_bitwarden_wont_be_able_to_sync_with_your_server">या परवानगीशिवाय, Byteward कनेक्ट होऊ शकणार नाही आणि तुमच्या सर्व्हरसह समक्रमण करू शकणार नाही. तुम्ही हे तुमच्या डिव्हाइस सेटिंग्जमध्ये सक्षम करू शकता.</string>
+    <string name="weve_made_a_security_update">We’ve made a security update. Confirm your biometrics again to keep using them to unlock Byteward.</string>
+</resources>

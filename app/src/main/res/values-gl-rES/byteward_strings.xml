@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Byteward overrides for strings defined in the :ui module, which keeps
+    upstream Bitwarden's text. App resources take precedence over library
+    resources when they are merged, so the app shows these versions while the
+    :ui files stay identical to upstream (and the Authenticator app, which also
+    uses :ui, keeps Bitwarden's text).
+
+    Each entry renames Bitwarden to Byteward where the password manager refers
+    to itself. Text about Bitwarden's service is not overridden.
+-->
+<resources>
+    <string name="set_bitwarden_as_passkey_manager_description">Definir Byteward coma o provedor de Claves de Acceso nos axustes do dispositivo.</string>
+    <string name="bitwarden_autofill_service">Servizo de autoenchido de Byteward</string>
+    <string name="bitwarden_autofill_service_alert2">O xeito máis sinxelo de engadir credenciais á túa caixa forte é dende o Servizo de Autoenchido de Byteward. Aprende máis do Servizo de Autoenchido de Byteward na pantalla de \"Axustes\".</string>
+    <string name="autofill_service_description">O servizo de autoenchido de Byteward emprega o Framework de Autoenchido de Android para facilitar a información necesaria a outras apps.</string>
+    <string name="set_pin_description">Crea un PIN para abrir a caixa forte. Se algunha vez pechas a sesión en Byteward perderase a configuración deste PIN.</string>
+    <string name="default_uri_match_detection_description">A detección de coincidencia de URI controla como Byteward identifica as suxestións de autocompletado.</string>
+    <string name="autofill_tile_accessibility_required">Por favor habilita o \"Servizo de Accesibilidade de Autoenchido\" de Byteward para usar o botón de autoenchido.</string>
+    <string name="accessibility_disclosure_text">Byteward emprega o Servizo de Accesibilidade para buscar campos de inicio de sesión en apps e webs, e establecer os IDs de campo apropiados para introducir o usuario e contrasinal cando se atopa unha coincidencia para a o sitio ou app. Non almacenamos ningunha información facilitada polo servizo nin facemos ningún intento de controlar a pantalla máis aló da entrada de texto para os inicios de sesión.</string>
+    <string name="accessibility_disclosure_start_up_text_1">Este aviso é necesario antes de que Byteward poida ofrecer autocompletado baseado en accesibilidade.</string>
+    <string name="accessibility_disclosure_start_up_text_2">Byteward ofrece un método opcional de autocompletado que usa o servizo de accesibilidade de Android para detectar campos de inicio de sesión. Se o activas, Byteward identificará os campos axeitados e encherá as túas credenciais cando atope unha coincidencia.</string>
+    <string name="passkey_management_explanation_long">Empregar Byteward para gardar e empregar Claves de acceso para iniciar sesión.</string>
+    <string name="your_password_will_be_saved_to_your_bitwarden_vault_for_x">O teu contrasinal gardarase no teu cofre de Byteward para %1$s</string>
+    <string name="welcome_message_1">Garda credenciais, tarxetas e identidades na túa Caixa forte. Byteward emprega cifrado de punto a punto e coñecemento certo para protexer o que che importa.</string>
+    <string name="browser_requires_special_permissions_for_bitwarden_singular">Estás a usar un navegador que require permisos especiais para que Byteward autocomplete os teus contrasinais.</string>
+    <string name="browser_requires_special_permissions_for_bitwarden_plural">Estás a usar navegadores que requiren permisos especiais para que Byteward autocomplete os teus contrasinais.</string>
+    <string name="youre_using_a_browser_that_requires_special_permissions_singular">Estás a usar un navegador que require permisos especiais para que Byteward autocomplete os teus contrasinais. Activa a integración de autocompletado preferida a continuación.</string>
+    <string name="youre_using_a_browser_that_requires_special_permissions_plural">Estás a usar navegadores que requiren permisos especiais para que Byteward autocomplete os teus contrasinais. Activa o autocompletado para todos os navegadores instalados para continuar.</string>
+    <string name="what_bitwarden_has_to_offer">Xa podes explorar todo o que ofrece Byteward e xestionar os teus contrasinais de forma segura.</string>
+    <string name="system_certificates_are_not_as_secure_as_importing_certificates_to_bitwarden">Usar un certificado do sistema é menos seguro que almacenar o certificado con Byteward. Continuar mostrará unha lista de certificados do sistema dispoñibles se xa hai un instalado.</string>
+    <string name="dynamic_colors_may_not_adhere_to_accessibility_guidelines">Este esquema de cores aplica automaticamente cores do sistema a Byteward baseándose no teu fondo de pantalla actual. É posible que estas cores non cumpran todas as pautas de accesibilidade.</string>
+    <string name="trusted_by_you_learn_more">Estas son aplicacións ou navegadores nos que Byteward non confía por defecto, pero nos que ti confías para realizar operacións con chaves de acceso.</string>
+    <string name="your_browser_recently_updated_how_autofill_works_singular">O teu navegador actualizouse recentemente, o que desactivou o autocompletado de Byteward. Para seguir enchendo os teus contrasinais con Byteward, activa o autocompletado do navegador nos axustes de autocompletado.</string>
+    <string name="bitwarden_could_not_decrypt_this_file_so_the_preview_cannot_be_displayed">Byteward non puido descifrar este ficheiro, polo que non se pode mostrar a vista previa.</string>
+    <string name="bitwarden_needs_local_network_access_to_sync_with_your_server">Byteward necesita acceso á rede local para sincronizar co teu servidor. Sen este permiso, a aplicación non poderá conectarse.</string>
+    <string name="without_this_permission_bitwarden_wont_be_able_to_sync_with_your_server">Sen este permiso, Byteward non poderá conectarse e sincronizar co teu servidor. Podes activalo nos axustes do teu dispositivo.</string>
+    <string name="weve_made_a_security_update">We’ve made a security update. Confirm your biometrics again to keep using them to unlock Byteward.</string>
+</resources>

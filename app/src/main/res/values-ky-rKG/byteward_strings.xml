@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Byteward overrides for strings defined in the :ui module, which keeps
+    upstream Bitwarden's text. App resources take precedence over library
+    resources when they are merged, so the app shows these versions while the
+    :ui files stay identical to upstream (and the Authenticator app, which also
+    uses :ui, keeps Bitwarden's text).
+
+    Each entry renames Bitwarden to Byteward where the password manager refers
+    to itself. Text about Bitwarden's service is not overridden.
+-->
+<resources>
+    <string name="set_bitwarden_as_passkey_manager_description">Түзмөк орнотууларында Bytewardди өтүү ачкыч провайдери катары коюңуз.</string>
+    <string name="bitwarden_autofill_service">Byteward Автолуктоо Кызматы</string>
+    <string name="bitwarden_autofill_service_alert2">Купчулуңузга жаңы кирүүлөрдү кошуунун эң оңой жолу - Byteward Автолуктоо Кызматы аркылуу. Byteward Автолуктоо Кызматын колдонуу жөнүндө көбүрөөк билүү үчүн “Орнотуулар” бетине өтүңүз.</string>
+    <string name="autofill_service_description">Byteward автолуктоо кызматы түзмөгүңүздөгү башка колдонмолорго кирүү маалыматтарын толтурууга жардам берүү үчүн Android Автолуктоо рамкасын колдонот.</string>
+    <string name="set_pin_description">PIN кеминде 4 белгиден турушу керек. Эгерде сиз Byteward колдонмосунан кол менен чыксаңыз, PIN орнотууларыңыз кайра орнотулат.</string>
+    <string name="default_uri_match_detection_description">URI дал келүүсүн аныктоо Bytewardдин автолуктоо сунуштарын кантип аныкташын көзөмөлдөйт.</string>
+    <string name="autofill_tile_accessibility_required">Автолуктоо плиткасын колдонуу үчүн Byteward Орнотууларынан “Автолуктоо Жеткиликтүүлүк Кызматын” күйгүзүңүз.</string>
+    <string name="accessibility_disclosure_text">Byteward колдонмолордон жана веб-сайттардан кирүү талааларын издөө үчүн Жеткиликтүүлүк Кызматын колдонот, андан кийин колдонмо же сайт үчүн дал келүү табылганда колдонуучу аты жана сырсөз киргизүү үчүн тийиштүү талаа IDлерин аныктайт. Биз кызмат тарабынан бизге берилген эч кандай маалыматты сактабайбыз, ошондой эле маалыматтардын тексттик киргизүүсүнөн тышкары экрандагы эч кандай элементтерди көзөмөлдөөгө аракет кылбайбыз.</string>
+    <string name="accessibility_disclosure_start_up_text_1">Byteward жеткиликтүүлүккө негизделген автолуктоону сунуштай электе бул эскертүү талап кылынат.</string>
+    <string name="accessibility_disclosure_start_up_text_2">Byteward кирүү талааларын аныктоо үчүн Androidдин Жеткиликтүүлүк Кызматын колдонгон милдеттүү эмес автолуктоо ыкмасын сунуштайт. Эгерде сиз аны иштетсеңиз, Byteward тийиштүү талааларды аныктап, дал келүү табылганда маалыматтарыңызды толтурат.</string>
+    <string name="passkey_management_explanation_long">Жаңы өтүү ачкычтарын сактоо жана купчулуңузда сакталган өтүү ачкычтары менен кирүү үчүн Bytewardди колдонуңуз.</string>
+    <string name="autofill_services_explanation_long">Bytewardге түзмөгүңүздөгү башка колдонмолорго кирүү үчүн сакталган кирүү маалыматтарыңызды колдонууга уруксат бериңиз.</string>
+    <string name="your_passkey_will_be_saved_to_your_bitwarden_vault_for_x">Сиздин өтүү ачкычыңыз %1$s үчүн Byteward купчулуңузга сакталат</string>
+    <string name="your_password_will_be_saved_to_your_bitwarden_vault_for_x">Сиздин сырсөзүңүз %1$s үчүн Byteward купчулуңузга сакталат</string>
+    <string name="welcome_message_1">Кирүүлөрдү, карталарды жана иденттүүлүктөрдү коопсуз купчулуңузга сактаңыз. Byteward сиз үчүн маанилүү нерселерди коргоо үчүн нөлдүк билимди, учтан-учка шифрлөөнү колдонот.</string>
+    <string name="browser_requires_special_permissions_for_bitwarden_singular">Сиз Bytewardдин сырсөздөрүңүздү автолуктоосу үчүн атайын уруксаттарды талап кылган браузерди колдонуп жатасыз.</string>
+    <string name="browser_requires_special_permissions_for_bitwarden_plural">Сиз Bytewardдин сырсөздөрүңүздү автолуктоосу үчүн атайын уруксаттарды талап кылган браузерлерди колдонуп жатасыз.</string>
+    <string name="youre_using_a_browser_that_requires_special_permissions_singular">Сиз Bytewardдин сырсөздөрүңүздү автолуктоосу үчүн атайын уруксаттарды талап кылган браузерди колдонуп жатасыз. Төмөндө каалаган автолуктоо интеграцияңызды иштетиңиз.</string>
+    <string name="youre_using_a_browser_that_requires_special_permissions_plural">Сиз Bytewardдин сырсөздөрүңүздү автолуктоосу үчүн атайын уруксаттарды талап кылган браузерлерди колдонуп жатасыз. Улантуу үчүн бардык орнотулган браузерлериңиз үчүн автолуктоону иштетиңиз.</string>
+    <string name="what_bitwarden_has_to_offer">Эми сиз Byteward сунуш кылган бардык нерсени изилдей аласыз жана сырсөздөрүңүздү коопсуз башкара баштай аласыз.</string>
+    <string name="system_certificates_are_not_as_secure_as_importing_certificates_to_bitwarden">Система сертификатын колдонуу сертификатты Byteward менен сактоого караганда коопсуз эмес. Улантуу, эгерде бирөө мурун эле орнотулган болсо, жеткиликтүү системалык сертификаттардын тизмесин көрсөтөт.</string>
+    <string name="dynamic_colors_may_not_adhere_to_accessibility_guidelines">Бул түс схемасы учурдагы обоиңузга жараша Bytewardге система түстөрүн автоматтык түрдө колдонот. Бул түстөр бардык жеткиликтүүлүк эрежелерине жооп бере бербеши мүмкүн.</string>
+    <string name="trusted_by_you_learn_more">Булар Byteward дөөлөтү боюнча ишенбеген, бирок сиз өтмө ачкыч операцияларын аткарууга ишенген тиркемелер же браузерлер.</string>
+    <string name="your_browser_recently_updated_how_autofill_works_singular">Сиздин браузериңиз жакында жаңыртылды, бул Byteward автотолтуруусун өчүрүп койду. Byteward менен сырсөздөрүңүздү толтурууну улантуу үчүн, автотолтуруу жөндөөлөрүндө браузердин автотолтуруусун күйгүзүңүз.</string>
+    <string name="bitwarden_could_not_decrypt_this_file_so_the_preview_cannot_be_displayed">Byteward бул файлды чечүү мүмкүн болбой калды, ошондуктан алдын ала көрүүнү көрсөтүү мүмкүн эмес.</string>
+    <string name="bitwarden_needs_local_network_access_to_sync_with_your_server">Byteward сервериңиз менен синхрондоштуруу үчүн жергиликтүү тармакка кирүүнү талап кылат. Бул уруксатсыз колдонмо туташа албайт.</string>
+    <string name="without_this_permission_bitwarden_wont_be_able_to_sync_with_your_server">Бул уруксатсыз Byteward сервериңизге туташа жана синхрондошо албайт. Сиз муну түзмөк жөндөөлөрүңүздө күйгүзө аласыз.</string>
+    <string name="weve_made_a_security_update">We’ve made a security update. Confirm your biometrics again to keep using them to unlock Byteward.</string>
+</resources>

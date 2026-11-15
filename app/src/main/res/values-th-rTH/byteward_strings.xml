@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Byteward overrides for strings defined in the :ui module, which keeps
+    upstream Bitwarden's text. App resources take precedence over library
+    resources when they are merged, so the app shows these versions while the
+    :ui files stay identical to upstream (and the Authenticator app, which also
+    uses :ui, keeps Bitwarden's text).
+
+    Each entry renames Bitwarden to Byteward where the password manager refers
+    to itself. Text about Bitwarden's service is not overridden.
+-->
+<resources>
+    <string name="set_bitwarden_as_passkey_manager_description">ตั้งค่า Byteward เป็นผู้ให้บริการพาสคีย์ในการตั้งค่าอุปกรณ์</string>
+    <string name="bitwarden_autofill_service">Byteward บริการกรอกข้อมูลอัตโนมัติ</string>
+    <string name="bitwarden_autofill_service_alert2">วิธีที่ง่ายที่สุดในการเพิ่มข้อมูลเข้าสู่ระบบใหม่ลงในตู้นิรภัยคือผ่านบริการป้อนอัตโนมัติของ Byteward เรียนรู้เพิ่มเติมเกี่ยวกับการใช้บริการนี้ได้ที่หน้า “การตั้งค่า”</string>
+    <string name="set_pin_description">PIN ของคุณต้องมีอย่างน้อย 4 ตัวอักษร การตั้งค่า PIN ของคุณจะถูกรีเซ็ตหากคุณออกจากระบบแอป Byteward ด้วยตนเอง</string>
+    <string name="default_uri_match_detection_description">การตรวจสอบการจับคู่ URI ควบคุมวิธีที่ Byteward ระบุคำแนะนำการป้อนอัตโนมัติ</string>
+    <string name="autofill_tile_accessibility_required">โปรดเปิด “บริการการเข้าถึงเพื่อป้อนอัตโนมัติ” จากการตั้งค่า Byteward เพื่อใช้ไทล์ป้อนอัตโนมัติ</string>
+    <string name="accessibility_disclosure_text">Byteward ใช้บริการการเข้าถึงเพื่อค้นหาช่องข้อมูลเข้าสู่ระบบในแอปและเว็บไซต์ จากนั้นระบุ ID ของช่องที่เหมาะสมเพื่อกรอกชื่อผู้ใช้และรหัสผ่านเมื่อพบแอปหรือเว็บไซต์ที่ตรงกัน เราไม่จัดเก็บข้อมูลใด ๆ ที่ได้รับจากบริการนี้ และไม่พยายามควบคุมองค์ประกอบใด ๆ บนหน้าจอนอกเหนือจากการป้อนข้อมูลประจำตัว</string>
+    <string name="accessibility_disclosure_start_up_text_1">ประกาศนี้จำเป็นก่อนที่ Byteward จะสามารถเสนอการเติมข้อมูลอัตโนมัติตามการช่วยการเข้าถึงได้</string>
+    <string name="accessibility_disclosure_start_up_text_2">Byteward มีวิธีการเติมข้อมูลอัตโนมัติทางเลือกที่ใช้ Android Accessibility Service ในการตรวจจับช่องเข้าสู่ระบบ หากคุณเปิดใช้งาน Byteward จะระบุช่องที่เหมาะสมและกรอกข้อมูลประจำตัวของคุณเมื่อพบข้อมูลที่ตรงกัน</string>
+    <string name="passkey_management_explanation_long">ใช้ Byteward เพื่อบันทึกพาสคีย์ใหม่และเข้าสู่ระบบด้วยพาสคีย์ที่เก็บไว้ในตู้นิรภัยของคุณ</string>
+    <string name="autofill_services_explanation_long">อนุญาตให้ Byteward ใช้ข้อมูลเข้าสู่ระบบที่คุณบันทึกไว้เพื่อลงชื่อเข้าใช้แอปอื่นในอุปกรณ์ของคุณ</string>
+    <string name="your_passkey_will_be_saved_to_your_bitwarden_vault_for_x">พาสคีย์ของคุณจะถูกบันทึกไว้ในตู้นิรภัย Byteward สำหรับ %1$s</string>
+    <string name="your_password_will_be_saved_to_your_bitwarden_vault_for_x">จะบันทึกรหัสผ่านของคุณลงในตู้นิรภัย Byteward สำหรับ %1$s</string>
+    <string name="welcome_message_1">บันทึกข้อมูลเข้าสู่ระบบ บัตร และข้อมูลระบุตัวตนไว้ในตู้นิรภัยที่ปลอดภัย Byteward ใช้การเข้ารหัสแบบ Zero-knowledge และต้นทางถึงปลายทางเพื่อปกป้องสิ่งที่สำคัญสำหรับคุณ</string>
+    <string name="browser_requires_special_permissions_for_bitwarden_singular">คุณกำลังใช้เบราว์เซอร์ที่ต้องใช้สิทธิ์พิเศษเพื่อให้ Byteward ป้อนรหัสผ่านอัตโนมัติได้</string>
+    <string name="browser_requires_special_permissions_for_bitwarden_plural">คุณกำลังใช้เบราว์เซอร์ที่ต้องใช้สิทธิ์พิเศษเพื่อให้  Byteward ป้อนรหัสผ่านอัตโนมัติได้</string>
+    <string name="youre_using_a_browser_that_requires_special_permissions_singular">คุณกำลังใช้เบราว์เซอร์ที่ต้องใช้สิทธิ์พิเศษเพื่อให้ Byteward ป้อนรหัสผ่านอัตโนมัติได้ เปิดใช้งานการรวมการป้อนอัตโนมัติที่คุณต้องการด้านล่าง</string>
+    <string name="youre_using_a_browser_that_requires_special_permissions_plural">คุณกำลังใช้เบราว์เซอร์ที่ต้องใช้สิทธิ์พิเศษเพื่อให้ Byteward ป้อนรหัสผ่านอัตโนมัติได้ เปิดใช้งานการป้อนอัตโนมัติสำหรับเบราว์เซอร์ที่ติดตั้งทั้งหมดเพื่อดำเนินการต่อ</string>
+    <string name="what_bitwarden_has_to_offer">ตอนนี้คุณสามารถสำรวจทุกสิ่งที่ Byteward มีให้และเริ่มจัดการรหัสผ่านของคุณอย่างปลอดภัย</string>
+    <string name="system_certificates_are_not_as_secure_as_importing_certificates_to_bitwarden">การใช้ใบรับรองระบบมีความปลอดภัยน้อยกว่าการจัดเก็บใบรับรองไว้กับ Byteward การดำเนินการต่อจะแสดงรายการใบรับรองระบบที่มีอยู่หากมีการติดตั้งไว้แล้ว</string>
+    <string name="dynamic_colors_may_not_adhere_to_accessibility_guidelines">รูปแบบสีนี้จะใช้สีของระบบกับ Byteward โดยอัตโนมัติตามวอลเปเปอร์ปัจจุบันของคุณ สีเหล่านี้อาจไม่ตรงตามหลักเกณฑ์การเข้าถึงทั้งหมด</string>
+    <string name="trusted_by_you_learn_more">เหล่านี้คือแอปพลิเคชันหรือเบราว์เซอร์ที่ Byteward ไม่เชื่อถือโดยค่าเริ่มต้น แต่คุณเชื่อถือให้ดำเนินการพาสคีย์</string>
+    <string name="your_browser_recently_updated_how_autofill_works_singular">เบราว์เซอร์ของคุณเพิ่งได้รับการอัปเดต ซึ่งปิดใช้งานการป้อนอัตโนมัติของ Byteward เพื่อป้อนรหัสผ่านด้วย Byteward ต่อไป ให้เปิดใช้งานการป้อนอัตโนมัติของเบราว์เซอร์ในการตั้งค่าการป้อนอัตโนมัติ</string>
+    <string name="bitwarden_could_not_decrypt_this_file_so_the_preview_cannot_be_displayed">Byteward ไม่สามารถถอดรหัสไฟล์นี้ได้ จึงไม่สามารถแสดงตัวอย่างได้</string>
+    <string name="bitwarden_needs_local_network_access_to_sync_with_your_server">Byteward ต้องการการเข้าถึงเครือข่ายท้องถิ่นเพื่อซิงค์กับเซิร์ฟเวอร์ของคุณ หากไม่มีสิทธิ์นี้ แอปจะไม่สามารถเชื่อมต่อได้</string>
+    <string name="without_this_permission_bitwarden_wont_be_able_to_sync_with_your_server">หากไม่มีสิทธิ์นี้ Byteward จะไม่สามารถเชื่อมต่อและซิงค์กับเซิร์ฟเวอร์ของคุณได้ คุณสามารถเปิดใช้งานได้ในการตั้งค่าอุปกรณ์ของคุณ</string>
+    <string name="weve_made_a_security_update">We’ve made a security update. Confirm your biometrics again to keep using them to unlock Byteward.</string>
+</resources>

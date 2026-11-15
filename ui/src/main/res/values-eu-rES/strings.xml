@@ -75,9 +75,9 @@
     <string name="yes">Bai</string>
     <string name="account">Kontua</string>
     <string name="account_created_success">Zure kontu berria sortu da!</string>
-    <string name="set_bitwarden_as_passkey_manager_description">Ezarri Byteward zure pasagiltza-hornitzaile gisa gailuaren ezarpenetan.</string>
+    <string name="set_bitwarden_as_passkey_manager_description">Ezarri Bitwarden zure pasagiltza-hornitzaile gisa gailuaren ezarpenetan.</string>
     <string name="avoid_ambiguous_characters">Saihestu karaktere anbiguoak</string>
-    <string name="bitwarden_autofill_service">Bytewarden automatikoki betetzeko zerbitzua</string>
+    <string name="bitwarden_autofill_service">Bitwardenen automatikoki betetzeko zerbitzua</string>
     <string name="change_master_password">Aldatu pasahitz nagusia</string>
     <string name="close">Itxi</string>
     <string name="close_app">Itxi aplikazioa</string>
@@ -176,7 +176,7 @@
     <string name="no_items_for_vault">Ez dago bat datorren elementurik zure kutxan “%1$s”</string>
     <string name="search_for_a_login_or_add_a_new_login">Bilatu saio bat edo gehitu saio berri bat</string>
     <string name="disabled">Desgaitua</string>
-    <string name="bitwarden_autofill_service_alert2">Saio berriak zure kutxan gehitzeko modurik errazena Byteward Autobeteketa Zerbitzutik da. Ikasi gehiago Byteward Autobeteketa Zerbitzua erabiltzeari buruz \"Ezarpenak\" pantailara joanda.</string>
+    <string name="bitwarden_autofill_service_alert2">Saio berriak zure kutxan gehitzeko modurik errazena Bitwarden Autobeteketa Zerbitzutik da. Ikasi gehiago Bitwarden Autobeteketa Zerbitzua erabiltzeari buruz \"Ezarpenak\" pantailara joanda.</string>
     <string name="autofill_noun">Autobeteketa</string>
     <string name="autofill_verb">Autobeteketa</string>
     <string name="autofill_or_view">Elementu hau ikusi edo automatikoki bete nahi duzu?</string>
@@ -297,7 +297,7 @@
     <string name="no_items_folder">Karpeta honetan ez dago elementurik.</string>
     <string name="no_items_trash">Zakarrontzian ez dago elementurik.</string>
     <string name="autofill_accessibility_summary">Lagundu erabiltzaile-izen eta pasahitz eremuak betetzen beste aplikazioetan eta webgunean.</string>
-    <string name="autofill_service_description">Bytewarden automatikoki betetzeko zerbitzuak Android Autofill Framework erabiltzen du zure gailuko beste aplikazio batzuetan saio-hasierako informazioa betetzen laguntzeko.</string>
+    <string name="autofill_service_description">Bitwardenen automatikoki betetzeko zerbitzuak Android Autofill Framework erabiltzen du zure gailuko beste aplikazio batzuetan saio-hasierako informazioa betetzen laguntzeko.</string>
     <string name="bitwarden_autofill_go_to_settings">Ezin izan dugu automatikoki ireki Android-en auto-betetzerako ezarpenen menua. Auto-betetzerako ezarpenen menura eskuz nabiga dezakezu, Android-en Ezarpenak &gt; Sistema &gt; Hizkuntzak eta idazketa &gt; Hobespen aurreratuak &gt; Betetze automatikoaren zerbitzutik.</string>
     <string name="custom_field_name">Eremu pertsonalizatuaren izena</string>
     <string name="field_type_boolean">Boolearra</string>
@@ -372,7 +372,7 @@
     <string name="pin">PIN-a</string>
     <string name="unlock">Desblokeatu</string>
     <string name="thirty_minutes">30 minutu</string>
-    <string name="set_pin_description">Ezarri zure PIN kodea Byteward desblokeatzeko. Zure PIN-aren konfigurazioa berrezarriko da, noizbait aplikaziotik erabat saioa ixten baduzu.</string>
+    <string name="set_pin_description">Ezarri zure PIN kodea Bitwarden desblokeatzeko. Zure PIN-aren konfigurazioa berrezarriko da, noizbait aplikaziotik erabat saioa ixten baduzu.</string>
     <string name="logged_in_as_on">%2$s-en %1$s bezala saioa hasita.</string>
     <string name="vault_locked_master_password">Zure kutxa gotorra blokeatuta dago. Egiaztatu zure pasahitz nagusia jarraitzeko.</string>
     <string name="vault_locked_pin">Zure kutxa gotorra blokeatuta dago. Egiaztatu zure PIN kodea jarraitzeko.</string>
@@ -386,7 +386,7 @@
     <string name="clear_clipboard">Hustu arbela</string>
     <string name="clear_clipboard_description">Ezabatu automatikoki arbelean kopiatutako balioak.</string>
     <string name="default_uri_match_detection">Lehenetsitako detekzioa URI kointzidentziarako</string>
-    <string name="default_uri_match_detection_description">URI bat datorren detekzioak kontrolatzen du nola identifikatzen dituen Byteward-ek autobeteketaren iradokizunak.</string>
+    <string name="default_uri_match_detection_description">URI bat datorren detekzioak kontrolatzen du nola identifikatzen dituen Bitwarden-ek autobeteketaren iradokizunak.</string>
     <string name="theme">Gaia</string>
     <string name="theme_description">Aldatu aplikazioaren kolore-gaiak</string>
     <string name="copy_notes">Kopiatu oharra</string>
@@ -422,7 +422,7 @@
     <string name="password_generator_policy_in_effect">Erakundeko politika batek edo gehiagok sortzailearen konfigurazioari eragiten diote</string>
     <string name="unable_to_save_attachment">Arazo bat egon da eranskin hau atxikitzean. Arazoak bere horretan jarraitzen badu, webguneko kutxa gotorretik atxiki dezakezu.</string>
     <string name="save_attachment_success">Eranskina ondo atxiki da</string>
-    <string name="autofill_tile_accessibility_required">Mesedez, aktibatu \"Autobeteketaren Irisgarritasun Zerbitzua\" Byteward Ezarpenetatik Autobeteketa laukia erabiltzeko.</string>
+    <string name="autofill_tile_accessibility_required">Mesedez, aktibatu \"Autobeteketaren Irisgarritasun Zerbitzua\" Bitwarden Ezarpenetatik Autobeteketa laukia erabiltzeko.</string>
     <string name="autofill_tile_uri_not_found">Ez da pasahitz eremurik detektatu</string>
     <string name="soft_deleting">Zakarrontzira bidaltzen…</string>
     <string name="item_soft_deleted">Elementua zakarrontzira bidali da.</string>
@@ -636,9 +636,9 @@
     <string name="catch_all_email_description">Erabili zure domeinuak konfiguratutako \"catch-all\" sarrera-ontzia.</string>
     <string name="forwarded_email_description">Emaileko ezizen bat sortu kanpoko bidalketa zerbitzu batekin.</string>
     <string name="accessibility_service_disclosure">Zabaldu irisgarritasun zerbitzua</string>
-    <string name="accessibility_disclosure_text">Bytewardek irisgarritasun zerbitzua erabiltzen du aplikazioetan eta webguneetan sarbide-eremuak bilatzeko; ondoren, eremu-ID egokiak ezartzen ditu, aplikaziorako edo gunerako eremu bat aurkitzen denean erabiltzaile-izena eta pasahitza sartzeko. Zerbitzuak ematen digun informazioa ez dugu gordeko, eta ez gara saiatuko pantailan kredentzialen testutik haratagoko elementurik zelatatzen.</string>
-    <string name="accessibility_disclosure_start_up_text_1">Abisu hau beharrezkoa da Byteward-ek irisgarritasunean oinarritutako autobeteketa eskaini aurretik.</string>
-    <string name="accessibility_disclosure_start_up_text_2">Byteward-ek autobeteketa-metodo aukerako bat eskaintzen du, Android-en Irisgarritasun Zerbitzua erabiltzen duena saio-eremuak detektatzeko. Gaituz gero, Byteward-ek eremu egokiak identifikatuko ditu eta zure kredentzialak beteko ditu bat datorrenean.</string>
+    <string name="accessibility_disclosure_text">Bitwardenek irisgarritasun zerbitzua erabiltzen du aplikazioetan eta webguneetan sarbide-eremuak bilatzeko; ondoren, eremu-ID egokiak ezartzen ditu, aplikaziorako edo gunerako eremu bat aurkitzen denean erabiltzaile-izena eta pasahitza sartzeko. Zerbitzuak ematen digun informazioa ez dugu gordeko, eta ez gara saiatuko pantailan kredentzialen testutik haratagoko elementurik zelatatzen.</string>
+    <string name="accessibility_disclosure_start_up_text_1">Abisu hau beharrezkoa da Bitwarden-ek irisgarritasunean oinarritutako autobeteketa eskaini aurretik.</string>
+    <string name="accessibility_disclosure_start_up_text_2">Bitwarden-ek autobeteketa-metodo aukerako bat eskaintzen du, Android-en Irisgarritasun Zerbitzua erabiltzen duena saio-eremuak detektatzeko. Gaituz gero, Bitwarden-ek eremu egokiak identifikatuko ditu eta zure kredentzialak beteko ditu bat datorrenean.</string>
     <string name="accessibility_disclosure_start_up_text_3">Ez dugu gordetzen pantailan dagoenari buruzko informaziorik Irisgarritasun Zerbitzua erabiltzen duzun bitartean, eta ez ditugu kontrolatzen kredentzialak sartzeaz gaindiko pantaila-elementurik.</string>
     <string name="i_understand">Ulertzen dut</string>
     <string name="accept">Onartu</string>
@@ -718,8 +718,8 @@ Do you want to switch to this account?</string>
     <string name="session_timeout">Saioaren denbora-muga</string>
     <string name="session_timeout_action">Saioaren denbora-mugaren ekintza</string>
     <string name="account_fingerprint_phrase">Kontuaren hatz-marka digitalaren esaldia</string>
-    <string name="passkey_management_explanation_long">Erabili Byteward pasagiltza berriak gordetzeko eta zure kutxan gordetako pasagiltzekin saioa hasteko.</string>
-    <string name="autofill_services_explanation_long">Baimendu Byteward-ek zure gordetako saio-informazioa erabiltzea zure gailuko beste aplikazio batzuetan saioa hasteko.</string>
+    <string name="passkey_management_explanation_long">Erabili Bitwarden pasagiltza berriak gordetzeko eta zure kutxan gordetako pasagiltzekin saioa hasteko.</string>
+    <string name="autofill_services_explanation_long">Baimendu Bitwarden-ek zure gordetako saio-informazioa erabiltzea zure gailuko beste aplikazio batzuetan saioa hasteko.</string>
     <string name="use_inline_autofill_explanation_long">Erabili teklatuko lerroko atomatikoki betetzea, zure teklatuak ahalbidetzen badu. Horrela ez bada, automatikoki betetzeko gainjartzea erabiliko da lehenespenez.</string>
     <string name="additional_options">Aukera gehigarriak</string>
     <string name="continue_to_web_app">Web-aplikaziora jarraitu?</string>
@@ -742,8 +742,8 @@ Do you want to switch to this account?</string>
     <string name="duo_two_step_login_is_required_for_your_account">Duo bi urratsetako saioa beharrezkoa da zure konturako.</string>
     <string name="follow_the_steps_from_duo_to_finish_logging_in">Jarraitu Duo-ren urratsak saioa amaitzeko.</string>
     <string name="launch_duo">Abiarazi Duo</string>
-    <string name="your_passkey_will_be_saved_to_your_bitwarden_vault_for_x">Zure pasagiltza zure Byteward kutxan gordeko da %1$s-rako</string>
-    <string name="your_password_will_be_saved_to_your_bitwarden_vault_for_x">Zure pasahitza zure Byteward kutxan gordeko da %1$s-rako</string>
+    <string name="your_passkey_will_be_saved_to_your_bitwarden_vault_for_x">Zure pasagiltza zure Bitwarden kutxan gordeko da %1$s-rako</string>
+    <string name="your_password_will_be_saved_to_your_bitwarden_vault_for_x">Zure pasahitza zure Bitwarden kutxan gordeko da %1$s-rako</string>
     <string name="passkeys_not_supported_for_this_app">Pasagiltzak ez dira onartzen aplikazio honetarako</string>
     <string name="passkey_operation_failed_because_browser_is_not_privileged">Pasagiltzaren eragiketak huts egin du nabigatzailea ez delako pribilegiatua</string>
     <string name="passkey_operation_failed_because_browser_signature_does_not_match">Pasagiltzaren eragiketak huts egin du nabigatzailearen sinadura ez datorrelako bat</string>
@@ -771,7 +771,7 @@ Do you want to switch to this account?</string>
     <string name="email_verified">Helbide elektronikoa egiaztatuta</string>
     <string name="get_emails_from_bitwarden_for_announcements_advices_and_research_opportunities_unsubscribe_any_time">Jaso Bitwarden-en mezu elektronikoak iragarpenetarako, aholkuetarako eta ikerketa-aukeretarako. <annotation link="unsubscribe">Harpidetza kendu</annotation> nahi duzunean.</string>
     <string name="security_prioritized">Segurtasuna, lehentasunezkoa</string>
-    <string name="welcome_message_1">Gorde saioak, txartelak eta identitateak zure kutxa seguruan. Byteward-ek zero-ezagutza eta muturretik muturrerako enkriptatzea erabiltzen du zuretzat garrantzitsua dena babesteko.</string>
+    <string name="welcome_message_1">Gorde saioak, txartelak eta identitateak zure kutxa seguruan. Bitwarden-ek zero-ezagutza eta muturretik muturrerako enkriptatzea erabiltzen du zuretzat garrantzitsua dena babesteko.</string>
     <string name="welcome_message_2">Konfiguratu desblokeo biometrikoa eta autobeteketa zure kontuetan saioa hasteko letrarik idatzi gabe.</string>
     <string name="quick_and_easy_login">Saio azkarra eta erraza</string>
     <string name="level_up_your_logins">Bultzatu zure saioak</string>
@@ -824,16 +824,16 @@ Do you want to switch to this account?</string>
     <string name="turn_on_autofill">Aktibatu autobeteketa</string>
     <string name="autofill_setup">Autobeteketaren konfigurazioa</string>
     <string name="turn_on_browser_autofill_integration">Aktibatu nabigatzailearen autobeteketaren integrazioa</string>
-    <string name="browser_requires_special_permissions_for_bitwarden_singular">Byteward-ek zure pasahitzak autobetetzeko baimen bereziak behar dituen nabigatzaile bat erabiltzen ari zara.</string>
-    <string name="browser_requires_special_permissions_for_bitwarden_plural">Byteward-ek zure pasahitzak autobetetzeko baimen bereziak behar dituzten nabigatzaileak erabiltzen ari zara.</string>
-    <string name="youre_using_a_browser_that_requires_special_permissions_singular">Byteward-ek zure pasahitzak autobetetzeko baimen bereziak behar dituen nabigatzaile bat erabiltzen ari zara. Gaitu behean zure autobeteketa-integrazio gogokoena.</string>
-    <string name="youre_using_a_browser_that_requires_special_permissions_plural">Byteward-ek zure pasahitzak autobetetzeko baimen bereziak behar dituzten nabigatzaileak erabiltzen ari zara. Gaitu autobeteketa zure instalatutako nabigatzaile guztietan jarraitzeko.</string>
+    <string name="browser_requires_special_permissions_for_bitwarden_singular">Bitwarden-ek zure pasahitzak autobetetzeko baimen bereziak behar dituen nabigatzaile bat erabiltzen ari zara.</string>
+    <string name="browser_requires_special_permissions_for_bitwarden_plural">Bitwarden-ek zure pasahitzak autobetetzeko baimen bereziak behar dituzten nabigatzaileak erabiltzen ari zara.</string>
+    <string name="youre_using_a_browser_that_requires_special_permissions_singular">Bitwarden-ek zure pasahitzak autobetetzeko baimen bereziak behar dituen nabigatzaile bat erabiltzen ari zara. Gaitu behean zure autobeteketa-integrazio gogokoena.</string>
+    <string name="youre_using_a_browser_that_requires_special_permissions_plural">Bitwarden-ek zure pasahitzak autobetetzeko baimen bereziak behar dituzten nabigatzaileak erabiltzen ari zara. Gaitu autobeteketa zure instalatutako nabigatzaile guztietan jarraitzeko.</string>
     <string name="use_autofill_to_log_into_your_accounts">Erabili autobeteketa zure kontuetan saioa hasteko ukitu bakarrarekin.</string>
     <string name="turn_on_later">Aktibatu geroago</string>
     <string name="turn_on_autofill_later">Autobeteketa geroago aktibatu?</string>
     <string name="turn_on_browser_autofill_integration_later">Nabigatzailearen autobeteketaren integrazioa geroago aktibatu?</string>
     <string name="return_to_complete_this_step_anytime_in_settings">Edonoiz itzul zaitezke urrats hau osatzeko Ezarpenetatik.</string>
-    <string name="what_bitwarden_has_to_offer">Orain Byteward-ek eskaintzen duen guztia arakatu eta zure pasahitzak segurtasunez kudeatzen has zaitezke.</string>
+    <string name="what_bitwarden_has_to_offer">Orain Bitwarden-ek eskaintzen duen guztia arakatu eta zure pasahitzak segurtasunez kudeatzen has zaitezke.</string>
     <string name="youre_all_set">Dena prest duzu!</string>
     <string name="error_connecting_with_the_duo_service_use_a_different_two_step_login_method_or_contact_duo_for_assistance">Errorea Duo zerbitzuarekin konektatzean. Erabili bi urratsetako saio-metodo ezberdin bat edo jarri Duo-rekin harremanetan laguntza jasotzeko.</string>
     <string name="master_password_hint_not_specified">Pasahitz nagusiaren argibidea</string>
@@ -965,7 +965,7 @@ Do you want to switch to this account?</string>
     <string name="unsupported_certificate_type">Ziurtagiri mota ez onartua</string>
     <string name="certificate_password_incorrect">Ziurtagiriaren pasahitza okerra</string>
     <string name="invalid_certificate_chain">Ziurtagiri-katea baliogabea</string>
-    <string name="system_certificates_are_not_as_secure_as_importing_certificates_to_bitwarden">Sistemako ziurtagiria erabiltzea ez da hain segurua Byteward-ekin ziurtagiria gordetzea baino. Jarraitzeak eskuragarri dauden sistemako ziurtagirien zerrenda erakutsiko du bat instalatuta badago.</string>
+    <string name="system_certificates_are_not_as_secure_as_importing_certificates_to_bitwarden">Sistemako ziurtagiria erabiltzea ez da hain segurua Bitwarden-ekin ziurtagiria gordetzea baino. Jarraitzeak eskuragarri dauden sistemako ziurtagirien zerrenda erakutsiko du bat instalatuta badago.</string>
     <string name="link">Esteka</string>
     <string name="passkey_operation_failed_because_host_url_is_not_present_in_request">Pasagiltzaren eragiketak huts egin du ostalariaren URLa ez dagoelako eskaeran.</string>
     <string name="passkey_operation_failed_because_app_signature_is_invalid">Pasagiltzaren eragiketak huts egin du aplikazioaren sinadura baliogabea delako.</string>
@@ -1042,11 +1042,11 @@ Do you want to switch to this account?</string>
     <string name="missing_send_resync_your_vault">Bidalketa falta da, sinkronizatu berriro zure kutxa</string>
     <string name="use_dynamic_colors">Erabili kolore dinamikoak</string>
     <string name="use_dynamic_colors_question">Kolore dinamikoak erabili?</string>
-    <string name="dynamic_colors_may_not_adhere_to_accessibility_guidelines">Kolore-eskema honek automatikoki aplikatzen dizkio Byteward-i sistemaren koloreak zure uneko horma-irudiaren arabera. Kolore hauek baliteke irisgarritasun-gida guztiak ez betetzea.</string>
+    <string name="dynamic_colors_may_not_adhere_to_accessibility_guidelines">Kolore-eskema honek automatikoki aplikatzen dizkio Bitwarden-i sistemaren koloreak zure uneko horma-irudiaren arabera. Kolore hauek baliteke irisgarritasun-gida guztiak ez betetzea.</string>
     <string name="passkey_operation_failed_because_browser_x_is_not_trusted">Pasagiltzaren eragiketak huts egin du (%1$s) nabigatzailea ez delako ezagutzen. Hautatu \"Fidatu\" %1$s tokian fidagarriak diren aplikazioen zerrendara gehitzeko.</string>
     <string name="passkey_operation_failed_because_the_browser_is_not_trusted">Pasagiltzaren eragiketak huts egin du nabigatzailea ez delako fidagarria.</string>
     <string name="trust">Fidatu</string>
-    <string name="trusted_by_you_learn_more">Hauek dira Byteward-ek lehenespenez ez dituen aplikazio edo nabigatzaileak, baina zuk fidagarriak dituzu pasagiltza eragiketak egiteko.</string>
+    <string name="trusted_by_you_learn_more">Hauek dira Bitwarden-ek lehenespenez ez dituen aplikazio edo nabigatzaileak, baina zuk fidagarriak dituzu pasagiltza eragiketak egiteko.</string>
     <string name="trusted_by_community_learn_more">Hauek dira Google Play Store-n sartzen ez diren aplikazioak, baina Bitwarden-ek fidagarriak ditu pasagiltza eragiketak egiteko komunitateko kideek erabili eta seguruak direla jakinarazi ondoren.</string>
     <string name="trusted_by_google_learn_more">Hauek dira Google-k segurutzat dituen eta Google Play Store-n eskuragarri dauden aplikazioak.</string>
     <string name="trusted_by_you">Zuk fidagarriak</string>
@@ -1188,7 +1188,7 @@ Do you want to switch to this account?</string>
         <item quantity="other">%1$d elementu inportatu dira zure kutxan.</item>
     </plurals>
     <string name="enable_browser_autofill_to_keep_filling_passwords">Gaitu nabigatzailearen Autobeteketa pasahitzak betetzen jarraitzeko</string>
-    <string name="your_browser_recently_updated_how_autofill_works_singular">Zure nabigatzailea berriki eguneratu da, eta Byteward-en autobeteketa desgaitu du. Byteward-ekin zure pasahitzak betetzen jarraitzeko, gaitu nabigatzailearen autobeteketa autobeteketaren ezarpenetan.</string>
+    <string name="your_browser_recently_updated_how_autofill_works_singular">Zure nabigatzailea berriki eguneratu da, eta Bitwarden-en autobeteketa desgaitu du. Bitwarden-ekin zure pasahitzak betetzen jarraitzeko, gaitu nabigatzailearen autobeteketa autobeteketaren ezarpenetan.</string>
     <string name="not_now">Ez orain</string>
     <string name="import_from_bitwarden">Inportatu Bitwarden-etik</string>
     <string name="select_account">Hautatu kontua</string>
@@ -1288,7 +1288,7 @@ Do you want to switch to this account?</string>
     <string name="trusted">Fidagarria</string>
     <string name="preview_not_available_for_files">Aurrebista ez dago eskuragarri %1$s fitxategientzat. Hala ere, deskarga dezakezu zure gailuan ikusteko.</string>
     <string name="this_file_is_too_large_to_preview">Fitxategia handiegia da aurrebistarako. Hala ere, deskarga dezakezu zure gailuan ikusteko.</string>
-    <string name="bitwarden_could_not_decrypt_this_file_so_the_preview_cannot_be_displayed">Byteward-ek ezin du fitxategi hau desenkriptatu, beraz, aurrebista ezin da erakutsi.</string>
+    <string name="bitwarden_could_not_decrypt_this_file_so_the_preview_cannot_be_displayed">Bitwarden-ek ezin du fitxategi hau desenkriptatu, beraz, aurrebista ezin da erakutsi.</string>
     <string name="preview_unavailable_for_this_file">Aurrebista ez dago eskuragarri fitxategi honetarako. Hala ere, deskarga dezakezu zure gailuan ikusteko.</string>
     <string name="preview_unavailable">Aurrebista ez dago eskuragarri</string>
     <string name="download_attachment">Deskargatu eranskina</string>
@@ -1421,8 +1421,8 @@ Do you want to switch to this account?</string>
     <string name="local_network_access_required">Sare lokaleko sarbidea beharrezkoa</string>
     <string name="ask_again_later">Galdetu berriro geroago</string>
     <string name="enable_local_network_access">Gaitu sare lokaleko sarbidea</string>
-    <string name="bitwarden_needs_local_network_access_to_sync_with_your_server">Byteward-ek sare lokaleko sarbidea behar du zure zerbitzariarekin sinkronizatzeko. Baimen hau gabe, aplikazioa ezin izango da konektatu.</string>
-    <string name="without_this_permission_bitwarden_wont_be_able_to_sync_with_your_server">Baimen hau gabe, Byteward ezin izango da konektatu eta zure zerbitzariarekin sinkronizatu. Hau zure gailuaren ezarpenetan gaitu dezakezu.</string>
+    <string name="bitwarden_needs_local_network_access_to_sync_with_your_server">Bitwarden-ek sare lokaleko sarbidea behar du zure zerbitzariarekin sinkronizatzeko. Baimen hau gabe, aplikazioa ezin izango da konektatu.</string>
+    <string name="without_this_permission_bitwarden_wont_be_able_to_sync_with_your_server">Baimen hau gabe, Bitwarden ezin izango da konektatu eta zure zerbitzariarekin sinkronizatu. Hau zure gailuaren ezarpenetan gaitu dezakezu.</string>
     <string name="your_request_was_interrupted_because_the_app_needs_local_network_access">Zure eskaera eten egin da aplikazioak sare lokaleko sarbidea behar duelako. Hau zure gailuaren ezarpenetan gaitu dezakezu.</string>
     <string name="continue_to_stripe">Stripe-ra jarraitu?</string>
     <string name="youll_be_taken_to_stripe_to_manage_your_subscription_cancellation">Stripe-ra eramango zaituzte zure harpidetza bertan behera uzteko.</string>
@@ -1444,7 +1444,7 @@ Do you want to switch to this account?</string>
     <string name="use_this_username">Use this username</string>
     <string name="create_login">Create login</string>
     <string name="keep_unlocking_with_biometrics">Keep unlocking with biometrics</string>
-    <string name="weve_made_a_security_update">We’ve made a security update. Confirm your biometrics again to keep using them to unlock Byteward.</string>
+    <string name="weve_made_a_security_update">We’ve made a security update. Confirm your biometrics again to keep using them to unlock Bitwarden.</string>
     <string name="turn_off">Turn off</string>
     <string name="turn_off_biometric_question">Turn off biometrics?</string>
     <string name="unlocking_will_require_your_master_password">Unlocking will require your master password. You can turn biometrics back on in Settings.</string>

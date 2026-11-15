@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Byteward overrides for strings defined in the :ui module, which keeps
+    upstream Bitwarden's text. App resources take precedence over library
+    resources when they are merged, so the app shows these versions while the
+    :ui files stay identical to upstream (and the Authenticator app, which also
+    uses :ui, keeps Bitwarden's text).
+
+    Each entry renames Bitwarden to Byteward where the password manager refers
+    to itself. Text about Bitwarden's service is not overridden.
+-->
+<resources>
+    <string name="set_bitwarden_as_passkey_manager_description">Ustaw Byteward jako dostawcę kluczy dostępu w ustawieniach urządzenia.</string>
+    <string name="bitwarden_autofill_service">Usługa autouzupełniania Byteward</string>
+    <string name="bitwarden_autofill_service_alert2">Najprostszym sposobem dodania nowych danych logowania do sejfu jest usługa autouzupełniania Byteward. Więcej informacji o usłudze znajdziesz w ustawieniach.</string>
+    <string name="autofill_service_description">Usługa autouzupełniania Byteward wykorzystuje system autouzupełniania Android, aby pomóc uzupełniać dane logowania w innych aplikacjach.</string>
+    <string name="default_uri_match_detection_description">Wykrywanie dopasowania to sposób, w jaki Byteward identyfikuje sugestie autouzupełniania.</string>
+    <string name="autofill_tile_accessibility_required">Aby korzystać z kafelka autouzupełniania, włącz usługę ułatwienia dostępu w ustawieniach Byteward.</string>
+    <string name="accessibility_disclosure_text">Byteward używa usługi ułatwienia dostępu do wyszukiwania pól logowania w aplikacjach i stronach internetowych, a następnie ustanawia odpowiednie identyfikatory pól do nazwy użytkownika i hasła. Nie przechowujemy żadnych informacji przedstawionych nam przez usługę, ani nie podejmujemy żadnych prób kontrolowania jakichkolwiek innych elementów na ekranie.</string>
+    <string name="accessibility_disclosure_start_up_text_2">Byteward oferuje opcjonalną metodę autouzupełniania, która wykorzystuje usługę ułatwienia dostępu. Jeśli ją włączysz, Byteward zidentyfikuje odpowiednie pola i uzupełni dane logowania.</string>
+    <string name="passkey_management_explanation_long">Użyj aplikacji Byteward do zapisywania nowych kluczy dostępu i logowania się za pomocą nich.</string>
+    <string name="autofill_services_explanation_long">Zezwala aplikacji Byteward na używanie zapisanych danych logowania do logowania się w innych aplikacjach.</string>
+    <string name="your_passkey_will_be_saved_to_your_bitwarden_vault_for_x">Klucz dostępu zostanie zapisany w sejfie Byteward w danych logowania %1$s</string>
+    <string name="your_password_will_be_saved_to_your_bitwarden_vault_for_x">Hasło zostanie zapisane w sejfie Byteward w danych logowania %1$s</string>
+    <string name="welcome_message_1">Zapisz dane logowania, karty i tożsamości w bezpiecznym sejfie. Byteward używa szyfrowania end-to-end w celu ochrony tego, co jest dla Ciebie ważne.</string>
+    <string name="browser_requires_special_permissions_for_bitwarden_singular">Używasz przeglądarki, która wymaga specjalnych uprawnień, aby Byteward mógł uzupełniać hasła.</string>
+    <string name="browser_requires_special_permissions_for_bitwarden_plural">Używasz przeglądarek, które wymagają specjalnych uprawnień, aby Byteward mógł uzupełniać hasła.</string>
+    <string name="youre_using_a_browser_that_requires_special_permissions_singular">Używasz przeglądarki, która wymaga specjalnych uprawnień, aby Byteward mógł uzupełniać hasła. Włącz autouzupełnianie poniżej.</string>
+    <string name="youre_using_a_browser_that_requires_special_permissions_plural">Używasz przeglądarek, które wymagają specjalnych uprawnień, aby Byteward mógł uzupełniać hasła. Włącz autouzupełnianie dla wszystkich przeglądarek poniżej.</string>
+    <string name="what_bitwarden_has_to_offer">Odkryj, co Byteward ma do zaoferowania i zacznij bezpiecznie zarządzać swoimi hasłami.</string>
+    <string name="system_certificates_are_not_as_secure_as_importing_certificates_to_bitwarden">Używanie certyfikatu systemowego jest mniej bezpieczne niż przechowywanie certyfikatu w Byteward. Kontynuowanie wyświetli listę dostępnych certyfikatów systemowych, jeśli któryś jest już zainstalowany.</string>
+    <string name="trusted_by_you_learn_more">Aplikacje lub przeglądarki, którym Byteward domyślnie nie ufa, ale Ty ufasz, aby wykonać operacje z kluczami dostępu.</string>
+    <string name="your_browser_recently_updated_how_autofill_works_singular">Twoja przeglądarka została zaktualizowana, co spowodowało wyłączenie autouzupełniania Byteward. Aby nadal uzupełniać hasła za pomocą Byteward, włącz autouzupełnianie w przeglądarce.</string>
+    <string name="bitwarden_could_not_decrypt_this_file_so_the_preview_cannot_be_displayed">Byteward nie mógł odszyfrować pliku, więc nie można wyświetlić podglądu.</string>
+    <string name="bitwarden_needs_local_network_access_to_sync_with_your_server">Aplikacja Byteward wymaga dostępu do sieci lokalnej, aby zsynchronizować się z serwerem. Bez tego uprawnienia aplikacja nie będzie mogła nawiązać połączenia.</string>
+    <string name="without_this_permission_bitwarden_wont_be_able_to_sync_with_your_server">Bez tego uprawnienia aplikacja Byteward nie będzie mogła połączyć się z serwerem. Możesz włączyć tę opcję w ustawieniach urządzenia.</string>
+</resources>

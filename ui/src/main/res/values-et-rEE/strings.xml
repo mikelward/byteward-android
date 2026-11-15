@@ -75,9 +75,9 @@
     <string name="yes">Jah</string>
     <string name="account">Konto</string>
     <string name="account_created_success">Uus konto loodud!</string>
-    <string name="set_bitwarden_as_passkey_manager_description">Määra Byteward enda pääsuvõtme pakkujana telefoni seadetes.</string>
+    <string name="set_bitwarden_as_passkey_manager_description">Määra Bitwarden enda pääsuvõtme pakkujana telefoni seadetes.</string>
     <string name="avoid_ambiguous_characters">Väldi ebamääraseid kirjamärke</string>
-    <string name="bitwarden_autofill_service">Bytewardi automaattäite teenus</string>
+    <string name="bitwarden_autofill_service">Bitwardeni automaattäite teenus</string>
     <string name="change_master_password">Muuda ülemparooli</string>
     <string name="close">Sulge</string>
     <string name="close_app">Sulge rakendus</string>
@@ -176,7 +176,7 @@
     <string name="no_items_for_vault">Hoidlas puuduvad kirjed, mis sobituksid sõnaga \"%1$s\"</string>
     <string name="search_for_a_login_or_add_a_new_login">Otsige sisselogimist või lisage uus sisselogimine</string>
     <string name="disabled">Keelatud</string>
-    <string name="bitwarden_autofill_service_alert2">Lihtsaim viis uute sisselogimiste lisamiseks oma varasse on Bytewardi automaattäite teenuse kaudu. Lisateavet Bytewardi automaattäite teenuse kasutamise kohta saate, kui liikute ekraanile „Seaded”.</string>
+    <string name="bitwarden_autofill_service_alert2">Lihtsaim viis uute sisselogimiste lisamiseks oma varasse on Bitwardeni automaattäite teenuse kaudu. Lisateavet Bitwardeni automaattäite teenuse kasutamise kohta saate, kui liikute ekraanile „Seaded”.</string>
     <string name="autofill_noun">Automaattäide</string>
     <string name="autofill_verb">Täida automaatselt</string>
     <string name="autofill_or_view">Soovid seda kirjet sisestada või vaadata?</string>
@@ -298,7 +298,7 @@ Skaneerimine toimub automaatselt.</string>
     <string name="no_items_folder">Selles kaustas ei ole kirjeid.</string>
     <string name="no_items_trash">Prügikast on tühi.</string>
     <string name="autofill_accessibility_summary">Abistab kasutajanime ja parooli väljade täitmisel teistes rakendustes ja veebis.</string>
-    <string name="autofill_service_description">Bytewardi automaattäite teenus kasutab Androidi Autofill raamistikku. See aitab telefonis olevatesse rakendustesse sisestada kontoandmeid, krediitkaardi andmeid ja muud personaalset infot.</string>
+    <string name="autofill_service_description">Bitwardeni automaattäite teenus kasutab Androidi Autofill raamistikku. See aitab telefonis olevatesse rakendustesse sisestada kontoandmeid, krediitkaardi andmeid ja muud personaalset infot.</string>
     <string name="bitwarden_autofill_go_to_settings">Meil ei õnnestu Androidi sisestusabi seadeid avada. Võid selle ise avada, navigeerides Seaded &gt; Süsteem &gt; Keeled ja sisend &gt; Täpsemad &gt; Sisestusabi.</string>
     <string name="custom_field_name">Kohandatud välja nimi</string>
     <string name="field_type_boolean">Boolean</string>
@@ -373,7 +373,7 @@ Skaneerimine toimub automaatselt.</string>
     <string name="pin">PIN</string>
     <string name="unlock">Lukusta lahti</string>
     <string name="thirty_minutes">30 minuti pärast</string>
-    <string name="set_pin_description">Määra Bytewardi lahtilukustamiseks PIN kood. Rakendusest täielikult välja logides nullitakse ka PIN koodi seaded.</string>
+    <string name="set_pin_description">Määra Bitwardeni lahtilukustamiseks PIN kood. Rakendusest täielikult välja logides nullitakse ka PIN koodi seaded.</string>
     <string name="logged_in_as_on">Sisse logitud kontoga %1$s lehel %2$s.</string>
     <string name="vault_locked_master_password">Hoidla on lukus. Jätkamiseks sisesta ülemparool.</string>
     <string name="vault_locked_pin">Hoidla on lukus. Jätkamiseks sisesta PIN kood.</string>
@@ -387,7 +387,7 @@ Skaneerimine toimub automaatselt.</string>
     <string name="clear_clipboard">Lõikelaua puhastamine</string>
     <string name="clear_clipboard_description">Puhastab automaatselt lõikelauale kopeeritud sisu.</string>
     <string name="default_uri_match_detection">Vaike URI sobivuse tuvastamine</string>
-    <string name="default_uri_match_detection_description">URI vaste tuvastamine kontrollib, kuidas Byteward tuvastab, kus pakkuda automaatse täitmise soovitusi.</string>
+    <string name="default_uri_match_detection_description">URI vaste tuvastamine kontrollib, kuidas Bitwarden tuvastab, kus pakkuda automaatse täitmise soovitusi.</string>
     <string name="theme">Kujundus</string>
     <string name="theme_description">Muuda rakenduse värviteemat</string>
     <string name="copy_notes">Kopeeri märkus</string>
@@ -423,7 +423,7 @@ Skaneerimine toimub automaatselt.</string>
     <string name="password_generator_policy_in_effect">Organisatsiooni seaded mõjutavad parooli genereerija sätteid</string>
     <string name="unable_to_save_attachment">Manuse salvestamisel ilmnes tõrge. Probleemi jätkumisel lisa fail läbi veebihoidla.</string>
     <string name="save_attachment_success">Manus on edukalt lisatud</string>
-    <string name="autofill_tile_accessibility_required">Automaattäite paani kasutamiseks lülitage Bytewardi seadetes sisse „Automaattäite ligipääsetavusteenus”.</string>
+    <string name="autofill_tile_accessibility_required">Automaattäite paani kasutamiseks lülitage Bitwardeni seadetes sisse „Automaattäite ligipääsetavusteenus”.</string>
     <string name="autofill_tile_uri_not_found">Paroolivälju ei tuvastatud</string>
     <string name="soft_deleting">Prügikasti saatmine…</string>
     <string name="item_soft_deleted">Kirje on prügikasti saadetud.</string>
@@ -638,9 +638,9 @@ Skaneerimine toimub automaatselt.</string>
     <string name="catch_all_email_description">Kasutage oma domeeni konfigureeritud kõik-püüdvat postkasti.</string>
     <string name="forwarded_email_description">Genereeri e-posti alias, kasutades selleks välist teenuspakkujat.</string>
     <string name="accessibility_service_disclosure">Juurdepääsetavuse Teenuse Teavitus</string>
-    <string name="accessibility_disclosure_text">Byteward kasutab ligipääsetavusteenust, et otsida rakendustest ja veebisaitidest sisselogimisvälju, seejärel määrata sobivad välja ID-d kasutajanime ja parooli sisestamiseks, kui rakendusele või saidile vastavus leitakse. Me ei salvesta ühtegi teenuse poolt meile edastatud teavet ega ürita kontrollida ühtegi ekraanielementi peale mandaatide tekstisisestuse.</string>
-    <string name="accessibility_disclosure_start_up_text_1">See teade on nõutav enne, kui Byteward saab pakkuda ligipääsetavuspõhist automaattäidet.</string>
-    <string name="accessibility_disclosure_start_up_text_2">Byteward pakub valikulist automaattäite meetodit, mis kasutab Androidi ligipääsetavusteenust sisselogimisväljade tuvastamiseks. Kui lubate selle, tuvastab Byteward sobivad väljad ja täidab teie mandaadid, kui vastavus leitakse.</string>
+    <string name="accessibility_disclosure_text">Bitwarden kasutab ligipääsetavusteenust, et otsida rakendustest ja veebisaitidest sisselogimisvälju, seejärel määrata sobivad välja ID-d kasutajanime ja parooli sisestamiseks, kui rakendusele või saidile vastavus leitakse. Me ei salvesta ühtegi teenuse poolt meile edastatud teavet ega ürita kontrollida ühtegi ekraanielementi peale mandaatide tekstisisestuse.</string>
+    <string name="accessibility_disclosure_start_up_text_1">See teade on nõutav enne, kui Bitwarden saab pakkuda ligipääsetavuspõhist automaattäidet.</string>
+    <string name="accessibility_disclosure_start_up_text_2">Bitwarden pakub valikulist automaattäite meetodit, mis kasutab Androidi ligipääsetavusteenust sisselogimisväljade tuvastamiseks. Kui lubate selle, tuvastab Bitwarden sobivad väljad ja täidab teie mandaadid, kui vastavus leitakse.</string>
     <string name="accessibility_disclosure_start_up_text_3">Me ei salvesta mingeid andmeid selle kohta, mis ekraanil kuvatakse, kui te ligipääsetavusteenust kasutate, ja me ei kontrolli ühtegi ekraanielementi peale mandaatide sisestuse.</string>
     <string name="i_understand">Ma saan aru</string>
     <string name="accept">Nõustu</string>
@@ -720,7 +720,7 @@ Do you want to switch to this account?</string>
     <string name="session_timeout">Sessiooni ajalõpp</string>
     <string name="session_timeout_action">Ajalõpule järgnev tegevus</string>
     <string name="account_fingerprint_phrase">Konto unikaalne sõnajada</string>
-    <string name="passkey_management_explanation_long">Kasuta Bytewardit uute pääsuvõtmete salvestamiseks hoidlas ja nendega sisse logimiseks.</string>
+    <string name="passkey_management_explanation_long">Kasuta Bitwardenit uute pääsuvõtmete salvestamiseks hoidlas ja nendega sisse logimiseks.</string>
     <string name="autofill_services_explanation_long">Android Autofill Raamistiku kasutatakse teistesse rakendustesse sisselogimisel andmete automaatse täitmise lihtsustamiseks.</string>
     <string name="use_inline_autofill_explanation_long">Valige, kuidas teie automaattäite soovitused kuvatakse, kui logite sisse teistesse rakendustesse oma seadmes.</string>
     <string name="additional_options">Muud valikud</string>
@@ -744,8 +744,8 @@ Do you want to switch to this account?</string>
     <string name="duo_two_step_login_is_required_for_your_account">Duo kahe-astmeline sisselogimine on sinu kontol nõutud.</string>
     <string name="follow_the_steps_from_duo_to_finish_logging_in">Sisselogimise lõpetamiseks järgige Duo juhiseid.</string>
     <string name="launch_duo">Käivita Duo</string>
-    <string name="your_passkey_will_be_saved_to_your_bitwarden_vault_for_x">Teie pääsukood salvestatakse teie Bytewardi varahoidlasse %1$s jaoks</string>
-    <string name="your_password_will_be_saved_to_your_bitwarden_vault_for_x">Teie parool salvestatakse teie Bytewardi varahoidlasse %1$s jaoks</string>
+    <string name="your_passkey_will_be_saved_to_your_bitwarden_vault_for_x">Teie pääsukood salvestatakse teie Bitwardeni varahoidlasse %1$s jaoks</string>
+    <string name="your_password_will_be_saved_to_your_bitwarden_vault_for_x">Teie parool salvestatakse teie Bitwardeni varahoidlasse %1$s jaoks</string>
     <string name="passkeys_not_supported_for_this_app">See rakendus ei toeta pääsuvõtmeid</string>
     <string name="passkey_operation_failed_because_browser_is_not_privileged">Pääsuvõtme funktsiooni kasutamine ebaõnnestus, sest see brauser ei ole toetatud</string>
     <string name="passkey_operation_failed_because_browser_signature_does_not_match">Pääsuvõtme funktsiooni kasutamine ebaõnnestus, sest brauseri sõrmejälg ei ühti</string>
@@ -773,7 +773,7 @@ Do you want to switch to this account?</string>
     <string name="email_verified">Email kinnitatud</string>
     <string name="get_emails_from_bitwarden_for_announcements_advices_and_research_opportunities_unsubscribe_any_time">Saate Bitwardenilt teadaannete, nõuannete ja teadusvõimaluste kohta e-kirju. <annotation link="unsubscribe">Loobuge tellimusest</annotation> igal ajal.</string>
     <string name="security_prioritized">Turvalisus on esikohal</string>
-    <string name="welcome_message_1">Salvestage sisselogimised, kaardid ja identiteedid oma turvalisse varasse. Byteward kasutab nullteadmuspõhist otspunktkrüptimist, et kaitsta teie jaoks olulist.</string>
+    <string name="welcome_message_1">Salvestage sisselogimised, kaardid ja identiteedid oma turvalisse varasse. Bitwarden kasutab nullteadmuspõhist otspunktkrüptimist, et kaitsta teie jaoks olulist.</string>
     <string name="welcome_message_2">Seadistage biomeetriline avamine ja automaattäide, et logida oma kontodesse sisse ilma ühtegi tähte tippimata.</string>
     <string name="quick_and_easy_login">Kiire ja lihtne sisselogimine</string>
     <string name="level_up_your_logins">Tõstke oma sisselogimised uuele tasemele</string>
@@ -826,16 +826,16 @@ Do you want to switch to this account?</string>
     <string name="turn_on_autofill">Lülita automaattäide sisse</string>
     <string name="autofill_setup">Automaattäite seadistamine</string>
     <string name="turn_on_browser_autofill_integration">Lülita sisse brauseri automaattäite integreerimine</string>
-    <string name="browser_requires_special_permissions_for_bitwarden_singular">Kasutate brauserit, mis nõuab Bytewardilt teie paroolide automaatseks täitmiseks erilube.</string>
-    <string name="browser_requires_special_permissions_for_bitwarden_plural">Kasutate brausereid, mis nõuavad Bytewardilt teie paroolide automaatseks täitmiseks erilube.</string>
-    <string name="youre_using_a_browser_that_requires_special_permissions_singular">Kasutate brauserit, mis nõuab Bytewardilt teie paroolide automaatseks täitmiseks erilube. Lubage allpool oma eelistatud automaattäite integreerimine.</string>
-    <string name="youre_using_a_browser_that_requires_special_permissions_plural">Kasutate brausereid, mis nõuavad Bytewardilt teie paroolide automaatseks täitmiseks erilube. Jätkamiseks lubage automaattäide kõigi installitud brauserite jaoks.</string>
+    <string name="browser_requires_special_permissions_for_bitwarden_singular">Kasutate brauserit, mis nõuab Bitwardenilt teie paroolide automaatseks täitmiseks erilube.</string>
+    <string name="browser_requires_special_permissions_for_bitwarden_plural">Kasutate brausereid, mis nõuavad Bitwardenilt teie paroolide automaatseks täitmiseks erilube.</string>
+    <string name="youre_using_a_browser_that_requires_special_permissions_singular">Kasutate brauserit, mis nõuab Bitwardenilt teie paroolide automaatseks täitmiseks erilube. Lubage allpool oma eelistatud automaattäite integreerimine.</string>
+    <string name="youre_using_a_browser_that_requires_special_permissions_plural">Kasutate brausereid, mis nõuavad Bitwardenilt teie paroolide automaatseks täitmiseks erilube. Jätkamiseks lubage automaattäide kõigi installitud brauserite jaoks.</string>
     <string name="use_autofill_to_log_into_your_accounts">Kasutage oma kontodesse sisselogimiseks ühe puudutusega automaattäidet.</string>
     <string name="turn_on_later">Lülita sisse hiljem</string>
     <string name="turn_on_autofill_later">Lülitada automaattäide sisse hiljem?</string>
     <string name="turn_on_browser_autofill_integration_later">Lülita brauseri automaattäite integreerimine sisse hiljem?</string>
     <string name="return_to_complete_this_step_anytime_in_settings">Saate selle sammu lõpule viimiseks igal ajal Seadetesse naasta.</string>
-    <string name="what_bitwarden_has_to_offer">Nüüd saate uurida kõike, mida Byteward pakub, ja alustada paroolide turvalist haldamist.</string>
+    <string name="what_bitwarden_has_to_offer">Nüüd saate uurida kõike, mida Bitwarden pakub, ja alustada paroolide turvalist haldamist.</string>
     <string name="youre_all_set">Kõik on valmis!</string>
     <string name="error_connecting_with_the_duo_service_use_a_different_two_step_login_method_or_contact_duo_for_assistance">Duo teenustega ühendamine ebaõnnestus. Kasuta teist kahe-astmelise sisselogimise meetodit või kontakteeru Duoga.</string>
     <string name="master_password_hint_not_specified">Ülemparooli vihje</string>
@@ -967,7 +967,7 @@ Do you want to switch to this account?</string>
     <string name="unsupported_certificate_type">Toetamata sertifikaadi tüüp</string>
     <string name="certificate_password_incorrect">Sertifikaadi parool on vale</string>
     <string name="invalid_certificate_chain">Vigane sertifikaadiahel</string>
-    <string name="system_certificates_are_not_as_secure_as_importing_certificates_to_bitwarden">Süsteemi sertifikaadi kasutamine on vähem turvaline kui sertifikaadi hoidmine Bytewardis. Jätkamine kuvab saadaolevate süsteemisertifikaatide loendi, kui üks on juba installitud.</string>
+    <string name="system_certificates_are_not_as_secure_as_importing_certificates_to_bitwarden">Süsteemi sertifikaadi kasutamine on vähem turvaline kui sertifikaadi hoidmine Bitwardenis. Jätkamine kuvab saadaolevate süsteemisertifikaatide loendi, kui üks on juba installitud.</string>
     <string name="link">Link</string>
     <string name="passkey_operation_failed_because_host_url_is_not_present_in_request">Pääsukoodi toiming ebaõnnestus, kuna päritav URL ei sisaldu päringus.</string>
     <string name="passkey_operation_failed_because_app_signature_is_invalid">Pääsukoodi toiming ebaõnnestus, kuna rakenduse allkiri on vigane.</string>
@@ -1044,11 +1044,11 @@ Do you want to switch to this account?</string>
     <string name="missing_send_resync_your_vault">Saadetis puudub, sünkroonige oma vara uuesti</string>
     <string name="use_dynamic_colors">Kasuta dünaamilisi värve</string>
     <string name="use_dynamic_colors_question">Kasutada dünaamilisi värve?</string>
-    <string name="dynamic_colors_may_not_adhere_to_accessibility_guidelines">See värviskeem rakendab Bytewardile automaatselt teie praeguse taustapildi põhjal süsteemivärve. Need värvid ei pruugi vastata kõikidele ligipääsetavuse juhistele.</string>
+    <string name="dynamic_colors_may_not_adhere_to_accessibility_guidelines">See värviskeem rakendab Bitwardenile automaatselt teie praeguse taustapildi põhjal süsteemivärve. Need värvid ei pruugi vastata kõikidele ligipääsetavuse juhistele.</string>
     <string name="passkey_operation_failed_because_browser_x_is_not_trusted">Pääsukoodi toiming ebaõnnestus, kuna brauser (%1$s) pole tuvastatud. %1$s kohalikult usaldatud rakenduste loendisse lisamiseks valige „Usalda”.</string>
     <string name="passkey_operation_failed_because_the_browser_is_not_trusted">Pääsukoodi toiming ebaõnnestus, kuna brauser pole usaldusväärne.</string>
     <string name="trust">Usalda</string>
-    <string name="trusted_by_you_learn_more">Need on rakendused või brauserid, mida Byteward vaikimisi ei usalda, kuid mida teie usaldate pääsukooditoimingute tegemiseks.</string>
+    <string name="trusted_by_you_learn_more">Need on rakendused või brauserid, mida Bitwarden vaikimisi ei usalda, kuid mida teie usaldate pääsukooditoimingute tegemiseks.</string>
     <string name="trusted_by_community_learn_more">Need on rakendused, mida Google Play poes pole, kuid Bitwarden usaldab pärast seda, kui kogukonna liikmed neid kasutavad ja teatavad need ohututena.</string>
     <string name="trusted_by_google_learn_more">Need on rakendused, mida Google peab ohutuks ja mis on saadaval Google Play poes.</string>
     <string name="trusted_by_you">Teie poolt usaldatud</string>
@@ -1190,7 +1190,7 @@ Do you want to switch to this account?</string>
         <item quantity="other">%1$d üksust on teie varahoidlasse imporditud.</item>
     </plurals>
     <string name="enable_browser_autofill_to_keep_filling_passwords">Paroolide täitmise jätkamiseks lubage brauseri automaattäide</string>
-    <string name="your_browser_recently_updated_how_autofill_works_singular">Teie brauser on hiljuti uuendatud, mis on Bytewardi automaattäite keelanud. Bytewardiga paroolide täitmise jätkamiseks lubage automaattäite seadetes brauseri automaattäide.</string>
+    <string name="your_browser_recently_updated_how_autofill_works_singular">Teie brauser on hiljuti uuendatud, mis on Bitwardeni automaattäite keelanud. Bitwardeniga paroolide täitmise jätkamiseks lubage automaattäite seadetes brauseri automaattäide.</string>
     <string name="not_now">Mitte praegu</string>
     <string name="import_from_bitwarden">Impordi Bitwardenist</string>
     <string name="select_account">Vali konto</string>
@@ -1290,7 +1290,7 @@ Do you want to switch to this account?</string>
     <string name="trusted">Usaldatud</string>
     <string name="preview_not_available_for_files">Eelvaade pole %1$s failide jaoks saadaval. Saate selle siiski alla laadida, et seda oma seadmes vaadata.</string>
     <string name="this_file_is_too_large_to_preview">See fail on eelvaate jaoks liiga suur. Saate selle siiski alla laadida, et seda oma seadmes vaadata.</string>
-    <string name="bitwarden_could_not_decrypt_this_file_so_the_preview_cannot_be_displayed">Byteward ei suutnud seda faili dekrüptida, seega ei saa eelvaadet kuvada.</string>
+    <string name="bitwarden_could_not_decrypt_this_file_so_the_preview_cannot_be_displayed">Bitwarden ei suutnud seda faili dekrüptida, seega ei saa eelvaadet kuvada.</string>
     <string name="preview_unavailable_for_this_file">Selle faili eelvaade pole saadaval. Saate selle siiski alla laadida, et seda oma seadmes vaadata.</string>
     <string name="preview_unavailable">Eelvaade pole saadaval</string>
     <string name="download_attachment">Laadi manus alla</string>
@@ -1423,8 +1423,8 @@ Do you want to switch to this account?</string>
     <string name="local_network_access_required">Kohaliku võrgu juurdepääs vajalik</string>
     <string name="ask_again_later">Küsi hiljem uuesti</string>
     <string name="enable_local_network_access">Luba kohaliku võrgu juurdepääs</string>
-    <string name="bitwarden_needs_local_network_access_to_sync_with_your_server">Byteward vajab teie serveriga sünkroonimiseks kohaliku võrgu juurdepääsu. Ilma selle loata ei saa rakendus ühendust luua.</string>
-    <string name="without_this_permission_bitwarden_wont_be_able_to_sync_with_your_server">Ilma selle loata ei saa Byteward teie serveriga ühendust luua ja sünkroonida. Saate selle lubada oma seadme seadetes.</string>
+    <string name="bitwarden_needs_local_network_access_to_sync_with_your_server">Bitwarden vajab teie serveriga sünkroonimiseks kohaliku võrgu juurdepääsu. Ilma selle loata ei saa rakendus ühendust luua.</string>
+    <string name="without_this_permission_bitwarden_wont_be_able_to_sync_with_your_server">Ilma selle loata ei saa Bitwarden teie serveriga ühendust luua ja sünkroonida. Saate selle lubada oma seadme seadetes.</string>
     <string name="your_request_was_interrupted_because_the_app_needs_local_network_access">Teie päring katkestati, kuna rakendus vajab kohaliku võrgu juurdepääsu. Saate selle lubada oma seadme seadetes.</string>
     <string name="continue_to_stripe">Jätkake Stripe\'i?</string>
     <string name="youll_be_taken_to_stripe_to_manage_your_subscription_cancellation">Tellimuse tühistamise haldamiseks suunatakse teid Stripe\'i.</string>
@@ -1446,7 +1446,7 @@ Do you want to switch to this account?</string>
     <string name="use_this_username">Use this username</string>
     <string name="create_login">Create login</string>
     <string name="keep_unlocking_with_biometrics">Keep unlocking with biometrics</string>
-    <string name="weve_made_a_security_update">We’ve made a security update. Confirm your biometrics again to keep using them to unlock Byteward.</string>
+    <string name="weve_made_a_security_update">We’ve made a security update. Confirm your biometrics again to keep using them to unlock Bitwarden.</string>
     <string name="turn_off">Turn off</string>
     <string name="turn_off_biometric_question">Turn off biometrics?</string>
     <string name="unlocking_will_require_your_master_password">Unlocking will require your master password. You can turn biometrics back on in Settings.</string>

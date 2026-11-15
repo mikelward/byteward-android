@@ -75,9 +75,9 @@
     <string name="yes">Jā</string>
     <string name="account">Konts</string>
     <string name="account_created_success">Jaunais konts tika izveidots.</string>
-    <string name="set_bitwarden_as_passkey_manager_description">Byteward kā piekļuves atslēgu nodrošinātājs ir norādāms ierīces iestatījumos.</string>
+    <string name="set_bitwarden_as_passkey_manager_description">Bitwarden kā piekļuves atslēgu nodrošinātājs ir norādāms ierīces iestatījumos.</string>
     <string name="avoid_ambiguous_characters">Izvairīties no viegli sajaucamām rakstzīmēm</string>
-    <string name="bitwarden_autofill_service">Byteward automātiskās aizpildes pakalpojums</string>
+    <string name="bitwarden_autofill_service">Bitwarden automātiskās aizpildes pakalpojums</string>
     <string name="change_master_password">Mainīt galveno paroli</string>
     <string name="close">Aizvērt</string>
     <string name="close_app">Aizvērt lietotni</string>
@@ -177,7 +177,7 @@
     <string name="no_items_for_vault">Glabātavā nav vienumu, kas atbilst \"%1$s\"</string>
     <string name="search_for_a_login_or_add_a_new_login">Meklēt pieteikšanās vienumu vai pievienot jaunu</string>
     <string name="disabled">Atspējots</string>
-    <string name="bitwarden_autofill_service_alert2">Vieglākais veids, kā glabātavā pievienot jaunus pieteikšanās vienumus, ir ar Byteward automātiskās aizpildes pakalpojumu. Vairāk par Byteward automātisko aizpildi var uzzināt iestatījumu skatā.</string>
+    <string name="bitwarden_autofill_service_alert2">Vieglākais veids, kā glabātavā pievienot jaunus pieteikšanās vienumus, ir ar Bitwarden automātiskās aizpildes pakalpojumu. Vairāk par Bitwarden automātisko aizpildi var uzzināt iestatījumu skatā.</string>
     <string name="autofill_noun">Automātiskā aizpilde</string>
     <string name="autofill_verb">Automātiskā aizpilde</string>
     <string name="autofill_or_view">Automātiski aizpildīt vai apskatīt šo vienumu?</string>
@@ -299,7 +299,7 @@ Nolasīšana notiks automātiski.</string>
     <string name="no_items_folder">Šajā mapē nav vienumu.</string>
     <string name="no_items_trash">Atkritnē nav vienumu.</string>
     <string name="autofill_accessibility_summary">Palīdzēt ar lietotājvārda un paroles lauku aizpildīšanu citās lietotnēs tīmeklī.</string>
-    <string name="autofill_service_description">Byteward automātiskās aizpildes pakalpojums izmanto Android automātiskās aizpildes ietvaru, lai palīdzētu aizpildīt pieteikšanās, kredītkartes, un identitātes informācijas veidnes citās ierīces lietotnēs.</string>
+    <string name="autofill_service_description">Bitwarden automātiskās aizpildes pakalpojums izmanto Android automātiskās aizpildes ietvaru, lai palīdzētu aizpildīt pieteikšanās, kredītkartes, un identitātes informācijas veidnes citās ierīces lietotnēs.</string>
     <string name="bitwarden_autofill_go_to_settings">Mēs nevarējām atvērt Android automātiskās aizpildes iestatījumu izvēlni. Tai var piekļūt: Android iestatījumi &gt; Sistēma &gt; Valodas un ievade &gt; Papildu &gt; Automātiskā aizpilde.</string>
     <string name="custom_field_name">Pielāgotā lauka nosaukums</string>
     <string name="field_type_boolean">Patiesuma vērtība</string>
@@ -375,7 +375,7 @@ Nolasīšana notiks automātiski.</string>
     <string name="pin">PIN</string>
     <string name="unlock">Atslēgt</string>
     <string name="thirty_minutes">30 minūtes</string>
-    <string name="set_pin_description">Iestatīt PIN kodu Byteward atslēgšanai. PIN iestatījumi tiks atiestatīti pēc pilnīgas izrakstīšanās no lietotnes.</string>
+    <string name="set_pin_description">Iestatīt PIN kodu Bitwarden atslēgšanai. PIN iestatījumi tiks atiestatīti pēc pilnīgas izrakstīšanās no lietotnes.</string>
     <string name="logged_in_as_on">Pieteicies %2$s kā %1$s.</string>
     <string name="vault_locked_master_password">Glabātava ir aizslēgta. Nepieciešams norādīt galveno paroli, lai turpinātu.</string>
     <string name="vault_locked_pin">Glabātava ir aizslēgta. Nepieciešams norādīt PIN kodu, lai turpinātu.</string>
@@ -389,7 +389,7 @@ Nolasīšana notiks automātiski.</string>
     <string name="clear_clipboard">Notīrīt starpliktuvi</string>
     <string name="clear_clipboard_description">Automātiski noņemt starpliktuvē ievietotās vērtības.</string>
     <string name="default_uri_match_detection">Noklusējuma URI atbilstības noteikšana</string>
-    <string name="default_uri_match_detection_description">URI atbilstības noteikšana nosaka, kā Byteward nosaka automātiskās aizpildes ieteikumus.</string>
+    <string name="default_uri_match_detection_description">URI atbilstības noteikšana nosaka, kā Bitwarden nosaka automātiskās aizpildes ieteikumus.</string>
     <string name="theme">Izskats</string>
     <string name="theme_description">Mainīt lietotnes krāsu paleti</string>
     <string name="copy_notes">Ievietot piezīmes starpliktuvē</string>
@@ -425,7 +425,7 @@ Nolasīšana notiks automātiski.</string>
     <string name="password_generator_policy_in_effect">Viens vai vairāki apvienības nosacījumi ietekmē veidotāja iestatījumus</string>
     <string name="unable_to_save_attachment">Šī pielikuma saglabāšanā radās sarežgījumi. Ja tie turpina pastāvēt, to var saglabāt tīmekļa glabātavā.</string>
     <string name="save_attachment_success">Pielikums veiksmīgi saglabāts</string>
-    <string name="autofill_tile_accessibility_required">Lūgums iespējot \"Automātiskās aizpildes pieejamības pakalpojums\" Byteward iestatījumos, lai izmantotu automātiskās aizpildes laukumu.</string>
+    <string name="autofill_tile_accessibility_required">Lūgums iespējot \"Automātiskās aizpildes pieejamības pakalpojums\" Bitwarden iestatījumos, lai izmantotu automātiskās aizpildes laukumu.</string>
     <string name="autofill_tile_uri_not_found">Paroļu lauki netika atrasti</string>
     <string name="soft_deleting">Pārvieto uz atkritni…</string>
     <string name="item_soft_deleted">Vienums tika pārvietots uz atkritni.</string>
@@ -642,9 +642,9 @@ jāizvēlas \"Pievienot TOTP\", lai droši glabātu atslēgu.</string>
     <string name="catch_all_email_description">Izmanto sava domēna konfigurēto visu tverošo iesūtni!</string>
     <string name="forwarded_email_description">Izveidot e-pastu aizstājvārdu ar ārēju pārvirzīšanas pakalpojumu.</string>
     <string name="accessibility_service_disclosure">Pieejamības pakalpojuma izmantošanas skaidrojums</string>
-    <string name="accessibility_disclosure_text">Byteward izmanto pieejamības pakalpojumu, lai meklētu pieteikšanās laukus lietotnēs un tīmekļvietnēs, tad noskaidro atbistošus lauku identifikatorus lietotājvārda un paroles ievadīšanai, kad ir atrasta atbilstība lietotnei vai vietnei. Byteward neglabā neko no informācijas, ko nodrošina pakalpojums, kā arī nemēģina pārvaldīt ekrānā redzamās daļas, kas nav saistītas ar pieteikšanās datu ievadi.</string>
-    <string name="accessibility_disclosure_start_up_text_1">Šis paziņojums ir nepieciešams, pirms Byteward var piedāvāt piekļūstamībā balstītu automātisko aizpildi.</string>
-    <string name="accessibility_disclosure_start_up_text_2">Byteward piedāvā izvēles automātiskās aizpildes veidu, kas izmanto Android piekļūstamības pakalpojumu, lai noteiktu pieteikšanās laukus. Ja to iespējo, Byteward noteiks atbilstošos laukus un aizpildīs pieteikšanās datus, kad tiks atrasta atbilstība.</string>
+    <string name="accessibility_disclosure_text">Bitwarden izmanto pieejamības pakalpojumu, lai meklētu pieteikšanās laukus lietotnēs un tīmekļvietnēs, tad noskaidro atbistošus lauku identifikatorus lietotājvārda un paroles ievadīšanai, kad ir atrasta atbilstība lietotnei vai vietnei. Bitwarden neglabā neko no informācijas, ko nodrošina pakalpojums, kā arī nemēģina pārvaldīt ekrānā redzamās daļas, kas nav saistītas ar pieteikšanās datu ievadi.</string>
+    <string name="accessibility_disclosure_start_up_text_1">Šis paziņojums ir nepieciešams, pirms Bitwarden var piedāvāt piekļūstamībā balstītu automātisko aizpildi.</string>
+    <string name="accessibility_disclosure_start_up_text_2">Bitwarden piedāvā izvēles automātiskās aizpildes veidu, kas izmanto Android piekļūstamības pakalpojumu, lai noteiktu pieteikšanās laukus. Ja to iespējo, Bitwarden noteiks atbilstošos laukus un aizpildīs pieteikšanās datus, kad tiks atrasta atbilstība.</string>
     <string name="accessibility_disclosure_start_up_text_3">Mēs neuzglabājam nekādu informāciju par to, kas ir redzams ekrānā, kamēr tiek izmantots piekļūstamības pakalpojums, un mēs nepārvaldām nevienu ekrānā redzamo sastāvdaļu, izņemot pieteikšanās datu ievadi.</string>
     <string name="i_understand">Es saprotu</string>
     <string name="accept">Pieņemt</string>
@@ -724,7 +724,7 @@ Do you want to switch to this account?</string>
     <string name="session_timeout">Sesijas noildze</string>
     <string name="session_timeout_action">Sesijas noildzes darbība</string>
     <string name="account_fingerprint_phrase">Konta atpazīšanas vārdkopa</string>
-    <string name="passkey_management_explanation_long">Byteward ir izmantojams, lai saglabātu jaunas piekļuves atslēgas un pieteiktos ar tām, kas atrodas glabātavā.</string>
+    <string name="passkey_management_explanation_long">Bitwarden ir izmantojams, lai saglabātu jaunas piekļuves atslēgas un pieteiktos ar tām, kas atrodas glabātavā.</string>
     <string name="autofill_services_explanation_long">Android automātiskās aizpildes ietvars tiek izmantots, lai palīdzētu aizpildīt pieteikšanās informāciju citās ierīces lietotnēs.</string>
     <string name="use_inline_autofill_explanation_long">Iekļautā automātiskā aizpilde ir izmantojama, ja izvēlētā tastatūra to nodrošina. Citādi ir jāizmanto noklusējuma pārklājums.</string>
     <string name="additional_options">Papildu iespējas</string>
@@ -748,8 +748,8 @@ Do you want to switch to this account?</string>
     <string name="duo_two_step_login_is_required_for_your_account">Kontam ir nepieciešama Duo divpakāpju pieteikšanās.</string>
     <string name="follow_the_steps_from_duo_to_finish_logging_in">Jāseko Duo norādēm, lai pabeigtu pieteikšanos.</string>
     <string name="launch_duo">Palaist Duo</string>
-    <string name="your_passkey_will_be_saved_to_your_bitwarden_vault_for_x">%1$s piekļuves atslēga tiks saglabāta Byteward glabātavā</string>
-    <string name="your_password_will_be_saved_to_your_bitwarden_vault_for_x">Parole tiks saglabāta Byteward glabātavā %1$s</string>
+    <string name="your_passkey_will_be_saved_to_your_bitwarden_vault_for_x">%1$s piekļuves atslēga tiks saglabāta Bitwarden glabātavā</string>
+    <string name="your_password_will_be_saved_to_your_bitwarden_vault_for_x">Parole tiks saglabāta Bitwarden glabātavā %1$s</string>
     <string name="passkeys_not_supported_for_this_app">Šai lietotnei netiek nodrošinātas piekļuves atslēgas</string>
     <string name="passkey_operation_failed_because_browser_is_not_privileged">Darbība ar piekļuves atslēgu neizdevās, jo pārlūkam nav atļauju</string>
     <string name="passkey_operation_failed_because_browser_signature_does_not_match">Darbība ar piekļuves atslēgu neizdevās, jo neatbilst pārlūka paraksts</string>
@@ -777,7 +777,7 @@ Do you want to switch to this account?</string>
     <string name="email_verified">E-pasta adrese ir apliecināta</string>
     <string name="get_emails_from_bitwarden_for_announcements_advices_and_research_opportunities_unsubscribe_any_time">Saņemt e-pasta ziņojumus no Bitwarden par paziņojumiem, padomiem un izpētes iespējām. Abonēšanu atteikt var jebkurā brīdī.</string>
     <string name="security_prioritized">Drošība pirmajā vietā</string>
-    <string name="welcome_message_1">Pieteikšanās vienumu, karšu un identitāšu glabāšana savā drošajā glabātavā. Byteward izmanto nulles zināšanu pilnīgu šifrēšanu, lai aizsargātu to, kas Tev ir svarīgs.</string>
+    <string name="welcome_message_1">Pieteikšanās vienumu, karšu un identitāšu glabāšana savā drošajā glabātavā. Bitwarden izmanto nulles zināšanu pilnīgu šifrēšanu, lai aizsargātu to, kas Tev ir svarīgs.</string>
     <string name="welcome_message_2">Iestati biometrisko atslēgšanu un automātiski aizpildi, lai pieteiktos savos kontos bez neviena burta ievadīšanas.</string>
     <string name="quick_and_easy_login">Ātra un vienkārša pieteikšanās</string>
     <string name="level_up_your_logins">Uzlabo savu pieteikšanos</string>
@@ -831,16 +831,16 @@ Do you want to switch to this account?</string>
     <string name="turn_on_autofill">Ieslēgt automātisko aizpildi</string>
     <string name="autofill_setup">Automātiskās aizpildes iestatīšana</string>
     <string name="turn_on_browser_autofill_integration">Ieslēgt pārlūka automātiskās aizpildes iekļaušanu</string>
-    <string name="browser_requires_special_permissions_for_bitwarden_singular">Tu izmanto pārlūku, kas pieprasa Byteward īpašas atļaujas, lai automātiski aizpildītu paroles.</string>
-    <string name="browser_requires_special_permissions_for_bitwarden_plural">Tu izmanto pārlūkus, kas pieprasa Byteward īpašas atļaujas, lai automātiski aizpildītu paroles.</string>
-    <string name="youre_using_a_browser_that_requires_special_permissions_singular">Tu izmanto pārlūku, kas pieprasta Byteward īpašas atļaujas, lai automātiski aizpildītu paroles. Zemāk jāiespējo vēlamā automātiskās aizpildes iekļaušana.</string>
-    <string name="youre_using_a_browser_that_requires_special_permissions_plural">Tu izmanto pārlūkus, kas pieprasa Byteward īpašas atļaujas, lai automātiski aizpildītu paroles. Visos uzstādītajos pārlūkos jāiespējo automātiskā aizpilde, lai turpinātu.</string>
+    <string name="browser_requires_special_permissions_for_bitwarden_singular">Tu izmanto pārlūku, kas pieprasa Bitwarden īpašas atļaujas, lai automātiski aizpildītu paroles.</string>
+    <string name="browser_requires_special_permissions_for_bitwarden_plural">Tu izmanto pārlūkus, kas pieprasa Bitwarden īpašas atļaujas, lai automātiski aizpildītu paroles.</string>
+    <string name="youre_using_a_browser_that_requires_special_permissions_singular">Tu izmanto pārlūku, kas pieprasta Bitwarden īpašas atļaujas, lai automātiski aizpildītu paroles. Zemāk jāiespējo vēlamā automātiskās aizpildes iekļaušana.</string>
+    <string name="youre_using_a_browser_that_requires_special_permissions_plural">Tu izmanto pārlūkus, kas pieprasa Bitwarden īpašas atļaujas, lai automātiski aizpildītu paroles. Visos uzstādītajos pārlūkos jāiespējo automātiskā aizpilde, lai turpinātu.</string>
     <string name="use_autofill_to_log_into_your_accounts">Automātiskā aizpilde ir izmantojama, lai pieteiktos savos kontos ar vienu piesitienu.</string>
     <string name="turn_on_later">Ieslēgt vēlāk</string>
     <string name="turn_on_autofill_later">Ieslēgt automātisko aizpildi vēlāk?</string>
     <string name="turn_on_browser_autofill_integration_later">Ieslēgt pārlūka automātiskās aizpildes iekļaušanu vēlāk?</string>
     <string name="return_to_complete_this_step_anytime_in_settings">Pie šī soļa pabeigšanas var agriezties jebkurā brīdī iestatījumos.</string>
-    <string name="what_bitwarden_has_to_offer">Tagad var izmantot automātisko aizpildi, lai pieteiktos lietotnēs un tīmekļvietnēs ar savām saglabātajām parolēm. Tagad ir izpētāms viss pārējais, kas ir Byteward piedāvājumā.</string>
+    <string name="what_bitwarden_has_to_offer">Tagad var izmantot automātisko aizpildi, lai pieteiktos lietotnēs un tīmekļvietnēs ar savām saglabātajām parolēm. Tagad ir izpētāms viss pārējais, kas ir Bitwarden piedāvājumā.</string>
     <string name="youre_all_set">Viss ir gatavs.</string>
     <string name="error_connecting_with_the_duo_service_use_a_different_two_step_login_method_or_contact_duo_for_assistance">Kļūda savienojuma izveidošanā ar Duo pakalpojumu. Jāizmanto cits divpakāpju pieteikšanās veids vai jāvēršas pie Duo pēc palīdzības.</string>
     <string name="master_password_hint_not_specified">Galvenās paroles norāde</string>
@@ -973,7 +973,7 @@ Do you want to switch to this account?</string>
     <string name="unsupported_certificate_type">Neatbalstīts sertifikāta veids</string>
     <string name="certificate_password_incorrect">Nepareiza sertifikāta parole</string>
     <string name="invalid_certificate_chain">Nederīga sertifikātu ķēde</string>
-    <string name="system_certificates_are_not_as_secure_as_importing_certificates_to_bitwarden">Sistēmas sertifikāta izmantošana ir mazāk droša kā sertifikāta glabāšana ar Byteward. Turpinot tiks attēlots pieejamo sistēmas sertifikātu saraksts, ja kāds jau ir uzstādīts.</string>
+    <string name="system_certificates_are_not_as_secure_as_importing_certificates_to_bitwarden">Sistēmas sertifikāta izmantošana ir mazāk droša kā sertifikāta glabāšana ar Bitwarden. Turpinot tiks attēlots pieejamo sistēmas sertifikātu saraksts, ja kāds jau ir uzstādīts.</string>
     <string name="link">Saite</string>
     <string name="passkey_operation_failed_because_host_url_is_not_present_in_request">Darbība ar piekļuves atslēgu neizdevās, jo pieprasījumā nav pieejams saimniekdatora URL.</string>
     <string name="passkey_operation_failed_because_app_signature_is_invalid">Darbība ar piekļuves atslēgu neizdevās, jo lietotnes paraksts ir nederīgs.</string>
@@ -1054,7 +1054,7 @@ Do you want to switch to this account?</string>
     <string name="passkey_operation_failed_because_browser_x_is_not_trusted">Darbība ar piekļuves atslēgu neizdevās, jo pārlūks (%1$s) nav atpazīts. Jāatlasa “Uzticēties”, lai pievienotu %1$s vietēji uzticamām lietotnēm.</string>
     <string name="passkey_operation_failed_because_the_browser_is_not_trusted">Darbība ar piekļuves atslēgu neizdevās, jo pārlūks nav uzticams.</string>
     <string name="trust">Uzticēties</string>
-    <string name="trusted_by_you_learn_more">Šīs ir lietotnes vai pārlūki, kam Byteward pēc noklusējuma neuzticas, bet TU uzticies, lai veiktu darbības ar piekļuves atslēgām.</string>
+    <string name="trusted_by_you_learn_more">Šīs ir lietotnes vai pārlūki, kam Bitwarden pēc noklusējuma neuzticas, bet TU uzticies, lai veiktu darbības ar piekļuves atslēgām.</string>
     <string name="trusted_by_community_learn_more">Šīs ir lietotnes, kas nav iekļautas Google Play veikalā, bet Bitwarden uzticas, lai veiktu darbības ar piekļuves atslēgām pēc tam, kad kopienas dalībnieki ir izmantojuši šīs lieotnes un ir ziņojuši, ka tās ir drošas.</string>
     <string name="trusted_by_google_learn_more">Šīs ir lietotnes, kuras Google atzīst par drošām un kuras ir pieejamas Google Play veikalā.</string>
     <string name="trusted_by_you">Tu uzticies</string>
@@ -1199,7 +1199,7 @@ Do you want to switch to this account?</string>
         <item quantity="other">Glabātavā tika ievietoti %1$d vienumi.</item>
     </plurals>
     <string name="enable_browser_autofill_to_keep_filling_passwords">Jāiespējo pārlūka automātiskā aizpilde, lai turpinātu aizpildīt paroles</string>
-    <string name="your_browser_recently_updated_how_autofill_works_singular">Tavs pārlūks nesen ir atjaunināts, un tas atspējoja Byteward automātisko aizpildi. Lai turpinātu paroļu aizpildīšanu ar Byteward, pārlūka automātiskās aizpildes iestatījumos jāiespējo automātiskā aizpilde.</string>
+    <string name="your_browser_recently_updated_how_autofill_works_singular">Tavs pārlūks nesen ir atjaunināts, un tas atspējoja Bitwarden automātisko aizpildi. Lai turpinātu paroļu aizpildīšanu ar Bitwarden, pārlūka automātiskās aizpildes iestatījumos jāiespējo automātiskā aizpilde.</string>
     <string name="not_now">Ne tagad</string>
     <string name="import_from_bitwarden">Ievietot no Bitwarden</string>
     <string name="select_account">Atlasīt kontu</string>
@@ -1299,7 +1299,7 @@ Do you want to switch to this account?</string>
     <string name="trusted">Uzticams</string>
     <string name="preview_not_available_for_files">Priekšskatījums nav pieejams %1$s datnēm. To joprojām var lejupielādēt, lai apskatītu savā ierīcē.</string>
     <string name="this_file_is_too_large_to_preview">Šī ir pārāk liela priekšskatīšanai. To joprojām var lejupielādēt, lai apskatītu savā ierīcē.</string>
-    <string name="bitwarden_could_not_decrypt_this_file_so_the_preview_cannot_be_displayed">Byteward nevarēja atšifrēt šo datni, tāpēc priekšskatījumu nevar parādīt.</string>
+    <string name="bitwarden_could_not_decrypt_this_file_so_the_preview_cannot_be_displayed">Bitwarden nevarēja atšifrēt šo datni, tāpēc priekšskatījumu nevar parādīt.</string>
     <string name="preview_unavailable_for_this_file">Priekšskatījums nav pieejams šai datnei. To joprojām var lejupielādēt, lai apskatītu savā ierīcē.</string>
     <string name="preview_unavailable">Priekšskatījums nav pieejams</string>
     <string name="download_attachment">Lejupielādēt pielikumu</string>
@@ -1433,8 +1433,8 @@ Do you want to switch to this account?</string>
     <string name="local_network_access_required">Nepieciešama piekļuve vietējam tīklam</string>
     <string name="ask_again_later">Vaicāt atkal vēlāk</string>
     <string name="enable_local_network_access">Jāiespējo piekļuve vietējam tīklam</string>
-    <string name="bitwarden_needs_local_network_access_to_sync_with_your_server">Byteward ir nepieciešama piekļuve vietējam tīklam, lai vienādotu ar serveri. Bez šīs atļaujas lietotne nevarēs izveidot savienojumu.</string>
-    <string name="without_this_permission_bitwarden_wont_be_able_to_sync_with_your_server">Bez šīs atļaujas Byteward nevarēs izveidot savienojumu un vienādot ar serveri. To var iespējot ierīces iestatījumos.</string>
+    <string name="bitwarden_needs_local_network_access_to_sync_with_your_server">Bitwarden ir nepieciešama piekļuve vietējam tīklam, lai vienādotu ar serveri. Bez šīs atļaujas lietotne nevarēs izveidot savienojumu.</string>
+    <string name="without_this_permission_bitwarden_wont_be_able_to_sync_with_your_server">Bez šīs atļaujas Bitwarden nevarēs izveidot savienojumu un vienādot ar serveri. To var iespējot ierīces iestatījumos.</string>
     <string name="your_request_was_interrupted_because_the_app_needs_local_network_access">Pieprasījums tika pārtraukts, jo lietotnei nepieciešama piekļuve vietējam tīklam. To var iespējot ierīces iestatījumos.</string>
     <string name="continue_to_stripe">Pāriet uz Stripe?</string>
     <string name="youll_be_taken_to_stripe_to_manage_your_subscription_cancellation">Notiks pārvirzīšana uz Stripe, lai pārvaldītu sava abonementa atcelšanu.</string>
@@ -1456,7 +1456,7 @@ Do you want to switch to this account?</string>
     <string name="use_this_username">Use this username</string>
     <string name="create_login">Create login</string>
     <string name="keep_unlocking_with_biometrics">Keep unlocking with biometrics</string>
-    <string name="weve_made_a_security_update">We’ve made a security update. Confirm your biometrics again to keep using them to unlock Byteward.</string>
+    <string name="weve_made_a_security_update">We’ve made a security update. Confirm your biometrics again to keep using them to unlock Bitwarden.</string>
     <string name="turn_off">Turn off</string>
     <string name="turn_off_biometric_question">Turn off biometrics?</string>
     <string name="unlocking_will_require_your_master_password">Unlocking will require your master password. You can turn biometrics back on in Settings.</string>

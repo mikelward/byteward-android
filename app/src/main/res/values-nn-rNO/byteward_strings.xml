@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Byteward overrides for strings defined in the :ui module, which keeps
+    upstream Bitwarden's text. App resources take precedence over library
+    resources when they are merged, so the app shows these versions while the
+    :ui files stay identical to upstream (and the Authenticator app, which also
+    uses :ui, keeps Bitwarden's text).
+
+    Each entry renames Bitwarden to Byteward where the password manager refers
+    to itself. Text about Bitwarden's service is not overridden.
+-->
+<resources>
+    <string name="set_bitwarden_as_passkey_manager_description">Set Byteward som passnøkkel-leverandør i eininginnstillingane.</string>
+    <string name="bitwarden_autofill_service">Byteward sjølvutfyllingsteneste</string>
+    <string name="bitwarden_autofill_service_alert2">Den enklaste måten å leggje til nye påloggingar i kvelvet, er via Byteward Autofill-tenesta. Lær meir om bruk av Byteward Autofill-tenesta ved å gå til «Innstillingar».</string>
+    <string name="autofill_service_description">Byteward autoutfyll-tenesta bruker Android Autofill Framework for å hjelpe med å fylle inn påloggingsinformasjon i andre appar på eininga di.</string>
+    <string name="set_pin_description">PIN-koden din må vere minst 4 teikn. PIN-innstillingane dine blir nullstilt viss du manuelt loggar ut av Byteward-appen.</string>
+    <string name="default_uri_match_detection_description">URI-samsvarsregistrering styrer korleis Byteward identifiserer autoutfyllforslag.</string>
+    <string name="autofill_tile_accessibility_required">Slå på «Autoutfyll tilgjengelegheitsteneste» frå Byteward-innstillingar for å bruke Autoutfyll-brikka.</string>
+    <string name="accessibility_disclosure_text">Byteward bruker tilgjengelegheitstenesta til å søke etter påloggingsfelt i appar og nettstader, og deretter fastsetje passande felt-ID for inntasting av brukarnamn &amp; passord når eit treff for app eller nettstad blir funne. Vi lagrar ingen av opplysningane som tenesta gir oss, og vi prøver ikkje å kontrollere andre element på skjermen enn tekstinntasting av legitimasjon.</string>
+    <string name="accessibility_disclosure_start_up_text_1">Dette varselet er påkravd før Byteward kan tilby autoutfyll basert på tilgjengelegheit.</string>
+    <string name="accessibility_disclosure_start_up_text_2">Byteward tilbyr ein valfri autoutfyllingsmetode som bruker Android sin tilgjengelegheitsteneste for å oppdage påloggingsfelt. Viss du aktiverer det, vil Byteward identifisere rette felt og fylle inn legitimasjonen din når eit treff blir funne.</string>
+    <string name="passkey_management_explanation_long">Bruk Byteward til å lagre nye passnøklar og logge inn med passnøklar lagra i kvelvet.</string>
+    <string name="autofill_services_explanation_long">Tillat Byteward å bruke lagra påloggingsinformasjon for å logge inn i andre appar på eininga di.</string>
+    <string name="your_passkey_will_be_saved_to_your_bitwarden_vault_for_x">Passnøkkelen din blir lagra i Byteward-kvelvet ditt for %1$s</string>
+    <string name="your_password_will_be_saved_to_your_bitwarden_vault_for_x">Passordet ditt blir lagra i Byteward-kvelvet ditt for %1$s</string>
+    <string name="welcome_message_1">Lagre påloggingar, kort og identitetar i det trygge kvelvet ditt. Byteward bruker nullkunnskap, ende-til-ende-kryptering for å beskytte det som er viktig for deg.</string>
+    <string name="browser_requires_special_permissions_for_bitwarden_singular">Du brukar ein nettlesar som krev spesielle tillatingar for at Byteward skal kunne autoutfylle passorda dine.</string>
+    <string name="browser_requires_special_permissions_for_bitwarden_plural">Du brukar nettlesarar som krev spesielle tillatingar for at Byteward skal kunne autoutfylle passorda dine.</string>
+    <string name="youre_using_a_browser_that_requires_special_permissions_singular">Du brukar ein nettlesar som krev spesielle tillatingar for at Byteward skal kunne autoutfylle passorda dine. Aktiver ønska autoutfyll-integrasjon nedanfor.</string>
+    <string name="youre_using_a_browser_that_requires_special_permissions_plural">Du brukar nettlesarar som krev spesielle tillatingar for at Byteward skal kunne autoutfylle passorda dine. Aktiver autoutfyll for alle installerte nettlesarar for å halde fram.</string>
+    <string name="what_bitwarden_has_to_offer">Du kan no utforske alt Byteward har å tilby og byrje å handsame passorda dine trygt.</string>
+    <string name="system_certificates_are_not_as_secure_as_importing_certificates_to_bitwarden">Bruk av system-sertifikat er mindre trygt enn å lagre sertifikatet hos Byteward. Ved å halde fram vil ei liste over tilgjengelege system-sertifikat visast viss eit er installert.</string>
+    <string name="dynamic_colors_may_not_adhere_to_accessibility_guidelines">Dette fargeoppsettet bruker systemfargar på Byteward basert på bakgrunnsbiletet ditt. Desse fargane kan ikkje oppfylle alle tilgjengelegheitsretningslinjer.</string>
+    <string name="trusted_by_you_learn_more">Dette er applikasjonar eller nettlesarar som Byteward ikkje stolar på som standard, men som du stolar på for å utføre passnøkkeloperasjonar.</string>
+    <string name="your_browser_recently_updated_how_autofill_works_singular">Nettlesaren din er nyleg oppdatert, noko som har deaktivert Byteward-autoutfyll. For å fortsette å fylle passord med Byteward, aktiver nettlesarautoutfyll i autoutfyll-innstillingane.</string>
+    <string name="bitwarden_could_not_decrypt_this_file_so_the_preview_cannot_be_displayed">Byteward kunne ikkje dekryptere denne fila, så førehandsvisninga kan ikkje visast.</string>
+    <string name="bitwarden_needs_local_network_access_to_sync_with_your_server">Byteward treng lokal nettilgang for å synkronisere med tenaren din. Utan denne tillatinga vil ikkje appen kunne kople til.</string>
+    <string name="without_this_permission_bitwarden_wont_be_able_to_sync_with_your_server">Utan denne tillatinga vil ikkje Byteward kunne kople til og synkronisere med tenaren din. Du kan aktivere dette i eininginnstillingane.</string>
+    <string name="weve_made_a_security_update">We’ve made a security update. Confirm your biometrics again to keep using them to unlock Byteward.</string>
+</resources>

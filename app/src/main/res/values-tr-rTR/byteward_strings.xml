@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Byteward overrides for strings defined in the :ui module, which keeps
+    upstream Bitwarden's text. App resources take precedence over library
+    resources when they are merged, so the app shows these versions while the
+    :ui files stay identical to upstream (and the Authenticator app, which also
+    uses :ui, keeps Bitwarden's text).
+
+    Each entry renames Bitwarden to Byteward where the password manager refers
+    to itself. Text about Bitwarden's service is not overridden.
+-->
+<resources>
+    <string name="set_bitwarden_as_passkey_manager_description">Cihaz ayarlarınızdan Byteward\'ı geçiş anahtarı sağlayıcınız olarak ayarlayın.</string>
+    <string name="bitwarden_autofill_service">Byteward otomatik doldurma hizmeti</string>
+    <string name="bitwarden_autofill_service_alert2">Kasanıza yeni hesaplar eklemenin en kolay yolu Byteward Otomatik Doldurma Hizmeti\'dir. Bu özellik hakkında daha fazla bilgi almak için “Ayarlar” ekranına gidin.</string>
+    <string name="autofill_service_description">Byteward otomatik doldurma hizmeti, cihazınızdaki diğer uygulamalarda hesap bilgilerini doldurmak için Android Otomatik Doldurma Sistemi\'ni kullanır.</string>
+    <string name="set_pin_description">PIN\'iniz en az 4 karakter olmalıdır. Byteward uygulamasından manuel olarak çıkış yaparsanız PIN ayarlarınız sıfırlanacaktır.</string>
+    <string name="default_uri_match_detection_description">URl eşleştirme tespiti, Byteward\'ın otomatik doldurma önerilerini yönetir.</string>
+    <string name="autofill_tile_accessibility_required">Otomatik doldurma kutusunu kullanmak için lütfen Byteward ayarlarından “Otomatik Doldurma Erişilebilirlik Hizmeti”ni açın.</string>
+    <string name="accessibility_disclosure_text">Byteward; uygulamalarda ve web sitelerinde giriş alanlarını bulmak ve eşleşme bulunduğunda kullanıcı adı ve parolayı doldurmak için erişilebilirlik hizmetini kullanır. Hizmetin bize sunduğu hiçbir bilgiyi saklamayız ve hesap bilgilerinin girilmesi dışında ekrandaki öğeleri değiştirmek için herhangi bir girişimde bulunmayız.</string>
+    <string name="accessibility_disclosure_start_up_text_1">Byteward\'ın erişilebilirlik tabanlı otomatik doldurma sunabilmesi için bu bildirimin gösterilmesi zorunludur.</string>
+    <string name="accessibility_disclosure_start_up_text_2">Byteward, giriş alanlarını algılamak için Android\'in Erişilebilirlik Hizmeti\'ni kullanan isteğe bağlı bir otomatik doldurma yöntemi sunar. Bunu etkinleştirirsen Byteward uygun alanları belirler ve eşleşme bulunduğunda kimlik bilgilerini otomatik olarak doldurur.</string>
+    <string name="passkey_management_explanation_long">Byteward\'ı yeni geçiş anahtarları kaydetmek ve kasadaki geçiş anahtarlarıyla giriş yapmak için kullanabilirsiniz.</string>
+    <string name="autofill_services_explanation_long">Cihazınızdaki diğer uygulamalara giriş yapmak için Byteward\'ın kayıtlı hesapları kullanmasına izin verin.</string>
+    <string name="your_passkey_will_be_saved_to_your_bitwarden_vault_for_x">%1$s için geçiş anahtarınız Byteward kasasına kaydedilecektir</string>
+    <string name="your_password_will_be_saved_to_your_bitwarden_vault_for_x">Parolanız %1$s Byteward kasanıza kaydedilecektir</string>
+    <string name="welcome_message_1">Hesaplarınızı, kartlarınızı ve kimliklerinizi güvenli kasanıza kaydedin. Byteward\'ın sıfır bilgi ispatlı uçtan uca şifrelemesi sizin için önemli olan her şeyi korur.</string>
+    <string name="browser_requires_special_permissions_for_bitwarden_singular">Byteward\'ın parolalarınızı otomatik olarak doldurması için özel izinler gerektiren tarayıcılar kullanıyorsunuz.</string>
+    <string name="browser_requires_special_permissions_for_bitwarden_plural">Byteward\'ın parolalarınızı otomatik olarak doldurması için özel izinler gerektiren tarayıcılar kullanıyorsunuz.</string>
+    <string name="youre_using_a_browser_that_requires_special_permissions_singular">Byteward\'ın parolalarınızı otomatik olarak doldurması için özel izin gerektiren bir tarayıcı kullanıyorsunuz. Tercih ettiğiniz otomatik doldurma entegrasyonunu aşağıdan etkinleştirin.</string>
+    <string name="youre_using_a_browser_that_requires_special_permissions_plural">Byteward\'ın parolalarınızı otomatik olarak doldurması için özel izin gerektiren tarayıcılar kullanıyorsunuz. Devam etmek için yüklü tarayıcılarınızda otomatik doldurma entegrasyonunu etkinleştirin.</string>
+    <string name="what_bitwarden_has_to_offer">Artık kayıtlı parolalarınızı kullanarak uygulamalara ve web sitelerine giriş yapmak için otomatik doldurmayı kullanabilirsiniz. Byteward\'ın sunduğu tüm imkânları keşfetmeye hazırsınız.</string>
+    <string name="system_certificates_are_not_as_secure_as_importing_certificates_to_bitwarden">Sistem sertifikası kullanmak, sertifikayı Byteward ile saklamaktan daha az güvenlidir. Devam ettiğinizde, zaten yüklü bir sistem sertifikası varsa, mevcut sistem sertifikalarının listesi görüntülenir.</string>
+    <string name="trusted_by_you_learn_more">Bunlar, Byteward\'ın varsayılan olarak güvenmediği, ancak sizin anahtar işlemlerini gerçekleştirmek için güvendiğiniz uygulamalar veya tarayıcılardır.</string>
+    <string name="your_browser_recently_updated_how_autofill_works_singular">Tarayıcınız yakın zamanda güncellendi ve bu güncelleme Byteward otomatik doldurmayı devre dışı bıraktı. Parolalarınızı Byteward ile doldurmaya devam etmek için, otomatik doldurmayı tarayıcı otomatik doldurma ayarlarından etkinleştirin.</string>
+    <string name="bitwarden_could_not_decrypt_this_file_so_the_preview_cannot_be_displayed">Byteward bu dosyanın şifresini çözemediği için önizleme görüntülenemiyor.</string>
+    <string name="bitwarden_needs_local_network_access_to_sync_with_your_server">Byteward\'ın sunucunuzla eşitlenebilmesi için yerel ağ erişimine ihtiyacı vardır. Bu izin verilmezse uygulama sunucunuza bağlanamaz.</string>
+    <string name="without_this_permission_bitwarden_wont_be_able_to_sync_with_your_server">Without this permission, Byteward won’t be able to connect and sync with your server. You can enable this in your device settings.</string>
+    <string name="weve_made_a_security_update">Bir güvenlik güncellemesi yaptık. Byteward kilidini açmak için biyometri kullanmaya devam etmek isterseniz biyometrinizi doğrulayın.</string>
+</resources>

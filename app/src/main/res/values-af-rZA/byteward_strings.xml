@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Byteward overrides for strings defined in the :ui module, which keeps
+    upstream Bitwarden's text. App resources take precedence over library
+    resources when they are merged, so the app shows these versions while the
+    :ui files stay identical to upstream (and the Authenticator app, which also
+    uses :ui, keeps Bitwarden's text).
+
+    Each entry renames Bitwarden to Byteward where the password manager refers
+    to itself. Text about Bitwarden's service is not overridden.
+-->
+<resources>
+    <string name="set_bitwarden_as_passkey_manager_description">Stel Byteward as u passkey-verskaffer in toestelinstellings.</string>
+    <string name="bitwarden_autofill_service">Byteward-outovuldiens</string>
+    <string name="bitwarden_autofill_service_alert2">Die maklikste manier om nuwe aantekeninge by u kluis te voeg, is vanaf die Byteward-outovuldiens. Kom meer te wete oor die gebruik van die Byteward-outovuldiens deur na die “Instellings”-skerm te navigeer.</string>
+    <string name="autofill_service_description">Die Byteward-outovuldiens gebruik die Android-outovulraamwerk om te help met die invul van aantekeninge, kredietkaarte en identiteitsinligting in ander toeps op u toestel.</string>
+    <string name="set_pin_description">Stel u PIN-kode in om Byteward te ontgrendel. U PIN-kode word heringestel indien u ooit volledig by die toep uitteken.</string>
+    <string name="default_uri_match_detection_description">URI-ooreenkomsbespeuring beheer hoe Byteward outovulvoorstelle identifiseer.</string>
+    <string name="autofill_tile_accessibility_required">Skakel asseblief “Outovul-toeganklikheidsdiens” in Byteward-instellings aan om die outovul-teël te gebruik.</string>
+    <string name="accessibility_disclosure_text">Byteward gebruik die Toeganklikheidsdiens om na aantekenvelde in toeps en webwerwe te soek en dan die geskikte veld-ID’s om ’n gebruikersnaam en wagwoord in te voer wanneer ’n ooreenstemming vir die toep of webwerf gevind is. Ons bewaar geen van die inligting wat deur die diens gebied word nie en ons poog ook nie om enige op-skerm-elemente buiten teksinvoer van velde te beheer nie.</string>
+    <string name="accessibility_disclosure_start_up_text_1">Hierdie kennisgewing word vereis voordat Byteward toeganklikheidsgebaseerde outovul kan bied.</string>
+    <string name="accessibility_disclosure_start_up_text_2">Byteward bied ’n opsionele outovulmetode wat Android se Toeganklikheidsdiens gebruik om aantekenvelde op te spoor. As u dit aktiveer, sal Byteward die toepaslike velde identifiseer en u aanmeldbesonderhede invul wanneer ’n ooreenkoms gevind word.</string>
+    <string name="passkey_management_explanation_long">Gebruik Byteward om nuwe passkeys te bewaar en aan te teken met passkeys wat in u kluis gestoor is.</string>
+    <string name="autofill_services_explanation_long">Laat Byteward toe om u gestoorde aanmeldinligting te gebruik om by ander toeps op u toestel aan te teken.</string>
+    <string name="your_passkey_will_be_saved_to_your_bitwarden_vault_for_x">U passkey sal in u Byteward-kluis vir %1$s bewaar word</string>
+    <string name="your_password_will_be_saved_to_your_bitwarden_vault_for_x">U wagwoord sal in u Byteward-kluis vir %1$s bewaar word</string>
+    <string name="welcome_message_1">Stoor aanmeldings, kaarte en identiteite in u veilige kluis. Byteward gebruik nul-kennis, end-tot-end-enkripsie om te beskerm wat vir u belangrik is.</string>
+    <string name="browser_requires_special_permissions_for_bitwarden_singular">U gebruik ’n blaaier wat spesiale toestemmings vereis sodat Byteward u wagwoorde kan outovul.</string>
+    <string name="browser_requires_special_permissions_for_bitwarden_plural">U gebruik blaaiers wat spesiale toestemmings vereis sodat Byteward u wagwoorde kan outovul.</string>
+    <string name="youre_using_a_browser_that_requires_special_permissions_singular">U gebruik ’n blaaier wat spesiale toestemmings vereis sodat Byteward u wagwoorde kan outovul. Aktiveer u voorkeur-outovulintegrasie hieronder.</string>
+    <string name="youre_using_a_browser_that_requires_special_permissions_plural">U gebruik blaaiers wat spesiale toestemmings vereis sodat Byteward u wagwoorde kan outovul. Aktiveer outovul vir al u geïnstalleerde blaaiers om voort te gaan.</string>
+    <string name="what_bitwarden_has_to_offer">U kan nou alles wat Byteward bied verken en begin om u wagwoorde veilig te bestuur.</string>
+    <string name="system_certificates_are_not_as_secure_as_importing_certificates_to_bitwarden">Die gebruik van ’n stelselsertifikaat is minder veilig as om die sertifikaat by Byteward te bewaar. As u voortgaan, sal ’n lys beskikbare stelselsertifikate gewys word as een reeds geïnstalleer is.</string>
+    <string name="dynamic_colors_may_not_adhere_to_accessibility_guidelines">Hierdie kleurskema pas outomaties stelselkleure op Byteward toe op grond van u huidige muurpapier. Hierdie kleure voldoen moontlik nie aan alle toeganklikheidsriglyne nie.</string>
+    <string name="trusted_by_you_learn_more">Dit is toepassings of blaaiers wat Byteward nie by verstek vertrou nie, maar wat u vertrou om passkey-bewerkings uit te voer.</string>
+    <string name="your_browser_recently_updated_how_autofill_works_singular">U blaaier is onlangs bygewerk, wat Byteward-outovul gedeaktiveer het. Om voort te gaan om u wagwoorde met Byteward in te vul, aktiveer blaaier-outovul in outovulinstellings.</string>
+    <string name="bitwarden_could_not_decrypt_this_file_so_the_preview_cannot_be_displayed">Byteward kon nie hierdie lêer ontsyfer nie, dus kan die voorskou nie gewys word nie.</string>
+    <string name="bitwarden_needs_local_network_access_to_sync_with_your_server">Byteward het plaaslike netwerktoegang nodig om met u bediener te sinchroniseer. Sonder hierdie toestemming sal die toep nie kan koppel nie.</string>
+    <string name="without_this_permission_bitwarden_wont_be_able_to_sync_with_your_server">Sonder hierdie toestemming sal Byteward nie met u bediener kan koppel en sinchroniseer nie. U kan dit in u toestelinstellings aktiveer.</string>
+    <string name="weve_made_a_security_update">We’ve made a security update. Confirm your biometrics again to keep using them to unlock Byteward.</string>
+</resources>

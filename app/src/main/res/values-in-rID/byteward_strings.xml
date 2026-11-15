@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Byteward overrides for strings defined in the :ui module, which keeps
+    upstream Bitwarden's text. App resources take precedence over library
+    resources when they are merged, so the app shows these versions while the
+    :ui files stay identical to upstream (and the Authenticator app, which also
+    uses :ui, keeps Bitwarden's text).
+
+    Each entry renames Bitwarden to Byteward where the password manager refers
+    to itself. Text about Bitwarden's service is not overridden.
+-->
+<resources>
+    <string name="set_bitwarden_as_passkey_manager_description">Jadikan Byteward sebagai penyedia kunci sandi di setelan perangkat.</string>
+    <string name="bitwarden_autofill_service">Layanan Pengisian Otomatis Byteward</string>
+    <string name="bitwarden_autofill_service_alert2">Cara termudah menambahkan login baru ke brankas adalah melalui Layanan Isi Otomatis Byteward. Pelajari lebih lanjut cara penggunaan Layanan Isi Otomatis Byteward di menu \"Pengaturan\".</string>
+    <string name="autofill_service_description">Layanan isi otomatis Byteward menggunakan Android Autofill Framework untuk membantu mengisi informasi login ke apl lain di perangkat Anda.</string>
+    <string name="set_pin_description">PIN Anda harus terdiri dari minimal 4 karakter. Pengaturan PIN akan diatur ulang jika Anda keluar secara manual dari apl Byteward.</string>
+    <string name="default_uri_match_detection_description">Deteksi kecocokan URI mengatur cara Byteward mengenali saran isi otomatis.</string>
+    <string name="autofill_tile_accessibility_required">Harap aktifkan \"Layanan Aksesibilitas Isi Otomatis\" dari Pengaturan Byteward untuk menggunakan pintasan Isi Otomatis.</string>
+    <string name="accessibility_disclosure_text">Byteward menggunakan Layanan Aksesibilitas untuk mencari kolom login di apl dan situs web, lalu menetapkan ID kolom yang sesuai untuk memasukkan nama pengguna &amp; sandi ketika apl atau situs cocok ditemukan. Kami tidak menyimpan informasi apa pun yang diberikan layanan pada kami, dan kami tidak berupaya mengontrol elemen layar apa pun selain entri teks kredensial.</string>
+    <string name="accessibility_disclosure_start_up_text_1">Pemberitahuan ini diperlukan sebelum Byteward dapat menawarkan pengisian otomatis berbasis aksesibilitas.</string>
+    <string name="accessibility_disclosure_start_up_text_2">Byteward menawarkan metode pengisian otomatis opsional yang menggunakan Layanan Aksesibilitas Android untuk mendeteksi kolom masuk. Jika Anda mengaktifkannya, Byteward akan mengidentifikasi kolom yang sesuai dan mengisi kredensial Anda ketika kecocokan ditemukan.</string>
+    <string name="passkey_management_explanation_long">Gunakan Byteward untuk menyimpan kunci sandi baru dan masuk dengan kunci sandi tersimpan di brankas Anda.</string>
+    <string name="autofill_services_explanation_long">Memungkinkan Byteward menggunakan informasi login tersimpan Anda untuk masuk ke apl lain di perangkat Anda.</string>
+    <string name="your_passkey_will_be_saved_to_your_bitwarden_vault_for_x">Kunci sandi Anda akan disimpan ke brankas Byteward untuk %1$s</string>
+    <string name="your_password_will_be_saved_to_your_bitwarden_vault_for_x">Sandi Anda akan disimpan ke brankas Byteward Anda selama %1$s</string>
+    <string name="welcome_message_1">Simpan login, kartu, dan identitas ke brankas aman Anda. Byteward menggunakan zero-knowledge, enkripsi end-to-end untuk melindungi data penting Anda.</string>
+    <string name="browser_requires_special_permissions_for_bitwarden_singular">Anda menggunakan browser yang memerlukan izin khusus agar Byteward dapat mengisi otomatis sandi Anda.</string>
+    <string name="browser_requires_special_permissions_for_bitwarden_plural">Anda menggunakan browser yang memerlukan izin khusus agar Byteward dapat mengisi otomatis sandi Anda.</string>
+    <string name="youre_using_a_browser_that_requires_special_permissions_singular">Anda menggunakan browser yang memerlukan izin khusus agar Byteward dapat mengisi otomatis sandi Anda. Aktifkan integrasi isi otomatis pilihan Anda di bawah ini.</string>
+    <string name="youre_using_a_browser_that_requires_special_permissions_plural">Anda menggunakan browser yang memerlukan izin khusus agar Byteward dapat mengisi otomatis sandi Anda. Aktifkan isi otomatis pada semua browser yang terpasang untuk melanjutkan.</string>
+    <string name="what_bitwarden_has_to_offer">Sekarang Anda dapat menjelajahi semua yang ditawarkan Byteward dan mulai mengelola sandi Anda dengan aman.</string>
+    <string name="system_certificates_are_not_as_secure_as_importing_certificates_to_bitwarden">Menggunakan sertifikat sistem kurang aman dibanding menyimpan sertifikat dengan Byteward. Jika dilanjutkan, akan ditampilkan daftar sertifikat sistem yang tersedia bila sudah terpasang.</string>
+    <string name="dynamic_colors_may_not_adhere_to_accessibility_guidelines">Skema warna ini otomatis menerapkan warna sistem ke Byteward berdasarkan wallpaper Anda saat ini. Pilihan warna ini mungkin tidak memenuhi semua pedoman aksesibilitas.</string>
+    <string name="trusted_by_you_learn_more">Ini adalah aplikasi atau browser yang tidak secara bawaan dipercaya oleh Byteward, tetapi Anda percayai untuk melakukan operasi kunci sandi.</string>
+    <string name="your_browser_recently_updated_how_autofill_works_singular">Browser Anda baru saja diperbarui, yang menyebabkan isi otomatis Byteward nonaktif. Untuk tetap mengisi sandi dengan Byteward, aktifkan isi otomatis browser di pengaturan isi otomatis.</string>
+    <string name="bitwarden_could_not_decrypt_this_file_so_the_preview_cannot_be_displayed">Byteward tidak dapat mendekripsi file ini, sehingga pratinjau tidak dapat ditampilkan.</string>
+    <string name="bitwarden_needs_local_network_access_to_sync_with_your_server">Byteward memerlukan akses jaringan lokal untuk sinkronisasi dengan server Anda. Tanpa izin ini, aplikasi tidak akan dapat terhubung.</string>
+    <string name="without_this_permission_bitwarden_wont_be_able_to_sync_with_your_server">Tanpa izin ini, Byteward tidak akan dapat terhubung dan sinkronisasi dengan server Anda. Anda dapat mengaktifkannya di pengaturan perangkat Anda.</string>
+    <string name="weve_made_a_security_update">Kami telah membuat pembaruan keamanan. Konfirmasi biometrik Anda lagi untuk tetap menggunakannya saat membuka kunci Byteward.</string>
+</resources>

@@ -75,9 +75,9 @@
     <string name="yes">Ja</string>
     <string name="account">Rekening</string>
     <string name="account_created_success">U nuwe rekening is geskep!</string>
-    <string name="set_bitwarden_as_passkey_manager_description">Stel Byteward as u passkey-verskaffer in toestelinstellings.</string>
+    <string name="set_bitwarden_as_passkey_manager_description">Stel Bitwarden as u passkey-verskaffer in toestelinstellings.</string>
     <string name="avoid_ambiguous_characters">Vermy dubbelsinnige karakters</string>
-    <string name="bitwarden_autofill_service">Byteward-outovuldiens</string>
+    <string name="bitwarden_autofill_service">Bitwarden-outovuldiens</string>
     <string name="change_master_password">Verander hoofwagwoord</string>
     <string name="close">Sluit</string>
     <string name="close_app">Sluit toep</string>
@@ -176,7 +176,7 @@
     <string name="no_items_for_vault">Daar is geen items in jou kluis wat met \"%1$s\" ooreenstem nie</string>
     <string name="search_for_a_login_or_add_a_new_login">Soek na ’n aantekening of voeg ’n nuwe aantekening toe</string>
     <string name="disabled">Gedeaktiveer</string>
-    <string name="bitwarden_autofill_service_alert2">Die maklikste manier om nuwe aantekeninge by u kluis te voeg, is vanaf die Byteward-outovuldiens. Kom meer te wete oor die gebruik van die Byteward-outovuldiens deur na die “Instellings”-skerm te navigeer.</string>
+    <string name="bitwarden_autofill_service_alert2">Die maklikste manier om nuwe aantekeninge by u kluis te voeg, is vanaf die Bitwarden-outovuldiens. Kom meer te wete oor die gebruik van die Bitwarden-outovuldiens deur na die “Instellings”-skerm te navigeer.</string>
     <string name="autofill_noun">Outovul</string>
     <string name="autofill_verb">Outovul</string>
     <string name="autofill_or_view">Wil u hierdie item outovul of bekyk?</string>
@@ -298,7 +298,7 @@ Skandering gebeur outomaties.</string>
     <string name="no_items_folder">Daar is geen items in hierdie vouer.</string>
     <string name="no_items_trash">Daar is geen items in die asblik.</string>
     <string name="autofill_accessibility_summary">Help met die invul van gebruikersnaam- en wagwoordvelde in ander toeps en op die web.</string>
-    <string name="autofill_service_description">Die Byteward-outovuldiens gebruik die Android-outovulraamwerk om te help met die invul van aantekeninge, kredietkaarte en identiteitsinligting in ander toeps op u toestel.</string>
+    <string name="autofill_service_description">Die Bitwarden-outovuldiens gebruik die Android-outovulraamwerk om te help met die invul van aantekeninge, kredietkaarte en identiteitsinligting in ander toeps op u toestel.</string>
     <string name="bitwarden_autofill_go_to_settings">Ons kon nie die Android-outovulinstellingkieslys outomaties vir u open nie. U kan na die outovulinstellingkieslys navigeer deur te gaan na Android Instellings &gt; Stelsel &gt; Tale en toevoer &gt; Gevorderd &gt; Outovuldiens.</string>
     <string name="custom_field_name">Pasgemaakte veldnaam</string>
     <string name="field_type_boolean">Booleaans</string>
@@ -373,7 +373,7 @@ Skandering gebeur outomaties.</string>
     <string name="pin">PIN</string>
     <string name="unlock">Ontgrendel</string>
     <string name="thirty_minutes">30 minute</string>
-    <string name="set_pin_description">Stel u PIN-kode in om Byteward te ontgrendel. U PIN-kode word heringestel indien u ooit volledig by die toep uitteken.</string>
+    <string name="set_pin_description">Stel u PIN-kode in om Bitwarden te ontgrendel. U PIN-kode word heringestel indien u ooit volledig by die toep uitteken.</string>
     <string name="logged_in_as_on">Op %1$s aangeteken as %2$s.</string>
     <string name="vault_locked_master_password">U kluis is vergrendel. Verifieer u hoofwagwoord om voort te gaan.</string>
     <string name="vault_locked_pin">U kluis is vergrendel. Verifieer u PIN-kode om voort te gaan.</string>
@@ -387,7 +387,7 @@ Skandering gebeur outomaties.</string>
     <string name="clear_clipboard">Wis Knipbord</string>
     <string name="clear_clipboard_description">Wis gekopieerde waardes outomaties vanuit u knipbord.</string>
     <string name="default_uri_match_detection">Verstek URI-ooreenkomsbespeuring</string>
-    <string name="default_uri_match_detection_description">URI-ooreenkomsbespeuring beheer hoe Byteward outovulvoorstelle identifiseer.</string>
+    <string name="default_uri_match_detection_description">URI-ooreenkomsbespeuring beheer hoe Bitwarden outovulvoorstelle identifiseer.</string>
     <string name="theme">Tema</string>
     <string name="theme_description">Verander die toepassing se kleurtema</string>
     <string name="copy_notes">Kopieer notas</string>
@@ -423,7 +423,7 @@ Skandering gebeur outomaties.</string>
     <string name="password_generator_policy_in_effect">Een of meer organisasiebeleide beïnvloed u genereerderinstellings</string>
     <string name="unable_to_save_attachment">Daar was ’n probleem met die bewaar van hierdie aanhegsel. Indien die probleem voortduur moet u vanuit die webkluis bewaar.</string>
     <string name="save_attachment_success">Aanhegsel suksesvol bewaar</string>
-    <string name="autofill_tile_accessibility_required">Skakel asseblief “Outovul-toeganklikheidsdiens” in Byteward-instellings aan om die outovul-teël te gebruik.</string>
+    <string name="autofill_tile_accessibility_required">Skakel asseblief “Outovul-toeganklikheidsdiens” in Bitwarden-instellings aan om die outovul-teël te gebruik.</string>
     <string name="autofill_tile_uri_not_found">Geen wagwoordvelde bespeur</string>
     <string name="soft_deleting">Besig om na asblik te stuur…</string>
     <string name="item_soft_deleted">Item is na asblik verstuur.</string>
@@ -638,9 +638,9 @@ kies u Voeg TOTP toe om die sleutel veilig te bewaar</string>
     <string name="catch_all_email_description">Gebruik u domein se opgestelde vang-alles-posbus.</string>
     <string name="forwarded_email_description">Genereer ’n e-posalias met ’n eksterne aanstuurdiens.</string>
     <string name="accessibility_service_disclosure">Toeganklikheidsdiensopenbaarmaking</string>
-    <string name="accessibility_disclosure_text">Byteward gebruik die Toeganklikheidsdiens om na aantekenvelde in toeps en webwerwe te soek en dan die geskikte veld-ID’s om ’n gebruikersnaam en wagwoord in te voer wanneer ’n ooreenstemming vir die toep of webwerf gevind is. Ons bewaar geen van die inligting wat deur die diens gebied word nie en ons poog ook nie om enige op-skerm-elemente buiten teksinvoer van velde te beheer nie.</string>
-    <string name="accessibility_disclosure_start_up_text_1">Hierdie kennisgewing word vereis voordat Byteward toeganklikheidsgebaseerde outovul kan bied.</string>
-    <string name="accessibility_disclosure_start_up_text_2">Byteward bied ’n opsionele outovulmetode wat Android se Toeganklikheidsdiens gebruik om aantekenvelde op te spoor. As u dit aktiveer, sal Byteward die toepaslike velde identifiseer en u aanmeldbesonderhede invul wanneer ’n ooreenkoms gevind word.</string>
+    <string name="accessibility_disclosure_text">Bitwarden gebruik die Toeganklikheidsdiens om na aantekenvelde in toeps en webwerwe te soek en dan die geskikte veld-ID’s om ’n gebruikersnaam en wagwoord in te voer wanneer ’n ooreenstemming vir die toep of webwerf gevind is. Ons bewaar geen van die inligting wat deur die diens gebied word nie en ons poog ook nie om enige op-skerm-elemente buiten teksinvoer van velde te beheer nie.</string>
+    <string name="accessibility_disclosure_start_up_text_1">Hierdie kennisgewing word vereis voordat Bitwarden toeganklikheidsgebaseerde outovul kan bied.</string>
+    <string name="accessibility_disclosure_start_up_text_2">Bitwarden bied ’n opsionele outovulmetode wat Android se Toeganklikheidsdiens gebruik om aantekenvelde op te spoor. As u dit aktiveer, sal Bitwarden die toepaslike velde identifiseer en u aanmeldbesonderhede invul wanneer ’n ooreenkoms gevind word.</string>
     <string name="accessibility_disclosure_start_up_text_3">Ons bewaar geen inligting oor wat op die skerm is terwyl u die Toeganklikheidsdiens gebruik nie, en ons beheer geen skermelemente behalwe die invoer van aanmeldbesonderhede nie.</string>
     <string name="i_understand">Ek verstaan</string>
     <string name="accept">Aanvaar</string>
@@ -720,8 +720,8 @@ Do you want to switch to this account?</string>
     <string name="session_timeout">Sessie-tydsduur</string>
     <string name="session_timeout_action">Sessie-tydsduur-aksie</string>
     <string name="account_fingerprint_phrase">Rekening-vingerafdrukfrase</string>
-    <string name="passkey_management_explanation_long">Gebruik Byteward om nuwe passkeys te bewaar en aan te teken met passkeys wat in u kluis gestoor is.</string>
-    <string name="autofill_services_explanation_long">Laat Byteward toe om u gestoorde aanmeldinligting te gebruik om by ander toeps op u toestel aan te teken.</string>
+    <string name="passkey_management_explanation_long">Gebruik Bitwarden om nuwe passkeys te bewaar en aan te teken met passkeys wat in u kluis gestoor is.</string>
+    <string name="autofill_services_explanation_long">Laat Bitwarden toe om u gestoorde aanmeldinligting te gebruik om by ander toeps op u toestel aan te teken.</string>
     <string name="use_inline_autofill_explanation_long">Kies hoe u outovulvoorstelle sal verskyn wanneer u by ander toeps op u toestel aanmeld.</string>
     <string name="additional_options">Bykomende opsies</string>
     <string name="continue_to_web_app">Gaan na webprogram?</string>
@@ -744,8 +744,8 @@ Do you want to switch to this account?</string>
     <string name="duo_two_step_login_is_required_for_your_account">Duo-tweestapaantekening word vir u rekening vereis.</string>
     <string name="follow_the_steps_from_duo_to_finish_logging_in">Volg die stappe van Duo om aanmelding te voltooi.</string>
     <string name="launch_duo">Begin Duo</string>
-    <string name="your_passkey_will_be_saved_to_your_bitwarden_vault_for_x">U passkey sal in u Byteward-kluis vir %1$s bewaar word</string>
-    <string name="your_password_will_be_saved_to_your_bitwarden_vault_for_x">U wagwoord sal in u Byteward-kluis vir %1$s bewaar word</string>
+    <string name="your_passkey_will_be_saved_to_your_bitwarden_vault_for_x">U passkey sal in u Bitwarden-kluis vir %1$s bewaar word</string>
+    <string name="your_password_will_be_saved_to_your_bitwarden_vault_for_x">U wagwoord sal in u Bitwarden-kluis vir %1$s bewaar word</string>
     <string name="passkeys_not_supported_for_this_app">Passkeys word nie vir hierdie toep ondersteun nie</string>
     <string name="passkey_operation_failed_because_browser_is_not_privileged">Passkey-bewerking het misluk omdat die blaaier nie bevoorreg is nie</string>
     <string name="passkey_operation_failed_because_browser_signature_does_not_match">Passkey-bewerking het misluk omdat die blaaierhandtekening nie ooreenstem nie</string>
@@ -773,7 +773,7 @@ Do you want to switch to this account?</string>
     <string name="email_verified">E-pos geverifieer</string>
     <string name="get_emails_from_bitwarden_for_announcements_advices_and_research_opportunities_unsubscribe_any_time">Ontvang e-posse van Bitwarden vir aankondigings, advies en navorsingsgeleenthede. <annotation link="unsubscribe">Teken te eniger tyd uit</annotation>.</string>
     <string name="security_prioritized">Sekuriteit, geprioritiseer</string>
-    <string name="welcome_message_1">Stoor aanmeldings, kaarte en identiteite in u veilige kluis. Byteward gebruik nul-kennis, end-tot-end-enkripsie om te beskerm wat vir u belangrik is.</string>
+    <string name="welcome_message_1">Stoor aanmeldings, kaarte en identiteite in u veilige kluis. Bitwarden gebruik nul-kennis, end-tot-end-enkripsie om te beskerm wat vir u belangrik is.</string>
     <string name="welcome_message_2">Stel biometriese ontsluiting en outovul op om by u rekeninge aan te meld sonder om \'n enkele letter te tik.</string>
     <string name="quick_and_easy_login">Vinnige en maklike aanmelding</string>
     <string name="level_up_your_logins">Verhoog u aanmeldings</string>
@@ -827,16 +827,16 @@ Hier is hoe:</string>
     <string name="turn_on_autofill">Skakel outovul aan</string>
     <string name="autofill_setup">Outovulopstelling</string>
     <string name="turn_on_browser_autofill_integration">Skakel blaaier-outovulintegrasie aan</string>
-    <string name="browser_requires_special_permissions_for_bitwarden_singular">U gebruik ’n blaaier wat spesiale toestemmings vereis sodat Byteward u wagwoorde kan outovul.</string>
-    <string name="browser_requires_special_permissions_for_bitwarden_plural">U gebruik blaaiers wat spesiale toestemmings vereis sodat Byteward u wagwoorde kan outovul.</string>
-    <string name="youre_using_a_browser_that_requires_special_permissions_singular">U gebruik ’n blaaier wat spesiale toestemmings vereis sodat Byteward u wagwoorde kan outovul. Aktiveer u voorkeur-outovulintegrasie hieronder.</string>
-    <string name="youre_using_a_browser_that_requires_special_permissions_plural">U gebruik blaaiers wat spesiale toestemmings vereis sodat Byteward u wagwoorde kan outovul. Aktiveer outovul vir al u geïnstalleerde blaaiers om voort te gaan.</string>
+    <string name="browser_requires_special_permissions_for_bitwarden_singular">U gebruik ’n blaaier wat spesiale toestemmings vereis sodat Bitwarden u wagwoorde kan outovul.</string>
+    <string name="browser_requires_special_permissions_for_bitwarden_plural">U gebruik blaaiers wat spesiale toestemmings vereis sodat Bitwarden u wagwoorde kan outovul.</string>
+    <string name="youre_using_a_browser_that_requires_special_permissions_singular">U gebruik ’n blaaier wat spesiale toestemmings vereis sodat Bitwarden u wagwoorde kan outovul. Aktiveer u voorkeur-outovulintegrasie hieronder.</string>
+    <string name="youre_using_a_browser_that_requires_special_permissions_plural">U gebruik blaaiers wat spesiale toestemmings vereis sodat Bitwarden u wagwoorde kan outovul. Aktiveer outovul vir al u geïnstalleerde blaaiers om voort te gaan.</string>
     <string name="use_autofill_to_log_into_your_accounts">Gebruik outovul om met een tik by u rekeninge aan te meld.</string>
     <string name="turn_on_later">Skakel later aan</string>
     <string name="turn_on_autofill_later">Skakel outovul later aan?</string>
     <string name="turn_on_browser_autofill_integration_later">Skakel blaaier-outovulintegrasie later aan?</string>
     <string name="return_to_complete_this_step_anytime_in_settings">U kan te eniger tyd terugkeer om hierdie stap in Instellings te voltooi.</string>
-    <string name="what_bitwarden_has_to_offer">U kan nou alles wat Byteward bied verken en begin om u wagwoorde veilig te bestuur.</string>
+    <string name="what_bitwarden_has_to_offer">U kan nou alles wat Bitwarden bied verken en begin om u wagwoorde veilig te bestuur.</string>
     <string name="youre_all_set">U is gereed!</string>
     <string name="error_connecting_with_the_duo_service_use_a_different_two_step_login_method_or_contact_duo_for_assistance">Fout met verbinding met die Duo-diens. Gebruik \'n ander tweestap-aanmeldingsmetode of kontak Duo vir hulp.</string>
     <string name="master_password_hint_not_specified">Hoofwagwoordwenk</string>
@@ -968,7 +968,7 @@ Hier is hoe:</string>
     <string name="unsupported_certificate_type">Nie-ondersteunde sertifikaattipe</string>
     <string name="certificate_password_incorrect">Sertifikaatwagwoord is verkeerd</string>
     <string name="invalid_certificate_chain">Ongeldige sertifikaatketting</string>
-    <string name="system_certificates_are_not_as_secure_as_importing_certificates_to_bitwarden">Die gebruik van ’n stelselsertifikaat is minder veilig as om die sertifikaat by Byteward te bewaar. As u voortgaan, sal ’n lys beskikbare stelselsertifikate gewys word as een reeds geïnstalleer is.</string>
+    <string name="system_certificates_are_not_as_secure_as_importing_certificates_to_bitwarden">Die gebruik van ’n stelselsertifikaat is minder veilig as om die sertifikaat by Bitwarden te bewaar. As u voortgaan, sal ’n lys beskikbare stelselsertifikate gewys word as een reeds geïnstalleer is.</string>
     <string name="link">Skakel</string>
     <string name="passkey_operation_failed_because_host_url_is_not_present_in_request">Passkey-bewerking het misluk omdat die gasheer-URL nie in die versoek teenwoordig is nie.</string>
     <string name="passkey_operation_failed_because_app_signature_is_invalid">Passkey-bewerking het misluk omdat die toephandtekening ongeldig is.</string>
@@ -1047,11 +1047,11 @@ Die vervanging van die sertifikaat kan u verbinding met omgewings wat dit tans g
     <string name="missing_send_resync_your_vault">Ontbrekende Send, sinchroniseer u kluis weer</string>
     <string name="use_dynamic_colors">Gebruik dinamiese kleure</string>
     <string name="use_dynamic_colors_question">Gebruik dinamiese kleure?</string>
-    <string name="dynamic_colors_may_not_adhere_to_accessibility_guidelines">Hierdie kleurskema pas outomaties stelselkleure op Byteward toe op grond van u huidige muurpapier. Hierdie kleure voldoen moontlik nie aan alle toeganklikheidsriglyne nie.</string>
+    <string name="dynamic_colors_may_not_adhere_to_accessibility_guidelines">Hierdie kleurskema pas outomaties stelselkleure op Bitwarden toe op grond van u huidige muurpapier. Hierdie kleure voldoen moontlik nie aan alle toeganklikheidsriglyne nie.</string>
     <string name="passkey_operation_failed_because_browser_x_is_not_trusted">Passkey-bewerking het misluk omdat blaaier (%1$s) nie herken word nie. Kies “Vertrou” om %1$s by die lys van plaaslik vertroude toepassings te voeg.</string>
     <string name="passkey_operation_failed_because_the_browser_is_not_trusted">Passkey-bewerking het misluk omdat die blaaier nie vertrou word nie.</string>
     <string name="trust">Vertrou</string>
-    <string name="trusted_by_you_learn_more">Dit is toepassings of blaaiers wat Byteward nie by verstek vertrou nie, maar wat u vertrou om passkey-bewerkings uit te voer.</string>
+    <string name="trusted_by_you_learn_more">Dit is toepassings of blaaiers wat Bitwarden nie by verstek vertrou nie, maar wat u vertrou om passkey-bewerkings uit te voer.</string>
     <string name="trusted_by_community_learn_more">Dit is toepassings wat nie in die Google Play-winkel ingesluit is nie, maar wat Bitwarden vertrou om passkey-bewerkings uit te voer nadat gemeenskapslede hulle gebruik en as veilig aangemeld het.</string>
     <string name="trusted_by_google_learn_more">Dit is toepassings wat Google as veilig beskou en in Google se Play-winkel beskikbaar is.</string>
     <string name="trusted_by_you">Deur u vertrou</string>
@@ -1195,7 +1195,7 @@ Die vervanging van die sertifikaat kan u verbinding met omgewings wat dit tans g
         <item quantity="other">%1$d items is in u kluis ingevoer.</item>
     </plurals>
     <string name="enable_browser_autofill_to_keep_filling_passwords">Aktiveer blaaier-outovul om aan te hou om wagwoorde in te vul</string>
-    <string name="your_browser_recently_updated_how_autofill_works_singular">U blaaier is onlangs bygewerk, wat Byteward-outovul gedeaktiveer het. Om voort te gaan om u wagwoorde met Byteward in te vul, aktiveer blaaier-outovul in outovulinstellings.</string>
+    <string name="your_browser_recently_updated_how_autofill_works_singular">U blaaier is onlangs bygewerk, wat Bitwarden-outovul gedeaktiveer het. Om voort te gaan om u wagwoorde met Bitwarden in te vul, aktiveer blaaier-outovul in outovulinstellings.</string>
     <string name="not_now">Nie nou nie</string>
     <string name="import_from_bitwarden">Voer vanaf Bitwarden in</string>
     <string name="select_account">Kies rekening</string>
@@ -1296,7 +1296,7 @@ Sodra sinchronisering voltooi is, sal u na hierdie toep teruggebring word.</stri
     <string name="trusted">Vertrou</string>
     <string name="preview_not_available_for_files">Voorskou is nie beskikbaar vir %1$s-lêers nie. U kan dit steeds aflaai om op u toestel te bekyk.</string>
     <string name="this_file_is_too_large_to_preview">Hierdie lêer is te groot vir ’n voorskou. U kan dit steeds aflaai om op u toestel te bekyk.</string>
-    <string name="bitwarden_could_not_decrypt_this_file_so_the_preview_cannot_be_displayed">Byteward kon nie hierdie lêer ontsyfer nie, dus kan die voorskou nie gewys word nie.</string>
+    <string name="bitwarden_could_not_decrypt_this_file_so_the_preview_cannot_be_displayed">Bitwarden kon nie hierdie lêer ontsyfer nie, dus kan die voorskou nie gewys word nie.</string>
     <string name="preview_unavailable_for_this_file">Voorskou is nie beskikbaar vir hierdie lêer nie. U kan dit steeds aflaai om op u toestel te bekyk.</string>
     <string name="preview_unavailable">Voorskou nie beskikbaar nie</string>
     <string name="download_attachment">Laai aanhegsel af</string>
@@ -1429,8 +1429,8 @@ Sodra sinchronisering voltooi is, sal u na hierdie toep teruggebring word.</stri
     <string name="local_network_access_required">Plaaslike netwerktoegang vereis</string>
     <string name="ask_again_later">Vra later weer</string>
     <string name="enable_local_network_access">Aktiveer plaaslike netwerktoegang</string>
-    <string name="bitwarden_needs_local_network_access_to_sync_with_your_server">Byteward het plaaslike netwerktoegang nodig om met u bediener te sinchroniseer. Sonder hierdie toestemming sal die toep nie kan koppel nie.</string>
-    <string name="without_this_permission_bitwarden_wont_be_able_to_sync_with_your_server">Sonder hierdie toestemming sal Byteward nie met u bediener kan koppel en sinchroniseer nie. U kan dit in u toestelinstellings aktiveer.</string>
+    <string name="bitwarden_needs_local_network_access_to_sync_with_your_server">Bitwarden het plaaslike netwerktoegang nodig om met u bediener te sinchroniseer. Sonder hierdie toestemming sal die toep nie kan koppel nie.</string>
+    <string name="without_this_permission_bitwarden_wont_be_able_to_sync_with_your_server">Sonder hierdie toestemming sal Bitwarden nie met u bediener kan koppel en sinchroniseer nie. U kan dit in u toestelinstellings aktiveer.</string>
     <string name="your_request_was_interrupted_because_the_app_needs_local_network_access">U versoek is onderbreek omdat die toep plaaslike netwerktoegang nodig het. U kan dit in u toestelinstellings aktiveer.</string>
     <string name="continue_to_stripe">Gaan voort na Stripe?</string>
     <string name="youll_be_taken_to_stripe_to_manage_your_subscription_cancellation">U sal na Stripe geneem word om u intekeningkansellasie te bestuur.</string>
@@ -1452,7 +1452,7 @@ Sodra sinchronisering voltooi is, sal u na hierdie toep teruggebring word.</stri
     <string name="use_this_username">Use this username</string>
     <string name="create_login">Create login</string>
     <string name="keep_unlocking_with_biometrics">Keep unlocking with biometrics</string>
-    <string name="weve_made_a_security_update">We’ve made a security update. Confirm your biometrics again to keep using them to unlock Byteward.</string>
+    <string name="weve_made_a_security_update">We’ve made a security update. Confirm your biometrics again to keep using them to unlock Bitwarden.</string>
     <string name="turn_off">Turn off</string>
     <string name="turn_off_biometric_question">Turn off biometrics?</string>
     <string name="unlocking_will_require_your_master_password">Unlocking will require your master password. You can turn biometrics back on in Settings.</string>

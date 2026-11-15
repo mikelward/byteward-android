@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Byteward overrides for strings defined in the :ui module, which keeps
+    upstream Bitwarden's text. App resources take precedence over library
+    resources when they are merged, so the app shows these versions while the
+    :ui files stay identical to upstream (and the Authenticator app, which also
+    uses :ui, keeps Bitwarden's text).
+
+    Each entry renames Bitwarden to Byteward where the password manager refers
+    to itself. Text about Bitwarden's service is not overridden.
+-->
+<resources>
+    <string name="set_bitwarden_as_passkey_manager_description">Gosod Byteward fel darparwr passkey yn gosodiadau dyfais.</string>
+    <string name="bitwarden_autofill_service">Gwasanaeth llenwi awtomatig Byteward</string>
+    <string name="bitwarden_autofill_service_alert2">Y ffordd hawsaf i ychwanegu mewngofnodiadau newydd i\'ch cwpwrdd yw o Wasanaeth Llenwi Awtomatig Byteward. Dysgwch fwy am ddefnyddio Gwasanaeth Llenwi Awtomatig Byteward trwy lywio i\'r sgrin “Settings”.</string>
+    <string name="autofill_service_description">Mae gwasanaeth llenwi awtomatig Byteward yn defnyddio Fframwaith Llenwi Awtomatig Android i gynorthwyo i lenwi gwybodaeth mewngofnodi i apiau eraill ar eich dyfais.</string>
+    <string name="set_pin_description">Rhaid i\'ch PIN fod o leiaf 4 nod. Bydd eich gosodiadau PIN yn cael eu hailosod os byddwch yn allgofnodi â llaw o ap Byteward.</string>
+    <string name="default_uri_match_detection_description">Mae canfod cyfateb URI yn rheoli sut mae Byteward yn nodi awgrymiadau llenwi awtomatig.</string>
+    <string name="autofill_tile_accessibility_required">Trowch “Gwasanaeth Hygyrchedd Llenwi Awtomatig” ymlaen o Gosodiadau Byteward i ddefnyddio teils Llenwi Awtomatig.</string>
+    <string name="accessibility_disclosure_text">Mae Byteward yn defnyddio\'r Gwasanaeth Hygyrchedd i chwilio am feysydd mewngofnodi mewn apiau a gwefannau, yna sefydlu\'r IDau maes priodol ar gyfer rhoi enw defnyddiwr a chyfrinair pan ddarganfyddir cyfatebiaeth i\'r ap neu\'r safle. Nid ydym yn storio unrhyw un o\'r wybodaeth a gyflwynir inni gan y gwasanaeth, ac nid ydym yn gwneud unrhyw ymgais i reoli unrhyw elfennau ar y sgrin y tu hwnt i fewnbynnu tystlythyrau.</string>
+    <string name="accessibility_disclosure_start_up_text_1">Mae\'r hysbysiad hwn yn ofynnol cyn y gall Byteward gynnig llenwi awtomatig sy\'n seiliedig ar hygyrchedd.</string>
+    <string name="accessibility_disclosure_start_up_text_2">Mae Byteward yn cynnig dull llenwi awtomatig dewisol sy\'n defnyddio Gwasanaeth Hygyrchedd Android i ganfod meysydd mewngofnodi. Os byddwch yn ei alluogi, bydd Byteward yn nodi\'r meysydd priodol ac yn llenwi\'ch tystlythyrau pan ganfyddir cyfatebiaeth.</string>
+    <string name="passkey_management_explanation_long">Defnyddiwch Byteward i gadw passkeys newydd a mewngofnodi gyda passkeys sydd wedi\'u storio yn eich cwpwrdd.</string>
+    <string name="autofill_services_explanation_long">Caniatáu i Byteward ddefnyddio\'ch gwybodaeth mewngofnodi wedi\'i chadw i fewngofnodi i apiau eraill ar eich dyfais.</string>
+    <string name="your_passkey_will_be_saved_to_your_bitwarden_vault_for_x">Bydd eich passkey yn cael ei gadw i\'ch cwpwrdd Byteward ar gyfer %1$s</string>
+    <string name="your_password_will_be_saved_to_your_bitwarden_vault_for_x">Bydd eich cyfrinair yn cael ei gadw i\'ch cwpwrdd Byteward ar gyfer %1$s</string>
+    <string name="welcome_message_1">Cadwch fewngofnodiadau, cardiau, a hunaniaethau i\'ch cwpwrdd diogel. Mae Byteward yn defnyddio amgryptio di-gwybodaeth, pen-i-ben i ddiogelu\'r hyn sy\'n bwysig i chi.</string>
+    <string name="browser_requires_special_permissions_for_bitwarden_singular">Rydych chi\'n defnyddio porwr sy\'n gofyn am ganiatadau arbennig i Byteward lenwi\'ch cyfrineiriau yn awtomatig.</string>
+    <string name="browser_requires_special_permissions_for_bitwarden_plural">Rydych chi\'n defnyddio porwyr sy\'n gofyn am ganiatadau arbennig i Byteward lenwi\'ch cyfrineiriau yn awtomatig.</string>
+    <string name="youre_using_a_browser_that_requires_special_permissions_singular">Rydych chi\'n defnyddio porwr sy\'n gofyn am ganiatadau arbennig i Byteward lenwi\'ch cyfrineiriau yn awtomatig. Galluogwch eich integreiddio llenwi awtomatig dewisol isod.</string>
+    <string name="youre_using_a_browser_that_requires_special_permissions_plural">Rydych chi\'n defnyddio porwyr sy\'n gofyn am ganiatadau arbennig i Byteward lenwi\'ch cyfrineiriau yn awtomatig. Galluogwch lenwi awtomatig ar gyfer eich holl borwyr sydd wedi\'u gosod i barhau.</string>
+    <string name="what_bitwarden_has_to_offer">Gallwch nawr archwilio popeth sydd gan Byteward i\'w gynnig a dechrau rheoli\'ch cyfrineiriau yn ddiogel.</string>
+    <string name="system_certificates_are_not_as_secure_as_importing_certificates_to_bitwarden">Mae defnyddio tystysgrif system yn llai diogel na storio\'r dystysgrif gyda Byteward. Bydd parhau yn dangos rhestr o dystysgrifau system sydd ar gael os yw un eisoes wedi\'i gosod.</string>
+    <string name="dynamic_colors_may_not_adhere_to_accessibility_guidelines">Mae\'r cynllun lliw hwn yn cymhwyso lliwiau system yn awtomatig i Byteward yn seiliedig ar eich papur wal presennol. Efallai na fydd y lliwiau hyn yn bodloni\'r holl ganllawiau hygyrchedd.</string>
+    <string name="trusted_by_you_learn_more">Mae\'r rhain yn gymwysiadau neu borwyr nad yw Byteward yn ymddiried ynddynt yn ddiofyn, ond rydych chi\'n ymddiried ynddynt i gyflawni gweithrediadau passkey.</string>
+    <string name="your_browser_recently_updated_how_autofill_works_singular">Mae eich porwr wedi diweddaru\'n ddiweddar, sydd wedi analluogi llenwi awtomatig Byteward. I barhau i lenwi\'ch cyfrineiriau gyda Byteward, galluogwch lenwi awtomatig porwr yn y gosodiadau llenwi awtomatig.</string>
+    <string name="bitwarden_could_not_decrypt_this_file_so_the_preview_cannot_be_displayed">Ni allai Byteward ddadgryptio\'r ffeil hon, felly ni ellir dangos y rhagolwg.</string>
+    <string name="bitwarden_needs_local_network_access_to_sync_with_your_server">Mae angen mynediad rhwydwaith lleol ar Byteward i gydamseru â\'ch gweinydd. Heb y caniatâd hwn, ni fydd yr ap yn gallu cysylltu.</string>
+    <string name="without_this_permission_bitwarden_wont_be_able_to_sync_with_your_server">Heb y caniatâd hwn, ni fydd Byteward yn gallu cysylltu a chydamseru â\'ch gweinydd. Gallwch alluogi hyn yn eich gosodiadau dyfais.</string>
+    <string name="weve_made_a_security_update">We’ve made a security update. Confirm your biometrics again to keep using them to unlock Byteward.</string>
+</resources>

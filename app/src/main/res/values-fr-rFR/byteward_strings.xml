@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Byteward overrides for strings defined in the :ui module, which keeps
+    upstream Bitwarden's text. App resources take precedence over library
+    resources when they are merged, so the app shows these versions while the
+    :ui files stay identical to upstream (and the Authenticator app, which also
+    uses :ui, keeps Bitwarden's text).
+
+    Each entry renames Bitwarden to Byteward where the password manager refers
+    to itself. Text about Bitwarden's service is not overridden.
+-->
+<resources>
+    <string name="set_bitwarden_as_passkey_manager_description">Définir Byteward comme fournisseur de clé d\'accès depuis les paramètres de l\'appareil.</string>
+    <string name="bitwarden_autofill_service">Service de saisie automatique Byteward</string>
+    <string name="bitwarden_autofill_service_alert2">Le moyen le plus simple d\'ajouter de nouveaux identifiants à votre coffre est d\'utiliser le service de saisie automatique Byteward. Pour en savoir davantage sur l\'utilisation du service de saisie automatique Byteward, naviguez jusqu\'à l\'écran \"Paramètres\".</string>
+    <string name="autofill_service_description">Le service de saisie automatique Byteward utilise le framework de saisie automatique d\'Android pour vous aider à remplir les informations de connexion dans les autres applications de votre appareil.</string>
+    <string name="set_pin_description">Définissez votre NIP pour déverrouiller Byteward. Les paramètres relatifs à votre NIP seront réinitialisés si vous vous déconnectez complètement de l\'application.</string>
+    <string name="default_uri_match_detection_description">La détection de correspondance d\'URL gère comment Byteward identifie les suggestions de saisie automatique.</string>
+    <string name="autofill_tile_accessibility_required">Veuillez activer le \"Service d\'Accessibilité de Saisie Automatique\" dans les paramètres de Byteward pour utiliser la tuile de Saisie Automatique.</string>
+    <string name="accessibility_disclosure_text">Byteward utilise le service d\'accessibilité pour rechercher les champs de connexion dans les applications et les sites Web, puis établir les identifiants de champ (field IDs) appropriés pour saisir l\'identifiant &amp; le mot de passe lorsqu\'une correspondance pour l\'application ou le site est trouvée. Nous ne stockons aucune information fournie par ce service et nous ne tentons pas de contrôler les éléments à l\'écran au-delà de la saisie textuelle des identifiants.</string>
+    <string name="accessibility_disclosure_start_up_text_1">Cette notification est obligatoire avant que Byteward ne puisse proposer la fonction de remplissage automatique basée sur l\'accessibilité.</string>
+    <string name="accessibility_disclosure_start_up_text_2">Byteward offre une méthode de remplissage automatique optionnel qui utilise le service d\'accessibilité Android pour détecter les champs de connexion. Si vous l\'activez, Byteward identifiera les champs appropriés et remplira vos identifiants lorsqu\'une correspondance est trouvée.</string>
+    <string name="passkey_management_explanation_long">Utiliser Byteward pour enregistrer vos clés d\'accès et vous connecter avec les clés d\'accès stockées dans votre coffre.</string>
+    <string name="your_passkey_will_be_saved_to_your_bitwarden_vault_for_x">Votre clé d\'accès sera enregistrée votre coffre Byteward pour %1$s</string>
+    <string name="your_password_will_be_saved_to_your_bitwarden_vault_for_x">Votre mot de passe sera enregistré dans votre coffre Byteward pour %1$s</string>
+    <string name="welcome_message_1">Sauvegardez identifiants, cartes de paiement et informations d\'identité dans votre coffre sécurisé. Byteward utilise un chiffrement de bout-en-bout à divulgation nulle de connaissance pour protéger ce qui est important pour vous.</string>
+    <string name="browser_requires_special_permissions_for_bitwarden_singular">Vous utilisez un navigateur qui nécessite des autorisations spéciales pour que Byteward saisisse automatiquement vos mots de passe.</string>
+    <string name="browser_requires_special_permissions_for_bitwarden_plural">Vous utilisez des navigateurs qui nécessitent des autorisations spéciales pour que Byteward saisisse automatiquement vos mots de passe.</string>
+    <string name="youre_using_a_browser_that_requires_special_permissions_singular">Vous utilisez un navigateur qui nécessite des autorisations spéciales pour que Byteward saisisse automatiquement vos mots de passe. Activez votre intégration de saisie automatique préférée ci-dessous.</string>
+    <string name="youre_using_a_browser_that_requires_special_permissions_plural">Vous utilisez des navigateurs qui nécessitent des autorisations spéciales pour que Byteward saisisse automatiquement vos mots de passe. Activez la saisie automatique sur tous vos navigateurs installés.</string>
+    <string name="what_bitwarden_has_to_offer">Vous pouvez maintenant explorer tout ce que Byteward a à offrir et commencer à gérer vos mots de passe en toute sécurité.</string>
+    <string name="system_certificates_are_not_as_secure_as_importing_certificates_to_bitwarden">Utiliser un certificat système est moins sécurisé que de stocker le certificat avec Byteward. L\'étape suivante affichera une liste des certificats système disponibles si l\'un d\'entre eux est déjà installé.</string>
+    <string name="dynamic_colors_may_not_adhere_to_accessibility_guidelines">Ce schéma de couleurs applique automatiquement les couleurs du système à Byteward en fonction de votre fond d\'écran actuel. Ces couleurs peuvent ne pas répondre à toutes les directives d\'accessibilité.</string>
+    <string name="trusted_by_you_learn_more">Il s\'agit d\'applications ou de navigateurs auxquels Byteward ne fait pas confiance par défaut, mais auxquels vous faites confiance pour effectuer des opérations sur les clés d\'accès.</string>
+    <string name="your_browser_recently_updated_how_autofill_works_singular">Votre navigateur a récemment été mis à jour, ce qui a désactivé la saisie automatique de Byteward. Pour continuer à saisir vos mots de passe avec Byteward, activez la saisie automatique du navigateur dans les paramètres de saisie automatique.</string>
+    <string name="bitwarden_could_not_decrypt_this_file_so_the_preview_cannot_be_displayed">Byteward n\'a pas pu lire ce fichier, donc l\'aperçu ne peut pas être affiché.</string>
+    <string name="bitwarden_needs_local_network_access_to_sync_with_your_server">Byteward nécessite un accès au réseau local pour se synchroniser avec votre serveur. Sans cette autorisation, l\'application ne pourra pas se connecter.</string>
+    <string name="without_this_permission_bitwarden_wont_be_able_to_sync_with_your_server">Sans cette autorisation, Byteward ne pourra pas se connecter ni se synchroniser avec votre serveur. Vous pouvez l\'activer dans les paramètres de votre appareil.</string>
+    <string name="weve_made_a_security_update">We’ve made a security update. Confirm your biometrics again to keep using them to unlock Byteward.</string>
+</resources>

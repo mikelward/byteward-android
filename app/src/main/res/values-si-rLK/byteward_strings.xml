@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Byteward overrides for strings defined in the :ui module, which keeps
+    upstream Bitwarden's text. App resources take precedence over library
+    resources when they are merged, so the app shows these versions while the
+    :ui files stay identical to upstream (and the Authenticator app, which also
+    uses :ui, keeps Bitwarden's text).
+
+    Each entry renames Bitwarden to Byteward where the password manager refers
+    to itself. Text about Bitwarden's service is not overridden.
+-->
+<resources>
+    <string name="set_bitwarden_as_passkey_manager_description">උපාංග සැකසීම් තුළ Byteward ඔබගේ පාස්කී සපයන්නා ලෙස සකසන්න.</string>
+    <string name="bitwarden_autofill_service">Byteward ස්වයං පිරවුම් සේවාව</string>
+    <string name="bitwarden_autofill_service_alert2">ඔබගේ සුරක්ෂිතාගාරයට නව පිවිසුම් එකතු කිරීමේ පහසුම ක්‍රමය Byteward ස්වයං පිරවුම් සේවාවෙනි. “සැකසීම්” තිරයට යාමෙන් Byteward ස්වයං පිරවුම් සේවාව භාවිතා කිරීම ගැන වැඩිදුර ඉගෙන ගන්න.</string>
+    <string name="autofill_service_description">Byteward ස්වයං පිරවුම් සේවාව ඔබගේ උපාංගයේ වෙනත් යෙදුම්වලට පිවිසුම් තොරතුරු පිරවීමට සහාය වීම සඳහා Android Autofill Framework භාවිතා කරයි.</string>
+    <string name="set_pin_description">ඔබගේ PIN අවම වශයෙන් අක්ෂර 4 ක් විය යුතුය. ඔබ Byteward යෙදුමෙන් අතින් ඉවත් වුවහොත් ඔබගේ PIN සැකසුම් නැවත සකසනු ලැබේ.</string>
+    <string name="default_uri_match_detection_description">URI ගැළපුම් හඳුනාගැනීම Byteward ස්වයං පිරවුම් යෝජනා හඳුනා ගන්නා ආකාරය පාලනය කරයි.</string>
+    <string name="autofill_tile_accessibility_required">ස්වයං පිරවුම් ටයිලය භාවිතා කිරීමට කරුණාකර Byteward සැකසීම් වලින් “ස්වයං පිරවුම් ප්‍රවේශ්‍යතා සේවාව” ක්‍රියාත්මක කරන්න.</string>
+    <string name="accessibility_disclosure_text">Byteward යෙදුම් සහ වෙබ් අඩවිවල පිවිසුම් ක්ෂේත්‍ර සෙවීමට ප්‍රවේශ්‍යතා සේවාව භාවිතා කරයි, පසුව යෙදුම හෝ අඩවිය සඳහා ගැළපීමක් හමු වූ විට පරිශීලක නම සහ මුරපදය ඇතුළත් කිරීම සඳහා සුදුසු ක්ෂේත්‍ර හඳුනාගැනීම් ස්ථාපිත කරයි. අපි සේවාව මගින් අපට ඉදිරිපත් කරන ඕනෑම තොරතුරක් ගබඩා නොකරන අතර, අක්තපත්‍රවල පෙළ ඇතුළත් කිරීමෙන් ඔබ්බට තිරයේ ඕනෑම මූලද්‍රව්ය පාලනය කිරීමට කිසිදු උත්සාහයක් නොගනිමු.</string>
+    <string name="accessibility_disclosure_start_up_text_1">Byteward හට ප්‍රවේශ්‍යතා-පාදක ස්වයං පිරවුම් ඉදිරිපත් කිරීමට පෙර මෙම දැන්වීම අවශ්‍ය වේ.</string>
+    <string name="accessibility_disclosure_start_up_text_2">Byteward පිවිසුම් ක්ෂේත්‍ර හඳුනා ගැනීමට Android හි ප්‍රවේශ්‍යතා සේවාව භාවිතා කරන විකල්ප ස්වයං පිරවුම් ක්‍රමයක් ඉදිරිපත් කරයි. ඔබ එය සක්‍රිය කළහොත්, ගැළපීමක් හමු වූ විට Byteward සුදුසු ක්ෂේත්‍ර හඳුනාගෙන ඔබගේ අක්තපත්‍ර පුරවනු ඇත.</string>
+    <string name="passkey_management_explanation_long">නව පාස්කීස් සුරැකීමට සහ ඔබගේ සුරක්ෂිතාගාරයේ ගබඩා කර ඇති පාස්කීස් සමඟ පිවිසීමට Byteward භාවිතා කරන්න.</string>
+    <string name="autofill_services_explanation_long">Byteward ට ඔබගේ සුරක්ෂිත පිවිසුම් තොරතුරු භාවිතා කර ඔබගේ උපාංගයේ වෙනත් යෙදුම්වලට පිවිසීමට ඉඩ දෙන්න.</string>
+    <string name="your_passkey_will_be_saved_to_your_bitwarden_vault_for_x">ඔබගේ පාස්කී %1$s සඳහා ඔබගේ Byteward සුරක්ෂිතාගාරයට සුරකිනු ලැබේ</string>
+    <string name="your_password_will_be_saved_to_your_bitwarden_vault_for_x">ඔබගේ මුරපදය %1$s සඳහා ඔබගේ Byteward සුරක්ෂිතාගාරයට සුරකිනු ලැබේ</string>
+    <string name="welcome_message_1">පිවිසුම්, කාඩ්පත් සහ අනන්‍යතා ඔබගේ ආරක්ෂිත සුරක්ෂිතාගාරයට සුරකින්න. Byteward ඔබට වැදගත් දේ ආරක්ෂා කිරීමට ශුන්‍ය-දැනුම, අන්ත-සිට-අන්ත ගුප්තකේතනය භාවිතා කරයි.</string>
+    <string name="browser_requires_special_permissions_for_bitwarden_singular">ඔබ Byteward ට ඔබගේ මුරපද ස්වයං පිරවුම් කිරීමට විශේෂ අවසර අවශ්‍ය වන බ්‍රවුසරයක් භාවිතා කරයි.</string>
+    <string name="browser_requires_special_permissions_for_bitwarden_plural">ඔබ Byteward ට ඔබගේ මුරපද ස්වයං පිරවුම් කිරීමට විශේෂ අවසර අවශ්‍ය වන බ්‍රවුසර භාවිතා කරයි.</string>
+    <string name="youre_using_a_browser_that_requires_special_permissions_singular">ඔබ Byteward ට ඔබගේ මුරපද ස්වයං පිරවුම් කිරීමට විශේෂ අවසර අවශ්‍ය වන බ්‍රවුසරයක් භාවිතා කරයි. පහත ඔබගේ කැමති ස්වයං පිරවුම් ඒකාබද්ධ කිරීම සක්‍රිය කරන්න.</string>
+    <string name="youre_using_a_browser_that_requires_special_permissions_plural">ඔබ Byteward ට ඔබගේ මුරපද ස්වයං පිරවුම් කිරීමට විශේෂ අවසර අවශ්‍ය වන බ්‍රවුසර භාවිතා කරයි. ඉදිරියට යාමට ඔබගේ ස්ථාපිත සියලු බ්‍රවුසර සඳහා ස්වයං පිරවුම් සක්‍රිය කරන්න.</string>
+    <string name="what_bitwarden_has_to_offer">දැන් ඔබට Byteward සතුව ඇති සියල්ල ගවේෂණය කළ හැකි අතර ඔබගේ මුරපද ආරක්ෂිතව කළමනාකරණය කිරීම ආරම්භ කළ හැක.</string>
+    <string name="system_certificates_are_not_as_secure_as_importing_certificates_to_bitwarden">පද්ධති සහතිකයක් භාවිතා කිරීම Byteward සමඟ සහතිකය ගබඩා කිරීමට වඩා අඩු ආරක්ෂිතයි. ඉදිරියට යාමෙන්, එකක් දැනටමත් ස්ථාපනය කර ඇත්නම් පවතින පද්ධති සහතික ලැයිස්තුවක් පෙන්වයි.</string>
+    <string name="dynamic_colors_may_not_adhere_to_accessibility_guidelines">මෙම වර්ණ සැකසුම ඔබගේ වත්මන් බිතුපත මත පදනම්ව පද්ධති වර්ණ Byteward වෙත ස්වයංක්‍රීයව යොදයි. මෙම වර්ණ සියලු ප්‍රවේශ්‍යතා මාර්ගෝපදේශ සපුරාලිය නොහැක.</string>
+    <string name="trusted_by_you_learn_more">මේවා Byteward පෙරනිමියෙන් විශ්වාස නොකරන නමුත් පාස්කී මෙහෙයුම් සිදු කිරීමට ඔබ විශ්වාස කරන යෙදුම් හෝ බ්‍රවුසර වේ.</string>
+    <string name="your_browser_recently_updated_how_autofill_works_singular">ඔබගේ බ්‍රවුසරය මෑතකදී යාවත්කාලීන කර ඇත, එමඟින් Byteward ස්වයං පිරවුම් අක්‍රිය කර ඇත. Byteward සමඟ ඔබගේ මුරපද පිරවීම දිගටම කරගෙන යාමට, ස්වයං පිරවුම් සැකසීම් තුළ බ්‍රවුසර ස්වයං පිරවුම් සක්‍රිය කරන්න.</string>
+    <string name="bitwarden_could_not_decrypt_this_file_so_the_preview_cannot_be_displayed">Byteward ට මෙම ගොනුව විකේතනය කළ නොහැකි විය, එබැවින් පෙරදසුන පෙන්විය නොහැක.</string>
+    <string name="bitwarden_needs_local_network_access_to_sync_with_your_server">Byteward ට ඔබගේ සේවාදායකය සමඟ සමමුහුර්ත කිරීමට දේශීය ජාල ප්‍රවේශය අවශ්‍ය වේ. මෙම අවසරය නොමැතිව, යෙදුමට සම්බන්ධ වීමට නොහැකි වනු ඇත.</string>
+    <string name="without_this_permission_bitwarden_wont_be_able_to_sync_with_your_server">මෙම අවසරය නොමැතිව, Byteward ට ඔබගේ සේවාදායකය සමඟ සම්බන්ධ වී සමමුහුර්ත කිරීමට නොහැකි වනු ඇත. ඔබට මෙය ඔබගේ උපාංග සැකසීම් තුළ සක්‍රිය කළ හැක.</string>
+    <string name="weve_made_a_security_update">We’ve made a security update. Confirm your biometrics again to keep using them to unlock Byteward.</string>
+</resources>

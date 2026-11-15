@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Byteward overrides for strings defined in the :ui module, which keeps
+    upstream Bitwarden's text. App resources take precedence over library
+    resources when they are merged, so the app shows these versions while the
+    :ui files stay identical to upstream (and the Authenticator app, which also
+    uses :ui, keeps Bitwarden's text).
+
+    Each entry renames Bitwarden to Byteward where the password manager refers
+    to itself. Text about Bitwarden's service is not overridden.
+-->
+<resources>
+    <string name="set_bitwarden_as_passkey_manager_description">Postavi Byteward kao zadanog davatelja usluga za pristupne ključeve putem postavki uređaja.</string>
+    <string name="bitwarden_autofill_service">Byteward usluga auto-ispune</string>
+    <string name="bitwarden_autofill_service_alert2">Najlakši način za dodavanje novih prijava u tvoj trezor je Byteward uslugom auto-ispune. Saznajte više o korištenju usluge auto-ispune u Postavkama.</string>
+    <string name="autofill_service_description">Usluga Byteward auto-ispune koristi Android Autofill Framework za pomoć pri ispunjavanju prijava, platnih kartica i identifikacijskih podataka u drugim aplikacijama na tvojem uređaju.</string>
+    <string name="set_pin_description">Postavi svoj PIN kôd za otključavanje Bytewarda. Postavke PIN-a se resetiraju ako se potpuno odjaviš iz aplikacije.</string>
+    <string name="default_uri_match_detection_description">Otkrivanje podudaranja URI-ja upravlja kako Byteward identificira prijedloge za auto-ispunu.</string>
+    <string name="accessibility_disclosure_text">Byteward koristi servis pristupačnosti za pretragu polja za prijavu u aplikacijama i na web stranicama, te potom određuje ID polja za unos korisničkog imena i lozinke kada su pronađeni odgovarajući podaci. Ne spremamo podatke koje servis daje, niti pokušavamo upravljati bilo kojim elementima na zaslonu osim tekstualnog unosa vjerodajnica.</string>
+    <string name="accessibility_disclosure_start_up_text_1">This notice is required before Byteward can offer accessibility-based autofill.</string>
+    <string name="accessibility_disclosure_start_up_text_2">Byteward offers an optional autofill method that uses Android’s Accessibility Service to detect login fields. If you enable it, Byteward will identify the appropriate fields and fill in your credentials when a match is found.</string>
+    <string name="passkey_management_explanation_long">Koristi Byteward za spremanje novih pristupnih ključeva i prijavu pristupnim ključevima spremljenima u tvoj trezor.</string>
+    <string name="welcome_message_1">Spremi prijave, kartice i identitete u svoj sigurni trezor. Byteward koristi end-to-end enkripciju bez znanja kako bi zaštitio ono što ti je važno.</string>
+    <string name="browser_requires_special_permissions_for_bitwarden_singular">Koristiš preglednik koji zahtijeva posebno dopuštenje za automatsku ispunu lozinki putem Bytewarda.</string>
+    <string name="browser_requires_special_permissions_for_bitwarden_plural">Koristiš preglednike koji zahtijevaju posebna dopuštenja za automatsku ispunu lozinki putem Bytewarda.</string>
+    <string name="youre_using_a_browser_that_requires_special_permissions_singular">Koristiš preglednik koji zahtijeva posebna dopuštenja za automatsku ispunu lozinki putem Bytewarda. Omogući željenu integraciju automatske ispune u nastavku.</string>
+    <string name="youre_using_a_browser_that_requires_special_permissions_plural">Koristiš preglednike koji zahtijevaju posebna dopuštenja za automatsku ispunu lozinki putem Bytewarda. Omogući željenu integraciju automatske ispune u nastavku.</string>
+    <string name="what_bitwarden_has_to_offer">Sada možeš koristiti auto-ispunu za prijavu u aplikacije i web stranice koristeći svoje spremljene lozinke. Istraži sve ostalo što Byteward nudi.</string>
+    <string name="system_certificates_are_not_as_secure_as_importing_certificates_to_bitwarden">Korištenje certifikata sustava manje je sigurno od pohrane certifikata s Bytewardom. U nastavku će se prikazati popis dostupnih certifikata sustava (ako su instalirani).</string>
+    <string name="trusted_by_you_learn_more">To su aplikacije ili preglednici kojima Byteward ne vjeruje prema zadanim postavkama, ali im ti izričito vjeruješ za izvođenje operacija s pristupnim ključem.</string>
+    <string name="your_browser_recently_updated_how_autofill_works_singular">Tvoj je preglednik nedavno ažurirao način rada automatskog ispunjavanja. Za nastavak korištenja auto-ispune s Bytewardom, omogući automatsko ispunjavanje u postavkama tvog preglednika.</string>
+    <string name="bitwarden_could_not_decrypt_this_file_so_the_preview_cannot_be_displayed">Byteward nije mogao dešifrirati ovu datoteku, tako da pretpregled ne može biti prikazan.</string>
+    <string name="bitwarden_needs_local_network_access_to_sync_with_your_server">Byteward needs local network access to sync with your server. Without this permission, the app won’t be able to connect.</string>
+    <string name="without_this_permission_bitwarden_wont_be_able_to_sync_with_your_server">Without this permission, Byteward won’t be able to connect and sync with your server. You can enable this in your device settings.</string>
+    <string name="weve_made_a_security_update">We’ve made a security update. Confirm your biometrics again to keep using them to unlock Byteward.</string>
+</resources>

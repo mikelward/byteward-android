@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Byteward overrides for strings defined in the :ui module, which keeps
+    upstream Bitwarden's text. App resources take precedence over library
+    resources when they are merged, so the app shows these versions while the
+    :ui files stay identical to upstream (and the Authenticator app, which also
+    uses :ui, keeps Bitwarden's text).
+
+    Each entry renames Bitwarden to Byteward where the password manager refers
+    to itself. Text about Bitwarden's service is not overridden.
+-->
+<resources>
+    <string name="set_bitwarden_as_passkey_manager_description">Estableix Byteward com a proveïdor de claus de pas a la configuració del dispositiu.</string>
+    <string name="bitwarden_autofill_service">Servei d\'emplenament automàtic de Byteward</string>
+    <string name="bitwarden_autofill_service_alert2">La forma més senzilla d\'afegir nous inicis de sessió a la caixa forta és amb el servei d\'emplenament automàtic de Byteward. Obteniu més informació sobre com utilitzar el servei en la pantalla \"Eines\".</string>
+    <string name="autofill_service_description">El servei d\'emplenament automàtic de Byteward utilitza el marc d\'emplenament automàtic d\'Android per ajudar-vos a omplir la informació d\'inici de sessió a altres aplicacions del vostre dispositiu.</string>
+    <string name="default_uri_match_detection_description">La detecció de coincidència d\'URI controla com Byteward identifica les suggerències d\'emplenament automàtic.</string>
+    <string name="autofill_tile_accessibility_required">Activeu \"Servei d\'accessibilitat d\'emplenament automàtic\" de la configuració de Byteward per utilitzar el mosaic d\'emplenament automàtic.</string>
+    <string name="accessibility_disclosure_text">Byteward utilitza el Servei d\'Accessibilitat per cercar camps d\'inici de sessió en aplicacions i llocs web i, a continuació, establir els ID de camp adequats per introduir un nom d\'usuari i una contrasenya quan es trobe una coincidència per a l\'aplicació o el lloc. No emmagatzemem cap de la informació que ens presenta el servei, ni intentem controlar cap element de la pantalla més enllà de l\'entrada de text de les credencials.</string>
+    <string name="accessibility_disclosure_start_up_text_1">Aquest avís és necessari abans que Byteward pugui oferir l\'emplenament automàtic basat en accessibilitat.</string>
+    <string name="accessibility_disclosure_start_up_text_2">Byteward ofereix un mètode opcional d\'emplenament automàtic que utilitza el servei d\'accessibilitat d\'Android per detectar camps d\'inici de sessió. Si l\'actives, Byteward identificarà els camps adequats i emplenarà les teves credencials quan es trobi una coincidència.</string>
+    <string name="passkey_management_explanation_long">Utilitzeu Byteward per guardar claus de pas noves i iniciar sessió amb les claus emmagatzemades a la vostra caixa forta.</string>
+    <string name="autofill_services_explanation_long">Permet que Byteward utilitze la informació d\'inici de sessió guardada per iniciar la sessió a altres aplicacions del dispositiu.</string>
+    <string name="your_passkey_will_be_saved_to_your_bitwarden_vault_for_x">La clau d\'accés es guardarà a la caixa forta de Byteward per a %1$s</string>
+    <string name="your_password_will_be_saved_to_your_bitwarden_vault_for_x">La teva contrasenya es desarà al teu cofre de Byteward per a %1$s</string>
+    <string name="welcome_message_1">Guardeu els inicis de sessió, les targetes i les identitats a la caixa forta. Byteward utilitza un xifratge d\'extrem a extrem de coneixement zero per protegir el que és important per a vosaltres.</string>
+    <string name="browser_requires_special_permissions_for_bitwarden_singular">Estàs utilitzant un navegador que requereix permisos especials perquè Byteward pugui emplenar automàticament les teves contrasenyes.</string>
+    <string name="browser_requires_special_permissions_for_bitwarden_plural">Estàs utilitzant navegadors que requereixen permisos especials perquè Byteward pugui emplenar automàticament les teves contrasenyes.</string>
+    <string name="youre_using_a_browser_that_requires_special_permissions_singular">Estàs utilitzant un navegador que requereix permisos especials perquè Byteward pugui emplenar automàticament les teves contrasenyes. Activa la integració d\'emplenament automàtic que prefereixis a continuació.</string>
+    <string name="youre_using_a_browser_that_requires_special_permissions_plural">Estàs utilitzant navegadors que requereixen permisos especials perquè Byteward pugui emplenar automàticament les teves contrasenyes. Activa l\'emplenament automàtic per a tots els teus navegadors instal·lats per continuar.</string>
+    <string name="what_bitwarden_has_to_offer">Ara pots explorar tot el que Byteward té per oferir i començar a gestionar les teves contrasenyes de manera segura.</string>
+    <string name="system_certificates_are_not_as_secure_as_importing_certificates_to_bitwarden">Utilitzar un certificat del sistema és menys segur que emmagatzemar el certificat amb Byteward. Si continueu, es mostrarà una llista de certificats del sistema disponibles si n\'hi ha algun ja instal·lat.</string>
+    <string name="trusted_by_you_learn_more">Aquestes són aplicacions o navegadors que Byteward no confia per defecte, però en què confies per realitzar operacions de clau d\'accés.</string>
+    <string name="your_browser_recently_updated_how_autofill_works_singular">El teu navegador s\'ha actualitzat recentment, cosa que ha desactivat l\'emplenament automàtic de Byteward. Per continuar emplenant les teves contrasenyes amb Byteward, activa l\'emplenament automàtic del navegador a la configuració d\'emplenament.</string>
+    <string name="bitwarden_could_not_decrypt_this_file_so_the_preview_cannot_be_displayed">Byteward no ha pogut desxifrar aquest fitxer, per tant no es pot mostrar la vista prèvia.</string>
+    <string name="bitwarden_needs_local_network_access_to_sync_with_your_server">Byteward necessita accés a la xarxa local per sincronitzar amb el teu servidor. Sense aquest permís, l\'aplicació no podrà connectar-se.</string>
+    <string name="without_this_permission_bitwarden_wont_be_able_to_sync_with_your_server">Sense aquest permís, Byteward no podrà connectar-se ni sincronitzar amb el teu servidor. Pots activar-ho a la configuració del teu dispositiu.</string>
+    <string name="weve_made_a_security_update">We’ve made a security update. Confirm your biometrics again to keep using them to unlock Byteward.</string>
+</resources>

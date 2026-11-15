@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Byteward overrides for strings defined in the :ui module, which keeps
+    upstream Bitwarden's text. App resources take precedence over library
+    resources when they are merged, so the app shows these versions while the
+    :ui files stay identical to upstream (and the Authenticator app, which also
+    uses :ui, keeps Bitwarden's text).
+
+    Each entry renames Bitwarden to Byteward where the password manager refers
+    to itself. Text about Bitwarden's service is not overridden.
+-->
+<resources>
+    <string name="set_bitwarden_as_passkey_manager_description">डिवाइस सेटिंग्स में Byteward को अपना पासकी प्रदाता सेट करें।</string>
+    <string name="bitwarden_autofill_service_alert2">अपने वॉल्ट में नए लॉगिन जोड़ने का सबसे आसान तरीका Byteward ऑटोफिल सेवा से है। “सेटिंग्स” स्क्रीन पर जाकर Byteward ऑटोफिल सेवा का उपयोग करने के बारे में अधिक जानें।</string>
+    <string name="set_pin_description">आपका PIN कम से कम 4 अक्षरों का होना चाहिए। यदि आप Byteward ऐप से मैन्युअल रूप से लॉग आउट करते हैं तो आपकी PIN सेटिंग्स रीसेट हो जाएंगी।</string>
+    <string name="default_uri_match_detection_description">URI मिलान पहचान नियंत्रित करता है कि Byteward ऑटोफिल सुझावों की पहचान कैसे करता है।</string>
+    <string name="autofill_tile_accessibility_required">ऑटोफिल टाइल का उपयोग करने के लिए कृपया Byteward सेटिंग्स से “ऑटोफिल एक्सेसिबिलिटी सेवा” चालू करें।</string>
+    <string name="accessibility_disclosure_text">Byteward ऐप्स और वेबसाइटों में लॉगिन फ़ील्ड खोजने के लिए एक्सेसिबिलिटी सेवा का उपयोग करता है, फिर जब ऐप या साइट के लिए मेल मिलता है तो उपयोगकर्ता नाम और पासवर्ड दर्ज करने के लिए उपयुक्त फ़ील्ड ID स्थापित करता है। हम सेवा द्वारा हमें प्रस्तुत की गई कोई भी जानकारी संग्रहीत नहीं करते हैं, और हम क्रेडेंशियल्स के टेक्स्ट प्रविष्टि के अलावा किसी भी ऑन-स्क्रीन तत्व को नियंत्रित करने का कोई प्रयास नहीं करते हैं।</string>
+    <string name="accessibility_disclosure_start_up_text_1">Byteward द्वारा एक्सेसिबिलिटी-आधारित ऑटोफिल प्रदान करने से पहले यह सूचना आवश्यक है।</string>
+    <string name="accessibility_disclosure_start_up_text_2">Byteward एक वैकल्पिक ऑटोफिल विधि प्रदान करता है जो लॉगिन फ़ील्ड का पता लगाने के लिए Android की एक्सेसिबिलिटी सेवा का उपयोग करता है। यदि आप इसे सक्षम करते हैं, तो Byteward उपयुक्त फ़ील्ड की पहचान करेगा और मेल मिलने पर आपके क्रेडेंशियल भर देगा।</string>
+    <string name="passkey_management_explanation_long">नई पासकी सहेजने और अपने वॉल्ट में संग्रहीत पासकी के साथ लॉग इन करने के लिए Byteward का उपयोग करें।</string>
+    <string name="autofill_services_explanation_long">अपने डिवाइस पर अन्य ऐप्स में साइन इन करने के लिए Byteward को आपकी सहेजी गई लॉगिन जानकारी का उपयोग करने की अनुमति दें।</string>
+    <string name="your_passkey_will_be_saved_to_your_bitwarden_vault_for_x">आपकी पासकी %1$s के लिए आपके Byteward वॉल्ट में सहेजी जाएगी</string>
+    <string name="your_password_will_be_saved_to_your_bitwarden_vault_for_x">आपका पासवर्ड %1$s के लिए आपके Byteward वॉल्ट में सहेजा जाएगा</string>
+    <string name="welcome_message_1">लॉगिन, कार्ड और पहचान को अपने सुरक्षित वॉल्ट में सहेजें। Byteward आपके लिए महत्वपूर्ण चीज़ों की सुरक्षा के लिए जीरो-नॉलेज, एंड-टू-एंड एन्क्रिप्शन का उपयोग करता है।</string>
+    <string name="browser_requires_special_permissions_for_bitwarden_singular">आप एक ऐसे ब्राउज़र का उपयोग कर रहे हैं जिसके लिए Byteward को आपके पासवर्ड ऑटोफिल करने के लिए विशेष अनुमतियों की आवश्यकता है।</string>
+    <string name="browser_requires_special_permissions_for_bitwarden_plural">आप ऐसे ब्राउज़रों का उपयोग कर रहे हैं जिनके लिए Byteward को आपके पासवर्ड ऑटोफिल करने के लिए विशेष अनुमतियों की आवश्यकता है।</string>
+    <string name="youre_using_a_browser_that_requires_special_permissions_singular">आप एक ऐसे ब्राउज़र का उपयोग कर रहे हैं जिसके लिए Byteward को आपके पासवर्ड ऑटोफिल करने के लिए विशेष अनुमतियों की आवश्यकता है। नीचे अपना पसंदीदा ऑटोफिल एकीकरण सक्षम करें।</string>
+    <string name="youre_using_a_browser_that_requires_special_permissions_plural">आप ऐसे ब्राउज़रों का उपयोग कर रहे हैं जिनके लिए Byteward को आपके पासवर्ड ऑटोफिल करने के लिए विशेष अनुमतियों की आवश्यकता है। जारी रखने के लिए अपने सभी स्थापित ब्राउज़रों के लिए ऑटोफिल सक्षम करें।</string>
+    <string name="what_bitwarden_has_to_offer">अब आप Byteward द्वारा प्रदान की जाने वाली हर चीज़ का पता लगा सकते हैं और अपने पासवर्ड को सुरक्षित रूप से प्रबंधित करना शुरू कर सकते हैं।</string>
+    <string name="system_certificates_are_not_as_secure_as_importing_certificates_to_bitwarden">सिस्टम प्रमाणपत्र का उपयोग करना प्रमाणपत्र को Byteward के साथ संग्रहीत करने की तुलना में कम सुरक्षित है। यदि कोई पहले से स्थापित है तो जारी रखने पर उपलब्ध सिस्टम प्रमाणपत्रों की एक सूची प्रदर्शित होगी।</string>
+    <string name="dynamic_colors_may_not_adhere_to_accessibility_guidelines">यह रंग योजना आपके वर्तमान वॉलपेपर के आधार पर स्वचालित रूप से Byteward पर सिस्टम रंग लागू करती है। ये रंग सभी पहुँच मार्गदर्शिकाओं को पूरा नहीं कर सकते हैं।</string>
+    <string name="trusted_by_you_learn_more">ये ऐसे अनुप्रयोग या ब्राउज़र हैं जिन पर Byteward डिफ़ॉल्ट रूप से भरोसा नहीं करता है, लेकिन आप पासकी संचालन करने के लिए उन पर भरोसा करते हैं।</string>
+    <string name="your_browser_recently_updated_how_autofill_works_singular">आपका ब्राउज़र हाल ही में अपडेट हुआ है, जिससे Byteward ऑटोफिल अक्षम हो गया है। Byteward के साथ अपने पासवर्ड भरना जारी रखने के लिए, ऑटोफिल सेटिंग्स में ब्राउज़र ऑटोफिल सक्षम करें।</string>
+    <string name="bitwarden_could_not_decrypt_this_file_so_the_preview_cannot_be_displayed">Byteward इस फ़ाइल को डिक्रिप्ट नहीं कर सका, इसलिए पूर्वावलोकन प्रदर्शित नहीं किया जा सकता।</string>
+    <string name="bitwarden_needs_local_network_access_to_sync_with_your_server">Byteward को आपके सर्वर के साथ सिंक करने के लिए स्थानीय नेटवर्क पहुँच की आवश्यकता है। इस अनुमति के बिना, ऐप कनेक्ट नहीं हो पाएगा।</string>
+    <string name="without_this_permission_bitwarden_wont_be_able_to_sync_with_your_server">इस अनुमति के बिना, Byteward आपके सर्वर से कनेक्ट और सिंक नहीं कर पाएगा। आप इसे अपनी डिवाइस सेटिंग्स में सक्षम कर सकते हैं।</string>
+    <string name="weve_made_a_security_update">We’ve made a security update. Confirm your biometrics again to keep using them to unlock Byteward.</string>
+</resources>

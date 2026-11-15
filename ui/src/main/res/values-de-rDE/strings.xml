@@ -75,9 +75,9 @@
     <string name="yes">Ja</string>
     <string name="account">Benutzerkonto</string>
     <string name="account_created_success">Dein neues Konto wurde erstellt!</string>
-    <string name="set_bitwarden_as_passkey_manager_description">Lege Byteward in den Geräteeinstellungen als deinen Passkey-Anbieter fest.</string>
+    <string name="set_bitwarden_as_passkey_manager_description">Lege Bitwarden in den Geräteeinstellungen als deinen Passkey-Anbieter fest.</string>
     <string name="avoid_ambiguous_characters">Mehrdeutige Zeichen vermeiden</string>
-    <string name="bitwarden_autofill_service">Byteward Auto-Ausfüllen Funktion</string>
+    <string name="bitwarden_autofill_service">Bitwarden Auto-Ausfüllen Funktion</string>
     <string name="change_master_password">Master-Passwort ändern</string>
     <string name="close">Schließen</string>
     <string name="close_app">App schließen</string>
@@ -176,7 +176,7 @@
     <string name="no_items_for_vault">Es gibt keine Einträge in deinem Tresor, die mit “%1$s” übereinstimmen</string>
     <string name="search_for_a_login_or_add_a_new_login">Nach Zugangsdaten suchen oder neue Zugangsdaten hinzufügen</string>
     <string name="disabled">Deaktiviert</string>
-    <string name="bitwarden_autofill_service_alert2">Die einfachste Möglichkeit, neue Zugangsdaten zu deinem Tresor hinzuzufügen, ist der Byteward Auto-Ausfüllen Dienst. Erfahre mehr über den Byteward Auto-Ausfüllen Dienst, indem du zu den \"Einstellungen\" wechselst.</string>
+    <string name="bitwarden_autofill_service_alert2">Die einfachste Möglichkeit, neue Zugangsdaten zu deinem Tresor hinzuzufügen, ist der Bitwarden Auto-Ausfüllen Dienst. Erfahre mehr über den Bitwarden Auto-Ausfüllen Dienst, indem du zu den \"Einstellungen\" wechselst.</string>
     <string name="autofill_noun">Automatisches Ausfüllen</string>
     <string name="autofill_verb">Automatisch ausfüllen</string>
     <string name="autofill_or_view">Möchtest du diese Zugangsdaten automatisch ausfüllen oder ansehen?</string>
@@ -298,7 +298,7 @@ Das Scannen erfolgt automatisch.</string>
     <string name="no_items_folder">Es sind keine Objekte in diesem Ordner.</string>
     <string name="no_items_trash">Es sind keine Einträge im Papierkorb.</string>
     <string name="autofill_accessibility_summary">Unterstützung beim Ausfüllen von Benutzernamen und Passwort in anderen Apps und im Web.</string>
-    <string name="autofill_service_description">Der Auto-Ausfüllen-Dienst von Byteward benutzt das Android Autofill Framework, um Zugangsdaten in anderen Apps auf deinem Gerät auszufüllen.</string>
+    <string name="autofill_service_description">Der Auto-Ausfüllen-Dienst von Bitwarden benutzt das Android Autofill Framework, um Zugangsdaten in anderen Apps auf deinem Gerät auszufüllen.</string>
     <string name="bitwarden_autofill_go_to_settings">Die Android Auto-Fill Einstellungen konnten nicht automatisch geöffnet werden. Über Android Einstellungen &gt; Sprachen &amp; Eingabe &gt; AutoFill-Dienst kannst du manuell zu den Auto-Fill Einstellungen navigieren.</string>
     <string name="custom_field_name">Name des benutzerdefinierten Feldes</string>
     <string name="field_type_boolean">Ja/Nein</string>
@@ -387,7 +387,7 @@ Das Scannen erfolgt automatisch.</string>
     <string name="clear_clipboard">Zwischenablage leeren</string>
     <string name="clear_clipboard_description">Kopierte Einträge automatisch aus der Zwischenablage löschen.</string>
     <string name="default_uri_match_detection">Standard URI-Übereinstimmungserkennung</string>
-    <string name="default_uri_match_detection_description">Die URI-Übereinstimmungserkennung kontrolliert wie Byteward Auto-Ausfüllen-Vorschläge erkennt.</string>
+    <string name="default_uri_match_detection_description">Die URI-Übereinstimmungserkennung kontrolliert wie Bitwarden Auto-Ausfüllen-Vorschläge erkennt.</string>
     <string name="theme">Design</string>
     <string name="theme_description">Ändere das Farbschema der Anwendung</string>
     <string name="copy_notes">Notiz kopieren</string>
@@ -423,7 +423,7 @@ Das Scannen erfolgt automatisch.</string>
     <string name="password_generator_policy_in_effect">Eine oder mehrere Organisationsrichtlinien beeinflussen deine Generator-Einstellungen</string>
     <string name="unable_to_save_attachment">Beim Speichern dieses Anhangs ist ein Problem aufgetreten. Wenn das Problem weiterhin besteht, kannst du ihn aus dem Web-Tresor speichern.</string>
     <string name="save_attachment_success">Anhang erfolgreich gespeichert</string>
-    <string name="autofill_tile_accessibility_required">Bitte aktiviere \"Bedienungshilfen zum automatischen Ausfüllen\" in den Byteward-Einstellungen, um die Auto-Ausfüllen-Kachel zu verwenden.</string>
+    <string name="autofill_tile_accessibility_required">Bitte aktiviere \"Bedienungshilfen zum automatischen Ausfüllen\" in den Bitwarden-Einstellungen, um die Auto-Ausfüllen-Kachel zu verwenden.</string>
     <string name="autofill_tile_uri_not_found">Keine Passwortfelder erkannt</string>
     <string name="soft_deleting">Wird in den Papierkorb verschoben…</string>
     <string name="item_soft_deleted">Eintrag wurde in den Papierkorb gelegt.</string>
@@ -637,9 +637,9 @@ Das Scannen erfolgt automatisch.</string>
     <string name="catch_all_email_description">Verwende den konfigurierten Catch-All-Posteingang deiner Domain.</string>
     <string name="forwarded_email_description">Generiere ein E-Mail-Alias mit einem externen Weiterleitungsdienst.</string>
     <string name="accessibility_service_disclosure">Bedienungshilfen Offenlegung</string>
-    <string name="accessibility_disclosure_text">Byteward verwendet die Bedienungshilfen, um nach Anmeldefeldern in Apps und auf Webseiten zu suchen und legt dann die entsprechenden Feld-IDs fest, um einen Benutzernamen und Passwort einzugeben, wenn eine Übereinstimmung mit der App oder der Seite gefunden wird. Wir speichern keine der Informationen, die uns der Dienst zur Verfügung stellt. Ebenso wenig versuchen wir beliebige Elemente auf dem Bildschirm außer der Texteingabe von Anmeldedaten zu kontrollieren.</string>
-    <string name="accessibility_disclosure_start_up_text_1">Diese Benachrichtigung ist erforderlich, bevor Byteward Auto-Ausfüllen auf Basis der Barrierefreiheit anbieten kann.</string>
-    <string name="accessibility_disclosure_start_up_text_2">Byteward bietet eine optionale Funktion zum automatischen Ausfüllen an, die den Android-Bedienungshilfendienst nutzt, um Anmeldefelder zu erkennen. Wenn du diese Funktion aktivierst, erkennt Byteward die entsprechenden Felder und füllt deine Zugangsdaten aus, sobald eine Übereinstimmung gefunden wurde.</string>
+    <string name="accessibility_disclosure_text">Bitwarden verwendet die Bedienungshilfen, um nach Anmeldefeldern in Apps und auf Webseiten zu suchen und legt dann die entsprechenden Feld-IDs fest, um einen Benutzernamen und Passwort einzugeben, wenn eine Übereinstimmung mit der App oder der Seite gefunden wird. Wir speichern keine der Informationen, die uns der Dienst zur Verfügung stellt. Ebenso wenig versuchen wir beliebige Elemente auf dem Bildschirm außer der Texteingabe von Anmeldedaten zu kontrollieren.</string>
+    <string name="accessibility_disclosure_start_up_text_1">Diese Benachrichtigung ist erforderlich, bevor Bitwarden Auto-Ausfüllen auf Basis der Barrierefreiheit anbieten kann.</string>
+    <string name="accessibility_disclosure_start_up_text_2">Bitwarden bietet eine optionale Funktion zum automatischen Ausfüllen an, die den Android-Bedienungshilfendienst nutzt, um Anmeldefelder zu erkennen. Wenn du diese Funktion aktivierst, erkennt Bitwarden die entsprechenden Felder und füllt deine Zugangsdaten aus, sobald eine Übereinstimmung gefunden wurde.</string>
     <string name="accessibility_disclosure_start_up_text_3">Wir speichern keine Informationen darüber, was während der Nutzung des Bedienungshilfendienstes auf dem Bildschirm angezeigt wird und wir haben keine Kontrolle über Bildschirmelemente, die über die Eingabe von Zugangsdaten hinausgehen.</string>
     <string name="i_understand">Verstanden</string>
     <string name="accept">Akzeptieren</string>
@@ -719,7 +719,7 @@ Möchtest du zu diesem Konto wechseln?</string>
     <string name="session_timeout">Sitzungs-Timeout</string>
     <string name="session_timeout_action">Aktion bei Sitzungs-Timeout</string>
     <string name="account_fingerprint_phrase">Fingerabdruck-Phrase des Kontos</string>
-    <string name="passkey_management_explanation_long">Verwende Byteward, um neue Passkeys zu speichern und dich mit Passkeys aus deinem Tresor anzumelden.</string>
+    <string name="passkey_management_explanation_long">Verwende Bitwarden, um neue Passkeys zu speichern und dich mit Passkeys aus deinem Tresor anzumelden.</string>
     <string name="autofill_services_explanation_long">Das Android Autofill Framework wird verwendet, um Zugangsdaten in andere Apps auf deinem Gerät auszufüllen.</string>
     <string name="use_inline_autofill_explanation_long">Wähle wie deine Vorschläge zum Auto-Ausfüllen angezeigt werden sollen, wenn du dich in anderen Apps auf deinem Gerät anmeldest.</string>
     <string name="additional_options">Weitere Optionen</string>
@@ -743,8 +743,8 @@ Möchtest du zu diesem Konto wechseln?</string>
     <string name="duo_two_step_login_is_required_for_your_account">Für dein Konto ist die Duo Zwei-Faktor-Authentifizierung erforderlich.</string>
     <string name="follow_the_steps_from_duo_to_finish_logging_in">Folge den Schritten von Duo, um die Anmeldung abzuschließen.</string>
     <string name="launch_duo">Duo starten</string>
-    <string name="your_passkey_will_be_saved_to_your_bitwarden_vault_for_x">Dein Passkey wird in deinem Byteward-Tresor für %1$s gespeichert</string>
-    <string name="your_password_will_be_saved_to_your_bitwarden_vault_for_x">Dein Passwort wird in deinem Byteward-Tresor für %1$s gespeichert</string>
+    <string name="your_passkey_will_be_saved_to_your_bitwarden_vault_for_x">Dein Passkey wird in deinem Bitwarden-Tresor für %1$s gespeichert</string>
+    <string name="your_password_will_be_saved_to_your_bitwarden_vault_for_x">Dein Passwort wird in deinem Bitwarden-Tresor für %1$s gespeichert</string>
     <string name="passkeys_not_supported_for_this_app">Passkeys werden für diese App nicht unterstützt</string>
     <string name="passkey_operation_failed_because_browser_is_not_privileged">Der Passkey-Vorgang ist fehlgeschlagen, da der Browser nicht autorisiert ist</string>
     <string name="passkey_operation_failed_because_browser_signature_does_not_match">Der Passkey-Vorgang ist fehlgeschlagen, da die Browser-Signatur nicht übereinstimmt</string>
@@ -772,7 +772,7 @@ Möchtest du zu diesem Konto wechseln?</string>
     <string name="email_verified">E-Mail-Adresse verifiziert</string>
     <string name="get_emails_from_bitwarden_for_announcements_advices_and_research_opportunities_unsubscribe_any_time">Erhalte E-Mails von Bitwarden für Ankündigungen, Ratschläge und Marktforschungsumfragen. Melde dich jederzeit wieder ab.</string>
     <string name="security_prioritized">Sicherheit, priorisiert</string>
-    <string name="welcome_message_1">Speichere Zugangsdaten, Karten und Identitäten in deinem sicheren Tresor. Byteward verwendet Zero-Knowledge und Ende-zu-Ende-Verschlüsselung, um das zu schützen, was für dich wichtig ist.</string>
+    <string name="welcome_message_1">Speichere Zugangsdaten, Karten und Identitäten in deinem sicheren Tresor. Bitwarden verwendet Zero-Knowledge und Ende-zu-Ende-Verschlüsselung, um das zu schützen, was für dich wichtig ist.</string>
     <string name="welcome_message_2">Richte biometrisches Entsperren und Auto-Ausfüllen ein, um dich ohne einen einzigen Buchstaben einzugeben bei deinen Konten anzumelden.</string>
     <string name="quick_and_easy_login">Schnelle und einfache Anmeldung</string>
     <string name="level_up_your_logins">Optimiere deine Zugangsdaten</string>
@@ -825,16 +825,16 @@ Möchtest du zu diesem Konto wechseln?</string>
     <string name="turn_on_autofill">Auto-Ausfüllen einschalten</string>
     <string name="autofill_setup">Auto-Ausfüllen-Einrichtung</string>
     <string name="turn_on_browser_autofill_integration">Browser Auto-Ausfüllen-Integration einschalten</string>
-    <string name="browser_requires_special_permissions_for_bitwarden_singular">Du verwendest einen Browser, der spezielle Berechtigungen für Byteward benötigt, um deine Passwörter automatisch auszufüllen.</string>
-    <string name="browser_requires_special_permissions_for_bitwarden_plural">Du verwendest Browser, die spezielle Berechtigungen für Byteward benötigen, um deine Passwörter automatisch auszufüllen.</string>
-    <string name="youre_using_a_browser_that_requires_special_permissions_singular">Du verwendest einen Browser, der spezielle Berechtigungen für Byteward benötigt, um deine Passwörter automatisch auszufüllen. Schalte unten deine bevorzugte Auto-Ausfüllen-Integration ein.</string>
-    <string name="youre_using_a_browser_that_requires_special_permissions_plural">Du verwendest Browser, die spezielle Berechtigungen für Byteward benötigen, um deine Passwörter automatisch auszufüllen. Schalte für alle deine installierten Browser die Auto-Ausfüllen-Integration ein, um fortzufahren.</string>
+    <string name="browser_requires_special_permissions_for_bitwarden_singular">Du verwendest einen Browser, der spezielle Berechtigungen für Bitwarden benötigt, um deine Passwörter automatisch auszufüllen.</string>
+    <string name="browser_requires_special_permissions_for_bitwarden_plural">Du verwendest Browser, die spezielle Berechtigungen für Bitwarden benötigen, um deine Passwörter automatisch auszufüllen.</string>
+    <string name="youre_using_a_browser_that_requires_special_permissions_singular">Du verwendest einen Browser, der spezielle Berechtigungen für Bitwarden benötigt, um deine Passwörter automatisch auszufüllen. Schalte unten deine bevorzugte Auto-Ausfüllen-Integration ein.</string>
+    <string name="youre_using_a_browser_that_requires_special_permissions_plural">Du verwendest Browser, die spezielle Berechtigungen für Bitwarden benötigen, um deine Passwörter automatisch auszufüllen. Schalte für alle deine installierten Browser die Auto-Ausfüllen-Integration ein, um fortzufahren.</string>
     <string name="use_autofill_to_log_into_your_accounts">Verwende Auto-Ausfüllen, um dich mit einem einzigen Fingertipp bei deinen Konten anzumelden.</string>
     <string name="turn_on_later">Später einschalten</string>
     <string name="turn_on_autofill_later">Auto-Ausfüllen später einschalten?</string>
     <string name="turn_on_browser_autofill_integration_later">Browser Auto-Ausfüllen-Integration später einschalten?</string>
     <string name="return_to_complete_this_step_anytime_in_settings">Du kannst diesen Schritt in den Einstellungen jederzeit fortsetzen und abschließen.</string>
-    <string name="what_bitwarden_has_to_offer">Du kannst nun Auto-Ausfüllen verwenden, um dich mit deinen gespeicherten Passwörtern bei Apps und Websites anzumelden. Du kannst jetzt alles erkunden, was Byteward sonst noch zu bieten hat.</string>
+    <string name="what_bitwarden_has_to_offer">Du kannst nun Auto-Ausfüllen verwenden, um dich mit deinen gespeicherten Passwörtern bei Apps und Websites anzumelden. Du kannst jetzt alles erkunden, was Bitwarden sonst noch zu bieten hat.</string>
     <string name="youre_all_set">Du bist fertig!</string>
     <string name="error_connecting_with_the_duo_service_use_a_different_two_step_login_method_or_contact_duo_for_assistance">Fehler beim Verbinden mit dem Duo-Dienst. Verwende eine andere Zwei-Faktor-Authentifizierungsmethode oder kontaktiere Duo für Hilfe.</string>
     <string name="master_password_hint_not_specified">Master-Passwort-Hinweis</string>
@@ -966,7 +966,7 @@ Möchtest du zu diesem Konto wechseln?</string>
     <string name="unsupported_certificate_type">Nicht unterstützter Zertifikatstyp</string>
     <string name="certificate_password_incorrect">Falsches Zertifikatspasswort</string>
     <string name="invalid_certificate_chain">Ungültige Zertifikatskette</string>
-    <string name="system_certificates_are_not_as_secure_as_importing_certificates_to_bitwarden">Die Verwendung eines Systemzertifikats ist weniger sicher als die Speicherung des Zertifikats mit Byteward. Im Folgenden wird eine Liste der verfügbaren Systemzertifikate angezeigt, wenn eines bereits installiert ist.</string>
+    <string name="system_certificates_are_not_as_secure_as_importing_certificates_to_bitwarden">Die Verwendung eines Systemzertifikats ist weniger sicher als die Speicherung des Zertifikats mit Bitwarden. Im Folgenden wird eine Liste der verfügbaren Systemzertifikate angezeigt, wenn eines bereits installiert ist.</string>
     <string name="link">Link</string>
     <string name="passkey_operation_failed_because_host_url_is_not_present_in_request">Der Passkey-Vorgang ist fehlgeschlagen, da die Host-URL in der Anfrage nicht vorhanden ist.</string>
     <string name="passkey_operation_failed_because_app_signature_is_invalid">Der Passkey-Vorgang ist fehlgeschlagen, da die App-Signatur ungültig ist.</string>
@@ -1047,7 +1047,7 @@ Möchtest du zu diesem Konto wechseln?</string>
     <string name="passkey_operation_failed_because_browser_x_is_not_trusted">Passkey-Vorgang fehlgeschlagen, da der Browser (%1$s) nicht erkannt wird. Wähle „Vertrauen“, um %1$s zur Liste der lokal vertrauenswürdigen Anwendungen hinzuzufügen.</string>
     <string name="passkey_operation_failed_because_the_browser_is_not_trusted">Der Passkey-Vorgang ist fehlgeschlagen, da der Browser nicht vertrauenswürdig ist.</string>
     <string name="trust">Vertrauen</string>
-    <string name="trusted_by_you_learn_more">Dies sind Anwendungen oder Browser, die Byteward standardmäßig als nicht vertrauenswürdig einstuft, denen DU jedoch vertraust, um Passkey-Vorgänge durchzuführen.</string>
+    <string name="trusted_by_you_learn_more">Dies sind Anwendungen oder Browser, die Bitwarden standardmäßig als nicht vertrauenswürdig einstuft, denen DU jedoch vertraust, um Passkey-Vorgänge durchzuführen.</string>
     <string name="trusted_by_community_learn_more">Dies sind Anwendungen, die nicht im Google Play Store verfügbar sind, aber Bitwarden als vertrauenswürdig einstuft, Passkey-Vorgänge durchzuführen, nachdem Community-Mitglieder sie verwendet und als sicher eingestuft haben.</string>
     <string name="trusted_by_google_learn_more">Dies sind Apps, die Google als sicher betrachtet und im Google Play Store verfügbar sind.</string>
     <string name="trusted_by_you">Vertraut von dir</string>
@@ -1189,7 +1189,7 @@ Möchtest du zu diesem Konto wechseln?</string>
         <item quantity="other">%1$d Einträge wurden in deinen Tresor importiert.</item>
     </plurals>
     <string name="enable_browser_autofill_to_keep_filling_passwords">Aktiviere Browser-Auto-Ausfüllen, um weiterhin Passwörter auszufüllen</string>
-    <string name="your_browser_recently_updated_how_autofill_works_singular">Dein Browser wurde kürzlich aktualisiert, was die Auto-Ausfüllen-Funktion von Byteward deaktiviert hat. Um deine Passwörter weiterhin mit Byteward auszufüllen, aktiviere Browser Auto-Ausfüllen in den Auto-Ausfüllen-Einstellungen.</string>
+    <string name="your_browser_recently_updated_how_autofill_works_singular">Dein Browser wurde kürzlich aktualisiert, was die Auto-Ausfüllen-Funktion von Bitwarden deaktiviert hat. Um deine Passwörter weiterhin mit Bitwarden auszufüllen, aktiviere Browser Auto-Ausfüllen in den Auto-Ausfüllen-Einstellungen.</string>
     <string name="not_now">Nicht jetzt</string>
     <string name="import_from_bitwarden">Aus Bitwarden importieren</string>
     <string name="select_account">Konto auswählen</string>
@@ -1289,7 +1289,7 @@ Möchtest du zu diesem Konto wechseln?</string>
     <string name="trusted">Vertrauenswürdig</string>
     <string name="preview_not_available_for_files">Für %1$s Dateien ist keine Vorschau verfügbar. Du kannst sie trotzdem herunterladen, um sie auf deinem Gerät anzuzeigen.</string>
     <string name="this_file_is_too_large_to_preview">Diese Datei ist zu groß für die Vorschau. Du kannst sie trotzdem herunterladen, um sie auf deinem Gerät anzuzeigen.</string>
-    <string name="bitwarden_could_not_decrypt_this_file_so_the_preview_cannot_be_displayed">Byteward konnte diese Datei nicht entschlüsseln, daher kann die Vorschau nicht angezeigt werden.</string>
+    <string name="bitwarden_could_not_decrypt_this_file_so_the_preview_cannot_be_displayed">Bitwarden konnte diese Datei nicht entschlüsseln, daher kann die Vorschau nicht angezeigt werden.</string>
     <string name="preview_unavailable_for_this_file">Für diese Datei ist keine Vorschau verfügbar. Du kannst sie trotzdem herunterladen, um sie auf deinem Gerät anzuzeigen.</string>
     <string name="preview_unavailable">Vorschau nicht verfügbar</string>
     <string name="download_attachment">Anhang herunterladen</string>
@@ -1422,8 +1422,8 @@ Möchtest du zu diesem Konto wechseln?</string>
     <string name="local_network_access_required">Lokaler Netzwerkzugriff erforderlich</string>
     <string name="ask_again_later">Später erneut fragen</string>
     <string name="enable_local_network_access">Lokalen Netzwerkzugriff aktivieren</string>
-    <string name="bitwarden_needs_local_network_access_to_sync_with_your_server">Byteward benötigt lokalen Netzwerkzugriff zum Synchronisieren mit deinem Server. Ohne diese Berechtigung kann sich die App nicht verbinden.</string>
-    <string name="without_this_permission_bitwarden_wont_be_able_to_sync_with_your_server">Ohne diese Berechtigung wird Byteward keine Verbindung herstellen und mit deinem Server synchronisieren können. Du kannst dies in deinen Geräteeinstellungen aktivieren.</string>
+    <string name="bitwarden_needs_local_network_access_to_sync_with_your_server">Bitwarden benötigt lokalen Netzwerkzugriff zum Synchronisieren mit deinem Server. Ohne diese Berechtigung kann sich die App nicht verbinden.</string>
+    <string name="without_this_permission_bitwarden_wont_be_able_to_sync_with_your_server">Ohne diese Berechtigung wird Bitwarden keine Verbindung herstellen und mit deinem Server synchronisieren können. Du kannst dies in deinen Geräteeinstellungen aktivieren.</string>
     <string name="your_request_was_interrupted_because_the_app_needs_local_network_access">Deine Anfrage wurde unterbrochen, da die App lokalen Netzwerkzugriff benötigt. Du kannst dies in deinen Geräteeinstellungen aktivieren.</string>
     <string name="continue_to_stripe">Weiter zu Stripe?</string>
     <string name="youll_be_taken_to_stripe_to_manage_your_subscription_cancellation">Du wirst zu Stripe weitergeleitet, um die Kündigung deines Abonnements vorzunehmen.</string>
@@ -1445,7 +1445,7 @@ Möchtest du zu diesem Konto wechseln?</string>
     <string name="use_this_username">Diesen Benutzernamen verwenden</string>
     <string name="create_login">Zugangsdaten erstellen</string>
     <string name="keep_unlocking_with_biometrics">Weiterhin mit Biometrie entsperren</string>
-    <string name="weve_made_a_security_update">Wir haben eine Sicherheitsaktualisierung durchgeführt. Bitte bestätige deine biometrischen Daten erneut, um sie weiterhin zum Entsperren von Byteward nutzen zu können.</string>
+    <string name="weve_made_a_security_update">Wir haben eine Sicherheitsaktualisierung durchgeführt. Bitte bestätige deine biometrischen Daten erneut, um sie weiterhin zum Entsperren von Bitwarden nutzen zu können.</string>
     <string name="turn_off">Deaktivieren</string>
     <string name="turn_off_biometric_question">Biometrie deaktivieren?</string>
     <string name="unlocking_will_require_your_master_password">Zum Entsperren ist dein Master-Passwort erforderlich. Du kannst Biometrie in den Einstellungen wieder aktivieren.</string>

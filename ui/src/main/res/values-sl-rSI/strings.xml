@@ -75,9 +75,9 @@
     <string name="yes">Da</string>
     <string name="account">Račun</string>
     <string name="account_created_success">Vaš novi račun je bil ustvarjen!</string>
-    <string name="set_bitwarden_as_passkey_manager_description">V nastavitvah naprave nastavite Byteward kot ponudnika varnostnih ključev.</string>
+    <string name="set_bitwarden_as_passkey_manager_description">V nastavitvah naprave nastavite Bitwarden kot ponudnika varnostnih ključev.</string>
     <string name="avoid_ambiguous_characters">Brez dvoumnih znakov</string>
-    <string name="bitwarden_autofill_service">Byteward storitev samodejnega izpolnjevanja obrazcev</string>
+    <string name="bitwarden_autofill_service">Bitwarden storitev samodejnega izpolnjevanja obrazcev</string>
     <string name="change_master_password">Spremeni glavno geslo</string>
     <string name="close">Zapri</string>
     <string name="close_app">Zapri aplikacijo</string>
@@ -178,7 +178,7 @@
     <string name="no_items_for_vault">V tvojem trezorju ni predmetov, ki bi ustrezali »%1$s«</string>
     <string name="search_for_a_login_or_add_a_new_login">Poiščite prijavo ali dodajte novo prijavo</string>
     <string name="disabled">Onemogočeno</string>
-    <string name="bitwarden_autofill_service_alert2">Najlažji način za dodajanje novih prijav v vaš trezor je prek storitve Byteward za samodejno izpolnjevanje. Več o uporabi storitve Byteward za samodejno izpolnjevanje izveste tako, da odprete zaslon »Nastavitve«.</string>
+    <string name="bitwarden_autofill_service_alert2">Najlažji način za dodajanje novih prijav v vaš trezor je prek storitve Bitwarden za samodejno izpolnjevanje. Več o uporabi storitve Bitwarden za samodejno izpolnjevanje izveste tako, da odprete zaslon »Nastavitve«.</string>
     <string name="autofill_noun">Samodejno izpolnjevanje</string>
     <string name="autofill_verb">Samodejno izpolni</string>
     <string name="autofill_or_view">Želite samodejno izpolniti ali prikazati ta element?</string>
@@ -300,7 +300,7 @@ Skeniranje bo potekalo samodejno.</string>
     <string name="no_items_folder">V tej mapi ni predmetov.</string>
     <string name="no_items_trash">Koš je prazen.</string>
     <string name="autofill_accessibility_summary">Pomaga pri izpolnjevanju polj z uporabniškim imenom in geslom v drugih aplikacijah in na spletu.</string>
-    <string name="autofill_service_description">Storitev Byteward za samodejno izpolnjevanje uporablja Android Autofill Framework za pomoč pri izpolnjevanju prijavnih podatkov v drugih aplikacijah v vaši napravi.</string>
+    <string name="autofill_service_description">Storitev Bitwarden za samodejno izpolnjevanje uporablja Android Autofill Framework za pomoč pri izpolnjevanju prijavnih podatkov v drugih aplikacijah v vaši napravi.</string>
     <string name="bitwarden_autofill_go_to_settings">Meni z nastavitvami za samodejno izpolnjevanje v Androidu vam ni bilo mogoče samodejno odpreti. Do menija z nastavitvami za samodejno izpolnjevanje lahko ročno dostopate prek: Nastavitve Androida &gt; Sistem &gt; Jeziki in vnos &gt; Napredno &gt; Storitev samodejnega izpolnjevanja.</string>
     <string name="custom_field_name">Ime polja po meri</string>
     <string name="field_type_boolean">Logična vrednost</string>
@@ -377,7 +377,7 @@ Skeniranje bo potekalo samodejno.</string>
     <string name="pin">PIN</string>
     <string name="unlock">Odkleni</string>
     <string name="thirty_minutes">30 minut</string>
-    <string name="set_pin_description">Vaša PIN koda mora biti dolga vsaj 4 znake. Vaše nastavitve PIN kode bodo ponastavljene, če se ročno odjavite iz aplikacije Byteward.</string>
+    <string name="set_pin_description">Vaša PIN koda mora biti dolga vsaj 4 znake. Vaše nastavitve PIN kode bodo ponastavljene, če se ročno odjavite iz aplikacije Bitwarden.</string>
     <string name="logged_in_as_on">Prijavljeni kot %1$s na %2$s.</string>
     <string name="vault_locked_master_password">Vaš trezor je zaklenjen. Vpišite svoje glavno geslo za nadaljevanje.</string>
     <string name="vault_locked_pin">Vaš trezor je zaklenjen. Potrdite PIN kodo za nadaljevanje.</string>
@@ -391,7 +391,7 @@ Skeniranje bo potekalo samodejno.</string>
     <string name="clear_clipboard">Počisti odložišče</string>
     <string name="clear_clipboard_description">Samodejno počisti kopirane vrednosti iz odložišča.</string>
     <string name="default_uri_match_detection">Privzet način ujemanja URI</string>
-    <string name="default_uri_match_detection_description">Zaznavanje ujemanja URI-ja nadzoruje, kako Byteward prepozna predloge za samodejno izpolnjevanje.</string>
+    <string name="default_uri_match_detection_description">Zaznavanje ujemanja URI-ja nadzoruje, kako Bitwarden prepozna predloge za samodejno izpolnjevanje.</string>
     <string name="theme">Tema</string>
     <string name="theme_description">Spremenite barvno temo aplikacije</string>
     <string name="copy_notes">Kopiraj opombo</string>
@@ -427,7 +427,7 @@ Skeniranje bo potekalo samodejno.</string>
     <string name="password_generator_policy_in_effect">Ena ali več pravilnikov organizacije vpliva na vaše nastavitve generatorja</string>
     <string name="unable_to_save_attachment">Pri shranjevanju te priponke je prišlo do težave. Če težave ne izgine, jo lahko shranite iz spletnega trezorja.</string>
     <string name="save_attachment_success">Priloga je bila uspešno shranjena.</string>
-    <string name="autofill_tile_accessibility_required">Za uporabo ploščice za samodejno izpolnjevanje vklopite »Storitev dostopnosti za samodejno izpolnjevanje« v nastavitvah Byteward.</string>
+    <string name="autofill_tile_accessibility_required">Za uporabo ploščice za samodejno izpolnjevanje vklopite »Storitev dostopnosti za samodejno izpolnjevanje« v nastavitvah Bitwarden.</string>
     <string name="autofill_tile_uri_not_found">Ni zaznanih polj za geslo</string>
     <string name="soft_deleting">Pošiljanje v koš…</string>
     <string name="item_soft_deleted">Predmet je bil premaknjen v smeti.</string>
@@ -646,9 +646,9 @@ izberite Dodaj TOTP, da varno shranite ključ</string>
     <string name="catch_all_email_description">Uporabite konfiguriran catch-all nabiralnik svoje domene.</string>
     <string name="forwarded_email_description">Ustvari psevdonim (alias) za elektronski naslov z uporabo zunanjega ponudnika posredovanja pošte.</string>
     <string name="accessibility_service_disclosure">Razkritje storitve dostopnosti</string>
-    <string name="accessibility_disclosure_text">Byteward uporablja storitev dostopnosti za iskanje prijavnih polj v aplikacijah in na spletnih straneh ter nato določi ustrezne ID-je polj za vnos uporabniškega imena in gesla, ko najde ujemanje za aplikacijo ali stran. Ne shranjujemo nobenih informacij, ki nam jih posreduje storitev, prav tako ne poskušamo nadzorovati nobenih elementov na zaslonu razen vnosa poverilnic v besedilna polja.</string>
-    <string name="accessibility_disclosure_start_up_text_1">To obvestilo je potrebno, preden Byteward lahko ponudi samodejno izpolnjevanje na podlagi dostopnosti.</string>
-    <string name="accessibility_disclosure_start_up_text_2">Byteward ponuja izbirno metodo samodejnega izpolnjevanja, ki uporablja Androidovo storitev dostopnosti za zaznavanje prijavnih polj. Če jo omogočite, bo Byteward prepoznal ustrezna polja in izpolnil vaše poverilnice, ko najde ujemanje.</string>
+    <string name="accessibility_disclosure_text">Bitwarden uporablja storitev dostopnosti za iskanje prijavnih polj v aplikacijah in na spletnih straneh ter nato določi ustrezne ID-je polj za vnos uporabniškega imena in gesla, ko najde ujemanje za aplikacijo ali stran. Ne shranjujemo nobenih informacij, ki nam jih posreduje storitev, prav tako ne poskušamo nadzorovati nobenih elementov na zaslonu razen vnosa poverilnic v besedilna polja.</string>
+    <string name="accessibility_disclosure_start_up_text_1">To obvestilo je potrebno, preden Bitwarden lahko ponudi samodejno izpolnjevanje na podlagi dostopnosti.</string>
+    <string name="accessibility_disclosure_start_up_text_2">Bitwarden ponuja izbirno metodo samodejnega izpolnjevanja, ki uporablja Androidovo storitev dostopnosti za zaznavanje prijavnih polj. Če jo omogočite, bo Bitwarden prepoznal ustrezna polja in izpolnil vaše poverilnice, ko najde ujemanje.</string>
     <string name="accessibility_disclosure_start_up_text_3">Med uporabo storitve dostopnosti ne shranjujemo nobenih informacij o tem, kaj je na zaslonu, in ne nadzorujemo nobenih elementov na zaslonu razen vnosa poverilnic.</string>
     <string name="i_understand">Razumem</string>
     <string name="accept">Sprejmi</string>
@@ -728,8 +728,8 @@ Do you want to switch to this account?</string>
     <string name="session_timeout">Časovna omejitev seje</string>
     <string name="session_timeout_action">Dejanje ob časovni omejitvi seje</string>
     <string name="account_fingerprint_phrase">Prstni odtis računa</string>
-    <string name="passkey_management_explanation_long">Uporabite Byteward za shranjevanje novih varnostnih ključev in prijavo z varnostnimi ključi, shranjenimi v vašem trezorju.</string>
-    <string name="autofill_services_explanation_long">Dovolite Byteward, da uporabi vaše shranjene prijavne podatke za prijavo v druge aplikacije v vaši napravi.</string>
+    <string name="passkey_management_explanation_long">Uporabite Bitwarden za shranjevanje novih varnostnih ključev in prijavo z varnostnimi ključi, shranjenimi v vašem trezorju.</string>
+    <string name="autofill_services_explanation_long">Dovolite Bitwarden, da uporabi vaše shranjene prijavne podatke za prijavo v druge aplikacije v vaši napravi.</string>
     <string name="use_inline_autofill_explanation_long">Izberite, kako se bodo prikazovali predlogi za samodejno izpolnjevanje, ko se prijavljate v druge aplikacije v vaši napravi.</string>
     <string name="additional_options">Dodatne možnosti</string>
     <string name="continue_to_web_app">Nadaljuj na spletno aplikacijo?</string>
@@ -752,8 +752,8 @@ Do you want to switch to this account?</string>
     <string name="duo_two_step_login_is_required_for_your_account">Za vaš račun je potrebna dvostopenjska prijava Duo.</string>
     <string name="follow_the_steps_from_duo_to_finish_logging_in">Sledite korakom podjetja Duo za dokončanje prijave.</string>
     <string name="launch_duo">Zaženi Duo</string>
-    <string name="your_passkey_will_be_saved_to_your_bitwarden_vault_for_x">Vaš varnostni ključ bo shranjen v vaš Byteward trezor za %1$s</string>
-    <string name="your_password_will_be_saved_to_your_bitwarden_vault_for_x">Vaše geslo bo shranjeno v vaš Byteward trezor za %1$s</string>
+    <string name="your_passkey_will_be_saved_to_your_bitwarden_vault_for_x">Vaš varnostni ključ bo shranjen v vaš Bitwarden trezor za %1$s</string>
+    <string name="your_password_will_be_saved_to_your_bitwarden_vault_for_x">Vaše geslo bo shranjeno v vaš Bitwarden trezor za %1$s</string>
     <string name="passkeys_not_supported_for_this_app">Varnostni ključi za to aplikacijo niso podprti</string>
     <string name="passkey_operation_failed_because_browser_is_not_privileged">Operacija z varnostnim ključem ni uspela, ker brskalnik nima privilegijev</string>
     <string name="passkey_operation_failed_because_browser_signature_does_not_match">Operacija z varnostnim ključem ni uspela, ker se podpis brskalnika ne ujema</string>
@@ -781,7 +781,7 @@ Do you want to switch to this account?</string>
     <string name="email_verified">E-pošta preverjena</string>
     <string name="get_emails_from_bitwarden_for_announcements_advices_and_research_opportunities_unsubscribe_any_time">Prejemajte e-pošto od Bitwarden z obvestili, nasveti in raziskovalnimi priložnostmi. Kadar koli se lahko <annotation link="unsubscribe">odjavite</annotation>.</string>
     <string name="security_prioritized">Varnost na prvem mestu</string>
-    <string name="welcome_message_1">Shranjujte prijave, kartice in identitete v svoj varni trezor. Byteward uporablja šifriranje z ničelnim znanjem in od konca do konca, da zaščiti tisto, kar vam je pomembno.</string>
+    <string name="welcome_message_1">Shranjujte prijave, kartice in identitete v svoj varni trezor. Bitwarden uporablja šifriranje z ničelnim znanjem in od konca do konca, da zaščiti tisto, kar vam je pomembno.</string>
     <string name="welcome_message_2">Nastavite biometrično odklepanje in samodejno izpolnjevanje za prijavo v račune brez vnosa niti ene črke.</string>
     <string name="quick_and_easy_login">Hitra in enostavna prijava</string>
     <string name="level_up_your_logins">Izboljšajte svoje prijave</string>
@@ -836,16 +836,16 @@ Do you want to switch to this account?</string>
     <string name="turn_on_autofill">Vklopi samodejno izpolnjevanje</string>
     <string name="autofill_setup">Nastavitev samodejnega izpolnjevanja</string>
     <string name="turn_on_browser_autofill_integration">Vklopi integracijo samodejnega izpolnjevanja v brskalniku</string>
-    <string name="browser_requires_special_permissions_for_bitwarden_singular">Uporabljate brskalnik, ki zahteva posebna dovoljenja, da Byteward samodejno izpolni vaša gesla.</string>
-    <string name="browser_requires_special_permissions_for_bitwarden_plural">Uporabljate brskalnike, ki zahtevajo posebna dovoljenja, da Byteward samodejno izpolni vaša gesla.</string>
-    <string name="youre_using_a_browser_that_requires_special_permissions_singular">Uporabljate brskalnik, ki zahteva posebna dovoljenja, da Byteward samodejno izpolni vaša gesla. Spodaj omogočite želeno integracijo samodejnega izpolnjevanja.</string>
-    <string name="youre_using_a_browser_that_requires_special_permissions_plural">Uporabljate brskalnike, ki zahtevajo posebna dovoljenja, da Byteward samodejno izpolni vaša gesla. Za nadaljevanje omogočite samodejno izpolnjevanje za vse nameščene brskalnike.</string>
+    <string name="browser_requires_special_permissions_for_bitwarden_singular">Uporabljate brskalnik, ki zahteva posebna dovoljenja, da Bitwarden samodejno izpolni vaša gesla.</string>
+    <string name="browser_requires_special_permissions_for_bitwarden_plural">Uporabljate brskalnike, ki zahtevajo posebna dovoljenja, da Bitwarden samodejno izpolni vaša gesla.</string>
+    <string name="youre_using_a_browser_that_requires_special_permissions_singular">Uporabljate brskalnik, ki zahteva posebna dovoljenja, da Bitwarden samodejno izpolni vaša gesla. Spodaj omogočite želeno integracijo samodejnega izpolnjevanja.</string>
+    <string name="youre_using_a_browser_that_requires_special_permissions_plural">Uporabljate brskalnike, ki zahtevajo posebna dovoljenja, da Bitwarden samodejno izpolni vaša gesla. Za nadaljevanje omogočite samodejno izpolnjevanje za vse nameščene brskalnike.</string>
     <string name="use_autofill_to_log_into_your_accounts">Uporabite samodejno izpolnjevanje za prijavo v račune z enim dotikom.</string>
     <string name="turn_on_later">Vklopi kasneje</string>
     <string name="turn_on_autofill_later">Vklopite samodejno izpolnjevanje kasneje?</string>
     <string name="turn_on_browser_autofill_integration_later">Vklopite integracijo samodejnega izpolnjevanja v brskalniku kasneje?</string>
     <string name="return_to_complete_this_step_anytime_in_settings">Ta korak lahko kadar koli dokončate v nastavitvah.</string>
-    <string name="what_bitwarden_has_to_offer">Zdaj lahko raziščete vse, kar ponuja Byteward, in začnete varno upravljati svoja gesla.</string>
+    <string name="what_bitwarden_has_to_offer">Zdaj lahko raziščete vse, kar ponuja Bitwarden, in začnete varno upravljati svoja gesla.</string>
     <string name="youre_all_set">Vse je pripravljeno!</string>
     <string name="error_connecting_with_the_duo_service_use_a_different_two_step_login_method_or_contact_duo_for_assistance">Napaka pri povezovanju s storitvijo Duo. Uporabite drugo metodo dvostopenjske prijave ali pa za pomoč kontaktirajte Duo.</string>
     <string name="master_password_hint_not_specified">Namig za glavno geslo</string>
@@ -979,7 +979,7 @@ Do you want to switch to this account?</string>
     <string name="unsupported_certificate_type">Nepodprta vrsta potrdila</string>
     <string name="certificate_password_incorrect">Geslo potrdila je napačno</string>
     <string name="invalid_certificate_chain">Neveljavna veriga potrdil</string>
-    <string name="system_certificates_are_not_as_secure_as_importing_certificates_to_bitwarden">Uporaba sistemskega potrdila je manj varna kot shranjevanje potrdila z Byteward. Če nadaljujete, se prikaže seznam razpoložljivih sistemskih potrdil, če je katero že nameščeno.</string>
+    <string name="system_certificates_are_not_as_secure_as_importing_certificates_to_bitwarden">Uporaba sistemskega potrdila je manj varna kot shranjevanje potrdila z Bitwarden. Če nadaljujete, se prikaže seznam razpoložljivih sistemskih potrdil, če je katero že nameščeno.</string>
     <string name="link">Povezava</string>
     <string name="passkey_operation_failed_because_host_url_is_not_present_in_request">Operacija z varnostnim ključem ni uspela, ker v zahtevi ni URL-ja gostitelja.</string>
     <string name="passkey_operation_failed_because_app_signature_is_invalid">Operacija z varnostnim ključem ni uspela, ker je podpis aplikacije neveljaven.</string>
@@ -1056,11 +1056,11 @@ Do you want to switch to this account?</string>
     <string name="missing_send_resync_your_vault">Manjkajoči Send, ponovno sinhronizirajte trezor</string>
     <string name="use_dynamic_colors">Uporabi dinamične barve</string>
     <string name="use_dynamic_colors_question">Uporabim dinamične barve?</string>
-    <string name="dynamic_colors_may_not_adhere_to_accessibility_guidelines">Ta barvna shema samodejno uporabi sistemske barve za Byteward na podlagi vaše trenutne ozadja. Te barve morda ne izpolnjujejo vseh smernic dostopnosti.</string>
+    <string name="dynamic_colors_may_not_adhere_to_accessibility_guidelines">Ta barvna shema samodejno uporabi sistemske barve za Bitwarden na podlagi vaše trenutne ozadja. Te barve morda ne izpolnjujejo vseh smernic dostopnosti.</string>
     <string name="passkey_operation_failed_because_browser_x_is_not_trusted">Operacija z varnostnim ključem ni uspela, ker brskalnik (%1$s) ni prepoznan. Izberite »Zaupaj«, da dodate %1$s na seznam lokalno zaupanih aplikacij.</string>
     <string name="passkey_operation_failed_because_the_browser_is_not_trusted">Operacija z varnostnim ključem ni uspela, ker brskalnik ni zaupanja vreden.</string>
     <string name="trust">Zaupaj</string>
-    <string name="trusted_by_you_learn_more">To so aplikacije ali brskalniki, ki jim Byteward privzeto ne zaupa, vi pa jim zaupate za izvajanje operacij z varnostnimi ključi.</string>
+    <string name="trusted_by_you_learn_more">To so aplikacije ali brskalniki, ki jim Bitwarden privzeto ne zaupa, vi pa jim zaupate za izvajanje operacij z varnostnimi ključi.</string>
     <string name="trusted_by_community_learn_more">To so aplikacije, ki niso vključene v Google Play Store, vendar jim Bitwarden zaupa za izvajanje operacij z varnostnimi ključi, potem ko so jih člani skupnosti uporabili in poročali, da so varne.</string>
     <string name="trusted_by_google_learn_more">To so aplikacije, ki jih Google šteje za varne in so na voljo v Googlovi trgovini Play Store.</string>
     <string name="trusted_by_you">Zaupanje s strani vas</string>
@@ -1208,7 +1208,7 @@ Do you want to switch to this account?</string>
         <item quantity="other">%1$d predmetov je bilo uvoženih v vaš trezor.</item>
     </plurals>
     <string name="enable_browser_autofill_to_keep_filling_passwords">Omogočite samodejno izpolnjevanje v brskalniku za nadaljnje izpolnjevanje gesel</string>
-    <string name="your_browser_recently_updated_how_autofill_works_singular">Vaš brskalnik je bil nedavno posodobljen, kar je onemogočilo samodejno izpolnjevanje Byteward. Če želite še naprej izpolnjevati gesla z Byteward, omogočite samodejno izpolnjevanje v brskalniku v nastavitvah samodejnega izpolnjevanja.</string>
+    <string name="your_browser_recently_updated_how_autofill_works_singular">Vaš brskalnik je bil nedavno posodobljen, kar je onemogočilo samodejno izpolnjevanje Bitwarden. Če želite še naprej izpolnjevati gesla z Bitwarden, omogočite samodejno izpolnjevanje v brskalniku v nastavitvah samodejnega izpolnjevanja.</string>
     <string name="not_now">Ne zdaj</string>
     <string name="import_from_bitwarden">Uvozi iz Bitwarden</string>
     <string name="select_account">Izberite račun</string>
@@ -1308,7 +1308,7 @@ Do you want to switch to this account?</string>
     <string name="trusted">Zaupano</string>
     <string name="preview_not_available_for_files">Predogled za datoteke %1$s ni na voljo. Še vedno jih lahko prenesete za ogled v svoji napravi.</string>
     <string name="this_file_is_too_large_to_preview">Ta datoteka je prevelika za predogled. Še vedno jo lahko prenesete za ogled v svoji napravi.</string>
-    <string name="bitwarden_could_not_decrypt_this_file_so_the_preview_cannot_be_displayed">Byteward te datoteke ni mogel dešifrirati, zato predogleda ni mogoče prikazati.</string>
+    <string name="bitwarden_could_not_decrypt_this_file_so_the_preview_cannot_be_displayed">Bitwarden te datoteke ni mogel dešifrirati, zato predogleda ni mogoče prikazati.</string>
     <string name="preview_unavailable_for_this_file">Predogled za to datoteko ni na voljo. Še vedno jo lahko prenesete za ogled v svoji napravi.</string>
     <string name="preview_unavailable">Predogled ni na voljo</string>
     <string name="download_attachment">Prenesi priponko</string>
@@ -1443,8 +1443,8 @@ Do you want to switch to this account?</string>
     <string name="local_network_access_required">Zahtevan dostop do lokalnega omrežja</string>
     <string name="ask_again_later">Vprašaj kasneje</string>
     <string name="enable_local_network_access">Omogoči dostop do lokalnega omrežja</string>
-    <string name="bitwarden_needs_local_network_access_to_sync_with_your_server">Byteward potrebuje dostop do lokalnega omrežja za sinhronizacijo s strežnikom. Brez tega dovoljenja se aplikacija ne bo mogla povezati.</string>
-    <string name="without_this_permission_bitwarden_wont_be_able_to_sync_with_your_server">Brez tega dovoljenja se Byteward ne bo mogel povezati in sinhronizirati s strežnikom. To lahko omogočite v nastavitvah naprave.</string>
+    <string name="bitwarden_needs_local_network_access_to_sync_with_your_server">Bitwarden potrebuje dostop do lokalnega omrežja za sinhronizacijo s strežnikom. Brez tega dovoljenja se aplikacija ne bo mogla povezati.</string>
+    <string name="without_this_permission_bitwarden_wont_be_able_to_sync_with_your_server">Brez tega dovoljenja se Bitwarden ne bo mogel povezati in sinhronizirati s strežnikom. To lahko omogočite v nastavitvah naprave.</string>
     <string name="your_request_was_interrupted_because_the_app_needs_local_network_access">Vaša zahteva je bila prekinjena, ker aplikacija potrebuje dostop do lokalnega omrežja. To lahko omogočite v nastavitvah naprave.</string>
     <string name="continue_to_stripe">Nadaljuj na Stripe?</string>
     <string name="youll_be_taken_to_stripe_to_manage_your_subscription_cancellation">Preusmerjeni boste na Stripe za upravljanje preklica naročnine.</string>
@@ -1466,7 +1466,7 @@ Do you want to switch to this account?</string>
     <string name="use_this_username">Uporabi to uporabniško ime</string>
     <string name="create_login">Create login</string>
     <string name="keep_unlocking_with_biometrics">Ohrani odklepanje z biometričnimi podatki</string>
-    <string name="weve_made_a_security_update">Izvedli smo varnostno posodobitev. Ponovno potrdi svoje biometrične podatke, da jih boš lahko še naprej uporabljal/a za odklepanje Bytewarda.</string>
+    <string name="weve_made_a_security_update">Izvedli smo varnostno posodobitev. Ponovno potrdi svoje biometrične podatke, da jih boš lahko še naprej uporabljal/a za odklepanje Bitwardena.</string>
     <string name="turn_off">Izklopi</string>
     <string name="turn_off_biometric_question">Izklopiti biometrične podatke?</string>
     <string name="unlocking_will_require_your_master_password">Za odklepanje boš potreboval/a glavno geslo. Biometrične podatke lahko ponovno vklopiš v nastavitvah.</string>

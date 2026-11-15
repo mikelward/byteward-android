@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Byteward overrides for strings defined in the :ui module, which keeps
+    upstream Bitwarden's text. App resources take precedence over library
+    resources when they are merged, so the app shows these versions while the
+    :ui files stay identical to upstream (and the Authenticator app, which also
+    uses :ui, keeps Bitwarden's text).
+
+    Each entry renames Bitwarden to Byteward where the password manager refers
+    to itself. Text about Bitwarden's service is not overridden.
+-->
+<resources>
+    <string name="set_bitwarden_as_passkey_manager_description">Byteward kā piekļuves atslēgu nodrošinātājs ir norādāms ierīces iestatījumos.</string>
+    <string name="bitwarden_autofill_service">Byteward automātiskās aizpildes pakalpojums</string>
+    <string name="bitwarden_autofill_service_alert2">Vieglākais veids, kā glabātavā pievienot jaunus pieteikšanās vienumus, ir ar Byteward automātiskās aizpildes pakalpojumu. Vairāk par Byteward automātisko aizpildi var uzzināt iestatījumu skatā.</string>
+    <string name="autofill_service_description">Byteward automātiskās aizpildes pakalpojums izmanto Android automātiskās aizpildes ietvaru, lai palīdzētu aizpildīt pieteikšanās, kredītkartes, un identitātes informācijas veidnes citās ierīces lietotnēs.</string>
+    <string name="set_pin_description">Iestatīt PIN kodu Byteward atslēgšanai. PIN iestatījumi tiks atiestatīti pēc pilnīgas izrakstīšanās no lietotnes.</string>
+    <string name="default_uri_match_detection_description">URI atbilstības noteikšana nosaka, kā Byteward nosaka automātiskās aizpildes ieteikumus.</string>
+    <string name="autofill_tile_accessibility_required">Lūgums iespējot \"Automātiskās aizpildes pieejamības pakalpojums\" Byteward iestatījumos, lai izmantotu automātiskās aizpildes laukumu.</string>
+    <string name="accessibility_disclosure_text">Byteward izmanto pieejamības pakalpojumu, lai meklētu pieteikšanās laukus lietotnēs un tīmekļvietnēs, tad noskaidro atbistošus lauku identifikatorus lietotājvārda un paroles ievadīšanai, kad ir atrasta atbilstība lietotnei vai vietnei. Byteward neglabā neko no informācijas, ko nodrošina pakalpojums, kā arī nemēģina pārvaldīt ekrānā redzamās daļas, kas nav saistītas ar pieteikšanās datu ievadi.</string>
+    <string name="accessibility_disclosure_start_up_text_1">Šis paziņojums ir nepieciešams, pirms Byteward var piedāvāt piekļūstamībā balstītu automātisko aizpildi.</string>
+    <string name="accessibility_disclosure_start_up_text_2">Byteward piedāvā izvēles automātiskās aizpildes veidu, kas izmanto Android piekļūstamības pakalpojumu, lai noteiktu pieteikšanās laukus. Ja to iespējo, Byteward noteiks atbilstošos laukus un aizpildīs pieteikšanās datus, kad tiks atrasta atbilstība.</string>
+    <string name="passkey_management_explanation_long">Byteward ir izmantojams, lai saglabātu jaunas piekļuves atslēgas un pieteiktos ar tām, kas atrodas glabātavā.</string>
+    <string name="your_passkey_will_be_saved_to_your_bitwarden_vault_for_x">%1$s piekļuves atslēga tiks saglabāta Byteward glabātavā</string>
+    <string name="your_password_will_be_saved_to_your_bitwarden_vault_for_x">Parole tiks saglabāta Byteward glabātavā %1$s</string>
+    <string name="welcome_message_1">Pieteikšanās vienumu, karšu un identitāšu glabāšana savā drošajā glabātavā. Byteward izmanto nulles zināšanu pilnīgu šifrēšanu, lai aizsargātu to, kas Tev ir svarīgs.</string>
+    <string name="browser_requires_special_permissions_for_bitwarden_singular">Tu izmanto pārlūku, kas pieprasa Byteward īpašas atļaujas, lai automātiski aizpildītu paroles.</string>
+    <string name="browser_requires_special_permissions_for_bitwarden_plural">Tu izmanto pārlūkus, kas pieprasa Byteward īpašas atļaujas, lai automātiski aizpildītu paroles.</string>
+    <string name="youre_using_a_browser_that_requires_special_permissions_singular">Tu izmanto pārlūku, kas pieprasta Byteward īpašas atļaujas, lai automātiski aizpildītu paroles. Zemāk jāiespējo vēlamā automātiskās aizpildes iekļaušana.</string>
+    <string name="youre_using_a_browser_that_requires_special_permissions_plural">Tu izmanto pārlūkus, kas pieprasa Byteward īpašas atļaujas, lai automātiski aizpildītu paroles. Visos uzstādītajos pārlūkos jāiespējo automātiskā aizpilde, lai turpinātu.</string>
+    <string name="what_bitwarden_has_to_offer">Tagad var izmantot automātisko aizpildi, lai pieteiktos lietotnēs un tīmekļvietnēs ar savām saglabātajām parolēm. Tagad ir izpētāms viss pārējais, kas ir Byteward piedāvājumā.</string>
+    <string name="system_certificates_are_not_as_secure_as_importing_certificates_to_bitwarden">Sistēmas sertifikāta izmantošana ir mazāk droša kā sertifikāta glabāšana ar Byteward. Turpinot tiks attēlots pieejamo sistēmas sertifikātu saraksts, ja kāds jau ir uzstādīts.</string>
+    <string name="trusted_by_you_learn_more">Šīs ir lietotnes vai pārlūki, kam Byteward pēc noklusējuma neuzticas, bet TU uzticies, lai veiktu darbības ar piekļuves atslēgām.</string>
+    <string name="your_browser_recently_updated_how_autofill_works_singular">Tavs pārlūks nesen ir atjaunināts, un tas atspējoja Byteward automātisko aizpildi. Lai turpinātu paroļu aizpildīšanu ar Byteward, pārlūka automātiskās aizpildes iestatījumos jāiespējo automātiskā aizpilde.</string>
+    <string name="bitwarden_could_not_decrypt_this_file_so_the_preview_cannot_be_displayed">Byteward nevarēja atšifrēt šo datni, tāpēc priekšskatījumu nevar parādīt.</string>
+    <string name="bitwarden_needs_local_network_access_to_sync_with_your_server">Byteward ir nepieciešama piekļuve vietējam tīklam, lai vienādotu ar serveri. Bez šīs atļaujas lietotne nevarēs izveidot savienojumu.</string>
+    <string name="without_this_permission_bitwarden_wont_be_able_to_sync_with_your_server">Bez šīs atļaujas Byteward nevarēs izveidot savienojumu un vienādot ar serveri. To var iespējot ierīces iestatījumos.</string>
+    <string name="weve_made_a_security_update">We’ve made a security update. Confirm your biometrics again to keep using them to unlock Byteward.</string>
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Byteward overrides for strings defined in the :ui module, which keeps
+    upstream Bitwarden's text. App resources take precedence over library
+    resources when they are merged, so the app shows these versions while the
+    :ui files stay identical to upstream (and the Authenticator app, which also
+    uses :ui, keeps Bitwarden's text).
+
+    Each entry renames Bitwarden to Byteward where the password manager refers
+    to itself. Text about Bitwarden's service is not overridden.
+-->
+<resources>
+    <string name="set_bitwarden_as_passkey_manager_description">Itakda bilang passkey provider mo ang Byteward sa mga setting ng device mo.</string>
+    <string name="bitwarden_autofill_service">Serbisyo ng Byteward Pang-autofill</string>
+    <string name="bitwarden_autofill_service_alert2">Ang pinakamadaling paraan upang magdagdag ng mga bagong login sa iyong baul ay mula sa Byteward Autofill Service. Matuto pa tungkol sa paggamit ng Byteward Autofill Service sa pamamagitan ng pagpunta sa \"Settings\" screen.</string>
+    <string name="autofill_service_description">Gumagamit ng Android Autofill Framework ang serbisyo ng Byteward pang-autofill para tumulong maglagay ng impormasyon ng login sa iba pang mga app sa device mo.</string>
+    <string name="set_pin_description">Itakda ang PIN code mo pang-unlock sa Byteward. Mare-reset ang mga setting mo sa PIN kapag magla-log out ka sa aplikasyon.</string>
+    <string name="default_uri_match_detection_description">Kinokontrol ng URI match detection kung paano tinutukoy ng Byteward ang mga mungkahi sa autofill.</string>
+    <string name="autofill_tile_accessibility_required">Mangyaring i-on ang \"Autofill Accessibility Service\" mula sa Byteward Settings upang gamitin ang Autofill tile.</string>
+    <string name="accessibility_disclosure_text">Ginagamit ng Byteward ang Serbisyo Pang-aksesibilidad para maghanap ng mga login field sa mga app at website, at itakda ang tamang field ID para sa paglalagay ng username at password kung may tugma para sa app o website. Hindi namin iniimbak ang anumang impormasyong nakokolekta namin gamit ang serbisyo, at hindi rin namin kinokontrol ang anumang elemento sa screen na walang kinalaman sa paglalagay ng mga kredensyal.</string>
+    <string name="accessibility_disclosure_start_up_text_1">Kinakailangan ang paunawa na ito bago makapag-alok ang Byteward ng autofill na nakabatay sa accessibility.</string>
+    <string name="accessibility_disclosure_start_up_text_2">Nag-aalok ang Byteward ng isang opsyonal na paraan ng autofill na gumagamit ng Accessibility Service ng Android upang makita ang mga login field. Kung i-enable mo ito, tutukuyin ng Byteward ang naaangkop na mga field at pupunan ang iyong mga kredensyal kapag may nakitang tugma.</string>
+    <string name="passkey_management_explanation_long">Gamitin ang Byteward upang mag-save ng mga bagong passkey at mag-log in gamit ang mga passkey na nakaimbak sa iyong baul.</string>
+    <string name="autofill_services_explanation_long">Payagan ang Byteward na gamitin ang iyong naka-save na impormasyon sa pag-log in upang mag-sign in sa ibang mga app sa iyong device.</string>
+    <string name="your_passkey_will_be_saved_to_your_bitwarden_vault_for_x">Ang iyong passkey ay ise-save sa iyong Byteward vault para sa %1$s</string>
+    <string name="your_password_will_be_saved_to_your_bitwarden_vault_for_x">Ang iyong password ay ise-save sa iyong Byteward vault para sa %1$s</string>
+    <string name="welcome_message_1">I-save ang mga login, card, at pagkakakilanlan sa iyong secure na baul. Gumagamit ang Byteward ng zero-knowledge, end-to-end encryption upang protektahan ang mahalaga sa iyo.</string>
+    <string name="browser_requires_special_permissions_for_bitwarden_singular">Gumagamit ka ng browser na nangangailangan ng mga espesyal na pahintulot para ma-autofill ng Byteward ang iyong mga password.</string>
+    <string name="browser_requires_special_permissions_for_bitwarden_plural">Gumagamit ka ng mga browser na nangangailangan ng mga espesyal na pahintulot para ma-autofill ng Byteward ang iyong mga password.</string>
+    <string name="youre_using_a_browser_that_requires_special_permissions_singular">Gumagamit ka ng browser na nangangailangan ng mga espesyal na pahintulot para ma-autofill ng Byteward ang iyong mga password. I-enable ang iyong gustong autofill integration sa ibaba.</string>
+    <string name="youre_using_a_browser_that_requires_special_permissions_plural">Gumagamit ka ng mga browser na nangangailangan ng mga espesyal na pahintulot para ma-autofill ng Byteward ang iyong mga password. I-enable ang autofill para sa lahat ng iyong naka-install na browser upang magpatuloy.</string>
+    <string name="what_bitwarden_has_to_offer">Maaari mo na ngayong tuklasin ang lahat ng inaalok ng Byteward at simulan ang pamamahala ng iyong mga password nang secure.</string>
+    <string name="system_certificates_are_not_as_secure_as_importing_certificates_to_bitwarden">Ang paggamit ng system certificate ay hindi gaanong secure kaysa sa pag-imbak ng certificate sa Byteward. Ang pagpapatuloy ay magpapakita ng listahan ng mga available na system certificate kung mayroon nang naka-install.</string>
+    <string name="dynamic_colors_may_not_adhere_to_accessibility_guidelines">Ang color scheme na ito ay awtomatikong naglalapat ng mga kulay ng system sa Byteward batay sa iyong kasalukuyang wallpaper. Ang mga kulay na ito ay maaaring hindi matugunan ang lahat ng mga alituntunin sa accessibility.</string>
+    <string name="trusted_by_you_learn_more">Ito ang mga application o browser na hindi pinagkakatiwalaan ng Byteward bilang default, ngunit pinagkakatiwalaan mo na magsagawa ng mga operasyon ng passkey.</string>
+    <string name="your_browser_recently_updated_how_autofill_works_singular">Ang iyong browser ay na-update kamakailan, na nag-disable sa Byteward autofill. Upang magpatuloy sa pagpuno ng iyong mga password gamit ang Byteward, i-enable ang browser autofill sa mga setting ng autofill.</string>
+    <string name="bitwarden_could_not_decrypt_this_file_so_the_preview_cannot_be_displayed">Hindi ma-decrypt ng Byteward ang file na ito, kaya hindi maipapakita ang preview.</string>
+    <string name="bitwarden_needs_local_network_access_to_sync_with_your_server">Kailangan ng Byteward ng lokal na network access upang mag-sync sa iyong server. Kung wala ang pahintulot na ito, hindi makakakonekta ang app.</string>
+    <string name="without_this_permission_bitwarden_wont_be_able_to_sync_with_your_server">Kung wala ang pahintulot na ito, hindi makakakonekta at makakapag-sync ang Byteward sa iyong server. Maaari mo itong i-enable sa mga setting ng iyong device.</string>
+    <string name="weve_made_a_security_update">We’ve made a security update. Confirm your biometrics again to keep using them to unlock Byteward.</string>
+</resources>
