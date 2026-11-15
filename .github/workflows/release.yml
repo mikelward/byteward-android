@@ -67,6 +67,45 @@ jobs:
           echo "name=$VERSION_NAME" >> "$GITHUB_OUTPUT"
           echo "::notice::Version $VERSION_NAME ($VERSION_CODE)"
 
+      # The standard flavor applies the Google Services plugin, which refuses to
+      # build without a google-services.json. Upstream downloads Bitwarden's
+      # from its own vault; Byteward has no Firebase project yet. Until it has
+      # one (commit its app/src/standardRelease/google-services.json -- the file
+      # is client configuration, not a secret), the release gets a placeholder:
+      # the app builds and runs, and push notifications and crash reports are
+      # simply unavailable.
+      - name: Provide a placeholder Firebase config if the repo has none
+        run: |
+          CONFIG=app/src/standardRelease/google-services.json
+          if [ -f "$CONFIG" ]; then
+            echo "Using the committed $CONFIG"
+            exit 0
+          fi
+          APPLICATION_ID=$(sed -n 's/^ *applicationId = "\(.*\)"/\1/p' app/build.gradle.kts | head -1)
+          mkdir -p "$(dirname "$CONFIG")"
+          cat > "$CONFIG" <<EOF
+          {
+            "project_info": {
+              "project_number": "000000000000",
+              "project_id": "byteward-placeholder",
+              "storage_bucket": "byteward-placeholder.appspot.com"
+            },
+            "client": [
+              {
+                "client_info": {
+                  "mobilesdk_app_id": "1:000000000000:android:0000000000000000",
+                  "android_client_info": { "package_name": "$APPLICATION_ID" }
+                },
+                "oauth_client": [],
+                "api_key": [{ "current_key": "placeholder" }],
+                "services": { "appinvite_service": { "other_platform_oauth_client": [] } }
+              }
+            ],
+            "configuration_version": "1"
+          }
+          EOF
+          echo "::warning::No $CONFIG committed; built with a placeholder, so push notifications are unavailable."
+
       - name: Build the release APK and bundle
         env:
           GITHUB_TOKEN: ${{ github.token }}
